@@ -4,6 +4,7 @@ using UnityEngine;
 namespace CatchGoose
 {
     // Physical surface membership, visual coverage and collision support are separate.
+    [DefaultExecutionOrder(-100)]
     public sealed class GoosePileDepth : MonoBehaviour
     {
         public const int MaxProbeCount=256;
@@ -90,10 +91,9 @@ namespace CatchGoose
                     bounds.max.z>=removed.min.z-.06f&&bounds.min.z<=removed.max.z+.06f;
                 if(above&&touching&&overlap)item.ReleaseDepth(Time.time+Mathf.Min(.25f,settings.disturbanceProtection),false);
             }
-            // Removal can expose a much lower pile immediately (rapid matches
-            // or the final few pieces). Re-anchor only the height frontier; the
-            // bounded exposure pass still decides which individual supports wake.
-            initialized=false;
+            // The runtime frontier follows actual downward geometry on the next
+            // refresh. Keep its prior value so a simultaneous upward shake and
+            // pick cannot raise the frontier and demote unrelated surface pieces.
             nextRefresh=0;
         }
         public void Invalidate(){nextRefresh=0;}
@@ -150,7 +150,11 @@ namespace CatchGoose
             {scratch.Add(item);top=Mathf.Max(top,item.Body.position.y);castTop=Mathf.Max(castTop,item.SelectionCollider.bounds.max.y+.25f);}
             HeldCount=HiddenCount=DynamicCount=SurfaceCount=0;
             if(scratch.Count==0){FinishTiming(began);return;}
-            frontier=initialized?PileDepthPolicy.Descend(frontier,top,settings.frontierStep):top;initialized=true;
+            // Runtime geometry adaptation: follow an actual fall immediately,
+            // while a shake lifting the top cannot lift the activation frontier.
+            // The recovered rate-limited formula remains in PileDepthPolicy for
+            // source research, but made late-game pieces wait behind empty air.
+            frontier=initialized?Mathf.Min(frontier,top):top;initialized=true;
             VisibleThreshold=PileDepthPolicy.Threshold(frontier,settings.referenceHeight,settings.visibleDepthMin,settings.visibleDepthMax,1);
             RigidThreshold=PileDepthPolicy.Threshold(frontier,settings.referenceHeight,settings.visibleDepthMin,settings.visibleDepthMax,settings.rigidDepthMultiplier);
             bool locked=AnimationInProgress||(!opening&&game.Shake&&game.Shake.Active);
