@@ -191,6 +191,7 @@ namespace CatchGoose
         {
             Check(game.Remaining.Count() == expected, "fixture stock " + expected);
             yield return Passive(); yield return Operate(sensor ? "sensor" : "button");
+            if (sensor) yield return Operate("sensor-moderate");
             yield return Operate("shuffle");
             yield return new WaitForEndOfFrame(); GooseFrameCapture.Save(Path.Combine(output, game.Theme.id + "-" + expected + ".png")); Save();
         }
@@ -265,11 +266,12 @@ namespace CatchGoose
             }
             int exposures = game.Depth.ExposureActivations, gc = GC.CollectionCount(0); var timer = System.Diagnostics.Stopwatch.StartNew(); bool accepted;
             if (operation == "shuffle") { game.QaGrant(2, 1); accepted = game.UseProp(2); }
-            else if (operation == "sensor")
+            else if (operation.StartsWith("sensor", StringComparison.Ordinal))
             {
                 int before = game.Shake.Accepted; game.Shake.ResetSensor(); float t = Time.unscaledTime;
                 for (int n = 0; n < 6; n++) game.Shake.Sample(Vector3.forward, t + n * .06f);
-                game.Shake.Sample(new Vector3(4, 0, 1), t + .42f); game.Shake.Sample(new Vector3(-4, 0, 1), t + .48f);
+                float amplitude = operation == "sensor-moderate" ? 1.6f : 4f;
+                game.Shake.Sample(new Vector3(amplitude, 0, 1), t + .42f); game.Shake.Sample(new Vector3(-amplitude, 0, 1), t + .48f);
                 // A quiet callback before FixedUpdate must not erase the accepted peak.
                 game.Shake.Sample(Vector3.forward, t + .54f); accepted = game.Shake.Accepted == before + 1;
             }
