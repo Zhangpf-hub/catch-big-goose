@@ -1,4 +1,4 @@
-﻿param([switch]$SkipBuild,[switch]$SkipTests,[ValidateSet('matrix','smoke','fixture','interrupt')][string]$Part='matrix',[int]$Theme=-1,[int]$Stock=0,[string]$RunName='',[switch]$Release,[switch]$BuildWeChat)
+﻿param([switch]$SkipBuild,[switch]$SkipTests,[ValidateSet('matrix','smoke','fixture','interrupt','clip')][string]$Part='matrix',[int]$Theme=-1,[int]$Stock=0,[string]$RunName='',[switch]$Release,[switch]$BuildWeChat)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot 'player-network.ps1')
 $taskRoot=Split-Path (Split-Path $PSScriptRoot -Parent) -Parent

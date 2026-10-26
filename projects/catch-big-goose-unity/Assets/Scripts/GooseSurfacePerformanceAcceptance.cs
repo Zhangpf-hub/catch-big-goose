@@ -18,13 +18,15 @@ namespace CatchGoose
             public int visible, renderers, drawSlots, triangles, dynamicBodies, awake, held, hidden, recoveries, probes, exposureDelta, untouchedLower, lowerViolations;
             public float p50ms, p95ms, maxms, slowFrameFraction, beginCpuMs, depthRefreshMs, activeSurfaceThreshold, modelSize, minHullY = 100, maxTravel, meanTravel, maxTurn, managedMiB, unityMiB;
             public double shufflePlanningMs, shuffleMaxSliceMs;
-            public int gcCollections; public int[] targetIds;
+            public int gcCollections, planarMovedEnough; public float maxPlanarTravel; public bool frameTimingMeasured; public int[] targetIds;
         }
+        [Serializable] sealed class ClipFrame { public string file; public float seconds; }
         [Serializable] sealed class Report
         {
             public string build = GooseRuntimePerformance.BuildId;
             public string scope = "Native graphics player, forced mobile profile. Synthetic sensor and production prop/input. Operation frame samples include QA checks. Phone FPS/temperature not measured.";
             public bool completed, passed; public List<string> checks = new List<string>(), errors = new List<string>(); public List<Row> rows = new List<Row>();
+            public List<ClipFrame> clipFrames = new List<ClipFrame>();
         }
         sealed class Pose
         {
@@ -49,11 +51,13 @@ namespace CatchGoose
             firstTheme = int.Parse(Arg(args, "-gooseSurfaceTheme", "0")); themeCount = int.Parse(Arg(args, "-gooseSurfaceThemeCount", "5"));
             stockOnly = int.Parse(Arg(args, "-gooseSurfaceStock", "0"));
             part = Arg(args, "-gooseSurfacePart", "matrix"); Directory.CreateDirectory(output); GooseSave.IsQa = true;
+            if (part == "clip") { themeCount = 1; report.scope = "Production-camera visual capture with moderate 1.6g synthetic sensor input. Capture work changes timing; frame performance is not sampled or assessed."; }
             yield return null; game = GooseGame.Instance; game.InstantPicksForQa = true; StartCoroutine(Watchdog());
             Screen.SetResolution(390, 844, false);
             for (int theme = firstTheme; theme < Mathf.Min(game.Themes.Length, firstTheme + themeCount); theme++)
             {
                 yield return Open(theme);
+                if (part == "clip") { yield return CaptureClip(); continue; }
                 if (part == "interrupt") { yield return Interruptions(); continue; }
                 if (part == "fixture") { yield return CompletenessFixture(); continue; }
                 if (stockOnly > 0)
@@ -134,7 +138,8 @@ namespace CatchGoose
                 Check(game.Depth.ActiveSurfaceThreshold > 10, "frontier regression fixture first establishes a genuinely high frontier");
                 Bounds removedBounds = decoy.SelectionCollider.bounds; Vector3 removedPosition = decoy.Body.position;
                 game.Items.Remove(decoy); decoy.gameObject.SetActive(false); Physics.SyncTransforms();
-                game.Depth.NotifyRemoval(removedPosition, 3, removedBounds); game.Depth.RefreshNow(); game.Depth.CopySurface(surface);
+                game.Depth.NotifyRemoval(removedPosition, 3, removedBounds);
+                yield return new WaitForFixedUpdate(); yield return null; game.Depth.CopySurface(surface);
                 float remainingHighestCenter = remainingTops.Concat(remainingLower).Max(i => i.Body.position.y);
                 float remainingTop = remainingTops.Max(i => i.SelectionCollider.bounds.max.y);
                 Check(game.Depth.ActiveSurfaceThreshold < remainingHighestCenter,
@@ -143,6 +148,27 @@ namespace CatchGoose
                     "all three genuinely exposed remaining tops immediately enter the rebuilt surface");
                 Check(surface.Count == 3 && remainingLower.All(i => !surface.Contains(i) && !i.SurfaceActive && i.DepthHeld && i.Body.isKinematic && !i.Body.useGravity),
                     "frontier rebuild does not wake or add any of the three covered supports");
+
+                // A second, different regression: the surviving top itself falls
+                // after the removal callback. No additional NotifyRemoval can help.
+                foreach (var topItem in remainingTops)
+                {
+                    topItem.SetDepthHeld(false); topItem.RestoreNormalPhysics();
+                    var raised = topItem.Body.position + Vector3.up * 3;
+                    topItem.Body.position = raised; topItem.transform.position = raised;
+                    topItem.Body.velocity = topItem.Body.angularVelocity = Vector3.zero; topItem.Body.WakeUp();
+                }
+                Physics.SyncTransforms(); game.Depth.ResetRound(); game.Depth.SpawnFinished(true); game.Depth.RefreshNow();
+                Check(game.Depth.ActiveSurfaceThreshold > 3, "falling-frontier fixture establishes high surviving tops");
+                var supportPositions = remainingLower.Select(i => i.Body.position).ToArray();
+                yield return Settle(1.8f); Physics.SyncTransforms(); game.Depth.RefreshNow(); game.Depth.CopySurface(surface);
+                float fallenCenter = remainingTops.Max(i => i.Body.position.y);
+                float fallenTop = remainingTops.Max(i => i.SelectionCollider.bounds.max.y);
+                Check(fallenCenter < 1.2f, "surviving tops actually fall onto the three original supports");
+                Check(game.Depth.ActiveSurfaceThreshold < fallenCenter && remainingTops.All(i => Exposed(i, fallenTop) && surface.Contains(i) && GooseShakeController.CanShake(i)),
+                    "frontier follows the surviving tops downward without a second removal callback");
+                Check(surface.Count == 3 && remainingLower.Select((item, index) => item.DepthHeld && item.Body.isKinematic && !item.Body.useGravity && Vector3.Distance(item.Body.position, supportPositions[index]) < .0005f).All(x => x),
+                    "falling-frontier recovery leaves all three lower supports fixed and without gravity");
             }
             finally
             {
@@ -246,6 +272,55 @@ namespace CatchGoose
         }
         Pose Capture(GooseItem item)
         { return new Pose { item = item, position = item.Body.position, rotation = item.Body.rotation, held = item.DepthHeld, surface = item.SurfaceActive, gravity = item.Body.useGravity, visible = item.DepthVisible, colliders = item.Colliders, enabled = item.Colliders.Select(c => c.enabled).ToArray() }; }
+        bool InjectSensor(float amplitude)
+        {
+            int before = game.Shake.Accepted; game.Shake.ResetSensor(); float t = Time.unscaledTime;
+            for (int n = 0; n < 6; n++) game.Shake.Sample(Vector3.forward, t + n * .06f);
+            game.Shake.Sample(new Vector3(amplitude, 0, 1), t + .42f); game.Shake.Sample(new Vector3(-amplitude, 0, 1), t + .48f);
+            game.Shake.Sample(Vector3.forward, t + .54f); return game.Shake.Accepted == before + 1;
+        }
+        void PlanarNetStats(Row row, Pose[] poses)
+        {
+            foreach (var pose in poses)
+            {
+                var delta = pose.item.Body.position - pose.position; float travel = new Vector2(delta.x, delta.z).magnitude;
+                row.maxPlanarTravel = Mathf.Max(row.maxPlanarTravel, travel);
+                if (travel >= game.ItemScale * .12f) row.planarMovedEnough++;
+            }
+        }
+        IEnumerator CaptureClip()
+        {
+            yield return Settle(1.6f); var row = Structure("sensor-moderate-clip");
+            var poses = game.Remaining.Select(Capture).ToArray(); game.Depth.CopySurface(surface);
+            var eligible = new HashSet<int>(surface.Select(i => i.GetInstanceID()));
+            yield return new WaitForEndOfFrame(); GooseFrameCapture.Save(Path.Combine(output, "clip-before.png"));
+            Check(InjectSensor(1.6f), "visual clip accepts a moderate 1.6g gesture");
+            float began = Time.realtimeSinceStartup;
+            for (int frame = 0; frame <= 25; frame++)
+            {
+                while (Time.realtimeSinceStartup < began + frame * .1f) yield return null;
+                yield return new WaitForEndOfFrame(); string file = "clip-" + frame.ToString("000") + ".png";
+                report.clipFrames.Add(new ClipFrame { file = file, seconds = Time.realtimeSinceStartup - began });
+                GooseFrameCapture.Save(Path.Combine(output, file));
+            }
+            row.targetIds = game.Shake.TargetIds.ToArray();
+            Check(row.targetIds.Length > 0 && row.targetIds.All(eligible.Contains), "visual clip affects only its initial activated surface");
+            var targetPoses = poses.Where(p => p.item && row.targetIds.Contains(p.item.GetInstanceID())).ToArray();
+            PlanarNetStats(row, targetPoses); var motion = game.Shake.LastMotion;
+            Check(motion != null && motion.affected > 0, "visual clip records a completed nonzero motion");
+            if (motion != null)
+            {
+                row.affected = motion.affected; row.moved = motion.moved; row.turned = motion.turned; row.changedNeighbours = motion.changedNeighbours;
+                row.maxTravel = motion.maxTravel; row.meanTravel = motion.meanTravel; row.maxTurn = motion.maxTurn;
+                int movedEnough = targetPoses.Count(p => Vector3.Distance(p.position, p.item.Body.position) >= game.ItemScale * .12f);
+                Check(movedEnough >= Mathf.CeilToInt(targetPoses.Length * .5f), "visual clip retains half-cohort settled 3D displacement");
+                Check(row.planarMovedEnough >= Mathf.CeilToInt(targetPoses.Length * .5f), "visual clip retains half-cohort settled XZ displacement");
+                if (targetPoses.Length >= 3) Check(motion.changedNeighbours > 0 || RelativeOrderChanged(targetPoses) || motion.maxTurn >= 15,
+                    "visual clip changes relative XZ order, neighbours or a clear orientation");
+            }
+            Structure("visual-clip-end"); Check(game.Remaining.Count() == row.stock, "visual clip conserves inventory");
+            report.rows.Add(row); Save();
+        }
         IEnumerator Operate(string operation)
         {
             yield return Settle(1.6f); game.Depth.CopySurface(surface);
@@ -268,12 +343,9 @@ namespace CatchGoose
             if (operation == "shuffle") { game.QaGrant(2, 1); accepted = game.UseProp(2); }
             else if (operation.StartsWith("sensor", StringComparison.Ordinal))
             {
-                int before = game.Shake.Accepted; game.Shake.ResetSensor(); float t = Time.unscaledTime;
-                for (int n = 0; n < 6; n++) game.Shake.Sample(Vector3.forward, t + n * .06f);
                 float amplitude = operation == "sensor-moderate" ? 1.6f : 4f;
-                game.Shake.Sample(new Vector3(amplitude, 0, 1), t + .42f); game.Shake.Sample(new Vector3(-amplitude, 0, 1), t + .48f);
                 // A quiet callback before FixedUpdate must not erase the accepted peak.
-                game.Shake.Sample(Vector3.forward, t + .54f); accepted = game.Shake.Accepted == before + 1;
+                accepted = InjectSensor(amplitude);
             }
             else accepted = game.Shake.Request(new Vector3(1, .25f, .3f), 1);
             timer.Stop(); row.beginCpuMs = (float)timer.Elapsed.TotalMilliseconds; Check(accepted, row.theme + " accepted " + operation + "/" + row.stock);
@@ -308,9 +380,14 @@ namespace CatchGoose
                 row.maxTravel = motion.maxTravel; row.meanTravel = motion.meanTravel; row.maxTurn = motion.maxTurn;
                 Check(motion.affected > 0, row.theme + " nonzero actual affected " + operation + "/" + row.stock);
                 var targetPoses = poses.Where(p => row.targetIds.Contains(p.item.GetInstanceID()) && p.item).ToArray();
+                PlanarNetStats(row, targetPoses);
                 int movedEnough = targetPoses.Count(p => Vector3.Distance(p.position, p.item.Body.position) >= game.ItemScale * .12f);
                 if (row.stock == 300) Check(movedEnough >= Mathf.CeilToInt(targetPoses.Length * .5f), row.theme + " at least half visibly displace " + operation);
+                if (row.stock == 300 && operation.StartsWith("sensor", StringComparison.Ordinal))
+                    Check(row.planarMovedEnough >= Mathf.CeilToInt(targetPoses.Length * .5f), row.theme + " at least half retain settled XZ displacement " + operation);
                 bool relativeChanged = motion.changedNeighbours > 0 || RelativeOrderChanged(targetPoses);
+                if (operation.StartsWith("sensor", StringComparison.Ordinal) && targetPoses.Length >= 3)
+                    Check(relativeChanged || motion.maxTurn >= 15, row.theme + " sensor changes XZ order, neighbours or clear orientation " + operation);
                 if (operation == "shuffle" && targetPoses.Length >= 3) Check(relativeChanged, row.theme + " reorders rather than translating cohort " + row.stock);
                 else Check(motion.moved > 0 && (motion.turned > 0 || relativeChanged || targetPoses.Length < 3), row.theme + " visible travel and turn/neighbour effect " + operation + "/" + row.stock);
             }
@@ -361,7 +438,7 @@ namespace CatchGoose
         }
         static void FrameStats(Row row, List<float> frames)
         {
-            if (frames.Count == 0) return; frames.Sort(); row.p50ms = frames[(int)((frames.Count - 1) * .5f)];
+            if (frames.Count == 0) return; row.frameTimingMeasured = true; frames.Sort(); row.p50ms = frames[(int)((frames.Count - 1) * .5f)];
             row.p95ms = frames[(int)((frames.Count - 1) * .95f)]; row.maxms = frames[frames.Count - 1]; row.slowFrameFraction = frames.Count(f => f > 50) / (float)frames.Count;
         }
         IEnumerator Watchdog() { yield return new WaitForSecondsRealtime(1800); if (!done) { report.errors.Add("surface QA watchdog"); Finish(); } }

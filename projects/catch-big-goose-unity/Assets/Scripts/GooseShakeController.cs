@@ -7,15 +7,15 @@ namespace CatchGoose
     {
         [Serializable] public sealed class MotionResult
         {
-            public int affected,moved,turned,changedNeighbours,pulses;
-            public float maxTravel,meanTravel,maxTurn,maxAddedHorizontal,maxAddedVertical;
+            public int affected,moved,planarMoved,turned,changedNeighbours,pulses;
+            public float maxTravel,meanTravel,maxPlanarTravel,meanPlanarTravel,maxTurn,maxAddedHorizontal,maxAddedVertical;
             public bool interrupted;
         }
         sealed class Target
         {
             public GooseItem item,neighbour;public Vector3 start;public Quaternion rotation;
             public Vector2 added;public Vector3 spread,spin;
-            public float travel,turn,horizontal,vertical;public bool affected;
+            public float travel,planar,turn,horizontal,vertical;public bool affected;
         }
         public const float Cooldown=1.5f;
         public int Accepted {get;private set;}
@@ -76,14 +76,14 @@ namespace CatchGoose
         void Update(){if(Input.GetKeyDown(KeyCode.Space))Request(new Vector3(1,0,.35f));}
         void BeginMotion()
         {
-            pending=false;tracking=true;pulse=0;started=Time.time;container=game.Container;measure=GooseSave.IsQa||(game.ShakeDiagnostics&&game.ShakeDiagnostics.Active);
+            pending=false;tracking=true;pulse=0;started=Time.time;container=game.Container;measure=GooseSave.IsQa||(game.ShakeDiagnostics&&game.ShakeDiagnostics.Active)||(game.DeviceMonitor&&game.DeviceMonitor.Requested);
             candidates.Clear();targets.Clear();targetIds.Clear();game.Depth.CopySurface(candidates);
             candidates.RemoveAll(item=>!CanShake(item));
             candidates.Sort((a,b)=>b.Body.position.y.CompareTo(a.Body.position.y));
             var profile=GooseInteractionProfile.Current;int count=Mathf.Min(Mathf.Min(candidates.Count,profile.shakeMaxBodies),pool.Length);
             for(int i=0;i<count;i++)
             {
-                var t=pool[i];t.item=candidates[i];t.start=t.item.Body.position;t.rotation=t.item.Body.rotation;t.travel=t.turn=t.horizontal=t.vertical=0;t.added=Vector2.zero;t.affected=false;t.neighbour=null;
+                var t=pool[i];t.item=candidates[i];t.start=t.item.Body.position;t.rotation=t.item.Body.rotation;t.travel=t.planar=t.turn=t.horizontal=t.vertical=0;t.added=Vector2.zero;t.affected=false;t.neighbour=null;
                 float angle=i*2.399963f;t.spread=new Vector3(Mathf.Cos(angle),0,Mathf.Sin(angle));t.spin=new Vector3(Mathf.Sin(angle),.25f,Mathf.Cos(angle))*((i&1)==0?1:-1);
                 targets.Add(t);targetIds.Add(t.item.GetInstanceID());
                 // Existing dynamic bodies only. Do not release, reveal or change contact materials.
@@ -103,7 +103,8 @@ namespace CatchGoose
             if(!game||!game.Playing||!game.SpawnComplete){pending=false;if(tracking)FinishMotion(true);return;}
             if(game.Paused)return;if(pending)BeginMotion();if(!tracking)return;
             if(container!=game.Container){FinishMotion(true);return;}
-            if(measure)foreach(var t in targets)if(t.item&&!t.item.Picked){t.travel=Mathf.Max(t.travel,Vector3.Distance(t.start,t.item.Body.position));t.turn=Mathf.Max(t.turn,Quaternion.Angle(t.rotation,t.item.Body.rotation));}
+            if(measure)foreach(var t in targets)if(t.item&&!t.item.Picked)
+            {var delta=t.item.Body.position-t.start;t.travel=Mathf.Max(t.travel,delta.magnitude);t.planar=Mathf.Max(t.planar,new Vector2(delta.x,delta.z).magnitude);t.turn=Mathf.Max(t.turn,Quaternion.Angle(t.rotation,t.item.Body.rotation));}
             var p=GooseInteractionProfile.Current;
             if(samplePeak>0){direction=sampleDirection;strength=Mathf.Max(strength,samplePeak);samplePeak=0;}
             if(Time.time-started<p.shakeForceWindowSeconds)ApplyForce(p);
@@ -169,11 +170,12 @@ namespace CatchGoose
             foreach(var t in targets)if(t.affected)
             {
                 result.affected++;result.maxTravel=Mathf.Max(result.maxTravel,t.travel);result.meanTravel+=t.travel;result.maxTurn=Mathf.Max(result.maxTurn,t.turn);
+                result.maxPlanarTravel=Mathf.Max(result.maxPlanarTravel,t.planar);result.meanPlanarTravel+=t.planar;
                 result.maxAddedHorizontal=Mathf.Max(result.maxAddedHorizontal,t.horizontal);result.maxAddedVertical=Mathf.Max(result.maxAddedVertical,t.vertical);
-                if(t.travel>=distance)result.moved++;if(t.turn>=5)result.turned++;
+                if(t.travel>=distance)result.moved++;if(t.planar>=distance)result.planarMoved++;if(t.turn>=5)result.turned++;
                 if(measure&&t.item&&!t.item.Picked&&Nearest(t.item)!=t.neighbour)result.changedNeighbours++;
             }
-            if(result.affected>0)result.meanTravel/=result.affected;LastMotion=result;tracking=false;targets.Clear();game.ShakeDiagnostics?.MotionMeasured(result);
+            if(result.affected>0){result.meanTravel/=result.affected;result.meanPlanarTravel/=result.affected;}LastMotion=result;tracking=false;targets.Clear();game.ShakeDiagnostics?.MotionMeasured(result);
         }
         void OnDisable(){pending=tracking=false;targets.Clear();}
     }

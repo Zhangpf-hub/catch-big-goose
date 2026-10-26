@@ -38,8 +38,8 @@ namespace CatchGoose
         {
             public string build=TestBuild,eventName,status,error,source,detail;
             public int attempt,callbacks,totalCallbacks,sensorAccepted,manualAccepted,applied;
-            public int affected,moved,turned,changedNeighbours,pulses;
-            public float maxTravel,meanTravel,maxTurn;
+            public int affected,moved,planarMoved,turned,changedNeighbours,pulses;
+            public float maxTravel,meanTravel,maxPlanarTravel,meanPlanarTravel,maxTurn;
             public float seconds,x,y,z,motionPeak,threshold,cooldown;
         }
         public readonly GooseShakeProbeState State=new GooseShakeProbeState();
@@ -101,6 +101,7 @@ namespace CatchGoose
                 cooldown=game&&game.Shake?game.Shake.CooldownRemaining:0,
                 affected=motion!=null?motion.affected:lastAffected,pulses=motion!=null?motion.pulses:lastPulses,
                 moved=motion!=null?motion.moved:0,turned=motion!=null?motion.turned:0,
+                planarMoved=motion!=null?motion.planarMoved:0,maxPlanarTravel=motion!=null?motion.maxPlanarTravel:0,meanPlanarTravel=motion!=null?motion.meanPlanarTravel:0,
                 changedNeighbours=motion!=null?motion.changedNeighbours:0,maxTravel=motion!=null?motion.maxTravel:0,
                 meanTravel=motion!=null?motion.meanTravel:0,maxTurn=motion!=null?motion.maxTurn:0};
             Debug.Log("[GooseShakeTest] "+JsonUtility.ToJson(e));
