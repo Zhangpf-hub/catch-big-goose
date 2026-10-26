@@ -55,6 +55,54 @@ namespace CatchGoose.Tests
             Assert.IsTrue(GoosePileDepth.ProbeSurface(item, 12, ~0), "an isolated thin diagonal hull must not disappear from surface eligibility");
         }
 
+        GameObject Cover(string name, Vector3 position, Vector3 size)
+        {
+            var cover = GameObject.CreatePrimitive(PrimitiveType.Cube); roots.Add(cover);
+            cover.name = name; cover.transform.position = position; cover.transform.localScale = size;
+            return cover;
+        }
+
+        [Test] public void GenuineInnerOpeningRemainsExposedWhenCenterAndOuterEdgesAreCovered()
+        {
+            var item = Box("inner-opening-top", new Vector3(100, 10, 100), new Vector3(2, .2f, 2));
+            // A central cap and an outer frame leave four genuine interior
+            // openings. Center-only or edge-only sampling misses every opening.
+            Cover("central-cap", new Vector3(100, 11, 100), new Vector3(.4f, .1f, .4f));
+            Cover("frame-left", new Vector3(99.25f, 11, 100), new Vector3(.5f, .1f, 2));
+            Cover("frame-right", new Vector3(100.75f, 11, 100), new Vector3(.5f, .1f, 2));
+            Cover("frame-front", new Vector3(100, 11, 99.25f), new Vector3(2, .1f, .5f));
+            Cover("frame-back", new Vector3(100, 11, 100.75f), new Vector3(2, .1f, .5f));
+            Physics.SyncTransforms();
+            Assert.IsTrue(Physics.Raycast(new Vector3(100.33f, 12, 100.37f), Vector3.down, out var opening, 3, ~0));
+            Assert.AreSame(item.SelectionCollider, opening.collider, "an independently authored interior ray reaches the actual target first");
+            Assert.IsTrue(Physics.Raycast(new Vector3(100, 12, 100), Vector3.down, out var center, 3, ~0));
+            Assert.AreNotSame(item.SelectionCollider, center.collider, "the center really is covered");
+            Assert.IsTrue(Physics.Raycast(new Vector3(100.72f, 12, 100.72f), Vector3.down, out var edge, 3, ~0));
+            Assert.AreNotSame(item.SelectionCollider, edge.collider, "the outer frame really is covered");
+            Assert.IsTrue(GoosePileDepth.ProbeSurface(item, 12, ~0), "a real interior opening must retain surface eligibility");
+        }
+
+        [Test] public void FullyCoveredSurfaceUsesBoundedQueriesAndLeavesVisualClassificationBudget()
+        {
+            var item = Box("fully-covered-top", new Vector3(100, 10, 100), new Vector3(2, .2f, 2));
+            Cover("full-cap", new Vector3(100, 11, 100), new Vector3(2.2f, .1f, 2.2f));
+            Physics.SyncTransforms();
+            Assert.IsFalse(GoosePileDepth.ProbeSurface(item, 12, ~0, out int actualQueries));
+            Assert.AreEqual(34, actualQueries, "all covered samples require both own-hull and first-hit queries");
+            Assert.AreEqual(GoosePileDepth.MaxSurfaceProbeQueries, actualQueries);
+            // Reserve is a gameplay budget requirement, independent of the
+            // implementation's cursor: a worst-case last surface check must
+            // still leave enough slots for a complete conservative visual check.
+            int used = GoosePileDepth.MaxProbeCount - 64 - GoosePileDepth.MaxSurfaceProbeQueries;
+            used += actualQueries;
+            Assert.LessOrEqual(used, GoosePileDepth.MaxProbeCount - 64);
+            int visualChecks = 0;
+            while (used <= GoosePileDepth.MaxProbeCount - GoosePileDepth.MaxVisualProbeQueries)
+            { used += GoosePileDepth.MaxVisualProbeQueries; visualChecks++; }
+            Assert.GreaterOrEqual(visualChecks, 1, "visual classification retains useful work after a full surface slice");
+            Assert.LessOrEqual(used, GoosePileDepth.MaxProbeCount);
+        }
+
         [Test] public void SurfaceFlagAloneCannotMakeHiddenPickedOrKinematicPieceShakeable()
         {
             var item = Box("invalid-surface", new Vector3(100, 10, 100), Vector3.one * .3f);

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,12 +9,36 @@ namespace CatchGoose
     public sealed class GoosePileDepth : MonoBehaviour
     {
         public const int MaxProbeCount=256;
+        public const int MaxSurfaceProbeQueries=34;
+        public const int MaxVisualProbeQueries=64;
         const int ItemMask=~((1<<2)|(1<<8)|(1<<26)|(1<<27)|(1<<28)|(1<<29)|(1<<30));
         GooseGame game; PileAlgorithmSettings settings;
         float nextRefresh,settleUntil,frontier,castTop;
         bool initialized; int probeCursor,visualCursor,urgentCursor;
         readonly List<GooseItem> scratch=new List<GooseItem>(320),urgent=new List<GooseItem>(320);
         readonly RaycastHit[] visualHits=new RaycastHit[48];
+        sealed class VisualEntry
+        {
+            public GooseItem item;
+            public Vector3 position,scale;
+            public Quaternion rotation;
+            public Bounds bounds;
+            public float depth;
+            public bool forced,enabled,confirmed,visible,opaque;
+            public int rank,seen,materialRevision;
+        }
+        readonly List<VisualEntry> visualPlan=new List<VisualEntry>(320);
+        readonly Stack<VisualEntry> visualPool=new Stack<VisualEntry>(320);
+        readonly Dictionary<GooseItem,VisualEntry> visualByItem=new Dictionary<GooseItem,VisualEntry>(320);
+        readonly Dictionary<GooseItem,VisualEntry> visualObserved=new Dictionary<GooseItem,VisualEntry>(320);
+        readonly List<GooseItem> staleVisualItems=new List<GooseItem>(32);
+        readonly Dictionary<Material,GooseItem.VisualMaterialState> visualMaterials=new Dictionary<Material,GooseItem.VisualMaterialState>(256);
+        Predicate<GooseItem> visualCoverFilter;
+        VisualEntry visualTarget;
+        bool visualDirty=true,visualInProgress,visualPlanInvalid,visualCameraKnown;
+        int visualScan;
+        float visualEpochBegan;
+        Matrix4x4 observedView,observedProjection,epochView,epochProjection;
         public int HeldCount {get;private set;}
         public int HiddenCount {get;private set;}
         public int DynamicCount {get;private set;}
@@ -22,6 +47,16 @@ namespace CatchGoose
         public int LastProbeCount {get;private set;}
         public float LastRefreshMs {get;private set;}
         public bool AnimationInProgress;
+        public int VisibilityEpoch {get;private set;}
+        public int CompletedVisibilityEpoch {get;private set;}
+        public int VisibilityEpochCompletions {get;private set;}
+        public int VisibilityClassifications {get;private set;}
+        public int DiscardedVisibilityEpochs {get;private set;}
+        public int PendingVisibilityHides {get;private set;}
+        public float LastVisibilityEpochSeconds {get;private set;}
+        public bool VisibilityEpochInProgress=>visualInProgress;
+        public bool VisibilityDirty=>visualDirty||visualPlanInvalid;
+        public int PendingVisibilityItems=>visualInProgress?visualPlan.Count-visualCursor:0;
         public bool OverDynamicBudget=>settings!=null&&DynamicCount>settings.maxDynamicBodies;
         public float VisibleThreshold {get;private set;}
         public float RigidThreshold {get;private set;}
@@ -29,12 +64,18 @@ namespace CatchGoose
         // pile. This is the current height frontier, combined with real exposure.
         public float ActiveSurfaceThreshold=>VisibleThreshold;
         public static bool WithinActiveSurfaceBand(Bounds bounds,float threshold)=>bounds.max.y>=threshold;
-        public void Initialize(GooseGame owner,PileAlgorithmSettings profile){game=owner;settings=profile;}
+        public void Initialize(GooseGame owner,PileAlgorithmSettings profile){game=owner;settings=profile;visualCoverFilter=PlannedVisualCover;}
         public void ResetRound()
         {
             initialized=false;nextRefresh=0;settleUntil=float.PositiveInfinity;
             HeldCount=HiddenCount=DynamicCount=SurfaceCount=ExposureActivations=LastProbeCount=0;
             probeCursor=visualCursor=urgentCursor=0;urgent.Clear();scratch.Clear();AnimationInProgress=false;
+            foreach(var entry in visualPlan)visualPool.Push(entry);
+            visualPlan.Clear();visualByItem.Clear();visualObserved.Clear();staleVisualItems.Clear();
+            visualMaterials.Clear();visualTarget=null;
+            visualDirty=true;visualInProgress=visualPlanInvalid=visualCameraKnown=false;visualScan=0;
+            VisibilityEpoch=CompletedVisibilityEpoch=VisibilityEpochCompletions=VisibilityClassifications=DiscardedVisibilityEpochs=PendingVisibilityHides=0;
+            LastVisibilityEpochSeconds=0;
         }
         public void SpawnFinished(bool preSettled=false)
         {
@@ -58,7 +99,7 @@ namespace CatchGoose
             Refresh(true);
             if(urgent.Count>0)return false;
             foreach(var item in scratch)if(!item.SurfaceKnown||(!item.SurfaceExposed&&!item.OcclusionKnown))return false;
-            return true;
+            return !visualInProgress&&!visualDirty&&CompletedVisibilityEpoch>0;
         }
         static bool Valid(GooseItem item)=>item&&!item.Picked&&item.gameObject.activeInHierarchy&&item.Body&&item.SelectionCollider;
         static bool Eligible(GooseItem item)=>Valid(item)&&item.SurfaceActive&&item.DepthVisible&&!item.DepthHeld&&!item.Body.isKinematic&&!item.SurfaceAnimating;
@@ -95,12 +136,14 @@ namespace CatchGoose
             // refresh. Keep its prior value so a simultaneous upward shake and
             // pick cannot raise the frontier and demote unrelated surface pieces.
             nextRefresh=0;
+            MarkVisualDirty();
         }
         public void Invalidate(){nextRefresh=0;}
         public void ModelSizeChanged()
         {
             initialized=false;settleUntil=Time.time;nextRefresh=0;
             foreach(var item in game.Items)if(Valid(item)){item.OcclusionKnown=false;item.NextOcclusionCheck=0;}
+            MarkVisualDirty();
             QueueOpening();
         }
         public void DisturbAll()
@@ -160,35 +203,27 @@ namespace CatchGoose
             bool locked=AnimationInProgress||(!opening&&game.Shake&&game.Shake.Active);
             if(!locked)
             {
-                // Surface pass leaves at least 64 query slots for visual coverage.
-                while(LastProbeCount<MaxProbeCount-82&&urgentCursor<urgent.Count)
+                // Include the worst complete multi-scale test before starting
+                // another item, leaving at least 64 queries for visual coverage.
+                while(LastProbeCount<MaxProbeCount-64-MaxSurfaceProbeQueries&&urgentCursor<urgent.Count)
                 {
                     var item=urgent[urgentCursor++];if(!Valid(item))continue;
                     item.SurfaceProbeQueued=false;UpdateSurface(item);
                 }
                 if(urgentCursor>=urgent.Count){urgent.Clear();urgentCursor=0;}
                 int visited=0;
-                while(visited<scratch.Count&&LastProbeCount<MaxProbeCount-82)
+                while(visited<scratch.Count&&LastProbeCount<MaxProbeCount-64-MaxSurfaceProbeQueries)
                 {
                     if(probeCursor>=scratch.Count)probeCursor=0;
                     var item=scratch[probeCursor++];visited++;
                     if(Time.time>=item.NextSurfaceCheck&&!item.SurfaceProbeQueued)UpdateSurface(item);
-                }
-                visited=0;
-                while(visited<scratch.Count&&LastProbeCount<=MaxProbeCount-18)
-                {
-                    if(visualCursor>=scratch.Count)visualCursor=0;
-                    var item=scratch[visualCursor++];visited++;
-                    if(item.SurfaceAnimating||item.SurfaceExposed||Time.time<item.NextOcclusionCheck)continue;
-                    item.CachedCovered=ProbeCovered(item);item.OcclusionKnown=true;
-                    item.NextOcclusionCheck=Time.time+(item.DepthHeld?1f:.3f);
                 }
             }
             bool allSleeping=true;
             foreach(var item in scratch)
             {
                 if(item.SurfaceAnimating||locked)
-                {Count(item);if(!item.Body.isKinematic&&!item.Body.IsSleeping())allSleeping=false;continue;}
+                {if(!item.Body.isKinematic&&!item.Body.IsSleeping())allSleeping=false;continue;}
                 float speed=item.Body.isKinematic?0:item.Body.velocity.magnitude;
                 float angular=item.Body.isKinematic?0:item.Body.angularVelocity.magnitude;
                 bool moving=speed>settings.speedGuard||angular>settings.angularSpeedGuard;
@@ -218,7 +253,18 @@ namespace CatchGoose
                         GooseColliderGeometry.BodyMatrix(item.SelectionCollider,item.Body))>=GooseCircularContainer.FloorY-.005f;
                     if(settled||expired)item.RestoreNormalPhysics();
                 }
-                bool protectedVisible=item.DepthVisible&&(moving||Time.time<item.DepthProtectedUntil||Time.time-item.DepthStillSince<settings.settledDuration);
+            }
+            // Capture geometry after this refresh's physical support corrections.
+            // The rendering decision never feeds the next classification epoch.
+            if(!locked){ObserveVisualGeometry();AdvanceVisualEpoch(opening);}
+            foreach(var item in scratch)
+            {
+                if(item.SurfaceAnimating||locked){Count(item);continue;}
+                bool exposed=WithinActiveSurfaceBand(item.SelectionCollider.bounds,ActiveSurfaceThreshold)&&item.SurfaceKnown&&item.SurfaceExposed;
+                bool protectedVisible=ForceVisible(item);
+                // A protected reveal must retire a previous hide. Its expiry
+                // cannot resurrect an old covered cache before a new epoch ends.
+                if(protectedVisible){item.CachedCovered=false;item.OcclusionKnown=true;}
                 bool knownCoverage=item.OcclusionKnown;
                 // Height gates physics participation, never the rendered
                 // silhouette. Side-visible supports stay drawn and kinematic.
@@ -229,7 +275,7 @@ namespace CatchGoose
                 {if(item.CoveredSince<0)item.CoveredSince=Time.time;visible=Time.time-item.CoveredSince<settings.settledDuration;}
                 item.SetDepthVisible(visible);Count(item);
             }
-            if(allSleeping&&!opening&&urgent.Count==0)nextRefresh=Time.time+.35f;
+            if(allSleeping&&!opening&&urgent.Count==0&&!visualInProgress&&!visualDirty)nextRefresh=Time.time+.35f;
             FinishTiming(began);
         }
         void Count(GooseItem item)
@@ -251,13 +297,17 @@ namespace CatchGoose
         // Pure geometry entry, usable without constructing GooseGame.
         public static bool ProbeSurface(GooseItem item,float top,int layerMask)
         {return ProbeSurface(item,top,layerMask,out _);}
-        static bool ProbeSurface(GooseItem item,float top,int layerMask,out int queries)
+        public static bool ProbeSurface(GooseItem item,float top,int layerMask,out int queries)
         {
             queries=0;if(!Valid(item)||!item.SelectionCollider.enabled)return false;
             var bounds=item.SelectionCollider.bounds;float y=Mathf.Max(top,bounds.max.y+.1f);
-            for(int probe=0;probe<9;probe++)
+            // A covered center and rim do not prove the inner footprint is
+            // covered: gaps between neighbouring hulls can expose that region.
+            // Keep the original outer ring and add a full inner ring.
+            for(int probe=0;probe<17;probe++)
             {
-                var offset=ProbeOffset(probe,bounds.extents*.72f);
+                var offset=probe<=8?ProbeOffset(probe,bounds.extents*.30f):
+                    ProbeOffset(probe-8,bounds.extents*.72f);
                 var ray=new Ray(new Vector3(bounds.center.x+offset.x,y,bounds.center.z+offset.z),Vector3.down);
                 queries++;if(!item.SelectionCollider.Raycast(ray,out var own,100))continue;
                 queries++;if(!Physics.Raycast(ray,out var hit,own.distance+.015f,layerMask,QueryTriggerInteraction.Ignore))continue;
@@ -277,33 +327,189 @@ namespace CatchGoose
                 default:return Vector3.zero;
             }
         }
-        bool ProbeCovered(GooseItem item)
+        bool ForceVisible(GooseItem item)
         {
-            var bounds=item.SelectionCollider.bounds;var camera=game.MainCamera;
-            var right=camera.transform.right;var up=camera.transform.up;var extents=bounds.extents;
-            float x=(Mathf.Abs(right.x)*extents.x+Mathf.Abs(right.y)*extents.y+Mathf.Abs(right.z)*extents.z)*.72f;
-            float y=(Mathf.Abs(up.x)*extents.x+Mathf.Abs(up.y)*extents.y+Mathf.Abs(up.z)*extents.z)*.72f;
-            int intersections=0;
-            for(int probe=0;probe<9;probe++)
+            if(!item.DepthReady)return true;
+            if(item.SurfaceKnown&&item.SurfaceExposed&&WithinActiveSurfaceBand(item.SelectionCollider.bounds,ActiveSurfaceThreshold))return true;
+            // Prepared opening poses are anchored. A boundary-rounding error in
+            // the still timer must not force the entire inventory to grow in.
+            if(!game.SpawnComplete)return false;
+            bool moving=!item.Body.isKinematic&&(item.Body.velocity.sqrMagnitude>settings.speedGuard*settings.speedGuard||
+                item.Body.angularVelocity.sqrMagnitude>settings.angularSpeedGuard*settings.angularSpeedGuard);
+            return moving||Time.time<item.DepthProtectedUntil||Time.time-item.DepthStillSince<settings.settledDuration;
+        }
+        void MarkVisualDirty()
+        {
+            visualDirty=true;
+            if(visualInProgress)visualPlanInvalid=true;
+        }
+        static bool SameMatrix(Matrix4x4 a,Matrix4x4 b)
+        {
+            for(int i=0;i<16;i++)if(Mathf.Abs(a[i]-b[i])>.00001f)return false;
+            return true;
+        }
+        static bool SameVisualGeometry(VisualEntry a,VisualEntry b)
+        {
+            return (a.position-b.position).sqrMagnitude<=.00000001f&&Quaternion.Angle(a.rotation,b.rotation)<=.01f&&
+                (a.scale-b.scale).sqrMagnitude<=.00000001f&&(a.bounds.center-b.bounds.center).sqrMagnitude<=.00000001f&&
+                (a.bounds.size-b.bounds.size).sqrMagnitude<=.00000001f&&a.enabled==b.enabled&&a.forced==b.forced&&
+                a.opaque==b.opaque&&a.materialRevision==b.materialRevision;
+        }
+        void CaptureVisual(VisualEntry entry,GooseItem item)
+        {
+            entry.item=item;entry.position=item.Body.position;entry.rotation=item.Body.rotation;
+            entry.scale=item.transform.lossyScale;entry.bounds=item.SelectionCollider.bounds;
+            entry.enabled=item.SelectionCollider.enabled;entry.forced=ForceVisible(item);
+            entry.opaque=item.VisualOccluder;entry.materialRevision=item.VisualMaterialRevision;
+        }
+        // Reused scratch entry avoids allocating pose snapshots every refresh.
+        readonly VisualEntry visualSample=new VisualEntry();
+        void ObserveVisualGeometry()
+        {
+            var camera=game.MainCamera;var view=camera.worldToCameraMatrix;var projection=camera.projectionMatrix;
+            if(!visualCameraKnown||!SameMatrix(view,observedView)||!SameMatrix(projection,observedProjection))MarkVisualDirty();
+            observedView=view;observedProjection=projection;visualCameraKnown=true;visualScan++;
+            visualMaterials.Clear();
+            foreach(var item in scratch)
             {
-                var offset=ProbeOffset(probe,new Vector3(x,0,y));
-                var sample=bounds.center+right*offset.x+up*offset.z;
+                if(item.RefreshVisualOcclusionCache(visualMaterials))MarkVisualDirty();
+                CaptureVisual(visualSample,item);
+                if(!visualObserved.TryGetValue(item,out var prior))
+                {prior=new VisualEntry();visualObserved.Add(item,prior);CaptureVisual(prior,item);MarkVisualDirty();}
+                else if(!SameVisualGeometry(prior,visualSample))
+                {CaptureVisual(prior,item);MarkVisualDirty();}
+                prior.seen=visualScan;
+            }
+            staleVisualItems.Clear();
+            foreach(var pair in visualObserved)if(pair.Value.seen!=visualScan)staleVisualItems.Add(pair.Key);
+            foreach(var item in staleVisualItems){visualObserved.Remove(item);MarkVisualDirty();}
+        }
+        bool CurrentVisualEntry(VisualEntry entry)
+        {
+            return Valid(entry.item)&&entry.item.SelectionCollider.enabled&&
+                visualObserved.TryGetValue(entry.item,out var current)&&SameVisualGeometry(entry,current)&&
+                SameMatrix(epochView,observedView)&&SameMatrix(epochProjection,observedProjection);
+        }
+        void BeginVisualEpoch()
+        {
+            foreach(var entry in visualPlan)visualPool.Push(entry);
+            visualPlan.Clear();visualByItem.Clear();visualCursor=0;PendingVisibilityHides=0;
+            var camera=game.MainCamera;var forward=camera.transform.forward;var cameraPosition=camera.transform.position;
+            foreach(var item in scratch)
+            {
+                var entry=visualPool.Count>0?visualPool.Pop():new VisualEntry();
+                entry.confirmed=entry.visible=false;CaptureVisual(entry,item);var e=entry.bounds.extents;
+                entry.depth=Vector3.Dot(entry.bounds.center-cameraPosition,forward)-
+                    (Mathf.Abs(forward.x)*e.x+Mathf.Abs(forward.y)*e.y+Mathf.Abs(forward.z)*e.z);
+                visualPlan.Add(entry);
+            }
+            visualPlan.Sort((a,b)=>{int order=a.depth.CompareTo(b.depth);return order!=0?order:a.item.GetInstanceID().CompareTo(b.item.GetInstanceID());});
+            for(int i=0;i<visualPlan.Count;i++){var entry=visualPlan[i];entry.rank=i;visualByItem.Add(entry.item,entry);}
+            epochView=observedView;epochProjection=observedProjection;
+            VisibilityEpoch++;visualInProgress=true;visualDirty=visualPlanInvalid=false;visualEpochBegan=Time.unscaledTime;
+        }
+        void AdvanceVisualEpoch(bool opening)
+        {
+            if(!visualInProgress&&visualDirty)
+            {
+                // Startup must not classify against a partly-known physical
+                // surface and then restart simply because its probes completed.
+                if(opening){foreach(var item in scratch)if(!item.SurfaceKnown)return;}
+                BeginVisualEpoch();
+            }
+            if(!visualInProgress)return;
+            while(visualCursor<visualPlan.Count)
+            {
+                var entry=visualPlan[visualCursor];var item=entry.item;
+                if(!Valid(item)){visualPlanInvalid=true;visualDirty=true;visualCursor++;continue;}
+                bool forced=ForceVisible(item);
+                bool current=CurrentVisualEntry(entry);
+                if(!forced&&!current){visualCursor++;continue;}
+                if(!forced&&LastProbeCount>MaxProbeCount-MaxVisualProbeQueries)break;
+                entry.visible=forced||!ProbeCovered(entry);entry.confirmed=true;visualCursor++;
+                item.VisibilityEpoch=VisibilityEpoch;item.VisibilityClassifications++;VisibilityClassifications++;
+                if(!forced)item.NextOcclusionCheck=Time.time+(item.DepthHeld?1f:.3f);
+                if(entry.visible)
+                {
+                    // Reveals can publish immediately. New hides wait until the
+                    // whole plan is known, so hiding an old cover cannot open a
+                    // hole while its formerly hidden successor is still pending.
+                    item.CachedCovered=false;item.OcclusionKnown=true;
+                }
+                else PendingVisibilityHides++;
+            }
+            if(visualCursor<visualPlan.Count)return;
+            bool valid=!visualPlanInvalid;
+            foreach(var entry in visualPlan)if(!entry.confirmed||!CurrentVisualEntry(entry)){valid=false;break;}
+            if(valid)
+            {
+                foreach(var entry in visualPlan)
+                {
+                    var item=entry.item;item.CachedCovered=!entry.visible;item.OcclusionKnown=true;
+                    item.CommittedVisibilityEpoch=VisibilityEpoch;
+                }
+                CompletedVisibilityEpoch=VisibilityEpoch;VisibilityEpochCompletions++;
+            }
+            else{DiscardedVisibilityEpochs++;visualDirty=true;}
+            LastVisibilityEpochSeconds=Time.unscaledTime-visualEpochBegan;
+            visualInProgress=false;visualPlanInvalid=false;PendingVisibilityHides=0;
+        }
+        bool ProbeCovered(VisualEntry target)
+        {
+            visualTarget=target;
+            bool covered=ProbeVisualCoverage(target.item,game.MainCamera,visualCoverFilter,visualHits,out int queries);
+            LastProbeCount+=queries;return covered;
+        }
+        bool PlannedVisualCover(GooseItem cover)
+        {
+            return visualByItem.TryGetValue(cover,out var planned)&&planned.opaque&&
+                planned.rank<visualTarget.rank&&planned.confirmed&&planned.visible&&CurrentVisualEntry(planned);
+        }
+        // Same camera/hull query used by production and isolated real-material
+        // fixtures. The caller supplies already-confirmed DAG predecessors.
+        public static bool ProbeVisualCoverage(GooseItem item,Camera camera,Predicate<GooseItem> confirmedPredecessor,
+            RaycastHit[] hits,out int queries)
+        {
+            queries=0;if(!Valid(item)||!camera||hits==null||hits.Length==0)return false;
+            var bounds=item.OcclusionVisualBounds;
+            var right=camera.transform.right;var up=camera.transform.up;var extents=bounds.extents;
+            float x=Mathf.Abs(right.x)*extents.x+Mathf.Abs(right.y)*extents.y+Mathf.Abs(right.z)*extents.z;
+            float y=Mathf.Abs(up.x)*extents.x+Mathf.Abs(up.y)*extents.y+Mathf.Abs(up.z)*extents.z;
+            var forward=camera.transform.forward;
+            float nearDepth=Vector3.Dot(bounds.center-camera.transform.position,forward)-
+                (Mathf.Abs(forward.x)*extents.x+Mathf.Abs(forward.y)*extents.y+Mathf.Abs(forward.z)*extents.z);
+            if(float.IsNaN(nearDepth)||float.IsInfinity(nearDepth)||nearDepth<=camera.nearClipPlane||item.Frozen)return false;
+            for(int row=0;row<5;row++)for(int column=0;column<5;column++)
+            {
+                var sample=bounds.center+right*((column*.5f-1)*x)+up*((row*.5f-1)*y);
                 var ray=camera.ViewportPointToRay(camera.WorldToViewportPoint(sample));
-                LastProbeCount++;if(!item.SelectionCollider.Raycast(ray,out var own,100))continue;
-                intersections++;LastProbeCount++;
-                int count=Physics.RaycastNonAlloc(ray,visualHits,Mathf.Max(.001f,own.distance-.003f),ItemMask,QueryTriggerInteraction.Ignore);
-                if(count==visualHits.Length)return false;
+                float denominator=Vector3.Dot(ray.direction,forward);if(denominator<=.00001f)return false;
+                float limit=(nearDepth-Vector3.Dot(ray.origin-camera.transform.position,forward))/denominator-.003f;
+                if(limit<=0||float.IsNaN(limit)||float.IsInfinity(limit)||queries>=MaxVisualProbeQueries)return false;
+                queries++;
+                int count=Physics.RaycastNonAlloc(ray,hits,limit,ItemMask,QueryTriggerInteraction.Ignore);
+                if(count==hits.Length)return false;
                 bool covered=false;
                 for(int i=0;i<count;i++)
                 {
-                    var cover=visualHits[i].collider.GetComponentInParent<GooseItem>();
-                    if(cover&&cover!=item&&!cover.Picked&&cover.DepthVisible){covered=true;break;}
+                    var cover=hits[i].collider.GetComponentInParent<GooseItem>();
+                    if(cover&&cover!=item&&!cover.Picked&&cover.VisualOccluder&&confirmedPredecessor!=null&&confirmedPredecessor(cover))
+                    {
+                        // A physical convex proxy can extend beyond the visible
+                        // mesh. Only its contracted interior can hide another
+                        // item, with every outer target sample covered as well.
+                        if(queries>=MaxVisualProbeQueries)return false;
+                        const float interior=.95f;
+                        var center=hits[i].collider.bounds.center;
+                        var interiorRay=new Ray(center+(ray.origin-center)/interior,ray.direction);
+                        queries++;
+                        if(hits[i].collider.Raycast(interiorRay,out var inner,limit/interior))
+                        {covered=true;break;}
+                    }
                 }
                 if(!covered)return false;
             }
-            // A sample missing the actual thin hull is not evidence that the hull
-            // is visible. Only intersecting samples participate in this decision.
-            return intersections>0;
+            return true;
         }
     }
 }

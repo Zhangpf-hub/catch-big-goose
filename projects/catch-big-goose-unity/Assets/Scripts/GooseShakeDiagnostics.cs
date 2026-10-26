@@ -40,6 +40,7 @@ namespace CatchGoose
             public int attempt,callbacks,totalCallbacks,sensorAccepted,manualAccepted,applied;
             public int affected,moved,planarMoved,turned,changedNeighbours,pulses;
             public float maxTravel,meanTravel,maxPlanarTravel,meanPlanarTravel,maxTurn;
+            public bool fallbackAttempted,fallbackCompleted;public string fallbackFailure;
             public float seconds,x,y,z,motionPeak,threshold,cooldown;
         }
         public readonly GooseShakeProbeState State=new GooseShakeProbeState();
@@ -102,6 +103,7 @@ namespace CatchGoose
                 affected=motion!=null?motion.affected:lastAffected,pulses=motion!=null?motion.pulses:lastPulses,
                 moved=motion!=null?motion.moved:0,turned=motion!=null?motion.turned:0,
                 planarMoved=motion!=null?motion.planarMoved:0,maxPlanarTravel=motion!=null?motion.maxPlanarTravel:0,meanPlanarTravel=motion!=null?motion.meanPlanarTravel:0,
+                fallbackAttempted=motion!=null&&motion.fallbackAttempted,fallbackCompleted=motion!=null&&motion.fallbackCompleted,fallbackFailure=motion!=null?motion.fallbackFailure:"",
                 changedNeighbours=motion!=null?motion.changedNeighbours:0,maxTravel=motion!=null?motion.maxTravel:0,
                 meanTravel=motion!=null?motion.meanTravel:0,maxTurn=motion!=null?motion.maxTurn:0};
             Debug.Log("[GooseShakeTest] "+JsonUtility.ToJson(e));

@@ -7,34 +7,50 @@ namespace CatchGoose
     {
         [Serializable] public sealed class MotionResult
         {
+            public string mode="physics";
+            public bool tossCompleted;public string tossFailure;
             public int affected,moved,planarMoved,turned,changedNeighbours,pulses;
             public float maxTravel,meanTravel,maxPlanarTravel,meanPlanarTravel,maxTurn,maxAddedHorizontal,maxAddedVertical;
-            public bool interrupted;
+            public bool interrupted,fallbackAttempted,fallbackCompleted;
+            public string fallbackFailure;
         }
         sealed class Target
         {
-            public GooseItem item,neighbour;public Vector3 start;public Quaternion rotation;
+            public GooseItem item,neighbour;public int instanceId;public Vector3 start;public Quaternion rotation;
             public Vector2 added;public Vector3 spread,spin;
             public float travel,planar,turn,horizontal,vertical;public bool affected;
         }
         public const float Cooldown=1.5f;
+        public const float MaximumGestureSeconds=2.3f;
         public int Accepted {get;private set;}
         public bool SensorAvailable {get;set;}
         public float CooldownRemaining=>Mathf.Max(0,nextShake-Time.unscaledTime);
         public bool Active=>pending||tracking;
+        public bool FallbackActive=>tracking&&fallbackStarted&&game&&game.SurfaceShuffle&&game.SurfaceShuffle.OwnerFromShake;
+        public bool TossActive=>tracking&&tossStarted&&game&&game.SurfaceShuffle&&game.SurfaceShuffle.OwnerPhoneToss;
         public MotionResult LastMotion {get;private set;}
         readonly List<int> targetIds=new List<int>(48);
         public IReadOnlyList<int> TargetIds=>targetIds;
         readonly List<GooseItem> candidates=new List<GooseItem>(320);
+        readonly List<GooseItem> fallbackTargets=new List<GooseItem>(48);
         readonly List<Target> targets=new List<Target>(48);
         readonly Target[] pool=new Target[48];
         GooseGame game;GooseCircularContainer container;Vector3 gravity,direction;
         float lastSample=-1,nextShake,peakTime=-10,strength,started,samplePeak;
         Vector3 sampleDirection;
         bool pending,tracking,measure,sensorInput;int pulse;
+        bool fallbackAttempted,fallbackStarted,fallbackFinished,fallbackCompleted;
+        string fallbackFailure="";
+        bool tossRequested,tossStarted,tossFinished,tossSucceeded;string tossFailure="";
         public void Initialize(GooseGame owner){game=owner;for(int i=0;i<pool.Length;i++)pool[i]=new Target();}
         public void ResetSensor(){lastSample=-1;peakTime=-10;gravity=Vector3.zero;if(sensorInput&&tracking)strength=0;}
-        public void CancelRound(){pending=false;if(tracking)FinishMotion(true);targets.Clear();targetIds.Clear();nextShake=0;ResetSensor();}
+        public void CancelRound()
+        {
+            pending=false;
+            if(FallbackActive||TossActive){fallbackFailure="round_interrupted";tossFailure="round_interrupted";game.SurfaceShuffle.CancelRound();}
+            if(tracking)FinishMotion(true);
+            targets.Clear();targetIds.Clear();candidates.Clear();fallbackTargets.Clear();nextShake=0;ResetSensor();
+        }
         public static bool CanShake(GooseItem item)=>item&&!item.Picked&&item.gameObject.activeInHierarchy&&item.SurfaceActive&&!item.SurfaceAnimating&&item.DepthVisible&&!item.DepthHeld&&item.Body&&!item.Body.isKinematic;
         public void Sample(Vector3 acceleration,float timestamp)
         {
@@ -57,12 +73,14 @@ namespace CatchGoose
         bool TryRequest(Vector3 input,float power,bool sensor)
         {
             if(!game)return false;
-            string rejected=!game.Playing?"not_playing":game.Paused?"paused":!game.SpawnComplete?"opening":game.Depth.AnimationInProgress?"reordering":Time.unscaledTime<nextShake?"cooldown":null;
+            string rejected=!game.Playing?"not_playing":game.Paused?"paused":!game.SpawnComplete?"opening":game.Depth.AnimationInProgress?"reordering":tracking&&fallbackStarted?"finishing_shake":Time.unscaledTime<nextShake?"cooldown":null;
             if(rejected==null)
             {
-                bool available=false;
-                foreach(var item in game.Items)if(CanShake(item)){available=true;break;}
-                if(!available)rejected="no_surface";
+                // The accepted input fixes its candidate snapshot now. The first
+                // physics step can remove invalid entries, but never add new ones.
+                game.Depth.CopySurface(candidates);
+                candidates.RemoveAll(item=>!CanShake(item));
+                if(candidates.Count==0)rejected="no_surface";
             }
             if(rejected!=null){game.ShakeDiagnostics?.Request(sensor,false,rejected);return false;}
             if(tracking)FinishMotion(true);
@@ -77,13 +95,15 @@ namespace CatchGoose
         void BeginMotion()
         {
             pending=false;tracking=true;pulse=0;started=Time.time;container=game.Container;measure=GooseSave.IsQa||(game.ShakeDiagnostics&&game.ShakeDiagnostics.Active)||(game.DeviceMonitor&&game.DeviceMonitor.Requested);
-            candidates.Clear();targets.Clear();targetIds.Clear();game.Depth.CopySurface(candidates);
+            fallbackAttempted=fallbackStarted=fallbackFinished=fallbackCompleted=false;fallbackFailure="";fallbackTargets.Clear();
+            tossRequested=tossStarted=tossFinished=tossSucceeded=false;tossFailure="";
+            targets.Clear();targetIds.Clear();
             candidates.RemoveAll(item=>!CanShake(item));
             candidates.Sort((a,b)=>b.Body.position.y.CompareTo(a.Body.position.y));
             var profile=GooseInteractionProfile.Current;int count=Mathf.Min(Mathf.Min(candidates.Count,profile.shakeMaxBodies),pool.Length);
             for(int i=0;i<count;i++)
             {
-                var t=pool[i];t.item=candidates[i];t.start=t.item.Body.position;t.rotation=t.item.Body.rotation;t.travel=t.planar=t.turn=t.horizontal=t.vertical=0;t.added=Vector2.zero;t.affected=false;t.neighbour=null;
+                var t=pool[i];t.item=candidates[i];t.instanceId=t.item.GetInstanceID();t.start=t.item.Body.position;t.rotation=t.item.Body.rotation;t.travel=t.planar=t.turn=t.horizontal=t.vertical=0;t.added=Vector2.zero;t.affected=false;t.neighbour=null;
                 float angle=i*2.399963f;t.spread=new Vector3(Mathf.Cos(angle),0,Mathf.Sin(angle));t.spin=new Vector3(Mathf.Sin(angle),.25f,Mathf.Cos(angle))*((i&1)==0?1:-1);
                 targets.Add(t);targetIds.Add(t.item.GetInstanceID());
                 // Existing dynamic bodies only. Do not release, reveal or change contact materials.
@@ -91,6 +111,14 @@ namespace CatchGoose
             }
             if(measure)foreach(var t in targets)t.neighbour=Nearest(t.item);
             game.Depth.Invalidate();game.PlaySound("shake");
+            // The accepted gesture starts one bounded pan toss immediately.
+            // The helper copies only this original surface; no force is sent to
+            // buried supports, and the animation never spends a tool.
+            tossRequested=true;
+            foreach(var t in targets)fallbackTargets.Add(t.item);
+            tossStarted=game.SurfaceShuffle&&game.SurfaceShuffle.BeginTossFromShake(fallbackTargets,container,1.55f);
+            if(tossStarted)foreach(var t in targets)t.affected=true;
+            else tossFailure=game.SurfaceShuffle?game.SurfaceShuffle.LastFailure:"pan_toss_helper_missing";
         }
         GooseItem Nearest(GooseItem item)
         {
@@ -103,12 +131,60 @@ namespace CatchGoose
             if(!game||!game.Playing||!game.SpawnComplete){pending=false;if(tracking)FinishMotion(true);return;}
             if(game.Paused)return;if(pending)BeginMotion();if(!tracking)return;
             if(container!=game.Container){FinishMotion(true);return;}
-            if(measure)foreach(var t in targets)if(t.item&&!t.item.Picked)
-            {var delta=t.item.Body.position-t.start;t.travel=Mathf.Max(t.travel,delta.magnitude);t.planar=Mathf.Max(t.planar,new Vector2(delta.x,delta.z).magnitude);t.turn=Mathf.Max(t.turn,Quaternion.Angle(t.rotation,t.item.Body.rotation));}
-            var p=GooseInteractionProfile.Current;
+            ObserveTargets();
+            var p=GooseInteractionProfile.Current;float elapsed=Time.time-started;
+            if(tossRequested)
+            {
+                if(elapsed>=MaximumGestureSeconds&&TossActive)
+                {tossFailure="gesture_deadline";game.SurfaceShuffle.CancelRound();}
+                if(!TossActive){ReadTossCompletion();FinishMotion(!tossSucceeded);}
+                return;
+            }
             if(samplePeak>0){direction=sampleDirection;strength=Mathf.Max(strength,samplePeak);samplePeak=0;}
-            if(Time.time-started<p.shakeForceWindowSeconds)ApplyForce(p);
-            if(Time.time-started>=p.shakeObserveSeconds)FinishMotion(false);
+            if(elapsed<p.shakeForceWindowSeconds&&!FallbackActive)ApplyForce(p);
+            if(fallbackStarted&&!FallbackActive&&!fallbackFinished)ReadFallbackCompletion();
+            if(!fallbackAttempted&&elapsed>=.65f)TryPlanarFallback(elapsed);
+            if(elapsed>=MaximumGestureSeconds&&FallbackActive)
+            {fallbackFailure="gesture_deadline";game.SurfaceShuffle.CancelRound();ReadFallbackCompletion();}
+            if(elapsed>=p.shakeObserveSeconds&&!FallbackActive&&(!fallbackStarted||fallbackFinished))
+                FinishMotion(fallbackAttempted&&!fallbackCompleted);
+        }
+        void ObserveTargets()
+        {
+            if(measure)foreach(var t in targets)if(t.item&&!t.item.Picked&&t.item.GetInstanceID()==t.instanceId)
+            {var delta=t.item.Body.position-t.start;t.travel=Mathf.Max(t.travel,delta.magnitude);t.planar=Mathf.Max(t.planar,new Vector2(delta.x,delta.z).magnitude);t.turn=Mathf.Max(t.turn,Quaternion.Angle(t.rotation,t.item.Body.rotation));}
+        }
+        void TryPlanarFallback(float elapsed)
+        {
+            fallbackTargets.Clear();int enough=0;float distance=game.ItemScale*.12f;
+            foreach(var target in targets)
+            {
+                if(!target.item||target.item.GetInstanceID()!=target.instanceId||!CanShake(target.item))continue;
+                fallbackTargets.Add(target.item);var delta=target.item.Body.position-target.start;
+                if(new Vector2(delta.x,delta.z).magnitude>=distance)enough++;
+            }
+            if(fallbackTargets.Count==0||enough>=Mathf.CeilToInt(fallbackTargets.Count*.5f))return;
+            // Continue checking until the normal observation ends: an early hop
+            // which returns to its old slot is not a successful reordering.
+            fallbackAttempted=true;
+            float remaining=Mathf.Min(1.55f,MaximumGestureSeconds-elapsed);
+            fallbackStarted=game.SurfaceShuffle&&game.SurfaceShuffle.BeginFromShake(fallbackTargets,container,remaining);
+            fallbackFinished=!fallbackStarted;
+            if(!fallbackStarted)fallbackFailure=game.SurfaceShuffle?game.SurfaceShuffle.LastFailure:"reorder_helper_missing";
+        }
+        void ReadFallbackCompletion()
+        {
+            fallbackFinished=true;var helper=game.SurfaceShuffle;
+            fallbackCompleted=helper&&helper.LastFromShake&&helper.LastMotion!=null&&!helper.LastMotion.interrupted;
+            if(!fallbackCompleted&&string.IsNullOrEmpty(fallbackFailure))
+                fallbackFailure=helper&&!string.IsNullOrEmpty(helper.LastFailure)?helper.LastFailure:"reorder_interrupted";
+        }
+        void ReadTossCompletion()
+        {
+            tossFinished=true;var helper=game.SurfaceShuffle;
+            tossSucceeded=tossStarted&&helper&&helper.LastPhoneToss&&helper.LastMotion!=null&&!helper.LastMotion.interrupted;
+            if(!tossSucceeded&&string.IsNullOrEmpty(tossFailure))
+                tossFailure=helper&&!string.IsNullOrEmpty(helper.LastFailure)?helper.LastFailure:"pan_toss_interrupted";
         }
         void ApplyForce(GooseInteractionProfile p)
         {
@@ -136,7 +212,9 @@ namespace CatchGoose
                     float targetLift=p.shakeLiftSpeed*Mathf.Lerp(.7f,1,strength);
                     dv.y=Mathf.Min(Mathf.Max(0,targetLift-body.velocity.y),Mathf.Max(0,p.shakeVerticalBudget-t.vertical));
                 }
-                if(pulse==0)
+                // Explicit velocity-change torque can bypass PhysX's rotation
+                // locks. Respect a fully rotation-locked body's contract.
+                if(pulse==0&&(body.constraints&RigidbodyConstraints.FreezeRotation)!=RigidbodyConstraints.FreezeRotation)
                 {
                     var spin=Vector3.ClampMagnitude(body.angularVelocity+t.spin*(p.shakeTurnSpeed*.32f*strength),p.maxShakeAngularVelocity)-body.angularVelocity;
                     body.AddTorque(spin,ForceMode.VelocityChange);
@@ -166,7 +244,12 @@ namespace CatchGoose
         }
         void FinishMotion(bool interrupted)
         {
-            var result=new MotionResult{pulses=pulse,interrupted=interrupted};float distance=Mathf.Max(.03f,game.ItemScale*.05f);
+            if(interrupted&&TossActive){tossFailure="gesture_interrupted";game.SurfaceShuffle.CancelRound();}
+            if(tossRequested&&!tossFinished)ReadTossCompletion();
+            if(interrupted&&FallbackActive){fallbackFailure="gesture_interrupted";game.SurfaceShuffle.CancelRound();}
+            if(fallbackStarted&&!fallbackFinished)ReadFallbackCompletion();
+            ObserveTargets();
+            var result=new MotionResult{mode=tossRequested?"controlled-pan-toss":"physics",tossCompleted=tossSucceeded,tossFailure=tossFailure,pulses=pulse,interrupted=interrupted,fallbackAttempted=fallbackAttempted,fallbackCompleted=fallbackCompleted,fallbackFailure=fallbackFailure};float distance=Mathf.Max(.03f,game.ItemScale*.05f);
             foreach(var t in targets)if(t.affected)
             {
                 result.affected++;result.maxTravel=Mathf.Max(result.maxTravel,t.travel);result.meanTravel+=t.travel;result.maxTurn=Mathf.Max(result.maxTurn,t.turn);
@@ -177,6 +260,6 @@ namespace CatchGoose
             }
             if(result.affected>0){result.meanTravel/=result.affected;result.meanPlanarTravel/=result.affected;}LastMotion=result;tracking=false;targets.Clear();game.ShakeDiagnostics?.MotionMeasured(result);
         }
-        void OnDisable(){pending=tracking=false;targets.Clear();}
+        void OnDisable(){CancelRound();}
     }
 }

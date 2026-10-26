@@ -22,6 +22,11 @@ namespace CatchGoose
 #if UNITY_WEBGL && GOOSE_WECHAT && !UNITY_EDITOR
         GooseGame game;
         bool accelerometer;
+        bool accelerometerWanted;
+        bool accelerometerStopping;
+        int accelerometerGeneration, accelerometerAttempts, accelerometerStopGeneration;
+        float nextAccelerometerRetry;
+        System.Action<OnAccelerometerChangeListenerResult> accelerometerHandler;
         int preferredFps;
         readonly Dictionary<int, Vector2> touches = new Dictionary<int, Vector2>();
         readonly List<RaycastResult> uiHits = new List<RaycastResult>();
@@ -123,25 +128,79 @@ namespace CatchGoose
         {
             if(!HandlesPointer||!game||!game.Shake)return;
             ApplyFrameRate();
-            bool needed=game.Playing&&!game.Paused&&game.SpawnComplete;
-            if(needed==accelerometer)return;
-            accelerometer=needed;game.Shake.ResetSensor();
-            if(needed)
+            if(!NeedsAccelerometer())
             {
-                WX.OnAccelerometerChange(Acceleration);
-                int attempt=game.ShakeDiagnostics.Begin();
-                WX.StartAccelerometer(new StartAccelerometerOption{interval="ui",
-                    success=r=>{if(game.ShakeDiagnostics.StartResult(attempt,true,r.errMsg))game.Shake.SensorAvailable=true;},
-                    fail=r=>{if(game.ShakeDiagnostics.StartResult(attempt,false,r.errMsg))game.Shake.SensorAvailable=false;Debug.LogWarning("[GooseShake] sensor unavailable: "+r.errMsg);}});
+                if(accelerometerWanted||accelerometer||accelerometerHandler!=null)
+                    StopAccelerometerListener(game.Paused?"已暂停监听":"已退出关卡");
+                return;
             }
-            else{WX.OffAccelerometerChange(Acceleration);game.Shake.SensorAvailable=false;game.ShakeDiagnostics.Stop(game.Paused?"已暂停监听":"已退出关卡");WX.StopAccelerometer(new StopAccelerometerOption{success=r=>Debug.Log("[GooseShakeTest] stop_success "+r.errMsg),fail=r=>Debug.LogWarning("[GooseShakeTest] stop_failed "+r.errMsg)});}
+            if(!accelerometerWanted)
+            {accelerometerWanted=true;accelerometerAttempts=0;nextAccelerometerRetry=0;}
+            // A delayed stop completion must finish before a new listener starts.
+            if(accelerometer||accelerometerStopping||accelerometerAttempts>=3||Time.unscaledTime<nextAccelerometerRetry)return;
+            StartAccelerometerAttempt();
+        }
+        bool NeedsAccelerometer()=>HandlesPointer&&game&&game.Shake&&
+            KeepAccelerometer(game.Playing,game.TransitioningToChallenge,game.Paused,game.AppVisible);
+        bool CurrentAccelerometerAttempt(int generation)=>this&&accelerometer&&accelerometerWanted&&
+            generation==accelerometerGeneration&&NeedsAccelerometer();
+        void StartAccelerometerAttempt()
+        {
+            int generation=++accelerometerGeneration;accelerometer=true;accelerometerAttempts++;
+            game.Shake.ResetSensor();game.Shake.SensorAvailable=false;
+            int attempt=game.ShakeDiagnostics.Begin();
+            // Keep the exact delegate registered by this attempt. Generation and
+            // lifecycle checks also reject callbacks already queued before Off.
+            accelerometerHandler=evt=>
+            {if(CurrentAccelerometerAttempt(generation))Acceleration(evt);};
+            WX.OnAccelerometerChange(accelerometerHandler);
+            WX.StartAccelerometer(new StartAccelerometerOption{interval="ui",
+                success=r=>
+                {
+                    if(!CurrentAccelerometerAttempt(generation))return;
+                    if(game.ShakeDiagnostics.StartResult(attempt,true,r.errMsg))game.Shake.SensorAvailable=true;
+                },
+                fail=r=>
+                {
+                    if(!CurrentAccelerometerAttempt(generation))return;
+                    game.ShakeDiagnostics.StartResult(attempt,false,r.errMsg);
+                    ReleaseAccelerometerAttempt();
+                    nextAccelerometerRetry=Time.unscaledTime+(accelerometerAttempts==1?.5f:1f);
+                    game.ShakeDiagnostics.Stop(accelerometerAttempts<3?"启动失败，等待重试":"启动失败，暂停后可重试");
+                    Debug.LogWarning("[GooseShake] sensor unavailable ("+accelerometerAttempts+"/3): "+r.errMsg);
+                    // Start failed: remove its listener, but do not queue an old
+                    // asynchronous Stop which could stop the next retry.
+                }});
+        }
+        void ReleaseAccelerometerAttempt()
+        {
+            accelerometerGeneration++;
+            if(accelerometerHandler!=null)WX.OffAccelerometerChange(accelerometerHandler);
+            accelerometerHandler=null;accelerometer=false;
+            if(game&&game.Shake){game.Shake.SensorAvailable=false;game.Shake.ResetSensor();}
+        }
+        void StopAccelerometerListener(string reason)
+        {
+            bool hadAttempt=accelerometerWanted||accelerometer||accelerometerHandler!=null;
+            // Invalidate callbacks and retries before requesting the platform stop.
+            ReleaseAccelerometerAttempt();accelerometerWanted=false;accelerometerAttempts=0;nextAccelerometerRetry=0;
+            if(game&&game.ShakeDiagnostics)game.ShakeDiagnostics.Stop(reason);
+            if(hadAttempt&&!accelerometerStopping)
+            {
+                int stopGeneration=++accelerometerStopGeneration;
+                accelerometerStopping=true;
+                WX.StopAccelerometer(new StopAccelerometerOption{
+                    success=r=>Debug.Log("[GooseShakeTest] stop_success "+r.errMsg),
+                    fail=r=>Debug.LogWarning("[GooseShakeTest] stop_failed "+r.errMsg),
+                    complete=r=>{if(stopGeneration==accelerometerStopGeneration)accelerometerStopping=false;}});
+            }
         }
         void Hidden(GeneralCallbackResult evt)
         {
             game.SetAppVisible(false);
             game.CancelPointer(); touches.Clear(); PlayerPrefs.Save();
             game.Shake.ResetSensor();
-            if(accelerometer){WX.OffAccelerometerChange(Acceleration);WX.StopAccelerometer(new StopAccelerometerOption{});accelerometer=false;game.Shake.SensorAvailable=false;game.ShakeDiagnostics.Stop("已切到后台");}
+            StopAccelerometerListener("已切到后台");
             if (game.Video.Active) game.Video.Close();
             if (game.Playing && !game.Paused) game.Pause();
         }
@@ -152,8 +211,7 @@ namespace CatchGoose
                 game.CancelPointer();
                 WX.OffTouchStart(TouchStart); WX.OffTouchMove(TouchMove); WX.OffTouchEnd(TouchEnd); WX.OffTouchCancel(TouchCancel);
                 WX.OffHide(Hidden);
-                WX.OffShow(Shown);WX.OffAccelerometerChange(Acceleration);
-                if(accelerometer)WX.StopAccelerometer(new StopAccelerometerOption{});
+                WX.OffShow(Shown);StopAccelerometerListener("监听已销毁");
                 WX.OffWindowResize(WindowResized);
             }
             HandlesPointer = false;
@@ -161,5 +219,9 @@ namespace CatchGoose
 #else
         public void Initialize(GooseGame owner) { }
 #endif
+        // Keep one stream across the tutorial win and challenge preparation.
+        // Sample() separately rejects input until the new pile is interactive.
+        public static bool KeepAccelerometer(bool playing,bool transitioning,bool paused,bool appVisible)
+            =>(playing||transitioning)&&!paused&&appVisible;
     }
 }

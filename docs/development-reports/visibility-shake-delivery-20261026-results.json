@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-26",
+  "build": "20261026-VISIBILITY1-SHAKE9",
+  "nativeAcceptancePassed": true,
+  "editorTests": {
+    "passed": 71,
+    "failed": 0,
+    "sha256": "db5e3488654884784febc78d44e8c39195e9163bcf700ce6668922290719d974"
+  },
+  "reports": [
+    {
+      "path": "r2-visibility-frozen-theme-0/visibility-stability.json",
+      "sha256": "5108883d65e49b9a144451b25ac447407da6e911f40abff8c58cbbfd27dd07ce",
+      "passed": true,
+      "checks": 14,
+      "rows": 0,
+      "hidden": 70,
+      "finalWindowVisibleFlips": 0
+    },
+    {
+      "path": "r2-visibility-frozen-theme-1/visibility-stability.json",
+      "sha256": "a76c8d16f2c84ec540a471cdd295248063ec794f70242f23260bcaa54c81ef05",
+      "passed": true,
+      "checks": 14,
+      "rows": 0,
+      "hidden": 95,
+      "finalWindowVisibleFlips": 0
+    },
+    {
+      "path": "r2-visibility-frozen-theme-2/visibility-stability.json",
+      "sha256": "4cb2df5222efc13eaf7ed2033af925f806d0fa938c6e463750512bd924a8d2f3",
+      "passed": true,
+      "checks": 14,
+      "rows": 0,
+      "hidden": 90,
+      "finalWindowVisibleFlips": 0
+    },
+    {
+      "path": "r2-visibility-frozen-theme-3/visibility-stability.json",
+      "sha256": "fabac51d28d2a25b627db93d3b9b396d6b6f9c060a1b821bbf9bae5b5d3b2fbb",
+      "passed": true,
+      "checks": 14,
+      "rows": 0,
+      "hidden": 83,
+      "finalWindowVisibleFlips": 0
+    },
+    {
+      "path": "r2-visibility-frozen-theme-4/visibility-stability.json",
+      "sha256": "b969704112be6745437e134df2833a3d56cbca1ad35f3bfe42d42b9be9b28f61",
+      "passed": true,
+      "checks": 14,
+      "rows": 0,
+      "hidden": 91,
+      "finalWindowVisibleFlips": 0
+    },
+    {
+      "path": "r2-transition-theme-0/stage-two-stability.json",
+      "sha256": "74e13e66ea6d228e5db09248f066209de7ff89ae1698f3415e99d71ae2a3fbfb",
+      "passed": true,
+      "checks": 12,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-transition-theme-1/stage-two-stability.json",
+      "sha256": "3fd9c6c4690609d049ad861320ffeff607094d23ba5f05eadd3c861d8ef9c709",
+      "passed": true,
+      "checks": 12,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-transition-theme-2/stage-two-stability.json",
+      "sha256": "85ae4390975fd8ae7c8afeef8d184630c1a4b8f53b785de2b333c381fc33a1c2",
+      "passed": true,
+      "checks": 12,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-transition-theme-3/stage-two-stability.json",
+      "sha256": "fa1bb0f914afdeaa91fa05e8d370ecbcb9c8117e9c3074d005c9d56e33b7d09b",
+      "passed": true,
+      "checks": 12,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-transition-theme-4/stage-two-stability.json",
+      "sha256": "c07391f0e2554a44418e855fe53f1035eafeae1c12bd5c0208628cd80ad89402",
+      "passed": true,
+      "checks": 12,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-visibility-natural-theme-0/visibility-stability.json",
+      "sha256": "1f2d30204823ca325c4f395f411817d9b768641f18c1e4b0d7cb01bdc3032904",
+      "passed": true,
+      "checks": 13,
+      "rows": 0,
+      "hidden": 70,
+      "finalWindowVisibleFlips": 0
+    },
+    {
+      "path": "r3-reveal-theme-0/reveal-stability.json",
+      "sha256": "61d14b11b2dc7bfe7c0f28df8b45c3df1e6fa42cf8bfb031915159497da7cb6f",
+      "passed": true,
+      "checks": 1234,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-selection/acceptance.json",
+      "sha256": "26b4791ba00cc5ffe65058bf834f331c184e1c4e3a790b570f70e30c5dc8be5c",
+      "passed": true,
+      "checks": 122,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-interaction/interaction.json",
+      "sha256": "69c9d0f5a4101cae7aaf124c602ab00345453d07c62904fac371d54bd89ef383",
+      "passed": true,
+      "checks": 61,
+      "rows": 0,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    },
+    {
+      "path": "r2-matrix/surface-acceptance.json",
+      "sha256": "e512cb720dc2c008f96140a687922e1d161bcb7403e895ec7981a83c266bb891",
+      "passed": true,
+      "checks": 2999,
+      "rows": 95,
+      "hidden": null,
+      "finalWindowVisibleFlips": null
+    }
+  ],
+  "matrixRows": 95,
+  "nativeChecks": 4559,
+  "sensorLifecycleMock": {
+    "passed": true,
+    "scope": "Actual source lifecycle method block compiled unchanged against a controlled asynchronous SDK mock; not WeChat or phone runtime evidence.",
+    "checks": [
+      "pause/resume/pause coalesces pending stop",
+      "failed Stop complete releases the wait",
+      "old completion cannot release a newer pending stop",
+      "tutorial transition retains the current listener",
+      "queued callbacks from a retired generation are ignored",
+      "late start success cannot overwrite new attempt",
+      "start failure retries remain bounded"
+    ],
+    "errors": [],
+    "sourceSha256": "9ecab9be1175189faeaf7962b66f4dde70d0f88c197d81d5812fca3a4caa598e",
+    "testedMethodBlockSha256": "778044fa4ad289416e48b5c222b407a23a9d371a5b5bc17153024835c065ca19"
+  },
+  "sourceBaseCommit": "a4713ae6676ec12eccfd59cebe86d732344b2cfd",
+  "gameplaySourceMatchesBuildSnapshot": true,
+  "coreSourceSha256": {
+    "GooseItem.cs": "d78feccb20127615009b65c07f74e0efb101c956e62a578db55bc5c5f85ede8b",
+    "GoosePileDepth.cs": "b35b95825bb55422d514d34f28ed2380ba92b20f981b827e867b9acd0e7d6bb9",
+    "GooseShakeController.cs": "cc10e82de3b7eabb59840821c2e4fe2e373729d53cf8a990264d72e8ae181387",
+    "GooseSurfaceShuffle.cs": "4838199ed3a5be2fcd4c6e0d9514283445a1a611201a9d723d8b84a67f117ed0",
+    "GooseWeChatPlatform.cs": "9ecab9be1175189faeaf7962b66f4dde70d0f88c197d81d5812fca3a4caa598e",
+    "GooseRuntimePerformance.cs": "7bf5970072fb2357a7c7054f36ed8511109c82357b501576222f35c555dc889e"
+  },
+  "wechat": {
+    "appId": "wx60b50db2472c4782",
+    "localBytes": 27339908,
+    "javascriptFiles": 61,
+    "exportManifestSha256": "327bc1752e1fbed0101e10ad4bd94431b650747db1601ec23650bdf9ea1b91ba",
+    "auditSha256": "1f18728d584119afc6eeaf06cc481e2ebbe8443f65d372ab599ddfd2eeb95bd2",
+    "payloads": {
+      "data-package/123a5155384d7376.webgl.data.unityweb.bin.br": {
+        "bytes": 16756370,
+        "sha256": "4b6c6e4db0027f4328698d7906ed99009637d7b2e67a87c7ccbd632417785775"
+      },
+      "wasmcode/925a720df49b91c1.webgl.wasm.code.unityweb.wasm.br": {
+        "bytes": 4371864,
+        "sha256": "6673c963b3ab83b0fcabebcebb7b47f65f1a09c8633cc192abd3412c61b43e59"
+      }
+    },
+    "preview": {
+      "total": 27771880,
+      "packages": [
+        {
+          "name": "TOTAL",
+          "size": 27771880
+        },
+        {
+          "name": "main",
+          "size": 1478494
+        },
+        {
+          "name": "/data-package/",
+          "size": 16756383
+        },
+        {
+          "name": "/media/",
+          "size": 5165126
+        },
+        {
+          "name": "/wasmcode/",
+          "size": 4371877
+        }
+      ]
+    },
+    "previewSha256": "d913d78f722696bb40d4da13656d41c76b80c62312bc2a1aca69f18e87979f14",
+    "wasmStartupObserved": true,
+    "realPointerPickObserved": true,
+    "runtimeObservationSha256": "1cffc82e81adc4078abf7953aa11453d4928f62e6dc4a64b8001e076be201eb9",
+    "runtimeObservedWasm": "925a720df49b91c1",
+    "sensorStartPassed": false,
+    "sensorError": "startAccelerometer:fail please go to mp to announce your privacy usage",
+    "phoneAcceptancePassed": null,
+    "experienceVersionSelected": null,
+    "upload": {
+      "version": "1.0.9",
+      "completedUtc": "2026-10-26T11:10:10.5919273Z",
+      "appId": "wx60b50db2472c4782",
+      "uploaded": true,
+      "exportManifestSha256": "327bc1752e1fbed0101e10ad4bd94431b650747db1601ec23650bdf9ea1b91ba",
+      "publicReleasePerformed": false,
+      "experienceVersionSelected": null,
+      "logSha256": "e4d8fc4b7b3e641576be21f3b92883a4e16146ffbd33688552b2d3c4dd41fe14",
+      "exitCode": 0
+    },
+    "platformBytes": 27771880
+  },
+  "scope": "Actual fixed native QA and WeChat DevTools runtime/package checks. Synthetic motion is not real phone or sensor acceptance. Backend privacy usage is still blocking the real WeChat sensor."
+}

@@ -19,10 +19,35 @@ namespace CatchGoose
             public float p50ms, p95ms, maxms, slowFrameFraction, beginCpuMs, depthRefreshMs, activeSurfaceThreshold, modelSize, minHullY = 100, maxTravel, meanTravel, maxTurn, managedMiB, unityMiB;
             public double shufflePlanningMs, shuffleMaxSliceMs;
             public int gcCollections, planarMovedEnough; public float maxPlanarTravel; public bool frameTimingMeasured; public int[] targetIds;
+            public string[] targetNames; public bool fallbackAttempted, fallbackCompleted; public string fallbackFailure;
+            public BodyState[] initialStates, helperStartStates, helperEndStates, settledStates;
+            public Vector3 nudgeStart, nudgeEnd; public float gestureSeconds, helperEndSeconds;
             public float preCorrectionMinY, afterLateMinY, preCorrectionBodyMinY, bodyMinY, endPreCorrectionMinY, endAfterLateMinY, endBodyMinY;
+            public float maxRise, peakXZ, peakXZPixels, itemScale; public int liftedEnough, turnedEnough, jointEnough, visibleArcEnough, tossFloorViolations, tossBoundaryViolations;
+            public bool tossHelperStarted, controlledTossObserved, tossCompleted; public string motionMode, tossFailure; public TossTarget[] tossTargets;
+            public List<BoundaryEvent> boundaryEvents = new List<BoundaryEvent>();
         }
         struct FloorSample { public float visual, body; public string itemId; }
+        [Serializable] sealed class BodyState
+        {
+            public string item; public int constraints;
+            public Vector3 position, velocity, angularVelocity; public Quaternion rotation, visualRotation;
+            public bool kinematic, gravity;
+        }
         [Serializable] sealed class ClipFrame { public string file; public float seconds; }
+        [Serializable] sealed class TossTarget
+        {
+            public int instanceId; public string item; public Vector3 initialPosition, peakPosition, finalPosition;
+            public Quaternion initialRotation; public float maxRise, maxTurn, peakXZ, peakXZPixels, peakRiseSeconds, airborneFlipSeconds;
+            public bool airborneFlip;
+            public float maxRadial, maxRadialSeconds; public Vector3 maxRadialPosition;
+        }
+        [Serializable] sealed class BoundaryEvent
+        {
+            public int instanceId; public string item; public float seconds, radial, containerRadius;
+            public Vector3 position, velocity; public Quaternion rotation;
+            public bool ownerPhoneToss, surfaceAnimating, kinematic, gravity;
+        }
         [Serializable] sealed class Report
         {
             public string build = GooseRuntimePerformance.BuildId;
@@ -53,13 +78,25 @@ namespace CatchGoose
             firstTheme = int.Parse(Arg(args, "-gooseSurfaceTheme", "0")); themeCount = int.Parse(Arg(args, "-gooseSurfaceThemeCount", "5"));
             stockOnly = int.Parse(Arg(args, "-gooseSurfaceStock", "0"));
             part = Arg(args, "-gooseSurfacePart", "matrix"); Directory.CreateDirectory(output); GooseSave.IsQa = true;
-            if (part == "clip") { themeCount = 1; report.scope = "Production-camera visual capture with moderate 1.6g synthetic sensor input. Capture work changes timing; frame performance is not sampled or assessed."; }
+            if (part == "clip" || part == "toss") { themeCount = 1; report.scope = "Production-camera visual capture with moderate 1.6g synthetic sensor input. Controlled pan-toss mode is identified separately from physical Force; actual body rise/rotation/projection are sampled independently each rendered frame. Capture work changes timing; frame performance is not sampled or assessed."; }
+            if (part == "fallback") { themeCount = 1; report.scope = "Native pinned/free/single-object controlled pan-toss geometry and lifecycle acceptance. Every accepted gesture uses the declared controlled animation; this is not a Force or phone-performance claim."; }
             yield return null; game = GooseGame.Instance; game.InstantPicksForQa = true; StartCoroutine(Watchdog());
             Screen.SetResolution(390, 844, false);
             for (int theme = firstTheme; theme < Mathf.Min(game.Themes.Length, firstTheme + themeCount); theme++)
             {
                 yield return Open(theme);
-                if (part == "clip") { yield return CaptureClip(); continue; }
+                if (part == "fallback")
+                {
+                    yield return PhoneFallbackFixtures(); yield return TiltedSingleConvexFixture();
+                    yield return TiltedSingleConvexFixture("ref_bfsesameball", "fixture-actual-max-unique-single", "actual-max-unique", 0);
+                    yield return TiltedSingleConvexFixture("duck-steamedbread", "fixture-actual-max-raw-single", "actual-max-raw", 0);
+                    yield return PhoneFallbackInterruptions(); yield return LateContainmentFixture(); continue;
+                }
+                if (part == "clip" || part == "toss")
+                {
+                    if (stockOnly > 0 && stockOnly < 300) yield return Reduce(stockOnly);
+                    yield return CaptureClip(part == "toss"); continue;
+                }
                 if (part == "interrupt") { yield return Interruptions(); continue; }
                 if (part == "fixture") { yield return CompletenessFixture(); continue; }
                 if (stockOnly > 0)
@@ -242,7 +279,7 @@ namespace CatchGoose
             game.Depth.CopySurface(surface); var items = game.Remaining.ToArray();
             var row = new Row { theme = game.Theme.id, operation = operation, stock = items.Length, surface = surface.Count,
                 probes = game.Depth.LastProbeCount, depthRefreshMs = game.Depth.LastRefreshMs, managedMiB = GC.GetTotalMemory(false) / 1048576f,
-                activeSurfaceThreshold = game.Depth.ActiveSurfaceThreshold, modelSize = game.ModelSize,
+                activeSurfaceThreshold = game.Depth.ActiveSurfaceThreshold, modelSize = game.ModelSize, itemScale = game.ItemScale,
                 shufflePlanningMs = game.SurfaceShuffle.LastPlanningMilliseconds, shuffleMaxSliceMs = game.SurfaceShuffle.MaxPlanningSliceMilliseconds,
                 shuffleLastFailure = game.SurfaceShuffle.LastFailure, shuffleBlockingCollider = game.SurfaceShuffle.LastBlockingCollider,
                 preCorrectionMinY = beforeCorrection.visual, preCorrectionBodyMinY = beforeCorrection.body, preCorrectionItemId = beforeCorrection.itemId,
@@ -296,6 +333,19 @@ namespace CatchGoose
         }
         Pose Capture(GooseItem item)
         { return new Pose { item = item, position = item.Body.position, rotation = item.Body.rotation, held = item.DepthHeld, surface = item.SurfaceActive, gravity = item.Body.useGravity, visible = item.DepthVisible, colliders = item.Colliders, enabled = item.Colliders.Select(c => c.enabled).ToArray() }; }
+        int[] ToolUses() => Enumerable.Range(0, 3).Select(i => game.QaToolUses(i)).ToArray();
+        bool SameTools(int[] props, int[] uses) => props.SequenceEqual(game.Props) && uses.SequenceEqual(ToolUses());
+        static BodyState[] BodyStates(IEnumerable<GooseItem> items) => items.Where(i => i && i.Body).Select(i => new BodyState
+        {
+            item = i.Id + "/" + i.GetInstanceID(), constraints = (int)i.Body.constraints, position = i.Body.position,
+            velocity = i.Body.velocity, angularVelocity = i.Body.angularVelocity, rotation = i.Body.rotation,
+            visualRotation = i.transform.rotation, kinematic = i.Body.isKinematic, gravity = i.Body.useGravity
+        }).ToArray();
+        static void FallbackStats(Row row, GooseShakeController.MotionResult motion)
+        {
+            row.fallbackAttempted = motion.fallbackAttempted; row.fallbackCompleted = motion.fallbackCompleted; row.fallbackFailure = motion.fallbackFailure;
+            row.motionMode = motion.mode; row.tossCompleted = motion.tossCompleted; row.tossFailure = motion.tossFailure;
+        }
         bool InjectSensor(float amplitude)
         {
             int before = game.Shake.Accepted; game.Shake.ResetSensor(); float t = Time.unscaledTime;
@@ -312,29 +362,106 @@ namespace CatchGoose
                 if (travel >= game.ItemScale * .12f) row.planarMovedEnough++;
             }
         }
-        IEnumerator CaptureClip()
+        void ObserveClip(Row row, Pose[] poses, Dictionary<int, TossTarget> traces, float began)
+        {
+            // A declared controlled toss is measured as animation, never Force.
+            // The old weak-Force helper still cannot prove a physical kick.
+            if (game.SurfaceShuffle.OwnerPhoneToss) row.controlledTossObserved = true;
+            if (game.SurfaceShuffle.OwnerFromShake && !game.SurfaceShuffle.OwnerPhoneToss) row.tossHelperStarted = true;
+            var ids = game.Shake.TargetIds;
+            foreach (var pose in poses)
+            {
+                var item = pose.item; if (!item || item.Picked) continue;
+                if (pose.held && !pose.surface)
+                {
+                    if (item.SurfaceActive) pose.promoted = true;
+                    if (!pose.promoted && (!item.DepthHeld || !item.Body.isKinematic || item.Body.useGravity || !item.Body.detectCollisions ||
+                        Vector3.Distance(pose.position, item.Body.position) > .0005f || Quaternion.Angle(pose.rotation, item.Body.rotation) > .05f ||
+                        pose.colliders.Where((c, i) => c && c.enabled != pose.enabled[i]).Any())) row.lowerViolations++;
+                }
+                int id = item.GetInstanceID();
+                if (!ids.Contains(id) || !traces.TryGetValue(id, out var trace)) continue;
+                float minY = GooseColliderGeometry.MinY(item.SelectionCollider, GooseColliderGeometry.BodyMatrix(item.SelectionCollider, item.Body));
+                if (minY < GooseCircularContainer.FloorY - .025f) row.tossFloorViolations++;
+                var radial = new Vector2(item.Body.position.x, item.Body.position.z - GooseCircularContainer.CenterZ);
+                float radius = radial.magnitude;
+                if (radius > trace.maxRadial)
+                { trace.maxRadial = radius; trace.maxRadialSeconds = Time.realtimeSinceStartup - began; trace.maxRadialPosition = item.Body.position; }
+                if (radius > game.Container.Radius + .05f)
+                {
+                    row.tossBoundaryViolations++;
+                    row.boundaryEvents.Add(new BoundaryEvent { instanceId = id, item = item.Id, seconds = Time.realtimeSinceStartup - began,
+                        radial = radius, containerRadius = game.Container.Radius, position = item.Body.position, velocity = item.Body.velocity,
+                        rotation = item.Body.rotation, ownerPhoneToss = game.SurfaceShuffle.OwnerPhoneToss,
+                        surfaceAnimating = item.SurfaceAnimating, kinematic = item.Body.isKinematic, gravity = item.Body.useGravity });
+                }
+                trace.finalPosition = item.Body.position;
+                if (row.tossHelperStarted) continue;
+                Vector3 delta = item.Body.position - pose.position;
+                if (delta.y > trace.maxRise)
+                { trace.maxRise = delta.y; trace.peakPosition = item.Body.position; trace.peakRiseSeconds = Time.realtimeSinceStartup - began; }
+                float turn = Quaternion.Angle(pose.rotation, item.Body.rotation);
+                trace.maxTurn = Mathf.Max(trace.maxTurn, turn);
+                trace.peakXZ = Mathf.Max(trace.peakXZ, new Vector2(delta.x, delta.z).magnitude);
+                var firstScreen = game.MainCamera.WorldToScreenPoint(pose.position);
+                var nowScreen = game.MainCamera.WorldToScreenPoint(item.Body.position);
+                trace.peakXZPixels = Mathf.Max(trace.peakXZPixels, Vector2.Distance(firstScreen, nowScreen));
+                if (!trace.airborneFlip && delta.y >= game.ItemScale * .6f && turn >= 75)
+                { trace.airborneFlip = true; trace.airborneFlipSeconds = Time.realtimeSinceStartup - began; }
+            }
+        }
+        IEnumerator CaptureClip(bool requireToss = false)
         {
             yield return Settle(1.6f); var beforeCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
-            var row = Structure("sensor-moderate-clip", beforeCorrection);
+            var row = Structure(requireToss ? "sensor-moderate-toss" : "sensor-moderate-clip", beforeCorrection);
             var poses = game.Remaining.Select(Capture).ToArray(); game.Depth.CopySurface(surface);
+            var propsBefore = game.Props.ToArray(); var usesBefore = ToolUses();
             var eligible = new HashSet<int>(surface.Select(i => i.GetInstanceID()));
+            var traces = poses.Where(p => eligible.Contains(p.item.GetInstanceID())).ToDictionary(p => p.item.GetInstanceID(), p => new TossTarget {
+                instanceId = p.item.GetInstanceID(), item = p.item.Id, initialPosition = p.position, initialRotation = p.rotation, peakPosition = p.position });
             GooseFrameCapture.Save(Path.Combine(output, "clip-before.png"));
             Check(InjectSensor(1.6f), "visual clip accepts a moderate 1.6g gesture");
             float began = Time.realtimeSinceStartup;
-            for (int frame = 0; frame <= 25; frame++)
+            for (int frame = 0; frame < 33; frame++)
             {
-                while (Time.realtimeSinceStartup < began + frame * .1f) yield return null;
+                while (Time.realtimeSinceStartup < began + (frame + 1) * .1f)
+                { yield return new WaitForEndOfFrame(); ObserveClip(row, poses, traces, began); }
                 yield return new WaitForEndOfFrame(); string file = "clip-" + frame.ToString("000") + ".png";
+                ObserveClip(row, poses, traces, began);
                 report.clipFrames.Add(new ClipFrame { file = file, seconds = Time.realtimeSinceStartup - began });
                 GooseFrameCapture.Save(Path.Combine(output, file));
             }
             row.targetIds = game.Shake.TargetIds.ToArray();
+            row.targetNames = poses.Where(p => p.item && row.targetIds.Contains(p.item.GetInstanceID())).Select(p => p.item.Id + "/" + p.item.GetInstanceID()).ToArray();
             Check(row.targetIds.Length > 0 && row.targetIds.All(eligible.Contains), "visual clip affects only its initial activated surface");
             var targetPoses = poses.Where(p => p.item && row.targetIds.Contains(p.item.GetInstanceID())).ToArray();
+            row.tossTargets = row.targetIds.Where(traces.ContainsKey).Select(id => traces[id]).ToArray();
+            foreach (var trace in row.tossTargets)
+            {
+                row.maxRise = Mathf.Max(row.maxRise, trace.maxRise); row.peakXZ = Mathf.Max(row.peakXZ, trace.peakXZ);
+                row.peakXZPixels = Mathf.Max(row.peakXZPixels, trace.peakXZPixels);
+                bool lifted = trace.maxRise >= game.ItemScale * .6f, turned = trace.maxTurn >= 75;
+                if (lifted) row.liftedEnough++; if (turned) row.turnedEnough++; if (trace.airborneFlip) row.jointEnough++;
+                if (trace.peakXZ >= game.ItemScale * .18f && trace.peakXZPixels >= 15) row.visibleArcEnough++;
+            }
+            if (requireToss)
+            {
+                Check(row.controlledTossObserved, "controlled pan toss actually executes its declared trajectory");
+                Check(row.jointEnough >= Mathf.CeilToInt(targetPoses.Length * .6f), "pan toss raises and flips at least sixty percent of the same original targets while airborne");
+                Check(row.visibleArcEnough >= Mathf.CeilToInt(targetPoses.Length * .6f), "pan toss gives at least sixty percent of targets a real XZ arc of .18 scale and fifteen screen pixels");
+            }
+            Check(row.lowerViolations == 0, "visual clip never moves or releases an unexposed lower support");
+            Check(row.tossFloorViolations == 0, "visual clip target hulls stay above the unchanged floor tolerance");
+            Check(row.tossBoundaryViolations == 0, "visual clip target centers remain in the production container boundary");
             PlanarNetStats(row, targetPoses); var motion = game.Shake.LastMotion;
             Check(motion != null && motion.affected > 0, "visual clip records a completed nonzero motion");
             if (motion != null)
             {
+                row.motionMode = motion.mode;
+                Check(motion.mode == "controlled-pan-toss" && motion.tossCompleted && string.IsNullOrEmpty(motion.tossFailure),
+                    "controlled animation completes and is labelled explicitly rather than reported as Force");
+                FallbackStats(row, motion);
+                Check(!motion.interrupted && (!motion.fallbackAttempted || motion.fallbackCompleted), "visual clip finishes its real force/fallback gesture");
                 row.affected = motion.affected; row.moved = motion.moved; row.turned = motion.turned; row.changedNeighbours = motion.changedNeighbours;
                 row.maxTravel = motion.maxTravel; row.meanTravel = motion.meanTravel; row.maxTurn = motion.maxTurn;
                 int movedEnough = targetPoses.Count(p => Vector3.Distance(p.position, p.item.Body.position) >= game.ItemScale * .12f);
@@ -345,6 +472,7 @@ namespace CatchGoose
             }
             yield return null; var beforeEndCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
             RecordEndFloor(row, Structure("visual-clip-end", beforeEndCorrection)); Check(game.Remaining.Count() == row.stock, "visual clip conserves inventory");
+            Check(SameTools(propsBefore, usesBefore), "visual phone gesture never consumes or refunds props or tool-use counts");
             report.rows.Add(row); Save();
         }
         IEnumerator Operate(string operation)
@@ -352,6 +480,8 @@ namespace CatchGoose
             yield return Settle(1.6f); var beforeCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
             game.Depth.CopySurface(surface);
             var row = Structure(operation, beforeCorrection); var poses = game.Remaining.Select(Capture).ToArray();
+            if (row.stock == 3) row.initialStates = BodyStates(poses.Select(p => p.item));
+            var propsBefore = game.Props.ToArray(); var usesBefore = ToolUses();
             float top = poses.Max(p => p.item.SelectionCollider.bounds.max.y);
             // The published gameplay contract limits activation to the current
             // depth frontier. Seeing a lower piece through a narrow hole does not
@@ -378,6 +508,7 @@ namespace CatchGoose
             timer.Stop(); row.beginCpuMs = (float)timer.Elapsed.TotalMilliseconds; Check(accepted, row.theme + " accepted " + operation + "/" + row.stock);
             yield return new WaitForFixedUpdate(); yield return null;
             row.targetIds = (operation == "shuffle" ? game.SurfaceShuffle.TargetIds : game.Shake.TargetIds).ToArray();
+            row.targetNames = poses.Where(p => p.item && row.targetIds.Contains(p.item.GetInstanceID())).Select(p => p.item.Id + "/" + p.item.GetInstanceID()).ToArray();
             Check(row.targetIds.Length > 0 && row.targetIds.All(initialEligible.Contains), row.theme + " fixed eligible surface snapshot only " + operation + "/" + row.stock);
             Check(row.targetIds.Length <= GooseInteractionProfile.Current.shakeMaxBodies, row.theme + " bounded target count " + operation + "/" + row.stock);
             row.exposedSelected = row.targetIds.Count(independentlyExposed.Contains);
@@ -403,6 +534,11 @@ namespace CatchGoose
             Check(motion != null, row.theme + " motion observation finished " + operation + "/" + row.stock);
             if (motion != null)
             {
+                FallbackStats(row, motion);
+                Check(!motion.interrupted && (!motion.fallbackAttempted || motion.fallbackCompleted), row.theme + " actual motion completes " + operation + "/" + row.stock);
+                if (operation != "shuffle") Check(motion.mode == "controlled-pan-toss" && motion.tossCompleted && string.IsNullOrEmpty(motion.tossFailure),
+                    row.theme + " gesture completes its declared controlled pan toss " + operation + "/" + row.stock);
+                else Check(motion.mode == "surface-shuffle", row.theme + " paid prop retains its separate surface-shuffle path " + row.stock);
                 row.affected = motion.affected; row.moved = motion.moved; row.turned = motion.turned; row.changedNeighbours = motion.changedNeighbours;
                 row.maxTravel = motion.maxTravel; row.meanTravel = motion.meanTravel; row.maxTurn = motion.maxTurn;
                 Check(motion.affected > 0, row.theme + " nonzero actual affected " + operation + "/" + row.stock);
@@ -419,8 +555,10 @@ namespace CatchGoose
                 else Check(motion.moved > 0 && (motion.turned > 0 || relativeChanged || targetPoses.Length < 3), row.theme + " visible travel and turn/neighbour effect " + operation + "/" + row.stock);
             }
             Check(game.Remaining.Count() == row.stock, row.theme + " inventory conserved " + operation + "/" + row.stock);
+            if (operation != "shuffle") Check(SameTools(propsBefore, usesBefore), row.theme + " phone/manual gesture leaves all prop and use counts unchanged " + operation + "/" + row.stock);
             var beforeEndCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
             var endRow = Structure(operation + "-end", beforeEndCorrection); RecordEndFloor(row, endRow); row.recoveries = endRow.recoveries;
+            if (row.stock == 3) row.settledStates = BodyStates(game.Remaining);
             row.shufflePlanningMs = endRow.shufflePlanningMs; row.shuffleMaxSliceMs = endRow.shuffleMaxSliceMs;
             row.shuffleLastFailure = endRow.shuffleLastFailure; row.shuffleBlockingCollider = endRow.shuffleBlockingCollider;
             FrameStats(row, frames); row.gcCollections = GC.CollectionCount(0) - gc; report.rows.Add(row); Save();
@@ -430,6 +568,8 @@ namespace CatchGoose
             row.endPreCorrectionMinY = endRow.preCorrectionMinY; row.endAfterLateMinY = endRow.afterLateMinY;
             row.endBodyMinY = endRow.bodyMinY; row.endWorstItemId = endRow.worstItemId;
             row.minHullY = Mathf.Min(row.minHullY, endRow.minHullY);
+            row.shufflePlanningMs = endRow.shufflePlanningMs; row.shuffleMaxSliceMs = endRow.shuffleMaxSliceMs;
+            row.shuffleLastFailure = endRow.shuffleLastFailure; row.shuffleBlockingCollider = endRow.shuffleBlockingCollider;
         }
         static bool RelativeOrderChanged(Pose[] poses)
         {
@@ -441,11 +581,318 @@ namespace CatchGoose
             }
             return false;
         }
-        IEnumerator Interruptions()
+        GameObject PinningCages(Transform parent, IEnumerable<GooseItem> tops, bool itemSupports = false)
+        {
+            var cages = new GameObject("StaticPhysicalPinningCages"); cages.transform.SetParent(parent);
+            foreach (var top in tops)
+            {
+                // Real collision, no fake controller flags: a .42 box fits a .44
+                // aperture, but a bounded physical hop cannot clear these walls.
+                for (int side = 0; side < 4; side++)
+                {
+                    var wall = GameObject.CreatePrimitive(PrimitiveType.Cube); wall.transform.SetParent(cages.transform);
+                    wall.name = "PinningWall-" + top.Id + "-" + side;
+                    var offset = side < 2 ? new Vector3(side == 0 ? -.25f : .25f, 0, 0) : new Vector3(0, 0, side == 2 ? -.25f : .25f);
+                    wall.transform.position = new Vector3(top.Body.position.x, 1.075f, top.Body.position.z) + offset;
+                    wall.transform.localScale = side < 2 ? new Vector3(.06f, .8f, .56f) : new Vector3(.56f, .8f, .06f);
+                    wall.GetComponent<Renderer>().enabled = false;
+                    if (itemSupports)
+                    {
+                        // Non-selectable collision supports are still physical.
+                        // Using the real IgnoreRaycast layer keeps the walls out
+                        // of the independent top-surface oracle without fake flags.
+                        wall.layer = 2; wall.GetComponent<Renderer>().forceRenderingOff = true;
+                        var support = wall.AddComponent<GooseItem>(); support.Id = wall.name; support.Visual = wall.transform;
+                        support.Body = wall.AddComponent<Rigidbody>(); support.CacheParts(); support.DepthReady = true;
+                        support.DepthStillSince = Time.time - 2; support.SetDepthHeld(true); game.Items.Add(support);
+                    }
+                }
+            }
+            return cages;
+        }
+        void ResetFallbackFixture(IReadOnlyList<GooseItem> tops, IReadOnlyList<GooseItem> lower)
+        {
+            game.SurfaceShuffle.CancelRound(); game.Shake.CancelRound();
+            for (int i = 0; i < tops.Count; i++)
+            {
+                foreach (var item in new[] { tops[i], lower[i] })
+                {
+                    item.SetDepthHeld(false); item.Body.position = new Vector3((i - (tops.Count - 1) * .5f) * .56f,
+                        item == tops[i] ? .825f : .35f, GooseCircularContainer.CenterZ);
+                    item.Body.rotation = Quaternion.identity; item.transform.SetPositionAndRotation(item.Body.position, Quaternion.identity);
+                    item.Body.velocity = item.Body.angularVelocity = Vector3.zero; item.DepthProtectedUntil = Time.time - 1; item.DepthStillSince = Time.time - 2;
+                    item.RestoreNormalPhysics(); item.SetDepthVisible(true);
+                }
+                tops[i].Body.constraints = RigidbodyConstraints.FreezeRotation; lower[i].SetDepthHeld(true);
+            }
+            Physics.SyncTransforms(); game.Depth.ResetRound(); game.Depth.SpawnFinished(true); game.Depth.RefreshNow();
+        }
+        IEnumerator FixturePhoneGesture(string name, GooseItem[] expectedTops, GooseItem[] lower)
+        {
+            var pre = SampleFloor(); yield return new WaitForEndOfFrame(); var row = Structure(name, pre);
+            var originals = expectedTops.Select(Capture).ToArray(); var lowerPoses = lower.Select(Capture).ToArray();
+            row.initialStates = BodyStates(expectedTops);
+            var props = game.Props.ToArray(); var uses = ToolUses();
+            game.Depth.CopySurface(surface); var expectedIds = new HashSet<int>(expectedTops.Select(i => i.GetInstanceID()));
+            Check(expectedIds.SetEquals(surface.Select(i => i.GetInstanceID())), name + " authored geometry determines the exact original surface");
+            Check(InjectSensor(1.6f), name + " moderate gesture accepted");
+            bool sawToss = false, ownerCorrect = true, hasNudgeStart = false, hasNudgeEnd = false;
+            Vector3 nudgeStart = Vector3.zero, nudgeEnd = Vector3.zero; float firstPhysics = -1, deadline = Time.time + 3;
+            while (game.Shake.Active && Time.time < deadline)
+            {
+                yield return new WaitForEndOfFrame();
+                if (game.Shake.TargetIds.Count > 0 && firstPhysics < 0) firstPhysics = Time.time;
+                bool activeToss = game.Shake.TossActive;
+                if (activeToss)
+                {
+                    sawToss = true; ownerCorrect &= game.SurfaceShuffle.OwnerPhoneToss;
+                    Check(!game.Shake.Request(Vector3.right), name + " active controlled toss cannot be overwritten by a new gesture");
+                    if (!hasNudgeStart)
+                    { hasNudgeStart = true; nudgeStart = originals[0].position; row.helperStartStates = BodyStates(expectedTops); }
+                }
+                else if (sawToss && !hasNudgeEnd)
+                {
+                    hasNudgeEnd = true; nudgeEnd = expectedTops[0].Body.position; row.helperEndStates = BodyStates(expectedTops);
+                    row.helperEndSeconds = firstPhysics < 0 ? 0 : Time.time - firstPhysics;
+                }
+                foreach (var pose in lowerPoses)
+                    if (!pose.item.DepthHeld || !pose.item.Body.isKinematic || pose.item.Body.useGravity ||
+                        Vector3.Distance(pose.position, pose.item.Body.position) > .0005f || pose.item.Colliders.Any(c => !c.enabled)) row.lowerViolations++;
+            }
+            Check(!game.Shake.Active && firstPhysics >= 0 && Time.time - firstPhysics <= GooseShakeController.MaximumGestureSeconds + .05f,
+                name + " completes within the overall gesture budget");
+            row.gestureSeconds = firstPhysics < 0 ? 0 : Time.time - firstPhysics; row.nudgeStart = nudgeStart; row.nudgeEnd = nudgeEnd;
+            Check(ownerCorrect && sawToss, name + " uses the explicit controlled pan-toss path for pinned and free targets");
+            row.targetIds = game.Shake.TargetIds.ToArray(); row.targetNames = expectedTops.Select(i => i.Id + "/" + i.GetInstanceID()).ToArray();
+            Check(expectedIds.SetEquals(row.targetIds), name + " never replaces its original authored targets");
+            yield return Settle(.7f);
+            var motion = game.Shake.LastMotion; Check(motion != null && !motion.interrupted, name + " reports a genuine completed gesture");
+            if (motion != null)
+            {
+                FallbackStats(row, motion); row.affected = motion.affected; row.moved = motion.moved; row.turned = motion.turned;
+                row.changedNeighbours = motion.changedNeighbours; row.maxTravel = motion.maxTravel; row.meanTravel = motion.meanTravel; row.maxTurn = motion.maxTurn;
+                Check(motion.mode == "controlled-pan-toss" && motion.tossCompleted && string.IsNullOrEmpty(motion.tossFailure) && !motion.fallbackAttempted,
+                    name + " diagnostics distinguish completed controlled animation from Force and fallback");
+                PlanarNetStats(row, originals);
+                Check(row.planarMovedEnough >= Mathf.CeilToInt(expectedTops.Length * .5f), name + " retains real final planar rearrangement");
+            }
+            if (expectedTops.Length == 1)
+            {
+                float distance = new Vector2(nudgeEnd.x - nudgeStart.x, nudgeEnd.z - nudgeStart.z).magnitude;
+                Check(hasNudgeStart && hasNudgeEnd && distance >= game.ItemScale * .2f - .002f && distance <= game.ItemScale * .3f + .002f,
+                    name + " single-object animation ends at a bounded safe neighbour");
+            }
+            Check(row.lowerViolations == 0, name + " original lower supports remain fixed throughout the gesture");
+            Check(SameTools(props, uses), name + " never spends or refunds any prop or tool-use count");
+            var endPre = SampleFloor(); yield return new WaitForEndOfFrame(); RecordEndFloor(row, Structure(name + "-end", endPre));
+            row.settledStates = BodyStates(expectedTops);
+            report.rows.Add(row); Save();
+        }
+        IEnumerator PhoneFallbackFixtures()
+        {
+            var originals = game.Items.ToArray(); var props = game.Props.ToArray(); var uses = ToolUses();
+            foreach (var item in originals) item.gameObject.SetActive(false); game.Items.Clear();
+            var root = new GameObject("IndependentPhoneFallbackFixture"); var tops = new List<GooseItem>(); var lower = new List<GooseItem>();
+            GameObject cages = null;
+            try
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    lower.Add(FixtureBox(root.transform, "phone-fixture-lower-" + i, new Vector3((i - 1) * .56f, .35f, GooseCircularContainer.CenterZ), new Vector3(.42f, .65f, .42f), true));
+                    tops.Add(FixtureBox(root.transform, "phone-fixture-top-" + i, new Vector3((i - 1) * .56f, .825f, GooseCircularContainer.CenterZ), new Vector3(.42f, .3f, .42f), false));
+                }
+                ResetFallbackFixture(tops, lower); cages = PinningCages(root.transform, tops); Physics.SyncTransforms();
+                yield return FixturePhoneGesture("fixture-pinned-three", tops.ToArray(), lower.ToArray());
+                cages.SetActive(false); ResetFallbackFixture(tops, lower);
+                yield return FixturePhoneGesture("fixture-free-three", tops.ToArray(), lower.ToArray());
+                for (int i = 1; i < 3; i++) foreach (var item in new[] { tops[i], lower[i] }) { game.Items.Remove(item); item.gameObject.SetActive(false); }
+                var single = new[] { tops[0] }; var singleLower = new[] { lower[0] };
+                ResetFallbackFixture(single, singleLower); cages = PinningCages(root.transform, single, true); Physics.SyncTransforms();
+                Check(!Physics.GetIgnoreLayerCollision(0, 2), "single-object pinning supports have real collision with the target layer");
+                var beforeProp = game.Props[2]; Check(!game.UseProp(2) && game.Props[2] == beforeProp, "ordinary prop remains unavailable for the one-object fixture");
+                yield return FixturePhoneGesture("fixture-pinned-single", single, singleLower.Concat(cages.GetComponentsInChildren<GooseItem>()).ToArray());
+                ResetFallbackFixture(single, singleLower); var state = single.Select(Capture).ToArray();
+                bool began = game.SurfaceShuffle.BeginTossFromShake(single, game.Container, .001f); yield return Settle(.12f);
+                Check(!began || !game.SurfaceShuffle.Active, "insufficient phone-helper time is rejected or ends by its deadline");
+                Check(!game.SurfaceShuffle.Active && single.All(i => !i.SurfaceAnimating && i.Colliders.All(c => c.enabled)), "insufficient phone-helper time restores every collision state");
+                Check(state.All(p => Vector3.Distance(p.position, p.item.Body.position) < .01f) && SameTools(props, uses), "phone-helper deadline failure cannot move inventory or refund a prop");
+                var wrongRoot = new GameObject("ForeignContainerIdentityProbe");
+                var wrongContainer = wrongRoot.AddComponent<GooseCircularContainer>();
+                Check(!game.SurfaceShuffle.BeginTossFromShake(single, wrongContainer), "phone toss rejects the wrong round container"); Destroy(wrongRoot);
+                Check(SameTools(props, uses), "all independent phone fixtures preserve original prop and use counts");
+            }
+            finally
+            {
+                game.SurfaceShuffle.CancelRound(); game.Shake.CancelRound(); game.Items.Clear(); root.SetActive(false); Destroy(root);
+                game.Items.AddRange(originals); foreach (var item in originals) if (item) item.gameObject.SetActive(true);
+                Physics.SyncTransforms(); game.Depth.ResetRound(); game.Depth.SpawnFinished(true); game.Depth.RefreshNow();
+            }
+            yield return Settle(1);
+        }
+        bool ActualUnderside(GooseItem item, out RaycastHit hit)
+        {
+            var collider = item.SelectionCollider; var com = item.Body.worldCenterOfMass;
+            return collider.Raycast(new Ray(new Vector3(com.x, collider.bounds.min.y - 2, com.z), Vector3.up),
+                out hit, collider.bounds.size.y + 4);
+        }
+        IEnumerator TiltedSingleConvexFixture(string itemId = "ref_bfxiaolongbao", string operation = "fixture-actual-tilted-steamer-single",
+            string imageName = "actual-tilted-steamer", float tiltDegrees = 15)
+        {
+            // Use the real cooked item collider as an independent geometry oracle.
+            // The source physics mesh has fan indices, not closed convex faces.
+            var originals = game.Items.ToArray(); foreach (var item in originals) item.gameObject.SetActive(false); game.Items.Clear();
+            var root = new GameObject("ActualTiltedSteamerSupportFixture");
+            try
+            {
+                var top = game.CreateItem(itemId); top.transform.SetParent(root.transform, true);
+                top.Body.isKinematic = false; top.Body.useGravity = false; top.Body.constraints = RigidbodyConstraints.None;
+                top.Body.interpolation = RigidbodyInterpolation.None;
+                top.Body.position = new Vector3(.3f, 3, GooseCircularContainer.CenterZ);
+                top.Body.rotation = Quaternion.identity; top.transform.SetPositionAndRotation(top.Body.position, top.Body.rotation);
+                top.Body.velocity = top.Body.angularVelocity = Vector3.zero; Physics.SyncTransforms();
+                bool firstHit = ActualUnderside(top, out var underside);
+                Check(firstHit && top.SelectionCollider is MeshCollider && ((MeshCollider)top.SelectionCollider).convex,
+                    operation + " uses the actual cooked model convex collider");
+                if (!firstHit) yield break;
+                // Align an actual supporting face, then tilt both item and support
+                // by the fixture angle. The size-budget fixtures stay level to
+                // avoid confusing a real ball rolling downhill with planner cost.
+                // No rotation lock holds any item after landing.
+                var aligned = Quaternion.FromToRotation(-underside.normal, Vector3.up) * top.Body.rotation;
+                top.Body.rotation = Quaternion.AngleAxis(tiltDegrees, Vector3.forward) * aligned;
+                top.transform.SetPositionAndRotation(top.Body.position, top.Body.rotation); Physics.SyncTransforms();
+                bool tiltedHit = ActualUnderside(top, out underside);
+                Check(tiltedHit && (tiltDegrees <= 0 || -underside.normal.y >= .8f), operation + " independent underside ray measures the real collider");
+                if (!tiltedHit) yield break;
+                var normal = -underside.normal; float thickness = game.ItemScale * .16f;
+                var contactPoint = underside.point;
+                if (tiltDegrees <= 0)
+                {
+                    // A second ray can reach a different face after alignment.
+                    // A prescribed horizontal budget fixture must stay horizontal:
+                    // place it below the true hull minimum and let gravity settle
+                    // the unconstrained item naturally on that level platform.
+                    normal = Vector3.up;
+                    contactPoint.y = GooseColliderGeometry.MinY(top.SelectionCollider,
+                        GooseColliderGeometry.BodyMatrix(top.SelectionCollider, top.Body));
+                }
+                var support = FixtureBox(root.transform, imageName + "-support",
+                    contactPoint - normal * (thickness * .5f + .003f), new Vector3(game.ItemScale * 2.8f, thickness, game.ItemScale * 2.8f), true);
+                support.Body.rotation = Quaternion.FromToRotation(Vector3.up, normal);
+                support.transform.SetPositionAndRotation(support.Body.position, support.Body.rotation);
+                support.gameObject.layer = 2;
+                foreach (var renderer in support.Renderers) renderer.forceRenderingOff = true;
+                top.Body.useGravity = true; top.DepthReady = true; top.DepthStillSince = Time.time - 2; top.DepthProtectedUntil = Time.time - 1;
+                Physics.SyncTransforms(); game.Depth.ResetRound(); game.Depth.SpawnFinished(true); game.Depth.RefreshNow(); yield return Settle(.8f);
+                Check(top.Body.constraints == RigidbodyConstraints.None && !top.Body.isKinematic && top.Body.useGravity,
+                    operation + " has ordinary gravity and no rotation lock before the gesture");
+                float actualAngle = Vector3.Angle(support.transform.up, Vector3.up);
+                Check(tiltDegrees > 0 ? actualAngle >= 8 : actualAngle <= 1,
+                    operation + " support has the independently requested real plane angle");
+                GooseFrameCapture.Save(Path.Combine(output, imageName + "-before.png"));
+                yield return FixturePhoneGesture(operation, new[] { top }, new[] { support });
+                Check(top.Body.constraints == RigidbodyConstraints.None && !top.Body.isKinematic && top.Body.useGravity,
+                    operation + " restores free physical settling without a rotation lock");
+                GooseFrameCapture.Save(Path.Combine(output, imageName + "-after.png"));
+            }
+            finally
+            {
+                game.SurfaceShuffle.CancelRound(); game.Shake.CancelRound(); game.Items.Clear(); root.SetActive(false); Destroy(root);
+                game.Items.AddRange(originals); foreach (var item in originals) if (item) item.gameObject.SetActive(true);
+                Physics.SyncTransforms(); game.Depth.ResetRound(); game.Depth.SpawnFinished(true); game.Depth.RefreshNow();
+            }
+            yield return Settle(1);
+        }
+        IEnumerator PhoneFallbackInterruptions()
+        {
+            game.Depth.CopySurface(surface); var props = game.Props.ToArray(); var uses = ToolUses();
+            Check(surface.Count > 0 && game.SurfaceShuffle.BeginTossFromShake(surface.ToArray(), game.Container), "phone toss interruption starts with the current fixed snapshot");
+            yield return new WaitForSeconds(.1f); Check(game.SurfaceShuffle.OwnerPhoneToss, "pause interrupts a genuinely active controlled phone toss"); game.SetPaused(true);
+            var poses = game.Remaining.Select(Capture).ToArray(); yield return new WaitForSecondsRealtime(.25f);
+            Check(poses.All(p => Vector3.Distance(p.position, p.item.Body.position) < .001f), "paused phone helper preserves every pose");
+            game.SurfaceShuffle.CancelRound(); Check(SameTools(props, uses), "cancelled phone helper cannot refund a paid tool");
+            Check(game.SurfaceShuffle.LastMotion != null && game.SurfaceShuffle.LastMotion.mode == "controlled-pan-toss" && game.SurfaceShuffle.LastMotion.interrupted && !game.SurfaceShuffle.LastMotion.tossCompleted,
+                "cancelled controlled toss reports interruption rather than completion or Force");
+            Check(game.Remaining.All(i => !i.SurfaceAnimating && i.Colliders.All(c => c.enabled)), "cancelled phone helper restores all target colliders");
+            game.SetPaused(false); yield return Settle(.4f); game.Depth.CopySurface(surface);
+            Check(surface.Count > 0 && game.SurfaceShuffle.BeginTossFromShake(surface.ToArray(), game.Container), "controlled phone toss home-interruption starts");
+            yield return new WaitForSeconds(.1f); int theme = game.ThemeIndex; game.GoHome(); yield return null;
+            Check(!game.SurfaceShuffle.Active && !game.Shake.Active && game.Items.Count == 0 && SameTools(props, uses), "phone home-interruption clears identities without a refund");
+            yield return Open(theme); yield return Settle(1.7f);
+            Check(game.Props.All(n => n == 1) && ToolUses().All(n => n == 0), "old phone-helper work cannot change a new round's inventory or counters");
+        }
+        IEnumerator LateContainmentFixture()
+        {
+            // Resume after this frame's FixedUpdates. A pre-simulation Fixed
+            // correction cannot satisfy the following same-frame EOF assertion.
+            yield return null; game.Depth.CopySurface(surface);
+            var top = surface.FirstOrDefault(i => !i.Body.isKinematic && !i.SurfaceAnimating);
+            Check(top, "late containment fixture has an already active dynamic surface object"); if (!top) yield break;
+            var body = top.Body; var original = Capture(top); bool sleeping = body.IsSleeping();
+            var velocity = body.velocity; var angular = body.angularVelocity; var collision = body.collisionDetectionMode;
+            float protectedUntil = top.DepthProtectedUntil, stillSince = top.DepthStillSince, occlusion = top.NextOcclusionCheck;
+            var lower = game.Remaining.Where(i => i.DepthHeld).Select(Capture).ToArray();
+            int frame = Time.frameCount, recoveries = game.Container.ContainmentRecoveries;
+            var outward = Vector3.right; var tangent = Vector3.forward;
+            var injected = new Vector3(game.Container.Radius + .12f, original.position.y, GooseCircularContainer.CenterZ);
+            var injectedVelocity = outward * 1.2f + tangent * .7f + Vector3.up * .3f;
+            var injectedAngular = new Vector3(.4f, .5f, .6f);
+            try
+            {
+                body.position = injected; top.transform.position = injected;
+                body.velocity = injectedVelocity; body.angularVelocity = injectedAngular; Physics.SyncTransforms();
+                yield return new WaitForEndOfFrame();
+                Check(Time.frameCount == frame, "late containment is verified in the injection frame without another FixedUpdate");
+                var offset = new Vector2(body.position.x, body.position.z - GooseCircularContainer.CenterZ);
+                var renderOffset = new Vector2(top.transform.position.x, top.transform.position.z - GooseCircularContainer.CenterZ);
+                Check(offset.magnitude <= game.Container.Radius + .02f + .0001f && renderOffset.magnitude <= game.Container.Radius + .02f + .0001f,
+                    "same-frame containment corrects both actual and rendered centers within the original policy");
+                Check(Mathf.Abs(body.position.y - injected.y) < .0001f && Vector3.Distance(body.angularVelocity, injectedAngular) < .0001f,
+                    "late containment preserves height and angular velocity");
+                var expected = injectedVelocity - outward * Vector3.Dot(injectedVelocity, outward);
+                Check(Vector3.Distance(body.velocity, expected) < .0001f,
+                    "late containment removes only outward velocity while preserving vertical and tangential motion");
+                Check(game.Container.ContainmentRecoveries > recoveries,
+                    "same-frame correction actually runs the production containment path");
+                Check(lower.All(p => p.item.DepthHeld && p.item.Body.isKinematic && !p.item.Body.useGravity &&
+                    Vector3.Distance(p.position, p.item.Body.position) < .0005f && Quaternion.Angle(p.rotation, p.item.Body.rotation) < .05f &&
+                    p.colliders.Where((c, i) => c && c.enabled != p.enabled[i]).Count() == 0),
+                    "late containment never moves or changes hidden kinematic support states");
+            }
+            finally
+            {
+                body.position = original.position; body.rotation = original.rotation;
+                top.transform.SetPositionAndRotation(original.position, original.rotation);
+                body.velocity = velocity; body.angularVelocity = angular; body.collisionDetectionMode = collision;
+                top.DepthProtectedUntil = protectedUntil; top.DepthStillSince = stillSince; top.NextOcclusionCheck = occlusion;
+                Physics.SyncTransforms(); if (sleeping) body.Sleep(); else body.WakeUp();
+            }
+        }
+        IEnumerator EnsurePaidExchangeTargets(string scenario)
         {
             game.Depth.CopySurface(surface);
-            if (surface.Count < 2) { int theme = game.ThemeIndex; yield return Open(theme); game.Depth.CopySurface(surface); }
-            Check(surface.Count >= 2, "interruption fixture has exchange targets"); if (surface.Count < 2) yield break;
+            if (surface.Count < 2)
+            {
+                // Establish this subcase independently. A real final-three pile
+                // can settle to one exposed object after the previous operation.
+                // First verify that production correctly refuses a paid swap.
+                if (game.Props[2] == 0) game.QaGrant(2, 1);
+                int available = game.Props[2], uses = game.QaToolUses(2);
+                var poses = game.Remaining.Select(Capture).ToArray();
+                bool accepted = game.UseProp(2);
+                Check(!accepted && !game.SurfaceShuffle.Active && game.Props[2] == available && game.QaToolUses(2) == uses,
+                    scenario + " with fewer than two surface targets refuses the prop without spending inventory or uses");
+                Check(game.SurfaceShuffle.LastFailure == "fewer_than_two_surface_targets",
+                    scenario + " refusal is caused by unavailable exchange targets: " + game.SurfaceShuffle.LastFailure);
+                Check(poses.All(p => Vector3.Distance(p.position, p.item.Body.position) < .0005f && Quaternion.Angle(p.rotation, p.item.Body.rotation) < .05f),
+                    scenario + " unavailable exchange leaves all poses unchanged");
+                int theme = game.ThemeIndex; yield return Open(theme); yield return Settle(1.6f); game.Depth.CopySurface(surface);
+            }
+            Check(surface.Count >= 2, scenario + " independently establishes at least two current exchange targets");
+        }
+        IEnumerator Interruptions()
+        {
+            yield return EnsurePaidExchangeTargets("pause interruption"); if (surface.Count < 2) yield break;
             game.QaGrant(2, 1); int available = game.Props[2];
             Check(game.UseProp(2), "interruption shuffle begins");
             Check(game.Props[2] == available - 1, "accepted shuffle reserves exactly one tool"); yield return new WaitForSeconds(.2f);
@@ -456,13 +903,18 @@ namespace CatchGoose
             Check(game.SurfaceShuffle.LastMotion != null && !game.SurfaceShuffle.LastMotion.interrupted && game.Props[2] == available - 1,
                 "successful resumed shuffle consumes exactly one tool without refund");
             Check(game.Remaining.All(i => !i.SurfaceAnimating && i.Colliders.All(c => c.enabled)), "resume restores all target collisions");
+            yield return EnsurePaidExchangeTargets("same-round cancellation"); if (surface.Count < 2) yield break;
             game.QaGrant(2, 1); available = game.Props[2]; Check(game.UseProp(2), "same-round cancellation shuffle begins");
             yield return new WaitForSeconds(.2f); game.SurfaceShuffle.CancelRound();
             Check(game.Props[2] == available && !game.SurfaceShuffle.Active, "same-round cancellation refunds exactly one tool");
             Check(game.Remaining.All(i => !i.SurfaceAnimating && i.Colliders.All(c => c.enabled)), "same-round cancellation restores collision state");
             game.SurfaceShuffle.CancelRound(); Check(game.Props[2] == available, "repeated cancellation cannot refund twice"); yield return Settle(.4f);
+            yield return EnsurePaidExchangeTargets("home interruption"); if (surface.Count < 2) yield break;
             game.QaGrant(2, 1); available = game.Props[2];
-            Check(game.UseProp(2), "home interruption shuffle begins"); yield return new WaitForSeconds(.2f);
+            Check(game.UseProp(2), "home interruption shuffle begins with surface=" + surface.Count + " failure=" + game.SurfaceShuffle.LastFailure);
+            yield return new WaitForSeconds(.2f);
+            Check(game.SurfaceShuffle.Active && !game.SurfaceShuffle.OwnerFromShake,
+                "home interrupts a genuinely active paid shuffle rather than an unavailable operation");
             int roundTheme = game.ThemeIndex; game.GoHome(); yield return null;
             Check(!game.SurfaceShuffle.Active && !game.Shake.Active, "home cancels motion controllers");
             Check(game.Items.Count == 0, "home clears former inventory");

@@ -8,7 +8,9 @@ $logs = Join-Path $taskRoot 'work/unity-migration'
 New-Item -ItemType Directory -Force -Path $logs | Out-Null
 if ($Build -or $Qa -or $Tests -or $Prepare) {
     $phase = if ($Tests) { 'tests' } elseif ($Prepare) { 'prepare' } elseif ($Qa) { 'qa-build' } else { 'build' }
-    $arguments = @('-batchmode', '-nographics', '-projectPath', $project, '-logFile', (Join-Path $logs ("unity-$phase.log")))
+    $arguments = @('-batchmode', '-projectPath', $project, '-logFile', (Join-Path $logs ("unity-$phase.log")))
+    # Material/visibility fixtures render real pixels. NullGfx cannot validate them.
+    if (-not $Tests) { $arguments += '-nographics' }
     if ($Tests) { $arguments += @('-runTests', '-testPlatform', 'editmode', '-testResults', (Join-Path $logs 'editmode-results.xml')) }
     else { $arguments += @('-quit', '-executeMethod', $(if ($Prepare) { 'CatchGoose.Editor.GooseProjectSetup.Prepare' } elseif ($Qa) { 'CatchGoose.Editor.GooseProjectSetup.BuildQa' } else { 'CatchGoose.Editor.GooseProjectSetup.BuildWindows' })) }
     # Unity is a GUI executable: explicitly wait and read its own exit code.

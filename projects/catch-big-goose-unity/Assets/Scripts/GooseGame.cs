@@ -811,6 +811,7 @@ namespace CatchGoose
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
         public void QaSetTime(float seconds) { TimeLeft = seconds; }
         public void QaGrant(int kind, int count) { Props[kind] += count; }
+        public int QaToolUses(int kind) => toolUses[kind];
 #endif
     }
 }

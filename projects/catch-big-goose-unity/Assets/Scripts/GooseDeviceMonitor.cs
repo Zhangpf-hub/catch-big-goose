@@ -15,6 +15,7 @@ namespace CatchGoose
             public int surfaceBodies,exposureActivations,depthProbes,over100ms;
             public float depthMs,shuffleMs,shuffleMaxSliceMs;public bool shuffleActive;
             public int shakeAffected,shakeMoved,shakePlanarMoved,shakeChangedNeighbours;public float shakePlanarTravel;
+            public bool shakeFallbackActive,shakeFallbackAttempted,shakeFallbackCompleted;public string shakeFallbackFailure;
         }
         readonly float[] frames=new float[120],sorted=new float[120];int cursor,count;
         GooseGame game;float next;bool requested;int gcBaseline;LevelDefinition lastLevel;
@@ -53,7 +54,8 @@ namespace CatchGoose
             sample.shuffleMs=(float)game.SurfaceShuffle.LastPlanningMilliseconds;
             sample.shuffleMaxSliceMs=(float)game.SurfaceShuffle.MaxPlanningSliceMilliseconds;
             var motion=game.Shake.LastMotion;
-            if(motion!=null){sample.shakeAffected=motion.affected;sample.shakeMoved=motion.moved;sample.shakePlanarMoved=motion.planarMoved;sample.shakeChangedNeighbours=motion.changedNeighbours;sample.shakePlanarTravel=motion.maxPlanarTravel;}
+            sample.shakeFallbackActive=game.Shake.FallbackActive;
+            if(motion!=null){sample.shakeAffected=motion.affected;sample.shakeMoved=motion.moved;sample.shakePlanarMoved=motion.planarMoved;sample.shakeChangedNeighbours=motion.changedNeighbours;sample.shakePlanarTravel=motion.maxPlanarTravel;sample.shakeFallbackAttempted=motion.fallbackAttempted;sample.shakeFallbackCompleted=motion.fallbackCompleted;sample.shakeFallbackFailure=motion.fallbackFailure;}
             Latest=sample;
             Debug.Log("[GooseDevice] "+JsonUtility.ToJson(sample));
         }

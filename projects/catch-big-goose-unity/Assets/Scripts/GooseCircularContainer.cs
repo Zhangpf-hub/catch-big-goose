@@ -146,12 +146,22 @@ namespace CatchGoose
             // Visible rim colliders stay with the full-size plate. Moving those
             // inward would hide selectable pieces behind a rim that is not drawn.
         }
-        void ConfineEscapedCenters()
+        void LateUpdate()
+        {
+            if(!live||!game||!game.Playing||game.Paused||!game.SpawnComplete)return;
+            if(game.Depth&&game.Depth.AnimationInProgress)return;
+            // Contacts restored after a toss can push a dynamic center out in
+            // the simulation following FixedUpdate. Constrain that same pose
+            // before rendering, using the existing active-body policy.
+            if(ConfineEscapedCenters())Physics.SyncTransforms();
+        }
+        bool ConfineEscapedCenters()
         {
             // A thin convex fan can tunnel through a moving kinematic guard at
             // the 30 Hz mobile step. Catch it on the next step, before it can
             // settle on the now full-size outer plate. Preserve height, spin and
             // tangential motion; discard only velocity pointing out of bounds.
+            bool corrected=false;
             foreach(var item in game.Items)
             {
                 if(!item||item.Picked||item.SurfaceAnimating||item.DepthHeld||item.Body.isKinematic)continue;
@@ -162,10 +172,13 @@ namespace CatchGoose
                 item.ReleaseDepth(Time.time+.4f,false);
                 position.x=normal.x*(Radius-.02f);position.z=CenterZ+normal.y*(Radius-.02f);
                 item.Body.position=position;
+                item.transform.position=position;
                 var outward=new Vector3(normal.x,0,normal.y);
                 item.Body.velocity-=outward*Mathf.Max(0,Vector3.Dot(item.Body.velocity,outward));
                 item.NextOcclusionCheck=0;ContainmentRecoveries++;
+                corrected=true;
             }
+            return corrected;
         }
     }
 }

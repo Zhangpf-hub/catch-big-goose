@@ -4,7 +4,7 @@ namespace CatchGoose
 {
     [Serializable] public sealed class GooseInteractionProfile
     {
-        public int version=5;
+        public int version=6;
         public bool sceneDressing=false;
         public float gravity=-19.81f,staticFriction=.6f,dynamicFriction=.6f,bounce=0;
         public float shakeCooldown=1.5f,sensorThreshold=1.05f,sensorFilterSeconds=.30f;
