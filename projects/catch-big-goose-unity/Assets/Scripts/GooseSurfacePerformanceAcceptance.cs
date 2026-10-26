@@ -14,12 +14,14 @@ namespace CatchGoose
     {
         [Serializable] sealed class Row
         {
-            public string theme, operation, shuffleLastFailure, shuffleBlockingCollider; public int stock, surface, independentExposed, exposedSelected, affected, moved, turned, changedNeighbours;
+            public string theme, operation, shuffleLastFailure, shuffleBlockingCollider, preCorrectionItemId, worstItemId, endWorstItemId; public int stock, surface, independentExposed, exposedSelected, affected, moved, turned, changedNeighbours;
             public int visible, renderers, drawSlots, triangles, dynamicBodies, awake, held, hidden, recoveries, probes, exposureDelta, untouchedLower, lowerViolations;
             public float p50ms, p95ms, maxms, slowFrameFraction, beginCpuMs, depthRefreshMs, activeSurfaceThreshold, modelSize, minHullY = 100, maxTravel, meanTravel, maxTurn, managedMiB, unityMiB;
             public double shufflePlanningMs, shuffleMaxSliceMs;
             public int gcCollections, planarMovedEnough; public float maxPlanarTravel; public bool frameTimingMeasured; public int[] targetIds;
+            public float preCorrectionMinY, afterLateMinY, preCorrectionBodyMinY, bodyMinY, endPreCorrectionMinY, endAfterLateMinY, endBodyMinY;
         }
+        struct FloorSample { public float visual, body; public string itemId; }
         [Serializable] sealed class ClipFrame { public string file; public float seconds; }
         [Serializable] sealed class Report
         {
@@ -221,7 +223,21 @@ namespace CatchGoose
             yield return Operate("shuffle");
             yield return new WaitForEndOfFrame(); GooseFrameCapture.Save(Path.Combine(output, game.Theme.id + "-" + expected + ".png")); Save();
         }
-        Row Structure(string operation)
+        FloorSample SampleFloor()
+        {
+            var sample = new FloorSample { visual = 100, body = 100, itemId = "" };
+            foreach (var item in game.Remaining)
+            {
+                float min = GooseColliderGeometry.MinY(item.SelectionCollider);
+                if (min >= sample.visual) continue;
+                sample.visual = min; sample.itemId = item.Id + "/" + item.GetInstanceID();
+                sample.body = GooseColliderGeometry.MinY(item.SelectionCollider, GooseColliderGeometry.BodyMatrix(item.SelectionCollider, item.Body));
+            }
+            return sample;
+        }
+        // Call only after WaitForEndOfFrame: production's LateUpdate support
+        // projection has now run, so the asserted pose is the rendered pose.
+        Row Structure(string operation, FloorSample beforeCorrection)
         {
             game.Depth.CopySurface(surface); var items = game.Remaining.ToArray();
             var row = new Row { theme = game.Theme.id, operation = operation, stock = items.Length, surface = surface.Count,
@@ -229,6 +245,7 @@ namespace CatchGoose
                 activeSurfaceThreshold = game.Depth.ActiveSurfaceThreshold, modelSize = game.ModelSize,
                 shufflePlanningMs = game.SurfaceShuffle.LastPlanningMilliseconds, shuffleMaxSliceMs = game.SurfaceShuffle.MaxPlanningSliceMilliseconds,
                 shuffleLastFailure = game.SurfaceShuffle.LastFailure, shuffleBlockingCollider = game.SurfaceShuffle.LastBlockingCollider,
+                preCorrectionMinY = beforeCorrection.visual, preCorrectionBodyMinY = beforeCorrection.body, preCorrectionItemId = beforeCorrection.itemId,
                 unityMiB = UnityEngine.Profiling.Profiler.GetTotalAllocatedMemoryLong() / 1048576f };
             foreach (var item in items)
             {
@@ -236,8 +253,14 @@ namespace CatchGoose
                 if (!item.Body.isKinematic) { row.dynamicBodies++; if (!item.Body.IsSleeping()) row.awake++; }
                 if (item.PhysicsRecoveryActive) row.recoveries++;
                 if (item.DepthVisible) { row.visible++; row.renderers += item.RenderCount; row.drawSlots += item.DrawSlots; row.triangles += item.Triangles; }
-                row.minHullY = Mathf.Min(row.minHullY, GooseColliderGeometry.MinY(item.SelectionCollider));
+                float hullY = GooseColliderGeometry.MinY(item.SelectionCollider);
+                if (hullY < row.minHullY)
+                {
+                    row.minHullY = hullY; row.worstItemId = item.Id + "/" + item.GetInstanceID();
+                    row.bodyMinY = GooseColliderGeometry.MinY(item.SelectionCollider, GooseColliderGeometry.BodyMatrix(item.SelectionCollider, item.Body));
+                }
             }
+            row.afterLateMinY = row.minHullY;
             Check(items.All(i => i.Colliders.All(c => c.enabled) && i.Body.detectCollisions), row.theme + " support collision retained " + operation + "/" + row.stock);
             Check(items.Where(i => i.DepthHeld).All(i => i.Body.isKinematic && !i.Body.useGravity), row.theme + " lower supports do not simulate gravity " + operation + "/" + row.stock);
             Check(row.probes <= GoosePileDepth.MaxProbeCount, row.theme + " bounded depth query work " + operation + "/" + row.stock);
@@ -246,7 +269,8 @@ namespace CatchGoose
         }
         IEnumerator Passive()
         {
-            var row = Structure("idle"); var frames = new List<float>(90); int gc = GC.CollectionCount(0);
+            var beforeCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
+            var row = Structure("idle", beforeCorrection); var frames = new List<float>(90); int gc = GC.CollectionCount(0);
             float end = Time.realtimeSinceStartup + 2;
             while (Time.realtimeSinceStartup < end) { yield return null; frames.Add(Time.unscaledDeltaTime * 1000); }
             FrameStats(row, frames); row.gcCollections = GC.CollectionCount(0) - gc; report.rows.Add(row); Save();
@@ -290,10 +314,11 @@ namespace CatchGoose
         }
         IEnumerator CaptureClip()
         {
-            yield return Settle(1.6f); var row = Structure("sensor-moderate-clip");
+            yield return Settle(1.6f); var beforeCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
+            var row = Structure("sensor-moderate-clip", beforeCorrection);
             var poses = game.Remaining.Select(Capture).ToArray(); game.Depth.CopySurface(surface);
             var eligible = new HashSet<int>(surface.Select(i => i.GetInstanceID()));
-            yield return new WaitForEndOfFrame(); GooseFrameCapture.Save(Path.Combine(output, "clip-before.png"));
+            GooseFrameCapture.Save(Path.Combine(output, "clip-before.png"));
             Check(InjectSensor(1.6f), "visual clip accepts a moderate 1.6g gesture");
             float began = Time.realtimeSinceStartup;
             for (int frame = 0; frame <= 25; frame++)
@@ -318,13 +343,15 @@ namespace CatchGoose
                 if (targetPoses.Length >= 3) Check(motion.changedNeighbours > 0 || RelativeOrderChanged(targetPoses) || motion.maxTurn >= 15,
                     "visual clip changes relative XZ order, neighbours or a clear orientation");
             }
-            Structure("visual-clip-end"); Check(game.Remaining.Count() == row.stock, "visual clip conserves inventory");
+            yield return null; var beforeEndCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
+            RecordEndFloor(row, Structure("visual-clip-end", beforeEndCorrection)); Check(game.Remaining.Count() == row.stock, "visual clip conserves inventory");
             report.rows.Add(row); Save();
         }
         IEnumerator Operate(string operation)
         {
-            yield return Settle(1.6f); game.Depth.CopySurface(surface);
-            var row = Structure(operation); var poses = game.Remaining.Select(Capture).ToArray();
+            yield return Settle(1.6f); var beforeCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
+            game.Depth.CopySurface(surface);
+            var row = Structure(operation, beforeCorrection); var poses = game.Remaining.Select(Capture).ToArray();
             float top = poses.Max(p => p.item.SelectionCollider.bounds.max.y);
             // The published gameplay contract limits activation to the current
             // depth frontier. Seeing a lower piece through a narrow hole does not
@@ -392,10 +419,17 @@ namespace CatchGoose
                 else Check(motion.moved > 0 && (motion.turned > 0 || relativeChanged || targetPoses.Length < 3), row.theme + " visible travel and turn/neighbour effect " + operation + "/" + row.stock);
             }
             Check(game.Remaining.Count() == row.stock, row.theme + " inventory conserved " + operation + "/" + row.stock);
-            var endRow = Structure(operation + "-end"); row.minHullY = endRow.minHullY; row.recoveries = endRow.recoveries;
+            var beforeEndCorrection = SampleFloor(); yield return new WaitForEndOfFrame();
+            var endRow = Structure(operation + "-end", beforeEndCorrection); RecordEndFloor(row, endRow); row.recoveries = endRow.recoveries;
             row.shufflePlanningMs = endRow.shufflePlanningMs; row.shuffleMaxSliceMs = endRow.shuffleMaxSliceMs;
             row.shuffleLastFailure = endRow.shuffleLastFailure; row.shuffleBlockingCollider = endRow.shuffleBlockingCollider;
             FrameStats(row, frames); row.gcCollections = GC.CollectionCount(0) - gc; report.rows.Add(row); Save();
+        }
+        static void RecordEndFloor(Row row, Row endRow)
+        {
+            row.endPreCorrectionMinY = endRow.preCorrectionMinY; row.endAfterLateMinY = endRow.afterLateMinY;
+            row.endBodyMinY = endRow.bodyMinY; row.endWorstItemId = endRow.worstItemId;
+            row.minHullY = Mathf.Min(row.minHullY, endRow.minHullY);
         }
         static bool RelativeOrderChanged(Pose[] poses)
         {
