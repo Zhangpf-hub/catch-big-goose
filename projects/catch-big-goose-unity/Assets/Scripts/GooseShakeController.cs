@@ -140,12 +140,28 @@ namespace CatchGoose
                     var spin=Vector3.ClampMagnitude(body.angularVelocity+t.spin*(p.shakeTurnSpeed*.32f*strength),p.maxShakeAngularVelocity)-body.angularVelocity;
                     body.AddTorque(spin,ForceMode.VelocityChange);
                 }
-                var before=body.velocity;var after=Vector3.ClampMagnitude(before+dv,p.maxShakeVelocity);
+                var before=body.velocity;var after=BoundVelocity(before,dv,p.maxShakeVelocity,Mathf.Max(0,p.shakeVerticalBudget-t.vertical));
                 dv=after-before;t.horizontal=Mathf.Max(t.horizontal,t.added.magnitude);t.vertical+=Mathf.Max(0,dv.y);
                 body.AddForce(dv*(body.mass/dt),ForceMode.Force);t.affected=true;affected++;
             }
             if(pulse==0)game.ShakeDiagnostics?.PhysicsApplied(affected);
             pulse++;if(game.ShakeDiagnostics&&game.ShakeDiagnostics.Active)game.ShakeDiagnostics.PulseApplied(pulse,affected);
+        }
+        public static Vector3 BoundVelocity(Vector3 before,Vector3 added,float maximum,float remainingUpward)
+        {
+            // Do not turn an already fast fall into an unbudgeted upward impulse.
+            // Gravity/collision velocity can exceed the shake's injection limit.
+            float limit=Mathf.Max(maximum,before.magnitude);
+            var after=Vector3.ClampMagnitude(before+added,limit);
+            float ceiling=before.y+Mathf.Max(0,remainingUpward);
+            if(after.y>ceiling)
+            {
+                after.y=ceiling;
+                float horizontalLimit=Mathf.Sqrt(Mathf.Max(0,limit*limit-after.y*after.y));
+                var horizontal=Vector2.ClampMagnitude(new Vector2(after.x,after.z),horizontalLimit);
+                after.x=horizontal.x;after.z=horizontal.y;
+            }
+            return after;
         }
         void FinishMotion(bool interrupted)
         {

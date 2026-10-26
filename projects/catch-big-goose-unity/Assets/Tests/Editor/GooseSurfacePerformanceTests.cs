@@ -63,5 +63,29 @@ namespace CatchGoose.Tests
             item.Picked = false; item.Body.isKinematic = true; Assert.IsFalse(GooseShakeController.CanShake(item));
             item.Body.isKinematic = false; item.gameObject.SetActive(false); Assert.IsFalse(GooseShakeController.CanShake(item));
         }
+
+        [Test] public void ExistingFastFallCannotCreateUnbudgetedUpwardImpulseDuringSpeedLimiting()
+        {
+            var before = new Vector3(4, -5, 0);
+            var after = GooseShakeController.BoundVelocity(before, new Vector3(1, 0, 0), 4.5f, 0);
+            Assert.LessOrEqual(after.y - before.y, .00001f, "speed limiting must not turn a downward fall into a free upward impulse");
+            Assert.LessOrEqual(after.magnitude, before.magnitude + .00001f, "no budgetless acceleration of an already-fast body");
+        }
+
+        [Test] public void LargeLiftRequestCannotExceedSmallRemainingUpwardBudget()
+        {
+            var before = new Vector3(0, -8, 0);
+            var after = GooseShakeController.BoundVelocity(before, Vector3.up * 10, 4.5f, .1f);
+            Assert.LessOrEqual(after.y - before.y, .10001f);
+            Assert.LessOrEqual(after.magnitude, before.magnitude + .00001f);
+        }
+
+        [Test] public void OrdinaryLiftRetainsItsResponseInsideSpeedAndUpwardBudgets()
+        {
+            var after = GooseShakeController.BoundVelocity(Vector3.zero, new Vector3(2, 3, 0), 4.5f, 2.8f);
+            Assert.Greater(after.x, 0); Assert.Greater(after.y, 0);
+            Assert.LessOrEqual(after.magnitude, 4.50001f);
+            Assert.LessOrEqual(after.y, 2.80001f);
+        }
     }
 }
