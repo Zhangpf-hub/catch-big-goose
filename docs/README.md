@@ -12,6 +12,7 @@
 
 | 文档 |
 | --- |
+| [GitHub Windows／微信构建包交付](development-reports/2026-10-26-github-build-delivery.md) |
 | [微信预览 80051 包体超限修复](development-reports/2026-10-25-wechat-preview-size-fix.md) |
 | [15-三消单局核心算法与调优](development-reports/15-三消单局核心算法与调优.md) |
 | [16-每主题21类与单局体验](development-reports/16-每主题21类与单局体验.md) |
