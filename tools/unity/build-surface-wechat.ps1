@@ -1,8 +1,8 @@
-﻿param([switch]$ConvertOnly)
+﻿param([switch]$ConvertOnly,[ValidatePattern('^[a-z0-9-]+$')][string]$WorkName='mobile-surface-performance-20261026',[ValidatePattern('^[a-z0-9-]+$')][string]$WorkspaceName='build-workspace')
 $ErrorActionPreference='Stop'
 $taskRoot=Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
-$taskWork=Join-Path $taskRoot 'work/mobile-surface-performance-20261026'
-$taskWorkspace=Join-Path $taskWork 'build-workspace'
+$taskWork=Join-Path (Join-Path $taskRoot 'work') $WorkName
+$taskWorkspace=Join-Path $taskWork $WorkspaceName
 $taskProject=Join-Path $taskWorkspace 'projects/catch-big-goose-unity'
 $taskEditor='D:/开发/tools/unity/2022.3.62f3/Editor/Unity.exe'
 if(-not (Test-Path -LiteralPath (Join-Path $taskProject 'Assets/Editor/GoosePlayerNetworkPolicy.cs'))){throw 'Build the isolated surface QA snapshot first'}

@@ -54,6 +54,7 @@ namespace CatchGoose
             public string scope = "Native graphics player, forced mobile profile. Synthetic sensor and production prop/input. Operation frame samples include QA checks. Phone FPS/temperature not measured.";
             public bool completed, passed; public List<string> checks = new List<string>(), errors = new List<string>(); public List<Row> rows = new List<Row>();
             public List<ClipFrame> clipFrames = new List<ClipFrame>();
+            public List<SingleRotationCase> singleRotationCases=new List<SingleRotationCase>();
         }
         sealed class Pose
         {
@@ -61,6 +62,7 @@ namespace CatchGoose
             public Collider[] colliders; public bool[] enabled;
         }
         readonly Report report = new Report(); readonly List<GooseItem> surface = new List<GooseItem>(64);
+        readonly Collider[] hitsColliders=new Collider[1024];
         readonly RaycastHit[] hits = new RaycastHit[1024]; GooseGame game; string output; bool done;
         int firstTheme, themeCount = 5, stockOnly; string part = "matrix";
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)] static void Boot()
@@ -85,6 +87,14 @@ namespace CatchGoose
             for (int theme = firstTheme; theme < Mathf.Min(game.Themes.Length, firstTheme + themeCount); theme++)
             {
                 yield return Open(theme);
+                if(part=="single-rotation")
+                {
+                    yield return SingleRotationFixture("actual-tilted-book-success","ref_gtstickerbook",false,false);
+                    yield return SingleRotationFixture("actual-tilted-book-cancel","ref_gtstickerbook",false,true);
+                    yield return SingleRotationFixture("actual-tilted-book-reject","ref_gtstickerbook",true,false);
+                    yield return SingleRotationFixture("actual-double-envelope-budget","ref_bfsesameball",true,false);
+                    continue;
+                }
                 if (part == "fallback")
                 {
                     yield return PhoneFallbackFixtures(); yield return TiltedSingleConvexFixture();
@@ -803,6 +813,151 @@ namespace CatchGoose
             }
             yield return Settle(1);
         }
+        [Serializable] sealed class SingleRotationCase
+        {
+            public string name,item,failure,geometry;
+            public bool began,success,cancelled,uprightUsed,jointAirborne,settledSleeping,cancelledWhilePaused;
+            public Quaternion startRotation,endRotation,restoredRotation,settledRotation;
+            public Vector3 startPosition,endPosition,settledPosition,settledVelocity,settledAngularVelocity;
+            public float startTilt,endTilt,peakRise,peakAngle,netXZ,seconds,minimumY=100,originalBottomRange,itemScale;
+            public int lowerViolations,vertices,envelopePasses;
+            public float settledNetXZ,settledMinY,settledPenetration,settledMaxGap,settledMinGap=100;
+            public double planningMs,maxSliceMs;
+        }
+        IEnumerator SingleRotationFixture(string name,string itemId,bool reject,bool cancel)
+        {
+            game.SurfaceShuffle.CancelRound();game.Shake.CancelRound();
+            var originals=game.Items.ToArray();foreach(var item in originals)item.gameObject.SetActive(false);game.Items.Clear();
+            var root=new GameObject("SingleRotationFixture");GooseItem top=null,support=null;
+            Action<bool> completedHandler=null;
+            var record=new SingleRotationCase{name=name,item=itemId,itemScale=game.ItemScale};report.singleRotationCases.Add(record);
+            try
+            {
+                top=game.CreateItem(itemId);top.transform.SetParent(root.transform,true);
+                top.Body.isKinematic=true;top.Body.useGravity=false;top.Body.constraints=RigidbodyConstraints.None;top.Body.interpolation=RigidbodyInterpolation.None;
+                var rotation=new Quaternion(.73324f,.56618f,.35471f,.12642f).normalized;
+                top.Body.position=new Vector3(.2f,5,GooseCircularContainer.CenterZ);top.Body.rotation=rotation;
+                top.transform.SetPositionAndRotation(top.Body.position,rotation);Physics.SyncTransforms();
+                var mesh=top.SelectionCollider as MeshCollider;
+                Check(mesh&&mesh.convex&&mesh.sharedMesh,name+" uses actual cooked model geometry");
+                record.vertices=mesh&&mesh.sharedMesh?mesh.sharedMesh.vertexCount:0;
+                float minimum=GooseColliderGeometry.MinY(top.SelectionCollider,GooseColliderGeometry.BodyMatrix(top.SelectionCollider,top.Body));
+                float thickness=game.ItemScale*.2f;
+                support=FixtureBox(root.transform,name+"-support",new Vector3(.2f,minimum-thickness*.5f-.008f,GooseCircularContainer.CenterZ),new Vector3(game.ItemScale*4,thickness,game.ItemScale*4),true);
+                support.gameObject.layer=2;foreach(var renderer in support.Renderers)renderer.forceRenderingOff=true;
+                if(reject)
+                {
+                    support.Body.rotation=Quaternion.AngleAxis(50,Vector3.forward);support.transform.SetPositionAndRotation(support.Body.position,support.Body.rotation);Physics.SyncTransforms();
+                    var p=support.Body.position;p.y+=minimum-.008f-support.SelectionCollider.bounds.max.y;
+                    support.Body.position=p;support.transform.position=p;
+                }
+                top.DepthReady=true;top.DepthProtectedUntil=Time.time-1;top.DepthStillSince=Time.time-2;
+                top.SetDepthHeld(false);top.Body.useGravity=true;top.Body.velocity=top.Body.angularVelocity=Vector3.zero;
+                Physics.SyncTransforms();game.Depth.ResetRound();game.Depth.SpawnFinished(true);game.Depth.RefreshNow();
+                // Reproduce the observed sleeping large-tilt state without a
+                // rotation constraint; no physics step occurs before request.
+                top.Body.Sleep();record.startPosition=top.Body.position;record.startRotation=top.Body.rotation;
+                record.startTilt=Vector3.Angle(top.Body.rotation*Vector3.up,Vector3.up);
+                Check(!top.Body.isKinematic&&top.Body.useGravity&&top.Body.constraints==RigidbodyConstraints.None,name+" starts dynamic with ordinary gravity and no rotation lock");
+                var com=top.Body.worldCenterOfMass;float margin=Mathf.Clamp(Mathf.Min(top.SelectionCollider.bounds.size.x,top.SelectionCollider.bounds.size.z)*.03f,.008f,.02f);
+                float low=100,high=-100;
+                for(int i=0;i<5;i++)
+                {
+                    var offset=i==0?Vector3.zero:i==1?Vector3.right*margin:i==2?Vector3.left*margin:i==3?Vector3.forward*margin:Vector3.back*margin;
+                    var ray=new Ray(new Vector3(com.x+offset.x,minimum-1,com.z+offset.z),Vector3.up);
+                    bool hit=top.SelectionCollider.Raycast(ray,out var under,10);Check(hit,name+" independent underside sample "+i);
+                    if(hit){low=Mathf.Min(low,under.point.y);high=Mathf.Max(high,under.point.y);}
+                }
+                record.originalBottomRange=high-low;
+                if(itemId=="ref_gtstickerbook")Check(record.originalBottomRange>.025f+Mathf.Clamp(game.ItemScale*.06f,.025f,.065f)+.02f,name+" original tilted pose cannot satisfy the unchanged level-support tolerance");
+                var lowerPosition=support.Body.position;var lowerRotation=support.Body.rotation;
+                bool finished=false,success=false;float beganAt=Time.time,finishedAt=-1,firstMotion=-1;
+                completedHandler=value=>{finished=true;success=value;finishedAt=Time.time;record.endPosition=top.Body.position;record.endRotation=top.Body.rotation;};
+                game.SurfaceShuffle.Completed+=completedHandler;
+                record.began=game.SurfaceShuffle.BeginTossFromShake(new[]{top},game.Container);
+                Check(record.began,name+" accepts the original single target");
+                float deadline=Time.time+1.60f;
+                while(!finished&&Time.time<deadline)
+                {
+                    yield return new WaitForEndOfFrame();
+                    var delta=top.Body.position-record.startPosition;
+                    record.peakRise=Mathf.Max(record.peakRise,delta.y);record.peakAngle=Mathf.Max(record.peakAngle,Quaternion.Angle(record.startRotation,top.Body.rotation));
+                    record.jointAirborne|=delta.y>=game.ItemScale*.6f&&Quaternion.Angle(record.startRotation,top.Body.rotation)>=75;
+                    record.minimumY=Mathf.Min(record.minimumY,GooseColliderGeometry.MinY(top.SelectionCollider,GooseColliderGeometry.BodyMatrix(top.SelectionCollider,top.Body)));
+                    if(!support.DepthHeld||!support.Body.isKinematic||support.Body.useGravity||Vector3.Distance(lowerPosition,support.Body.position)>.0005f||Quaternion.Angle(lowerRotation,support.Body.rotation)>.05f)record.lowerViolations++;
+                    if(firstMotion<0&&delta.magnitude>.02f)firstMotion=Time.time;
+                    if(cancel&&!finished&&firstMotion>=0&&Time.time-firstMotion>=.60f)
+                    {
+                        record.cancelled=true;game.SetPaused(true);record.cancelledWhilePaused=game.Paused;game.SurfaceShuffle.CancelRound();record.restoredRotation=top.Body.rotation;
+                        Check(Vector3.Distance(top.Body.position,record.startPosition)<=.0005f&&Quaternion.Angle(top.Body.rotation,record.startRotation)<=.05f,name+" synchronous cancellation restores original position and rotation");
+                        Check(top.Colliders.All(c=>c.enabled)&&top.Body.detectCollisions&&!top.Body.isKinematic&&top.Body.useGravity&&top.Body.velocity.sqrMagnitude<.000001f&&top.Body.angularVelocity.sqrMagnitude<.000001f,name+" cancellation restores original collision, gravity and velocity state");
+                        Check(record.cancelledWhilePaused,name+" cancellation also covers the paused new-orientation state");game.SetPaused(false);
+                    }
+                }
+                record.success=success;record.seconds=(finishedAt<0?Time.time:finishedAt)-beganAt;
+                record.failure=game.SurfaceShuffle.LastFailure;record.geometry=game.SurfaceShuffle.LastSingleGeometry;
+                record.envelopePasses=record.geometry.Split(new[]{"envelopeRawPoints="},StringSplitOptions.None).Length-1;
+                record.uprightUsed=record.geometry.Contains("uprightLandingRotation=");record.endTilt=Vector3.Angle(record.endRotation*Vector3.up,Vector3.up);
+                record.netXZ=Vector2.Distance(new Vector2(record.startPosition.x,record.startPosition.z),new Vector2(record.endPosition.x,record.endPosition.z));
+                record.planningMs=game.SurfaceShuffle.LastPlanningMilliseconds;record.maxSliceMs=game.SurfaceShuffle.MaxPlanningSliceMilliseconds;
+                Check(finished&&record.seconds<=1.51f,name+" completes or safely rejects within the unchanged helper deadline");
+                // The original 2ms slice target is checked after an indivisible
+                // MoveNext; retain actual cold/warm maxima, not a false hard cap.
+                Check(record.lowerViolations==0,name+" original lower support remains fixed without gravity");
+                if(reject)Check(!success&&record.uprightUsed&&record.envelopePasses==2&&record.failure.Contains("single_unstable_com_support")&&!game.SurfaceShuffle.Active,name+" rejects both completed envelope poses for the actual unsafe support rather than a timeout");
+                else if(cancel)Check(record.cancelled&&!success&&record.uprightUsed,name+" cancellation exercised the new pose path");
+                else
+                {
+                    Check(success&&record.uprightUsed,name+" genuinely completes the authored-up fallback");
+                    Check(record.endTilt<1&&Quaternion.Angle(record.startRotation,record.endRotation)>30,name+" lands in the validated new orientation");
+                    Check(record.netXZ>=game.ItemScale*.2f-.002f&&record.netXZ<=game.ItemScale*.3f+.002f,name+" keeps the original safe-neighbour displacement");
+                    Check(record.jointAirborne,name+" simultaneously rises and flips in midair");
+                    Check(record.minimumY>=GooseCircularContainer.FloorY-.025f,name+" actual rotating hull remains above the floor");
+                    Check(!top.Body.isKinematic&&top.Body.useGravity&&top.Body.constraints==RigidbodyConstraints.None,name+" restores unconstrained gravity after landing");
+                    yield return Settle(.7f);
+                    record.settledPosition=top.Body.position;record.settledRotation=top.Body.rotation;record.settledVelocity=top.Body.velocity;
+                    record.settledAngularVelocity=top.Body.angularVelocity;record.settledSleeping=top.Body.IsSleeping();
+                    record.settledNetXZ=Vector2.Distance(new Vector2(record.startPosition.x,record.startPosition.z),new Vector2(top.Body.position.x,top.Body.position.z));
+                    record.settledMinY=GooseColliderGeometry.MinY(top.SelectionCollider,GooseColliderGeometry.BodyMatrix(top.SelectionCollider,top.Body));
+                    Check(!top.Body.isKinematic&&top.Body.useGravity&&top.Body.constraints==RigidbodyConstraints.None,name+" settles naturally without a rotation lock");
+                    Check(record.settledNetXZ>=game.ItemScale*.12f,name+" retains real settled planar displacement");
+                    Check(record.settledMinY>=GooseCircularContainer.FloorY-.025f&&new Vector2(top.Body.position.x,top.Body.position.z-GooseCircularContainer.CenterZ).magnitude<=game.Container.Radius+.05f,name+" settled hull and center stay within floor and bowl limits");
+                    Check(support.DepthHeld&&support.Body.isKinematic&&!support.Body.useGravity&&Vector3.Distance(lowerPosition,support.Body.position)<=.0005f&&Quaternion.Angle(lowerRotation,support.Body.rotation)<=.05f,name+" lower support remains unchanged after settling");
+                    var settledBounds=top.SelectionCollider.bounds;var settledCom=top.Body.worldCenterOfMass;
+                    float settledMargin=Mathf.Clamp(Mathf.Min(settledBounds.size.x,settledBounds.size.z)*.03f,.008f,.02f);
+                    for(int i=0;i<5;i++)
+                    {
+                        var offset=i==0?Vector3.zero:i==1?Vector3.right*settledMargin:i==2?Vector3.left*settledMargin:i==3?Vector3.forward*settledMargin:Vector3.back*settledMargin;
+                        var down=new Ray(new Vector3(settledCom.x+offset.x,settledBounds.max.y+1,settledCom.z+offset.z),Vector3.down);
+                        bool platformHit=support.SelectionCollider.Raycast(down,out var platform,20);
+                        var up=new Ray(new Vector3(settledCom.x+offset.x,settledBounds.min.y-1,settledCom.z+offset.z),Vector3.up);
+                        bool undersideHit=top.SelectionCollider.Raycast(up,out var under,20);
+                        float gap=platformHit&&undersideHit?under.point.y-platform.point.y:100;
+                        record.settledMaxGap=Mathf.Max(record.settledMaxGap,gap);record.settledMinGap=Mathf.Min(record.settledMinGap,gap);
+                        Check(platformHit&&undersideHit&&platform.normal.y>=.8f&&gap>=-.02f&&gap<=Mathf.Clamp(game.ItemScale*.06f,.025f,.065f),name+" actual settled support and hull gap "+i);
+                    }
+                    int overlapCount=Physics.OverlapBoxNonAlloc(settledBounds.center,settledBounds.extents+.002f*Vector3.one,hitsColliders,Quaternion.identity,~0,QueryTriggerInteraction.Ignore);
+                    Check(overlapCount<hitsColliders.Length,name+" settled collision query is complete");
+                    for(int i=0;i<overlapCount;i++)
+                    {
+                        var other=hitsColliders[i];if(!other||other.attachedRigidbody==top.Body)continue;
+                        if(Physics.ComputePenetration(top.SelectionCollider,top.SelectionCollider.transform.position,top.SelectionCollider.transform.rotation,other,other.transform.position,other.transform.rotation,out _,out float distance))record.settledPenetration=Mathf.Max(record.settledPenetration,distance);
+                    }
+                    Check(record.settledPenetration<=.002f,name+" real settled shape passes the original narrow-phase tolerance");
+                }
+                Save();
+            }
+            finally
+            {
+                if(completedHandler!=null)game.SurfaceShuffle.Completed-=completedHandler;
+                if(game.Paused)game.SetPaused(false);
+                game.SurfaceShuffle.CancelRound();game.Shake.CancelRound();game.Items.Clear();root.SetActive(false);Destroy(root);
+                game.Items.AddRange(originals);foreach(var item in originals)if(item)item.gameObject.SetActive(true);
+                Physics.SyncTransforms();game.Depth.ResetRound();game.Depth.SpawnFinished(true);game.Depth.RefreshNow();
+            }
+            yield return null;
+        }
+
         IEnumerator PhoneFallbackInterruptions()
         {
             game.Depth.CopySurface(surface); var props = game.Props.ToArray(); var uses = ToolUses();

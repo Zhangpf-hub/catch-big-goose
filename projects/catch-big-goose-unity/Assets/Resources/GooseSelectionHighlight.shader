@@ -88,7 +88,11 @@ Shader "Goose/SelectionHighlight" {
    return half4(color,alpha);
   }
   v2f clearVertex(uint id:SV_VertexID) {
-   v2f o;o.pos=float4(float2((id<<1)&2,id&2)*2-1,0,1);o.uv=0;return o;
+   // Keep the same oversized triangle without mixed uint/int bit operations.
+   // ANGLE's GLES-to-D3D linker rejects that expression as ambiguous uint_ctor.
+   float index=(float)id;
+   float2 clip=index<.5?float2(-1.0,-1.0):index<1.5?float2(3.0,-1.0):float2(-1.0,3.0);
+   v2f o;o.pos=float4(clip,0.0,1.0);o.uv=0;return o;
   }
   ENDCG
   // Clear only the two effect bits; preserve UI/other camera stencil ownership.

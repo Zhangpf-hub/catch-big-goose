@@ -30,7 +30,7 @@ namespace CatchGoose
             public int instanceId, neighbour;
             public Vector3 start, end, velocity, angularVelocity;
             public Vector3 localCenterOfMass;
-            public Quaternion rotation;
+            public Quaternion rotation, endRotation;
             public bool kinematic, gravity, detectCollisions;
             public RigidbodyInterpolation interpolation;
             public CollisionDetectionMode collision;
@@ -138,7 +138,7 @@ namespace CatchGoose
                 var body = item.Body;
                 var target = new Target
                 {
-                    item = item, instanceId = item.GetInstanceID(), start = body.position, rotation = body.rotation,
+                    item = item, instanceId = item.GetInstanceID(), start = body.position, rotation = body.rotation, endRotation = body.rotation,
                     velocity = body.velocity, angularVelocity = body.angularVelocity,
                     localCenterOfMass = Quaternion.Inverse(body.rotation) * (body.worldCenterOfMass - body.position),
                     kinematic = body.isKinematic, gravity = body.useGravity, detectCollisions = body.detectCollisions,
@@ -286,26 +286,48 @@ namespace CatchGoose
             int count = targets.Count;
             if (fromShake && count == 1)
             {
-                var envelope = PrepareSingleEnvelope(targets[0]);
-                while (envelope.MoveNext()) yield return null;
-                if (targets[0].supportBottom == null)
-                { LastFailure = "shake_single_geometry_unavailable " + landingFailure; CancelRound(); yield break; }
-                CacheSupports();
                 var target = targets[0];
                 Vector3 towardCenter = roundContainer.Center - target.start;
                 float firstAngle = towardCenter.x * towardCenter.x + towardCenter.z * towardCenter.z > .0025f
                     ? Mathf.Atan2(towardCenter.z, towardCenter.x) : Random.value * Mathf.PI * 2;
                 float step = game.ItemScale * .29f;
-                for (int direction = 0; direction < 8; direction++)
+                // Keep the original pose/8 directions first. Only a controlled
+                // phone single may try one authored-up landing orientation.
+                for (int pose = 0; pose < (phoneToss ? 2 : 1); pose++)
                 {
-                    float angle = firstAngle + direction * Mathf.PI * .25f;
-                    var desired = target.start + new Vector3(Mathf.Cos(angle), 0, Mathf.Sin(angle)) * step;
-                    if (FindLanding(0, desired, 1.4f, out planned[0]) && ValidSingleNeighbour(target.start, planned[0])
-                        && StableSingleSupport(target, planned[0]))
-                    { target.end = planned[0]; LastFailure = ""; yield break; }
-                    LastFailure = "shake_single_no_safe_neighbour direction=" + direction + " item=" + target.item.Id
-                        + " desired=" + desired + " planned=" + planned[0] + " reason=" + landingFailure;
-                    yield return null;
+                    if (pose == 1)
+                    {
+                        Vector3 heading = Vector3.ProjectOnPlane(target.rotation * Vector3.forward, Vector3.up);
+                        if (heading.sqrMagnitude < .000001f)
+                            heading = Vector3.Cross(Vector3.ProjectOnPlane(target.rotation * Vector3.right, Vector3.up), Vector3.up);
+                        target.endRotation = heading.sqrMagnitude < .000001f ? Quaternion.identity : Quaternion.LookRotation(heading.normalized, Vector3.up);
+                        if (Quaternion.Angle(target.rotation, target.endRotation) < .01f) break;
+                        bool first = true;
+                        foreach (var shape in target.shapes) if (shape.enabled)
+                        {
+                            var bounds = ShapeBounds(shape, Vector3.zero, target.endRotation);
+                            if (first) { target.relativeBounds = bounds; first = false; }
+                            else target.relativeBounds.Encapsulate(bounds);
+                        }
+                        LastSingleGeometry += " uprightLandingRotation=" + target.endRotation + " uprightBounds=" + target.relativeBounds;
+                    }
+                    target.supportBottom = null;
+                    var envelope = PrepareSingleEnvelope(target);
+                    while (envelope.MoveNext()) yield return null;
+                    if (target.supportBottom == null)
+                    { LastFailure = "shake_single_geometry_unavailable " + landingFailure; CancelRound(); yield break; }
+                    CacheSupports();
+                    for (int direction = 0; direction < 8; direction++)
+                    {
+                        float angle = firstAngle + direction * Mathf.PI * .25f;
+                        var desired = target.start + new Vector3(Mathf.Cos(angle), 0, Mathf.Sin(angle)) * step;
+                        if (FindLanding(0, desired, 1.4f, out planned[0]) && ValidSingleNeighbour(target.start, planned[0])
+                            && StableSingleSupport(target, planned[0]))
+                        { target.end = planned[0]; LastFailure = ""; yield break; }
+                        LastFailure = "shake_single_no_safe_neighbour pose=" + pose + " direction=" + direction + " item=" + target.item.Id
+                            + " desired=" + desired + " planned=" + planned[0] + " reason=" + landingFailure;
+                        yield return null;
+                    }
                 }
                 Debug.LogWarning("[GooseSurfaceShuffle] rejected " + LastFailure + " blocker=" + LastBlockingCollider);
                 CancelRound(); yield break;
@@ -367,11 +389,11 @@ namespace CatchGoose
             // A penetration-free point can still be perched over the original
             // hole. Require a small, level support patch below the actual COM
             // before restoring gravity, including IgnoreRaycast collision walls.
-            Vector3 com = position + target.rotation * target.localCenterOfMass;
+            Vector3 com = position + target.endRotation * target.localCenterOfMass;
             var bounds = target.relativeBounds; bounds.center += position;
             float minimum = float.PositiveInfinity;
             foreach (var shape in target.shapes)
-                if (shape.enabled) minimum = Mathf.Min(minimum, MinimumY(shape, position, target.rotation));
+                if (shape.enabled) minimum = Mathf.Min(minimum, MinimumY(shape, position, target.endRotation));
             float margin = Mathf.Clamp(Mathf.Min(bounds.size.x, bounds.size.z) * .03f, .008f, .02f);
             float maximumGap = Mathf.Clamp(game.ItemScale * .06f, .025f, .065f);
             float rayY = Mathf.Max(bounds.max.y, com.y) + .025f;
@@ -429,7 +451,7 @@ namespace CatchGoose
             var clock = System.Diagnostics.Stopwatch.StartNew();
             var bounds = target.relativeBounds;
             float margin = Mathf.Clamp(Mathf.Min(bounds.size.x, bounds.size.z) * .03f, .008f, .02f);
-            Vector3 com = target.rotation * target.localCenterOfMass;
+            Vector3 com = target.endRotation * target.localCenterOfMass;
             target.supportProbes = new[] { com, com + Vector3.right * margin, com - Vector3.right * margin,
                 com + Vector3.forward * margin, com - Vector3.forward * margin };
             var bottoms = new float[5];
@@ -455,7 +477,7 @@ namespace CatchGoose
                 var vertices = new Vector3[unique.Count]; pointCount += source.Length; uniquePointCount += unique.Count;
                 singleEnvelopePoints = pointCount;
                 singleEnvelopeUniquePoints = uniquePointCount;
-                var matrix = Matrix4x4.TRS(Vector3.zero, target.rotation, Vector3.one) * shape.localMatrix;
+                var matrix = Matrix4x4.TRS(Vector3.zero, target.endRotation, Vector3.one) * shape.localMatrix;
                 int vertexIndex = 0;
                 foreach (var vertex in unique) vertices[vertexIndex++] = matrix.MultiplyPoint3x4(vertex);
                 for (int a = 0; a < vertices.Length - 2; a++)
@@ -492,7 +514,7 @@ namespace CatchGoose
         {
             safe = position;
             float maximumGap = Mathf.Clamp(game.ItemScale * .06f, .025f, .065f);
-            float rayY = Mathf.Max(position.y + target.relativeBounds.max.y, position.y + (target.rotation * target.localCenterOfMass).y) + .025f;
+            float rayY = Mathf.Max(position.y + target.relativeBounds.max.y, position.y + (target.endRotation * target.localCenterOfMass).y) + .025f;
             foreach (var obstacle in supportObstacles)
             {
                 var b = obstacle.bounds; var footprint = target.relativeBounds; footprint.center += position;
@@ -532,7 +554,7 @@ namespace CatchGoose
             }
             if (solveHeight) safe.y = requiredY;
             foreach (var shape in target.shapes) if (shape.enabled)
-                safe.y += Mathf.Max(0, GooseCircularContainer.FloorY + Clearance - MinimumY(shape, safe, target.rotation));
+                safe.y += Mathf.Max(0, GooseCircularContainer.FloorY + Clearance - MinimumY(shape, safe, target.endRotation));
             for (int probe = 0; probe < 5; probe++)
             {
                 float gap = safe.y + target.supportBottom[probe] - heights[probe];
@@ -564,9 +586,9 @@ namespace CatchGoose
             foreach (var shape in target.shapes) if (shape.enabled)
             {
                 var obstacle = new Obstacle { collider = shape.collider,
-                    bounds = ShapeBounds(shape, planned[index], target.rotation),
-                    position = planned[index] + target.rotation * shape.localPosition,
-                    rotation = target.rotation * shape.localRotation };
+                    bounds = ShapeBounds(shape, planned[index], target.endRotation),
+                    position = planned[index] + target.endRotation * shape.localPosition,
+                    rotation = target.endRotation * shape.localRotation };
                 int low = 0, high = supportObstacles.Count;
                 while (low < high)
                 { int mid = (low + high) / 2; if (supportObstacles[mid].bounds.max.y < obstacle.bounds.max.y) low = mid + 1; else high = mid; }
@@ -616,7 +638,7 @@ namespace CatchGoose
                     bool penetrating = fromShake && targets.Count == 1 && (!obstacleBody || obstacleBody.isKinematic);
                     if (!penetrating)
                         foreach (var shape in target.shapes)
-                            if (shape.enabled && Penetrates(shape, safe, target.rotation, obstacle.collider, obstacle.position, obstacle.rotation))
+                            if (shape.enabled && Penetrates(shape, safe, target.endRotation, obstacle.collider, obstacle.position, obstacle.rotation))
                             { penetrating = true; break; }
                     if (penetrating)
                     {
@@ -651,7 +673,7 @@ namespace CatchGoose
             foreach (var shape in target.shapes)
             {
                 if (!shape.enabled) continue;
-                Bounds bounds = ShapeBounds(shape, position, target.rotation);
+                Bounds bounds = ShapeBounds(shape, position, target.endRotation);
                 int count = Physics.OverlapBoxNonAlloc(bounds.center, bounds.extents + Vector3.one * Clearance,
                     overlaps, Quaternion.identity, ~0, QueryTriggerInteraction.Ignore);
                 if (count == overlaps.Length)
@@ -660,8 +682,8 @@ namespace CatchGoose
                 {
                     var other = overlaps[c];
                     if (!other || targetColliders.Contains(other)) continue;
-                    if (Physics.ComputePenetration(shape.collider, position + target.rotation * shape.localPosition,
-                        target.rotation * shape.localRotation, other, other.transform.position, other.transform.rotation,
+                    if (Physics.ComputePenetration(shape.collider, position + target.endRotation * shape.localPosition,
+                        target.endRotation * shape.localRotation, other, other.transform.position, other.transform.rotation,
                         out var direction, out float distance) && distance > .002f)
                     {
                         clear = false;
@@ -731,7 +753,8 @@ namespace CatchGoose
             position = ClampTossCenter(position);
             // Evaluate the full turn directly. Slerping between equivalent zero
             // and 360-degree quaternions would erase the visible flip entirely.
-            rotation = Quaternion.AngleAxis(360f * u, tossFlipAxis) * target.rotation;
+            rotation = u >= 1f ? target.endRotation : Quaternion.AngleAxis(360f * u, tossFlipAxis)
+                * Quaternion.Slerp(target.rotation, target.endRotation, catchProgress);
         }
 
         void Update()
@@ -843,7 +866,7 @@ namespace CatchGoose
             for (int i = 0; i < targets.Count; i++)
             {
                 var target = targets[i];
-                SetPose(target, target.end, target.rotation);
+                SetPose(target, target.end, target.endRotation);
                 target.travel = Mathf.Max(target.travel, Vector3.Distance(target.start, target.end));
                 result.maxTravel = Mathf.Max(result.maxTravel, target.travel); result.meanTravel += target.travel;
                 result.maxTurn = Mathf.Max(result.maxTurn, target.turn);

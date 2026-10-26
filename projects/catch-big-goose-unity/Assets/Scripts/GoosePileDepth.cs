@@ -499,7 +499,7 @@ namespace CatchGoose
                         // mesh. Only its contracted interior can hide another
                         // item, with every outer target sample covered as well.
                         if(queries>=MaxVisualProbeQueries)return false;
-                        const float interior=.95f;
+                        const float interior=.90f;
                         var center=hits[i].collider.bounds.center;
                         var interiorRay=new Ray(center+(ray.origin-center)/interior,ray.direction);
                         queries++;

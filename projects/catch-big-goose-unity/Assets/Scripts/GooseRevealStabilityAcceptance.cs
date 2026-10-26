@@ -39,7 +39,8 @@ namespace CatchGoose
             public string name;
             public bool completed, inconclusive;
             public int initialEpoch, completedEpoch, maxProbes, stationaryFlips, windowRestarts, minClassifications;
-            public int stock, visible, held, dynamicBodies, renderers;
+            public int stock, visible, held, dynamicBodies, renderers, drawSlots, triangles, refreshSamples;
+            public float lastRefreshMs, maxRefreshMs, meanRefreshMs;
             public float operationSeconds, convergenceSeconds, stableSeconds, maxStationaryConvergenceSeconds, derivedConvergenceBound;
             public float commitAfterOperationSeconds, rendererSettledAfterOperationSeconds;
             public float maximumEpochSeconds, lastEpochSeconds;
@@ -51,6 +52,11 @@ namespace CatchGoose
             public Vector2 screen;
             public bool began, accepted, pickedStateObserved, exitedInventory;
             public int before, after;
+        }
+        [Serializable] sealed class ReleaseWitness
+        {
+            public int frame;public string item;public bool accepted;
+            public GooseLowerPromotionWitnessPolicy.Evidence evidence;
         }
         [Serializable] sealed class Trace
         {
@@ -75,6 +81,8 @@ namespace CatchGoose
             public List<Event> events=new List<Event>();
             public List<Trace> traces=new List<Trace>();
             public List<ItemState> promotedAfterMotion=new List<ItemState>();
+            public int firstReleaseEvaluations,firstReleaseAccepted,firstReleaseOmitted,firstReleaseQueries;
+            public List<ReleaseWitness> firstReleaseWitnesses=new List<ReleaseWitness>();
         }
         sealed class Watch
         {
@@ -98,6 +106,10 @@ namespace CatchGoose
         int previousCommit;
         Matrix4x4 cameraView,cameraProjection;
         Phase phase;
+        struct ReleasePrevious{public bool held;public float nextCheck;}
+        readonly Dictionary<int,ReleasePrevious> releasePrevious=new Dictionary<int,ReleasePrevious>();
+        readonly HashSet<int> releaseRecorded=new HashSet<int>();
+        GooseStageTwoLowerFixedObserver releaseObserver;LevelDefinition releaseRound;
         // Worst-case complete visual work, independent of early-out savings.
         const int MaximumVisualQueries=GoosePileDepth.MaxVisualProbeQueries,ReservedVisualQueries=64;
         const float StableWindow=12,PhaseLimit=120;
@@ -179,8 +191,10 @@ namespace CatchGoose
             }
             return changed;
         }
-        bool IndependentlyExposed(GooseItem item)
+        bool IndependentlyExposed(GooseItem item){return IndependentlyExposed(item,out _);}
+        bool IndependentlyExposed(GooseItem item,out int queryCount)
         {
+            queryCount=0;
             float top=game.Items.Where(Valid).Max(value=>value.SelectionCollider.bounds.max.y)+1;var b=item.SelectionCollider.bounds;
             // A 5-point oracle misses legitimate exposure on the production
             // outer ring. This independent 25-point grid includes both rings
@@ -190,7 +204,8 @@ namespace CatchGoose
             {
                 var offset=new Vector3(offsets[column]*b.extents.x,0,offsets[row]*b.extents.z);
                 var ray=new Ray(new Vector3(b.center.x+offset.x,top,b.center.z+offset.z),Vector3.down);
-                if(item.SelectionCollider.Raycast(ray,out var own,100)&&Physics.Raycast(ray,out var first,own.distance+.001f,~((1<<2)|(1<<8)|(1<<26)|(1<<27)|(1<<28)|(1<<29)|(1<<30)),QueryTriggerInteraction.Ignore)&&first.collider.attachedRigidbody==item.Body)return true;
+                queryCount++;if(!item.SelectionCollider.Raycast(ray,out var own,100))continue;
+                queryCount++;if(Physics.Raycast(ray,out var first,own.distance+.001f,~((1<<2)|(1<<8)|(1<<26)|(1<<27)|(1<<28)|(1<<29)|(1<<30)),QueryTriggerInteraction.Ignore)&&first.collider.attachedRigidbody==item.Body)return true;
             }
             return false;
         }
@@ -221,6 +236,9 @@ namespace CatchGoose
             while(Time.realtimeSinceStartup<deadline)
             {
                 game.QaSetTime(3600);yield return new WaitForEndOfFrame();bool changed=Observe();float now=Time.realtimeSinceStartup;
+                // Sample gameplay refresh cost before any offscreen QA capture. This is not phone FPS.
+                row.lastRefreshMs=game.Depth.LastRefreshMs;row.maxRefreshMs=Mathf.Max(row.maxRefreshMs,row.lastRefreshMs);
+                row.refreshSamples++;row.meanRefreshMs+=(row.lastRefreshMs-row.meanRefreshMs)/row.refreshSamples;
                 bool ready=Ready(row.initialEpoch,needNew)&&now-lastGeometry>=1.5f&&now-lastCommitObserved>=1.5f&&!game.Shake.Active&&!game.SurfaceShuffle.Active;
                 if(changed||!ready){if(window>=0)row.windowRestarts++;window=-1;row.stableSeconds=0;}
                 else
@@ -246,7 +264,7 @@ namespace CatchGoose
             if(!row.completed)yield break;
             foreach(var item in game.Items)if(Valid(item))
             {
-                row.stock++;if(item.DepthVisible){row.visible++;row.renderers+=item.RenderCount;}
+                row.stock++;if(item.DepthVisible){row.visible++;row.renderers+=item.RenderCount;row.drawSlots+=item.DrawSlots;row.triangles+=item.Triangles;}
                 if(item.DepthHeld)row.held++;if(!item.Body.isKinematic)row.dynamicBodies++;
                 Check(item.Renderers.All(renderer=>!renderer||renderer.enabled==item.DepthVisible),"renderer publication "+row.name+"/"+item.GetInstanceID());
             }
@@ -254,6 +272,12 @@ namespace CatchGoose
             Check(row.colorGeometryReference.passed&&row.colorGeometryReference.noisePassed&&row.colorGeometryReference.rendererStateRestored&&
                 row.colorGeometryReference.casterControlApplicable&&row.colorGeometryReference.casterStateRestored,"original color geometry reference "+row.name);
             Check(row.visible<row.stock,"real hidden inventory retained "+row.name);
+            if(Array.IndexOf(Environment.GetCommandLineArgs(),"-gooseVisibilityContributors")>=0)
+            {
+                var contributorOutput=Path.Combine(output,row.name+"-contributors");
+                Directory.CreateDirectory(contributorOutput);
+                GooseVisibilityReferenceCapture.DiagnoseContributors(game,contributorOutput);
+            }
             GooseFrameCapture.Save(Path.Combine(output,row.name+".png"));Save();
         }
         bool PointerTarget(out GooseItem target,out Vector2 point,out GooseItem hiddenHint)
@@ -293,10 +317,7 @@ namespace CatchGoose
             }
             else if(lower.TryGetValue(id,out var old)&&!promoted.Contains(id))
             {
-                if(!item.DepthHeld&&!item.Body.isKinematic&&item.Body.useGravity&&item.SurfaceActive&&item.SurfaceExposed&&
-                    GoosePileDepth.WithinActiveSurfaceBand(item.SelectionCollider.bounds,game.Depth.ActiveSurfaceThreshold)&&IndependentlyExposed(item))
-                {promoted.Add(id);report.promotedAfterMotion.Add(State(item));}
-                else if(Vector3.Distance(old.position,item.Body.position)>.0005f||Quaternion.Angle(old.rotation,item.Body.rotation)>.05f||
+                if(Vector3.Distance(old.position,item.Body.position)>.0005f||Quaternion.Angle(old.rotation,item.Body.rotation)>.05f||
                     item.DepthHeld!=old.held||item.Body.isKinematic!=old.kinematic||item.Body.useGravity!=old.gravity)report.lowerViolations++;
             }
             if(!traces.TryGetValue(id,out var trace))return;
@@ -305,6 +326,43 @@ namespace CatchGoose
             trace.peakXZ=Mathf.Max(trace.peakXZ,new Vector2(delta.x,delta.z).magnitude);
             trace.peakPixels=Mathf.Max(trace.peakPixels,Vector2.Distance(game.MainCamera.WorldToScreenPoint(trace.start),game.MainCamera.WorldToScreenPoint(item.Body.position)));
             trace.airborneFlip|=delta.y>=game.ItemScale*.6f&&Quaternion.Angle(trace.rotation,item.Body.rotation)>=75;
+        }
+        void ArmReleaseObserver()
+        {
+            releaseRound=game.Level;releasePrevious.Clear();releaseRecorded.Clear();
+            foreach(var pair in lower)if(watch.TryGetValue(pair.Key,out var entry)&&Valid(entry.item))
+                releasePrevious[pair.Key]=new ReleasePrevious{held=entry.item.DepthHeld,nextCheck=entry.item.NextSurfaceCheck};
+            releaseObserver=gameObject.AddComponent<GooseStageTwoLowerFixedObserver>();releaseObserver.Step=ObserveReleaseWitness;
+        }
+        void ObserveReleaseWitness()
+        {
+            foreach(var pair in lower)
+            {
+                int id=pair.Key;if(!watch.TryGetValue(id,out var entry)||!Valid(entry.item)||!releasePrevious.TryGetValue(id,out var previous))continue;
+                var item=entry.item;
+                if(previous.held&&!item.DepthHeld&&!promoted.Contains(id)&&!originalIds.Contains(id))
+                {
+                    float top=game.Items.Where(Valid).Max(value=>value.SelectionCollider.bounds.max.y)+.2f;
+                    int mask=~((1<<2)|(1<<8)|(1<<26)|(1<<27)|(1<<28)|(1<<29)|(1<<30));
+                    bool raw=GoosePileDepth.ProbeSurface(item,top,mask,out int queries),independent=IndependentlyExposed(item,out int independentQueries);
+                    report.firstReleaseQueries+=queries+independentQueries;var initial=pair.Value;
+                    var evidence=new GooseLowerPromotionWitnessPolicy.Evidence{
+                        initialId=initial.instanceId,currentId=item.GetInstanceID(),sameRound=game.Level==releaseRound,exists=true,
+                        initialHeld=initial.held,initialKinematic=initial.kinematic,initialGravity=initial.gravity,previousHeld=previous.held,selected=originalIds.Contains(id),
+                        prePhysics=true,inFixedStep=Time.inFixedTimeStep,shakeLock=game.Shake.Active,helperLock=game.SurfaceShuffle.Active,depthLock=game.Depth.AnimationInProgress,
+                        currentHeld=item.DepthHeld,currentKinematic=item.Body.isKinematic,currentGravity=item.Body.useGravity,surfaceActive=item.SurfaceActive,
+                        surfaceKnown=item.SurfaceKnown,surfaceExposed=item.SurfaceExposed,colliderEnabled=item.SelectionCollider.enabled,surfaceAnimating=item.SurfaceAnimating,
+                        active=item.gameObject.activeInHierarchy,picked=item.Picked,raw=raw,independent=independent,time=Time.time,fixedTime=Time.fixedTime,
+                        nextCheck=item.NextSurfaceCheck,previousNextCheck=previous.nextCheck,boundsMax=item.SelectionCollider.bounds.max.y,band=game.Depth.ActiveSurfaceThreshold,
+                        positionDelta=Vector3.Distance(initial.position,item.Body.position),angleDelta=Quaternion.Angle(initial.rotation,item.Body.rotation)};
+                    bool accepted=GooseLowerPromotionWitnessPolicy.Accept(evidence);report.firstReleaseEvaluations++;
+                    if(accepted){promoted.Add(id);report.firstReleaseAccepted++;report.promotedAfterMotion.Add(State(item));}
+                    if(releaseRecorded.Add(id)&&report.firstReleaseWitnesses.Count<8)
+                        report.firstReleaseWitnesses.Add(new ReleaseWitness{frame=Time.frameCount,item=item.Id,accepted=accepted,evidence=evidence});
+                    else report.firstReleaseOmitted++;
+                }
+                releasePrevious[id]=new ReleasePrevious{held=item.DepthHeld,nextCheck=item.NextSurfaceCheck};
+            }
         }
         IEnumerator Start()
         {
@@ -343,7 +401,7 @@ namespace CatchGoose
                 int id=item.GetInstanceID();if(item.DepthHeld&&!originalIds.Contains(id))lower[id]=State(item);
                 if(originalIds.Contains(id)){var trace=new Trace{instanceId=id,id=item.Id,start=item.Body.position,end=item.Body.position,rotation=item.Body.rotation};traces.Add(id,trace);report.traces.Add(trace);}
             }
-            operationBegan=Time.realtimeSinceStartup;var tossed=NewPhase("after-toss");motionPhase=true;
+            operationBegan=Time.realtimeSinceStartup;var tossed=NewPhase("after-toss");motionPhase=true;ArmReleaseObserver();
             int before=game.Shake.Accepted;game.Shake.ResetSensor();float timestamp=Time.unscaledTime;
             for(int n=0;n<6;n++)game.Shake.Sample(Vector3.forward,timestamp+n*.06f);
             game.Shake.Sample(new Vector3(1.6f,0,1),timestamp+.42f);game.Shake.Sample(new Vector3(-1.6f,0,1),timestamp+.48f);game.Shake.Sample(Vector3.forward,timestamp+.54f);
@@ -353,7 +411,7 @@ namespace CatchGoose
             foreach(var trace in report.traces)trace.selected=report.fixedIds.Contains(trace.instanceId);
             Check(report.fixedIds.Length>0&&report.fixedIds.All(originalIds.Contains)&&
                 (float)report.fixedIds.Length/Mathf.Max(1,report.originalSurfaceIds.Length)>=.8f,"original surface target identities and eighty-percent coverage retained");
-            yield return Steady(tossed,true,operationBegan+PhaseLimit);motionPhase=false;report.motion=game.Shake.LastMotion;
+            yield return Steady(tossed,true,operationBegan+PhaseLimit);if(releaseObserver){releaseObserver.Step=null;releaseObserver.enabled=false;}motionPhase=false;report.motion=game.Shake.LastMotion;
             foreach(var trace in report.traces)trace.netXZ=new Vector2(trace.end.x-trace.start.x,trace.end.z-trace.start.z).magnitude;
             var selectedTraces=report.traces.Where(trace=>trace.selected).ToArray();int needed=Mathf.Max(1,Mathf.CeilToInt(selectedTraces.Length*.6f));
             Check(report.observedToss&&report.motion!=null&&report.motion.mode=="controlled-pan-toss"&&report.motion.tossCompleted&&!report.motion.interrupted&&string.IsNullOrEmpty(report.motion.tossFailure),"production controlled pan toss actually completes");

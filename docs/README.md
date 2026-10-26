@@ -12,6 +12,10 @@
 
 | 文档 |
 | --- |
+| [下层显隐稳定与真实转关修复](development-reports/stable-visibility-stage-two-20261026.md) |
+| [SHAKE7表层颠锅摇动与微信体验包](development-reports/pan-toss-shake-20261026.md) |
+| [正常模式性能审计](development-reports/mobile-performance-audit-20261026.md) |
+| [SHAKE6摇动落稳重排修复](development-reports/mobile-surface-shake6-20261026.md) |
 | [GitHub Windows／微信构建包交付](development-reports/2026-10-26-github-build-delivery.md) |
 | [微信预览 80051 包体超限修复](development-reports/2026-10-25-wechat-preview-size-fix.md) |
 | [15-三消单局核心算法与调优](development-reports/15-三消单局核心算法与调优.md) |
@@ -48,5 +52,8 @@
 
 ## 开发计划
 
+- [表层颠锅摇动与微信体验包计划及审批](development-plans/pan-toss-shake-20261026.md)
+- [正常模式表层性能与摇动重排计划及审批](development-plans/mobile-surface-performance-20261026.md)
 - [微信小游戏体验版与自有视频奖励实施计划](development-plans/微信小游戏体验版与自有视频奖励实施计划.md)
 - [竞品对齐与算法复核_20261022](development-plans/竞品对齐与算法复核_20261022.md)
+- [下层显隐稳定与第二关颠锅修复](development-plans/stable-visibility-stage-two-20261026.md)

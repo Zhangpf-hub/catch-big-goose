@@ -5,7 +5,7 @@ namespace CatchGoose
     // Own mobile profile, not recovered competitor constants.
     public static class GooseRuntimePerformance
     {
-        public const string BuildId = "20261026-VISIBILITY1-SHAKE9";
+        public const string BuildId = "20261026-VISIBILITY2-SHAKE11";
         public static bool Mobile { get; private set; }
         public static int PreferredFrameRate { get; private set; }=60;
         public static void SetHomeVisible(bool home)

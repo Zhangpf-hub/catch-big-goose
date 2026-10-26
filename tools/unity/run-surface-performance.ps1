@@ -1,4 +1,4 @@
-﻿param([switch]$SkipBuild,[switch]$SkipTests,[ValidateSet('matrix','smoke','fixture','interrupt','clip')][string]$Part='matrix',[int]$Theme=-1,[int]$Stock=0,[string]$RunName='',[switch]$Release,[switch]$BuildWeChat)
+﻿param([switch]$SkipBuild,[switch]$SkipTests,[ValidateSet('matrix','smoke','fixture','interrupt','clip','toss','fallback')][string]$Part='matrix',[int]$Theme=-1,[int]$Stock=0,[string]$RunName='',[switch]$Release,[switch]$BuildWeChat)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot 'player-network.ps1')
 $taskRoot=Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
@@ -18,6 +18,8 @@ if(-not $SkipBuild) {
         if($LASTEXITCODE -gt 7){throw "Surface snapshot copy failed: $taskFolder"}
     }
     if(-not (Test-Path -LiteralPath (Join-Path $taskProject 'Assets/Editor/GoosePlayerNetworkPolicy.cs'))){throw 'Local-only network build hook missing'}
+    & python (Join-Path $PSScriptRoot 'collect-surface-delivery.py') --capture-inputs
+    if($LASTEXITCODE -ne 0){throw 'Full source input snapshot verification failed'}
 }
 function Invoke-SurfaceTask($taskExecutable,$taskArguments,$taskLabel) {
     $taskQuoted=($taskArguments | ForEach-Object {'"'+$_+'"'}) -join ' '
@@ -31,6 +33,8 @@ if(-not $SkipTests) {
 if(-not $SkipBuild) {
     Invoke-SurfaceTask $taskEditor @('-batchmode','-nographics','-projectPath',$taskProject,'-buildTarget','StandaloneWindows64',
         '-executeMethod','CatchGoose.Editor.GooseSurfaceBuild.Qa','-surfacePlayer',(Join-Path $taskWork 'player/catch-big-goose.exe'),'-quit','-logFile',(Join-Path $taskWork 'qa-build.log')) 'QA build'
+    & python (Join-Path $PSScriptRoot 'collect-surface-delivery.py') --capture-native-inputs
+    if($LASTEXITCODE -ne 0){throw 'Native input manifest capture failed'}
 }
 $taskPlayer=Join-Path $taskWork 'player/catch-big-goose.exe'
 Set-GooseLocalPlayerConnection -PlayerPath $taskPlayer
@@ -38,6 +42,12 @@ $taskName=$Part+$(if($Theme -ge 0){'-'+$Theme}else{''})
 if($Stock -gt 0){$taskName+='-stock-'+$Stock}
 if($RunName){if($RunName -notmatch '^[a-z0-9-]+$'){throw 'RunName must use lowercase kebab-case'};$taskName+='-'+$RunName}
 $taskOutput=Join-Path $taskWork $taskName
+New-Item -ItemType Directory -Force -Path $taskOutput | Out-Null
+$taskPlayerRoot=Split-Path $taskPlayer -Parent
+$taskIdentity=@(Get-ChildItem -LiteralPath $taskPlayerRoot -File -Recurse | Sort-Object FullName | ForEach-Object {
+    @{path=$_.FullName.Substring($taskPlayerRoot.Length).TrimStart([char]92,[char]47).Replace([char]92,[char]47);bytes=$_.Length;sha256=(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()}
+})
+$taskIdentity | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath (Join-Path $taskOutput 'player-files.json') -Encoding UTF8
 $taskArgs=@('-gooseSurfaceQa','-gooseSurfaceOutput',$taskOutput,'-gooseSurfacePart',$Part,'-gooseMobileProfile',
     '-screen-width','390','-screen-height','844','-screen-fullscreen','0','-logFile',(Join-Path $taskWork ($taskName+'.log')))
 if($Theme -ge 0){$taskArgs+=@('-gooseSurfaceTheme',"$Theme",'-gooseSurfaceThemeCount','1')}
