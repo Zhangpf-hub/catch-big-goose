@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "hulu",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\hulu\\hulu.fbx",
+  "sourceTriangles": 3776,
+  "triangles": 3776,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.6757742762565613,
+    0.6757742762565613,
+    1.0
+  ],
+  "normalizedDimensions": [
+    0.6757742762565613,
+    0.6757742762565613,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

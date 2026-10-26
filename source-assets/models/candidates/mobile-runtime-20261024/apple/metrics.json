@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "apple",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\apple\\apple.fbx",
+  "sourceTriangles": 2516,
+  "triangles": 2516,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9542438387870789,
+    0.8807795643806458,
+    1.0
+  ],
+  "normalizedDimensions": [
+    0.9542438387870789,
+    0.8807793855667114,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

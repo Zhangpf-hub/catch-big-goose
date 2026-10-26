@@ -1,0 +1,53 @@
+{
+  "id": "duck-potato",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Potato/Goose_Potato.glb",
+  "sourceSha256": "2496ef7c92fd7cf31b8bb265837e4a1ffb427970669c5faa01e8919b2ff396e9",
+  "originalWorldDimensions": [
+    1.5717887878417969,
+    2.012618064880371,
+    1.0991286039352417
+  ],
+  "uniformScale": 0.4968652609502635,
+  "normalizedWorldDimensions": [
+    0.7809672355651855,
+    1.0,
+    0.5461188554763794
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

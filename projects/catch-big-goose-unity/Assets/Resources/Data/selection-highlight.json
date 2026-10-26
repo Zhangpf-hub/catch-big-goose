@@ -1,0 +1,53 @@
+{
+  "overlay": 0.5,
+  "overlayColor": {
+    "r": 1.0,
+    "g": 0.9215686321258545,
+    "b": 0.01568627543747425,
+    "a": 1.0
+  },
+  "overlayAnimationSpeed": 1.0,
+  "overlayMinIntensity": 0.5,
+  "overlayBlending": 1.0,
+  "outline": 1.0,
+  "outlineColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "outlineWidth": 0.20000000298023224,
+  "outlineQuality": 3,
+  "glow": 1.8600000143051147,
+  "glowWidth": 0.25,
+  "glowQuality": 3,
+  "glowAnimationSpeed": 1.0,
+  "glowMagicNumber1": 0.75,
+  "glowMagicNumber2": 0.5,
+  "glowPasses": [
+    {
+      "offset": 1.0,
+      "alpha": 1.0,
+      "color": {
+        "r": 1.0,
+        "g": 0.9647059440612793,
+        "b": 0.13333334028720856,
+        "a": 1.0
+      }
+    }
+  ],
+  "constantWidth": 1,
+  "glowDithering": 0,
+  "glowBlendPasses": 1,
+  "seeThrough": 0,
+  "seeThroughIntensity": 2.619999885559082,
+  "seeThroughTintAlpha": 1.0,
+  "seeThroughNoise": 0.4699999988079071,
+  "seeThroughTintColor": {
+    "r": 1.0,
+    "g": 0.8169586658477783,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "source": "402/sharedassets0.assets/LevelManager._highLight[0]/900"
+}

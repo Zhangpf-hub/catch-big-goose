@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "Goose_BFSteamedBread",
+      "sourceTriangles": 2208,
+      "exportedTriangles": 2208,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_ChiliSauce",
+      "sourceTriangles": 3412,
+      "exportedTriangles": 3412,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 4,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_Tomato",
+      "sourceTriangles": 2248,
+      "exportedTriangles": 2248,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_EggPancake",
+      "sourceTriangles": 2174,
+      "exportedTriangles": 2174,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_EggTart",
+      "sourceTriangles": 2636,
+      "exportedTriangles": 2636,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_MilletCake",
+      "sourceTriangles": 1816,
+      "exportedTriangles": 1816,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_Farmer",
+      "sourceTriangles": 2336,
+      "exportedTriangles": 2336,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_SteelCup",
+      "sourceTriangles": 2562,
+      "exportedTriangles": 2562,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_Watermelon",
+      "sourceTriangles": 2723,
+      "exportedTriangles": 2723,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_ColaCup",
+      "sourceTriangles": 2574,
+      "exportedTriangles": 2574,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_Egg",
+      "sourceTriangles": 1724,
+      "exportedTriangles": 1724,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_Noodles",
+      "sourceTriangles": 2247,
+      "exportedTriangles": 2247,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 4,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_Eggplant",
+      "sourceTriangles": 2398,
+      "exportedTriangles": 2398,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_GreenPepper",
+      "sourceTriangles": 2690,
+      "exportedTriangles": 2690,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Goose_Potato",
+      "sourceTriangles": 1928,
+      "exportedTriangles": 1928,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    }
+  ]
+}

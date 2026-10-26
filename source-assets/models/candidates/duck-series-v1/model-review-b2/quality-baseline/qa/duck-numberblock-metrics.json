@@ -1,0 +1,24 @@
+{
+  "id": "duck-numberblock",
+  "triangles": 4790,
+  "dimensions": [
+    1.0,
+    0.45945432782173157,
+    0.8695064187049866
+  ],
+  "sourceExtent": 1.0626225471496582,
+  "sourceCenter": [
+    0.07538390159606934,
+    0.006886720657348633,
+    0.4679746627807617
+  ],
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 112632,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true,
+  "preferredTriangleTargetMet": false
+}

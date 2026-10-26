@@ -1,0 +1,38 @@
+[
+  {
+    "name": "LevelManager$$SetMaxHeight",
+    "expected": "vifii",
+    "actual": "vifii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetMaxHeight",
+    "expected": "fiii",
+    "actual": "fiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetMinTouchHeight",
+    "expected": "fiii",
+    "actual": "fiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetUnit",
+    "expected": "iiiiii",
+    "actual": "viiiiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ObjectUnit$$CanBeSelect",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$Roll",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  }
+]

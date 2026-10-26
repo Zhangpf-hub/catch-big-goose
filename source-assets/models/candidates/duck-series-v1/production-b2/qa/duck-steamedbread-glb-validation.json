@@ -1,0 +1,42 @@
+{
+  "id": "duck-steamedbread",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangleTarget": true,
+    "bytes": true,
+    "noSkin": true,
+    "noAnimation": true,
+    "uv": true,
+    "atlas": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "geometry": true,
+    "motherPreserved": true
+  },
+  "triangles": 3536,
+  "bytes": 83824,
+  "sha256": "b4a24c0a2658000178aa582e83ef44173a87766d924451f2d160d311d6525d3f",
+  "images": [
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    }
+  ],
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

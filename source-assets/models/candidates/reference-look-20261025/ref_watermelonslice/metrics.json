@@ -1,0 +1,12 @@
+{
+  "id": "ref_watermelonslice",
+  "triangles": 900,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.9861419200897217,
+    0.8706303238868713,
+    1.0
+  ],
+  "glbRoundtrip": true
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtplasterdeer",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlasterDeer\\GTPlasterDeer.blend",
+  "sourceTriangles": 1990,
+  "triangles": 1990,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.326106071472168,
+    2.808579683303833,
+    2.33038067817688
+  ],
+  "normalizedDimensions": [
+    0.8282144069671631,
+    1.0,
+    0.8297363519668579
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

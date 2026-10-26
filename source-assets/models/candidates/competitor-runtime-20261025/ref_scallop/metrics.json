@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_scallop",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Scallop\\Scallop.blend",
+  "sourceTriangles": 1029,
+  "triangles": 1029,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0154855251312256,
+    1.788743495941162,
+    0.3165780305862427
+  ],
+  "normalizedDimensions": [
+    0.5677088499069214,
+    1.0,
+    0.17698346078395844
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

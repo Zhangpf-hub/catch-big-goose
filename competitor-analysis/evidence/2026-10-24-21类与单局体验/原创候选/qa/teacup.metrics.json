@@ -1,0 +1,28 @@
+{
+  "id": "teacup",
+  "theme": "dessert",
+  "triangles": 976,
+  "vertices": 496,
+  "blenderBounds": [
+    0.530964732170105,
+    0.530964732170105,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 23636,
+  "sha256": "630cfcdd8d8cfe1338eaf831e3bd4761f62fc33abe44e98639ae098d5387dd45",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

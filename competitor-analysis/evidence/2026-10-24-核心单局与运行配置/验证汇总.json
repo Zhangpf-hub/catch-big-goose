@@ -1,0 +1,281 @@
+{
+  "archivedAtUtc": "2026-10-23T16:25:35.235762+00:00",
+  "packageVersion": "402",
+  "snapshotSha256": "b7cad460af0d7aaf86bdec945f9b4d69a4e494a07b1343007f3cc7254c208b42",
+  "moduleCoverage": [
+    {
+      "module": "primary",
+      "mappedEntries": 588,
+      "uniqueBodies": 440
+    },
+    {
+      "module": "secondary",
+      "mappedEntries": 128,
+      "uniqueBodies": 126
+    }
+  ],
+  "constantTableCallSites": 1018,
+  "publicConfig": {
+    "bundledRows": 25,
+    "cdnRows": 25,
+    "nullAndEmptyStringComparedEqual": true,
+    "differences": [],
+    "hotfixRows": 14,
+    "hotfixEqualsBundled": true,
+    "relevant": [
+      {
+        "FeatureKey": "ABEasySpLevel",
+        "IsOpen": 1,
+        "ForkKeyList": [
+          "Easy70",
+          "Easy80",
+          "Easy90"
+        ],
+        "ForkWeightList": [
+          8,
+          8,
+          8
+        ],
+        "TempInt": 0,
+        "TempFloat": 0,
+        "TempString": null
+      },
+      {
+        "FeatureKey": "ABDaliyLevelSimple",
+        "IsOpen": 0,
+        "ForkKeyList": [
+          "LevelEasy1",
+          "LevelEasy2",
+          "LevelEasy3",
+          "LevelEasy4"
+        ],
+        "ForkWeightList": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "TempInt": 0,
+        "TempFloat": 0,
+        "TempString": "1,2,3,4"
+      },
+      {
+        "FeatureKey": "ABDaliyLevelSimple2",
+        "IsOpen": 1,
+        "ForkKeyList": [
+          "LevelEasy4",
+          "LevelEasy5",
+          "LevelEasy6",
+          "LevelEasy7",
+          "LevelEasy8"
+        ],
+        "ForkWeightList": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "TempInt": 0,
+        "TempFloat": 0,
+        "TempString": "4,5,6,7,8"
+      }
+    ]
+  },
+  "coreConfig": {
+    "passed": true,
+    "profiles": [
+      {
+        "profile": "intro",
+        "mode": "MainLevel",
+        "index": 5,
+        "level": 1,
+        "layerCount": 1,
+        "normalBudget": 12,
+        "targetBudget": 3,
+        "total": 15,
+        "seconds": 0,
+        "layers": [
+          {
+            "_sumcount": 12,
+            "_typecount": 2,
+            "_height": 6.0,
+            "_limitheight": 4.0,
+            "_limittime": [
+              0
+            ],
+            "_wincount": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "profile": "short",
+        "mode": "OneScreenBattle",
+        "index": 5,
+        "level": 1,
+        "layerCount": 2,
+        "normalBudget": 60,
+        "targetBudget": 0,
+        "total": 60,
+        "seconds": 120,
+        "layers": [
+          {
+            "_sumcount": 30,
+            "_typecount": 6,
+            "_height": 10.0,
+            "_limitheight": 8.0,
+            "_limittime": [
+              120
+            ],
+            "_wincount": []
+          },
+          {
+            "_sumcount": 30,
+            "_typecount": 3,
+            "_height": 15.0,
+            "_limitheight": 0.0,
+            "_limittime": [],
+            "_wincount": []
+          }
+        ]
+      },
+      {
+        "profile": "deep-main",
+        "mode": "MainLevel",
+        "index": 5,
+        "level": 2,
+        "layerCount": 4,
+        "normalBudget": 300,
+        "targetBudget": 0,
+        "total": 300,
+        "seconds": 600,
+        "layers": [
+          {
+            "_sumcount": 150,
+            "_typecount": 21,
+            "_height": 14.0,
+            "_limitheight": 21.0,
+            "_limittime": [
+              600,
+              900,
+              0
+            ],
+            "_wincount": []
+          },
+          {
+            "_sumcount": 60,
+            "_typecount": 10,
+            "_height": 18.0,
+            "_limitheight": 0.0,
+            "_limittime": [],
+            "_wincount": []
+          },
+          {
+            "_sumcount": 45,
+            "_typecount": 8,
+            "_height": 20.0,
+            "_limitheight": 0.0,
+            "_limittime": [],
+            "_wincount": []
+          },
+          {
+            "_sumcount": 45,
+            "_typecount": 7,
+            "_height": 22.0,
+            "_limitheight": 0.0,
+            "_limittime": [],
+            "_wincount": []
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "Raw configured kind counts match source, runtime clamps them to our available models",
+      "Difficulty labels map three source archetypes into our single-player UI; not original progression",
+      "Source heights are retained; actual spawning uses our scale, clear-drop and density adapter",
+      "No AB reduction is applied without explicit own configuration; source weight arrays are not mapped to unrelated items"
+    ]
+  },
+  "originalRuntimeConfigProbe": {
+    "passed": true,
+    "originalBodies": [
+      "j11647",
+      "j50925",
+      "j4622"
+    ],
+    "abCases": 2500,
+    "extraChecks": 28,
+    "sha256": "75705250573ec4b9d97a925f5f2f9386cd7d8bb3d7d72ad8033a77407cb0dc3b",
+    "scope": "Unchanged WASM control flow; config/memory fixtures and mocked dictionary/hash/string calls. Actual user hash, network loading, original Int32.TryParse internals and complete level initialization are not executed."
+  },
+  "productionPolicy": {
+    "passed": true,
+    "checks": 104031,
+    "originalNumericCases": 606,
+    "originalWeightedDraws": 2048,
+    "sourceQuotaFixtures": 580,
+    "scope": "Actual production C# policies, without Unity native physics; quota fixtures derive from serialized rows and interpreted WAT, not full CreateLevel execution"
+  },
+  "unityEditMode": {
+    "passed": 14,
+    "failed": 0,
+    "endTime": "2026-10-23 16:01:44Z"
+  },
+  "unityRuntime": {
+    "passed": true,
+    "checks": 132,
+    "errors": []
+  },
+  "unityVisual": {
+    "checks": 11,
+    "review": {
+      "reviewedAtLocal": "2026-10-24",
+      "passed": true,
+      "images": [
+        "core-home.png",
+        "core-0.png",
+        "core-1.png",
+        "core-2.png"
+      ],
+      "capture": "Explicit offscreen rendering of actual scene cameras and actual HUD in the Windows development player at 450x844; hidden swapchain screenshots were black and rejected",
+      "observed": [
+        "Home shows 15 pieces and unlimited time for the entry profile",
+        "Entry scene contains the three target geese and shows 0/15 and unlimited time",
+        "Short profile shows 0/60 and a countdown, seven empty tray positions and three stored item icons",
+        "Deep profile shows 0/300 with the 600-second countdown and a densely layered pile"
+      ],
+      "limits": [
+        "Still images, not human pointer or touch interaction tests",
+        "Offscreen camera capture is not a target-phone or WeChat performance test",
+        "Existing art, camera placement and UI differ from the competitor; not a pixel-identical recreation"
+      ]
+    }
+  },
+  "runtimeSources": {
+    "GooseItem.cs": "c223e60990ffa78801999a442e8e566ba70d39a3c6103c0b221987226d92cc2d",
+    "GooseDepthPolicy.cs": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d",
+    "GooseWeChatPlatform.cs": "62cfad58e6f2a7a2b16d0bfa8d0ebf77539e05b4bac684dcfb470e3ab316111c",
+    "GooseGame.cs": "d8335a721c1601abd39687d7074183f2bb65748190b398396e86103a389e7f73",
+    "GooseRules.cs": "f2267335699f75d83ea5fb410beb353c6a5729be76f68a4734ad3c5c09b1a2de",
+    "GooseHud.cs": "d4e6e57c66505d2add6cebb927eb7747570a52af31ba1449bedbdd150643f246",
+    "GooseColliderProfile.cs": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79",
+    "GooseAcceptance.cs": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920",
+    "GooseAlgorithmAcceptance.cs": "c561e68a26202228c37c454aec5042a101957a84e2bbe1e0707c413d58361ccc",
+    "GooseVideo.cs": "ba643b8ca18af8b65f1988e1f7f185822e82de633353e8be49beb79d21830481",
+    "GooseGeneration.cs": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0",
+    "GoosePileDepth.cs": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d",
+    "GooseLevelPolicy.cs": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  "referenceModels": 5,
+  "referenceExport": true,
+  "referenceGltf": true,
+  "exclusions": [
+    "Personal MMKV and logs are not archived",
+    "Public CDN values are not proof of account assignments or loaded runtime state",
+    "Source heights, asset count caps, RNG, collision placement and UI feedback remain project adaptations",
+    "Headless acceptance is not equivalent to mobile performance or user difficulty measurements",
+    "Reference GLBs are static prefab pose bakes without playable animation"
+  ]
+}

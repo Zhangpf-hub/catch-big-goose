@@ -1,0 +1,9 @@
+{
+  "id": "ref_bananas",
+  "sourceId": "Bananas",
+  "scene": "GroceryStore",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Bananas\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/GroceryStore/Bananas.prefab",
+  "bundle": "levelgrocerystoreobjprefab_assets_part1_c5ae02dc8706f065a89b9c5e485787bc.bundle",
+  "sourceSha256": "a82cd296cd03032144257e72d2796e2c1636795846edcd36fc27e6ab9af29b36"
+}

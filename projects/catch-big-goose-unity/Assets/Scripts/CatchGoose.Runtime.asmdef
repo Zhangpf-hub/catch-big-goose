@@ -1,0 +1,6 @@
+{
+  "name": "CatchGoose.Runtime",
+  "rootNamespace": "CatchGoose",
+  "references": ["Unity.ugui", "Wx"],
+  "autoReferenced": true
+}

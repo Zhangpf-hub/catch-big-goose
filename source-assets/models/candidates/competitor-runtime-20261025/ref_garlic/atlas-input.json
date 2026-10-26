@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Garlic\\tex_-3281139769586121915.png",
+      "uvMin": [
+        0.0053519997745752335,
+        0.013729000464081764
+      ],
+      "uvMax": [
+        0.9875180125236511,
+        0.9646710157394409
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_garlic\\albedo.png"
+}

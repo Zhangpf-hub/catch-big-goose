@@ -1,0 +1,3989 @@
+[
+  {
+    "width": 390,
+    "height": 844,
+    "level": 1,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 48,
+      "tags": 48,
+      "ids": [
+        "camera",
+        "phone",
+        "laptop",
+        "headphones"
+      ],
+      "frozen": 0,
+      "renderers": [
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "camera",
+    "slot": [
+      "camera"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 0,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "level": 2,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 54,
+      "tags": 55,
+      "ids": [
+        "headphones",
+        "laptop",
+        "handheld",
+        "camera",
+        "phone",
+        "speaker"
+      ],
+      "frozen": 4,
+      "renderers": [
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop",
+            "ice"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera",
+            "ice"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones",
+            "ice"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "laptop",
+    "slot": [
+      "laptop"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 3,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "level": 3,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 81,
+      "tags": 82,
+      "ids": [
+        "headphones",
+        "laptop",
+        "phone",
+        "mouse",
+        "camera",
+        "smartwatch",
+        "speaker",
+        "handheld",
+        "radio"
+      ],
+      "frozen": 7,
+      "renderers": [
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones",
+            "ice"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld",
+            "ice"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop",
+            "ice"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse",
+            "ice"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch",
+            "ice"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "laptop",
+    "slot": [
+      "laptop"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 6,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 347,
+    "height": 603,
+    "level": 1,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 48,
+      "tags": 48,
+      "ids": [
+        "camera",
+        "phone",
+        "laptop",
+        "headphones"
+      ],
+      "frozen": 0,
+      "renderers": [
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "camera",
+    "slot": [
+      "camera"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 0,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 347,
+    "height": 603,
+    "level": 2,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 54,
+      "tags": 55,
+      "ids": [
+        "headphones",
+        "laptop",
+        "handheld",
+        "camera",
+        "phone",
+        "speaker"
+      ],
+      "frozen": 4,
+      "renderers": [
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop",
+            "ice"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera",
+            "ice"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones",
+            "ice"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "laptop",
+    "slot": [
+      "laptop"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 3,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 347,
+    "height": 603,
+    "level": 3,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 81,
+      "tags": 82,
+      "ids": [
+        "headphones",
+        "laptop",
+        "phone",
+        "mouse",
+        "camera",
+        "smartwatch",
+        "speaker",
+        "handheld",
+        "radio"
+      ],
+      "frozen": 7,
+      "renderers": [
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones",
+            "ice"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld",
+            "ice"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop",
+            "ice"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse",
+            "ice"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch",
+            "ice"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "headphones",
+    "slot": [
+      "headphones"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 6,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "level": 1,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 48,
+      "tags": 48,
+      "ids": [
+        "camera",
+        "phone",
+        "laptop",
+        "headphones"
+      ],
+      "frozen": 0,
+      "renderers": [
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "camera",
+    "slot": [
+      "camera"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 0,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "level": 2,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 54,
+      "tags": 55,
+      "ids": [
+        "headphones",
+        "laptop",
+        "handheld",
+        "camera",
+        "phone",
+        "speaker"
+      ],
+      "frozen": 4,
+      "renderers": [
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop",
+            "ice"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera",
+            "ice"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones",
+            "ice"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "camera",
+    "slot": [
+      "camera"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 3,
+      "score": 100
+    },
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "level": 3,
+    "status": "passed",
+    "home": {
+      "nodes": [
+        "mapStation-fruit",
+        "mapStation-antique",
+        "mapStation-farm",
+        "mapStation-dessert",
+        "mapStation-electronics"
+      ],
+      "maps": [
+        {
+          "id": "fruit",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "antique",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "farm",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "dessert",
+          "selected": false,
+          "playable": true
+        },
+        {
+          "id": "electronics",
+          "selected": true,
+          "playable": true
+        }
+      ]
+    },
+    "initial": {
+      "physics": true,
+      "total": 81,
+      "tags": 82,
+      "ids": [
+        "headphones",
+        "laptop",
+        "phone",
+        "mouse",
+        "camera",
+        "smartwatch",
+        "speaker",
+        "handheld",
+        "radio"
+      ],
+      "frozen": 7,
+      "renderers": [
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "speaker",
+          "names": [
+            "speaker",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "headphones",
+          "names": [
+            "headphones",
+            "ice"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "phone",
+          "names": [
+            "phone"
+          ]
+        },
+        {
+          "id": "radio",
+          "names": [
+            "radio",
+            "ice"
+          ]
+        },
+        {
+          "id": "handheld",
+          "names": [
+            "handheld",
+            "ice"
+          ]
+        },
+        {
+          "id": "laptop",
+          "names": [
+            "laptop",
+            "ice"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch"
+          ]
+        },
+        {
+          "id": "mouse",
+          "names": [
+            "mouse",
+            "ice"
+          ]
+        },
+        {
+          "id": "camera",
+          "names": [
+            "camera"
+          ]
+        },
+        {
+          "id": "smartwatch",
+          "names": [
+            "smartwatch",
+            "ice"
+          ]
+        }
+      ],
+      "container": [
+        "tray_electronics"
+      ],
+      "contained": true
+    },
+    "clickedId": "headphones",
+    "slot": [
+      "headphones"
+    ],
+    "matched": {
+      "removed": 3,
+      "tray": 0,
+      "frozen": 6,
+      "score": 100
+    },
+    "errors": []
+  }
+]

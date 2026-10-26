@@ -1,0 +1,11 @@
+{
+  "bones": 3,
+  "unweightedVertices": 0,
+  "tailVertices": 428,
+  "clips": [
+    "Idle",
+    "Happy",
+    "Bounce"
+  ],
+  "note": "Root anchored at ground; gentle head tilt, attached tail wag and elastic squash. No locomotion."
+}

@@ -1,0 +1,107 @@
+{
+  "source": "source-assets\\models\\candidates\\duck-series-v1\\master-b2\\source\\duck-b2-master-rig.blend",
+  "sourceSha256": "61871a3b432da740cf7466cb623a607621afb94760a0d5f56bd6622b3785b15b",
+  "rule": {
+    "neckCut": 0.56,
+    "bodyPose": 0.7,
+    "neckPose": [
+      -0.55,
+      0.15,
+      -0.9981317
+    ],
+    "yaw": 90,
+    "lean": 40,
+    "root": [
+      0.15,
+      0,
+      0.33
+    ],
+    "feet": [
+      [
+        -0.22,
+        -0.16,
+        0
+      ],
+      [
+        0.16,
+        -0.08,
+        0
+      ]
+    ],
+    "footYaw": 90,
+    "tailBase": [
+      -0.425,
+      0,
+      0.36
+    ],
+    "keepTorso": true
+  },
+  "neckCapCenter": [
+    -1.7462298274040222e-09,
+    -0.2940395772457123,
+    0.4418215751647949
+  ],
+  "rigidPlacement": {
+    "rotation": [
+      [
+        5.7834743216744755e-08,
+        -0.7660443782806396,
+        0.6427876949310303,
+        0.0
+      ],
+      [
+        1.0,
+        7.549790126404332e-08,
+        0.0,
+        0.0
+      ],
+      [
+        -4.85291202778626e-08,
+        0.6427876949310303,
+        0.7660443782806396,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation": [
+      -0.35924485325813293,
+      2.394560105756227e-08,
+      0.18055009841918945
+    ]
+  },
+  "headRegenerated": false,
+  "uniformScaleBeforeFinalNormalization": 1,
+  "faceRigidShapeChecksBeforeAccessoryLod": [
+    {
+      "part": "head-core",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 7.074518355854043e-08
+    },
+    {
+      "part": "bill",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 7.84069753151373e-08
+    },
+    {
+      "part": "eye",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 8.961833000697972e-08
+    },
+    {
+      "part": "eye",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 8.961833000697972e-08
+    }
+  ],
+  "exposedSkinFurtherDecimated": false,
+  "hiddenTorsoRemoved": false,
+  "singleContinuousTorsoKept": true,
+  "hiddenWingsRemoved": true,
+  "tailCopiedFromMother": true,
+  "artAccepted": false
+}

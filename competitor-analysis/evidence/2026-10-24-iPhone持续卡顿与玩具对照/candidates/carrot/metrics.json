@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "carrot",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\carrot\\carrot.fbx",
+  "sourceTriangles": 3688,
+  "triangles": 3688,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.3062833249568939,
+    0.29947981238365173,
+    1.0
+  ],
+  "normalizedDimensions": [
+    0.3062833249568939,
+    0.29947972297668457,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

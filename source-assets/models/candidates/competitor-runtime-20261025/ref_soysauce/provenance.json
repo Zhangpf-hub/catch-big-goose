@@ -1,0 +1,9 @@
+{
+  "id": "ref_soysauce",
+  "sourceId": "SoySauce",
+  "scene": "GroceryStore",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\SoySauce\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/GroceryStore/SoySauce.prefab",
+  "bundle": "levelgrocerystoreobjprefab_assets_part1_c5ae02dc8706f065a89b9c5e485787bc.bundle",
+  "sourceSha256": "ca9fa6b9752ca02505a78b0c4ba97de1434d40c2dadb604f7599dd34e8810040"
+}

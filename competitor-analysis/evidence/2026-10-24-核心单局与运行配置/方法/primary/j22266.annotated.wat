@@ -1,0 +1,204 @@
+  (func $j22266 (type $t3) (param $p0 i32) (result i32)
+    (local $l1 i32) (local $l2 i32) (local $l3 i32) (local $l4 i32) (local $l5 i64)
+    global.get $primary.global$0
+    i32.const 48
+    i32.sub
+    local.set $p0
+    local.get $p0
+    global.set $primary.global$0
+    i32.const 5140020
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      call $j922
+      i32.const 3994308 ;; Method$System.Collections.Generic.HashSet<LevelIndexAndType>.Add()
+      call $j922
+      i32.const 3994304 ;; Method$System.Collections.Generic.HashSet<LevelIndexAndType>..ctor()
+      call $j922
+      i32.const 3945028 ;; System.Collections.Generic.HashSet<LevelIndexAndType>_TypeInfo
+      call $j922
+      i32.const 3958024 ;; LevelDataHelper_TypeInfo
+      call $j922
+      i32.const 5140020
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3958024 ;; LevelDataHelper_TypeInfo
+    i32.load
+    call $j923
+    i32.const 3958024 ;; LevelDataHelper_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load
+    i32.eqz
+    if $I1
+      i32.const 3945028 ;; System.Collections.Generic.HashSet<LevelIndexAndType>_TypeInfo
+      i32.load
+      call $j924
+      local.set $l3
+      local.get $l3
+      i32.const 3994304 ;; Method$System.Collections.Generic.HashSet<LevelIndexAndType>..ctor()
+      i32.load
+      call $j1214
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 5140217
+      i32.load8_u
+      i32.eqz
+      if $I2
+        i32.const 3953096 ;; ConfigManager_TypeInfo
+        call $j922
+        i32.const 5140217
+        i32.const 1
+        i32.store8
+      end
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load
+      local.set $l2
+      loop $L3
+        local.get $l2
+        i32.load offset=12
+        local.get $l1
+        i32.gt_s
+        if $I4
+          local.get $l2
+          local.get $l1
+          i32.const 2
+          i32.shl
+          i32.add
+          i32.load offset=16
+          local.set $l4
+          local.get $p0
+          i64.const 0
+          i64.store offset=40
+          local.get $p0
+          local.get $l4
+          i32.load offset=12
+          i32.store offset=40
+          local.get $p0
+          local.get $l4
+          i32.load offset=16
+          i32.store offset=44
+          local.get $p0
+          i64.load offset=40
+          local.set $l5
+          local.get $p0
+          local.get $l5
+          i64.store offset=32
+          local.get $p0
+          local.get $l5
+          i64.store offset=8
+          local.get $l3
+          local.get $p0
+          i32.const 8
+          i32.add
+          i32.const 3994308 ;; Method$System.Collections.Generic.HashSet<LevelIndexAndType>.Add()
+          i32.load
+          call $j1061
+          drop
+          local.get $l1
+          i32.const 1
+          i32.add
+          local.set $l1
+          br $L3
+        end
+      end
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 5140218
+      i32.load8_u
+      i32.eqz
+      if $I5
+        i32.const 3953096 ;; ConfigManager_TypeInfo
+        call $j922
+        i32.const 5140218
+        i32.const 1
+        i32.store8
+      end
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load offset=408
+      local.set $l2
+      i32.const 0
+      local.set $l1
+      loop $L6
+        local.get $l2
+        i32.load offset=12
+        local.get $l1
+        i32.gt_s
+        if $I7
+          local.get $p0
+          i32.const 40
+          i32.add
+          local.get $l2
+          local.get $l1
+          i32.const 2
+          i32.shl
+          i32.add
+          i32.load offset=16
+          i32.load offset=8
+          local.get $p0
+          call $j14629 ;; LevelIndexAndType$$EndlessLevel
+          local.get $p0
+          i64.load offset=40
+          local.set $l5
+          local.get $p0
+          local.get $l5
+          i64.store offset=24
+          local.get $p0
+          local.get $l5
+          i64.store offset=16
+          local.get $l3
+          local.get $p0
+          i32.const 16
+          i32.add
+          i32.const 3994308 ;; Method$System.Collections.Generic.HashSet<LevelIndexAndType>.Add()
+          i32.load
+          call $j1061
+          drop
+          local.get $l1
+          i32.const 1
+          i32.add
+          local.set $l1
+          br $L6
+        end
+      end
+      i32.const 3958024 ;; LevelDataHelper_TypeInfo
+      i32.load
+      call $j923
+      i32.const 3958024 ;; LevelDataHelper_TypeInfo
+      i32.load
+      i32.load offset=92
+      local.get $l3
+      i32.store
+      i32.const 3958024 ;; LevelDataHelper_TypeInfo
+      i32.load
+      i32.load offset=92
+      drop
+    end
+    i32.const 3958024 ;; LevelDataHelper_TypeInfo
+    i32.load
+    call $j923
+    i32.const 3958024 ;; LevelDataHelper_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load
+    local.set $l1
+    local.get $p0
+    i32.const 48
+    i32.add
+    global.set $primary.global$0
+    local.get $l1
+    return)

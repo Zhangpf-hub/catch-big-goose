@@ -1,0 +1,20 @@
+{
+  "scope": "R2 source snapshot correspondence; preserves later workspace additions.",
+  "changedFiles": [
+    "unity/Assets/Resources/Data/item-presentation.json"
+  ],
+  "addedPresentationItems": [
+    {
+      "id": "giraffe",
+      "scale": 1.7,
+      "evidence": "Original slender mascot: larger long edge preserves head visibility among broad props; validate in Unity candidate review."
+    },
+    {
+      "id": "shiba",
+      "scale": 1.35,
+      "evidence": "Slender two-tone Shiba mascot; real pile and seven-slot tray acceptance."
+    }
+  ],
+  "renderingSourceDifference": false,
+  "note": "Legacy R2 whole-source verifier reports a mismatch for later giraffe/shiba presentation additions; no appearance code was changed in this analysis."
+}

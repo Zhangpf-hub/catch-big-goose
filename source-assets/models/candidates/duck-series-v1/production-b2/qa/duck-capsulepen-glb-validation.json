@@ -1,0 +1,42 @@
+{
+  "id": "duck-capsulepen",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangleTarget": true,
+    "bytes": true,
+    "noSkin": true,
+    "noAnimation": true,
+    "uv": true,
+    "atlas": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "geometry": true,
+    "motherPreserved": true
+  },
+  "triangles": 3028,
+  "bytes": 72356,
+  "sha256": "8578e2da8f95d574aed44b4af902e0c61934ff64fed74b138efad5946c76a380",
+  "images": [
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    }
+  ],
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

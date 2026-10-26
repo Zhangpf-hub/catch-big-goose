@@ -1,0 +1,312 @@
+  (func $j73966 (type $t2) (param $p0 i32) (param $p1 i32) (result i32)
+    (local $l2 i32) (local $l3 i32) (local $l4 f32) (local $l5 f32) (local $l6 f32)
+    global.get $primary.global$0
+    i32.const 48
+    i32.sub
+    local.set $p1
+    local.get $p1
+    global.set $primary.global$0
+    i32.const 5127089
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4017920 ;; Method$Kunpo.AssetManager.GetAsset<GameObject>()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4031864 ;; Method$UnityEngine.Object.Instantiate<GameObject>()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3960348 ;; PrepareLoadMa_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3964212 ;; UIGooseWordGuide_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3964256 ;; UIManager_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3965456 ;; UnityEngine.WaitForSecondsRealtime_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4078664 ;; FX_GuideWin
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5127089
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load offset=16
+    local.set $l2
+    block $B1
+      block $B2
+        block $B3
+          block $B4
+            block $B5
+              local.get $p0
+              i32.load offset=8
+              br_table $B5 $B4 $B3 $B2 $B1
+            end
+            local.get $p0
+            i32.const -1
+            i32.store offset=8
+            i32.const 0
+            i32.const 0
+            i32.const 17129
+            call_indirect $primary.table (type $t3)
+            i32.const 3964256 ;; UIManager_TypeInfo
+            i32.load
+            i32.const 735
+            call_indirect $primary.table (type $t0)
+            i32.const 3964256 ;; UIManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load
+            i32.const 0
+            i32.const 0
+            i32.const 24989
+            call_indirect $primary.table (type $t4)
+            i32.const 3964212 ;; UIGooseWordGuide_TypeInfo
+            i32.load
+            i32.const 735
+            call_indirect $primary.table (type $t0)
+            i32.const 3964212 ;; UIGooseWordGuide_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load
+            local.set $l3
+            i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+            i32.load
+            i32.const 735
+            call_indirect $primary.table (type $t0)
+            local.get $l3
+            i32.const 0
+            i32.const 5062
+            call_indirect $primary.table (type $t2)
+            if $I6
+              i32.const 3964212 ;; UIGooseWordGuide_TypeInfo
+              i32.load
+              i32.const 735
+              call_indirect $primary.table (type $t0)
+              i32.const 3964212 ;; UIGooseWordGuide_TypeInfo
+              i32.load
+              i32.load offset=92
+              i32.load
+              i32.const 0
+              i32.const 22972
+              call_indirect $primary.table (type $t3)
+            end
+            i32.const 3960348 ;; PrepareLoadMa_TypeInfo
+            i32.load
+            i32.const 735
+            call_indirect $primary.table (type $t0)
+            i32.const 4078664 ;; FX_GuideWin
+            i32.load
+            i32.const 0
+            i32.const 16303
+            call_indirect $primary.table (type $t2)
+            if $I7
+              i32.const 4078664 ;; FX_GuideWin
+              i32.load
+              i32.const 4017920 ;; Method$Kunpo.AssetManager.GetAsset<GameObject>()
+              i32.load
+              i32.const 138430
+              call_indirect $primary.table (type $t2)
+              local.set $l3
+              i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+              i32.load
+              i32.const 735
+              call_indirect $primary.table (type $t0)
+              local.get $l3
+              i32.const 4031864 ;; Method$UnityEngine.Object.Instantiate<GameObject>()
+              i32.load
+              i32.const 137982
+              call_indirect $primary.table (type $t2)
+              i32.const 0
+              i32.const 5722
+              call_indirect $primary.table (type $t2)
+              local.set $l3
+              local.get $p1
+              i32.const 32
+              i32.add
+              local.get $l2
+              i32.load offset=104
+              i32.const 0
+              i32.const 5185
+              call_indirect $primary.table (type $t2)
+              i32.const 0
+              i32.const 5186
+              call_indirect $primary.table (type $t4)
+              local.get $p1
+              f32.load offset=40
+              local.set $l6
+              local.get $p1
+              f32.load offset=36
+              local.set $l4
+              local.get $p1
+              f32.load offset=32
+              local.set $l5
+              local.get $p1
+              i32.const 32
+              i32.add
+              local.get $l2
+              i32.load offset=104
+              i32.const 0
+              i32.const 5185
+              call_indirect $primary.table (type $t2)
+              i32.const 0
+              i32.const 53049
+              call_indirect $primary.table (type $t4)
+              local.get $l5
+              local.get $p1
+              f32.load offset=32
+              f32.const 0x1p+0 (;=1;)
+              f32.mul
+              f32.add
+              local.set $l5
+              local.get $l4
+              local.get $p1
+              f32.load offset=36
+              f32.const 0x1p+0 (;=1;)
+              f32.mul
+              f32.add
+              local.set $l4
+              local.get $p1
+              local.get $l6
+              local.get $p1
+              f32.load offset=40
+              f32.const 0x1p+0 (;=1;)
+              f32.mul
+              f32.add
+              f32.store offset=24
+              local.get $p1
+              local.get $p1
+              i32.load offset=24
+              i32.store offset=8
+              local.get $p1
+              local.get $l4
+              f32.store offset=20
+              local.get $p1
+              local.get $l5
+              f32.store offset=16
+              local.get $p1
+              local.get $p1
+              i64.load offset=16
+              i64.store
+              local.get $l3
+              local.get $p1
+              i32.const 0
+              i32.const 53035
+              call_indirect $primary.table (type $t4)
+            end
+            i32.const 3965456 ;; UnityEngine.WaitForSecondsRealtime_TypeInfo
+            i32.load
+            i32.const 137618
+            call_indirect $primary.table (type $t1)
+            local.set $l2
+            local.get $l2
+            i32.const -1082130432
+            i32.store offset=12
+            local.get $l2
+            f32.const 0x1p-1 (;=0.5;)
+            f32.store offset=8
+            local.get $p0
+            local.get $l2
+            i32.store offset=12
+            i32.const 1
+            local.set $l3
+            local.get $p0
+            i32.const 1
+            i32.store offset=8
+            br $B1
+          end
+          local.get $p0
+          i32.const -1
+          i32.store offset=8
+          i32.const 1
+          local.set $l3
+          local.get $l2
+          i32.const 1
+          i32.const 5
+          i32.const 0
+          i32.const 17915
+          call_indirect $primary.table (type $t6)
+          i32.const 1
+          i32.const 0
+          i32.const 17129
+          call_indirect $primary.table (type $t3)
+          i32.const 3964256 ;; UIManager_TypeInfo
+          i32.load
+          i32.const 735
+          call_indirect $primary.table (type $t0)
+          i32.const 3964256 ;; UIManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load
+          i32.const 1
+          i32.const 0
+          i32.const 24989
+          call_indirect $primary.table (type $t4)
+          local.get $p0
+          local.get $l2
+          local.get $l2
+          local.get $l2
+          f32.load offset=824
+          i32.const 0
+          i32.const 17918
+          call_indirect $primary.table (type $t41)
+          i32.const 0
+          i32.const 52777
+          call_indirect $primary.table (type $t5)
+          i32.store offset=12
+          local.get $p0
+          i32.const 2
+          i32.store offset=8
+          br $B1
+        end
+        local.get $p0
+        i32.const -1
+        i32.store offset=8
+        i32.const 3965456 ;; UnityEngine.WaitForSecondsRealtime_TypeInfo
+        i32.load
+        i32.const 137618
+        call_indirect $primary.table (type $t1)
+        local.set $l2
+        local.get $l2
+        i32.const -1082130432
+        i32.store offset=12
+        local.get $l2
+        f32.const 0x1.99999ap-4 (;=0.1;)
+        f32.store offset=8
+        local.get $p0
+        local.get $l2
+        i32.store offset=12
+        local.get $p0
+        i32.const 3
+        i32.store offset=8
+        i32.const 1
+        local.set $l3
+        br $B1
+      end
+      local.get $p0
+      i32.const -1
+      i32.store offset=8
+      local.get $l2
+      i32.const 0
+      i32.const 5
+      i32.const 0
+      i32.const 17915
+      call_indirect $primary.table (type $t6)
+      local.get $l2
+      i32.const 0
+      i32.store8 offset=444
+    end
+    local.get $p1
+    i32.const 48
+    i32.add
+    global.set $primary.global$0
+    local.get $l3
+    return)

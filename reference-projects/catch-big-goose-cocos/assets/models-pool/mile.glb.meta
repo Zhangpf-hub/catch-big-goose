@@ -1,0 +1,191 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e",
+  "files": [],
+  "subMetas": {
+    "349e2": {
+      "importer": "gltf-mesh",
+      "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e@349e2",
+      "displayName": "",
+      "id": "349e2",
+      "name": "meshes[0].mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 5000
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "223ae": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e@223ae",
+      "displayName": "",
+      "id": "223ae",
+      "name": "laughing+buddha+statue+3d+model_normal.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a574": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e@9a574",
+      "displayName": "",
+      "id": "9a574",
+      "name": "laughing+buddha+statue+3d+model_rm.image",
+      "userData": {
+        "gltfIndex": 1,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f1ceb582-e409-4952-b02a-62aefe13804e@223ae"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f1ceb582-e409-4952-b02a-62aefe13804e@9a574"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ca3b2": {
+      "importer": "gltf-material",
+      "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e@ca3b2",
+      "displayName": "",
+      "id": "ca3b2",
+      "name": "tripo_material_17326591-ef1f-4542-87da-dd559080f1e3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c3dab": {
+      "importer": "gltf-scene",
+      "uuid": "f1ceb582-e409-4952-b02a-62aefe13804e@c3dab",
+      "displayName": "",
+      "id": "c3dab",
+      "name": "mile.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "laughing+buddha+statue+3d+model_normal",
+        "uri": "f1ceb582-e409-4952-b02a-62aefe13804e@223ae"
+      },
+      {
+        "name": "laughing+buddha+statue+3d+model_rm",
+        "uri": "f1ceb582-e409-4952-b02a-62aefe13804e@9a574"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f1ceb582-e409-4952-b02a-62aefe13804e@349e2"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f1ceb582-e409-4952-b02a-62aefe13804e@3effa",
+        "f1ceb582-e409-4952-b02a-62aefe13804e@221a5"
+      ],
+      "materials": [
+        "f1ceb582-e409-4952-b02a-62aefe13804e@ca3b2"
+      ],
+      "scenes": [
+        "f1ceb582-e409-4952-b02a-62aefe13804e@c3dab"
+      ]
+    }
+  }
+}

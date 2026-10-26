@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "name": "xiangpiniMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-6351097788001986610.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1MulMatcap",
+      "glassFlattened": false
+    },
+    {
+      "name": "xiangpiniMa_Glass",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-6351097788001986610.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonGlassCus",
+      "glassFlattened": true
+    },
+    {
+      "name": "xiangpiniMa_Glass_Back",
+      "color": [
+        0.4245283007621765,
+        0.4245283007621765,
+        0.4245283007621765,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonGlassCus",
+      "glassFlattened": true
+    }
+  ]
+}

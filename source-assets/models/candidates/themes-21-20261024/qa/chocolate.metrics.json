@@ -1,0 +1,28 @@
+{
+  "id": "chocolate",
+  "theme": "dessert",
+  "triangles": 864,
+  "vertices": 448,
+  "blenderBounds": [
+    0.7720658779144287,
+    0.9999999403953552,
+    0.27203428745269775
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 21604,
+  "sha256": "61dcd11c0df76fff3a1374f657dfdeec87a8db9550487f9468baf5910a5d2335",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

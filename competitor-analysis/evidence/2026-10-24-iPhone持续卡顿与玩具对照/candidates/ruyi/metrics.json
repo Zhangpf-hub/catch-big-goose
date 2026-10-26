@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "ruyi",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\ruyi\\ruyi.fbx",
+  "sourceTriangles": 5428,
+  "triangles": 3989,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9999999403953552,
+    0.6116795539855957,
+    0.1454261839389801
+  ],
+  "normalizedDimensions": [
+    0.9999999403953552,
+    0.6115489602088928,
+    0.14547407627105713
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

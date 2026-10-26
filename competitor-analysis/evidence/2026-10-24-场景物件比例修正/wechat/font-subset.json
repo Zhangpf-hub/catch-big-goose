@@ -1,0 +1,10 @@
+{
+  "source": "unity\\SourceAssets\\Fonts\\Chinese-full.otf",
+  "sourceBytes": 16437364,
+  "target": "unity\\Assets\\Resources\\Fonts\\Chinese.otf",
+  "targetBytes": 103360,
+  "glyphs": 341,
+  "sourceSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "targetSha256": "05e099e3903eaaf63910b599fede08477596eedceee400a7d14bd4d92de20465",
+  "license": "SIL OFL 1.1; copyright/license tables preserved; derived family renamed Goose UI CJK"
+}

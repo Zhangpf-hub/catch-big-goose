@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "SausageMa1",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_4084707508025034049.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

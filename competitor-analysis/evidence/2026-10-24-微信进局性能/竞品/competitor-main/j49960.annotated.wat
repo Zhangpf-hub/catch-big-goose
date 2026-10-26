@@ -1,0 +1,820 @@
+  (func $j49960 (type $t0) (param $p0 i32) (param $p1 i32)
+    (local $l2 i32) (local $l3 i32) (local $l4 i32)
+    global.get $primary.global$0
+    i32.const -64
+    i32.add
+    local.set $p1
+    local.get $p1
+    global.set $primary.global$0
+    i32.const 5121039
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951804 ;; Kunpo.AssetManager_TypeInfo
+      call $j922
+      i32.const 3983092 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.Clear()
+      call $j922
+      i32.const 3983104 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.get_Values()
+      call $j922
+      i32.const 3987156 ;; Method$System.Collections.Generic.Dictionary<Type, AssetRequest>.get_Values()
+      call $j922
+      i32.const 3992044 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<string, Dictionary<Type, AssetRequest>>.Dispose()
+      call $j922
+      i32.const 3992596 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<Type, AssetRequest>.Dispose()
+      call $j922
+      i32.const 3992048 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<string, Dictionary<Type, AssetRequest>>.MoveNext()
+      call $j922
+      i32.const 3992600 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<Type, AssetRequest>.MoveNext()
+      call $j922
+      i32.const 3992604 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<Type, AssetRequest>.get_Current()
+      call $j922
+      i32.const 3992052 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<string, Dictionary<Type, AssetRequest>>.get_Current()
+      call $j922
+      i32.const 4015172 ;; Method$System.Collections.Generic.Dictionary.ValueCollection<string, Dictionary<Type, AssetRequest>>.GetEnumerator()
+      call $j922
+      i32.const 4015236 ;; Method$System.Collections.Generic.Dictionary.ValueCollection<Type, AssetRequest>.GetEnumerator()
+      call $j922
+      i32.const 5121039
+      i32.const 1
+      i32.store8
+    end
+    local.get $p1
+    i64.const 0
+    i64.store offset=56
+    local.get $p1
+    i64.const 0
+    i64.store offset=48
+    local.get $p1
+    i64.const 0
+    i64.store offset=40
+    local.get $p1
+    i64.const 0
+    i64.store offset=32
+    local.get $p1
+    i32.const 16
+    i32.add
+    i32.const 3951804 ;; Kunpo.AssetManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=12
+    i32.const 3983104 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.get_Values()
+    i32.load
+    call $j1526
+    i32.const 4015172 ;; Method$System.Collections.Generic.Dictionary.ValueCollection<string, Dictionary<Type, AssetRequest>>.GetEnumerator()
+    i32.load
+    call $j1531
+    local.get $p1
+    local.get $p1
+    i64.load offset=24
+    i64.store offset=56
+    local.get $p1
+    local.get $p1
+    i64.load offset=16
+    i64.store offset=48
+    local.get $p1
+    local.get $p1
+    i32.const 48
+    i32.add
+    i32.store offset=16
+    local.get $p1
+    i32.const 0
+    i32.store offset=8
+    local.get $p1
+    local.get $p1
+    i32.load offset=16
+    i32.store offset=12
+    block $B1
+      block $B2
+        block $B3
+          block $B4
+            block $B5
+              block $B6
+                block $B7
+                  block $B8
+                    block $B9
+                      block $B10
+                        block $B11
+                          block $B12
+                            block $B13
+                              loop $L14
+                                block $B15
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  i32.const 3897
+                                  local.get $p1
+                                  i32.const 48
+                                  i32.add
+                                  i32.const 3992048 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<string, Dictionary<Type, AssetRequest>>.MoveNext()
+                                  i32.load
+                                  call $fimport$2
+                                  local.set $l2
+                                  i32.const 4610948
+                                  i32.load
+                                  local.set $l3
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  local.get $l3
+                                  i32.const 1
+                                  i32.eq
+                                  br_if $B15
+                                  local.get $l2
+                                  i32.eqz
+                                  br_if $B9
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  i32.const 3898
+                                  local.get $p1
+                                  i32.const 48
+                                  i32.add
+                                  i32.const 3992052 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<string, Dictionary<Type, AssetRequest>>.get_Current()
+                                  i32.load
+                                  call $fimport$2
+                                  local.set $l2
+                                  i32.const 4610948
+                                  i32.load
+                                  local.set $l3
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  block $B16
+                                    local.get $l3
+                                    i32.const 1
+                                    i32.ne
+                                    if $I17
+                                      i32.const 4610948
+                                      i32.const 0
+                                      i32.store
+                                      i32.const 3899
+                                      local.get $l2
+                                      i32.const 3987156 ;; Method$System.Collections.Generic.Dictionary<Type, AssetRequest>.get_Values()
+                                      i32.load
+                                      call $fimport$2
+                                      local.set $l2
+                                      i32.const 4610948
+                                      i32.load
+                                      local.set $l3
+                                      i32.const 4610948
+                                      i32.const 0
+                                      i32.store
+                                      local.get $l3
+                                      i32.const 1
+                                      i32.eq
+                                      br_if $B11
+                                      i32.const 4610948
+                                      i32.const 0
+                                      i32.store
+                                      i32.const 3900
+                                      local.get $p1
+                                      i32.const 16
+                                      i32.add
+                                      local.get $l2
+                                      i32.const 4015236 ;; Method$System.Collections.Generic.Dictionary.ValueCollection<Type, AssetRequest>.GetEnumerator()
+                                      i32.load
+                                      call $fimport$5
+                                      i32.const 4610948
+                                      i32.load
+                                      local.set $l2
+                                      i32.const 4610948
+                                      i32.const 0
+                                      i32.store
+                                      local.get $l2
+                                      i32.const 1
+                                      i32.eq
+                                      br_if $B11
+                                      local.get $p1
+                                      local.get $p1
+                                      i64.load offset=24
+                                      i64.store offset=40
+                                      local.get $p1
+                                      local.get $p1
+                                      i64.load offset=16
+                                      i64.store offset=32
+                                      local.get $p1
+                                      local.get $p1
+                                      i32.const 32
+                                      i32.add
+                                      i32.store
+                                      local.get $p1
+                                      i32.const 0
+                                      i32.store offset=16
+                                      local.get $p1
+                                      local.get $p1
+                                      i32.load
+                                      i32.store offset=20
+                                      br $B16
+                                    end
+                                    br $B11
+                                  end
+                                  block $B18
+                                    loop $L19
+                                      block $B20
+                                        i32.const 4610948
+                                        i32.const 0
+                                        i32.store
+                                        i32.const 3901
+                                        local.get $p1
+                                        i32.const 32
+                                        i32.add
+                                        i32.const 3992600 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<Type, AssetRequest>.MoveNext()
+                                        i32.load
+                                        call $fimport$2
+                                        local.set $l2
+                                        i32.const 4610948
+                                        i32.load
+                                        local.set $l3
+                                        i32.const 4610948
+                                        i32.const 0
+                                        i32.store
+                                        local.get $l3
+                                        i32.const 1
+                                        i32.eq
+                                        br_if $B20
+                                        local.get $l2
+                                        i32.eqz
+                                        br_if $B18
+                                        i32.const 4610948
+                                        i32.const 0
+                                        i32.store
+                                        i32.const 3902
+                                        local.get $p1
+                                        i32.const 32
+                                        i32.add
+                                        i32.const 3992604 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<Type, AssetRequest>.get_Current()
+                                        i32.load
+                                        call $fimport$2
+                                        local.set $l2
+                                        i32.const 4610948
+                                        i32.load
+                                        local.set $l3
+                                        i32.const 4610948
+                                        i32.const 0
+                                        i32.store
+                                        local.get $l3
+                                        i32.const 1
+                                        i32.eq
+                                        br_if $B20
+                                        i32.const 4610948
+                                        i32.const 0
+                                        i32.store
+                                        i32.const 3903
+                                        local.get $l2
+                                        local.get $p1
+                                        call $fimport$12
+                                        i32.const 4610948
+                                        i32.load
+                                        local.set $l2
+                                        i32.const 4610948
+                                        i32.const 0
+                                        i32.store
+                                        local.get $l2
+                                        i32.const 1
+                                        i32.ne
+                                        br_if $L19
+                                      end
+                                    end
+                                    i32.const 2539788
+                                    call $fimport$0
+                                    local.set $l2
+                                    call $fimport$1
+                                    local.set $l3
+                                    local.get $l3
+                                    i32.const 2539788
+                                    call $fimport$9
+                                    i32.ne
+                                    br_if $B12
+                                    local.get $p1
+                                    local.get $l2
+                                    call $fimport$7
+                                    i32.load
+                                    i32.store offset=16
+                                    i32.const 4610948
+                                    i32.const 0
+                                    i32.store
+                                    i32.const 369
+                                    call $fimport$6
+                                    i32.const 4610948
+                                    i32.load
+                                    local.set $l2
+                                    i32.const 4610948
+                                    i32.const 0
+                                    i32.store
+                                    local.get $l2
+                                    i32.const 1
+                                    i32.eq
+                                    br_if $B13
+                                  end
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  i32.const 3904
+                                  local.get $p1
+                                  i32.const 16
+                                  i32.add
+                                  call $fimport$3
+                                  drop
+                                  i32.const 4610948
+                                  i32.load
+                                  local.set $l2
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  local.get $l2
+                                  i32.const 1
+                                  i32.ne
+                                  br_if $L14
+                                  br $B11
+                                end
+                              end
+                              br $B11
+                            end
+                            i32.const 2539788
+                            call $fimport$0
+                            local.set $l2
+                            call $fimport$1
+                            local.set $l3
+                          end
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          i32.const 3904
+                          local.get $p1
+                          i32.const 16
+                          i32.add
+                          call $fimport$3
+                          drop
+                          i32.const 4610948
+                          i32.load
+                          local.set $l4
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          local.get $l4
+                          i32.const 1
+                          i32.eq
+                          br_if $B1
+                          br $B10
+                        end
+                        i32.const 2539788
+                        call $fimport$0
+                        local.set $l2
+                        call $fimport$1
+                        local.set $l3
+                      end
+                      i32.const 2539788
+                      call $fimport$9
+                      local.get $l3
+                      i32.ne
+                      br_if $B7
+                      local.get $p1
+                      local.get $l2
+                      call $fimport$7
+                      i32.load
+                      i32.store offset=8
+                      i32.const 4610948
+                      i32.const 0
+                      i32.store
+                      i32.const 369
+                      call $fimport$6
+                      i32.const 4610948
+                      i32.load
+                      local.set $l2
+                      i32.const 4610948
+                      i32.const 0
+                      i32.store
+                      local.get $l2
+                      i32.const 1
+                      i32.eq
+                      br_if $B8
+                    end
+                    local.get $p1
+                    i32.const 8
+                    i32.add
+                    call $j12480
+                    drop
+                    i32.const 3951804 ;; Kunpo.AssetManager_TypeInfo
+                    i32.load
+                    i32.load offset=92
+                    i32.load offset=12
+                    i32.const 3983092 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.Clear()
+                    i32.load
+                    call $j1200
+                    local.get $p0
+                    i32.eqz
+                    br_if $B5
+                    local.get $p1
+                    i32.const 16
+                    i32.add
+                    i32.const 3951804 ;; Kunpo.AssetManager_TypeInfo
+                    i32.load
+                    i32.load offset=92
+                    i32.load offset=16
+                    i32.const 3983104 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.get_Values()
+                    i32.load
+                    call $j1526
+                    i32.const 4015172 ;; Method$System.Collections.Generic.Dictionary.ValueCollection<string, Dictionary<Type, AssetRequest>>.GetEnumerator()
+                    i32.load
+                    call $j1531
+                    local.get $p1
+                    local.get $p1
+                    i64.load offset=24
+                    i64.store offset=56
+                    local.get $p1
+                    local.get $p1
+                    i64.load offset=16
+                    i64.store offset=48
+                    local.get $p1
+                    local.get $p1
+                    i32.const 48
+                    i32.add
+                    i32.store offset=16
+                    local.get $p1
+                    i32.const 0
+                    i32.store offset=8
+                    local.get $p1
+                    local.get $p1
+                    i32.load offset=16
+                    i32.store offset=12
+                    br $B6
+                  end
+                  call $fimport$4
+                  local.set $l2
+                  call $fimport$1
+                  drop
+                end
+                i32.const 4610948
+                i32.const 0
+                i32.store
+                i32.const 3905
+                local.get $p1
+                i32.const 8
+                i32.add
+                call $fimport$3
+                drop
+                i32.const 4610948
+                i32.load
+                local.set $p0
+                i32.const 4610948
+                i32.const 0
+                i32.store
+                local.get $p0
+                i32.const 1
+                i32.ne
+                br_if $B2
+                br $B1
+              end
+              block $B21
+                block $B22
+                  block $B23
+                    block $B24
+                      block $B25
+                        loop $L26
+                          block $B27
+                            i32.const 4610948
+                            i32.const 0
+                            i32.store
+                            i32.const 3897
+                            local.get $p1
+                            i32.const 48
+                            i32.add
+                            i32.const 3992048 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<string, Dictionary<Type, AssetRequest>>.MoveNext()
+                            i32.load
+                            call $fimport$2
+                            local.set $p0
+                            i32.const 4610948
+                            i32.load
+                            local.set $l2
+                            i32.const 4610948
+                            i32.const 0
+                            i32.store
+                            local.get $l2
+                            i32.const 1
+                            i32.eq
+                            br_if $B27
+                            local.get $p0
+                            i32.eqz
+                            br_if $B21
+                            i32.const 4610948
+                            i32.const 0
+                            i32.store
+                            i32.const 3898
+                            local.get $p1
+                            i32.const 48
+                            i32.add
+                            i32.const 3992052 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<string, Dictionary<Type, AssetRequest>>.get_Current()
+                            i32.load
+                            call $fimport$2
+                            local.set $p0
+                            i32.const 4610948
+                            i32.load
+                            local.set $l2
+                            i32.const 4610948
+                            i32.const 0
+                            i32.store
+                            block $B28
+                              local.get $l2
+                              i32.const 1
+                              i32.ne
+                              if $I29
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                i32.const 3899
+                                local.get $p0
+                                i32.const 3987156 ;; Method$System.Collections.Generic.Dictionary<Type, AssetRequest>.get_Values()
+                                i32.load
+                                call $fimport$2
+                                local.set $p0
+                                i32.const 4610948
+                                i32.load
+                                local.set $l2
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                local.get $l2
+                                i32.const 1
+                                i32.eq
+                                br_if $B23
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                i32.const 3900
+                                local.get $p1
+                                i32.const 16
+                                i32.add
+                                local.get $p0
+                                i32.const 4015236 ;; Method$System.Collections.Generic.Dictionary.ValueCollection<Type, AssetRequest>.GetEnumerator()
+                                i32.load
+                                call $fimport$5
+                                i32.const 4610948
+                                i32.load
+                                local.set $p0
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                local.get $p0
+                                i32.const 1
+                                i32.eq
+                                br_if $B23
+                                local.get $p1
+                                local.get $p1
+                                i64.load offset=24
+                                i64.store offset=40
+                                local.get $p1
+                                local.get $p1
+                                i64.load offset=16
+                                i64.store offset=32
+                                local.get $p1
+                                local.get $p1
+                                i32.const 32
+                                i32.add
+                                i32.store
+                                local.get $p1
+                                i32.const 0
+                                i32.store offset=16
+                                local.get $p1
+                                local.get $p1
+                                i32.load
+                                i32.store offset=20
+                                br $B28
+                              end
+                              br $B23
+                            end
+                            block $B30
+                              loop $L31
+                                block $B32
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  i32.const 3901
+                                  local.get $p1
+                                  i32.const 32
+                                  i32.add
+                                  i32.const 3992600 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<Type, AssetRequest>.MoveNext()
+                                  i32.load
+                                  call $fimport$2
+                                  local.set $p0
+                                  i32.const 4610948
+                                  i32.load
+                                  local.set $l2
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  local.get $l2
+                                  i32.const 1
+                                  i32.eq
+                                  br_if $B32
+                                  local.get $p0
+                                  i32.eqz
+                                  br_if $B30
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  i32.const 3902
+                                  local.get $p1
+                                  i32.const 32
+                                  i32.add
+                                  i32.const 3992604 ;; Method$System.Collections.Generic.Dictionary.ValueCollection.Enumerator<Type, AssetRequest>.get_Current()
+                                  i32.load
+                                  call $fimport$2
+                                  local.set $p0
+                                  i32.const 4610948
+                                  i32.load
+                                  local.set $l2
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  local.get $l2
+                                  i32.const 1
+                                  i32.eq
+                                  br_if $B32
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  i32.const 3903
+                                  local.get $p0
+                                  local.get $p1
+                                  call $fimport$12
+                                  i32.const 4610948
+                                  i32.load
+                                  local.set $p0
+                                  i32.const 4610948
+                                  i32.const 0
+                                  i32.store
+                                  local.get $p0
+                                  i32.const 1
+                                  i32.ne
+                                  br_if $L31
+                                end
+                              end
+                              i32.const 2539788
+                              call $fimport$0
+                              local.set $l2
+                              call $fimport$1
+                              local.set $l3
+                              local.get $l3
+                              i32.const 2539788
+                              call $fimport$9
+                              i32.ne
+                              br_if $B24
+                              local.get $p1
+                              local.get $l2
+                              call $fimport$7
+                              i32.load
+                              i32.store offset=16
+                              i32.const 4610948
+                              i32.const 0
+                              i32.store
+                              i32.const 369
+                              call $fimport$6
+                              i32.const 4610948
+                              i32.load
+                              local.set $p0
+                              i32.const 4610948
+                              i32.const 0
+                              i32.store
+                              local.get $p0
+                              i32.const 1
+                              i32.eq
+                              br_if $B25
+                            end
+                            i32.const 4610948
+                            i32.const 0
+                            i32.store
+                            i32.const 3906
+                            local.get $p1
+                            i32.const 16
+                            i32.add
+                            call $fimport$3
+                            drop
+                            i32.const 4610948
+                            i32.load
+                            local.set $p0
+                            i32.const 4610948
+                            i32.const 0
+                            i32.store
+                            local.get $p0
+                            i32.const 1
+                            i32.ne
+                            br_if $L26
+                            br $B23
+                          end
+                        end
+                        br $B23
+                      end
+                      i32.const 2539788
+                      call $fimport$0
+                      local.set $l2
+                      call $fimport$1
+                      local.set $l3
+                    end
+                    i32.const 4610948
+                    i32.const 0
+                    i32.store
+                    i32.const 3906
+                    local.get $p1
+                    i32.const 16
+                    i32.add
+                    call $fimport$3
+                    drop
+                    i32.const 4610948
+                    i32.load
+                    local.set $p0
+                    i32.const 4610948
+                    i32.const 0
+                    i32.store
+                    local.get $p0
+                    i32.const 1
+                    i32.eq
+                    br_if $B1
+                    br $B22
+                  end
+                  i32.const 2539788
+                  call $fimport$0
+                  local.set $l2
+                  call $fimport$1
+                  local.set $l3
+                end
+                i32.const 2539788
+                call $fimport$9
+                local.get $l3
+                i32.ne
+                br_if $B3
+                local.get $p1
+                local.get $l2
+                call $fimport$7
+                i32.load
+                i32.store offset=8
+                i32.const 4610948
+                i32.const 0
+                i32.store
+                i32.const 369
+                call $fimport$6
+                i32.const 4610948
+                i32.load
+                local.set $p0
+                i32.const 4610948
+                i32.const 0
+                i32.store
+                local.get $p0
+                i32.const 1
+                i32.eq
+                br_if $B4
+              end
+              local.get $p1
+              i32.const 8
+              i32.add
+              call $j12480
+              drop
+              i32.const 3951804 ;; Kunpo.AssetManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              i32.load offset=16
+              i32.const 3983092 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.Clear()
+              i32.load
+              call $j1200
+            end
+            local.get $p1
+            i32.const -64
+            i32.sub
+            global.set $primary.global$0
+            return
+          end
+          call $fimport$4
+          local.set $l2
+          call $fimport$1
+          drop
+        end
+        i32.const 4610948
+        i32.const 0
+        i32.store
+        i32.const 3907
+        local.get $p1
+        i32.const 8
+        i32.add
+        call $fimport$3
+        drop
+        i32.const 4610948
+        i32.load
+        local.set $p0
+        i32.const 4610948
+        i32.const 0
+        i32.store
+        local.get $p0
+        i32.const 1
+        i32.eq
+        br_if $B1
+      end
+      local.get $l2
+      call $fimport$10
+      unreachable
+    end
+    i32.const 0
+    call $fimport$0
+    drop
+    call $fimport$1
+    drop
+    call $j944
+    unreachable)

@@ -1,0 +1,49 @@
+  (func $j46548 (type $t3) (param $p0 i32) (param $p1 i32)
+    i32.const 5139972
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4034880
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4034896
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4077816
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5139972
+      i32.const 1
+      i32.store8
+    end
+    i32.const 4077816
+    i32.load
+    i32.const 0
+    i32.const 16376
+    call_indirect $primary.table (type $t2)
+    i32.eqz
+    if $I1
+      i32.const 4077816
+      i32.load
+      i32.const 30
+      i32.const 4034896
+      i32.load
+      i32.const 5862
+      call_indirect $primary.table (type $t4)
+    end
+    i32.const 4077816
+    i32.load
+    i32.const 4034880
+    i32.load
+    i32.const 5861
+    call_indirect $primary.table (type $t2)
+    local.set $p1
+    i32.const 4077816
+    i32.load
+    local.get $p0
+    local.get $p1
+    i32.add
+    i32.const 4034896
+    i32.load
+    i32.const 5862
+    call_indirect $primary.table (type $t4))

@@ -1,0 +1,206 @@
+{
+  "source": "D:\\开发\\Catch-big-goose-master\\work\\competitor-config-trace\\source\\6f7a2014e3c0092b.webgl.data.unityweb.bin",
+  "sha256": "b7cad460af0d7aaf86bdec945f9b4d69a4e494a07b1343007f3cc7254c208b42",
+  "objects": [
+    {
+      "type": "TimeManager",
+      "pathId": 8,
+      "assetsFile": "globalgamemanagers",
+      "data": {
+        "Fixed Timestep": 0.019999999552965164,
+        "Maximum Allowed Timestep": 0.33333298563957214,
+        "m_TimeScale": 1.0,
+        "Maximum Particle Timestep": 0.03999999910593033
+      }
+    },
+    {
+      "type": "PhysicsManager",
+      "pathId": 10,
+      "assetsFile": "globalgamemanagers",
+      "data": {
+        "m_Gravity": {
+          "x": 0.0,
+          "y": -19.809999465942383,
+          "z": 0.0
+        },
+        "m_DefaultMaterial": {
+          "m_FileID": 5,
+          "m_PathID": 3131
+        },
+        "m_BounceThreshold": 100.0,
+        "m_DefaultMaxDepenetrationVelocity": 1.0,
+        "m_SleepThreshold": 0.20000000298023224,
+        "m_DefaultContactOffset": 0.019999999552965164,
+        "m_DefaultSolverIterations": 6,
+        "m_DefaultSolverVelocityIterations": 1,
+        "m_QueriesHitBackfaces": false,
+        "m_QueriesHitTriggers": true,
+        "m_EnableAdaptiveForce": false,
+        "m_ClothInterCollisionDistance": 0.0,
+        "m_ClothInterCollisionStiffness": 0.0,
+        "m_ContactsGeneration": 1,
+        "m_LayerCollisionMatrix": [
+          1024,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1024,
+          0,
+          0,
+          0,
+          1089,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "m_AutoSimulation": true,
+        "m_AutoSyncTransforms": false,
+        "m_ReuseCollisionCallbacks": true,
+        "m_ClothInterCollisionSettingsToggle": false,
+        "m_ClothGravity": {
+          "x": 0.0,
+          "y": -9.8100004196167,
+          "z": 0.0
+        },
+        "m_ContactPairsMode": 0,
+        "m_BroadphaseType": 0,
+        "m_WorldBounds": {
+          "m_Center": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_Extent": {
+            "x": 250.0,
+            "y": 250.0,
+            "z": 250.0
+          }
+        },
+        "m_WorldSubdivisions": 8,
+        "m_FrictionType": 0,
+        "m_EnableEnhancedDeterminism": false,
+        "m_EnableUnifiedHeightmaps": true,
+        "m_ImprovedPatchFriction": false,
+        "m_SolverType": 0,
+        "m_DefaultMaxAngularSpeed": 7.0
+      }
+    },
+    {
+      "type": "QualitySettings",
+      "pathId": 12,
+      "assetsFile": "globalgamemanagers",
+      "data": {
+        "m_CurrentQuality": 1,
+        "m_QualitySettings": [
+          {
+            "name": "Very Low",
+            "pixelLightCount": 0,
+            "shadows": 0,
+            "shadowResolution": 0,
+            "shadowProjection": 1,
+            "shadowCascades": 1,
+            "shadowDistance": 15.0,
+            "shadowNearPlaneOffset": 3.0,
+            "shadowCascade2Split": 0.3333333432674408,
+            "shadowCascade4Split": {
+              "x": 0.06666667014360428,
+              "y": 0.20000000298023224,
+              "z": 0.46666666865348816
+            },
+            "shadowmaskMode": 0,
+            "skinWeights": 1,
+            "textureQuality": 1,
+            "anisotropicTextures": 0,
+            "antiAliasing": 0,
+            "softParticles": false,
+            "softVegetation": false,
+            "realtimeReflectionProbes": false,
+            "billboardsFaceCameraPosition": false,
+            "vSyncCount": 0,
+            "lodBias": 0.30000001192092896,
+            "maximumLODLevel": 0,
+            "streamingMipmapsActive": false,
+            "streamingMipmapsAddAllCameras": true,
+            "streamingMipmapsMemoryBudget": 512.0,
+            "streamingMipmapsRenderersPerFrame": 512,
+            "streamingMipmapsMaxLevelReduction": 2,
+            "streamingMipmapsMaxFileIORequests": 1024,
+            "particleRaycastBudget": 4,
+            "asyncUploadTimeSlice": 2,
+            "asyncUploadBufferSize": 16,
+            "asyncUploadPersistentBuffer": true,
+            "resolutionScalingFixedDPIFactor": 1.0,
+            "customRenderPipeline": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          },
+          {
+            "name": "Medium",
+            "pixelLightCount": 1,
+            "shadows": 1,
+            "shadowResolution": 1,
+            "shadowProjection": 1,
+            "shadowCascades": 1,
+            "shadowDistance": 40.0,
+            "shadowNearPlaneOffset": 3.0,
+            "shadowCascade2Split": 0.3333333432674408,
+            "shadowCascade4Split": {
+              "x": 0.06666667014360428,
+              "y": 0.20000000298023224,
+              "z": 0.46666666865348816
+            },
+            "shadowmaskMode": 0,
+            "skinWeights": 2,
+            "textureQuality": 0,
+            "anisotropicTextures": 1,
+            "antiAliasing": 0,
+            "softParticles": false,
+            "softVegetation": false,
+            "realtimeReflectionProbes": false,
+            "billboardsFaceCameraPosition": false,
+            "vSyncCount": 0,
+            "lodBias": 0.699999988079071,
+            "maximumLODLevel": 0,
+            "streamingMipmapsActive": false,
+            "streamingMipmapsAddAllCameras": true,
+            "streamingMipmapsMemoryBudget": 512.0,
+            "streamingMipmapsRenderersPerFrame": 512,
+            "streamingMipmapsMaxLevelReduction": 2,
+            "streamingMipmapsMaxFileIORequests": 1024,
+            "particleRaycastBudget": 64,
+            "asyncUploadTimeSlice": 2,
+            "asyncUploadBufferSize": 16,
+            "asyncUploadPersistentBuffer": true,
+            "resolutionScalingFixedDPIFactor": 1.0,
+            "customRenderPipeline": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          }
+        ],
+        "m_StrippedMaximumLODLevel": 0
+      }
+    }
+  ]
+}

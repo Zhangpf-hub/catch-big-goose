@@ -1,0 +1,9 @@
+{
+  "id": "ref_bbqmushroom",
+  "sourceId": "BBQMushroom",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BBQMushroom\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/BBQMushroom.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+  "sourceSha256": "b02e48b6461962505d9dd1d21590593d2c31f7923c2c2aa7e24b43adb3b3804f"
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "lotus",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lotus\\lotus.fbx",
+  "sourceTriangles": 3892,
+  "triangles": 3892,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.974099338054657,
+    0.4266367256641388
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.9740992784500122,
+    0.42663657665252686
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

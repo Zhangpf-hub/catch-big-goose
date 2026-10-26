@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_garlic",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Garlic\\Garlic.blend",
+  "sourceTriangles": 932,
+  "triangles": 932,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0227171182632446,
+    1.0959110260009766,
+    1.0945227146148682
+  ],
+  "normalizedDimensions": [
+    0.9332118630409241,
+    1.0,
+    0.9987332224845886
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

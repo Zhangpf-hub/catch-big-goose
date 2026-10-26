@@ -1,0 +1,133 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "ToonLite1" {
+Properties {
+
+[Main(z1,_KEYWORD,on,off)] _ground1 ("基础组", Float) = 0.0
+
+_BaseColor ("Base Color", 2D) = "white" { }
+
+_BaseTint ("Base Tint", Color) = (1,1,1,0)
+
+_NormalMap ("Normal Map", 2D) = "bump" { }
+
+_NormalScale ("Normal Scale", Range(0, 3)) = 1.0
+
+_AOTex ("AOTex", 2D) = "white" { }
+
+_AOScale ("AOScale", Range(0, 1)) = 1.0
+
+[Main(z1,_KEYWORD,on,off)] _ground2 ("光照", Float) = 0.0
+
+_LightColor ("LightColor", Color) = (0,0,0,0)
+
+_BaseCellSharpness ("Base Cell Sharpness", Range(0.01, 1)) = 0.009999999776482582
+
+_BaseCellOffset ("Base Cell Offset", Range(-1, 1)) = 0.0
+
+_ShadowAddColor ("ShadowAddColor", Color) = (0,0,0,0)
+
+_IndirectColor ("IndirectColor", Color) = (0,0,0,0)
+
+[Main(z1,_KEYWORD,on,off)] _ground7 ("高光", Float) = 0.0
+
+_HighLightColor ("HighLightColor", Color) = (0,0,0,0)
+
+_HighLightSmooth ("HighLightSmooth", Range(0.01, 1)) = 0.0
+
+_HighLightOffset ("HighLightOffset", Range(-1, 1)) = 0.0
+
+_HighLightPing ("HighLightPing", Range(0, 1)) = 0.0
+
+_HighLightShadowMask ("HighLightShadowMask", Range(0, 1)) = 0.0
+
+[Main(z1,_KEYWORD,on,off)] _ground5 ("菲涅尔", Float) = 0.0
+
+[Toggle(_ISUSENORMALMAP_ON)] _IsUseNormalMap ("IsUseNormalMap", Float) = 0.0
+
+_RimColor ("Rim Color", Color) = (1,1,1,0)
+
+_RimPower ("Rim Power", Range(0.01, 1)) = 0.4000000059604645
+
+_RimOffset ("Rim Offset", Range(0, 1)) = 0.6000000238418579
+
+_RimShadowScale ("RimShadowScale", Range(0, 1)) = 0.0
+
+_RimLightMul ("RimLightMul", Range(-10, 10)) = 1.0
+
+[Main(z1,_KEYWORD,on,off)] _ground6 ("反射", Float) = 0.0
+
+_Matcap ("Matcap", 2D) = "white" { }
+
+_MatcapScale ("MatcapScale", Range(0, 2)) = 0.0
+
+_MatcapColor ("MatcapColor", Color) = (0,0,0,0)
+
+_ReflectScale ("ReflectScale", Range(0, 10)) = 1.0
+
+_ReflectOffset ("ReflectOffset", Vector) = (0,0,0,0)
+
+_MetcapShadowMask ("MetcapShadowMask", Range(0, 1)) = 0.0
+
+_RoughnessMap ("RoughnessMap", 2D) = "black" { }
+
+_RoughnessScale ("RoughnessScale", Range(0, 1)) = 0.0
+
+[Toggle(_ISUSEWORLDMATCAP_ON)] _IsUseWorldMatcap ("IsUseWorldMatcap", Float) = 0.0
+
+[Toggle(_ISSINGLECOLOR_ON)] _IsSingleColor ("IsSingleColor", Float) = 0.0
+
+[Main(z1,_KEYWORD,on,off)] _ground3 ("逆光源", Float) = 0.0
+
+_inverseLightSmooth ("inverseLightSmooth", Range(0.01, 1)) = 1.0
+
+_inverseColor ("inverseColor", Color) = (0,0,0,0)
+
+_inverseLightOffset ("inverseLightOffset", Range(-1, 1)) = 0.0
+
+[Toggle(_CUSTOMINVERTLIGHTDIR_ON)] _CustomInvertLightDir ("CustomInvertLightDir", Float) = 0.0
+
+_CustomInverseDir ("CustomInverseDir", Vector) = (1,0,0,0)
+
+[Main(z1,_KEYWORD,on,off)] _ground4 ("渐变颜色", Float) = 0.0
+
+[Toggle(_FADECOLORDIRY_ON)] _FadeColorDirY ("FadeColorDirY", Float) = 0.0
+
+_FadeColorF ("FadeColorF", Color) = (1,1,1,1)
+
+_FadeColorB ("FadeColorB", Color) = (1,1,1,1)
+
+_FadeColorOffset ("FadeColorOffset", Float) = 0.0
+
+_FadeColorScale ("FadeColorScale", Range(0, 100)) = 0.0
+
+_texcoord ("", 2D) = "white" { }
+
+__dirty ("", Float) = 1.0
+
+}
+SubShader {
+ Tags { "QUEUE" = "Geometry+0" "RenderType" = "Opaque" }
+ Pass {
+ Name "FORWARD"
+  Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry+0" "RenderType" = "Opaque" "SHADOWSUPPORT" = "true" }
+  GpuProgramID 9208
+}
+ Pass {
+ Name "FORWARD"
+  Tags { "LIGHTMODE" = "FORWARDADD" "QUEUE" = "Geometry+0" "RenderType" = "Opaque" "SHADOWSUPPORT" = "true" }
+ ZWrite Off
+  GpuProgramID 81092
+}
+ Pass {
+ Name "ShadowCaster"
+  Tags { "LIGHTMODE" = "SHADOWCASTER" "QUEUE" = "Geometry+0" "RenderType" = "Opaque" "SHADOWSUPPORT" = "true" }
+  GpuProgramID 256027
+}
+}
+Fall back "Diffuse"
+CustomEditor "LWGUI.LWGUI"
+}

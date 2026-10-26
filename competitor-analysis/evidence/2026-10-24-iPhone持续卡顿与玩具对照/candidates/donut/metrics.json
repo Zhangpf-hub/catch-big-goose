@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "donut",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\donut\\donut.fbx",
+  "sourceTriangles": 1200,
+  "triangles": 1200,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    1.0000001192092896,
+    0.37577149271965027
+  ],
+  "normalizedDimensions": [
+    1.0,
+    1.0,
+    0.3757714629173279
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

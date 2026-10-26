@@ -1,0 +1,9 @@
+{
+  "id": "ref_ribsbig",
+  "sourceId": "RibsBig",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\RibsBig\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/RibsBig.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+  "sourceSha256": "b7c5a303f6215cfee20c2d07681293248b80d42ad8e8528a2b7407aa5e6f1520"
+}

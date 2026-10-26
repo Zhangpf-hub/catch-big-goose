@@ -1,0 +1,27 @@
+{
+  "id": "giraffe",
+  "triangles": 5000,
+  "materials": 1,
+  "texture": [
+    512,
+    512
+  ],
+  "dimensions": [
+    0.3102388381958008,
+    0.48581910133361816,
+    1.0
+  ],
+  "center": [
+    0,
+    0,
+    0
+  ],
+  "sourceCenter": [
+    -2.9802322387695312e-08,
+    0.03100001811981201,
+    1.5164999961853027
+  ],
+  "sourceExtent": 2.997000217437744,
+  "glbBytes": 247376,
+  "basis": "Original B proportions; current Unity pipeline; 512 texture preserves painted patches"
+}

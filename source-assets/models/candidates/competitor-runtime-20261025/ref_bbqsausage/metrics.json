@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bbqsausage",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BBQSausage\\BBQSausage.blend",
+  "sourceTriangles": 490,
+  "triangles": 490,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.5533632636070251,
+    1.8528019189834595,
+    0.5004754662513733
+  ],
+  "normalizedDimensions": [
+    0.298662930727005,
+    1.0,
+    0.27011817693710327
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

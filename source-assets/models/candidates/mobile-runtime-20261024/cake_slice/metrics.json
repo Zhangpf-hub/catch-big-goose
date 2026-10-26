@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "cake_slice",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cake_slice\\cake_slice.fbx",
+  "sourceTriangles": 1772,
+  "triangles": 1772,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.765680730342865,
+    0.7797340154647827
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.7656806111335754,
+    0.7797339558601379
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

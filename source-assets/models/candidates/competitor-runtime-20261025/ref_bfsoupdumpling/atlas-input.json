@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.018003739416599274,
+        0.012488704174757004
+      ],
+      "uvMax": [
+        0.9846975803375244,
+        0.9839901924133301
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_bfsoupdumpling\\albedo.png"
+}

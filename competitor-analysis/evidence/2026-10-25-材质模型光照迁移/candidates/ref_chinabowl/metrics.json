@@ -1,0 +1,12 @@
+{
+  "id": "ref_chinabowl",
+  "triangles": 1000,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    1.0,
+    0.696131706237793,
+    0.9651771783828735
+  ],
+  "glbRoundtrip": true
+}

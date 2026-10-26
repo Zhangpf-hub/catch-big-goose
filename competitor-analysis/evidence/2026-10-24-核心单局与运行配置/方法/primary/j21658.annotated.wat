@@ -1,0 +1,191 @@
+  (func $j21658 (type $t3) (param $p0 i32) (result i32)
+    (local $l1 i32) (local $l2 i32) (local $l3 i32) (local $l4 i32)
+    i32.const 0
+    local.set $p0
+    i32.const 5139748
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4017564 ;; Method$ArrayHelper.GetValueOrDefault<MainLevelUpgradedDataData>()
+      call $j922
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      call $j922
+      i32.const 3958464 ;; MainLevelManager_TypeInfo
+      call $j922
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 3964920 ;; ValueManager_TypeInfo
+      call $j922
+      i32.const 5139748
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 0
+    call $j4065 ;; NetDataManager$$GetMaxUnlockStar
+    local.set $l1
+    block $B1
+      local.get $l1
+      i32.const 2
+      i32.lt_s
+      br_if $B1
+      local.get $l1
+      i32.const 1
+      i32.sub
+      local.set $l1
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 5142651
+      i32.load8_u
+      i32.eqz
+      if $I2
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        call $j922
+        i32.const 5142651
+        i32.const 1
+        i32.store8
+      end
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load offset=32
+      local.get $l1
+      i32.const 0
+      call $j7259 ;; PlayerNetSelfSaveData$$TodayHasWin
+      i32.eqz
+      br_if $B1
+      i32.const 3958464 ;; MainLevelManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 0
+      call $j8885 ;; MainLevelManager$$get_IsUseEarlyOpenThirdLevelAB
+      if $I3
+        i32.const 3958464 ;; MainLevelManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 2
+        i32.const 0
+        call $j10839 ;; MainLevelManager$$GetAllBaseLevelGooseCount
+        i32.const 0
+        i32.gt_s
+        br_if $B1
+        i32.const 3958464 ;; MainLevelManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 1
+        i32.const 0
+        call $j10839 ;; MainLevelManager$$GetAllBaseLevelGooseCount
+        i32.const 4
+        i32.eq
+        return
+      end
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      call $j923
+      local.get $l1
+      call $j2521 ;; NetDataManager$$get_DailyBaseLevelIndex
+      local.set $l2
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      call $j923
+      local.get $l2
+      i32.const 0
+      call $j4153 ;; ConfigManager$$GetMainLevelUpgradedDataList
+      local.set $l2
+      local.get $l2
+      i32.eqz
+      br_if $B1
+      local.get $l2
+      local.get $l1
+      i32.const 1
+      i32.sub
+      i32.const 0
+      i32.const 4017564 ;; Method$ArrayHelper.GetValueOrDefault<MainLevelUpgradedDataData>()
+      i32.load
+      call $j3364
+      local.set $l1
+      local.get $l1
+      i32.eqz
+      br_if $B1
+      local.get $l1
+      i32.load offset=24
+      local.set $l3
+      i32.const 0
+      local.set $l1
+      loop $L4
+        block $B5
+          local.get $l3
+          i32.load offset=12
+          local.set $p0
+          local.get $l1
+          local.get $p0
+          i32.ge_s
+          br_if $B5
+          local.get $l3
+          local.get $l1
+          i32.const 2
+          i32.shl
+          i32.add
+          i32.load offset=16
+          local.set $l2
+          i32.const 3953096 ;; ConfigManager_TypeInfo
+          i32.load
+          call $j923
+          local.get $l2
+          i32.const 0
+          call $j1293 ;; ConfigManager$$GetGoose
+          local.set $l2
+          local.get $l2
+          i32.eqz
+          br_if $B5
+          loop $L6
+            block $B7
+              local.get $l2
+              i32.load offset=56
+              local.set $p0
+              i32.const 3953096 ;; ConfigManager_TypeInfo
+              i32.load
+              call $j923
+              local.get $p0
+              i32.const 0
+              call $j1293 ;; ConfigManager$$GetGoose
+              local.set $l2
+              local.get $l2
+              i32.eqz
+              br_if $B7
+              local.get $l2
+              i32.load offset=8
+              local.set $l4
+              i32.const 0
+              local.set $p0
+              i32.const 3964920 ;; ValueManager_TypeInfo
+              i32.load
+              call $j923
+              local.get $l4
+              i32.const 0
+              call $j1801 ;; ValueManager$$HasGetGoose
+              i32.eqz
+              br_if $L6
+              br $B1
+            end
+          end
+          local.get $l1
+          i32.const 1
+          i32.add
+          local.set $l1
+          br $L4
+        end
+      end
+      local.get $p0
+      local.get $l1
+      i32.le_s
+      local.set $p0
+    end
+    local.get $p0
+    return)

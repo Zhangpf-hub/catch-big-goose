@@ -1,0 +1,9 @@
+{
+  "id": "ref_potatoskewers",
+  "sourceId": "PotatoSkewers",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\PotatoSkewers\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/PotatoSkewers.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+  "sourceSha256": "7c581dd7cf8e3b4aacccb3e1a02d3ad8aabbf4ec2146d5b94801761536d37140"
+}

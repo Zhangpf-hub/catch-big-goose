@@ -1,0 +1,18 @@
+{
+  "id": "duck-noodles",
+  "triangles": 3940,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.6325883269309998,
+    0.6536483764648438,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "passed": true
+}

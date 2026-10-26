@@ -1,0 +1,36 @@
+{
+  "models": [
+    {
+      "id": "scene_barbecue",
+      "triangles": 3316,
+      "source": "models/scene_barbecue/source.json",
+      "sourceSha256": "2684bcf80244ad087bf786c4f3e6b6b3657b9883289049366c5ff565dc04f29f"
+    },
+    {
+      "id": "scene_breakfast",
+      "triangles": 1152,
+      "source": "models/scene_breakfast/source.json",
+      "sourceSha256": "34becda0dcba51b22f5ea3a499935cb517406ac06e8b3be8bcb104a1aafb89b2"
+    },
+    {
+      "id": "scene_countryside",
+      "triangles": 1658,
+      "source": "models/scene_countryside/source.json",
+      "sourceSha256": "6c4723a67724a0d23a111fa9ff38bea2c371ade31b5801bc4482e9bf7e508578"
+    },
+    {
+      "id": "scene_grocery",
+      "triangles": 3754,
+      "source": "models/scene_grocery/source.json",
+      "sourceSha256": "876a3a379f992885bb030e661c25d4eaeab14cde88cb7ec7dcd2373d9853f6df"
+    },
+    {
+      "id": "scene_toys",
+      "triangles": 612,
+      "source": "models/scene_toys/source.json",
+      "sourceSha256": "d7e6838b28f16af8716702ce8284777b5ee0a0871e19cb12414f0e0e669fe49c"
+    }
+  ],
+  "date": "2026-10-25",
+  "purpose": "Read-only recovered source evidence for user-requested Unity runtime derivation; source prefab poses retained or baked, original shader program not recovered."
+}

@@ -1,0 +1,56 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.1599999964237213,
+        0.07500000298023224,
+        0.02500000037252903,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        0.9375
+      ]
+    },
+    {
+      "color": [
+        0.3100000023841858,
+        0.28999999165534973,
+        0.06499999761581421,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        0.9375
+      ]
+    },
+    {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banana\\banana_albedo_2.png",
+      "uvMin": [
+        0.0,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        0.949999988079071
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\banana\\albedo.png"
+}

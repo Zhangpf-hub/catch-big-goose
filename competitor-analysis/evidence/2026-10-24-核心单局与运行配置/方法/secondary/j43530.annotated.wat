@@ -1,0 +1,75 @@
+  (func $j43530 (type $t51) (param $p0 i32) (param $p1 f32) (param $p2 f32) (param $p3 i32)
+    (local $l4 i64) (local $l5 i32) (local $l6 i32) (local $l7 f32)
+    global.get $primary.global$0
+    i32.const 32
+    i32.sub
+    local.set $p3
+    local.get $p3
+    global.set $primary.global$0
+    i32.const 5140178
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3952576 ;; CameraControl_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5140178
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3952576 ;; CameraControl_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load
+    i32.const 0
+    call $j24228 ;; CameraControl$$ResetCameraPos
+    local.get $p0
+    i32.load offset=84
+    local.set $l5
+    local.get $p0
+    i32.load offset=104
+    local.set $l6
+    local.get $p3
+    i32.const 16
+    i32.add
+    local.get $p0
+    i32.load offset=872
+    i32.const 0
+    i32.const 53043
+    call_indirect $primary.table (type $t4)
+    local.get $p3
+    f32.load offset=16
+    local.set $l7
+    i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+    i32.load
+    i32.const 735
+    call_indirect $primary.table (type $t0)
+    local.get $p1
+    i32.reinterpret_f32
+    i64.extend_i32_u
+    local.get $p2
+    i32.reinterpret_f32
+    i64.extend_i32_u
+    i64.const 32
+    i64.shl
+    i64.or
+    local.set $l4
+    local.get $p3
+    local.get $l4
+    i64.store
+    local.get $p3
+    local.get $l4
+    i64.store offset=8
+    local.get $l6
+    local.get $l5
+    local.get $p3
+    local.get $l7
+    i32.const 0
+    call $j37543 ;; SpModeLongTableMa$$InitCamera
+    local.get $p3
+    i32.const 32
+    i32.add
+    global.set $primary.global$0)

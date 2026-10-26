@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "RedShrimpMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_4547070137822733881.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

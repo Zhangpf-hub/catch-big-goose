@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_windoilbottle",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WindOilBottle\\WindOilBottle.blend",
+  "sourceTriangles": 1608,
+  "triangles": 1608,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9021989703178406,
+    1.5055500268936157,
+    0.2628863453865051
+  ],
+  "normalizedDimensions": [
+    0.5992487072944641,
+    1.0,
+    0.17461149394512177
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,30 @@
+{
+  "materials": [
+    {
+      "name": "jiezhitang_Bottom",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-3804928966648046861.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    },
+    {
+      "name": "jiezhitang_Cry",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "CustomCrystal",
+      "glassFlattened": false
+    }
+  ]
+}

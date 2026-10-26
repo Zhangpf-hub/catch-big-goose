@@ -1,0 +1,28 @@
+{
+  "id": "pretzel",
+  "theme": "dessert",
+  "triangles": 620,
+  "vertices": 336,
+  "blenderBounds": [
+    1.0,
+    0.29423782229423523,
+    0.927264928817749
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 16428,
+  "sha256": "deb7bf3c2fd725c67d461e3643c00f614cfc992ea0778a11a7866a0d5cc6f858",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

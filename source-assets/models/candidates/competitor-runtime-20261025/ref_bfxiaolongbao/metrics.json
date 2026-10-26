@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfxiaolongbao",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFXiaoLongBao\\BFXiaoLongBao.blend",
+  "sourceTriangles": 2006,
+  "triangles": 2006,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.1148126125335693,
+    2.2589666843414307,
+    1.8569239377975464
+  ],
+  "normalizedDimensions": [
+    0.9361858367919922,
+    1.0,
+    0.8220235705375671
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pomegranate",
+  "theme": "fruit",
+  "triangles": 932,
+  "vertices": 482,
+  "blenderBounds": [
+    0.7640446424484253,
+    0.7415729761123657,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 23056,
+  "sha256": "f3c19480523ab2ea79c380d7b45b8efddcdb720dd30d61ab91d8818b37ab4949",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

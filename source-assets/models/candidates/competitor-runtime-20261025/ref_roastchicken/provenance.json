@@ -1,0 +1,9 @@
+{
+  "id": "ref_roastchicken",
+  "sourceId": "RoastChicken",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\RoastChicken\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/RoastChicken.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+  "sourceSha256": "e1353a2fa16448fef93d8f91fd43349c91cf2a25e41f294cc9d3c9d214f12d4a"
+}

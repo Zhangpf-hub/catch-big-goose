@@ -1,0 +1,12 @@
+{
+  "id": "ref_gtlaserpen",
+  "triangles": 904,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.20050384104251862,
+    1.0,
+    0.23574350774288177
+  ],
+  "glbRoundtrip": true
+}

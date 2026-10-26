@@ -1,0 +1,60 @@
+{
+  "materials": [
+    {
+      "name": "toys_body",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite1",
+      "texture": null,
+      "color": [
+        0.2199999988079071,
+        0.6000000238418579,
+        0.5699999928474426,
+        1.0
+      ],
+      "matcap": "ReferenceTextures/t_43992ed01b5927dba401b3ac",
+      "matcapScale": 0.25,
+      "matcapColor": [
+        0.2770000100135803,
+        0.2770000100135803,
+        0.2770000100135803,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "ChildhoodToys_Box_Outside",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    },
+    {
+      "name": "toys_rim",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite1",
+      "texture": null,
+      "color": [
+        0.9700000286102295,
+        0.7599999904632568,
+        0.36000001430511475,
+        1.0
+      ],
+      "matcap": "ReferenceTextures/t_b8fd1991d950dbeb2dc1bad8",
+      "matcapScale": 0.25,
+      "matcapColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "ChildhoodToys_Box_Inside",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    }
+  ]
+}

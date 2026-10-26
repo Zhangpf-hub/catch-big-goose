@@ -1,0 +1,34 @@
+{
+  "SheetName": "Assets/Res/ForEditor/PVPData.xlsx",
+  "WorksheetName": "PVPLevelData",
+  "dataArray": [
+    {
+      "_levelindex": 300101,
+      "_leveltype": "PVPOneToolBattle1",
+      "_iconkey": "PVP_Fruit",
+      "_levelshape": 0,
+      "_levelname": "\u666f\u5fb7\u4e4b\u6218"
+    },
+    {
+      "_levelindex": 300102,
+      "_leveltype": "PVPOneToolBattle1",
+      "_iconkey": "PVP_Fruit",
+      "_levelshape": 0,
+      "_levelname": "\u86cb\u7cd5\u6d3e\u5bf9"
+    },
+    {
+      "_levelindex": 300103,
+      "_leveltype": "PVPOneToolBattle1",
+      "_iconkey": "PVP_Fruit",
+      "_levelshape": 0,
+      "_levelname": "\u70b8\u9e21\u5927\u6218"
+    },
+    {
+      "_levelindex": 300104,
+      "_leveltype": "PVPOneToolBattle1",
+      "_iconkey": "PVP_Fruit",
+      "_levelshape": 0,
+      "_levelname": "\u679c\u76d8\u4e71\u6597"
+    }
+  ]
+}

@@ -1,0 +1,2767 @@
+[
+  {
+    "path": "复现工具/archive_performance.py",
+    "bytes": 20237,
+    "sha256": "e08b24123b6a0de28bc2436f6fb8615070610d9a246c677bdc84df231ae55a34"
+  },
+  {
+    "path": "复现工具/build-wechat.ps1",
+    "bytes": 2943,
+    "sha256": "8d552e605e412f085f31e2eea4cf507768a96edb0ef555cb18b893ea5ee8483d"
+  },
+  {
+    "path": "文档/01-研究对象与证据边界.md",
+    "bytes": 4539,
+    "sha256": "16b983bd10fc1d9b2fcbfee3d23948778e9fe90b28bbec5b7ab0ab8814154de7"
+  },
+  {
+    "path": "文档/02-操作观察与美术资源.md",
+    "bytes": 3350,
+    "sha256": "fffabbe7f7f89163e60e74c766e886c6524bdd299fd6df33ed18169b6e3a270b"
+  },
+  {
+    "path": "文档/03-生成算法.md",
+    "bytes": 4936,
+    "sha256": "b4ed41c5da7459a21eaf145f34d749ba599175f585d21cbc503e413d55cddd1b"
+  },
+  {
+    "path": "文档/04-深度与物理管理.md",
+    "bytes": 5221,
+    "sha256": "b8d9c05f0b42c8cc11aa10d3efd960f839a7f9b297fd4905cd00973c606098fa"
+  },
+  {
+    "path": "文档/05-Unity接入.md",
+    "bytes": 8095,
+    "sha256": "c89d386298327df67b14c5d0a675e46dd5e9f3ad3c6b5bc2907ce90ed96d11d6"
+  },
+  {
+    "path": "文档/06-复现工具与排错经验.md",
+    "bytes": 8053,
+    "sha256": "179851323c5c4c0bcb4efdf769510beea3574eec89a408cd3a244dbd094c427a"
+  },
+  {
+    "path": "文档/07-验证结果与后续清单.md",
+    "bytes": 9868,
+    "sha256": "b7e4e374822bc24674cf948e084914913e911f7effdb7d253986756fc1fe10b2"
+  },
+  {
+    "path": "文档/08-实际关卡权重与深度参数.md",
+    "bytes": 7123,
+    "sha256": "69072824ed537e5a9f188779107c116247c512185588c4b0b07b8c6ff0f4f4e3"
+  },
+  {
+    "path": "文档/09-各模式调用链.md",
+    "bytes": 5490,
+    "sha256": "5e704ebc4662e0192b347e27a991b9192d1fb09ce3a8535082a78e13896c7473"
+  },
+  {
+    "path": "文档/10-模型提取与生成参考.md",
+    "bytes": 4269,
+    "sha256": "490cf5760327a135e5b189b3d13f63a3dfa54ba276dd67246eecfbfc170c7a10"
+  },
+  {
+    "path": "文档/11-推测与待确认.md",
+    "bytes": 3695,
+    "sha256": "a4312647b2cd2cd602d603fb353373c72546005b4cf468e97d7176260bb63de8"
+  },
+  {
+    "path": "文档/12-AB与热更实际取值.md",
+    "bytes": 5894,
+    "sha256": "25d07b5f7a64abf895832912982bb1d2c8b1a5c7b1614ef9ceb3d684041403bf"
+  },
+  {
+    "path": "文档/13-拆分模式调用链续查.md",
+    "bytes": 3240,
+    "sha256": "0cc7c73be811df3e2b808d123fbf6ddf95081fe4a1862ec97e210ac35a1e86c2"
+  },
+  {
+    "path": "文档/14-蒙皮大鹅姿态恢复.md",
+    "bytes": 2769,
+    "sha256": "d629361bcec2b64cacb060b9f2a5466a9d2035097bdf2991330477748a548513"
+  },
+  {
+    "path": "文档/15-三消单局核心算法与调优.md",
+    "bytes": 14668,
+    "sha256": "675256d801f443f6066f3e2f250890e4e1d91c0ea26b3ad5055953d87dd0efad"
+  },
+  {
+    "path": "文档/16-每主题21类与单局体验.md",
+    "bytes": 10482,
+    "sha256": "d04f8b4761f28aa55a1c2e2433f9404cb0200229f156af91f4e9c0ab10d0b2f4"
+  },
+  {
+    "path": "文档/16A-物品与实际权重对应.md",
+    "bytes": 10303,
+    "sha256": "f9d4e51f076171413e05b73fc8b9de84d5b9d48201ceaff66150e161b3785ae6"
+  },
+  {
+    "path": "文档/17-微信进局性能与竞品优化.md",
+    "bytes": 10610,
+    "sha256": "8b3705c1dfddd33e91e78b6d8768c7f67220ae385143d7a89c29840c463f8a0a"
+  },
+  {
+    "path": "文档/README.md",
+    "bytes": 6185,
+    "sha256": "4280fae388a625e21728edee3e7f0e8295355e76abc161e21c4840c526f54242"
+  },
+  {
+    "path": "构建/包体检查.json",
+    "bytes": 1427,
+    "sha256": "cd962f17d0db695a53af31a9f6cd4ea38de6fe4a1df223e94834bcf74e497e27"
+  },
+  {
+    "path": "构建/原始符号/fa94a778ade3e8ffe9c3e083f3178be1ef205148420c4f18aff8297629f7a871/webgl.wasm.symbols.unityweb",
+    "bytes": 5205154,
+    "sha256": "fa94a778ade3e8ffe9c3e083f3178be1ef205148420c4f18aff8297629f7a871"
+  },
+  {
+    "path": "构建/开发工具打开结果.log",
+    "bytes": 857,
+    "sha256": "e300343c676316baa30b931fcb99dcea2dd7cd46d8bc530b4e999089ad3410d2"
+  },
+  {
+    "path": "构建/微信配置.json",
+    "bytes": 62,
+    "sha256": "8fd4652c1ae5be30b2ad9d649fc593f9dabba91e98230822786a8ad8ab8039c4"
+  },
+  {
+    "path": "构建/载荷与符号校验.json",
+    "bytes": 896,
+    "sha256": "c82a1502878f0cf30deb9264704bb917f391842a4bc7c27d518ea7632aa461ce"
+  },
+  {
+    "path": "源码/编辑器/GooseAlgorithmBuild.cs",
+    "bytes": 1703,
+    "sha256": "5a7e18d82e50dfc9c35b365a193f6c3b78b638d565cb79e3c6e2827f6ce88de4"
+  },
+  {
+    "path": "源码/编辑器/GooseAlgorithmBuild.cs.meta",
+    "bytes": 243,
+    "sha256": "ed0780d274aa0aa080cbd723149c76c0052f945dd3712a2605715a70194d2f17"
+  },
+  {
+    "path": "源码/编辑器/GooseAssetImporter.cs",
+    "bytes": 2242,
+    "sha256": "a47580a78f207381719716c88d6b82be7188c20af461371b8c3bf0a064acf7dd"
+  },
+  {
+    "path": "源码/编辑器/GooseAssetImporter.cs.meta",
+    "bytes": 243,
+    "sha256": "658c12b6967b517d85478b3f75582c0584ef70986720b92ad5019664d9e709d5"
+  },
+  {
+    "path": "源码/编辑器/GoosePhysicsBake.cs",
+    "bytes": 3707,
+    "sha256": "a337d071f6144237fbc68b1325680cfa68acc080b4cdbbba0fa641f5d680d815"
+  },
+  {
+    "path": "源码/编辑器/GoosePhysicsBake.cs.meta",
+    "bytes": 243,
+    "sha256": "7e90030454b2f349bd022e064b9b38e37fd6d18538eb9ef6231401b18922a2de"
+  },
+  {
+    "path": "源码/编辑器/GooseProjectSetup.cs",
+    "bytes": 8079,
+    "sha256": "982c9c8543ebe87daa73822fdb6d7dfc337246cb8f0618f920434139bb4886b5"
+  },
+  {
+    "path": "源码/编辑器/GooseProjectSetup.cs.meta",
+    "bytes": 243,
+    "sha256": "d59cabca960ed4394da5733a94d2ab52125123c007e9140efae9839352319860"
+  },
+  {
+    "path": "源码/编辑器/GooseWeChatBuild.cs",
+    "bytes": 8531,
+    "sha256": "1dfc39cde23ca5ca8548d07d794308bb0446f4b3c1a165b395a25005eb73b338"
+  },
+  {
+    "path": "源码/编辑器/GooseWeChatBuild.cs.meta",
+    "bytes": 243,
+    "sha256": "5da7c32fe8bf1828db7c4bee1008589b2c0c78b163e7c9637ca3de516a30787f"
+  },
+  {
+    "path": "源码/编辑测试/CatchGoose.Tests.asmdef",
+    "bytes": 156,
+    "sha256": "590c14a97157f2fe54dc51298ddee57fb4e3616a2ef5e16d4dc66c8cec512dc8"
+  },
+  {
+    "path": "源码/编辑测试/CatchGoose.Tests.asmdef.meta",
+    "bytes": 166,
+    "sha256": "69a76846f6297bc2f88ba6214befa7994a6477258498bd6bb3b21ac98aef8c19"
+  },
+  {
+    "path": "源码/编辑测试/GooseColliderProfileTests.cs",
+    "bytes": 2246,
+    "sha256": "c831224ae2e85014c75d97e6edb281b3c53dbfd1e76cf9ab85c87f5b87f666c9"
+  },
+  {
+    "path": "源码/编辑测试/GooseColliderProfileTests.cs.meta",
+    "bytes": 243,
+    "sha256": "ad533e3dd8e2848271f0923ae906314a3966cfa20b6333cebc98aa501ca75de7"
+  },
+  {
+    "path": "源码/编辑测试/GooseCoreRoundTests.cs",
+    "bytes": 4350,
+    "sha256": "6b42ceb2f9f54056b2da3fd5ec8d22151a539b102d50667ec75860fccc4e41c6"
+  },
+  {
+    "path": "源码/编辑测试/GooseCoreRoundTests.cs.meta",
+    "bytes": 243,
+    "sha256": "65b50ed6346d8ebf9e4f7f1160af762827d1c64834de6bc2ed65e211b3f42c03"
+  },
+  {
+    "path": "源码/编辑测试/GooseDepthIntegrationTests.cs",
+    "bytes": 1827,
+    "sha256": "f900471ee19c3a07410525fd600ec690d324255471bc203f79fd849c67760a7f"
+  },
+  {
+    "path": "源码/编辑测试/GooseDepthIntegrationTests.cs.meta",
+    "bytes": 243,
+    "sha256": "bda9e1046029f02aa31bd7a3103defaecce84d935f6222ab15bb27fbd1bd450b"
+  },
+  {
+    "path": "源码/编辑测试/GoosePerformanceTests.cs",
+    "bytes": 2205,
+    "sha256": "8d7a587c08f73976844e592b527bc2c39fbf2156a29e0a0b86e98dfd28c79296"
+  },
+  {
+    "path": "源码/编辑测试/GoosePerformanceTests.cs.meta",
+    "bytes": 243,
+    "sha256": "391fa5a5155ed3a5e6df3e1a8bec2b2d89bc72a19e4330b6847cadc6551ff223"
+  },
+  {
+    "path": "源码/编辑测试/GooseRulesTests.cs",
+    "bytes": 2405,
+    "sha256": "68e3d3ac1a2fd5969cb6b1fc734eb22b5c8fc7e619d3901973111e7473ec3b34"
+  },
+  {
+    "path": "源码/编辑测试/GooseRulesTests.cs.meta",
+    "bytes": 243,
+    "sha256": "0c190dbe2e905c65ec102aa2583eafcc70a05a59db02f069981b8dd6636ea8a1"
+  },
+  {
+    "path": "源码/运行/CatchGoose.Runtime.asmdef",
+    "bytes": 132,
+    "sha256": "2853fec8d6bfd56ad9df145fa4d6615fd78c31a2c8d58b109430c4310f5905d2"
+  },
+  {
+    "path": "源码/运行/CatchGoose.Runtime.asmdef.meta",
+    "bytes": 166,
+    "sha256": "f7a69954b98cc79e27ea4801c25ad068417183f93c67acc65d7964a585b47dba"
+  },
+  {
+    "path": "源码/运行/GooseAcceptance.cs",
+    "bytes": 11917,
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "path": "源码/运行/GooseAcceptance.cs.meta",
+    "bytes": 243,
+    "sha256": "91cf87394406a0ae3961d7eb71a8e571841f9390e1a8f9d0eb33f35c75d1c68b"
+  },
+  {
+    "path": "源码/运行/GooseAlgorithmAcceptance.cs",
+    "bytes": 19113,
+    "sha256": "5fabef4cd91783d5a20cc19fd26ceba69cff07ab20f57a1eb24ff3cb9517cfc6"
+  },
+  {
+    "path": "源码/运行/GooseAlgorithmAcceptance.cs.meta",
+    "bytes": 243,
+    "sha256": "24465ea417acec1dffe2b712d2a3f1de086c31ec54e7eed92740897cf5dc23e3"
+  },
+  {
+    "path": "源码/运行/GooseAssetCache.cs",
+    "bytes": 4401,
+    "sha256": "8179dff7380c20219a9f4cc0be295ca0b9dc698c2e07c75237a66e54d2dce144"
+  },
+  {
+    "path": "源码/运行/GooseAssetCache.cs.meta",
+    "bytes": 243,
+    "sha256": "af38f7df5901e71f4c2f96ffb86dc832bc5fbfb07009ef44464b5b76dcd9004e"
+  },
+  {
+    "path": "源码/运行/GooseColliderProfile.cs",
+    "bytes": 2677,
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "path": "源码/运行/GooseColliderProfile.cs.meta",
+    "bytes": 243,
+    "sha256": "8e943f82ed4367012f357a658379a4ecee9ddd31ae2a38b24def1175f8edbe8e"
+  },
+  {
+    "path": "源码/运行/GooseDepthPolicy.cs",
+    "bytes": 3064,
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "path": "源码/运行/GooseDepthPolicy.cs.meta",
+    "bytes": 243,
+    "sha256": "71ff721630841f40985c25a35576284d74923aff98bcc81113a436c5b5836891"
+  },
+  {
+    "path": "源码/运行/GooseExperienceAcceptance.cs",
+    "bytes": 10000,
+    "sha256": "c51cf85d47b593b5603aa531937e63344206c4e57f4e16e9d5e011f5856b38dd"
+  },
+  {
+    "path": "源码/运行/GooseExperienceAcceptance.cs.meta",
+    "bytes": 243,
+    "sha256": "de1920a72beef117e08a75ae769c85ff5967420dab94c0c70402c7064ef46e07"
+  },
+  {
+    "path": "源码/运行/GooseGame.cs",
+    "bytes": 40726,
+    "sha256": "18b6bf4edde9c107cb59682e549a848937e25234a03bf25c2b7d536467076d24"
+  },
+  {
+    "path": "源码/运行/GooseGame.cs.meta",
+    "bytes": 240,
+    "sha256": "34072f7abf0acd850b4fa43d76d5aeb20d2985616ed219273869c31bd2ca2bf2"
+  },
+  {
+    "path": "源码/运行/GooseGeneration.cs",
+    "bytes": 10259,
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "path": "源码/运行/GooseGeneration.cs.meta",
+    "bytes": 243,
+    "sha256": "c410e4b19cd0204034e832d6d0ec28b038cbeaf25c5ecb5f40aaa81d385d7ff2"
+  },
+  {
+    "path": "源码/运行/GooseHud.cs",
+    "bytes": 15529,
+    "sha256": "6b092536622a2a612e86dc9b201eb76ae079381a88603bd635f51ac81731105c"
+  },
+  {
+    "path": "源码/运行/GooseHud.cs.meta",
+    "bytes": 243,
+    "sha256": "64aa2a1a05bc25c0145dd202b7e12fbf4a1671d305c6e741642c964914f20a1d"
+  },
+  {
+    "path": "源码/运行/GooseItem.cs",
+    "bytes": 4478,
+    "sha256": "b8535357addb58411026b3979107e6ca45353d7083b7c248026d83aa8aede78d"
+  },
+  {
+    "path": "源码/运行/GooseItem.cs.meta",
+    "bytes": 243,
+    "sha256": "d0cb97bb7cc3392eb065f24e3943bd7d6af80033eea2f5a3c815673fe09f040b"
+  },
+  {
+    "path": "源码/运行/GooseLevelPolicy.cs",
+    "bytes": 3946,
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "path": "源码/运行/GooseLevelPolicy.cs.meta",
+    "bytes": 243,
+    "sha256": "105d2a02649246ada36e4f1330069d0999f157398cbe79e9983936d1fb1bb441"
+  },
+  {
+    "path": "源码/运行/GoosePerformanceAcceptance.cs",
+    "bytes": 3403,
+    "sha256": "65c047bbd94abb8063b7129dc5aec76039dc0011cf36e6c3826ee982ed545c9b"
+  },
+  {
+    "path": "源码/运行/GoosePerformanceAcceptance.cs.meta",
+    "bytes": 243,
+    "sha256": "8849e9f9488531c4f50ee4b1a4088dd2e67e2759b8d956d81b9e92bad93593ad"
+  },
+  {
+    "path": "源码/运行/GoosePerformanceCounters.cs",
+    "bytes": 467,
+    "sha256": "41c1657697cad11c2352bef63b08ea6b8a2568633758923332373f1c9a75ef87"
+  },
+  {
+    "path": "源码/运行/GoosePerformanceCounters.cs.meta",
+    "bytes": 243,
+    "sha256": "e679c7526b4646f53809fe6d62f02465e7e838a46a61599949c33be0d03ded13"
+  },
+  {
+    "path": "源码/运行/GoosePileDepth.cs",
+    "bytes": 5953,
+    "sha256": "89a95d352cba6c4c88ecff82695b2f4e2585c113632ea075ffded2335ee8508e"
+  },
+  {
+    "path": "源码/运行/GoosePileDepth.cs.meta",
+    "bytes": 243,
+    "sha256": "bdd195c0ca090948c63b11d173d2120a46b840bd509c9c8a7f09b875582186f8"
+  },
+  {
+    "path": "源码/运行/GooseRoundProfiler.cs",
+    "bytes": 1941,
+    "sha256": "547f8de28dc982d13d145a44dfc80bda6b2b63454306af5b8c8532ec8c4d2acf"
+  },
+  {
+    "path": "源码/运行/GooseRoundProfiler.cs.meta",
+    "bytes": 243,
+    "sha256": "0d1afc35b0c82f64d8c1f7d12afd1ba4f351d53a861bbeec35a8070bb8219d7f"
+  },
+  {
+    "path": "源码/运行/GooseRules.cs",
+    "bytes": 10382,
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "path": "源码/运行/GooseRules.cs.meta",
+    "bytes": 243,
+    "sha256": "fc1c1d3c8c607ef76b4cb13a7b1148510eb919f1d4671c2d25e89323dd6dab10"
+  },
+  {
+    "path": "源码/运行/GooseRuntimePerformance.cs",
+    "bytes": 842,
+    "sha256": "ef92e5e970d541323e4469a88ff825352461a2d514dc2c33a078f7391e14e55d"
+  },
+  {
+    "path": "源码/运行/GooseRuntimePerformance.cs.meta",
+    "bytes": 243,
+    "sha256": "b97f07c94583553b412d02cef04f72b4117027861dafa04b1f09e3cf7f056a0f"
+  },
+  {
+    "path": "源码/运行/GooseVideo.cs",
+    "bytes": 7473,
+    "sha256": "1482830805c7d04f68c349269d09e5abeb7c5318665288a0b30b60f2bfdd0619"
+  },
+  {
+    "path": "源码/运行/GooseVideo.cs.meta",
+    "bytes": 243,
+    "sha256": "8f3e899d9bdfc260aadb702bb6c304c4bc2141036143abb63b2102dbb2d3f60b"
+  },
+  {
+    "path": "源码/运行/GooseWeChatPlatform.cs",
+    "bytes": 3288,
+    "sha256": "7ba36e2b124faae42192ace73149b04c83a2cddc8555cf04c8cea122e0c87891"
+  },
+  {
+    "path": "源码/运行/GooseWeChatPlatform.cs.meta",
+    "bytes": 243,
+    "sha256": "b1ffc86335999d2196419ed046851863a94c0b003e9f7ec0d4b53ef3b2ef83f9"
+  },
+  {
+    "path": "竞品/competitor-main/direct-call-graph.json",
+    "bytes": 47004,
+    "sha256": "c34323bdcc47d2e412dfeb8b36ac8e13b80037c5345fd33c605a936652cd2672"
+  },
+  {
+    "path": "竞品/competitor-main/j108298.annotated.wat",
+    "bytes": 4929,
+    "sha256": "23ca5c5549ed37e72fba1738405e7898841559b0b19a1adca7925373a0ce4145"
+  },
+  {
+    "path": "竞品/competitor-main/j108298.watfrag",
+    "bytes": 4401,
+    "sha256": "1b972275f05e4da312d725436c3aed983b10a2ad2a2badb52a59623a043e45c3"
+  },
+  {
+    "path": "竞品/competitor-main/j10885.annotated.wat",
+    "bytes": 789,
+    "sha256": "2cb06b6903777a1b8e3b477a3c7b25e9e65e2db45ed8b8a604c97ca0930f3813"
+  },
+  {
+    "path": "竞品/competitor-main/j10885.watfrag",
+    "bytes": 643,
+    "sha256": "1fd59297b953fc7a6614209ca05a20665a0d11780a8c2577e140dc894ee09e9f"
+  },
+  {
+    "path": "竞品/competitor-main/j15789.annotated.wat",
+    "bytes": 2230,
+    "sha256": "ef5ce6efce976b7444e3f02df0346d1621ec25768985dd2b3a50acc1b92e81d2"
+  },
+  {
+    "path": "竞品/competitor-main/j15789.watfrag",
+    "bytes": 1667,
+    "sha256": "b90964f64eaf9a7e47f586a2f804033c96148a5510510896eef966e59c567196"
+  },
+  {
+    "path": "竞品/competitor-main/j18335.annotated.wat",
+    "bytes": 2048,
+    "sha256": "3ac15731d309c874a446719f6f4c39b36e42fdd62f05dfc13495d12bfe4dc73f"
+  },
+  {
+    "path": "竞品/competitor-main/j18335.watfrag",
+    "bytes": 1930,
+    "sha256": "c886dc9b697f9d8bf4d416fce225113bbacee5b9aa6cf3f4bed7bc3a943defd1"
+  },
+  {
+    "path": "竞品/competitor-main/j22233.annotated.wat",
+    "bytes": 13441,
+    "sha256": "4c48ae5ec88ca5f0085c0c971d3e97525e5781eec0891232a9506775719c69ca"
+  },
+  {
+    "path": "竞品/competitor-main/j22233.watfrag",
+    "bytes": 11903,
+    "sha256": "6d3780c1be0017b0e41365de51719f8b9ec31ad92941236fbd5c41b6487ea6dc"
+  },
+  {
+    "path": "竞品/competitor-main/j22248.annotated.wat",
+    "bytes": 2100,
+    "sha256": "a8cf8aa577a79ce4a18f3331f3613bd9e2d98118d0ef457dfdc6429f6f82a63f"
+  },
+  {
+    "path": "竞品/competitor-main/j22248.watfrag",
+    "bytes": 1845,
+    "sha256": "6ba9084447a5e6125d3e81332b3b31b7a028521a0badff021ac13a16e073ae07"
+  },
+  {
+    "path": "竞品/competitor-main/j22249.annotated.wat",
+    "bytes": 1086,
+    "sha256": "11fa0006b36eb04f1d62e8780128f495f8008aaea30f6a84f455a1ba221dae9a"
+  },
+  {
+    "path": "竞品/competitor-main/j22249.watfrag",
+    "bytes": 1086,
+    "sha256": "11fa0006b36eb04f1d62e8780128f495f8008aaea30f6a84f455a1ba221dae9a"
+  },
+  {
+    "path": "竞品/competitor-main/j24626.annotated.wat",
+    "bytes": 6887,
+    "sha256": "178b4a0d77b5f1e184795e97b853b8a80493f664b45b7957efd919506d2bd458"
+  },
+  {
+    "path": "竞品/competitor-main/j24626.watfrag",
+    "bytes": 4560,
+    "sha256": "a1e6fda03b2fc0748234c8cd2bf40c390f8d45f621195e831ee635b9930307fb"
+  },
+  {
+    "path": "竞品/competitor-main/j32690.annotated.wat",
+    "bytes": 2661,
+    "sha256": "f48f7632a13480d4cbb931d1390d74521e6ff30e44ff66742307161306f7425f"
+  },
+  {
+    "path": "竞品/competitor-main/j32690.watfrag",
+    "bytes": 2260,
+    "sha256": "3f8b8f399bd33a8e4831d25e889b30d464b6451f27e242ea151b54801149c3d9"
+  },
+  {
+    "path": "竞品/competitor-main/j4344.annotated.wat",
+    "bytes": 2776,
+    "sha256": "88fa4bbd2b1b2029d8916d80627a14e3ee69871be777b775d38eac212a74d132"
+  },
+  {
+    "path": "竞品/competitor-main/j4344.watfrag",
+    "bytes": 2516,
+    "sha256": "f4969d3d13bb99ef279ca959eabd22ea7d99ee321a0edf00d74ebaf9a9f592c2"
+  },
+  {
+    "path": "竞品/competitor-main/j43490.annotated.wat",
+    "bytes": 909,
+    "sha256": "7da4d29dd3df39a8437524e0e91f7eb0f80284fba92994f9735bbde29b9fb5ce"
+  },
+  {
+    "path": "竞品/competitor-main/j43490.watfrag",
+    "bytes": 660,
+    "sha256": "ffb7e6bbca77d675757d7a183f596ea6a2b4cc87e25a13277d85aecad385b80e"
+  },
+  {
+    "path": "竞品/competitor-main/j43491.annotated.wat",
+    "bytes": 11264,
+    "sha256": "59d4018f42c8a6b9c67600a24e297a44f96f7944f025d1c7bbfdf8c371213cdb"
+  },
+  {
+    "path": "竞品/competitor-main/j43491.watfrag",
+    "bytes": 9854,
+    "sha256": "c5908c1e7090b05f427b5c9ec2a0daf8219b1d6092822f70119843a73e0da4a5"
+  },
+  {
+    "path": "竞品/competitor-main/j43492.annotated.wat",
+    "bytes": 2437,
+    "sha256": "8a434cb478f75b55990b11a1e627362fb4de5870f5781ca433e5d6eb897c6f44"
+  },
+  {
+    "path": "竞品/competitor-main/j43492.watfrag",
+    "bytes": 1990,
+    "sha256": "1bab94928df8f9d9e5822918484e6b8f61bd0dd1e6a6edb26fb8c13c5a8467c6"
+  },
+  {
+    "path": "竞品/competitor-main/j43494.annotated.wat",
+    "bytes": 13404,
+    "sha256": "c8a63ad3622b7cae5b1c463a9320cf31fbc4b07d1b6e68620a913d38ca6f8868"
+  },
+  {
+    "path": "竞品/competitor-main/j43494.watfrag",
+    "bytes": 11866,
+    "sha256": "5a5f0f92a21cd33bf56c7b7d9bd094a352b6100f2677668e8931652c12e1ef3b"
+  },
+  {
+    "path": "竞品/competitor-main/j43531.annotated.wat",
+    "bytes": 434,
+    "sha256": "008308993f700646c4cc2154be8775c479c5960294d4ae346acd0bdbac671fb4"
+  },
+  {
+    "path": "竞品/competitor-main/j43531.watfrag",
+    "bytes": 372,
+    "sha256": "7de7587995e43fe4d41f9d344b8f2637de22874dce7db3841f1e6f1795ed7e99"
+  },
+  {
+    "path": "竞品/competitor-main/j43532.annotated.wat",
+    "bytes": 684,
+    "sha256": "a8af05981874f589082e5d216a1b66ae09d815f6b7092b5fa7382e267579831f"
+  },
+  {
+    "path": "竞品/competitor-main/j43532.watfrag",
+    "bytes": 599,
+    "sha256": "fa0fa194efaf202f7a0d7223d3cc4a20d8dbedf292368a900a385ef96177bbdf"
+  },
+  {
+    "path": "竞品/competitor-main/j43536.annotated.wat",
+    "bytes": 1996,
+    "sha256": "82332da336b05764295b7adbe16d88a94fc0285c13a4ece6676972552c98ee1e"
+  },
+  {
+    "path": "竞品/competitor-main/j43536.watfrag",
+    "bytes": 1602,
+    "sha256": "3d5c71a54bdec268bdcf02d518860c50f2193c3803c2696b94ff6392bd63b18d"
+  },
+  {
+    "path": "竞品/competitor-main/j43538.annotated.wat",
+    "bytes": 2100,
+    "sha256": "50c816e7f1d2ab8445385e7a732317141f72814426548d65b608f18bebafcc0a"
+  },
+  {
+    "path": "竞品/competitor-main/j43538.watfrag",
+    "bytes": 1845,
+    "sha256": "967c9b1141d270c78861c9671f8dbb9b67e2e41d9071887328984490d03fe087"
+  },
+  {
+    "path": "竞品/competitor-main/j43549.annotated.wat",
+    "bytes": 46431,
+    "sha256": "ccf9ce189d96c17da9b38364e1fefebc649bb83647815104000dcb839404685f"
+  },
+  {
+    "path": "竞品/competitor-main/j43549.watfrag",
+    "bytes": 36048,
+    "sha256": "79b80d233ec0a47ad6ac318c8f51a3bb1e4d78bb64f9c76a1f0c3d864893edaf"
+  },
+  {
+    "path": "竞品/competitor-main/j4379.annotated.wat",
+    "bytes": 1288,
+    "sha256": "b2b2fa222056bfb1451026ed39f779704e036c5f601f678936b92c11a419a750"
+  },
+  {
+    "path": "竞品/competitor-main/j4379.watfrag",
+    "bytes": 1022,
+    "sha256": "e39f0b2286fd19617b92880d85bf40b12897e813cc8405a802a40cc9f53a26ce"
+  },
+  {
+    "path": "竞品/competitor-main/j4698.annotated.wat",
+    "bytes": 636,
+    "sha256": "aa3999969c5fa5f09b133ec742c8ae0b6316887e712376f07b9fed2d2d4988ef"
+  },
+  {
+    "path": "竞品/competitor-main/j4698.watfrag",
+    "bytes": 457,
+    "sha256": "c7f479a0130a72f27d265668e1df135b4e7f5c03bfef000b050a3ec1ca0ce4f9"
+  },
+  {
+    "path": "竞品/competitor-main/j49960.annotated.wat",
+    "bytes": 35675,
+    "sha256": "eff543baaf1406883abbfa3828a3f01ad3c37a799505c0ee698de87e812e923a"
+  },
+  {
+    "path": "竞品/competitor-main/j49960.watfrag",
+    "bytes": 32386,
+    "sha256": "d22f3f493e24b8423057eb47878f8b537e171cc17faa3f132a76e86524368d90"
+  },
+  {
+    "path": "竞品/competitor-main/j49961.annotated.wat",
+    "bytes": 815,
+    "sha256": "27c575c2dfb557fc32ec7f2a1c97a85010b79f266d5903256ab582e4150b7eac"
+  },
+  {
+    "path": "竞品/competitor-main/j49961.watfrag",
+    "bytes": 555,
+    "sha256": "610297dc3c77edd96fa79a97123dc2fee7703e3b427713b02d7c69f26dc94e22"
+  },
+  {
+    "path": "竞品/competitor-main/j49962.annotated.wat",
+    "bytes": 815,
+    "sha256": "234b85f2ad492905260441acef77c369cae88546a8af03eb7cf1039c3c73504c"
+  },
+  {
+    "path": "竞品/competitor-main/j49962.watfrag",
+    "bytes": 555,
+    "sha256": "8db50ba6eb07903eb49f7034752c5428e37490131f0feb5d673258bddc033c58"
+  },
+  {
+    "path": "竞品/competitor-main/j49963.annotated.wat",
+    "bytes": 4888,
+    "sha256": "58bd36e68681ee1118e9960c7f7f6c5544f82e73debaea37a87eb6e74f2e5e07"
+  },
+  {
+    "path": "竞品/competitor-main/j49963.watfrag",
+    "bytes": 4360,
+    "sha256": "d2b90cdd4f840ef2b2b586af95c96f01310f88132a17d2fe8cae50eb0623eb13"
+  },
+  {
+    "path": "竞品/competitor-main/j49967.annotated.wat",
+    "bytes": 1254,
+    "sha256": "26d3c51929ac0b9617ffa3cde3d7778791d1ddedb30e44b280bc5fa910f16dba"
+  },
+  {
+    "path": "竞品/competitor-main/j49967.watfrag",
+    "bytes": 923,
+    "sha256": "5e03619fc83277e9f46c8c2d965b17f9e4c2b04e1e90d78318d137e4753ffb94"
+  },
+  {
+    "path": "竞品/competitor-main/j6450.annotated.wat",
+    "bytes": 2655,
+    "sha256": "1ab7431dcb499ab2b83e7d65bb2694e8edac8e0e99ce385b60671833ba363e87"
+  },
+  {
+    "path": "竞品/competitor-main/j6450.watfrag",
+    "bytes": 2344,
+    "sha256": "fa1078b38fa15ecb843a00663a739c5704756aa1503afc513ae28b1baabe1225"
+  },
+  {
+    "path": "竞品/competitor-main/j7378.annotated.wat",
+    "bytes": 6458,
+    "sha256": "889468bfce38950dcc0742273a423d7140dec7abd6d19f8f0ee17346eeae2053"
+  },
+  {
+    "path": "竞品/competitor-main/j7378.watfrag",
+    "bytes": 5520,
+    "sha256": "ab4a6fe48acb86af9ab79c9f59d6607cb6444e66edf88b81764af5e62b7af9f2"
+  },
+  {
+    "path": "竞品/competitor-main/j74002.annotated.wat",
+    "bytes": 1676,
+    "sha256": "d8b86ac30917c42491c01d8419a14d93b696bad957bc2e36f0381b466ab3c7e5"
+  },
+  {
+    "path": "竞品/competitor-main/j74002.watfrag",
+    "bytes": 1475,
+    "sha256": "3a7544e70b16c7282dafb44ad4eaaf051c013a9452d0befe5512d4c2c775c6d9"
+  },
+  {
+    "path": "竞品/competitor-main/j74024.annotated.wat",
+    "bytes": 150606,
+    "sha256": "ee52e2c7435e6ad072b5694cb5258b48997af1b227f85589e648bd8946868dee"
+  },
+  {
+    "path": "竞品/competitor-main/j74024.watfrag",
+    "bytes": 136894,
+    "sha256": "bb2d19662ce9c520acec0703746df38be1ee0d6410053ea8c602d40303bc2d44"
+  },
+  {
+    "path": "竞品/competitor-main/j8794.annotated.wat",
+    "bytes": 1077,
+    "sha256": "204b7c7ab32d810ef8b346edb3441f4e843101732330ad172b254fcc495f279d"
+  },
+  {
+    "path": "竞品/competitor-main/j8794.watfrag",
+    "bytes": 927,
+    "sha256": "93d049ba30c44116a7479b961c119ca8ec41a8cc639aae0b9390ef02bec6e049"
+  },
+  {
+    "path": "竞品/competitor-main/j89317.annotated.wat",
+    "bytes": 834,
+    "sha256": "fde06ce68cf2f3abe6f62faea9d8c5287bb8926095ad2b38538c88ab30170444"
+  },
+  {
+    "path": "竞品/competitor-main/j89317.watfrag",
+    "bytes": 543,
+    "sha256": "7d03c4fcfab240540b31499f6c07e0cbbfecc243fc3496973f2b10af999619f2"
+  },
+  {
+    "path": "竞品/competitor-main/j89318.annotated.wat",
+    "bytes": 2652,
+    "sha256": "fdfafcf697503f68493322ea965e6c45c4928b0665a72c38c781cf7f8e3d78a8"
+  },
+  {
+    "path": "竞品/competitor-main/j89318.watfrag",
+    "bytes": 2121,
+    "sha256": "7695fa1856f983c7e3103578b497e75418714a2542f5640585006ee53cb66453"
+  },
+  {
+    "path": "竞品/competitor-main/j94996.annotated.wat",
+    "bytes": 1424,
+    "sha256": "71f82f92b3b041f713321165efebe4706fdb53e0b7497427eaaf3111dc9c1e28"
+  },
+  {
+    "path": "竞品/competitor-main/j94996.watfrag",
+    "bytes": 902,
+    "sha256": "1f20b447b355332be383c92ebdbbbd1b6579aea20ae9b55b3e1c883ce0c5b3f7"
+  },
+  {
+    "path": "竞品/competitor-main/j94997.annotated.wat",
+    "bytes": 802,
+    "sha256": "f5da668cb86255fb7480c11c20b286d646d8b534c3f587e78f7801cde2f9f2d4"
+  },
+  {
+    "path": "竞品/competitor-main/j94997.watfrag",
+    "bytes": 670,
+    "sha256": "6457515809c22906fa2e9bc1c48b1a833384c8488a16492383935047aae0d1e2"
+  },
+  {
+    "path": "竞品/competitor-main/j95576.annotated.wat",
+    "bytes": 5056,
+    "sha256": "3c6f88ed3e5f2da5f65114dcdb56e708a45ec31ccace1286afe69ebad6170ea7"
+  },
+  {
+    "path": "竞品/competitor-main/j95576.watfrag",
+    "bytes": 4787,
+    "sha256": "8f0b27e4bbfce07db0d799a2b6c8525bdfc9d90eac4b5c1ade0a72b2a4e7b5ff"
+  },
+  {
+    "path": "竞品/competitor-main/j95578.annotated.wat",
+    "bytes": 4052,
+    "sha256": "b9520a99be4d548aeed17de8d9b8c0345e1ed15271a9b8bebfca83bafb3e5e09"
+  },
+  {
+    "path": "竞品/competitor-main/j95578.watfrag",
+    "bytes": 3783,
+    "sha256": "141d6f7055d21644d0b2c7ffcc99bf661fb2b073adff3074ac5e7dc2a6b05c53"
+  },
+  {
+    "path": "竞品/competitor-main/j95581.annotated.wat",
+    "bytes": 10632,
+    "sha256": "2a93ba3dc1592f53023b520e7ab8e3ad04bc83e7f16929b76c90b4a1a85820c9"
+  },
+  {
+    "path": "竞品/competitor-main/j95581.watfrag",
+    "bytes": 10632,
+    "sha256": "2a93ba3dc1592f53023b520e7ab8e3ad04bc83e7f16929b76c90b4a1a85820c9"
+  },
+  {
+    "path": "竞品/competitor-main/j95582.annotated.wat",
+    "bytes": 7979,
+    "sha256": "fe230e69be1d9bab11e3da912a3a1a1ff65458fb992a7a4da604c21acb628aab"
+  },
+  {
+    "path": "竞品/competitor-main/j95582.watfrag",
+    "bytes": 7979,
+    "sha256": "fe230e69be1d9bab11e3da912a3a1a1ff65458fb992a7a4da604c21acb628aab"
+  },
+  {
+    "path": "竞品/competitor-main/method-map.json",
+    "bytes": 13370,
+    "sha256": "6e3fe29fe7dc8be105e1f86c1a0e0d0aace0bf3e286bf2ed1655f1daf4192ffc"
+  },
+  {
+    "path": "竞品/competitor-main/rejected-methods.json",
+    "bytes": 1906,
+    "sha256": "52caeb14755254c6e8e0b8687b3ced46f5cd1431d6fd240da86ddc6074889a7f"
+  },
+  {
+    "path": "竞品/competitor-main/selected.wat",
+    "bytes": 434832,
+    "sha256": "5f3837a41c740c9d59a528c35d53343dbb634b3cbc850df589ebc372f46442f1"
+  },
+  {
+    "path": "竞品/competitor-preload-main/direct-call-graph.json",
+    "bytes": 25236,
+    "sha256": "b2f8a5d5ace9f16ecb13092cfddbd948de769e18219abb282bcf787e87cf44a2"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j10885.annotated.wat",
+    "bytes": 789,
+    "sha256": "2cb06b6903777a1b8e3b477a3c7b25e9e65e2db45ed8b8a604c97ca0930f3813"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j10885.watfrag",
+    "bytes": 643,
+    "sha256": "1fd59297b953fc7a6614209ca05a20665a0d11780a8c2577e140dc894ee09e9f"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j14179.annotated.wat",
+    "bytes": 1361,
+    "sha256": "43742774ce8bbf6519fd918c4e2ce131aebddeb1c12d777aa68b630edd7841c6"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j14179.watfrag",
+    "bytes": 908,
+    "sha256": "b3c5d2a9a7dbd676f39561633a58abdd16f3e707b3af86e0bc0eeea818ddf9b0"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j18335.annotated.wat",
+    "bytes": 2048,
+    "sha256": "3ac15731d309c874a446719f6f4c39b36e42fdd62f05dfc13495d12bfe4dc73f"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j18335.watfrag",
+    "bytes": 1930,
+    "sha256": "c886dc9b697f9d8bf4d416fce225113bbacee5b9aa6cf3f4bed7bc3a943defd1"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j22248.annotated.wat",
+    "bytes": 2100,
+    "sha256": "a8cf8aa577a79ce4a18f3331f3613bd9e2d98118d0ef457dfdc6429f6f82a63f"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j22248.watfrag",
+    "bytes": 1845,
+    "sha256": "6ba9084447a5e6125d3e81332b3b31b7a028521a0badff021ac13a16e073ae07"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j22249.annotated.wat",
+    "bytes": 1086,
+    "sha256": "11fa0006b36eb04f1d62e8780128f495f8008aaea30f6a84f455a1ba221dae9a"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j22249.watfrag",
+    "bytes": 1086,
+    "sha256": "11fa0006b36eb04f1d62e8780128f495f8008aaea30f6a84f455a1ba221dae9a"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j32690.annotated.wat",
+    "bytes": 2661,
+    "sha256": "f48f7632a13480d4cbb931d1390d74521e6ff30e44ff66742307161306f7425f"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j32690.watfrag",
+    "bytes": 2260,
+    "sha256": "3f8b8f399bd33a8e4831d25e889b30d464b6451f27e242ea151b54801149c3d9"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43531.annotated.wat",
+    "bytes": 434,
+    "sha256": "008308993f700646c4cc2154be8775c479c5960294d4ae346acd0bdbac671fb4"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43531.watfrag",
+    "bytes": 372,
+    "sha256": "7de7587995e43fe4d41f9d344b8f2637de22874dce7db3841f1e6f1795ed7e99"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43532.annotated.wat",
+    "bytes": 684,
+    "sha256": "a8af05981874f589082e5d216a1b66ae09d815f6b7092b5fa7382e267579831f"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43532.watfrag",
+    "bytes": 599,
+    "sha256": "fa0fa194efaf202f7a0d7223d3cc4a20d8dbedf292368a900a385ef96177bbdf"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43536.annotated.wat",
+    "bytes": 1996,
+    "sha256": "82332da336b05764295b7adbe16d88a94fc0285c13a4ece6676972552c98ee1e"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43536.watfrag",
+    "bytes": 1602,
+    "sha256": "3d5c71a54bdec268bdcf02d518860c50f2193c3803c2696b94ff6392bd63b18d"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43538.annotated.wat",
+    "bytes": 2100,
+    "sha256": "50c816e7f1d2ab8445385e7a732317141f72814426548d65b608f18bebafcc0a"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43538.watfrag",
+    "bytes": 1845,
+    "sha256": "967c9b1141d270c78861c9671f8dbb9b67e2e41d9071887328984490d03fe087"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43549.annotated.wat",
+    "bytes": 46431,
+    "sha256": "ccf9ce189d96c17da9b38364e1fefebc649bb83647815104000dcb839404685f"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j43549.watfrag",
+    "bytes": 36048,
+    "sha256": "79b80d233ec0a47ad6ac318c8f51a3bb1e4d78bb64f9c76a1f0c3d864893edaf"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j6450.annotated.wat",
+    "bytes": 2655,
+    "sha256": "1ab7431dcb499ab2b83e7d65bb2694e8edac8e0e99ce385b60671833ba363e87"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j6450.watfrag",
+    "bytes": 2344,
+    "sha256": "fa1078b38fa15ecb843a00663a739c5704756aa1503afc513ae28b1baabe1225"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j7378.annotated.wat",
+    "bytes": 6458,
+    "sha256": "889468bfce38950dcc0742273a423d7140dec7abd6d19f8f0ee17346eeae2053"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j7378.watfrag",
+    "bytes": 5520,
+    "sha256": "ab4a6fe48acb86af9ab79c9f59d6607cb6444e66edf88b81764af5e62b7af9f2"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j74002.annotated.wat",
+    "bytes": 1676,
+    "sha256": "d8b86ac30917c42491c01d8419a14d93b696bad957bc2e36f0381b466ab3c7e5"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j74002.watfrag",
+    "bytes": 1475,
+    "sha256": "3a7544e70b16c7282dafb44ad4eaaf051c013a9452d0befe5512d4c2c775c6d9"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j74024.annotated.wat",
+    "bytes": 150606,
+    "sha256": "ee52e2c7435e6ad072b5694cb5258b48997af1b227f85589e648bd8946868dee"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j74024.watfrag",
+    "bytes": 136894,
+    "sha256": "bb2d19662ce9c520acec0703746df38be1ee0d6410053ea8c602d40303bc2d44"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j94997.annotated.wat",
+    "bytes": 802,
+    "sha256": "f5da668cb86255fb7480c11c20b286d646d8b534c3f587e78f7801cde2f9f2d4"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j94997.watfrag",
+    "bytes": 670,
+    "sha256": "6457515809c22906fa2e9bc1c48b1a833384c8488a16492383935047aae0d1e2"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95576.annotated.wat",
+    "bytes": 5056,
+    "sha256": "3c6f88ed3e5f2da5f65114dcdb56e708a45ec31ccace1286afe69ebad6170ea7"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95576.watfrag",
+    "bytes": 4787,
+    "sha256": "8f0b27e4bbfce07db0d799a2b6c8525bdfc9d90eac4b5c1ade0a72b2a4e7b5ff"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95578.annotated.wat",
+    "bytes": 4052,
+    "sha256": "b9520a99be4d548aeed17de8d9b8c0345e1ed15271a9b8bebfca83bafb3e5e09"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95578.watfrag",
+    "bytes": 3783,
+    "sha256": "141d6f7055d21644d0b2c7ffcc99bf661fb2b073adff3074ac5e7dc2a6b05c53"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95581.annotated.wat",
+    "bytes": 10632,
+    "sha256": "2a93ba3dc1592f53023b520e7ab8e3ad04bc83e7f16929b76c90b4a1a85820c9"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95581.watfrag",
+    "bytes": 10632,
+    "sha256": "2a93ba3dc1592f53023b520e7ab8e3ad04bc83e7f16929b76c90b4a1a85820c9"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95582.annotated.wat",
+    "bytes": 7979,
+    "sha256": "fe230e69be1d9bab11e3da912a3a1a1ff65458fb992a7a4da604c21acb628aab"
+  },
+  {
+    "path": "竞品/competitor-preload-main/j95582.watfrag",
+    "bytes": 7979,
+    "sha256": "fe230e69be1d9bab11e3da912a3a1a1ff65458fb992a7a4da604c21acb628aab"
+  },
+  {
+    "path": "竞品/competitor-preload-main/method-map.json",
+    "bytes": 6959,
+    "sha256": "1b7b7daf56f7148191ed840467ba278dcb35d68d5456cd230b128fb4f847573f"
+  },
+  {
+    "path": "竞品/competitor-preload-main/rejected-methods.json",
+    "bytes": 183,
+    "sha256": "63c9c1294de6e2685f088c8aac21254dcec25fef358102e11e80f7b5879e8b5c"
+  },
+  {
+    "path": "竞品/competitor-preload-main/selected.wat",
+    "bytes": 337906,
+    "sha256": "880264ef43cbeab7aa3c8d7a1ff09200bf001873863eecbcaa2a2de55d22e062"
+  },
+  {
+    "path": "竞品/competitor-secondary/direct-call-graph.json",
+    "bytes": 4422,
+    "sha256": "dc6268361721403cbb2bd27f91c0567865fec025cde406de1df4369832f13a7a"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108293.annotated.wat",
+    "bytes": 2002,
+    "sha256": "5e10bb13eff8751088d6808f6a76609d0093635285a5712918e40a48b4c7262c"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108293.watfrag",
+    "bytes": 1406,
+    "sha256": "93dcfa0da5ff62d7a049cc2a66c6da1453f32d3446a3ec30d402f4c85e819e4e"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108294.annotated.wat",
+    "bytes": 467,
+    "sha256": "df310153400c416af2f7e17b927e96a4b3b27c4ec6bc11a2f8bbc561e4c37e14"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108294.watfrag",
+    "bytes": 365,
+    "sha256": "8690016e3b72fe3d2df18dc6301d89031b568c0cd161f43411f8d1a7a5dcce0a"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108295.annotated.wat",
+    "bytes": 947,
+    "sha256": "af00aeb37bbb17d1325f9230f378eb18ccba057a3a4fed17014aa2fb0e99d291"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108295.watfrag",
+    "bytes": 714,
+    "sha256": "0874d05547fd6d906004e329ddcf3f8fa782e7f8e43f7d27e41fc8456c33afb1"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108299.annotated.wat",
+    "bytes": 600,
+    "sha256": "57034dc58ca0e0371bbc4ee5021d7c201d87c57a097b5ef275134f2533df2c3a"
+  },
+  {
+    "path": "竞品/competitor-secondary/j108299.watfrag",
+    "bytes": 474,
+    "sha256": "6b191ac6ecfcae2a479179f5d278d10e829ce33227969da4392b40b3fcac3409"
+  },
+  {
+    "path": "竞品/competitor-secondary/j24624.annotated.wat",
+    "bytes": 14859,
+    "sha256": "6d0ff3272306fbe62546dc5ef503ea5d664554f110d1c6111b02134689833a4a"
+  },
+  {
+    "path": "竞品/competitor-secondary/j24624.watfrag",
+    "bytes": 13064,
+    "sha256": "e1e5ada6433b4d997de4df945ebde36b7454f2a0d779b47d543a4e6e6ba1741f"
+  },
+  {
+    "path": "竞品/competitor-secondary/j43493.annotated.wat",
+    "bytes": 2874,
+    "sha256": "338c4c46b18046877ade729c40f770ca6a9e1b7e5c2f5300259193b3b509b9d4"
+  },
+  {
+    "path": "竞品/competitor-secondary/j43493.watfrag",
+    "bytes": 2596,
+    "sha256": "0370a6b46a23470158c5009b8bdd5137d8b41569f1ac0b6793fd5a3b7e32a043"
+  },
+  {
+    "path": "竞品/competitor-secondary/j49957.annotated.wat",
+    "bytes": 17940,
+    "sha256": "b28ff7df7771f59fdebdd2d61bb4e12b41fc6e4ec820a1924dfcf610cc8ab7a3"
+  },
+  {
+    "path": "竞品/competitor-secondary/j49957.watfrag",
+    "bytes": 16196,
+    "sha256": "60fc18273b121b78ca1fd347e59a89a05401c976aeb03133220b5973aa0a1a1e"
+  },
+  {
+    "path": "竞品/competitor-secondary/j49959.annotated.wat",
+    "bytes": 768,
+    "sha256": "233216e2ad11bd07c1c43df170f564402012b9fc8e26e836cb585cbd2750d4e4"
+  },
+  {
+    "path": "竞品/competitor-secondary/j49959.watfrag",
+    "bytes": 689,
+    "sha256": "e2af14ec6353fb709391fe772d097d03a3a510a5a197206cc887cf5afe37a0e7"
+  },
+  {
+    "path": "竞品/competitor-secondary/method-map.json",
+    "bytes": 2714,
+    "sha256": "6ecbab70cd1290bdf599ae382964bd7746df1c9b7e900323deaa7d72dc2cbdb6"
+  },
+  {
+    "path": "竞品/competitor-secondary/rejected-methods.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "竞品/competitor-secondary/selected.wat",
+    "bytes": 127762,
+    "sha256": "02c7c7a162479291f779dc02a21e895910f44403f84398b5eae855a64f7893d1"
+  },
+  {
+    "path": "竞品/competitor-summary.json",
+    "bytes": 3540,
+    "sha256": "6825375437a0af8bc7c8012726933327bdc6d6c4acc7d1eea81201816c68416f"
+  },
+  {
+    "path": "资源/GooseItemMobile.shader",
+    "bytes": 1131,
+    "sha256": "e6460b1e7dc6da6b94f8f0c66f47e4446e39213394df86a3c30d5b4cd1b94897"
+  },
+  {
+    "path": "资源/GooseMobileTemplate.mat",
+    "bytes": 885,
+    "sha256": "26fc0637e60b869819bb133c1d31f303e27790a767c142913176cf1619949f7a"
+  },
+  {
+    "path": "资源/离线碰撞/alarmclock.asset",
+    "bytes": 10236,
+    "sha256": "388d153ff1038d120ff89c778c36d4cb7631d10b1dc3ca288c15395008584f1e"
+  },
+  {
+    "path": "资源/离线碰撞/alarmclock.asset.meta",
+    "bytes": 235,
+    "sha256": "5fd08705924a097357e3719f49653143e2655c889326feb0c9a069ccd30ec0e3"
+  },
+  {
+    "path": "资源/离线碰撞/apple.asset",
+    "bytes": 15181,
+    "sha256": "f85565f2343b31be2d7cf94edf61402a5104d5dce5f14561e4075c669e14b99b"
+  },
+  {
+    "path": "资源/离线碰撞/apple.asset.meta",
+    "bytes": 235,
+    "sha256": "18a2d2a52fa342d5934e55d7dbec9cca70bb803b11d13e8806298e134df9bf34"
+  },
+  {
+    "path": "资源/离线碰撞/avocado.asset",
+    "bytes": 15135,
+    "sha256": "24916e0526197d578a812f536b8ce31749f503a9e192c63a216232a2fa8839ae"
+  },
+  {
+    "path": "资源/离线碰撞/avocado.asset.meta",
+    "bytes": 235,
+    "sha256": "10f70140b59bd9cf9ad5373630e6d6dee82afb4bf2b8d9fb3db414ac533d2cc5"
+  },
+  {
+    "path": "资源/离线碰撞/banana.asset",
+    "bytes": 6747,
+    "sha256": "72759ac45917268269666b208cd3040115d7705c48553c7f489bc0e9f101411b"
+  },
+  {
+    "path": "资源/离线碰撞/banana.asset.meta",
+    "bytes": 235,
+    "sha256": "ac1f2c3b109a0adda62fea2cad199c6458cc152fef2bb7647d06eb497d2c812a"
+  },
+  {
+    "path": "资源/离线碰撞/banzhi.asset",
+    "bytes": 7498,
+    "sha256": "32297a93ed882d6f779977454660a471b9ef13b97fd743f65cb75f8ed05701f5"
+  },
+  {
+    "path": "资源/离线碰撞/banzhi.asset.meta",
+    "bytes": 235,
+    "sha256": "4dc709076f88f950b473b9d98c51bb3f217165f726cc07a2f8bef20e38841e35"
+  },
+  {
+    "path": "资源/离线碰撞/baoshi.asset",
+    "bytes": 8408,
+    "sha256": "e911c1fb95df8142c969913bf73e3d1b01cebf81b0471345549cf32a2d57897c"
+  },
+  {
+    "path": "资源/离线碰撞/baoshi.asset.meta",
+    "bytes": 235,
+    "sha256": "e857cfe86c12c97416df0c5dcca3eef1fe85a1c3e7a515bcbc3bdf523460b628"
+  },
+  {
+    "path": "资源/离线碰撞/bellpepper.asset",
+    "bytes": 15124,
+    "sha256": "5fe4cff42544ef61267f98c885eeba9caad4dd83bd344ff2b6bb91de77bdc869"
+  },
+  {
+    "path": "资源/离线碰撞/bellpepper.asset.meta",
+    "bytes": 235,
+    "sha256": "f696114490f3965adf51e8dcb96906f6a41f25c24ad1a3781dcb1e7a4601010d"
+  },
+  {
+    "path": "资源/离线碰撞/blueberry.asset",
+    "bytes": 13869,
+    "sha256": "6ad22ff77cad504e9bd25747cd5b572bbc78a61e89daf28392adb22574265a70"
+  },
+  {
+    "path": "资源/离线碰撞/blueberry.asset.meta",
+    "bytes": 235,
+    "sha256": "e472a6248f8efdd4e4d1da53088b188613cebf4eceb059d021e51db7252c73a3"
+  },
+  {
+    "path": "资源/离线碰撞/bracelet.asset",
+    "bytes": 5821,
+    "sha256": "e6fc1d828161c5f5ed9e5af4807fe978e798867946aed599fcd326981f853c97"
+  },
+  {
+    "path": "资源/离线碰撞/bracelet.asset.meta",
+    "bytes": 235,
+    "sha256": "1c21847e59d6e9e17d66b55bf71df34fe81062c2e74dcda433645baf8928646f"
+  },
+  {
+    "path": "资源/离线碰撞/broccoli.asset",
+    "bytes": 13942,
+    "sha256": "7b87feafab79bf63fbb270a720fc147ab32d4e699cf4716bbaee8d8f8b7fd04c"
+  },
+  {
+    "path": "资源/离线碰撞/broccoli.asset.meta",
+    "bytes": 235,
+    "sha256": "699676c2fd7ddef588800c4f1b74a5335a59d007fdb470dd189fe7daf3edfa21"
+  },
+  {
+    "path": "资源/离线碰撞/cabbage.asset",
+    "bytes": 15177,
+    "sha256": "d65b7f7261415709ccd023e47410185aec4a5cfce46d65454190f2deb46a9819"
+  },
+  {
+    "path": "资源/离线碰撞/cabbage.asset.meta",
+    "bytes": 235,
+    "sha256": "01cd4b2e2920f69f08d53c970fe8395c064e942caedf54ccaa5eae901ea2e4f0"
+  },
+  {
+    "path": "资源/离线碰撞/cake_slice.asset",
+    "bytes": 5106,
+    "sha256": "9af4015814e71e9617da3b9c15f9a0c243dfc5b0400c875018396386e07d7266"
+  },
+  {
+    "path": "资源/离线碰撞/cake_slice.asset.meta",
+    "bytes": 235,
+    "sha256": "4a83d747a8620924324ac603cf076da7f34ab3ce3c1203558a694aab1741a068"
+  },
+  {
+    "path": "资源/离线碰撞/camera.asset",
+    "bytes": 10628,
+    "sha256": "c71a62320cb26b8f294708da31b21235fec264f00bee0c151cb2034378447456"
+  },
+  {
+    "path": "资源/离线碰撞/camera.asset.meta",
+    "bytes": 235,
+    "sha256": "ed949976b85564b574ec7a5938560254a8b7a2f5f22e87ef9d6857fed6a0f8e2"
+  },
+  {
+    "path": "资源/离线碰撞/candy.asset",
+    "bytes": 5988,
+    "sha256": "a6562ec54241c6c0e74cdcef4c516295d8f16538a33d551c84ae8dd4434e1140"
+  },
+  {
+    "path": "资源/离线碰撞/candy.asset.meta",
+    "bytes": 235,
+    "sha256": "76197e8e178fba0f47b59ca1dd92ec85cf6ee5da3665dad9a10caab0a0780541"
+  },
+  {
+    "path": "资源/离线碰撞/carrot.asset",
+    "bytes": 14466,
+    "sha256": "d6d092bf4ca2092695c7421c4537f4198bfe5663a05b33cf3c935c16fd5fa682"
+  },
+  {
+    "path": "资源/离线碰撞/carrot.asset.meta",
+    "bytes": 235,
+    "sha256": "d7ddb3ea122980139cd3ca33bcf33d18d2c46f40f07596a4db62f02ee02f3f82"
+  },
+  {
+    "path": "资源/离线碰撞/cherry.asset",
+    "bytes": 11582,
+    "sha256": "c17702305dd05ba4ac35087402f104851a4b3a2f49a927cf0cdfebf8e15fbc55"
+  },
+  {
+    "path": "资源/离线碰撞/cherry.asset.meta",
+    "bytes": 235,
+    "sha256": "56d6af041d26cad71f0869a2ecb2f8c61723ae6f14c06e7cf3e92de690b1a59c"
+  },
+  {
+    "path": "资源/离线碰撞/chocolate.asset",
+    "bytes": 7266,
+    "sha256": "44ca41eb52fc9b7df98ce86969aa4c532af5a2ca38cb83270239bc471c4c615b"
+  },
+  {
+    "path": "资源/离线碰撞/chocolate.asset.meta",
+    "bytes": 235,
+    "sha256": "390a3f4ac416f48a04fe10a277e398faff63f5431b64a18448ad2d132a9a2298"
+  },
+  {
+    "path": "资源/离线碰撞/coconut.asset",
+    "bytes": 15155,
+    "sha256": "da46d5bdc97e808ce4fca2e5e488b17b010c0372467205db6fdfed38a1bf2ffd"
+  },
+  {
+    "path": "资源/离线碰撞/coconut.asset.meta",
+    "bytes": 235,
+    "sha256": "57546d5c081a21c11a6d40800e1e58bae036c4c2b21acd593a4fde463dffd93b"
+  },
+  {
+    "path": "资源/离线碰撞/cookie.asset",
+    "bytes": 7916,
+    "sha256": "2793640dfda5083232b97d00ed325eb224a6f74c00f5e9c346da804d6945b02b"
+  },
+  {
+    "path": "资源/离线碰撞/cookie.asset.meta",
+    "bytes": 235,
+    "sha256": "fd3019bcdce73c26d4ab921688f7434a5fbd4fa7eba86a1ed5b3ba12bc3740d7"
+  },
+  {
+    "path": "资源/离线碰撞/corn.asset",
+    "bytes": 15030,
+    "sha256": "841c726a90ba4c7b5f6ef8c53e48496ce43fa0166a7673cc4b73e045ab0c1599"
+  },
+  {
+    "path": "资源/离线碰撞/corn.asset.meta",
+    "bytes": 235,
+    "sha256": "f7fde5ea2b442c5e6c0c7618e02bb8980d4d9b50a4968c3952b6cfc7a8ae6c1f"
+  },
+  {
+    "path": "资源/离线碰撞/croissant.asset",
+    "bytes": 5822,
+    "sha256": "34c5812108dc3b753073a69a974c078c6c3cc11325a0d30e566de9db5764a1b4"
+  },
+  {
+    "path": "资源/离线碰撞/croissant.asset.meta",
+    "bytes": 235,
+    "sha256": "da3e22cf484f9799a8dedda5b66c5096ce2563b9f9cf0376455a34e11cbf47ab"
+  },
+  {
+    "path": "资源/离线碰撞/cucumber.asset",
+    "bytes": 12250,
+    "sha256": "4ebe1fae375d07a34a654f4c2e060836871d3b0b7e3f42c2abc28da025aa0329"
+  },
+  {
+    "path": "资源/离线碰撞/cucumber.asset.meta",
+    "bytes": 235,
+    "sha256": "663bc0fa9ecdb8ffa7de2ddec1e87101b4e6bafcbf2b4c1bb1c66bd13aa874ee"
+  },
+  {
+    "path": "资源/离线碰撞/cupcake.asset",
+    "bytes": 13981,
+    "sha256": "2582406293a3eea32cb2e44cfb02ffb164a0730bf92202d5848d29af5642e32d"
+  },
+  {
+    "path": "资源/离线碰撞/cupcake.asset.meta",
+    "bytes": 235,
+    "sha256": "14c1fb2b780d4afc5da7f4a78a97b32ffc49a15c99c9f3fffbb2c22598a96c3f"
+  },
+  {
+    "path": "资源/离线碰撞/donut.asset",
+    "bytes": 7983,
+    "sha256": "4f7c9f7c33015f940ef5b355e0d26844caea3f19875af1bec8fe03d37b461a27"
+  },
+  {
+    "path": "资源/离线碰撞/donut.asset.meta",
+    "bytes": 235,
+    "sha256": "9faecfd891f6f4ec41c8cad90e7ae81c89739bcec4acada0f0107d66ddbfd07b"
+  },
+  {
+    "path": "资源/离线碰撞/dragonfruit.asset",
+    "bytes": 15157,
+    "sha256": "cf6672a85760fe924599d6aa279dec8603a2f68c267859445a7f13f6227f5e42"
+  },
+  {
+    "path": "资源/离线碰撞/dragonfruit.asset.meta",
+    "bytes": 235,
+    "sha256": "bdcaab4d296179bd4cf5449465d7ab7285305b70bc5e42401607896cf80e35e4"
+  },
+  {
+    "path": "资源/离线碰撞/duck.asset",
+    "bytes": 15176,
+    "sha256": "cfd9764ac072f19e505bb088d25dc401ab94fcc814f525ed45207a450e3567ca"
+  },
+  {
+    "path": "资源/离线碰撞/duck.asset.meta",
+    "bytes": 235,
+    "sha256": "a3f5e303ee4042dbbd081333929bb93cf4c558a4f130af4ea74c2a0fc39ffc85"
+  },
+  {
+    "path": "资源/离线碰撞/dumpling.asset",
+    "bytes": 15166,
+    "sha256": "51a9e18c30263c44f185ccc6674a7d286fc661910f860776ad63be2ce35e59c2"
+  },
+  {
+    "path": "资源/离线碰撞/dumpling.asset.meta",
+    "bytes": 235,
+    "sha256": "4387616eeb7c1c7865e2b2fe43b48a4b2725d96fcdeb23a67dee8d4bf942a492"
+  },
+  {
+    "path": "资源/离线碰撞/egg.asset",
+    "bytes": 14165,
+    "sha256": "51650647c7e41cd5ab2e62100434f136a65e71f8967e47d89768330e7cf59a20"
+  },
+  {
+    "path": "资源/离线碰撞/egg.asset.meta",
+    "bytes": 235,
+    "sha256": "b2b1296c2d50581f3101b4592445dd0f2652609583eacfdd2e477018aaa5f57c"
+  },
+  {
+    "path": "资源/离线碰撞/eggplant.asset",
+    "bytes": 13998,
+    "sha256": "79b8467619b95920813d528a08d9ddfb877bf738ae05e25748c0df9e40a39429"
+  },
+  {
+    "path": "资源/离线碰撞/eggplant.asset.meta",
+    "bytes": 235,
+    "sha256": "ed0e2b850cd8d68340a1ce273e1cc9c6710d8cf8723d296ecd032eee0c43c2b0"
+  },
+  {
+    "path": "资源/离线碰撞/eggtart.asset",
+    "bytes": 8771,
+    "sha256": "5ebe6c923bf9cbd33da6b7b961b6b63af83f953d639f39bfa6f0ec21fec0814d"
+  },
+  {
+    "path": "资源/离线碰撞/eggtart.asset.meta",
+    "bytes": 235,
+    "sha256": "6d331be1f385786c579fb2b9fa0d4a38a32c638081bee0631bdda4f7b9dc92f9"
+  },
+  {
+    "path": "资源/离线碰撞/flashlight.asset",
+    "bytes": 12854,
+    "sha256": "cce99937d678f205703335e910ff2f72af306d9603042a8edc31fdc7b7fd3d05"
+  },
+  {
+    "path": "资源/离线碰撞/flashlight.asset.meta",
+    "bytes": 235,
+    "sha256": "abc16607c0bbf48536e51f80979a8828047a49825951474ceaedcca7cd81de20"
+  },
+  {
+    "path": "资源/离线碰撞/frog.asset",
+    "bytes": 15190,
+    "sha256": "22ec8f4212bbde05f0bfd8eff1b2aa477e7020dc1269fc5d0c7f2e46aaa89df0"
+  },
+  {
+    "path": "资源/离线碰撞/frog.asset.meta",
+    "bytes": 235,
+    "sha256": "b507042c650cfdc96a9822dc0a556ed03ff406334bebf4a7b824ee478e5de7d8"
+  },
+  {
+    "path": "资源/离线碰撞/gamepad.asset",
+    "bytes": 6980,
+    "sha256": "16805a7344c15739fa9da6287750428609022bfbbc4ead7e62569e3296b69a6a"
+  },
+  {
+    "path": "资源/离线碰撞/gamepad.asset.meta",
+    "bytes": 235,
+    "sha256": "c151fda23ac54a6e849db252931a98c5969fc3b69c23fd512cc243366fe5ba52"
+  },
+  {
+    "path": "资源/离线碰撞/garlic.asset",
+    "bytes": 15176,
+    "sha256": "44214a988662dd21ed3733a4d1b33ed6634ae6b4ab61d51b2c5ce9133595f7d7"
+  },
+  {
+    "path": "资源/离线碰撞/garlic.asset.meta",
+    "bytes": 235,
+    "sha256": "e9ca9a9f50ba9e095730a786439fab3b9c54adbf298aa27ea633f1ab40f456fa"
+  },
+  {
+    "path": "资源/离线碰撞/goldchime.asset",
+    "bytes": 10849,
+    "sha256": "c1a8056f6438e3e0c3df4541751af9238668998cd97a0a6b8644aff317918be3"
+  },
+  {
+    "path": "资源/离线碰撞/goldchime.asset.meta",
+    "bytes": 235,
+    "sha256": "9841b7fa81dad03453134f6769101592765ff01d82f7078363db839951aa8851"
+  },
+  {
+    "path": "资源/离线碰撞/goldring.asset",
+    "bytes": 9854,
+    "sha256": "9ab879d31db31e1a5e147329ab7331a4dcc0fbf8a47ea714fd6c1d971dcc846c"
+  },
+  {
+    "path": "资源/离线碰撞/goldring.asset.meta",
+    "bytes": 235,
+    "sha256": "cd7bb2eb212a08f39f5e25cb3c6cb6ab9276f696e8ebeea8c366b8acef1846a7"
+  },
+  {
+    "path": "资源/离线碰撞/goose.asset",
+    "bytes": 9415,
+    "sha256": "ae181ab579742d97e1c399daf943764385bf2ccf52bbf26d35dd3cd489d664c4"
+  },
+  {
+    "path": "资源/离线碰撞/goose.asset.meta",
+    "bytes": 235,
+    "sha256": "38ed206b984b568d3a6234d0ec8970151fec3c86159591c611b9dababff39012"
+  },
+  {
+    "path": "资源/离线碰撞/grape.asset",
+    "bytes": 14553,
+    "sha256": "8eb2ac5ef4613fd13eb2973b64521f578d5b264776e80ede27a937abe5095d53"
+  },
+  {
+    "path": "资源/离线碰撞/grape.asset.meta",
+    "bytes": 235,
+    "sha256": "e68819dcc5cfd50907657767e8025c78e26a6ec7740798232552ff16af2af6b8"
+  },
+  {
+    "path": "资源/离线碰撞/handheld.asset",
+    "bytes": 6379,
+    "sha256": "ca4e4e94b5b7e2f3baf7f7b017b59cfef216c0995945a59e84f61f4554498bad"
+  },
+  {
+    "path": "资源/离线碰撞/handheld.asset.meta",
+    "bytes": 235,
+    "sha256": "42b41d61eba13d2faf11177f362ae6c265ccba3d2a6155346f7272f5b45941e7"
+  },
+  {
+    "path": "资源/离线碰撞/headphones.asset",
+    "bytes": 8422,
+    "sha256": "72a585e8020ffed464935c4c2c2e7cbe61be403198341967ff28fbaa86f1994e"
+  },
+  {
+    "path": "资源/离线碰撞/headphones.asset.meta",
+    "bytes": 235,
+    "sha256": "18ed04a6b1d646ff71281827a9281e22c486c2351661f44400a86ad3f73b7270"
+  },
+  {
+    "path": "资源/离线碰撞/hulu.asset",
+    "bytes": 15140,
+    "sha256": "1e0f0f205018c3811a39eefa194d7891bbcb7534616c6314dc8a3cb4957ffa14"
+  },
+  {
+    "path": "资源/离线碰撞/hulu.asset.meta",
+    "bytes": 235,
+    "sha256": "97f36dbc50053e315fd9b82bccaf36d8f2514c24243582fb8c3d8f1cc294e709"
+  },
+  {
+    "path": "资源/离线碰撞/icecream.asset",
+    "bytes": 5584,
+    "sha256": "762f4cdd7b0b85ddb6161bca9ca4fb38a7fe0259d459724a14dd5ab8d3f255c3"
+  },
+  {
+    "path": "资源/离线碰撞/icecream.asset.meta",
+    "bytes": 235,
+    "sha256": "0fa42e775d299b568536f2e2242bb30e8f6b11bd4c735a56b1581b65be986bba"
+  },
+  {
+    "path": "资源/离线碰撞/jadebeads.asset",
+    "bytes": 6838,
+    "sha256": "81e487ea2e81fbd86f7678b58c5e12a5e7c4e63d6ed78b2996248a416b8d3d85"
+  },
+  {
+    "path": "资源/离线碰撞/jadebeads.asset.meta",
+    "bytes": 235,
+    "sha256": "1d9dfc81bcbc9e0ee25b9ffec25d3c0e337f3c9484576e9cbc0fb8d9e95618dc"
+  },
+  {
+    "path": "资源/离线碰撞/jadecarp.asset",
+    "bytes": 13920,
+    "sha256": "b97280fbe4e095be6358ea3696acad97828859cca050ee5e65399ddc497a3179"
+  },
+  {
+    "path": "资源/离线碰撞/jadecarp.asset.meta",
+    "bytes": 235,
+    "sha256": "f06389a41219aacbe372dff39fdddb376098f8e68db2e17319d9e23eb54ac742"
+  },
+  {
+    "path": "资源/离线碰撞/jadechime.asset",
+    "bytes": 9363,
+    "sha256": "2ada0d1948771bba7537d506392a027ff281f0b7ce5f26765843aa6f3675ed46"
+  },
+  {
+    "path": "资源/离线碰撞/jadechime.asset.meta",
+    "bytes": 235,
+    "sha256": "85b2a0b31eedcd4a00dd55ea090b2bb09e465287686309e2081bdf68d23371d8"
+  },
+  {
+    "path": "资源/离线碰撞/jadeleaf.asset",
+    "bytes": 12490,
+    "sha256": "c5cfbd15a6a3d27951f1840a955ee0ed57614f62aab4c75cd958a7d14ff1e92b"
+  },
+  {
+    "path": "资源/离线碰撞/jadeleaf.asset.meta",
+    "bytes": 235,
+    "sha256": "1a84d8c4fb52a0c9a02c428fe52c0dfd5513db535ae0e0b044f9c0a6e2f363b4"
+  },
+  {
+    "path": "资源/离线碰撞/jadelock.asset",
+    "bytes": 10678,
+    "sha256": "639624ef3a942afbc2e5c0adf9398a27349b4cbfb58c85e1124f003d99769e6b"
+  },
+  {
+    "path": "资源/离线碰撞/jadelock.asset.meta",
+    "bytes": 235,
+    "sha256": "c7bf53596c2c10f88a0033037d48a3211626f78e26a6d3836e29d130452b509b"
+  },
+  {
+    "path": "资源/离线碰撞/jadepeanut.asset",
+    "bytes": 14402,
+    "sha256": "223dd491de51ab8ee0bb8892c06ac9ef36e0da956c0afa063297380617976447"
+  },
+  {
+    "path": "资源/离线碰撞/jadepeanut.asset.meta",
+    "bytes": 235,
+    "sha256": "18fa00453e9e2a013de8fa43f43d37b9382ba82de7b0920c0f073eb0c70f9cfa"
+  },
+  {
+    "path": "资源/离线碰撞/jadetalisman.asset",
+    "bytes": 6515,
+    "sha256": "aa007f7943b5bc1d60cebeae24b50a01be1160f034e90e4c6add569576774fc3"
+  },
+  {
+    "path": "资源/离线碰撞/jadetalisman.asset.meta",
+    "bytes": 235,
+    "sha256": "1783e8bec7a0d6f9be0c244267d297f731c26c6bbc18954da4689297c4679b24"
+  },
+  {
+    "path": "资源/离线碰撞/jadeteapot.asset",
+    "bytes": 15116,
+    "sha256": "7e70c676f9302ef17e5a9db3b5cf1a0d37fb29cf5af87ed9a4148ce313a9e6d6"
+  },
+  {
+    "path": "资源/离线碰撞/jadeteapot.asset.meta",
+    "bytes": 235,
+    "sha256": "622d4e32dd4be6fc98dc7fcf49bf9a7bf77f3abcbdd94e9f8ceeeef95e4a0f9a"
+  },
+  {
+    "path": "资源/离线碰撞/jadetiger.asset",
+    "bytes": 12153,
+    "sha256": "1f7cc029ec6615ffecbb29e3c446d8cf5edde3916c3f213ba3f9af68f341905e"
+  },
+  {
+    "path": "资源/离线碰撞/jadetiger.asset.meta",
+    "bytes": 235,
+    "sha256": "b4ca24b6fcaac532a0d8eaa2caec34fdd31d59c59154663328aba086e161ca15"
+  },
+  {
+    "path": "资源/离线碰撞/jadevase.asset",
+    "bytes": 10298,
+    "sha256": "31efd32517c76555f96be841d7497fe635a7c64842b2d2143823d011db475255"
+  },
+  {
+    "path": "资源/离线碰撞/jadevase.asset.meta",
+    "bytes": 235,
+    "sha256": "b8541d6c0cf324dfa585b031bed860d7ccb1747686ef7fca5b8ab59f9fb5dcc7"
+  },
+  {
+    "path": "资源/离线碰撞/keyboard.asset",
+    "bytes": 7834,
+    "sha256": "a81d833b81b602cacc11276455b57c498d06bcaf495af096167d75346cee34c8"
+  },
+  {
+    "path": "资源/离线碰撞/keyboard.asset.meta",
+    "bytes": 235,
+    "sha256": "a187b26a77e076080ed8737f7287d1d5517532c648bfd231167e58f12f4110ef"
+  },
+  {
+    "path": "资源/离线碰撞/kiwi.asset",
+    "bytes": 9144,
+    "sha256": "dddce6e89c878857d0cba3aca6da28dfbc6157326ee94e1385f0ac7928fd753c"
+  },
+  {
+    "path": "资源/离线碰撞/kiwi.asset.meta",
+    "bytes": 235,
+    "sha256": "01a00c81433d74dee7b8b92552412f06b9a2f0a5fb2e800b6bf41a94845d35a3"
+  },
+  {
+    "path": "资源/离线碰撞/koi.asset",
+    "bytes": 13743,
+    "sha256": "73044a1fd755795fd52a166aa107711e4f0c7f53039e86a6d826c59ac6d86905"
+  },
+  {
+    "path": "资源/离线碰撞/koi.asset.meta",
+    "bytes": 235,
+    "sha256": "e69391da7193453d4b5e5c3cf529183efb90223fb9e4c7e764019485bc441fc2"
+  },
+  {
+    "path": "资源/离线碰撞/laptop.asset",
+    "bytes": 9032,
+    "sha256": "24243822547a661361840246938e8edc5b54156a6496dd3c162ba2e2dfd7f44e"
+  },
+  {
+    "path": "资源/离线碰撞/laptop.asset.meta",
+    "bytes": 235,
+    "sha256": "1c96cab3f59030e7b3f5b36f20a9a2269daa872798076508d158182cf846f622"
+  },
+  {
+    "path": "资源/离线碰撞/lemon.asset",
+    "bytes": 15175,
+    "sha256": "4fe5e8697b8e68b00061c2b93f8529f3dd23a3e5bf7d791f56171dea07b555fd"
+  },
+  {
+    "path": "资源/离线碰撞/lemon.asset.meta",
+    "bytes": 235,
+    "sha256": "7ea020480bcea5a97e9819b1de170ffa8b7e1cd85822e6ea66f19da431166aa4"
+  },
+  {
+    "path": "资源/离线碰撞/lollipop.asset",
+    "bytes": 11018,
+    "sha256": "708990ebe6e531254084c4adf9cba30f06af3f9b02910f7c35a3f15b95348d15"
+  },
+  {
+    "path": "资源/离线碰撞/lollipop.asset.meta",
+    "bytes": 235,
+    "sha256": "bdc356bed754f710a3a29cf35802acf2a21875749fc95c78226fc7efb544f58d"
+  },
+  {
+    "path": "资源/离线碰撞/lotus.asset",
+    "bytes": 7126,
+    "sha256": "93f543e9ee2da9be0a3f0779d22f4f64cf5be287695b1303ed49420bb35e32fe"
+  },
+  {
+    "path": "资源/离线碰撞/lotus.asset.meta",
+    "bytes": 235,
+    "sha256": "7328f7a7d781af899af5f027e1c938cef87aef48c80c9b44f655601277d19681"
+  },
+  {
+    "path": "资源/离线碰撞/macaron.asset",
+    "bytes": 11063,
+    "sha256": "72a5d3e87fb0a1df415cf97ad21dfcf2ff8a1b057d7a117515c36c5e086dfbf7"
+  },
+  {
+    "path": "资源/离线碰撞/macaron.asset.meta",
+    "bytes": 235,
+    "sha256": "fd6e55abe86147a6f71924aa9dcc3a7b06806a460e6ba919e828ef826a032dad"
+  },
+  {
+    "path": "资源/离线碰撞/mango.asset",
+    "bytes": 14375,
+    "sha256": "daa2c4fd0c29fa6aa37deac338ab79bc17e72d6223b59229e4bd47f3064fad76"
+  },
+  {
+    "path": "资源/离线碰撞/mango.asset.meta",
+    "bytes": 235,
+    "sha256": "0771010b978fcb7ef3de4b1300adb0142c84bf0318716a0c7b8025729851ca05"
+  },
+  {
+    "path": "资源/离线碰撞/microphone.asset",
+    "bytes": 9386,
+    "sha256": "af3961a33f9608c5106f0da7b0b0e6ad7d8f3a061fc382480ba572c10a5ecf56"
+  },
+  {
+    "path": "资源/离线碰撞/microphone.asset.meta",
+    "bytes": 235,
+    "sha256": "662a4a755d6f4df3f1cfbdcb9ad54757ac9c1094f9e4f58cbf6b18d5edf9729f"
+  },
+  {
+    "path": "资源/离线碰撞/monitor.asset",
+    "bytes": 7230,
+    "sha256": "1ec15b440183216cd97b0f2a4671922f11fe09ddae671c1d6431c6cc56b68953"
+  },
+  {
+    "path": "资源/离线碰撞/monitor.asset.meta",
+    "bytes": 235,
+    "sha256": "5e0741bf0a954f4652129f994815119a2ae34aa139bfad84000c16d111010299"
+  },
+  {
+    "path": "资源/离线碰撞/mooncake.asset",
+    "bytes": 8400,
+    "sha256": "b705fa03f07293a9d622cbcf1169fbffcecfaf001d1068534db6e851c5e28486"
+  },
+  {
+    "path": "资源/离线碰撞/mooncake.asset.meta",
+    "bytes": 235,
+    "sha256": "15d17640cb32155719375c60b321b183428c3ac815c156af51d1d588baefac50"
+  },
+  {
+    "path": "资源/离线碰撞/mouse.asset",
+    "bytes": 13933,
+    "sha256": "8e2218bf3798dafca7b3de7ab26d0c35a118b57c96c6aaf9fed83a20f5a48312"
+  },
+  {
+    "path": "资源/离线碰撞/mouse.asset.meta",
+    "bytes": 235,
+    "sha256": "91d5ae3dd24d93e8428dd7f8e93e313779a9ee44507024d48de4caface6ff23d"
+  },
+  {
+    "path": "资源/离线碰撞/mushroom.asset",
+    "bytes": 11686,
+    "sha256": "edec238702db37c35614ab3917484f967a69df871fbf2052e43650adbeb3525b"
+  },
+  {
+    "path": "资源/离线碰撞/mushroom.asset.meta",
+    "bytes": 235,
+    "sha256": "2f8857e85d68ca6ac05273db7c2a52e76f4ec3bbd3a881023af65fa7facf007e"
+  },
+  {
+    "path": "资源/离线碰撞/onion.asset",
+    "bytes": 12261,
+    "sha256": "b495606a59285a35c4a641a96411d5869e3f72ddfec767597b4efe8521b397fb"
+  },
+  {
+    "path": "资源/离线碰撞/onion.asset.meta",
+    "bytes": 235,
+    "sha256": "2e24c7ce657e0ba93138c7315cb2242b46d5718348935ebeef3fd8ec84ba682f"
+  },
+  {
+    "path": "资源/离线碰撞/orange.asset",
+    "bytes": 15180,
+    "sha256": "35340c616c6011574367a5a69c9fd1e36d41b0607fe0df82408b962d518943ad"
+  },
+  {
+    "path": "资源/离线碰撞/orange.asset.meta",
+    "bytes": 235,
+    "sha256": "1765d3433aaf605fee5b746d222c7fe50a1eaf1074949e3bc808d1dc56fb1d56"
+  },
+  {
+    "path": "资源/离线碰撞/pancake.asset",
+    "bytes": 9861,
+    "sha256": "7a0d0fb56f40740d2b8df6f98f31f69fb9b0857c28bcc55a55bf84cc9accae0a"
+  },
+  {
+    "path": "资源/离线碰撞/pancake.asset.meta",
+    "bytes": 235,
+    "sha256": "e3773572baa1cf79baf1fddd5fda9fc737a51f752b3740ed193ebea47eb745f4"
+  },
+  {
+    "path": "资源/离线碰撞/peach.asset",
+    "bytes": 14747,
+    "sha256": "10bbf30f43ba1c37608a6826bb7b1a23136232178457ea7c0dd5cfbb89bf6fab"
+  },
+  {
+    "path": "资源/离线碰撞/peach.asset.meta",
+    "bytes": 235,
+    "sha256": "19e3ada12877a158702f2b63a13ee75b7ea7f0ea9d1b9929bc53950a73c2ed14"
+  },
+  {
+    "path": "资源/离线碰撞/pear.asset",
+    "bytes": 15182,
+    "sha256": "568fefde2b6b12b252f01dbd2c4384be761017a38aaac2ca0b1120914ac62638"
+  },
+  {
+    "path": "资源/离线碰撞/pear.asset.meta",
+    "bytes": 235,
+    "sha256": "0f1ddd347960f5e44e6c18ca2d9ad87ab913110fb97c6adeeebe6472e1ab3961"
+  },
+  {
+    "path": "资源/离线碰撞/persimmon.asset",
+    "bytes": 15163,
+    "sha256": "8035dc6de7bc279de3c9be1e1000e350c7384a5139d89908509d1fb89f22816e"
+  },
+  {
+    "path": "资源/离线碰撞/persimmon.asset.meta",
+    "bytes": 235,
+    "sha256": "2ac74638a28e8cf7ba872419f35ab73d27508fa1badd2eabd8ff9d180a4556a8"
+  },
+  {
+    "path": "资源/离线碰撞/phone.asset",
+    "bytes": 7004,
+    "sha256": "9afef20682b5ad9cfa512519d528614c48340caf66880ff4c337632d3272376c"
+  },
+  {
+    "path": "资源/离线碰撞/phone.asset.meta",
+    "bytes": 235,
+    "sha256": "447b113bf35c7a198a8c805af67e965322c7975b2b190ce98a8abaecee2878c7"
+  },
+  {
+    "path": "资源/离线碰撞/pineapple.asset",
+    "bytes": 15101,
+    "sha256": "1bd5fad18f79abc71e9c52559ee08298f26b5a9946e0b8076842c3a6153b01c5"
+  },
+  {
+    "path": "资源/离线碰撞/pineapple.asset.meta",
+    "bytes": 235,
+    "sha256": "9866080e2c0eb5ad8d2cd20cd636176da8bdc8abb3d4f2e433e622bd6d1a9a23"
+  },
+  {
+    "path": "资源/离线碰撞/pomegranate.asset",
+    "bytes": 15149,
+    "sha256": "3ef0b99860c9cd21e05a3bd51dd69ce60a1673307ec6c6905710ee4276ab8085"
+  },
+  {
+    "path": "资源/离线碰撞/pomegranate.asset.meta",
+    "bytes": 235,
+    "sha256": "2212c00b0a58aaf837d37d477aeef16755c01870b45573f31821d09c27c0428d"
+  },
+  {
+    "path": "资源/离线碰撞/popsicle.asset",
+    "bytes": 7932,
+    "sha256": "3099143c7677ec7b6f1b3f5d9c3237e229f80829d8f8eb676796d0485835ed41"
+  },
+  {
+    "path": "资源/离线碰撞/popsicle.asset.meta",
+    "bytes": 235,
+    "sha256": "bf2a18fdd472fcfaef1e0baab1c1337af0b31ea7e04a29bbd169d741c7d91ef5"
+  },
+  {
+    "path": "资源/离线碰撞/potato.asset",
+    "bytes": 14658,
+    "sha256": "ecbac7eed3fc223beb3068fd29f2adbb9e8d9a2dab04e5ca646925d55e44d39f"
+  },
+  {
+    "path": "资源/离线碰撞/potato.asset.meta",
+    "bytes": 235,
+    "sha256": "f0aeb6809b255db92c411a9378a37e0fe450a48ecb78089c92f90ba27442b5dd"
+  },
+  {
+    "path": "资源/离线碰撞/powerbank.asset",
+    "bytes": 5672,
+    "sha256": "97b21985476e453b96b13be589f27b9576968091d30731d96fa80554dd276aca"
+  },
+  {
+    "path": "资源/离线碰撞/powerbank.asset.meta",
+    "bytes": 235,
+    "sha256": "cf676f042080588aa86305be022617e5b67fa554047ce35f19b6288d51d90170"
+  },
+  {
+    "path": "资源/离线碰撞/pretzel.asset",
+    "bytes": 8159,
+    "sha256": "0f777c2ea9ba6c8347548751cf639b880f769d1e463ee2134f0ed12302dae8b0"
+  },
+  {
+    "path": "资源/离线碰撞/pretzel.asset.meta",
+    "bytes": 235,
+    "sha256": "69bd35a205a20c7c632981b4062afc7f6a344f9d6009e23d70945d687f75048d"
+  },
+  {
+    "path": "资源/离线碰撞/printer.asset",
+    "bytes": 5431,
+    "sha256": "85004847374a9cd03607a6512bae2ea119004e3c27bb503c239004e46583457b"
+  },
+  {
+    "path": "资源/离线碰撞/printer.asset.meta",
+    "bytes": 235,
+    "sha256": "d57de983c9da08ce596de18cc31e7188675669cedac0032987fda408c2738623"
+  },
+  {
+    "path": "资源/离线碰撞/pudding.asset",
+    "bytes": 5549,
+    "sha256": "9356eb8b4bcceec5357ca5a5d61cf14a76fd6d42b82e60dbfd64c9a9156f15fa"
+  },
+  {
+    "path": "资源/离线碰撞/pudding.asset.meta",
+    "bytes": 235,
+    "sha256": "c8789ed37edb4b3973daa770f2e8a8a3c649cebcb72b2e018de0a5981d3e87c3"
+  },
+  {
+    "path": "资源/离线碰撞/pumpkin.asset",
+    "bytes": 15167,
+    "sha256": "8f4865a64804f6ee78fbd331ef8034b5e95aa7b0099490ff634e0d1bafdde234"
+  },
+  {
+    "path": "资源/离线碰撞/pumpkin.asset.meta",
+    "bytes": 235,
+    "sha256": "b0f251daa51e626d042a37429f03f90777c9d855be09dc78ca2c616b430b6ebc"
+  },
+  {
+    "path": "资源/离线碰撞/radio.asset",
+    "bytes": 7214,
+    "sha256": "d236337c3848ba02127e42ccd1e4f9d27e765fea8d387efc6b258ecc4d19664c"
+  },
+  {
+    "path": "资源/离线碰撞/radio.asset.meta",
+    "bytes": 235,
+    "sha256": "3cbc96f063befd155ef8b6389f41f465b57bd03dbffb699967112c7c32c0f360"
+  },
+  {
+    "path": "资源/离线碰撞/radish.asset",
+    "bytes": 9730,
+    "sha256": "784e49472da14ca30c50e9840416767321f4628daf70c68731ce3732fc1a1802"
+  },
+  {
+    "path": "资源/离线碰撞/radish.asset.meta",
+    "bytes": 235,
+    "sha256": "811eb133fc3284fb24261cf48edaa9feddb590bbcd7bb99302669cf8a2a6d5b7"
+  },
+  {
+    "path": "资源/离线碰撞/router.asset",
+    "bytes": 5552,
+    "sha256": "fd8570685e806c1bacc549f4e37857be00bd00a6ada32b7e1752466563bd52da"
+  },
+  {
+    "path": "资源/离线碰撞/router.asset.meta",
+    "bytes": 235,
+    "sha256": "1b38d082dc47561d80caaf64aab28086a42fa247d4580ff82507e4493c9a8f1e"
+  },
+  {
+    "path": "资源/离线碰撞/ruyi.asset",
+    "bytes": 5685,
+    "sha256": "4b8f2629c9e772719292ef4304a14e09653b7eb065374b6a0a22ceb7ab91a809"
+  },
+  {
+    "path": "资源/离线碰撞/ruyi.asset.meta",
+    "bytes": 235,
+    "sha256": "632bcd1bd182e1d709cefbb62c225314cdb7d667e4977b9049a075696278a1d5"
+  },
+  {
+    "path": "资源/离线碰撞/shovel.asset",
+    "bytes": 7315,
+    "sha256": "9e27882db0849ddf4b2a5a014163549e346d6f3fdf1c151e684e7736c7a1a6ce"
+  },
+  {
+    "path": "资源/离线碰撞/shovel.asset.meta",
+    "bytes": 235,
+    "sha256": "e220076273c4e5235e5e05556b3888d8a34e62ebf6f1b391e63e9680760de59c"
+  },
+  {
+    "path": "资源/离线碰撞/smartwatch.asset",
+    "bytes": 8196,
+    "sha256": "1b04fdee70a912ed35930a9f6c14ff9b42c6b04b2623b3b60b31b33b4de0f11a"
+  },
+  {
+    "path": "资源/离线碰撞/smartwatch.asset.meta",
+    "bytes": 235,
+    "sha256": "0a36589584642dc4cbf04816ba1989bb824f98118c213af6bda4dd4378955c69"
+  },
+  {
+    "path": "资源/离线碰撞/speaker.asset",
+    "bytes": 8291,
+    "sha256": "ce422fe13a59669a0039479e7d7051faff2379861b96e07d1bc9404ad3658e20"
+  },
+  {
+    "path": "资源/离线碰撞/speaker.asset.meta",
+    "bytes": 235,
+    "sha256": "1233da8499a63116447934a09d862c831fee14d9bf89dc013e8132e65c31bbf4"
+  },
+  {
+    "path": "资源/离线碰撞/starfruit.asset",
+    "bytes": 5750,
+    "sha256": "8f55e280f084115ad38d86514ebae541d362cf84cccf2ac5dc56ca37ac269799"
+  },
+  {
+    "path": "资源/离线碰撞/starfruit.asset.meta",
+    "bytes": 235,
+    "sha256": "5e9281d9e7dbc72270e64b6c3ffe2934a345b8ffd77d4ab2abc1fff80af60adf"
+  },
+  {
+    "path": "资源/离线碰撞/strawberry.asset",
+    "bytes": 13998,
+    "sha256": "a45a2f24a2ce9a479191abe0e138fbd3d0eb60a701305adf49c0a28f08416565"
+  },
+  {
+    "path": "资源/离线碰撞/strawberry.asset.meta",
+    "bytes": 235,
+    "sha256": "87f10ac3638cc081b45047cea6dafe1af129a9f21c9732f3c549f807a78fa96d"
+  },
+  {
+    "path": "资源/离线碰撞/swissroll.asset",
+    "bytes": 7016,
+    "sha256": "2be6f83ea7bb3066c3bf96705994e7c0bfcd47d6d383dd0d7838945c82ccc553"
+  },
+  {
+    "path": "资源/离线碰撞/swissroll.asset.meta",
+    "bytes": 235,
+    "sha256": "f20b07f6f8f94622fd14c4c4d125307df3fd5518ebe447427ad1cbcfbf0a5555"
+  },
+  {
+    "path": "资源/离线碰撞/tablet.asset",
+    "bytes": 5657,
+    "sha256": "8d012b50c3928f567b8b8a727fbd7847b9f0c73dde82d67e8539f1e8986997d4"
+  },
+  {
+    "path": "资源/离线碰撞/tablet.asset.meta",
+    "bytes": 235,
+    "sha256": "3e66fcb496c0a9d29fb8ff77993722a7b09574f1733c01efc366d3702c6d7033"
+  },
+  {
+    "path": "资源/离线碰撞/teacup.asset",
+    "bytes": 9646,
+    "sha256": "5b0c1fa10715a26208d5ff4c089954be96b578141a549ac2e1375c76ee6d27b3"
+  },
+  {
+    "path": "资源/离线碰撞/teacup.asset.meta",
+    "bytes": 235,
+    "sha256": "ad36c797e8d7d40e27064ca162da899d93fa9141990df52834bd34435c4879b5"
+  },
+  {
+    "path": "资源/离线碰撞/television.asset",
+    "bytes": 6141,
+    "sha256": "03d71fbe5c38b2d2460ce528fe4ed21e7491804c41cd553e446befc8775599e3"
+  },
+  {
+    "path": "资源/离线碰撞/television.asset.meta",
+    "bytes": 235,
+    "sha256": "214739f916e751c66d6078bddaecbfe702ff95b8139fe45a6d564c2efaa0b95a"
+  },
+  {
+    "path": "资源/离线碰撞/toast.asset",
+    "bytes": 9713,
+    "sha256": "af58850b69383bb08b0b42188a1346fa5853838e1f6a0cbe023a68bb7fc2a428"
+  },
+  {
+    "path": "资源/离线碰撞/toast.asset.meta",
+    "bytes": 235,
+    "sha256": "b252282a2771688aad103597666b0aa908fe1749b6060cf20855bfeb2e51278b"
+  },
+  {
+    "path": "资源/离线碰撞/tomato.asset",
+    "bytes": 15132,
+    "sha256": "f339f36648eca6b59f13ce84c41b66d8fc531089f2762cda0828b5c70692316d"
+  },
+  {
+    "path": "资源/离线碰撞/tomato.asset.meta",
+    "bytes": 235,
+    "sha256": "7664c5eb7184f220299d405c626950593613ad6838c92d8d6b4dea5cf655a432"
+  },
+  {
+    "path": "资源/离线碰撞/tongqian.asset",
+    "bytes": 6273,
+    "sha256": "476206f52cb4e9a21951616a8f18711a136a7e9e6a10337e28737bb1a65e871a"
+  },
+  {
+    "path": "资源/离线碰撞/tongqian.asset.meta",
+    "bytes": 235,
+    "sha256": "654f5ded7d9d31d44412238caecfe3b5dc7af2a745037e8d9916d46fc00c37c1"
+  },
+  {
+    "path": "资源/离线碰撞/usbdrive.asset",
+    "bytes": 7450,
+    "sha256": "f07ae28931b27ecc41a9d18a067450490d3af116276b8f2abe20eba8476f8f03"
+  },
+  {
+    "path": "资源/离线碰撞/usbdrive.asset.meta",
+    "bytes": 235,
+    "sha256": "1af5c3db7aa3f85da48d6d1ef95f102bcad8b3e0703f528378933bed971081b4"
+  },
+  {
+    "path": "资源/离线碰撞/wafer.asset",
+    "bytes": 7194,
+    "sha256": "d755dc8e34693a068f8cfff750142ff33b07985e0dcd2b8963b251452aeb2ef1"
+  },
+  {
+    "path": "资源/离线碰撞/wafer.asset.meta",
+    "bytes": 235,
+    "sha256": "9bb8a2385106caa27bc28c982dfd3f41bce80f426e96b15024a2836658b9991d"
+  },
+  {
+    "path": "资源/离线碰撞/wateringcan.asset",
+    "bytes": 10837,
+    "sha256": "c454377555a0519dd8052dfb67d65a4b45e9ad00d21cfc3a56a63a60a5dc2718"
+  },
+  {
+    "path": "资源/离线碰撞/wateringcan.asset.meta",
+    "bytes": 235,
+    "sha256": "996259f75a4c4e3458a2b5830d00b42f034d887048f5f1f7c4b5737da106505e"
+  },
+  {
+    "path": "资源/离线碰撞/watermelon.asset",
+    "bytes": 15124,
+    "sha256": "8031fa78af782d74d329b9ca578f37513c22b6fa3e1c8584fb6a4860f5a9fcf5"
+  },
+  {
+    "path": "资源/离线碰撞/watermelon.asset.meta",
+    "bytes": 235,
+    "sha256": "03b9d0d37d1cbc4165f895381b2780ee8cf8294e9964bf7243bf39e345363f0a"
+  },
+  {
+    "path": "资源/离线碰撞/yuxi.asset",
+    "bytes": 10812,
+    "sha256": "383adb18143c1e7d2e43ea6f1c8c5d9a6d323fed8914891d057a549660b8c903"
+  },
+  {
+    "path": "资源/离线碰撞/yuxi.asset.meta",
+    "bytes": 235,
+    "sha256": "557342f030f679e93291a6911797663fd0eb2c786213661a36dbf2804eb45d62"
+  },
+  {
+    "path": "资源/离线碰撞/yuzhuo.asset",
+    "bytes": 5891,
+    "sha256": "e9f4108ea89943282f86cf71577b74eb222d4d82b2ff2b76f3a7c438b8e68609"
+  },
+  {
+    "path": "资源/离线碰撞/yuzhuo.asset.meta",
+    "bytes": 235,
+    "sha256": "14f0ded099ffca81879fe84bd1af3ee6c5672836bd4c881b24bc68d8ba8d7649"
+  },
+  {
+    "path": "资源/配置/core-rounds.json",
+    "bytes": 1237,
+    "sha256": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800"
+  },
+  {
+    "path": "资源/配置/core-rounds.json.meta",
+    "bytes": 158,
+    "sha256": "4360b87d3f8471ba98216ea5780f18b79ef2387ee9b252edab08c36bdaefa402"
+  },
+  {
+    "path": "资源/配置/level-tuning.json",
+    "bytes": 22,
+    "sha256": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d"
+  },
+  {
+    "path": "资源/配置/level-tuning.json.meta",
+    "bytes": 158,
+    "sha256": "341d28af4a827ff9319a61d429eb5e09c5315ab2e95483d0088f74c38412317e"
+  },
+  {
+    "path": "资源/配置/pile-algorithms.json",
+    "bytes": 452,
+    "sha256": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44"
+  },
+  {
+    "path": "资源/配置/pile-algorithms.json.meta",
+    "bytes": 158,
+    "sha256": "b627799ec0223552a169d251f3bc17b022d8a600a4bc37ba020c82081a4fd6b0"
+  },
+  {
+    "path": "资源/配置/themes.json",
+    "bytes": 5656,
+    "sha256": "d6528a2aeb49e96d97e10db6aca8f83a00bdd50c3ad2da2757d86f76c339c767"
+  },
+  {
+    "path": "资源/配置/themes.json.meta",
+    "bytes": 158,
+    "sha256": "5daecca667bf2d48712129b4c2ecf843595abe8f6b9624a71ebb7c4fd2f982e1"
+  },
+  {
+    "path": "运行/baseline/performance.json",
+    "bytes": 5165,
+    "sha256": "84d353068546b41ad6e2ebcc38514ed41b9907c38c7a9a62dea9a1ce943fc9e9"
+  },
+  {
+    "path": "运行/baseline/player.log",
+    "bytes": 22252,
+    "sha256": "6f60ffb62847307d52a49b9f386b109d31b22e86f9f77709e3b16f6173e56843"
+  },
+  {
+    "path": "运行/baseline-build-fixed.log",
+    "bytes": 376199,
+    "sha256": "d004f13b4269ba2bcb7ae6cf94335c604be38ebfafc3f9baa1b1f11a3880ab89"
+  },
+  {
+    "path": "运行/baseline-build.log",
+    "bytes": 198464,
+    "sha256": "aab601f253bea6bc1a7f5c8f122f3f3f43c14217bcf7c34e9a2989b33afd82bf"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseAcceptance.cs",
+    "bytes": 11917,
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseAlgorithmAcceptance.cs",
+    "bytes": 19113,
+    "sha256": "5fabef4cd91783d5a20cc19fd26ceba69cff07ab20f57a1eb24ff3cb9517cfc6"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseColliderProfile.cs",
+    "bytes": 2677,
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseDepthPolicy.cs",
+    "bytes": 3064,
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseExperienceAcceptance.cs",
+    "bytes": 10000,
+    "sha256": "c51cf85d47b593b5603aa531937e63344206c4e57f4e16e9d5e011f5856b38dd"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseGame.cs",
+    "bytes": 39669,
+    "sha256": "abd96fa64e87d2989e3ffbfe68a414366dc47bc815d9022ccf0a9ced90d45697"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseGeneration.cs",
+    "bytes": 10259,
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseHud.cs",
+    "bytes": 14427,
+    "sha256": "d4e6e57c66505d2add6cebb927eb7747570a52af31ba1449bedbdd150643f246"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseItem.cs",
+    "bytes": 3203,
+    "sha256": "c223e60990ffa78801999a442e8e566ba70d39a3c6103c0b221987226d92cc2d"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseLevelPolicy.cs",
+    "bytes": 3946,
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GoosePerformanceAcceptance.cs",
+    "bytes": 3310,
+    "sha256": "92cf73d1b3869d02b9baeb2491c75551f2871b8a24f7f563558d76f4e0b1f39d"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GoosePerformanceCounters.cs",
+    "bytes": 467,
+    "sha256": "41c1657697cad11c2352bef63b08ea6b8a2568633758923332373f1c9a75ef87"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GoosePileDepth.cs",
+    "bytes": 5600,
+    "sha256": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseRules.cs",
+    "bytes": 10382,
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseVideo.cs",
+    "bytes": 7473,
+    "sha256": "1482830805c7d04f68c349269d09e5abeb7c5318665288a0b30b60f2bfdd0619"
+  },
+  {
+    "path": "运行/baseline-instrumented-sources/GooseWeChatPlatform.cs",
+    "bytes": 3288,
+    "sha256": "7ba36e2b124faae42192ace73149b04c83a2cddc8555cf04c8cea122e0c87891"
+  },
+  {
+    "path": "运行/baseline-sources/core-rounds.json",
+    "bytes": 1237,
+    "sha256": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800"
+  },
+  {
+    "path": "运行/baseline-sources/GooseAcceptance.cs",
+    "bytes": 11917,
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "path": "运行/baseline-sources/GooseAlgorithmAcceptance.cs",
+    "bytes": 19113,
+    "sha256": "5fabef4cd91783d5a20cc19fd26ceba69cff07ab20f57a1eb24ff3cb9517cfc6"
+  },
+  {
+    "path": "运行/baseline-sources/GooseColliderProfile.cs",
+    "bytes": 2677,
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "path": "运行/baseline-sources/GooseDepthPolicy.cs",
+    "bytes": 3064,
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "path": "运行/baseline-sources/GooseExperienceAcceptance.cs",
+    "bytes": 10000,
+    "sha256": "c51cf85d47b593b5603aa531937e63344206c4e57f4e16e9d5e011f5856b38dd"
+  },
+  {
+    "path": "运行/baseline-sources/GooseGame.cs",
+    "bytes": 39347,
+    "sha256": "93bee328adcf5cfafd27bb9a15b2b19523e7dc452f48c044c680dcb7db6ee403"
+  },
+  {
+    "path": "运行/baseline-sources/GooseGeneration.cs",
+    "bytes": 10259,
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "path": "运行/baseline-sources/GooseHud.cs",
+    "bytes": 14427,
+    "sha256": "d4e6e57c66505d2add6cebb927eb7747570a52af31ba1449bedbdd150643f246"
+  },
+  {
+    "path": "运行/baseline-sources/GooseItem.cs",
+    "bytes": 3203,
+    "sha256": "c223e60990ffa78801999a442e8e566ba70d39a3c6103c0b221987226d92cc2d"
+  },
+  {
+    "path": "运行/baseline-sources/GooseLevelPolicy.cs",
+    "bytes": 3946,
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "path": "运行/baseline-sources/GoosePileDepth.cs",
+    "bytes": 5600,
+    "sha256": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d"
+  },
+  {
+    "path": "运行/baseline-sources/GooseRules.cs",
+    "bytes": 10382,
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "path": "运行/baseline-sources/GooseVideo.cs",
+    "bytes": 7473,
+    "sha256": "1482830805c7d04f68c349269d09e5abeb7c5318665288a0b30b60f2bfdd0619"
+  },
+  {
+    "path": "运行/baseline-sources/GooseWeChatPlatform.cs",
+    "bytes": 3288,
+    "sha256": "7ba36e2b124faae42192ace73149b04c83a2cddc8555cf04c8cea122e0c87891"
+  },
+  {
+    "path": "运行/baseline-sources/level-tuning.json",
+    "bytes": 22,
+    "sha256": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d"
+  },
+  {
+    "path": "运行/baseline-sources/pile-algorithms.json",
+    "bytes": 452,
+    "sha256": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44"
+  },
+  {
+    "path": "运行/baseline-sources/themes.json",
+    "bytes": 5656,
+    "sha256": "d6528a2aeb49e96d97e10db6aca8f83a00bdd50c3ad2da2757d86f76c339c767"
+  },
+  {
+    "path": "运行/competitor-summary.json",
+    "bytes": 3540,
+    "sha256": "6825375437a0af8bc7c8012726933327bdc6d6c4acc7d1eea81201816c68416f"
+  },
+  {
+    "path": "运行/edit-tests.log",
+    "bytes": 93025,
+    "sha256": "c36eb52a39fd1203aff2b0eabbb6725b0f39f29e5df986ad438f7d9d4087f2de"
+  },
+  {
+    "path": "运行/edit-tests.xml",
+    "bytes": 13656,
+    "sha256": "e078a0e72b3253e1e5b58c93dca420c2848aa7684204a28fb38fe0502e9648fd"
+  },
+  {
+    "path": "运行/final-algorithm/algorithm-acceptance.json",
+    "bytes": 11083,
+    "sha256": "3e9ef0a2f27585298d697f9c30a2d5942d175fad17049075756d0671b74dfd74"
+  },
+  {
+    "path": "运行/final-algorithm/algorithm-player.log",
+    "bytes": 44673,
+    "sha256": "969af79aa9d3c8b8ab598f21dc88b139fcaa59e76ecfa80d187f763cab02442f"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/core-rounds.json",
+    "bytes": 1237,
+    "sha256": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseAcceptance.cs",
+    "bytes": 11917,
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseAlgorithmAcceptance.cs",
+    "bytes": 19113,
+    "sha256": "5fabef4cd91783d5a20cc19fd26ceba69cff07ab20f57a1eb24ff3cb9517cfc6"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseAssetCache.cs",
+    "bytes": 4401,
+    "sha256": "8179dff7380c20219a9f4cc0be295ca0b9dc698c2e07c75237a66e54d2dce144"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseColliderProfile.cs",
+    "bytes": 2677,
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseDepthPolicy.cs",
+    "bytes": 3064,
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseExperienceAcceptance.cs",
+    "bytes": 10000,
+    "sha256": "c51cf85d47b593b5603aa531937e63344206c4e57f4e16e9d5e011f5856b38dd"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseGame.cs",
+    "bytes": 40726,
+    "sha256": "18b6bf4edde9c107cb59682e549a848937e25234a03bf25c2b7d536467076d24"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseGeneration.cs",
+    "bytes": 10259,
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseHud.cs",
+    "bytes": 15529,
+    "sha256": "6b092536622a2a612e86dc9b201eb76ae079381a88603bd635f51ac81731105c"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseItem.cs",
+    "bytes": 4478,
+    "sha256": "b8535357addb58411026b3979107e6ca45353d7083b7c248026d83aa8aede78d"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseLevelPolicy.cs",
+    "bytes": 3946,
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GoosePerformanceAcceptance.cs",
+    "bytes": 3403,
+    "sha256": "65c047bbd94abb8063b7129dc5aec76039dc0011cf36e6c3826ee982ed545c9b"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GoosePerformanceCounters.cs",
+    "bytes": 467,
+    "sha256": "41c1657697cad11c2352bef63b08ea6b8a2568633758923332373f1c9a75ef87"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GoosePileDepth.cs",
+    "bytes": 5953,
+    "sha256": "89a95d352cba6c4c88ecff82695b2f4e2585c113632ea075ffded2335ee8508e"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseRoundProfiler.cs",
+    "bytes": 1941,
+    "sha256": "547f8de28dc982d13d145a44dfc80bda6b2b63454306af5b8c8532ec8c4d2acf"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseRules.cs",
+    "bytes": 10382,
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseRuntimePerformance.cs",
+    "bytes": 842,
+    "sha256": "ef92e5e970d541323e4469a88ff825352461a2d514dc2c33a078f7391e14e55d"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseVideo.cs",
+    "bytes": 7473,
+    "sha256": "1482830805c7d04f68c349269d09e5abeb7c5318665288a0b30b60f2bfdd0619"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/GooseWeChatPlatform.cs",
+    "bytes": 3288,
+    "sha256": "7ba36e2b124faae42192ace73149b04c83a2cddc8555cf04c8cea122e0c87891"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/level-tuning.json",
+    "bytes": 22,
+    "sha256": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/pile-algorithms.json",
+    "bytes": 452,
+    "sha256": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44"
+  },
+  {
+    "path": "运行/final-algorithm/tested-runtime-sources/themes.json",
+    "bytes": 5656,
+    "sha256": "d6528a2aeb49e96d97e10db6aca8f83a00bdd50c3ad2da2757d86f76c339c767"
+  },
+  {
+    "path": "运行/final-algorithm/tested-source-hashes.json",
+    "bytes": 1803,
+    "sha256": "3588dfb9e70b90531ae25bc1a34fa7eb413eaacc9b41ecec3ea59812f8d9cfed"
+  },
+  {
+    "path": "运行/final-algorithm/unity-build.log",
+    "bytes": 388084,
+    "sha256": "5490862d7c73ef0d911a38ff6e1a6a999d80f921237ec4163ccde1acdf0716cf"
+  },
+  {
+    "path": "运行/mobile-experience/experience.json",
+    "bytes": 30384,
+    "sha256": "afccc30eb920f596497ef32fc2f117323ede307ce026a525cf27d56c735b4947"
+  },
+  {
+    "path": "运行/mobile-experience/player.log",
+    "bytes": 105217,
+    "sha256": "704a5f1925535218636569fc3c5181f8bed00d23c1536fa32cb6cde9515fd5d0"
+  },
+  {
+    "path": "运行/optimized-desktop/performance.json",
+    "bytes": 5482,
+    "sha256": "46673ee00603f91045cf4366cf58b0b7a867506dca9d6bded5e0bb487d6f4204"
+  },
+  {
+    "path": "运行/optimized-desktop/player.log",
+    "bytes": 26745,
+    "sha256": "0d82833db9651e05c2fd3e7b2e6c83f287b509b0d637fba7a0ca3670eff6485e"
+  },
+  {
+    "path": "运行/optimized-mobile/performance.json",
+    "bytes": 5483,
+    "sha256": "69ddec47d97c01863cac1f50677f9d27c0994270403442721b3514f1a8072ff3"
+  },
+  {
+    "path": "运行/optimized-mobile/player.log",
+    "bytes": 30361,
+    "sha256": "22ae4c4f6f55974aa92b809edf5bdf4d47c3d9d24e4a395353705fef9aa92489"
+  },
+  {
+    "path": "运行/performance-build.log",
+    "bytes": 387769,
+    "sha256": "22e57727d7ee6c5e73d6742c430ce9f376b644e2e53734289eb4b25c7297895b"
+  },
+  {
+    "path": "运行/unity-readme-before.md",
+    "bytes": 7511,
+    "sha256": "5a7621cde630aba8a58c56df70d523356cf879205c8a0f64c260d217d5e23406"
+  },
+  {
+    "path": "运行/wechat-build-package-budget.log",
+    "bytes": 398885,
+    "sha256": "28a9cda7b33086190531a7a8ce9ad3efb0751e05bbbfb35130ccbdfcd66076c0"
+  },
+  {
+    "path": "运行/wechat-convert-symbols-fixed.log",
+    "bytes": 289735,
+    "sha256": "b476b7a565e5453d86be3524aae8d9867c63f01a5f20aa6bb88c04fb177127d1"
+  },
+  {
+    "path": "运行/wechat-final-build.log",
+    "bytes": 436091,
+    "sha256": "26fe417839ccfe4fe7cf4370e92811e328ed3c15eaf4d7656f641a9a4479e249"
+  },
+  {
+    "path": "运行/最终移动画面/algorithm-acceptance.json",
+    "bytes": 1191,
+    "sha256": "2b1529ce286f70b8e960fcf6cf65040b3ea47697b0115bebc58194a7d89c2b92"
+  },
+  {
+    "path": "运行/最终移动画面/antique-core-2.png",
+    "bytes": 466971,
+    "sha256": "5da8aad9fe24a8f9468947b61506e3920e8ab29218c6a985e2c687aeeab07abc"
+  },
+  {
+    "path": "运行/最终移动画面/core-0.png",
+    "bytes": 334656,
+    "sha256": "0aa18495f9efad72ddb043c7b3211f773fba0f1a870479e04ea63349b33876bd"
+  },
+  {
+    "path": "运行/最终移动画面/core-1.png",
+    "bytes": 347197,
+    "sha256": "a45c7604feec4ead264f4fa46d485fa91f1af5355b9dfa654f7f7fe82de089fa"
+  },
+  {
+    "path": "运行/最终移动画面/core-2.png",
+    "bytes": 391459,
+    "sha256": "c0fc80a085c5065f0c94295ffb8a8a667fb5740c471616bb467230b8332208b2"
+  },
+  {
+    "path": "运行/最终移动画面/core-home.png",
+    "bytes": 838946,
+    "sha256": "98d86b57394d96d61d14cc347cba63f4bb6b832e04c2357eec105fe3120541b2"
+  },
+  {
+    "path": "运行/最终移动画面/dessert-core-2.png",
+    "bytes": 644714,
+    "sha256": "fbb74483a5ae32babc01e4bc0c1f2f962b2cad0e63ebd3a5650616388e0e5e7b"
+  },
+  {
+    "path": "运行/最终移动画面/electronics-core-2.png",
+    "bytes": 443919,
+    "sha256": "9652d5a4934f5e6b30960803f9716507293096dd67c496680596bfa4745aa1fe"
+  },
+  {
+    "path": "运行/最终移动画面/farm-core-2.png",
+    "bytes": 664022,
+    "sha256": "3b840c2d0728bc7a40979c6962ad9cd9c8745ada8f7391dcec53f7d8dc4f2753"
+  },
+  {
+    "path": "运行/最终移动画面/player.log",
+    "bytes": 21287,
+    "sha256": "0ac4e2b44f363754c83b604dd6f1b65b24e155270dab9001d555bc880b75c532"
+  },
+  {
+    "path": "运行/首版明暗图/algorithm-acceptance.json",
+    "bytes": 1191,
+    "sha256": "2b1529ce286f70b8e960fcf6cf65040b3ea47697b0115bebc58194a7d89c2b92"
+  },
+  {
+    "path": "运行/首版明暗图/antique-core-2.png",
+    "bytes": 444470,
+    "sha256": "9bc4e9556117ca19e7dcc451403699af150810764dfda07012179c0c32c9286d"
+  },
+  {
+    "path": "运行/首版明暗图/core-0.png",
+    "bytes": 316972,
+    "sha256": "6cf12a5882a03902dffbba75365c3d780d3321215a77560dbe121e5d8a29709d"
+  },
+  {
+    "path": "运行/首版明暗图/core-1.png",
+    "bytes": 322482,
+    "sha256": "a9e2e33c2dbc18f7b3b2b7e5bbfdf6818f9f54ad52b3559bc79e490d6e8e9cb1"
+  },
+  {
+    "path": "运行/首版明暗图/core-2.png",
+    "bytes": 360667,
+    "sha256": "80d65148b26c8bf86fd454d0828a8938fe2da1e2bb537524d375892514375d9e"
+  },
+  {
+    "path": "运行/首版明暗图/core-home.png",
+    "bytes": 838946,
+    "sha256": "98d86b57394d96d61d14cc347cba63f4bb6b832e04c2357eec105fe3120541b2"
+  },
+  {
+    "path": "运行/首版明暗图/dessert-core-2.png",
+    "bytes": 597959,
+    "sha256": "6da6902449868d9528c2a1a81987dcbcd1ab5b0f8c65d75ea176b4e36a2f342e"
+  },
+  {
+    "path": "运行/首版明暗图/electronics-core-2.png",
+    "bytes": 412072,
+    "sha256": "8d03b2fd754725d2dc1efb3180d0514c654742099a46ba6f1205bfaf579b45dd"
+  },
+  {
+    "path": "运行/首版明暗图/farm-core-2.png",
+    "bytes": 631786,
+    "sha256": "acbd9c991fbf2fa38b04e4f7c74b96060e07b294d2b85f6ee7304268a0da9187"
+  },
+  {
+    "path": "运行/首版明暗图/player.log",
+    "bytes": 21249,
+    "sha256": "bd1649274bef6f47ab11f581d5b0634e8c2e6d27d629cbdf0056dbb96cd65e6a"
+  },
+  {
+    "path": "验证汇总.json",
+    "bytes": 14710,
+    "sha256": "afed021b5bf6d388dc1bc9ab6dd932e124539f16d402b4e4bab7c4fb5bb95f46"
+  }
+]

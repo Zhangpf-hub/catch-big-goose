@@ -1,0 +1,26 @@
+[
+  {
+    "name": "data.unity3d",
+    "bytes": 1233274
+  },
+  {
+    "name": "boot.config",
+    "bytes": 49
+  },
+  {
+    "name": "RuntimeInitializeOnLoads.json",
+    "bytes": 4046
+  },
+  {
+    "name": "ScriptingAssemblies.json",
+    "bytes": 4077
+  },
+  {
+    "name": "Il2CppData/Metadata/global-metadata.dat",
+    "bytes": 10159788
+  },
+  {
+    "name": "Resources/unity_default_resources",
+    "bytes": 3520440
+  }
+]

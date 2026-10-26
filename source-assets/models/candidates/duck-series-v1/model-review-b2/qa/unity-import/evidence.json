@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "scope": "Isolated Unity editor: imported FBX/materials, baked skin vertices and manual PhysX simulation. Not production game/tray/match or homepage acceptance.",
+  "productionProjectImported": false,
+  "productionGameVerified": false,
+  "artApproved": false,
+  "report": "unity-audit.json",
+  "files": [
+    {
+      "path": "duck-b2-home.fbx",
+      "sha256": "867587ae5469736167062b6757271229896b746d3911c97b867546a3cbf25e10",
+      "bytes": 372860
+    },
+    {
+      "path": "duck-b2-rig-duck_click-pose.png",
+      "sha256": "bad98fe4a2ad5fc012314c202404da5716fcdc711b98817f153c253f2fbbc9dc",
+      "bytes": 33505
+    },
+    {
+      "path": "duck-b2-rig-duck_greet-pose.png",
+      "sha256": "bad98fe4a2ad5fc012314c202404da5716fcdc711b98817f153c253f2fbbc9dc",
+      "bytes": 33505
+    },
+    {
+      "path": "duck-b2-rig-duck_idle-pose.png",
+      "sha256": "0b2a00b9d98da08ee481303b2402ba83056495c17ce7fd35d68e4a6bf364c848",
+      "bytes": 33504
+    },
+    {
+      "path": "duck-eggtart-collision.fbx",
+      "sha256": "e9fb706d8e02e45d18778b88ac67d57d223f881f7df89f5c5b405359dce8a27a",
+      "bytes": 14252
+    },
+    {
+      "path": "duck-eggtart-gameplay.png",
+      "sha256": "b152b9a28a540fd7af9147945a81bf16c7d37dd102e7f4818ddbd2ee876ef019",
+      "bytes": 62857
+    },
+    {
+      "path": "duck-eggtart-hero.png",
+      "sha256": "3ff44ff29ecd87fafd56693081779a740bd199cc906bfde614a94052ba5e5f11",
+      "bytes": 69918
+    },
+    {
+      "path": "duck-numberblock-collision.fbx",
+      "sha256": "9561d95be7abffc01780d1e9a1dadbfc33e02d494d6e11e2098913a844d9a4bd",
+      "bytes": 14172
+    },
+    {
+      "path": "duck-numberblock-gameplay.png",
+      "sha256": "89c850a22606de0c27aab3fc0187aacd6505168a03e762e74410d38a3e2a08ce",
+      "bytes": 44974
+    },
+    {
+      "path": "duck-numberblock-hero.png",
+      "sha256": "d23f4b208a23034a88424a1bdaa8763c8850d4d897a005bbd23e87bf43cf8026",
+      "bytes": 38083
+    },
+    {
+      "path": "duck-steelcup-collision.fbx",
+      "sha256": "fc4cc2878afd49ed224614612f14d270164737f6229fa749c7c70964c4dac3fe",
+      "bytes": 14028
+    },
+    {
+      "path": "duck-steelcup-gameplay.png",
+      "sha256": "676a40e243683309e80374753f2c311a953f4d6995de4d6e86e45d01f0206038",
+      "bytes": 57249
+    },
+    {
+      "path": "duck-steelcup-hero.png",
+      "sha256": "f6ee5a805e6f6905065f37e770d5db4009f246acdfc831f567b05c1e0d6c2a7c",
+      "bytes": 56652
+    },
+    {
+      "path": "DuckB2UnityAudit.cs",
+      "sha256": "3bfc6095e27ebcad9c1ea3571730484577a7576ce2370f0bd93360b692f04aab",
+      "bytes": 16275
+    },
+    {
+      "path": "physx-mixed-pile.png",
+      "sha256": "72b023f72bdeb6e3c1f4c1e1705b425f8c2db5eb85033333dfe010a622f1f0c2",
+      "bytes": 77897
+    },
+    {
+      "path": "prepare_duck_b2_unity_qa.py",
+      "sha256": "8e9f73bb1c8625a154f9f178e322686ea9ea7aac725403ad78776dd824a18de9",
+      "bytes": 4584
+    },
+    {
+      "path": "staging.json",
+      "sha256": "12fb17195c2b9655ad204b7ecb203af64b1c5a6ea94c63bedb9f5616f7af4a38",
+      "bytes": 4380
+    },
+    {
+      "path": "unity-audit.json",
+      "sha256": "61821e411529ee18fce95b4a7be54f967da2e8efabd8e694eb3672085ccd7f5f",
+      "bytes": 6206
+    }
+  ]
+}

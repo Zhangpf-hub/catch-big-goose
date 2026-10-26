@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtlaserpen",
+  "sourceId": "GTLaserPen",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTLaserPen\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTLaserPen.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "64f257cf58cf3151eafd5147a64c3bda0a6cf6e6446d6be9c395c857a86e1f02"
+}

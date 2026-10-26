@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtwatergame",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTWaterGame\\GTWaterGame.blend",
+  "sourceTriangles": 1918,
+  "triangles": 1918,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    3.198320150375366,
+    1.5686817169189453,
+    0.5920699238777161
+  ],
+  "normalizedDimensions": [
+    0.9999999403953552,
+    0.4904704988002777,
+    0.18511901795864105
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

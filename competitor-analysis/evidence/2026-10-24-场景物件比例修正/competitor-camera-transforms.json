@@ -1,0 +1,881 @@
+{
+  "source": "D:\\开发\\Catch-big-goose-master\\work\\competitor-config-trace\\source\\6f7a2014e3c0092b.webgl.data.unityweb.bin",
+  "sha256": "b7cad460af0d7aaf86bdec945f9b4d69a4e494a07b1343007f3cc7254c208b42",
+  "cameras": [
+    {
+      "pathId": 533,
+      "assetsFile": "sharedassets0.assets",
+      "name": "MainSceneCamera",
+      "camera": {
+        "m_Enabled": 1,
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 1000.0,
+        "field of view": 16.0,
+        "orthographic": true,
+        "orthographic size": 3.4000000953674316,
+        "m_Depth": 10.0
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 153
+          },
+          "m_LocalRotation": {
+            "x": 0.34202009439468384,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.9396926760673523
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 5.0,
+            "z": -5.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 420
+          }
+        }
+      ]
+    },
+    {
+      "pathId": 534,
+      "assetsFile": "sharedassets0.assets",
+      "name": "Main Camera",
+      "camera": {
+        "m_Enabled": 1,
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 1000.0,
+        "field of view": 60.0,
+        "orthographic": true,
+        "orthographic size": 6.5,
+        "m_Depth": 1.0
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 188
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -30.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 398
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 458
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 357
+          }
+        }
+      ]
+    },
+    {
+      "pathId": 535,
+      "assetsFile": "sharedassets0.assets",
+      "name": "Player1Camera",
+      "camera": {
+        "m_Enabled": 1,
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 0.5
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 80.0,
+        "field of view": 60.0,
+        "orthographic": true,
+        "orthographic size": 4.699999809265137,
+        "m_Depth": 2.0
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 197
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": -1.0,
+            "y": -0.10000000149011612,
+            "z": -30.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 448
+          }
+        }
+      ]
+    },
+    {
+      "pathId": 536,
+      "assetsFile": "sharedassets0.assets",
+      "name": "Player2Camera",
+      "camera": {
+        "m_Enabled": 1,
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.5,
+          "width": 1.0,
+          "height": 0.5
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 80.0,
+        "field of view": 60.0,
+        "orthographic": true,
+        "orthographic size": 4.699999809265137,
+        "m_Depth": 3.0
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 211
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0,
+            "w": 0.0
+          },
+          "m_LocalPosition": {
+            "x": -1.0,
+            "y": -0.10000000149011612,
+            "z": -30.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 447
+          }
+        }
+      ]
+    },
+    {
+      "pathId": 537,
+      "assetsFile": "sharedassets0.assets",
+      "name": "ScreenShootCamera",
+      "camera": {
+        "m_Enabled": 1,
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 1000.0,
+        "field of view": 60.0,
+        "orthographic": true,
+        "orthographic size": 6.5,
+        "m_Depth": 20.0
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 212
+          },
+          "m_LocalRotation": {
+            "x": 0.6560590267181396,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 0.7547096610069275
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 29.708045959472656,
+            "z": -3.675191879272461
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 353
+          }
+        }
+      ]
+    },
+    {
+      "pathId": 538,
+      "assetsFile": "sharedassets0.assets",
+      "name": "ModelRenderCamera",
+      "camera": {
+        "m_Enabled": 1,
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 10.0,
+        "field of view": 10.0,
+        "orthographic": false,
+        "orthographic size": 3.4000000953674316,
+        "m_Depth": 15.0
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 252
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.3799999952316284,
+            "z": -5.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 467
+          }
+        }
+      ]
+    },
+    {
+      "pathId": 54,
+      "assetsFile": "level0",
+      "name": "Main Camera",
+      "camera": {
+        "m_Enabled": 1,
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 1000.0,
+        "field of view": 60.0,
+        "orthographic": false,
+        "orthographic size": 5.0,
+        "m_Depth": -1.0
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 5
+          },
+          "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": -10.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 52
+          }
+        }
+      ]
+    }
+  ],
+  "levelManager": {
+    "_rigidDepth": 0.5,
+    "boxTrans": {
+      "m_FileID": 0,
+      "m_PathID": 413
+    },
+    "_mainContentTrans": {
+      "m_FileID": 0,
+      "m_PathID": 407
+    },
+    "_contentSizeTrans": {
+      "m_FileID": 0,
+      "m_PathID": 398
+    },
+    "_mainLevelCameras": {
+      "m_FileID": 0,
+      "m_PathID": 534
+    },
+    "_p2boxTrans": {
+      "m_FileID": 0,
+      "m_PathID": 396
+    },
+    "_p1p2Cameras": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 535
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 536
+      }
+    ],
+    "_cameraTopTrans": {
+      "m_FileID": 0,
+      "m_PathID": 355
+    },
+    "_cameraLimitZ": -5.0,
+    "UseTwoScaleCurve": 1,
+    "_pickScaleCurve1": 6,
+    "_pickScaleCurve2": 2,
+    "_pickScaleMaxTime": 0.10000000149011612,
+    "_pickMaxScale": 1.399999976158142,
+    "_pickEndPunchScale": 0.029999999329447746,
+    "_throwScaleCurve1": 6,
+    "_throwScaleCurve2": 2,
+    "_throwMaxScale": 1.399999976158142,
+    "_shakeOnceDepth": 0.5,
+    "_shakeMaxDepthCount": 3,
+    "_playGuideMusicScale": 0.5,
+    "_mainCameraCenterTrans": {
+      "m_FileID": 0,
+      "m_PathID": 357
+    }
+  },
+  "referencedTransforms": {
+    "413": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 201
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 2.9000000953674316,
+        "y": 2.9000000953674316,
+        "z": 2.9000000953674316
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 353
+      },
+      "resolvedName": "LevelBoxPanel"
+    },
+    "353": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 128
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 364
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 436
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 445
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 430
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 358
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 411
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 402
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 686
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 687
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 684
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 434
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 380
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 413
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 419
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 377
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 396
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 379
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 441
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 362
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 427
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 512
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 420
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 399
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 429
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 424
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "resolvedName": "MainScene"
+    },
+    "407": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 195
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.30000001192092896,
+        "z": 0.44999998807907104
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 456
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 381
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 421
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 366
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 443
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 417
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 426
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 398
+      },
+      "resolvedName": "ContentPointList"
+    },
+    "398": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 186
+      },
+      "m_LocalRotation": {
+        "x": -0.7071068286895752,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 0.7071068286895752
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": -5.039999961853027,
+        "z": 2.0
+      },
+      "m_LocalScale": {
+        "x": 1.399999976158142,
+        "y": 1.399999976158142,
+        "z": 1.399999976158142
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 451
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 468
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 407
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 526
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 497
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 400
+      },
+      "resolvedName": "Content"
+    },
+    "400": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 188
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -30.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 398
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 458
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 357
+      },
+      "resolvedName": "Main Camera"
+    },
+    "357": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 142
+      },
+      "m_LocalRotation": {
+        "x": 0.6560590267181396,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.7547096610069275
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 400
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 380
+      },
+      "resolvedName": "MainLevelCenter"
+    },
+    "380": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 165
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 357
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 386
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 353
+      },
+      "resolvedName": "RotaCenter"
+    },
+    "396": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 184
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 50.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 2.9000000953674316,
+        "y": 2.9000000953674316,
+        "z": 2.9000000953674316
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 353
+      },
+      "resolvedName": "P2LevelBoxPanel"
+    },
+    "355": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 140
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 5.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 441
+      },
+      "resolvedName": "CameraTopPoint"
+    },
+    "441": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 230
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 448
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 447
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 355
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 353
+      },
+      "resolvedName": "SplitScreen"
+    }
+  }
+}

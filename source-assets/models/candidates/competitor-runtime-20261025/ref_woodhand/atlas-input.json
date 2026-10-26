@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.9150943160057068,
+        0.6203916668891907,
+        0.2460394948720932,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WoodHand\\tex_2676660324966141739.png",
+      "uvMin": [
+        -0.0890442430973053,
+        -2.1890628337860107
+      ],
+      "uvMax": [
+        0.6685440540313721,
+        1.809743881225586
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        0.9150943160057068,
+        0.6203916668891907,
+        0.2460394948720932,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WoodHand\\tex_2676660324966141739.png",
+      "uvMin": [
+        -0.08974367380142212,
+        -2.1893417835235596
+      ],
+      "uvMax": [
+        0.6685440540313721,
+        1.809743881225586
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_woodhand\\albedo.png"
+}

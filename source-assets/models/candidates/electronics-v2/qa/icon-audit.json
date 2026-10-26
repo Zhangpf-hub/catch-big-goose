@@ -1,0 +1,164 @@
+[
+  {
+    "id": "phone",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      24,
+      45,
+      170,
+      143
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "laptop",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      20,
+      30,
+      171,
+      168
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "camera",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      40,
+      38,
+      168,
+      155
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "headphones",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      32,
+      41,
+      161,
+      167
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "handheld",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      21,
+      59,
+      169,
+      138
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "speaker",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      60,
+      26,
+      138,
+      164
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "mouse",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      37,
+      43,
+      154,
+      156
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "smartwatch",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      32,
+      59,
+      156,
+      151
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "radio",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      31,
+      33,
+      168,
+      163
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  }
+]

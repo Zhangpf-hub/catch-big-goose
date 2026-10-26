@@ -1,0 +1,175 @@
+[
+  {
+    "Address": 17975,
+    "Name": "LevelManager.<LoopCreateObj>d__187$$MoveNext",
+    "Signature": "bool LevelManager__LoopCreateObj_d__187__MoveNext (LevelManager__LoopCreateObj_d__187_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74024",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17987,
+    "Name": "LevelManager.<LoopOptimization>d__196$$MoveNext",
+    "Signature": "bool LevelManager__LoopOptimization_d__196__MoveNext (LevelManager__LoopOptimization_d__196_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74002",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17827,
+    "Name": "LevelManager$$GetTimeABIndex",
+    "Signature": "int32_t LevelManager__GetTimeABIndex (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j43532",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17828,
+    "Name": "LevelManager$$CreateLevel",
+    "Signature": "void LevelManager__CreateLevel (LevelManager_o* __this, int32_t level, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j43549",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17831,
+    "Name": "LevelManager$$GetMainLevelABOffsetTypeCount",
+    "Signature": "int32_t LevelManager__GetMainLevelABOffsetTypeCount (LevelManager_o* __this, int32_t layer, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j43538",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17832,
+    "Name": "LevelManager$$GetMainLevelABOffsetGroupCount",
+    "Signature": "int32_t LevelManager__GetMainLevelABOffsetGroupCount (LevelManager_o* __this, int32_t layer, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j22248",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17835,
+    "Name": "LevelManager$$GetObjSize",
+    "Signature": "float LevelManager__GetObjSize (LevelManager_o* __this, System_String_o* objectName, const MethodInfo* method);",
+    "TypeSignature": "fiii",
+    "wasmSymbol": "$j43536",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17836,
+    "Name": "LevelManager$$CreateUnitObj",
+    "Signature": "ObjectUnit_o* LevelManager__CreateUnitObj (LevelManager_o* __this, CreateInfo_o* info, int32_t playerIndex, const MethodInfo* method);",
+    "TypeSignature": "iiiii",
+    "wasmSymbol": "$j7378",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17839,
+    "Name": "LevelManager$$CheckRigid",
+    "Signature": "void LevelManager__CheckRigid (LevelManager_o* __this, ObjectUnit_o* unit, int32_t index, float checkMul, const MethodInfo* method);",
+    "TypeSignature": "viiifi",
+    "wasmSymbol": "$j6450",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17840,
+    "Name": "LevelManager$$CheckVisible",
+    "Signature": "void LevelManager__CheckVisible (LevelManager_o* __this, ObjectUnit_o* unit, int32_t index, const MethodInfo* method);",
+    "TypeSignature": "viiii",
+    "wasmSymbol": "$j10885",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17841,
+    "Name": "LevelManager$$GetDynamicVisibleHeight",
+    "Signature": "float LevelManager__GetDynamicVisibleHeight (LevelManager_o* __this, int32_t index, float multi, const MethodInfo* method);",
+    "TypeSignature": "fiifi",
+    "wasmSymbol": "$j22249",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17855,
+    "Name": "LevelManager$$GetUnit",
+    "Signature": "UnityEngine_Vector3_o LevelManager__GetUnit (LevelManager_o* __this, ObjectUnit_o* unit, int32_t playerIndex, bool isClick, const MethodInfo* method);",
+    "TypeSignature": "iiiiii",
+    "wasmSymbol": "$j14621",
+    "signatureVerified": true,
+    "bodyRecovered": true,
+    "signaturePolicy": "Explicit Vector3 hidden leading return-buffer pointer; raw metadata signature differs",
+    "wasmTypeSignature": "viiiiii"
+  },
+  {
+    "Address": 17861,
+    "Name": "LevelManager$$GetTriple",
+    "Signature": "void LevelManager__GetTriple (LevelManager_o* __this, System_String_o* type, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j43531",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 26412,
+    "Name": "ValueManager$$GetWeightRandom",
+    "Signature": "float ValueManager__GetWeightRandom (float min, float max, float minWeight, float maxWeight, const MethodInfo* method);",
+    "TypeSignature": "fffffi",
+    "wasmSymbol": "$j18335",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 26413,
+    "Name": "ValueManager$$GetWeightMultiPart",
+    "Signature": "float ValueManager__GetWeightMultiPart (System_Single_array* min, System_Single_array* max, UnityEngine_Vector3_array* weightList, const MethodInfo* method);",
+    "TypeSignature": "fiiii",
+    "wasmSymbol": "$j32690",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101444,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$RollIndex",
+    "Signature": "int32_t Kunpo_KFakeRandom___Il2CppFullySharedGenericType___RollIndex (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C44* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j95576",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101440,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$RealRandomRollIndex",
+    "Signature": "int32_t Kunpo_KFakeRandom___Il2CppFullySharedGenericType___RealRandomRollIndex (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C40* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j95578",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101434,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$AllocPro",
+    "Signature": "void Kunpo_KFakeRandom___Il2CppFullySharedGenericType___AllocPro (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C3A* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95582",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101435,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$CalProToAlloc",
+    "Signature": "void Kunpo_KFakeRandom___Il2CppFullySharedGenericType___CalProToAlloc (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C3B* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95581",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  }
+]

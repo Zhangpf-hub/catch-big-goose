@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "originalMethodBodies": [
+    "$j94024",
+    "$j94025",
+    "$j94031"
+  ],
+  "modeConfigurations": 192,
+  "checks": 584,
+  "sha256": "62b2db6dd67b2754c056c3273bfad285cd93448cc0db45134bd03b797a319bc9",
+  "scope": "Original target/fast-create/time routing helpers only. 900/120/180 are host sentinels, not recovered runtime durations. Mode initialization, networking and scene play are not executed."
+}

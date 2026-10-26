@@ -1,0 +1,9 @@
+{
+  "id": "ref_apple",
+  "sourceId": "Apple",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Apple\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Apple.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "fd75e8647336b99bd9a8ce0a9188a2abc2e6b6742673f80b3e1d0b69c4119848"
+}

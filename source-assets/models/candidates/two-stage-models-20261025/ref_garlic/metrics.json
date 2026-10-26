@@ -1,0 +1,12 @@
+{
+  "id": "ref_garlic",
+  "triangles": 932,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.9332118630409241,
+    1.0,
+    0.9987332224845886
+  ],
+  "glbRoundtrip": true
+}

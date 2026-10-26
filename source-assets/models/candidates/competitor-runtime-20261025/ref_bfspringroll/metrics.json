@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfspringroll",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFSpringRoll\\BFSpringRoll.blend",
+  "sourceTriangles": 588,
+  "triangles": 588,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.3657925128936768,
+    1.241730809211731,
+    1.2510731220245361
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.90916508436203,
+    0.9160052537918091
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

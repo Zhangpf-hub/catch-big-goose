@@ -1,0 +1,236 @@
+{
+  "status": "awaiting-user-b2-master-mesh-review",
+  "conceptApproved": true,
+  "masterMeshApproved": false,
+  "paid3dGenerationCalled": false,
+  "unityAssetsChanged": false,
+  "threeCombinationRedoStarted": false,
+  "remainingSeventeenStarted": false,
+  "files": [
+    {
+      "path": "models/duck-b2-master/albedo.png",
+      "bytes": 3059,
+      "sha256": "cd688f840a6d081d98714f61a732a46b91ad9ddcf726845f9b4be8d1775bba57"
+    },
+    {
+      "path": "models/duck-b2-master/duck-b2-master.fbx",
+      "bytes": 126556,
+      "sha256": "0aace5d44362d55b9ca14f139c6accb2d4c2ca715d54fa1e33bff6af3665eec1"
+    },
+    {
+      "path": "models/duck-b2-master/duck-b2-master.glb",
+      "bytes": 124092,
+      "sha256": "8918b8c3b1645593c2a2f81b1b7106e2df61e6e28c5ac134579feac7d05a0936"
+    },
+    {
+      "path": "models/duck-b2-master-high.glb",
+      "bytes": 566036,
+      "sha256": "d648620ce5578c02f24cbffde3a090e26366739d858ee54269471b71b4f3e0db"
+    },
+    {
+      "path": "models/duck-b2-master-rig.glb",
+      "bytes": 198736,
+      "sha256": "4e30910710068a9307b16429d9f64168c529df9692b9c525635bbbcf1869a639"
+    },
+    {
+      "path": "qa/animation-preview.json",
+      "bytes": 609,
+      "sha256": "2115c092170db5b97d854fc2ae22780abf76d030b461fc153588e4705d9992bf"
+    },
+    {
+      "path": "qa/authoring.json",
+      "bytes": 2287,
+      "sha256": "08fc82b382167b15d62d84c3ab019a003399ba29545d4c13e6bb2fd5348f1f20"
+    },
+    {
+      "path": "qa/cage-topology.json",
+      "bytes": 254,
+      "sha256": "fa39143049fc19582fcf4f319958abf4164163bd8f088e7efcf562e22396f6a7"
+    },
+    {
+      "path": "qa/delivery-checks.json",
+      "bytes": 523,
+      "sha256": "bb6de029feda185217755a73acdf3df4e865b23588ecce3d3726112818436561"
+    },
+    {
+      "path": "qa/duck-b2-master-geometry.json",
+      "bytes": 314,
+      "sha256": "6cd17f87a4cd46f3a26e698298ee32207f1c1a4835d3a6cd06a75bb6687e0401"
+    },
+    {
+      "path": "qa/glb-validation.json",
+      "bytes": 1749,
+      "sha256": "b517280e5a7359fddd5a913a262ada5385f3d61e1954f34f4312d183f8610081"
+    },
+    {
+      "path": "qa/high-render-source.json",
+      "bytes": 345,
+      "sha256": "5993b0ff4b08783c72185a981e0f993dacd6b52e5282a3249656f2202d4587ad"
+    },
+    {
+      "path": "qa/proportions.json",
+      "bytes": 429,
+      "sha256": "d892f42152785c7770b4f62d6efcd71860c94b308265b589a8d96b87c592d61c"
+    },
+    {
+      "path": "qa/render-source.json",
+      "bytes": 693,
+      "sha256": "b36e38cd4e5b32e26e41aa01ba67740b69f85ad321e70a1a30d14f7cc7b43115"
+    },
+    {
+      "path": "qa/rig-roundtrip-validation.json",
+      "bytes": 1801,
+      "sha256": "1e978c0271bf8b160714735871fe1b33b08914c7d94e28c0e040f57989cf6fda"
+    },
+    {
+      "path": "qa/rig-source-validation.json",
+      "bytes": 959,
+      "sha256": "8ceab09827db0948c28e0504ef85936d753e58fc7863f3ebd98b51785d2531b2"
+    },
+    {
+      "path": "qa/silhouette-comparison.json",
+      "bytes": 730,
+      "sha256": "50ea87ce8859ae1704a506c0af5f1cddffb2ea0a816af89ddeb97faf1d70bb59"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3387,
+      "sha256": "f9abea6f39d6955bfc936d10eb89005b93eed95c7b8a0ed13b4e52bc6ee7c421"
+    },
+    {
+      "path": "renders/back.png",
+      "bytes": 369130,
+      "sha256": "e3f1b772c1ca2d2be5c53ef88d0ba7d4450ea3bf13e62965c3b8b30252e4ba47"
+    },
+    {
+      "path": "renders/duck_click.gif",
+      "bytes": 179008,
+      "sha256": "e809ae549f7493ffc4386785776c91fe42661e878097eab566bfab003e555474"
+    },
+    {
+      "path": "renders/duck_greet.gif",
+      "bytes": 287148,
+      "sha256": "d6a74a884640ee1abbc7da529f6d1d688632f4e09701cd4ce0bac7fc8fc0fd55"
+    },
+    {
+      "path": "renders/duck_idle.gif",
+      "bytes": 270162,
+      "sha256": "6f6036f812a418baf1de62058d1a9d8beac869366af2b56271df19951dcbcc18"
+    },
+    {
+      "path": "renders/front.png",
+      "bytes": 371362,
+      "sha256": "a4dd44e041f061b2964ee15481f45e64d7e702c5179fe32ebb957de9c318d108"
+    },
+    {
+      "path": "renders/gameplay.png",
+      "bytes": 311907,
+      "sha256": "5db74b1f647db92b366f2d580570416f59e07c2d44ed3422bdfc1abe3967b50e"
+    },
+    {
+      "path": "renders/head-detail.png",
+      "bytes": 209748,
+      "sha256": "e491cb57ef019b1d4a4310bdb7b6a454a9d75aaa2708bc725390796ed8944e7a"
+    },
+    {
+      "path": "renders/hero.png",
+      "bytes": 373788,
+      "sha256": "9215e763dd047f10d42a290dff4b83ef8c5938e15c7e4ab779eca5f37011fbaa"
+    },
+    {
+      "path": "renders/high-front.png",
+      "bytes": 371200,
+      "sha256": "12c737a6269cff401fe0cc90027cb08ba3dda37712e2d0d66f6d6456f88cadea"
+    },
+    {
+      "path": "renders/high-hero.png",
+      "bytes": 372754,
+      "sha256": "8b17cfcd2bc8ead8f002ff722e2ff5ad0c9470bcd64c1bff7dd2f6a3948382cd"
+    },
+    {
+      "path": "renders/high-low-sheet.png",
+      "bytes": 171583,
+      "sha256": "8ae414b77ce7cae74e23dd7026f3ad35ebc5a065c523078f9a9195ec49562a1c"
+    },
+    {
+      "path": "renders/high-side.png",
+      "bytes": 372439,
+      "sha256": "d5dfd7bdbfbcfa1072442adff259a5f591997b480f6a33d8679ab66fdc0f4031"
+    },
+    {
+      "path": "renders/icon-192.png",
+      "bytes": 22410,
+      "sha256": "e6534f590b38e2a7031aa9cfa9d00e7d201820f1f4b615587f432d66e9a3d052"
+    },
+    {
+      "path": "renders/icon-64.png",
+      "bytes": 3928,
+      "sha256": "446bf7b5bfc837eddd44770319f01f80165b2c2a2377bb8f1999b5683792c9e9"
+    },
+    {
+      "path": "renders/master-turnaround.png",
+      "bytes": 196313,
+      "sha256": "6eb722ba570456efa08acb56f45c881fb73b23faf8044ae0b8b8a25b9850ac85"
+    },
+    {
+      "path": "renders/pose-greeting.png",
+      "bytes": 225475,
+      "sha256": "0c863e81d40193557b2e3085853d0f4ae0731cc4d520220387298f4f3a266e24"
+    },
+    {
+      "path": "renders/pose-reach.png",
+      "bytes": 206910,
+      "sha256": "601d0ba097e582c2ca79f6f6121570b9ec467c891e8b7a20fd547294b328f3d0"
+    },
+    {
+      "path": "renders/pose-rest.png",
+      "bytes": 219310,
+      "sha256": "a75090da3459340e429288e0d49eb5fd97aab3d8f2a346c3bc5f4f94f4357629"
+    },
+    {
+      "path": "renders/pose-sheet.png",
+      "bytes": 130179,
+      "sha256": "a0c5761e0e4b756dd2e200e0aef2696ba1da36960e0ca1f4ac6a32e8c45aff1d"
+    },
+    {
+      "path": "renders/side.png",
+      "bytes": 373247,
+      "sha256": "5a57ef3bf55786f7948087b96369e3b38e302b6b2cb63d0ee669bfabbef3e206"
+    },
+    {
+      "path": "review.html",
+      "bytes": 4576,
+      "sha256": "0e25e5d7d088d7423c44200ed8896794826443784681440796aafbb52e48a80f"
+    },
+    {
+      "path": "source/duck-b2-master-cage.blend",
+      "bytes": 634827,
+      "sha256": "09ae953b66ac0b7c730f9b48695d7c9f93ec459ab33cb15a5651f751ffdd2e5e"
+    },
+    {
+      "path": "source/duck-b2-master-mobile.blend",
+      "bytes": 923140,
+      "sha256": "e737e58846d05333e8525668712107f34d3ff6f69f02fb917b487810affada1f"
+    },
+    {
+      "path": "source/duck-b2-master-review.blend",
+      "bytes": 916006,
+      "sha256": "8fcaf0526bc044c77c54b8c23adcfbf05a29b565aecc281c21821c25a5ec84ee"
+    },
+    {
+      "path": "source/duck-b2-master-rig-review.blend",
+      "bytes": 1023988,
+      "sha256": "d92bc30cf6595a79519a5acf7934408a638fb690755dc8b8883df22bbcb8b48e"
+    },
+    {
+      "path": "source/duck-b2-master-rig.blend",
+      "bytes": 1004852,
+      "sha256": "61871a3b432da740cf7466cb623a607621afb94760a0d5f56bd6622b3785b15b"
+    },
+    {
+      "path": "source/duck-b2-master-rig.blend1",
+      "bytes": 1004852,
+      "sha256": "072ed9e00e1d10374f9f55d30f2b8a42119f818c09d715c93e8c40d24772c267"
+    }
+  ]
+}

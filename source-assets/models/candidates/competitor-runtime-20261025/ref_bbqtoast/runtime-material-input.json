@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "BBQToastMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_3897503120883338056.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

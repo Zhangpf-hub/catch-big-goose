@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_orange",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Orange\\Orange.blend",
+  "sourceTriangles": 480,
+  "triangles": 480,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0513043403625488,
+    0.9753985404968262,
+    0.9830126166343689
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.9277984499931335,
+    0.9350409507751465
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

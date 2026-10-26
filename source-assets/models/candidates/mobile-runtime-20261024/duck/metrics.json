@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "duck",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\duck\\duck.fbx",
+  "sourceTriangles": 5860,
+  "triangles": 3999,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7258061170578003,
+    0.7439635992050171,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.7258061170578003,
+    0.7433931827545166,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

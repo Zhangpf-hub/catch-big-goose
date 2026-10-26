@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bffagao",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFFaGao\\BFFaGao.blend",
+  "sourceTriangles": 578,
+  "triangles": 578,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.9003281593322754,
+    1.6054788827896118,
+    1.4693338871002197
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.8448429703712463,
+    0.7732000946998596
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

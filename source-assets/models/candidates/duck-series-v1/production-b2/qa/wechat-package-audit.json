@@ -1,0 +1,44 @@
+{
+  "localPackagePassed": true,
+  "appId": "wx60b50db2472c4782",
+  "ownAppIdConfigured": true,
+  "rawBytes": 32181282,
+  "rawMiB": 30.69,
+  "packagedBytes": 31244537,
+  "packagedMiB": 29.8,
+  "excludedFiles": [
+    {
+      "path": "webgl.wasm.symbols.unityweb.br",
+      "bytes": 936745
+    }
+  ],
+  "javascriptFiles": 61,
+  "checks": [
+    "WeChat mini-game project type",
+    "ES module transpilation enabled for WeChat runtime",
+    "Project AppID matches Unity runtime manager configuration",
+    "Portrait screen configuration",
+    "Wasm, first data and on-demand media subpackages",
+    "Compiled compressed Wasm exists",
+    "First game resources bundled without CDN",
+    "Published files honor project.config.json exclusions and remain within 30 MiB budget",
+    "Both full mobile clips included",
+    "Video package integrity: Darkchaser-Battletide.mp4",
+    "Source video preserved: Darkchaser-Battletide.mp4",
+    "Video package integrity: Skycore-Reboot.f5800.mp4",
+    "Source video preserved: Skycore-Reboot.f5800.mp4",
+    "Exported JavaScript syntax checked (61 files)",
+    "Subset UI font integrity"
+  ],
+  "errors": [],
+  "accountTypeVerifiedByThisAudit": false,
+  "developerToolsRuntimePassed": null,
+  "iPhoneAcceptancePassed": null,
+  "scope": "local_exported_files_only",
+  "runtimeEvidence": "work/wechat-integration/simulator-acceptance.json",
+  "pending": [
+    "Verify registered mini-game account type and UnityPlugin permissions",
+    "Run actual mini-game simulator acceptance",
+    "Scan real preview QR with iPhone and finish device checks"
+  ]
+}

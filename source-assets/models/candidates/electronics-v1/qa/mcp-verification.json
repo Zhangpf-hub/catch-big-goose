@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "initialize": {
+    "protocolVersion": "2025-11-25",
+    "capabilities": {
+      "experimental": {},
+      "prompts": {
+        "listChanged": false
+      },
+      "resources": {
+        "subscribe": false,
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": false
+      }
+    },
+    "serverInfo": {
+      "name": "MCP for Blender",
+      "version": "1.30.0"
+    },
+    "instructions": "MCP for Blender drives the user's live Blender. execute_blender_code runs Python there\nwith the full bpy API, so anything Blender can do, you can do; look shows you the result.\n\nStart with get_addon_status (Blender version, which libraries and generators are on) and\nget_scene_info.\n\nScripts run in someone else's Blender:\n- Look shader nodes up by type, never by name (names are localized):\n  `next(n for n in mat.node_tree.nodes if n.type == \"BSDF_PRINCIPLED\")`.\n- Never hardcode enum identifiers; read them, e.g.\n  `[i.identifier for i in bpy.types.RenderSettings.bl_rna.properties[\"file_format\"].enum_items]`.\n  scene.render.engine under-reports: read the current value, and assign a new one inside\n  try/except TypeError, whose message lists the valid engines.\n- Material colors go on shader node inputs; material.diffuse_color only affects the viewport.\n\nlook is how you see your work; use it as much as you need. Images stay in the conversation, so\na smaller max_size keeps long sessions cheap.\n\nObjects can also come from existing libraries (search_assets, then import_asset: Poly Haven,\nSketchfab, Poly Pizza) or be made to order (generate_3d: one new textured model from text or an\nimage, 1-3 minutes, may cost the user a credit). A generation is one object, never a whole\nscene, the ground or parts to assemble. Imported and generated models arrive at arbitrary\nscale: use the reported world_bounding_box to size them and put them on the ground."
+  },
+  "toolCount": 9,
+  "verifiedTools": [
+    "get_scene_info",
+    "execute_blender_code"
+  ],
+  "execution": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Code executed successfully: 23:00:20 | INFO: Data are loaded, start creating Blender stuff\n23:00:20 | INFO: Blender create Mesh node phone\n23:00:20 | INFO: glTF import finished in 0.00s\nInfo: Saved as \"mcp-verified-phone.blend\"\n{\"marker\": \"MCP_GLB_ROUNDTRIP_PASS\", \"object\": \"mcp_verified_phone\", \"dimensions\": [0.5605000257492065, 1.0, 0.2175000011920929], \"version\": \"4.5.14 LTS\"}\n"
+      }
+    ],
+    "structuredContent": {
+      "result": "Code executed successfully: 23:00:20 | INFO: Data are loaded, start creating Blender stuff\n23:00:20 | INFO: Blender create Mesh node phone\n23:00:20 | INFO: glTF import finished in 0.00s\nInfo: Saved as \"mcp-verified-phone.blend\"\n{\"marker\": \"MCP_GLB_ROUNDTRIP_PASS\", \"object\": \"mcp_verified_phone\", \"dimensions\": [0.5605000257492065, 1.0, 0.2175000011920929], \"version\": \"4.5.14 LTS\"}\n"
+    },
+    "isError": false
+  },
+  "sceneInfo": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Scene 'Scene' | 1 mesh | active mcp_verified_phone | selected mcp_verified_phone | mode OBJECT\n\nShowing 1 of 1 (name | type | location | size | hidden | children):\nmcp_verified_phone | mesh | at (0.0, 0.0, 0.0) | size 0.56x1.0x0.22"
+      }
+    ],
+    "structuredContent": {
+      "result": "Scene 'Scene' | 1 mesh | active mcp_verified_phone | selected mcp_verified_phone | mode OBJECT\n\nShowing 1 of 1 (name | type | location | size | hidden | children):\nmcp_verified_phone | mesh | at (0.0, 0.0, 0.0) | size 0.56x1.0x0.22"
+    },
+    "isError": false
+  }
+}

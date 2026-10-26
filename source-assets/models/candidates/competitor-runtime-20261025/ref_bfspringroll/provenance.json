@@ -1,0 +1,9 @@
+{
+  "id": "ref_bfspringroll",
+  "sourceId": "BFSpringRoll",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFSpringRoll\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFSpringRoll.prefab",
+  "bundle": "levelbreakfastobjprefab_assets_part2_2598409845f1ae47bdaccd4705da9ac7.bundle",
+  "sourceSha256": "840914eff70a415e964ad4d9c5fd78de8711a7bcdfbcc76424aa562284ad57d2"
+}

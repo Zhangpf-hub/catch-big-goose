@@ -1,0 +1,9 @@
+{
+  "id": "ref_windoilbottle",
+  "sourceId": "WindOilBottle",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\WindOilBottle\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/WindOilBottle.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "c618e5df89831067c9df3894120bd85f7c223d29041ee67e34a54b71e41bf454"
+}

@@ -1,0 +1,354 @@
+  (func $j10883 (type $t5) (param $p0 i32) (param $p1 i32) (param $p2 i32) (result i32)
+    (local $l3 i64) (local $l4 f32) (local $l5 f32) (local $l6 i32) (local $l7 i32) (local $l8 i32)
+    global.get $primary.global$0
+    i32.const 144
+    i32.sub
+    local.set $p2
+    local.get $p2
+    global.set $primary.global$0
+    i32.const 5140073
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      call $j922
+      i32.const 5140073
+      i32.const 1
+      i32.store8
+    end
+    local.get $p2
+    i32.const 72
+    i32.add
+    i32.const 0
+    i32.const 68
+    call $j942
+    drop
+    block $B1
+      block $B2
+        block $B3
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          local.get $p2
+          call $j2087 ;; LevelManager$$HasTwoPlayer
+          i32.eqz
+          br_if $B3
+          i32.const 0
+          call $j3861 ;; UnityEngine.Input$$get_touchCount
+          i32.const 1
+          i32.lt_s
+          br_if $B1
+          local.get $p1
+          i32.const 1
+          i32.ne
+          local.set $l6
+          local.get $p1
+          i32.const 2
+          i32.ne
+          local.set $l7
+          i32.const 0
+          local.set $p1
+          loop $L4
+            i32.const 0
+            call $j3861 ;; UnityEngine.Input$$get_touchCount
+            local.get $p1
+            i32.le_s
+            br_if $B1
+            local.get $p2
+            local.get $p1
+            i32.const 0
+            call $j3487 ;; UnityEngine.Input$$GetTouch
+            local.get $p2
+            i32.const 72
+            i32.add
+            local.get $p2
+            i32.const 68
+            call $j936
+            drop
+            local.get $p2
+            i32.load offset=76
+            i64.extend_i32_u
+            local.get $p2
+            i32.load offset=80
+            i64.extend_i32_u
+            i64.const 32
+            i64.shl
+            i64.or
+            local.set $l3
+            local.get $p2
+            local.get $l3
+            i32.wrap_i64
+            i32.store
+            local.get $p2
+            local.get $l3
+            i64.const 32
+            i64.shr_u
+            i32.wrap_i64
+            i32.store offset=4
+            local.get $p2
+            f32.load offset=4
+            local.set $l4
+            i32.const 0
+            call $j1612 ;; UnityEngine.Screen$$get_height
+            f32.convert_i32_s
+            f32.const 0x1p-1 (;=0.5;)
+            f32.mul
+            local.set $l5
+            block $B5
+              local.get $l6
+              br_if $B5
+              local.get $l4
+              local.get $l5
+              f32.lt
+              i32.eqz
+              br_if $B5
+              local.get $p0
+              i32.const 1
+              i32.store8 offset=420
+              local.get $p2
+              local.get $p1
+              i32.const 0
+              call $j3487 ;; UnityEngine.Input$$GetTouch
+              local.get $p2
+              i32.const 72
+              i32.add
+              local.get $p2
+              i32.const 68
+              call $j936
+              drop
+              local.get $p2
+              i32.load offset=76
+              i64.extend_i32_u
+              local.get $p2
+              i32.load offset=80
+              i64.extend_i32_u
+              i64.const 32
+              i64.shl
+              i64.or
+              local.set $l3
+              local.get $p2
+              local.get $l3
+              i32.wrap_i64
+              i32.store
+              local.get $p2
+              local.get $l3
+              i64.const 32
+              i64.shr_u
+              i32.wrap_i64
+              i32.store offset=4
+              local.get $p0
+              i32.const 424
+              i32.add
+              local.set $p0
+              br $B2
+            end
+            local.get $p2
+            local.get $p1
+            i32.const 0
+            call $j3487 ;; UnityEngine.Input$$GetTouch
+            local.get $p2
+            i32.const 72
+            i32.add
+            local.get $p2
+            i32.const 68
+            call $j936
+            drop
+            local.get $p2
+            i32.load offset=76
+            i64.extend_i32_u
+            local.get $p2
+            i32.load offset=80
+            i64.extend_i32_u
+            i64.const 32
+            i64.shl
+            i64.or
+            local.set $l3
+            local.get $p2
+            local.get $l3
+            i32.wrap_i64
+            i32.store
+            local.get $p2
+            local.get $l3
+            i64.const 32
+            i64.shr_u
+            i32.wrap_i64
+            i32.store offset=4
+            local.get $p2
+            f32.load offset=4
+            local.set $l4
+            i32.const 0
+            call $j1612 ;; UnityEngine.Screen$$get_height
+            f32.convert_i32_s
+            f32.const 0x1p-1 (;=0.5;)
+            f32.mul
+            local.set $l5
+            block $B6
+              local.get $l7
+              br_if $B6
+              local.get $l4
+              local.get $l5
+              f32.ge
+              i32.eqz
+              br_if $B6
+              local.get $p0
+              i32.const 1
+              i32.store8 offset=421
+              local.get $p2
+              local.get $p1
+              i32.const 0
+              call $j3487 ;; UnityEngine.Input$$GetTouch
+              local.get $p2
+              i32.const 72
+              i32.add
+              local.get $p2
+              i32.const 68
+              call $j936
+              drop
+              local.get $p2
+              i32.load offset=76
+              i64.extend_i32_u
+              local.get $p2
+              i32.load offset=80
+              i64.extend_i32_u
+              i64.const 32
+              i64.shl
+              i64.or
+              local.set $l3
+              local.get $p2
+              local.get $l3
+              i32.wrap_i64
+              i32.store
+              local.get $p2
+              local.get $l3
+              i64.const 32
+              i64.shr_u
+              i32.wrap_i64
+              i32.store offset=4
+              local.get $p0
+              i32.const 432
+              i32.add
+              local.set $p0
+              br $B2
+            end
+            local.get $p1
+            i32.const 1
+            i32.add
+            local.set $p1
+            br $L4
+          end
+          unreachable
+        end
+        i32.const 3958052 ;; LevelManager_TypeInfo
+        i32.load
+        call $j923
+        local.get $p2
+        call $j2087 ;; LevelManager$$HasTwoPlayer
+        local.set $l7
+        i32.const 0
+        i32.const 0
+        call $j3066 ;; UnityEngine.Input$$GetMouseButton
+        local.set $l6
+        local.get $l7
+        if $I7
+          local.get $l6
+          i32.eqz
+          br_if $B1
+          local.get $p2
+          i32.const 0
+          call $j1807 ;; UnityEngine.Input$$get_mousePosition
+          local.get $p2
+          f32.load offset=4
+          local.set $l4
+          i32.const 0
+          call $j1612 ;; UnityEngine.Screen$$get_height
+          f32.convert_i32_s
+          f32.const 0x1p-1 (;=0.5;)
+          f32.mul
+          local.set $l5
+          block $B8
+            local.get $p1
+            i32.const 1
+            i32.ne
+            br_if $B8
+            local.get $l4
+            local.get $l5
+            f32.lt
+            i32.eqz
+            br_if $B8
+            local.get $p0
+            i32.const 1
+            i32.store8 offset=420
+            local.get $p2
+            i32.const 0
+            call $j1807 ;; UnityEngine.Input$$get_mousePosition
+            local.get $p0
+            i32.const 424
+            i32.add
+            local.set $p0
+            br $B2
+          end
+          local.get $p2
+          i32.const 0
+          call $j1807 ;; UnityEngine.Input$$get_mousePosition
+          local.get $p2
+          f32.load offset=4
+          i32.const 0
+          call $j1612 ;; UnityEngine.Screen$$get_height
+          f32.convert_i32_s
+          f32.const 0x1p-1 (;=0.5;)
+          f32.mul
+          f32.ge
+          i32.eqz
+          br_if $B1
+          local.get $p1
+          i32.const 2
+          i32.ne
+          br_if $B1
+          local.get $p0
+          i32.const 1
+          i32.store8 offset=421
+          local.get $p2
+          i32.const 0
+          call $j1807 ;; UnityEngine.Input$$get_mousePosition
+          local.get $p0
+          i32.const 432
+          i32.add
+          local.set $p0
+          br $B2
+        end
+        local.get $l6
+        i32.eqz
+        br_if $B1
+        local.get $p0
+        i32.const 1
+        i32.store8 offset=420
+        local.get $p2
+        i32.const 0
+        call $j1807 ;; UnityEngine.Input$$get_mousePosition
+        local.get $p0
+        i32.const 424
+        i32.add
+        local.set $p0
+      end
+      local.get $p2
+      i64.load
+      local.set $l3
+      local.get $p0
+      local.get $l3
+      i32.wrap_i64
+      i32.store
+      local.get $p0
+      local.get $l3
+      i64.const 32
+      i64.shr_u
+      i32.wrap_i64
+      i32.store offset=4
+      i32.const 1
+      local.set $l8
+    end
+    local.get $p2
+    i32.const 144
+    i32.add
+    global.set $primary.global$0
+    local.get $l8
+    return)

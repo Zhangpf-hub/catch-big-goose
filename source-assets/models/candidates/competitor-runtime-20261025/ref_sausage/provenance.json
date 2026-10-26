@@ -1,0 +1,9 @@
+{
+  "id": "ref_sausage",
+  "sourceId": "Sausage",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Sausage\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Sausage.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part1_5181798df32f95196365c0e9e6ad2c5e.bundle",
+  "sourceSha256": "ad150047d755582fc4a778e820c63d8c2964acece018e9c45fdf662db3c9b7de"
+}

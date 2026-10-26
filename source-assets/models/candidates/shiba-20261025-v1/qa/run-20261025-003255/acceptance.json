@@ -1,0 +1,23 @@
+{
+    "passed": true,
+    "sleepers": 45,
+    "maxSettledSpeed": 0.0,
+    "checks": [
+        "45 dynamic shibas remain inside arena",
+        "At least 40/45 bodies naturally sleep after 15 seconds",
+        "Settled speed below 0.15 m/s",
+        "Dense pile ray hits an actual body",
+        "Removing a support does not leak remaining bodies through floor",
+        "Real round spawned",
+        "Production generator supplies complete shiba triples",
+        "Generated shibas use one renderer/material and remain in real container",
+        "Shiba can be found through a screen ray among actual props",
+        "Screen tap picks shiba through production input",
+        "Actual shiba mesh arrives at seven-slot tray",
+        "Shiba silhouette fits inside one tray slot",
+        "Matching shiba pickup accepted",
+        "Matching shiba pickup accepted",
+        "Three actual shibas complete production match"
+    ],
+    "errors": []
+}

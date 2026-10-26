@@ -1,0 +1,9 @@
+{
+  "id": "ref_bffrieddoughstick",
+  "sourceId": "BFFriedDoughStick",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFFriedDoughStick\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFFriedDoughStick.prefab",
+  "bundle": "levelbreakfastobjprefab_assets__835b65343c480715b13b20401bc8491d.bundle",
+  "sourceSha256": "abb66c8238975dc665aeb53207f755474906b441db9b5302e3bf12c89290bd49"
+}

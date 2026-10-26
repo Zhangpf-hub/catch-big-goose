@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_frieddumpling",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\FriedDumpling\\FriedDumpling.blend",
+  "sourceTriangles": 568,
+  "triangles": 568,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.2308568954467773,
+    0.6553666591644287,
+    0.43823763728141785
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.5324474573135376,
+    0.3560427129268646
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

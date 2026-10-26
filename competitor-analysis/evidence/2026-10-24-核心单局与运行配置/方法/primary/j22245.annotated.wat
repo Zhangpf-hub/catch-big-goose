@@ -1,0 +1,54 @@
+  (func $j22245 (type $t1) (param $p0 i32) (param $p1 i32) (result i32)
+    (local $l2 i32) (local $l3 i32)
+    i32.const 5140130
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      call $j922
+      i32.const 3997932 ;; Method$System.Collections.Generic.List<List<ObjectUnit>>.get_Count()
+      call $j922
+      i32.const 3997936 ;; Method$System.Collections.Generic.List<List<ObjectUnit>>.get_Item()
+      call $j922
+      i32.const 5140130
+      i32.const 1
+      i32.store8
+    end
+    i32.const 0
+    local.set $p1
+    loop $L1
+      i32.const 3997932 ;; Method$System.Collections.Generic.List<List<ObjectUnit>>.get_Count()
+      i32.load
+      drop
+      local.get $p1
+      local.get $p0
+      i32.load offset=624
+      i32.load offset=12
+      i32.lt_s
+      if $I2
+        local.get $l2
+        local.set $l3
+        local.get $p0
+        i32.load offset=624
+        local.get $p1
+        i32.const 3997936 ;; Method$System.Collections.Generic.List<List<ObjectUnit>>.get_Item()
+        i32.load
+        call $j947
+        local.set $l2
+        i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+        i32.load
+        drop
+        local.get $l3
+        local.get $l2
+        i32.load offset=12
+        i32.add
+        local.set $l2
+        local.get $p1
+        i32.const 1
+        i32.add
+        local.set $p1
+        br $L1
+      end
+    end
+    local.get $l2
+    return)

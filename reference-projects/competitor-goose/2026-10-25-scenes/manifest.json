@@ -1,0 +1,47 @@
+{
+  "appId": "wxb98ac240fd74b0e3",
+  "date": "2026-10-25",
+  "purpose": "Read-only recovered source evidence for user-requested Unity runtime derivation; source prefab poses retained or baked, original shader program not recovered.",
+  "unityPyVersion": "1.25.4",
+  "sources": [
+    {
+      "file": "levelscenemultiprefab_assets_part2_adfd21c3c8aa12d82fd62601c468cfdd.bundle",
+      "bytes": 297044,
+      "sha256": "1da7f58f00734e990150ac37f740efc7107b4c620c7050f1714df04061746e40"
+    }
+  ],
+  "models": [
+    {
+      "id": "Barbecue",
+      "triangles": 3810,
+      "source": "models/Barbecue/source.json",
+      "sourceSha256": "9a4bccf5fd2d62ad6602760e7c46c4415c5c0cb082d0d787447a136bada26ed6"
+    },
+    {
+      "id": "Breakfast",
+      "triangles": 1928,
+      "source": "models/Breakfast/source.json",
+      "sourceSha256": "d72187ab4c445c9befd342fba86f755eb239603b1a1271408e7022de11d0328d"
+    },
+    {
+      "id": "CountrysideStove",
+      "triangles": 2674,
+      "source": "models/CountrysideStove/source.json",
+      "sourceSha256": "566d105cadc3d14d5255d118aba5cfbcf0ebff177fc3a0fbc3af21cabc6cc728"
+    },
+    {
+      "id": "GooseToys",
+      "triangles": 1112,
+      "source": "models/GooseToys/source.json",
+      "sourceSha256": "652c362db12f37566529b53310c4407f227eec07f671a65829a94b75b12786ba"
+    },
+    {
+      "id": "GroceryStore",
+      "triangles": 8004,
+      "source": "models/GroceryStore/source.json",
+      "sourceSha256": "4cbafb1a2b9724afeb2ab343b1befc2e02465d166907e9922c3560b7b04c152a"
+    }
+  ],
+  "skipped": [],
+  "priorBatch": null
+}

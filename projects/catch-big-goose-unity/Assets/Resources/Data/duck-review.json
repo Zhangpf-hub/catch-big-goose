@@ -1,0 +1,179 @@
+{
+  "themes": [
+    {
+      "id": "duck-review-breakfast",
+      "name": "鸭子评审 · 早餐铺",
+      "icon": "duck-eggpancake",
+      "items": [
+        "duck-eggpancake",
+        "duck-eggtart",
+        "duck-milletcake",
+        "duck-steamedbread"
+      ],
+      "background": "mobile-ui/themes/breakfast-v1",
+      "container": "round_breakfast_r4",
+      "circular": true,
+      "halfX": 1.72,
+      "halfZ": 1.72,
+      "coreGroupWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coreWeightEvidence": "Independent B2 review catalog; 12 objects per type.",
+      "itemWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "groupWeights": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "duck-review-barbecue",
+      "name": "鸭子评审 · 烧烤摊",
+      "icon": "duck-eggplant",
+      "items": [
+        "duck-eggplant",
+        "duck-greenpepper",
+        "duck-pancake",
+        "duck-potato"
+      ],
+      "background": "mobile-ui/themes/barbecue-v1",
+      "container": "round_barbecue_r4",
+      "circular": true,
+      "halfX": 1.72,
+      "halfZ": 1.72,
+      "coreGroupWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coreWeightEvidence": "Independent B2 review catalog; 12 objects per type.",
+      "itemWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "groupWeights": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "duck-review-courtyard",
+      "name": "鸭子评审 · 乡村小院",
+      "icon": "duck-tomato",
+      "items": [
+        "duck-tomato",
+        "duck-steelcup",
+        "duck-farmer",
+        "duck-watermelon"
+      ],
+      "background": "mobile-ui/themes/countryside-v1",
+      "container": "round_countryside_r4",
+      "circular": true,
+      "halfX": 1.72,
+      "halfZ": 1.72,
+      "coreGroupWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coreWeightEvidence": "Independent B2 review catalog; 12 objects per type.",
+      "itemWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "groupWeights": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "duck-review-toys",
+      "name": "鸭子评审 · 童年玩具",
+      "icon": "duck-numberblock",
+      "items": [
+        "duck-numberblock",
+        "duck-yoyo",
+        "duck-craftpunch",
+        "duck-capsulepen"
+      ],
+      "background": "mobile-ui/themes/toys-v1",
+      "container": "round_toys_r4",
+      "circular": true,
+      "halfX": 1.72,
+      "halfZ": 1.72,
+      "coreGroupWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coreWeightEvidence": "Independent B2 review catalog; 12 objects per type.",
+      "itemWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "groupWeights": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "duck-review-grocery",
+      "name": "鸭子评审 · 杂货铺",
+      "icon": "duck-chilisauce",
+      "items": [
+        "duck-chilisauce",
+        "duck-colacup",
+        "duck-egg",
+        "duck-noodles"
+      ],
+      "background": "mobile-ui/themes/grocery-v1",
+      "container": "round_grocery_r4",
+      "circular": true,
+      "halfX": 1.72,
+      "halfZ": 1.72,
+      "coreGroupWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coreWeightEvidence": "Independent B2 review catalog; 12 objects per type.",
+      "itemWeights": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "groupWeights": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

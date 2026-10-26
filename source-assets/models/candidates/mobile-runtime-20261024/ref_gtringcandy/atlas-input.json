@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRingCandy\\tex_-3804928966648046861.png",
+      "uvMin": [
+        0.007019319571554661,
+        0.011761633679270744
+      ],
+      "uvMax": [
+        0.9806963801383972,
+        0.9925765991210938
+      ]
+    },
+    {
+      "color": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0034131761640310287,
+        0.005986016243696213
+      ],
+      "uvMax": [
+        0.9900762438774109,
+        0.9893649220466614
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\ref_gtringcandy\\albedo.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ref_goose_pancake",
+  "triangles": 2402,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.9746513366699219,
+    1.0,
+    0.7565224766731262
+  ],
+  "glbRoundtrip": true
+}

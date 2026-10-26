@@ -1,0 +1,23 @@
+{
+  "id": "duck-colacup",
+  "triangles": 2784,
+  "dimensions": [
+    0.6539026498794556,
+    0.7090417146682739,
+    1.0
+  ],
+  "sourceCenter": [
+    0.0,
+    0.006163105368614197,
+    0.4499301016330719
+  ],
+  "sourceExtent": 0.8869821429252625,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 66932,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

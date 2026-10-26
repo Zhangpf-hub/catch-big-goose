@@ -1,0 +1,25 @@
+{
+  "rowClass": "PVPLevelDataData",
+  "fields": [
+    [
+      "_levelindex",
+      "int"
+    ],
+    [
+      "_leveltype",
+      "string"
+    ],
+    [
+      "_iconkey",
+      "string"
+    ],
+    [
+      "_levelshape",
+      "int"
+    ],
+    [
+      "_levelname",
+      "string"
+    ]
+  ]
+}

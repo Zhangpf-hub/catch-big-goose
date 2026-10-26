@@ -1,0 +1,42 @@
+{
+  "id": "duck-milletcake",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangleTarget": true,
+    "bytes": true,
+    "noSkin": true,
+    "noAnimation": true,
+    "uv": true,
+    "atlas": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "geometry": true,
+    "motherPreserved": true
+  },
+  "triangles": 3552,
+  "bytes": 84348,
+  "sha256": "98e4b933794770f25ad556ccc62c4bad0adbbe1723e4efa006a4fbec7c8208dc",
+  "images": [
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    }
+  ],
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

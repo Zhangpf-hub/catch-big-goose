@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "WoodHandMa",
+      "color": [
+        0.9150943160057068,
+        0.6203916668891907,
+        0.2460394948720932,
+        1
+      ],
+      "texture": "tex_2676660324966141739.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

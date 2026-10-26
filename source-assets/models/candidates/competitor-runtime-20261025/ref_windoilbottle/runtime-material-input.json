@@ -1,0 +1,56 @@
+{
+  "materials": [
+    {
+      "name": "GlassOutside",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonGlass",
+      "glassFlattened": true
+    },
+    {
+      "name": "GlassTop",
+      "color": [
+        0.018867909908294678,
+        0.018867909908294678,
+        0.018867909908294678,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite2",
+      "glassFlattened": false
+    },
+    {
+      "name": "GlassTex",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_5711493289114707789.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite2",
+      "glassFlattened": false
+    },
+    {
+      "name": "GrassInside",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

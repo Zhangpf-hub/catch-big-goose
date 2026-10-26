@@ -1,0 +1,53 @@
+{
+  "id": "duck-greenpepper",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_GreenPepper/Goose_GreenPepper.glb",
+  "sourceSha256": "0f8eef4b409d4ad79c7a9d743dfd0e6f1a7dba5b44ef45e414a8bc925070b388",
+  "originalWorldDimensions": [
+    1.4663753509521484,
+    1.8508248329162598,
+    1.084469199180603
+  ],
+  "uniformScale": 0.5402996449017522,
+  "normalizedWorldDimensions": [
+    0.7922821044921875,
+    1.0,
+    0.5859383344650269
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

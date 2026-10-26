@@ -1,0 +1,3592 @@
+[
+  {
+    "path": "原创候选/icons/alarmclock-64.png",
+    "bytes": 4141,
+    "sha256": "b9c36304554da6a7c2f571fa8b7cee1f33fc6dfef9a8520b6a7db035c412d830"
+  },
+  {
+    "path": "原创候选/icons/alarmclock.png",
+    "bytes": 30266,
+    "sha256": "dfd1d08b4307235f8c61ac5aaa2eeed78f99312471bb7d073dcd39d7a915c909"
+  },
+  {
+    "path": "原创候选/icons/avocado-64.png",
+    "bytes": 3071,
+    "sha256": "ad96c0f7371cded861c09a6dc24aa8813214bb579c6feb645f0f73485767c7de"
+  },
+  {
+    "path": "原创候选/icons/avocado.png",
+    "bytes": 23523,
+    "sha256": "4ac9b96953cfd164fc2e2ca5193fa48ccfd8ceb212b70ea6e312f2bdf26938a9"
+  },
+  {
+    "path": "原创候选/icons/bellpepper-64.png",
+    "bytes": 2909,
+    "sha256": "489d8075b203fff12c844604894e14527fd097c98108fb4586d8ea253bdaab9e"
+  },
+  {
+    "path": "原创候选/icons/bellpepper.png",
+    "bytes": 22180,
+    "sha256": "c0f5a53ea5322345bdc62616b65243fe060b060a519f7d00e56e90946cf181a7"
+  },
+  {
+    "path": "原创候选/icons/blueberry-64.png",
+    "bytes": 3608,
+    "sha256": "6bd0b8088d821a63d87e5b7e113c6ba4e5add1afc81f29d096995a11bef7d635"
+  },
+  {
+    "path": "原创候选/icons/blueberry.png",
+    "bytes": 25933,
+    "sha256": "8b94687bceded8d0278d179a795c48585e1ad8a9e6fd256891fa67b49b53d9de"
+  },
+  {
+    "path": "原创候选/icons/broccoli-64.png",
+    "bytes": 2893,
+    "sha256": "ac608a65ff0aa37e7ffa7cbb2c961386f129bc689405b068ec2442dda2b98f7c"
+  },
+  {
+    "path": "原创候选/icons/broccoli.png",
+    "bytes": 21713,
+    "sha256": "379475905e0a4d616c3adc71576ee560fce2e442dc3a3c6d0086334bf302112f"
+  },
+  {
+    "path": "原创候选/icons/cabbage-64.png",
+    "bytes": 3136,
+    "sha256": "1a691a1aa6d844fac6d6efcc3a0e2bb5b000505ba4e74edef4c06785d2baea96"
+  },
+  {
+    "path": "原创候选/icons/cabbage.png",
+    "bytes": 23033,
+    "sha256": "601aea96251cdfbc0c975bb99db26525f3970627b7fe715d4f3a844048d7d33c"
+  },
+  {
+    "path": "原创候选/icons/chocolate-64.png",
+    "bytes": 3972,
+    "sha256": "95b0578f0cb31c5f32dcb3dda9a9a56f281853f0b7156393b0b60b92a860c393"
+  },
+  {
+    "path": "原创候选/icons/chocolate.png",
+    "bytes": 28185,
+    "sha256": "6e616f3f7a2a0c21629e57c45af1f4965e33baa15f08d13d111ad4eb69c1cf33"
+  },
+  {
+    "path": "原创候选/icons/coconut-64.png",
+    "bytes": 3303,
+    "sha256": "a895d231be1ca0ccb05ec8e6a47a9ad56787ff147869aa03773ee9b1ffbaf907"
+  },
+  {
+    "path": "原创候选/icons/coconut.png",
+    "bytes": 24780,
+    "sha256": "7bb75cb3596de37da650a54e3e4f87269daec93441de1cbd374304c4a1918b68"
+  },
+  {
+    "path": "原创候选/icons/cucumber-64.png",
+    "bytes": 2464,
+    "sha256": "c43bd298a704d62065b42125249f50d916dd6a57dfce45afe52f34aab5df3e24"
+  },
+  {
+    "path": "原创候选/icons/cucumber.png",
+    "bytes": 21435,
+    "sha256": "dc175338815c3e43724ac5c539a67fcff03bf87f159f5fbd718c8def8dd91025"
+  },
+  {
+    "path": "原创候选/icons/dragonfruit-64.png",
+    "bytes": 3134,
+    "sha256": "0570db8e216e6ec438d3023f47f153c8cc7e40a48edbe3dc9cc8d686ab0c492e"
+  },
+  {
+    "path": "原创候选/icons/dragonfruit.png",
+    "bytes": 23605,
+    "sha256": "c5d28513f9a372f7dc681d5a00b2bad7cbef3f672d2022b21bab3917d4b88be1"
+  },
+  {
+    "path": "原创候选/icons/dumpling-64.png",
+    "bytes": 3680,
+    "sha256": "a635ab0f3074dfb8778b7545144d35fa99a236305f58bf59363f3c6f431b315b"
+  },
+  {
+    "path": "原创候选/icons/dumpling.png",
+    "bytes": 27362,
+    "sha256": "314db538034f876798127ab591a62eff64a81152aea571ea0528f86f92d0c2e1"
+  },
+  {
+    "path": "原创候选/icons/egg-64.png",
+    "bytes": 2911,
+    "sha256": "a0be768bfd3553ad4ac2168750918f239d52e8bb5e6300489fde98eaf52c10cf"
+  },
+  {
+    "path": "原创候选/icons/egg.png",
+    "bytes": 22510,
+    "sha256": "9efbe6836a826f0ea9532a0a4f3c5c173ac62b41368e78d1c31b6b3d562ae78b"
+  },
+  {
+    "path": "原创候选/icons/eggtart-64.png",
+    "bytes": 3337,
+    "sha256": "163a591bbd262feaa3795d405d39f957e366a8b998333c698b1f05cd1c40efbc"
+  },
+  {
+    "path": "原创候选/icons/eggtart.png",
+    "bytes": 25075,
+    "sha256": "3e53254ddc717935f41772fda2b286faf516063c7b918c3f2e74aa71f58da793"
+  },
+  {
+    "path": "原创候选/icons/flashlight-64.png",
+    "bytes": 3142,
+    "sha256": "6b1a5069b2dc827c9b3cea73bf6ea8b0657ea8b16b80a9534b4eac1632d8b78b"
+  },
+  {
+    "path": "原创候选/icons/flashlight.png",
+    "bytes": 24275,
+    "sha256": "98f6bdd0eb57b2f4b9014662217c5ca3cdff245dde48546ef312b75463496f39"
+  },
+  {
+    "path": "原创候选/icons/gamepad-64.png",
+    "bytes": 3583,
+    "sha256": "4fb47a0c4051bc7dc8f617445dc9f2de40495a43386c84cbbdf6460b1261f850"
+  },
+  {
+    "path": "原创候选/icons/gamepad.png",
+    "bytes": 25433,
+    "sha256": "43a9f03fed40d7be482df21d32ba9d7c2ffcc14dbcff33ca3232cd4ebe7b001d"
+  },
+  {
+    "path": "原创候选/icons/garlic-64.png",
+    "bytes": 3231,
+    "sha256": "582075d641b23ed53eb99b2b6ea4299b645d4f91054da01e4503048b2891b61a"
+  },
+  {
+    "path": "原创候选/icons/garlic.png",
+    "bytes": 24009,
+    "sha256": "7365f88ca33a2fca523732b5a7d2e2cd9295f733f328b5de45a7e2da958e2216"
+  },
+  {
+    "path": "原创候选/icons/goldchime-64.png",
+    "bytes": 3118,
+    "sha256": "5626a0954c66c1ef322072f5634ae5a954804b7a1dffb4af5ffe321e3711dc7f"
+  },
+  {
+    "path": "原创候选/icons/goldchime.png",
+    "bytes": 24310,
+    "sha256": "72bcb7e0e5a7e5b22a577bdeacded9e6bf4a2bf7dfc2b3ea31f778be6e6b49af"
+  },
+  {
+    "path": "原创候选/icons/goldring-64.png",
+    "bytes": 3532,
+    "sha256": "e738a37093edacfd0ca8fa548a78e171ac352869295823ebbca621ae88c32adb"
+  },
+  {
+    "path": "原创候选/icons/goldring.png",
+    "bytes": 25221,
+    "sha256": "d5ba81d0694de66536f425a01e07dee4c4047a72c80d3cc86a7201c3628ab039"
+  },
+  {
+    "path": "原创候选/icons/jadebeads-64.png",
+    "bytes": 3104,
+    "sha256": "9d3a21b3de8c8447ed10c225dda5f9253d8eed51c2a63dcd082bb954591a223e"
+  },
+  {
+    "path": "原创候选/icons/jadebeads.png",
+    "bytes": 23661,
+    "sha256": "8ff6bdc5e371fba9a5bce7cd536ae96f1b3f1af93d12dd2e6243b2ab511e65d7"
+  },
+  {
+    "path": "原创候选/icons/jadecarp-64.png",
+    "bytes": 3239,
+    "sha256": "ca6bf041621cb7d422f1c9d4aea0d14228c77bf627d7a98da1a9d6bbd3cf438a"
+  },
+  {
+    "path": "原创候选/icons/jadecarp.png",
+    "bytes": 22797,
+    "sha256": "e5d4de393757fd978cbf7d97b30632eac8257678c51874bbb5f9f93fc6029aac"
+  },
+  {
+    "path": "原创候选/icons/jadechime-64.png",
+    "bytes": 3805,
+    "sha256": "e68d1ecb8f6487d4dc7375075b8d47b265376afb24faa1d2213ea7fa48efdfc8"
+  },
+  {
+    "path": "原创候选/icons/jadechime.png",
+    "bytes": 27202,
+    "sha256": "d8fdfce895e87b14df795da1ef2d507a8ac35cace0f3002fa4203cd2ace9d43d"
+  },
+  {
+    "path": "原创候选/icons/jadeleaf-64.png",
+    "bytes": 2897,
+    "sha256": "6330ef90a141d77af513ea7dfca54c4b1f78e3ac9d411119618012535dec110c"
+  },
+  {
+    "path": "原创候选/icons/jadeleaf.png",
+    "bytes": 24138,
+    "sha256": "a14217eec2f6e62aab313bf139391c38963e07f711bdbeb0a78c5dff7d670023"
+  },
+  {
+    "path": "原创候选/icons/jadelock-64.png",
+    "bytes": 3879,
+    "sha256": "95eaffcaf01fad14207792d78adae1b3da74fee183d27e05176b5bdcfde4459d"
+  },
+  {
+    "path": "原创候选/icons/jadelock.png",
+    "bytes": 26604,
+    "sha256": "e2e70ebd451d0e68a28f06143e80a5ffd4446e16e1b224989939276df97c5349"
+  },
+  {
+    "path": "原创候选/icons/jadepeanut-64.png",
+    "bytes": 3208,
+    "sha256": "74345fa6f1c9853c2e31bb020a91caaf49d93bd33c1ad24d175882728f74a1be"
+  },
+  {
+    "path": "原创候选/icons/jadepeanut.png",
+    "bytes": 23237,
+    "sha256": "b38ef2898ca4b5bf668d88d4460189907159cffce6acf78b985817197142cfff"
+  },
+  {
+    "path": "原创候选/icons/jadetalisman-64.png",
+    "bytes": 3324,
+    "sha256": "95424b3eb9cf89cf9190d82f9a878ae34eea1f7c7b3da15e4bd9b47d3b1680a1"
+  },
+  {
+    "path": "原创候选/icons/jadetalisman.png",
+    "bytes": 26162,
+    "sha256": "7e360c0c244f96c8cdc3eea857ca2a3cf6c73f652a7ff51e899a641ecc7ab7bf"
+  },
+  {
+    "path": "原创候选/icons/jadeteapot-64.png",
+    "bytes": 3481,
+    "sha256": "90314d75595d1a6f79ec5cfe6a769b44f7a2e335c8a31ecdbb8dbab1008d7749"
+  },
+  {
+    "path": "原创候选/icons/jadeteapot.png",
+    "bytes": 25186,
+    "sha256": "2f51e7f0e0f59901e2f51b4e66c89a08401b9574363d18d090a116da57622fac"
+  },
+  {
+    "path": "原创候选/icons/jadetiger-64.png",
+    "bytes": 4054,
+    "sha256": "6e5ef9b2c9f050be6cb3f63f5c0eafab09f16f2fa1914810255dd5938ec9a9ed"
+  },
+  {
+    "path": "原创候选/icons/jadetiger.png",
+    "bytes": 29418,
+    "sha256": "ad3d3f4a253abaf7ea8171ecb94bcf4556d7603974de2b9f3499f1f1adcc5414"
+  },
+  {
+    "path": "原创候选/icons/jadevase-64.png",
+    "bytes": 3046,
+    "sha256": "513f1c19ecaaa96306f0757192646c9071112a2b1d7ac020861077090ef47476"
+  },
+  {
+    "path": "原创候选/icons/jadevase.png",
+    "bytes": 23764,
+    "sha256": "86a59e979bcbf414b426e132e68ba363bffcb249bc2a7421a3351c917916d8e8"
+  },
+  {
+    "path": "原创候选/icons/keyboard-64.png",
+    "bytes": 3506,
+    "sha256": "ecdb995b81f9c983087a79500ea4fdb112e85a767e178171e057e93e6fe9da89"
+  },
+  {
+    "path": "原创候选/icons/keyboard.png",
+    "bytes": 26927,
+    "sha256": "8b344717dbff3c5370476380b08d314081232cb794284aededb03ca555e05d08"
+  },
+  {
+    "path": "原创候选/icons/kiwi-64.png",
+    "bytes": 3398,
+    "sha256": "508fb560d04f34097a848f54a632bdf26960a63ab26b5dae3f505cbfc3ffb5ce"
+  },
+  {
+    "path": "原创候选/icons/kiwi.png",
+    "bytes": 25406,
+    "sha256": "7197e689eefb492ab2d8371eea0fb8e642a96d2d0ba6ab36660d16f371f99635"
+  },
+  {
+    "path": "原创候选/icons/lollipop-64.png",
+    "bytes": 2917,
+    "sha256": "31469929d2c09f7705161c632de7cb728457c37f47d75300bbe3adea2fbf536d"
+  },
+  {
+    "path": "原创候选/icons/lollipop.png",
+    "bytes": 23671,
+    "sha256": "2a827d17634eb2ea151549b64b9653e554535cb6a8de71bd383d345b2511a599"
+  },
+  {
+    "path": "原创候选/icons/mango-64.png",
+    "bytes": 2851,
+    "sha256": "2b7ac53c1b8875c1de77c0cecd1f122dba5ce11cd9321d1361425f6ad0fd3896"
+  },
+  {
+    "path": "原创候选/icons/mango.png",
+    "bytes": 21791,
+    "sha256": "f16f488188866086ae0adfc804e3865d877aea89b9000eae86030ae56df2d5f0"
+  },
+  {
+    "path": "原创候选/icons/microphone-64.png",
+    "bytes": 2751,
+    "sha256": "82b15a508bdd1e0d36a289e8a7726fb102fc4770997bea3a7669a6c80555a9c6"
+  },
+  {
+    "path": "原创候选/icons/microphone.png",
+    "bytes": 22768,
+    "sha256": "e2b6d4484b7a2d2122cf365b5dff1d73e2728d8686d0ce4fe1480ed6a95b9b5c"
+  },
+  {
+    "path": "原创候选/icons/monitor-64.png",
+    "bytes": 4433,
+    "sha256": "0d40afea7546048469e3351a94d767fd42100044508d62aa2bf80a6229038d22"
+  },
+  {
+    "path": "原创候选/icons/monitor.png",
+    "bytes": 31536,
+    "sha256": "1fc1c7e3b7c0a84491fe897fd5388c8d4011607f7adf63d8fd205c53e29ff6d6"
+  },
+  {
+    "path": "原创候选/icons/mooncake-64.png",
+    "bytes": 3653,
+    "sha256": "87e7f0a7bd808184210b3538321ddba191ba8b5122664c7474fedb4faafe2f1f"
+  },
+  {
+    "path": "原创候选/icons/mooncake.png",
+    "bytes": 27765,
+    "sha256": "e558a293c444b5a3e47acbf09cf77f4dedc518ec231dd019f30cdc659c811829"
+  },
+  {
+    "path": "原创候选/icons/onion-64.png",
+    "bytes": 2998,
+    "sha256": "af01bcf8b30e32f1487569023126d8d208debf0e5356529aa58aba2ca3cc17ad"
+  },
+  {
+    "path": "原创候选/icons/onion.png",
+    "bytes": 23428,
+    "sha256": "c544bfb5c96b2277cd7fa44936f2b39c76c5e5f50795970e159549ecbe552d89"
+  },
+  {
+    "path": "原创候选/icons/pancake-64.png",
+    "bytes": 4416,
+    "sha256": "14bb9563fb0ef15cd8300a36d3896c125d16e6b512b365cbb77b4d037fc3522a"
+  },
+  {
+    "path": "原创候选/icons/pancake.png",
+    "bytes": 31560,
+    "sha256": "e9681e922240c503d8e057441fb6eb8f1cfc7eb5a936481da95069587bb5536d"
+  },
+  {
+    "path": "原创候选/icons/peach-64.png",
+    "bytes": 3219,
+    "sha256": "5b69b1cd8171084be1ac6bf1f8d5f5f0198d5b40c4f2fe53c9cc6e0eba73cd3a"
+  },
+  {
+    "path": "原创候选/icons/peach.png",
+    "bytes": 23709,
+    "sha256": "d66975d0224344e0ea0ab866122aba89d83ce14f60f9621864fab6b9def5e8da"
+  },
+  {
+    "path": "原创候选/icons/persimmon-64.png",
+    "bytes": 3618,
+    "sha256": "5e1d1027cae2e8c63e9b5a05074c9f50c77fdb8114bc8e979db37dd04919e17e"
+  },
+  {
+    "path": "原创候选/icons/persimmon.png",
+    "bytes": 26026,
+    "sha256": "16325ec81e6612616d302eefcb308676a829244046b1eb24d6b18dcb5d6e573b"
+  },
+  {
+    "path": "原创候选/icons/pineapple-64.png",
+    "bytes": 3865,
+    "sha256": "cc882c10465b9412a9a61b854c7fc119f625ee164158675da2ef5c41f613d5b7"
+  },
+  {
+    "path": "原创候选/icons/pineapple.png",
+    "bytes": 30216,
+    "sha256": "28658cb7f3f9207590aef090ecd38488526547ee733b743cab4a73579350d551"
+  },
+  {
+    "path": "原创候选/icons/pomegranate-64.png",
+    "bytes": 2901,
+    "sha256": "c035d904f0b0b3917c3a3e39996fac22a75b457a7abafb3f88e4afb41d203886"
+  },
+  {
+    "path": "原创候选/icons/pomegranate.png",
+    "bytes": 22159,
+    "sha256": "d68decbf1bef2176c38303a241592d6cb793fbf345e8b413d698f77b4500c0ef"
+  },
+  {
+    "path": "原创候选/icons/popsicle-64.png",
+    "bytes": 2862,
+    "sha256": "fe0cc63a7c58ce85fdc4868d49e129b84b3c40b26104ceda383e545e09b658d4"
+  },
+  {
+    "path": "原创候选/icons/popsicle.png",
+    "bytes": 23242,
+    "sha256": "74d28bc7ebda534dc6ff62532d1077e62c684f80c4b17f5e1d5a63bd8a3f63eb"
+  },
+  {
+    "path": "原创候选/icons/potato-64.png",
+    "bytes": 3119,
+    "sha256": "9791cdbbe52ce52a07e363ef7088e9108447d2281d493fb943271946351480a3"
+  },
+  {
+    "path": "原创候选/icons/potato.png",
+    "bytes": 22137,
+    "sha256": "4349594403c4a791333127a294a28b78c629216e2095d217c1b35b99704269ff"
+  },
+  {
+    "path": "原创候选/icons/powerbank-64.png",
+    "bytes": 3318,
+    "sha256": "5169b90d7b91aed128f700c1581769f7adc286dacc667ddde06b9049b163c5fd"
+  },
+  {
+    "path": "原创候选/icons/powerbank.png",
+    "bytes": 26204,
+    "sha256": "9d37d3b508c8a2414c1c709f67392e2cbd0bbb073d239cd749480a56705cf446"
+  },
+  {
+    "path": "原创候选/icons/pretzel-64.png",
+    "bytes": 4151,
+    "sha256": "e7cce7e0ecd661e703628a849e0c60ed4647381a4190ca00b3994cf35d2983b8"
+  },
+  {
+    "path": "原创候选/icons/pretzel.png",
+    "bytes": 28327,
+    "sha256": "c729ac8d3f9c954a76fe83112e6cd961f24c00c7712467dca686000cef29f05f"
+  },
+  {
+    "path": "原创候选/icons/printer-64.png",
+    "bytes": 4286,
+    "sha256": "bfa12efb0632b5f0a6fb93ae044b065bbb44ce1745075c6a94a9ffb70184514b"
+  },
+  {
+    "path": "原创候选/icons/printer.png",
+    "bytes": 30004,
+    "sha256": "d44e7634e7965b0ebd3b7ca7b8d203459f2ccbe54be7bfc370a3baad7213b710"
+  },
+  {
+    "path": "原创候选/icons/radish-64.png",
+    "bytes": 2689,
+    "sha256": "dd5a8edf57899e8ada1f2a6a8be92d0845930c0e2c78891db9e236b74c485842"
+  },
+  {
+    "path": "原创候选/icons/radish.png",
+    "bytes": 21269,
+    "sha256": "1a3f41d1ec6a77f86bb35001a341b86248820d933efb1daac015ab89aba35864"
+  },
+  {
+    "path": "原创候选/icons/router-64.png",
+    "bytes": 3704,
+    "sha256": "8d90e5408bc80416cf14dc1235e2552d4c904897accfbab454f49443f9827b07"
+  },
+  {
+    "path": "原创候选/icons/router.png",
+    "bytes": 26992,
+    "sha256": "657f61ade8807b7940d075554ac13674ac9d32a967ad91f7150440dc9aec20f9"
+  },
+  {
+    "path": "原创候选/icons/shovel-64.png",
+    "bytes": 2635,
+    "sha256": "62385bbb7555d35f6fb1ea3fd047ac344cf2d95351d46910317a003a100a54b1"
+  },
+  {
+    "path": "原创候选/icons/shovel.png",
+    "bytes": 22235,
+    "sha256": "0cb00544779ca862cee364eaaddb862b73df3bc9babd9f235f2fa330a6b8bdd3"
+  },
+  {
+    "path": "原创候选/icons/starfruit-64.png",
+    "bytes": 3895,
+    "sha256": "76f22dcb45d2b417635380cadabb7a7015d0c612403cd44e8275a02a4d68899d"
+  },
+  {
+    "path": "原创候选/icons/starfruit.png",
+    "bytes": 28625,
+    "sha256": "fc319c7ab4f90ac99139bfe6923243f8abe74b34a0ff4eb04af56e71eaf96839"
+  },
+  {
+    "path": "原创候选/icons/swissroll-64.png",
+    "bytes": 4511,
+    "sha256": "baee4b1e42b6bd11c3c52e9b15ed1aaa547b2111ce9fae7550e9236c0c4c6dcc"
+  },
+  {
+    "path": "原创候选/icons/swissroll.png",
+    "bytes": 31764,
+    "sha256": "19e73ee32616872d84143a59d54707494848f0ec2bdf881fcd7c574588b5c44e"
+  },
+  {
+    "path": "原创候选/icons/tablet-64.png",
+    "bytes": 3830,
+    "sha256": "7a412cdc3053e3235e20f790ab3b5b70b3cb22363048e368d6cef22ee9d04c42"
+  },
+  {
+    "path": "原创候选/icons/tablet.png",
+    "bytes": 29365,
+    "sha256": "f219fb9729b5ba12056a3f5aee3da2e3880ec5c3b3ffa653107e39cf711bd6a4"
+  },
+  {
+    "path": "原创候选/icons/teacup-64.png",
+    "bytes": 2831,
+    "sha256": "a69093a77a9d5907f3faf1de76d3b9051ed90de622a30926a9d77ffc44f69812"
+  },
+  {
+    "path": "原创候选/icons/teacup.png",
+    "bytes": 22957,
+    "sha256": "f35525c399f58ab55b539863276ce54ce3e5cd6c9dc3bbcfcba040e0bbaeff6a"
+  },
+  {
+    "path": "原创候选/icons/television-64.png",
+    "bytes": 4463,
+    "sha256": "059ef7dbc7d5ade564c6be378c30e807c99a344103330ad5e8cff12ce78953b8"
+  },
+  {
+    "path": "原创候选/icons/television.png",
+    "bytes": 31668,
+    "sha256": "13e2ce718ea36d0bf3f610c301770f6760cfc6af84adac210371dfc498cb69b0"
+  },
+  {
+    "path": "原创候选/icons/toast-64.png",
+    "bytes": 3552,
+    "sha256": "259bf449a0692c0cccb8da3a7a5393b26bbe4593d8a7194c321b64b40e330e9e"
+  },
+  {
+    "path": "原创候选/icons/toast.png",
+    "bytes": 25874,
+    "sha256": "0b6b468e7c205b839324f57a54c89b54539dbd87a6926500b55c8d59b9dd0c61"
+  },
+  {
+    "path": "原创候选/icons/tomato-64.png",
+    "bytes": 3186,
+    "sha256": "8b1fed2b545990a96eb2251642961a6e1f2a48bea327ca2cce6791053b83693f"
+  },
+  {
+    "path": "原创候选/icons/tomato.png",
+    "bytes": 23650,
+    "sha256": "b492ac5b10ba1060ff169c77381eb0686586f6c405330e3477d453efa36937f9"
+  },
+  {
+    "path": "原创候选/icons/usbdrive-64.png",
+    "bytes": 2615,
+    "sha256": "151580edcf5d875a5b701775ff13d4f8de25a473847c839f8fb3209e0a4d115f"
+  },
+  {
+    "path": "原创候选/icons/usbdrive.png",
+    "bytes": 22375,
+    "sha256": "d3a467901fc4eedf2c63417695b6463e7cc088275004df36cac03c81d7de3f6f"
+  },
+  {
+    "path": "原创候选/icons/wafer-64.png",
+    "bytes": 5518,
+    "sha256": "c2a82c1389394159dd3b9c0340823669b60d5bc481a68ca51e418e33354acf02"
+  },
+  {
+    "path": "原创候选/icons/wafer.png",
+    "bytes": 39185,
+    "sha256": "b858b40faee0ed720b767b69b22d2c054a00187b67d72076440e98159663b368"
+  },
+  {
+    "path": "原创候选/icons/wateringcan-64.png",
+    "bytes": 3539,
+    "sha256": "8363402971da2b18ad02c9f25d6dba54bfb0dfb1b7d90aa8ffbc1fe860e17078"
+  },
+  {
+    "path": "原创候选/icons/wateringcan.png",
+    "bytes": 25500,
+    "sha256": "9ff59fab1d46f04b212290f78b0d0126d7527f9f08ff1b56d13f4f07acde40de"
+  },
+  {
+    "path": "原创候选/icons/watermelon-64.png",
+    "bytes": 2944,
+    "sha256": "1646890d33e67f4c4e68688b6a9090cd1234dc98ef04b77d0a16d67c35b7aa39"
+  },
+  {
+    "path": "原创候选/icons/watermelon.png",
+    "bytes": 23466,
+    "sha256": "eae0d7a1a47bff4297907985fd3ea9b993e70e0577a1dc7cd1fce5aef7ab704c"
+  },
+  {
+    "path": "原创候选/models/alarmclock.glb",
+    "bytes": 61196,
+    "sha256": "40bd1177ced6d48fe86be113b37c85749967e6628ccdf009310472dbb5abbe9a"
+  },
+  {
+    "path": "原创候选/models/avocado.glb",
+    "bytes": 32988,
+    "sha256": "94db277ad4d068b0d5b3d23caf3b9c0eddf30bddafee65f81997584357431435"
+  },
+  {
+    "path": "原创候选/models/bellpepper.glb",
+    "bytes": 27436,
+    "sha256": "715f2f45fba1119748b55628479163098013826d33b240f47ca8ef949549564d"
+  },
+  {
+    "path": "原创候选/models/blueberry.glb",
+    "bytes": 59232,
+    "sha256": "aaefb4e952aa7b2cc5dbdadaac64ddda09b4eaf71d37149558d270f32fec5aa8"
+  },
+  {
+    "path": "原创候选/models/broccoli.glb",
+    "bytes": 46260,
+    "sha256": "ef618f9d5bb374653da8e7ed2bd36f1c1521f7409fd5da207f856f6f4b7708d7"
+  },
+  {
+    "path": "原创候选/models/cabbage.glb",
+    "bytes": 39764,
+    "sha256": "d6b9037f4837b91e1598a6b702a957e515e3f08fcc28f9ad28e0f974def456c6"
+  },
+  {
+    "path": "原创候选/models/chocolate.glb",
+    "bytes": 21604,
+    "sha256": "61dcd11c0df76fff3a1374f657dfdeec87a8db9550487f9468baf5910a5d2335"
+  },
+  {
+    "path": "原创候选/models/coconut.glb",
+    "bytes": 47164,
+    "sha256": "c3b6e7301c9889e8f54bdd08f802606c8393226a8f6c797eb0f92dfbff1fc366"
+  },
+  {
+    "path": "原创候选/models/cucumber.glb",
+    "bytes": 35700,
+    "sha256": "da0076e5427452790890e767b87142d61c00f172b9a12f565f8c7d87312a3112"
+  },
+  {
+    "path": "原创候选/models/dragonfruit.glb",
+    "bytes": 56536,
+    "sha256": "e46b9e28eff2be7d0fbb11f9fa9e8c71c6130623b4c1afafa1c73770430607f5"
+  },
+  {
+    "path": "原创候选/models/dumpling.glb",
+    "bytes": 38708,
+    "sha256": "9cdacb424d675542116553f32ede0c01f29b5fce009489edaa006416d44b397c"
+  },
+  {
+    "path": "原创候选/models/egg.glb",
+    "bytes": 21996,
+    "sha256": "952f2713f9d49dcdedaa91123360f0b9559417f97020df0257685a04ad7adfb3"
+  },
+  {
+    "path": "原创候选/models/eggtart.glb",
+    "bytes": 36912,
+    "sha256": "8735912ea21a942951f5511f0278c6d12b481bcb57a04a00f12d429b34754152"
+  },
+  {
+    "path": "原创候选/models/flashlight.glb",
+    "bytes": 43412,
+    "sha256": "233b665642046280df80f6845b59a3edf35e0a2e27307cf7c1ca118b2c72a529"
+  },
+  {
+    "path": "原创候选/models/gamepad.glb",
+    "bytes": 44904,
+    "sha256": "6539b01e6b61ca536ae5e5ddda50bc93cd658823904b2eb086f569aea8dc16c1"
+  },
+  {
+    "path": "原创候选/models/garlic.glb",
+    "bytes": 37532,
+    "sha256": "6260585de4b90bbf1d23f7e747518f8285c471a029abc80189cbd018201a7fe3"
+  },
+  {
+    "path": "原创候选/models/goldchime.glb",
+    "bytes": 37744,
+    "sha256": "b42f90a783c2e5cd72706ced8ed303d6f90c5377ee5d30c722d477508f771d30"
+  },
+  {
+    "path": "原创候选/models/goldring.glb",
+    "bytes": 15492,
+    "sha256": "af4135c2a6c3d4466b0ff86c3e847796b69d540664aab266a178f6554e4f8b86"
+  },
+  {
+    "path": "原创候选/models/jadebeads.glb",
+    "bytes": 60684,
+    "sha256": "1cc3b1212eb687fe2fbd1ef2c9a8751f0c46149e0e641078fe4b4820240ec40d"
+  },
+  {
+    "path": "原创候选/models/jadecarp.glb",
+    "bytes": 29244,
+    "sha256": "1b497ed87c298743a86e647490e516775af6a55bfee338a084dfca0b16fdac82"
+  },
+  {
+    "path": "原创候选/models/jadechime.glb",
+    "bytes": 16796,
+    "sha256": "6d40a379136bd84f5bf13b1ee0ca50a8156c770f0adc2f6a2b3d80b75db69513"
+  },
+  {
+    "path": "原创候选/models/jadeleaf.glb",
+    "bytes": 24728,
+    "sha256": "260d36732310dc2ba4908e69e948e51455aa74aca518ea0f37b03663162a4bf2"
+  },
+  {
+    "path": "原创候选/models/jadelock.glb",
+    "bytes": 27024,
+    "sha256": "0dc0e6ef47c1fc247468f8366d929b3d4970e8fab6044496bf41f643c9a63ca9"
+  },
+  {
+    "path": "原创候选/models/jadepeanut.glb",
+    "bytes": 32588,
+    "sha256": "6da4e46af87c9ea6d31afb721d5858bf06638fe714e6e0665032c98eefe1274c"
+  },
+  {
+    "path": "原创候选/models/jadetalisman.glb",
+    "bytes": 20204,
+    "sha256": "37a2be12f63cffaae55777af8b931b1562149887514cc6e8da1c9f39830fdb78"
+  },
+  {
+    "path": "原创候选/models/jadeteapot.glb",
+    "bytes": 41252,
+    "sha256": "6b80db97cec36fcb4eab0d1315f14ae6a5a11e45c768994d34716f948051c116"
+  },
+  {
+    "path": "原创候选/models/jadetiger.glb",
+    "bytes": 49364,
+    "sha256": "45f251887ec8f81ad7e2a1f1b35c27b6606d2e6dbca4df476f1b04d96864c25f"
+  },
+  {
+    "path": "原创候选/models/jadevase.glb",
+    "bytes": 29308,
+    "sha256": "0de4791dbea16a4691f1573059f37e86143e51cd7f60f737f5514acfe33c764f"
+  },
+  {
+    "path": "原创候选/models/keyboard.glb",
+    "bytes": 31920,
+    "sha256": "c67530de6d1c52b8e80db8b4a12cb2b5e9882e07ae3d167c9f6c2788be982030"
+  },
+  {
+    "path": "原创候选/models/kiwi.glb",
+    "bytes": 28920,
+    "sha256": "97a2e1e657d280634ca8e5dfdedf6da3112796f95e019fe7cbb7483cb689f013"
+  },
+  {
+    "path": "原创候选/models/lollipop.glb",
+    "bytes": 37548,
+    "sha256": "6ed8535fbdab7eb8e38766956bb31aa844c731e66c53ec52c250efd05e56fe7b"
+  },
+  {
+    "path": "原创候选/models/mango.glb",
+    "bytes": 18360,
+    "sha256": "d0f58488e82ef64da62cc89fb00e9c978a385ec0c8aab525b8f261ff2a502ee3"
+  },
+  {
+    "path": "原创候选/models/microphone.glb",
+    "bytes": 48264,
+    "sha256": "3fb873c08d31177bda035d90c233e407dee78e8754ef259425dc069e7049d2e0"
+  },
+  {
+    "path": "原创候选/models/monitor.glb",
+    "bytes": 16572,
+    "sha256": "d160094dd782b21f4baafc2ca4d03b9cb27f00fc3db17e8b20eb353509bd0267"
+  },
+  {
+    "path": "原创候选/models/mooncake.glb",
+    "bytes": 46520,
+    "sha256": "9d45f80087ae1308ec3c1ebf141764fdbcaec610b139ad435435c85000316173"
+  },
+  {
+    "path": "原创候选/models/onion.glb",
+    "bytes": 28300,
+    "sha256": "58b083adc16ca59d8c3d008b041ebaf8026d0f60b785096b1671eb07db749221"
+  },
+  {
+    "path": "原创候选/models/pancake.glb",
+    "bytes": 25384,
+    "sha256": "b6e05007aeb67685c65ea1e07bd6d6a296f7a313c2a22b623b77b243843a10c8"
+  },
+  {
+    "path": "原创候选/models/peach.glb",
+    "bytes": 24216,
+    "sha256": "c8c1d3898ebcca7cb596fc8f0a2abe5b195d1910fead07b72dc4989e9f4b41a0"
+  },
+  {
+    "path": "原创候选/models/persimmon.glb",
+    "bytes": 34868,
+    "sha256": "2d6a3c9bed76a28c09131b8e3a9d629a519f66411614637375b23b874543f937"
+  },
+  {
+    "path": "原创候选/models/pineapple.glb",
+    "bytes": 73152,
+    "sha256": "b6431cc2891493001d648d387d48359eeeb53872f2cf22e112421cef601ac63d"
+  },
+  {
+    "path": "原创候选/models/pomegranate.glb",
+    "bytes": 23056,
+    "sha256": "f3c19480523ab2ea79c380d7b45b8efddcdb720dd30d61ab91d8818b37ab4949"
+  },
+  {
+    "path": "原创候选/models/popsicle.glb",
+    "bytes": 16640,
+    "sha256": "aa8bcd14fb16152177edca5be576a3247bb1bee9449a06729ea13fa3c59434eb"
+  },
+  {
+    "path": "原创候选/models/potato.glb",
+    "bytes": 20896,
+    "sha256": "2170430b3a9ddbe6f0f03dbea89e67312835865e6eed1b6b4641561258e86bc1"
+  },
+  {
+    "path": "原创候选/models/powerbank.glb",
+    "bytes": 21524,
+    "sha256": "4ff95fb2e6ca1fb8af421d1e241df4cc94f3e87f239998d8f9a2f1f4ded25362"
+  },
+  {
+    "path": "原创候选/models/pretzel.glb",
+    "bytes": 16428,
+    "sha256": "deb7bf3c2fd725c67d461e3643c00f614cfc992ea0778a11a7866a0d5cc6f858"
+  },
+  {
+    "path": "原创候选/models/printer.glb",
+    "bytes": 18348,
+    "sha256": "2cbbd50052cd9cbcc62041aea09cdd8a930bd98a3f81c2d498fe53819431b1e4"
+  },
+  {
+    "path": "原创候选/models/radish.glb",
+    "bytes": 22832,
+    "sha256": "cc13ac6015fc37abf1a81412568aa6d75f2a3d50c8f9862b47e2ee4fcc43cce2"
+  },
+  {
+    "path": "原创候选/models/router.glb",
+    "bytes": 24600,
+    "sha256": "50104923a1dc6b00ff22cf4c4bb21024478a2f240e3f1f7e0262e3ca53769aa3"
+  },
+  {
+    "path": "原创候选/models/shovel.glb",
+    "bytes": 18024,
+    "sha256": "e6886fb70d1224ce3a58167173f99560f64f8a6ff8d81493050223d4436f6681"
+  },
+  {
+    "path": "原创候选/models/starfruit.glb",
+    "bytes": 8788,
+    "sha256": "e734c9b3a1355ed1ce4a98ea8a8aba57e64f3714bf0064c05eaec6d25f366e89"
+  },
+  {
+    "path": "原创候选/models/swissroll.glb",
+    "bytes": 40728,
+    "sha256": "c5133d6c0979b397b61d16d6192afcd711da53aaca2808df6d5bbc22701a047b"
+  },
+  {
+    "path": "原创候选/models/tablet.glb",
+    "bytes": 18340,
+    "sha256": "679cdbc92554318611d95571144615bed06fcaa33ca22ad3a76560e802398bd2"
+  },
+  {
+    "path": "原创候选/models/teacup.glb",
+    "bytes": 23636,
+    "sha256": "630cfcdd8d8cfe1338eaf831e3bd4761f62fc33abe44e98639ae098d5387dd45"
+  },
+  {
+    "path": "原创候选/models/television.glb",
+    "bytes": 22592,
+    "sha256": "ac09f2743554be99585e537935641802319d74975114083f8d1d6e67dadc8732"
+  },
+  {
+    "path": "原创候选/models/toast.glb",
+    "bytes": 16772,
+    "sha256": "70bf1e2d665c17f0801eefdbbe4bed61c35007ae6ea39542e59bb9c460d3cda4"
+  },
+  {
+    "path": "原创候选/models/tomato.glb",
+    "bytes": 29256,
+    "sha256": "b6031e9ef3081ae3f39210012091666da21e3a68174a78352f296a6dff139f61"
+  },
+  {
+    "path": "原创候选/models/usbdrive.glb",
+    "bytes": 20164,
+    "sha256": "6b7503266ffea85dc5d315636b2aba51c51f5a595669a47ea97630151732838d"
+  },
+  {
+    "path": "原创候选/models/wafer.glb",
+    "bytes": 31372,
+    "sha256": "dcd11e692a80f67167bee28a414a4ce8ae4b353f60d626dec9e5307db945592f"
+  },
+  {
+    "path": "原创候选/models/wateringcan.glb",
+    "bytes": 24524,
+    "sha256": "9e2e54e9a680cebf29c672ed5245a05babbddd7cc2d922b961751825eb3c4bc7"
+  },
+  {
+    "path": "原创候选/models/watermelon.glb",
+    "bytes": 56180,
+    "sha256": "8aba2f9947807e7e72fb32ec0a5068337eaf59aa70e96b38135ae4dac6e09aab"
+  },
+  {
+    "path": "原创候选/qa/alarmclock-back.png",
+    "bytes": 45062,
+    "sha256": "c2a394622f7f42389e57bdaa7a88a5ae4870aa704b5ad3f4ef7b546a1e7394a1"
+  },
+  {
+    "path": "原创候选/qa/alarmclock-hero.png",
+    "bytes": 49463,
+    "sha256": "6a94d2e5dae79110d2f72c6be858d50f0ef84ff53ddf21fe1b9875a52fd0c69a"
+  },
+  {
+    "path": "原创候选/qa/alarmclock-side.png",
+    "bytes": 39324,
+    "sha256": "2d2e80bc149b4c826ba5bb118a92efc86e87a6c90154134b2ec15e737ec690e5"
+  },
+  {
+    "path": "原创候选/qa/alarmclock-top.png",
+    "bytes": 37636,
+    "sha256": "37851e9c91916c3f2c0ff3863ab601d33d93c23389cac3a852e4c5ae2cb69a27"
+  },
+  {
+    "path": "原创候选/qa/alarmclock.metrics.json",
+    "bytes": 604,
+    "sha256": "af5cc9cb349b2b0494cfcf058ec773adc95cc1872e1a2fb110f80056f9225bdd"
+  },
+  {
+    "path": "原创候选/qa/antique-contact.png",
+    "bytes": 329737,
+    "sha256": "600aab4966faa4dc14c1ee243b1e7307d03a3f95ff92e2fa10372018066c2c35"
+  },
+  {
+    "path": "原创候选/qa/avocado-back.png",
+    "bytes": 38492,
+    "sha256": "537c947efc37ab43ec3b62df67d8de3c54ef1c4766ea83bed84cc5f37c9a3b56"
+  },
+  {
+    "path": "原创候选/qa/avocado-hero.png",
+    "bytes": 38391,
+    "sha256": "a3b82e2cbd9d598f3b9784c771e57efa31b3875525f7d23dc6173eff9dadaf67"
+  },
+  {
+    "path": "原创候选/qa/avocado-side.png",
+    "bytes": 44578,
+    "sha256": "2be7eceb3a47fdf89fb51d596070c326963cd07b20a18e518f8222f77a74f5f2"
+  },
+  {
+    "path": "原创候选/qa/avocado-top.png",
+    "bytes": 54652,
+    "sha256": "47521ac3985659e8b92eeaa9023d711046c94331cb2831a0aa0812a87389d955"
+  },
+  {
+    "path": "原创候选/qa/avocado.metrics.json",
+    "bytes": 608,
+    "sha256": "0e6875d1b726889f237f858a8b02ca9d28603ff7f3cd578dc175849df9bed185"
+  },
+  {
+    "path": "原创候选/qa/bellpepper-back.png",
+    "bytes": 37853,
+    "sha256": "324a3b9ce97eef25dae1998115b4ac8e0379bf4f9f6fa41bdd0e004196859830"
+  },
+  {
+    "path": "原创候选/qa/bellpepper-hero.png",
+    "bytes": 35963,
+    "sha256": "2d583e09144a9c2aad200fdfc75f8bb3efbbba8e772315234c9032bb7468b92b"
+  },
+  {
+    "path": "原创候选/qa/bellpepper-side.png",
+    "bytes": 44532,
+    "sha256": "0a63db7988555d365f14d47b7eabf564d9ed8a9ee9be5f54dd9f9833f82ded1c"
+  },
+  {
+    "path": "原创候选/qa/bellpepper-top.png",
+    "bytes": 54979,
+    "sha256": "72249cffbf422752a4ff6123d99e14ee67f1ef96edb8d0ce83a2980a75eaca34"
+  },
+  {
+    "path": "原创候选/qa/bellpepper.metrics.json",
+    "bytes": 595,
+    "sha256": "25967537f626186211c9f327b44ab7b9ee02dfb45462e98475057ea58582c88f"
+  },
+  {
+    "path": "原创候选/qa/blueberry-back.png",
+    "bytes": 37559,
+    "sha256": "b2d0b8f6b75905846d49386373925da7edc8214bf925cd5ec13b6e9faeb09702"
+  },
+  {
+    "path": "原创候选/qa/blueberry-hero.png",
+    "bytes": 42494,
+    "sha256": "f6edce6cfcdc33b238798454e32be1f1fe809abd2adb60b99068d5d6bad98f10"
+  },
+  {
+    "path": "原创候选/qa/blueberry-side.png",
+    "bytes": 53132,
+    "sha256": "28ba59c25a38fedd07630bbb1f527e813610bd6552a9de1d4535beaee01252fb"
+  },
+  {
+    "path": "原创候选/qa/blueberry-top.png",
+    "bytes": 55206,
+    "sha256": "ac23c6ae906d682947808be9c21e9327c63c7f3c54d435f3a0e54283e142c7d6"
+  },
+  {
+    "path": "原创候选/qa/blueberry.metrics.json",
+    "bytes": 596,
+    "sha256": "af934e68da76feb9d4262914ab6d8211e5f0d0c4fd2fa4318edbde1474644c5e"
+  },
+  {
+    "path": "原创候选/qa/broccoli-back.png",
+    "bytes": 37421,
+    "sha256": "f2ed215fbd63fe2b3c5cdc4551345379ffe019951fb304da318c63e5c016df87"
+  },
+  {
+    "path": "原创候选/qa/broccoli-hero.png",
+    "bytes": 35195,
+    "sha256": "96f4d46e3b642df15ba2c17a936e4514f84a91ccdf601a86a0f507808ab6c4d8"
+  },
+  {
+    "path": "原创候选/qa/broccoli-side.png",
+    "bytes": 47081,
+    "sha256": "9ca25064411ccb702a44f99764d304b3dce25246067a3724881ff2fef1bfd96a"
+  },
+  {
+    "path": "原创候选/qa/broccoli-top.png",
+    "bytes": 55533,
+    "sha256": "f24c5950553de02b5ff8b779ed398782a31e1ec5ddfc329ceeb49d83ff228341"
+  },
+  {
+    "path": "原创候选/qa/broccoli.metrics.json",
+    "bytes": 594,
+    "sha256": "fa8f439b22bbe96c5206138589c194cc473eeb24bb7bf6c56badc5d739d17282"
+  },
+  {
+    "path": "原创候选/qa/cabbage-back.png",
+    "bytes": 39813,
+    "sha256": "358b8ac59744aad47160beca11a86085925bce25c978259a016313badea6416f"
+  },
+  {
+    "path": "原创候选/qa/cabbage-hero.png",
+    "bytes": 37571,
+    "sha256": "b6a6e49a61c3f44feb890602900aca206caf777d685f55af13c8051c51e4a898"
+  },
+  {
+    "path": "原创候选/qa/cabbage-side.png",
+    "bytes": 50046,
+    "sha256": "61e151cf31b9c4e4d1b079c2b833239fbe1b09de878307ac79fa9a74509fc7f4"
+  },
+  {
+    "path": "原创候选/qa/cabbage-top.png",
+    "bytes": 58164,
+    "sha256": "d33fd1f43b181816b8a5eab889a0db3049db04ae66d13515fa9d0a6d2e037d7f"
+  },
+  {
+    "path": "原创候选/qa/cabbage.metrics.json",
+    "bytes": 591,
+    "sha256": "0aa4ca8584e46fe8bc0104e03530b754efa0e263de9a9d929cf4b179f58dd19b"
+  },
+  {
+    "path": "原创候选/qa/chocolate-back.png",
+    "bytes": 40258,
+    "sha256": "bea8284e7bb7304b7b31e942f09e10b9fd5120c34fc13d7e4591997f5c073cb6"
+  },
+  {
+    "path": "原创候选/qa/chocolate-hero.png",
+    "bytes": 45843,
+    "sha256": "aff8532d6426bb5405a3271385f28d6685c3cc228cac9021fb3b623220bf5b4b"
+  },
+  {
+    "path": "原创候选/qa/chocolate-side.png",
+    "bytes": 32857,
+    "sha256": "d629b338bde918730400521e4ea5a7e1b2039a7e28f368727b6420e05c814317"
+  },
+  {
+    "path": "原创候选/qa/chocolate-top.png",
+    "bytes": 53027,
+    "sha256": "2b911d8ed5e8185523aece162bece497457f6bcab431c6436a20c2f19686bf38"
+  },
+  {
+    "path": "原创候选/qa/chocolate.metrics.json",
+    "bytes": 612,
+    "sha256": "c683a0d6f34476180efe0c9b233a5967d66e01724592ece8c007adc806d3a048"
+  },
+  {
+    "path": "原创候选/qa/coconut-back.png",
+    "bytes": 42649,
+    "sha256": "9293e177d0ab2c1b1f2aebc7e7f7093c4a8c428f93bfc10fb8fd5488ca514a83"
+  },
+  {
+    "path": "原创候选/qa/coconut-hero.png",
+    "bytes": 40625,
+    "sha256": "c7d340597cfa8f87b0dbe860dbc6e4c531819fc2a709f992823dc6d2feda069f"
+  },
+  {
+    "path": "原创候选/qa/coconut-side.png",
+    "bytes": 53579,
+    "sha256": "a542021d2c64fe553060ccdb8c2ee2496b4e64a89557fc293aeeab44372bc877"
+  },
+  {
+    "path": "原创候选/qa/coconut-top.png",
+    "bytes": 58936,
+    "sha256": "07f6c33065586849b13f7a37c9d21df011bbd0f56db7ab127f158cdcbca0eca6"
+  },
+  {
+    "path": "原创候选/qa/coconut.metrics.json",
+    "bytes": 594,
+    "sha256": "d2b35b628e017f2963e0d5de1cc79e7dbd25498104e961c8548a46aa91f79e18"
+  },
+  {
+    "path": "原创候选/qa/cucumber-back.png",
+    "bytes": 36482,
+    "sha256": "d19c9f585498eb0de6fca5de4aeed9954afa4ba8da0a40c27fa1e9d5adf36035"
+  },
+  {
+    "path": "原创候选/qa/cucumber-hero.png",
+    "bytes": 35890,
+    "sha256": "3fa6812524057b84d82364316f61527bfede2f5f4da157aa12f05e710b1543e7"
+  },
+  {
+    "path": "原创候选/qa/cucumber-side.png",
+    "bytes": 39836,
+    "sha256": "508fd1fa8c0b7f607ddb617cee8f165e114ceb1c5ff99746e46f788d6680ac28"
+  },
+  {
+    "path": "原创候选/qa/cucumber-top.png",
+    "bytes": 56701,
+    "sha256": "442b3fd4a3847697f18e0d8e15a99156208432acac76f61963bb535239038783"
+  },
+  {
+    "path": "原创候选/qa/cucumber.metrics.json",
+    "bytes": 594,
+    "sha256": "62242d702967a6f9be285804e4828a6fe763a7eae10aeb588284030eba4f365d"
+  },
+  {
+    "path": "原创候选/qa/dessert-contact.png",
+    "bytes": 382819,
+    "sha256": "d6122370437c4c57bae4e833fab25418a7e06aac8e73bef5ee9983d13b004901"
+  },
+  {
+    "path": "原创候选/qa/dragonfruit-back.png",
+    "bytes": 40650,
+    "sha256": "197ce842769c43f30415cc9d5bed0b2980e8c4315498539490c7de2ffc2c9f38"
+  },
+  {
+    "path": "原创候选/qa/dragonfruit-hero.png",
+    "bytes": 38871,
+    "sha256": "3d3ee17bc08175e98ea4d4fd8999c0372a6b6c0b13207898aedfff48f8cf832b"
+  },
+  {
+    "path": "原创候选/qa/dragonfruit-side.png",
+    "bytes": 49566,
+    "sha256": "c80479b90400f1d543de6ed5bbdd0b8e58a52b3b2d747307e3b163115681c167"
+  },
+  {
+    "path": "原创候选/qa/dragonfruit-top.png",
+    "bytes": 62708,
+    "sha256": "5c68de9c9f83451a7ac79233eb0b83e4745222a783c6408872c56eea19340ef3"
+  },
+  {
+    "path": "原创候选/qa/dragonfruit.metrics.json",
+    "bytes": 596,
+    "sha256": "6c15d2ba997495a939d977fcbc1e39916002af690d16cc4ca734e60eda4ab457"
+  },
+  {
+    "path": "原创候选/qa/dumpling-back.png",
+    "bytes": 47119,
+    "sha256": "f8d19d89d8925578240a84f13b1271425a0321880c236dfc0ae29653e272dcb0"
+  },
+  {
+    "path": "原创候选/qa/dumpling-hero.png",
+    "bytes": 44764,
+    "sha256": "f0029909f3ddbf44e0a6767e6f9bb37cda488b5d07a35ceb70e3ff4a51dda5e5"
+  },
+  {
+    "path": "原创候选/qa/dumpling-side.png",
+    "bytes": 59574,
+    "sha256": "192163b40dc2f346e9c61288be720412e6f42b3105ff662658f6f9792bfd9ec3"
+  },
+  {
+    "path": "原创候选/qa/dumpling-top.png",
+    "bytes": 64089,
+    "sha256": "9b24cc0b20f21c65ad8bc6bdfbb8ad83af5f699ac92c6127f13f5f6fa8878aec"
+  },
+  {
+    "path": "原创候选/qa/dumpling.metrics.json",
+    "bytes": 596,
+    "sha256": "75b73fb374a5d00ce8803d5fd71f7f7ea8d59bb87815d8ba215cd6acf67ff07f"
+  },
+  {
+    "path": "原创候选/qa/egg-back.png",
+    "bytes": 37541,
+    "sha256": "6ab0f48603377f09c6a78322b55d973a3ade735a67800275d67892fb8ce781cb"
+  },
+  {
+    "path": "原创候选/qa/egg-hero.png",
+    "bytes": 36844,
+    "sha256": "c14cf0a88d04bf6b918118dfab9c3e45ebfa70a2963675b10e5daaf74c217173"
+  },
+  {
+    "path": "原创候选/qa/egg-side.png",
+    "bytes": 43311,
+    "sha256": "17dc2b9cf0632457699dfd1c0eee8e4c7e4eb8a780bbcd6f577c8930531a7288"
+  },
+  {
+    "path": "原创候选/qa/egg-top.png",
+    "bytes": 59404,
+    "sha256": "5ce2d0c8a323026171cf7797ae0598449a0f809999ce69ac21e1b520523031dc"
+  },
+  {
+    "path": "原创候选/qa/egg.metrics.json",
+    "bytes": 587,
+    "sha256": "d980c2c342ce0361870eb170e1eeea2fb6b911a1f79f8e0ed99d5fa26f3652fe"
+  },
+  {
+    "path": "原创候选/qa/eggtart-back.png",
+    "bytes": 39283,
+    "sha256": "78aba96b4294f5004a72b76c0eaedaa1f13be68fb85445433c77972768754d38"
+  },
+  {
+    "path": "原创候选/qa/eggtart-hero.png",
+    "bytes": 40965,
+    "sha256": "f8540e961120e9a0f14222e32086c7e93b4aaf59bd79822e9472c5ccc840152d"
+  },
+  {
+    "path": "原创候选/qa/eggtart-side.png",
+    "bytes": 43265,
+    "sha256": "48c257e907d5e45442307f287b92732482a431b7347af215cc9bc6d3ad391555"
+  },
+  {
+    "path": "原创候选/qa/eggtart-top.png",
+    "bytes": 62160,
+    "sha256": "476427e51172dad159088198d5da088c7d55f8e6f4fee697abc5be50c0cead0d"
+  },
+  {
+    "path": "原创候选/qa/eggtart.metrics.json",
+    "bytes": 610,
+    "sha256": "afea14091d34dcb7d2defe6e8bd27fd7e2a154df216775b5cebe23f4c54a6680"
+  },
+  {
+    "path": "原创候选/qa/electronics-contact.png",
+    "bytes": 325127,
+    "sha256": "58f15d9460d28d6dfe4695523c225ae822596fdaa0250042028bf580e0d20f5e"
+  },
+  {
+    "path": "原创候选/qa/farm-contact.png",
+    "bytes": 351886,
+    "sha256": "5c818c4642f5662d0ffeb00cb612c1761c4519d5f98f8ceabf1845f7a94ba9b1"
+  },
+  {
+    "path": "原创候选/qa/flashlight-back.png",
+    "bytes": 40012,
+    "sha256": "6f7b92474d52969ab0047e802cc806a182c1b0e87bba4f8570bed4278fa7f15a"
+  },
+  {
+    "path": "原创候选/qa/flashlight-hero.png",
+    "bytes": 39620,
+    "sha256": "792f6c1f8e82dece9e4617e9ac428a158078d31d309ddb2aa92580202ea76364"
+  },
+  {
+    "path": "原创候选/qa/flashlight-side.png",
+    "bytes": 44186,
+    "sha256": "16232b224263dd642cdfe7f89bdea6f2208ae62c8aaa04c202a5763efdf098fd"
+  },
+  {
+    "path": "原创候选/qa/flashlight-top.png",
+    "bytes": 50236,
+    "sha256": "4b1d34d3d36109dbe00f386f8f575f3b0ec01398b7de207aa7d90f8fb29ae840"
+  },
+  {
+    "path": "原创候选/qa/flashlight.metrics.json",
+    "bytes": 602,
+    "sha256": "be5822bf57cf1165cf61fce7256f2c802c285dd6c44e04203ff65e8c710f18b6"
+  },
+  {
+    "path": "原创候选/qa/fruit-contact.png",
+    "bytes": 410652,
+    "sha256": "a5c544174e4c70a84a657ac7727297a0e1384644814fe2ed2d5f1a6708eebb2d"
+  },
+  {
+    "path": "原创候选/qa/gamepad-back.png",
+    "bytes": 38317,
+    "sha256": "8ed479f28645fcfb5439c2e403e1d1e3cfd3b059523f5305de652022b830a154"
+  },
+  {
+    "path": "原创候选/qa/gamepad-hero.png",
+    "bytes": 41438,
+    "sha256": "8f05dc688b798cccd3cc6b3ae545a10e70fa43d196e19dbadd9f46a5437c959c"
+  },
+  {
+    "path": "原创候选/qa/gamepad-side.png",
+    "bytes": 44564,
+    "sha256": "2029b5bf273080e77b5c2c62d045750ea4059e663fb9cce63d7f5b8e9e0feb80"
+  },
+  {
+    "path": "原创候选/qa/gamepad-top.png",
+    "bytes": 32176,
+    "sha256": "3559fdbc3a43ca10a07fb3d29ebb557d7b26d39af51ed6066fa097c9763a33bb"
+  },
+  {
+    "path": "原创候选/qa/gamepad.metrics.json",
+    "bytes": 600,
+    "sha256": "391d830debb957f460d5a26bc3501e4f3de71a5263330171cc993cc07ee64712"
+  },
+  {
+    "path": "原创候选/qa/garlic-back.png",
+    "bytes": 40238,
+    "sha256": "43ea7246e3cd9e40c08adad958810ce08d5881c407d20ded2ffb9a4fa28eb2f0"
+  },
+  {
+    "path": "原创候选/qa/garlic-hero.png",
+    "bytes": 38996,
+    "sha256": "f2356c263c13f27ef7e44208e899c061acd09c83385376aadeb69a6e34c9974d"
+  },
+  {
+    "path": "原创候选/qa/garlic-side.png",
+    "bytes": 49985,
+    "sha256": "3421871a1be2dfa84d1203c35bda68e32ba57fbf8ea6ac95c8011c7845203227"
+  },
+  {
+    "path": "原创候选/qa/garlic-top.png",
+    "bytes": 60206,
+    "sha256": "3da747f4e13a66d2893aacc003fac60dd7774ec4099a745711801b4343988e87"
+  },
+  {
+    "path": "原创候选/qa/garlic.metrics.json",
+    "bytes": 591,
+    "sha256": "f4d2ced140f15ee3c827f41b9daad9e56c62a47c0d65f15e2d1d16fc75c31830"
+  },
+  {
+    "path": "原创候选/qa/generation.json",
+    "bytes": 39440,
+    "sha256": "ff2d9b274b40e71cf54be7cc226c0c5c632a1ab491d432a59b5f2cbc670f5e25"
+  },
+  {
+    "path": "原创候选/qa/goldchime-back.png",
+    "bytes": 42564,
+    "sha256": "223024ca011d4af158df7b9128564d3621279bda21ad4fc87c1f8c5d597300be"
+  },
+  {
+    "path": "原创候选/qa/goldchime-hero.png",
+    "bytes": 40165,
+    "sha256": "5064c157230694087e146d391d7d8d678db7f3f6c58fd08e615f54dd08edbf74"
+  },
+  {
+    "path": "原创候选/qa/goldchime-side.png",
+    "bytes": 47607,
+    "sha256": "791c603abf1867d41551f40af2e598720551dc02ee3b1af0bb30ea6aaef6229c"
+  },
+  {
+    "path": "原创候选/qa/goldchime-top.png",
+    "bytes": 65992,
+    "sha256": "fa52de9a3cecbcd209d0373d4c7c38e8e6481316498f04d099128380959c72c8"
+  },
+  {
+    "path": "原创候选/qa/goldchime.metrics.json",
+    "bytes": 597,
+    "sha256": "515d8c3ea093f961dd6d6b8112e2cd342a96ac091d4d70dd80b76cc1464cf798"
+  },
+  {
+    "path": "原创候选/qa/goldring-back.png",
+    "bytes": 42149,
+    "sha256": "e7c507075ef3fee2b016fd020ee58ad1cca3b1de791f538657f9674e8aebc257"
+  },
+  {
+    "path": "原创候选/qa/goldring-hero.png",
+    "bytes": 40947,
+    "sha256": "2ff48b5fc7c81880b6f2983e4fc37867d2ff38f9f1353cc4ff192d1d3da19cf1"
+  },
+  {
+    "path": "原创候选/qa/goldring-side.png",
+    "bytes": 34732,
+    "sha256": "996ca9b8e9959f986205049b3a87d4e6ced473b18ca41bc1e6790cb516813296"
+  },
+  {
+    "path": "原创候选/qa/goldring-top.png",
+    "bytes": 33282,
+    "sha256": "6f01173f709cf7da3b688dcc7db774369b68606caa0fe082c524cdb351d0280b"
+  },
+  {
+    "path": "原创候选/qa/goldring.metrics.json",
+    "bytes": 595,
+    "sha256": "353b2dcda18994389fece4c255edd68ba49ed7abc34bc9857fcc3b6d9250b4e5"
+  },
+  {
+    "path": "原创候选/qa/jadebeads-back.png",
+    "bytes": 34383,
+    "sha256": "62c3caaf648afecbf69a2f2c362a10adb365790c0445aa584b22543c4ae581b4"
+  },
+  {
+    "path": "原创候选/qa/jadebeads-hero.png",
+    "bytes": 37892,
+    "sha256": "6c179baf6453100585fb48ab69f11287d4b31f8bdefcf64bc20fea27502a3394"
+  },
+  {
+    "path": "原创候选/qa/jadebeads-side.png",
+    "bytes": 33461,
+    "sha256": "5d066819059f52fd5834610df8a1d5e8938b1d0bf8e87a402d11ec18938471ee"
+  },
+  {
+    "path": "原创候选/qa/jadebeads-top.png",
+    "bytes": 52706,
+    "sha256": "f4c7c1928b8085a3481dda01a43c997823bb3e6599cdbcb4923fa9a7350cdaa2"
+  },
+  {
+    "path": "原创候选/qa/jadebeads.metrics.json",
+    "bytes": 599,
+    "sha256": "fbe25f80df92083ff34afb1dff4b5c0c410590b3b88506edd5eeaac8762b1db0"
+  },
+  {
+    "path": "原创候选/qa/jadecarp-back.png",
+    "bytes": 38596,
+    "sha256": "b9c6c3234a3aafc3ad2483b3b46b514609ffefc1df938b0cb87caf45d6cf7017"
+  },
+  {
+    "path": "原创候选/qa/jadecarp-hero.png",
+    "bytes": 37452,
+    "sha256": "b154271bad3a7c323a5df66c7e57ed08171ec83fa7b958576c1414b7cdad7edb"
+  },
+  {
+    "path": "原创候选/qa/jadecarp-side.png",
+    "bytes": 42822,
+    "sha256": "c51b982d859fce79a494bf3f9607e7bb74e9f9be148a6cae2d65f948a72382e9"
+  },
+  {
+    "path": "原创候选/qa/jadecarp-top.png",
+    "bytes": 33412,
+    "sha256": "ac8c14afc3f4b3091201255ea3d6aeb0699a2b383f4e87dfc5c2e99cc1c50e36"
+  },
+  {
+    "path": "原创候选/qa/jadecarp.metrics.json",
+    "bytes": 597,
+    "sha256": "7d546c9b5bb468edfc8eaa7376651636213c241befd24e96116e11118ac2779f"
+  },
+  {
+    "path": "原创候选/qa/jadechime-back.png",
+    "bytes": 40827,
+    "sha256": "d2823323b2af66e4b40ad3a6e261727843888f6b1dcfd64abcfe52566a6bff49"
+  },
+  {
+    "path": "原创候选/qa/jadechime-hero.png",
+    "bytes": 44051,
+    "sha256": "d5d4a8c31b119edcaf151c00d477d6dc1f3d468531b9af62dc0252c577c846e3"
+  },
+  {
+    "path": "原创候选/qa/jadechime-side.png",
+    "bytes": 37460,
+    "sha256": "9490cc00c4860b887f973923d05f1c71ce5f9b1ea658b48dfdcbbd1bb568daa4"
+  },
+  {
+    "path": "原创候选/qa/jadechime-top.png",
+    "bytes": 31273,
+    "sha256": "dd143111d4af7d3fe539f60e0cef57efba62e1d7954c8d9712f25cbd01f941f3"
+  },
+  {
+    "path": "原创候选/qa/jadechime.metrics.json",
+    "bytes": 597,
+    "sha256": "175c4a80bd843eb7172da44eeceffcf572a7cf207b29e9c38d9cfff2a6be7848"
+  },
+  {
+    "path": "原创候选/qa/jadeleaf-back.png",
+    "bytes": 35537,
+    "sha256": "f881980702d5c21aa5c68d20381805ec62f70b8740698ac17b65f5443683e6de"
+  },
+  {
+    "path": "原创候选/qa/jadeleaf-hero.png",
+    "bytes": 40092,
+    "sha256": "750c59dbcccdeefa697c100387bee905864a110e4c003f7d48126b0d812f81ff"
+  },
+  {
+    "path": "原创候选/qa/jadeleaf-side.png",
+    "bytes": 35674,
+    "sha256": "d54489382ddf6f1f5c69f602aa61c017e86e1aefa6759f61c5c23ff924fb57b6"
+  },
+  {
+    "path": "原创候选/qa/jadeleaf-top.png",
+    "bytes": 40236,
+    "sha256": "e76de3d170900c1d48083a15bc074d64efd34d6c95a71074bab2a71c5816c1b2"
+  },
+  {
+    "path": "原创候选/qa/jadeleaf.metrics.json",
+    "bytes": 597,
+    "sha256": "8e5f8f7fd10dc37948fd8e7206554f3646d539ad3e4dc4328537fc51d135b0f5"
+  },
+  {
+    "path": "原创候选/qa/jadelock-back.png",
+    "bytes": 44457,
+    "sha256": "5423ff670907eaace4ee7b5740bc2fc3268da695d74d0f5936d3df791f1817bf"
+  },
+  {
+    "path": "原创候选/qa/jadelock-hero.png",
+    "bytes": 42797,
+    "sha256": "c780ce4a4563dadcc07c6f4ff6e3438a77a144a3459a97b3b81bf44211a665f5"
+  },
+  {
+    "path": "原创候选/qa/jadelock-side.png",
+    "bytes": 36609,
+    "sha256": "18756c6e654fe92697e40f454de3ee76f6aad8f93fc31df583b7ba4ee72f3899"
+  },
+  {
+    "path": "原创候选/qa/jadelock-top.png",
+    "bytes": 32234,
+    "sha256": "cf7f426276a15d40760f6894b519843e2cf7b56b61bd3f4c7b83a00d4ee374a9"
+  },
+  {
+    "path": "原创候选/qa/jadelock.metrics.json",
+    "bytes": 617,
+    "sha256": "e8f3a1aac05c926dc182ab5932aa2a8a88cf3ba9c6e1266ed6b47a779a99428f"
+  },
+  {
+    "path": "原创候选/qa/jadepeanut-back.png",
+    "bytes": 35062,
+    "sha256": "bd0d40e326d3e005c20cd793a67ca52ef0bbfdf0bb527b66da7460432ba31fbe"
+  },
+  {
+    "path": "原创候选/qa/jadepeanut-hero.png",
+    "bytes": 38246,
+    "sha256": "b12ec67f14b00ca327a21b9ea54450d5ef06709f7e4196a7000a1610d960176e"
+  },
+  {
+    "path": "原创候选/qa/jadepeanut-side.png",
+    "bytes": 51440,
+    "sha256": "ade398e8578088ce247decc1a99a7dfeab8284f088e9eaca352df2998ff8e508"
+  },
+  {
+    "path": "原创候选/qa/jadepeanut-top.png",
+    "bytes": 37486,
+    "sha256": "004d53c950bc7ee7ae7ae071c3aeee5a8aeabe5adc8d8b79f2c817f9d9d97810"
+  },
+  {
+    "path": "原创候选/qa/jadepeanut.metrics.json",
+    "bytes": 599,
+    "sha256": "f636696724d3478456507fe34f53251e713b318a4f2ec8f6f655a2af42d5fcc7"
+  },
+  {
+    "path": "原创候选/qa/jadetalisman-back.png",
+    "bytes": 39898,
+    "sha256": "8826c7f7c6e74f64561103515787f84f166ac29b6dbb2f8f9bdc99b83993e256"
+  },
+  {
+    "path": "原创候选/qa/jadetalisman-hero.png",
+    "bytes": 43303,
+    "sha256": "d17617f64292f998a6fbc2f856f6e0c10e0c6865c0cf49bd8691a6537cb194c8"
+  },
+  {
+    "path": "原创候选/qa/jadetalisman-side.png",
+    "bytes": 34242,
+    "sha256": "4fbdeab91e3528efa08889a0b1ef99b19c1798632f8e2914c19308ccf621e8e2"
+  },
+  {
+    "path": "原创候选/qa/jadetalisman-top.png",
+    "bytes": 36742,
+    "sha256": "6194c37e755377691fa5261992bd59597a406d8eaf4fd1ca9825cbe89be39603"
+  },
+  {
+    "path": "原创候选/qa/jadetalisman.metrics.json",
+    "bytes": 615,
+    "sha256": "c5314fbe342b9f946fb8e849423889da540c14ebf8f2227f1bcbbbbd7b86f5cd"
+  },
+  {
+    "path": "原创候选/qa/jadeteapot-back.png",
+    "bytes": 39161,
+    "sha256": "f47c1c5a34e7884012cff119a1a656f7a01720a1e7c02a6c885f05aa5da13430"
+  },
+  {
+    "path": "原创候选/qa/jadeteapot-hero.png",
+    "bytes": 41129,
+    "sha256": "9ab81766e84dafa9f66c08289ca5826439b40bc678a17a75718595973fab8d33"
+  },
+  {
+    "path": "原创候选/qa/jadeteapot-side.png",
+    "bytes": 52813,
+    "sha256": "ca6f88fe56a1d0a4d3ae6740cafe5f3a3d63be62eedb93224e38a91a6de67aa4"
+  },
+  {
+    "path": "原创候选/qa/jadeteapot-top.png",
+    "bytes": 36008,
+    "sha256": "f212aaed7105351f3c6d02dddc1476ba2231d5f4226835860e13b2638372f29d"
+  },
+  {
+    "path": "原创候选/qa/jadeteapot.metrics.json",
+    "bytes": 598,
+    "sha256": "c8be4f1db2603e67c5f34b7bdc570f0ebd21fb8f857f633225f09f21bbaecd65"
+  },
+  {
+    "path": "原创候选/qa/jadetiger-back.png",
+    "bytes": 46974,
+    "sha256": "9dda12b0414f697400c1a18743e081dab3f526dcd8d7cad8632826cf60335e5d"
+  },
+  {
+    "path": "原创候选/qa/jadetiger-hero.png",
+    "bytes": 47797,
+    "sha256": "f4634a3ad57bd5d51d82965604b45d6ad3f1196d1c5e48a37d79793cdaf855ca"
+  },
+  {
+    "path": "原创候选/qa/jadetiger-side.png",
+    "bytes": 53605,
+    "sha256": "8bfcb5707a156fae8e3b65b4538e5ae88f3b43f83867b761796c1399a8f81f1a"
+  },
+  {
+    "path": "原创候选/qa/jadetiger-top.png",
+    "bytes": 40924,
+    "sha256": "63d57bb52f3a36b77f8878005dcc4d9720b91dc1815c22cebcf8f55fb1a604d4"
+  },
+  {
+    "path": "原创候选/qa/jadetiger.metrics.json",
+    "bytes": 598,
+    "sha256": "d03e4d70335694f62ee51db6b467e9e4ca4c03ad7bc62a4344a876ad5f2fa650"
+  },
+  {
+    "path": "原创候选/qa/jadevase-back.png",
+    "bytes": 40569,
+    "sha256": "961abf522991fb671ee6cf82be94145cc23c4839c21f069cf4c1a55045aca956"
+  },
+  {
+    "path": "原创候选/qa/jadevase-hero.png",
+    "bytes": 39146,
+    "sha256": "497bcf3bb6ba352ab061da7b8e5d366f2e9c52dad8fdbd858e163c1300294b21"
+  },
+  {
+    "path": "原创候选/qa/jadevase-side.png",
+    "bytes": 46597,
+    "sha256": "65d88825b15cb818cb1557ae5d6c61212fb0f3c941963e05566f478c7bdd2f17"
+  },
+  {
+    "path": "原创候选/qa/jadevase-top.png",
+    "bytes": 60378,
+    "sha256": "91099eb30409b820c01e2fda4d8989a6e4e78fe986079892eeebf981628fac95"
+  },
+  {
+    "path": "原创候选/qa/jadevase.metrics.json",
+    "bytes": 596,
+    "sha256": "5f32e7f2bf74df0e183f3ef31947748a9ae81d28a9f9cdab13fe91ec8b44255e"
+  },
+  {
+    "path": "原创候选/qa/keyboard-back.png",
+    "bytes": 40729,
+    "sha256": "513361be23967bd5c7c53c24a9e8979e5040ab54427629510f669d641dddf229"
+  },
+  {
+    "path": "原创候选/qa/keyboard-hero.png",
+    "bytes": 43943,
+    "sha256": "71ccff32a09b471ad062ea10f0460b1b1b7622a1bb74732b8847fb3a90f0ea5f"
+  },
+  {
+    "path": "原创候选/qa/keyboard-side.png",
+    "bytes": 41639,
+    "sha256": "29642d0dbe65cb5b12bed0cebb6ad2e15dd003713a97a1bf369f9c55eaaa8117"
+  },
+  {
+    "path": "原创候选/qa/keyboard-top.png",
+    "bytes": 52158,
+    "sha256": "5a4eb5d3a3ec662a15e3cd42d4d68831c3b0354d71ed7226d09268f6c3cb14df"
+  },
+  {
+    "path": "原创候选/qa/keyboard.metrics.json",
+    "bytes": 601,
+    "sha256": "ee9e7d3cbe4be488293c94f1e6ff9272d9e31845302bd3da9afd8bfcd4f5914b"
+  },
+  {
+    "path": "原创候选/qa/kiwi-back.png",
+    "bytes": 38730,
+    "sha256": "31ceafc6753a9f861eedb7a04a1ddcdc9049d7dd6b027f07fdc55692d64e74be"
+  },
+  {
+    "path": "原创候选/qa/kiwi-hero.png",
+    "bytes": 41592,
+    "sha256": "9f63c285732b68f35bc19d64f9000341d108b1f3bdc4b11c0a0aea6f45220b2e"
+  },
+  {
+    "path": "原创候选/qa/kiwi-side.png",
+    "bytes": 37578,
+    "sha256": "a906445c8d431171ab9d50d060e6f8c37bcf52c6482db6bd1855fea1d78ad96b"
+  },
+  {
+    "path": "原创候选/qa/kiwi-top.png",
+    "bytes": 67930,
+    "sha256": "cda553d138862027416e920d050ca8dbd542fe9cb263b300bee6056e76db890b"
+  },
+  {
+    "path": "原创候选/qa/kiwi.metrics.json",
+    "bytes": 576,
+    "sha256": "6d325c0428504c2530c8d1f7cb1d51af1b065ee2359659dea234a0ca6514a560"
+  },
+  {
+    "path": "原创候选/qa/lollipop-back.png",
+    "bytes": 33816,
+    "sha256": "dca6fa22047b8c481c7a23d5ff07fee2e94ee9891ed7ffbb0783c832ecc73125"
+  },
+  {
+    "path": "原创候选/qa/lollipop-hero.png",
+    "bytes": 38416,
+    "sha256": "027371a0602218bc5fc8ee96d99841175d62f08b81a3bd62bfc8840d0ad1180a"
+  },
+  {
+    "path": "原创候选/qa/lollipop-side.png",
+    "bytes": 31455,
+    "sha256": "0109c912ad8ac8442a9710d0ed6a14213832aa464a825ef4998bb40a040c9a59"
+  },
+  {
+    "path": "原创候选/qa/lollipop-top.png",
+    "bytes": 30557,
+    "sha256": "e2ab03494ef39501d64b704ed9c9adf988e2b8ff4df43e8e3fd46880c1a5641a"
+  },
+  {
+    "path": "原创候选/qa/lollipop.metrics.json",
+    "bytes": 597,
+    "sha256": "03f52faf70bdbf4119d9bdbabe02b06d0e9271054a370aa042803edfa551e61b"
+  },
+  {
+    "path": "原创候选/qa/mango-back.png",
+    "bytes": 37615,
+    "sha256": "95764d920620ccf17ce97d02347918e82b58dac1e6ad7629807ef11ba85b2200"
+  },
+  {
+    "path": "原创候选/qa/mango-hero.png",
+    "bytes": 35686,
+    "sha256": "b8c54c9db71a49113cbee93c9368eff551d48442c18d9ee19cf55c9bf6d9258b"
+  },
+  {
+    "path": "原创候选/qa/mango-side.png",
+    "bytes": 40964,
+    "sha256": "5ddc911fb6e7f480dc613e3bf94837194810aa43f3090d14b9565841ae3e2308"
+  },
+  {
+    "path": "原创候选/qa/mango-top.png",
+    "bytes": 53292,
+    "sha256": "03a7a6e34d5eba5ff644796ceace2d5f8a5d48806b6b0f6395492b3c4cc7d580"
+  },
+  {
+    "path": "原创候选/qa/mango.metrics.json",
+    "bytes": 590,
+    "sha256": "0432a4560543c573aa79f3e0d53e792e1683d41937756a36e258f950ed1aa699"
+  },
+  {
+    "path": "原创候选/qa/microphone-back.png",
+    "bytes": 37342,
+    "sha256": "589753d3d30d56421f2c433923469bdac67c73e5e3403e48b756754467d5bd62"
+  },
+  {
+    "path": "原创候选/qa/microphone-hero.png",
+    "bytes": 37115,
+    "sha256": "064f1a3e832fb126010b61e9372d1d9a34ee8ff96c20259684c770b95b4d8262"
+  },
+  {
+    "path": "原创候选/qa/microphone-side.png",
+    "bytes": 40091,
+    "sha256": "c7ee461de42cbeb9f6ec359b326864fdbf1d55fc86593c2b9f835110f14aaa4a"
+  },
+  {
+    "path": "原创候选/qa/microphone-top.png",
+    "bytes": 62899,
+    "sha256": "a8820f02d1e77b57c487e32bcf8e076a5640a612e54610d1b5f34e7b7be50301"
+  },
+  {
+    "path": "原创候选/qa/microphone.metrics.json",
+    "bytes": 603,
+    "sha256": "deaed93e466aae29553d6b25c01c5e424c15e32f4ad46046095a8ebe3a512115"
+  },
+  {
+    "path": "原创候选/qa/monitor-back.png",
+    "bytes": 47851,
+    "sha256": "19bcff5f9e80fc2c4f5773e47b6aad66b0598aebd71dd8815b254f87341b0910"
+  },
+  {
+    "path": "原创候选/qa/monitor-hero.png",
+    "bytes": 51592,
+    "sha256": "04a61c8cbab6fee216dc621af9d8bc1193936b228cf4a4bc2dc40ed161772c4e"
+  },
+  {
+    "path": "原创候选/qa/monitor-side.png",
+    "bytes": 38329,
+    "sha256": "a506b5a8fd6a008d8e4089acd9fa5264229bac9c44f486cc0f6239099e627298"
+  },
+  {
+    "path": "原创候选/qa/monitor-top.png",
+    "bytes": 34414,
+    "sha256": "06ff73bb2e20f7ea022c9225584293c9b074c3ef1bf4db7d841011d758c6f8de"
+  },
+  {
+    "path": "原创候选/qa/monitor.metrics.json",
+    "bytes": 598,
+    "sha256": "51a924910a0e8e2b40a7fbbdf40f70515463971324d863a65d9b2a1f0deed704"
+  },
+  {
+    "path": "原创候选/qa/mooncake-back.png",
+    "bytes": 43613,
+    "sha256": "29ddbf2a64440405daf1bd822675d379878e80ff5ccf1ae2a3cb7b0e458586a8"
+  },
+  {
+    "path": "原创候选/qa/mooncake-hero.png",
+    "bytes": 45761,
+    "sha256": "de0cd1c9fd573c529c0a947d630c69c0bdb2de19e84266eb793fb07398fdbbc9"
+  },
+  {
+    "path": "原创候选/qa/mooncake-side.png",
+    "bytes": 43695,
+    "sha256": "128ac0f257e97ea939b4d3a0aee86f45876ad9ff33d5e0d05fbe201abc102a31"
+  },
+  {
+    "path": "原创候选/qa/mooncake-top.png",
+    "bytes": 65765,
+    "sha256": "56edabe8e8432f2561be31ebb9b8e10be8a52cad6c90d99bb42838faed511077"
+  },
+  {
+    "path": "原创候选/qa/mooncake.metrics.json",
+    "bytes": 598,
+    "sha256": "6cb0c9f3cde6057fe9cbe4c144f660c0f58c07bf693f2d73336d9acf09a08741"
+  },
+  {
+    "path": "原创候选/qa/onion-back.png",
+    "bytes": 42299,
+    "sha256": "6bba8125778270160aafa9354701c111545115ca7fd07264637934cf3b2ef325"
+  },
+  {
+    "path": "原创候选/qa/onion-hero.png",
+    "bytes": 38837,
+    "sha256": "e585558d84c3926c35df1f69ba3136df26cabe090011fd75c84b146d9059c898"
+  },
+  {
+    "path": "原创候选/qa/onion-side.png",
+    "bytes": 53097,
+    "sha256": "5a811c55760971040affdc73181db27ff1d4d87e94f3cbf21194b7462469a635"
+  },
+  {
+    "path": "原创候选/qa/onion-top.png",
+    "bytes": 66604,
+    "sha256": "cff54daa56d0b7a4054c1b0b7fc0ddbeaf2f6235d0fee2488a83cf1481be9abf"
+  },
+  {
+    "path": "原创候选/qa/onion.metrics.json",
+    "bytes": 605,
+    "sha256": "509cec5fc3f4f26f135695bd8463b93df546ff28c7241cad3008778413c060f5"
+  },
+  {
+    "path": "原创候选/qa/pancake-back.png",
+    "bytes": 49889,
+    "sha256": "59aa6c0e7c4a96d0e7dd01ab00fa8204f9d8b9d3f54e957fc7bb584914f13864"
+  },
+  {
+    "path": "原创候选/qa/pancake-hero.png",
+    "bytes": 52034,
+    "sha256": "f5740393a5001e464880b83055d1bdc6ea6753d9bd06f4e617e518fef6957325"
+  },
+  {
+    "path": "原创候选/qa/pancake-side.png",
+    "bytes": 52770,
+    "sha256": "1dc664096dd2b4ce67235acd4ed6a4b97a32b1d6f959e498b2aa76121b375773"
+  },
+  {
+    "path": "原创候选/qa/pancake-top.png",
+    "bytes": 65676,
+    "sha256": "02683b304d4523ccfba6e95012c0224e5f1a70ad479df99f1e9db76dbd144627"
+  },
+  {
+    "path": "原创候选/qa/pancake.metrics.json",
+    "bytes": 580,
+    "sha256": "95f11ad90cde749d6d14192544e511d2ab7d7dcb64b25a397d02a24ded1dc68b"
+  },
+  {
+    "path": "原创候选/qa/peach-back.png",
+    "bytes": 40766,
+    "sha256": "eea0ffb6afeefe907289ef021f4ed96452e5cfe895d783f84f8122b87a823bd7"
+  },
+  {
+    "path": "原创候选/qa/peach-hero.png",
+    "bytes": 38714,
+    "sha256": "d25d71e595bfbeaf751cfd0eb60a734004a0a188213fe1a761a22d029acccbde"
+  },
+  {
+    "path": "原创候选/qa/peach-side.png",
+    "bytes": 48139,
+    "sha256": "4f4b146502f3be8c8f9ae9f733fd9530e73f862b1c42c280960915e834d4c894"
+  },
+  {
+    "path": "原创候选/qa/peach-top.png",
+    "bytes": 57050,
+    "sha256": "896bc015bc52ad8e45d59c3272cea191d10b8dd5ac663b044494e739fda0f8d3"
+  },
+  {
+    "path": "原创候选/qa/peach.metrics.json",
+    "bytes": 590,
+    "sha256": "e4f39d1c5efb91119c4db5abf1e57cf89a4a071f61e59ae8e5695aa7bf9a3cb6"
+  },
+  {
+    "path": "原创候选/qa/persimmon-back.png",
+    "bytes": 45219,
+    "sha256": "ba7bf64585b673f51397f0e91a552daa852f5043a9c0e63528927d2e95ed3c2d"
+  },
+  {
+    "path": "原创候选/qa/persimmon-hero.png",
+    "bytes": 42388,
+    "sha256": "66a8d8dc8610bb2f81a68c933904e763a6893ebc3e23732f8e3343db224580d1"
+  },
+  {
+    "path": "原创候选/qa/persimmon-side.png",
+    "bytes": 54745,
+    "sha256": "5908e863456a8d9f13177b0b0d7053a3ea16bc7b470f8b11f9e0ee715187bf9d"
+  },
+  {
+    "path": "原创候选/qa/persimmon-top.png",
+    "bytes": 66570,
+    "sha256": "2b11fb39f4b077707f8915ea96516a695d566f48be2124f037e3dfa4e9e9c834"
+  },
+  {
+    "path": "原创候选/qa/persimmon.metrics.json",
+    "bytes": 595,
+    "sha256": "04c4db844d286bd8300518113fb521d068e8d13ff7b75ced14c823cf5100902a"
+  },
+  {
+    "path": "原创候选/qa/pineapple-back.png",
+    "bytes": 51492,
+    "sha256": "044d4da00473ff5935b6f1813ae08fba11f08c86b2f32120c11149119099765e"
+  },
+  {
+    "path": "原创候选/qa/pineapple-hero.png",
+    "bytes": 49501,
+    "sha256": "48b3087642687feffbc5c4df3ad61c989bb41a6c61e432370e6d8ba92b3854e5"
+  },
+  {
+    "path": "原创候选/qa/pineapple-side.png",
+    "bytes": 57179,
+    "sha256": "c645634f8a375bde6847452f2054c7f9f4d19c895313df22ba2568390ff38d73"
+  },
+  {
+    "path": "原创候选/qa/pineapple-top.png",
+    "bytes": 80572,
+    "sha256": "30d98b3c4c86731c7a5c4a3832413e2cdacf7a2c0a4a7cf457be27351b861591"
+  },
+  {
+    "path": "原创候选/qa/pineapple.metrics.json",
+    "bytes": 596,
+    "sha256": "a6164a5b4c6bdef7a8afd9a8a1970f934c45c33b65efa71cdf919a37a3bc48d2"
+  },
+  {
+    "path": "原创候选/qa/pomegranate-back.png",
+    "bytes": 37933,
+    "sha256": "4cda40aba731938fa24c2427eba2ef3f0244abfe0ee91516de41ba7ffdec4568"
+  },
+  {
+    "path": "原创候选/qa/pomegranate-hero.png",
+    "bytes": 36102,
+    "sha256": "7c7c121f844fed420f44b642ac7d9e70c8615c260df5d0db62ad1105952ee48f"
+  },
+  {
+    "path": "原创候选/qa/pomegranate-side.png",
+    "bytes": 45558,
+    "sha256": "3498d1f573377cc3580672a692661755cbdd39d05c8ced09f92c18cdf9b0c3a4"
+  },
+  {
+    "path": "原创候选/qa/pomegranate-top.png",
+    "bytes": 55226,
+    "sha256": "dd9c21cd427d344ae5b298b039c354d5078301e590c8cc97b012982e4023bb9a"
+  },
+  {
+    "path": "原创候选/qa/pomegranate.metrics.json",
+    "bytes": 611,
+    "sha256": "a62e193d39bf609e738bbd678386cffb1307c27ca446412205df0f8dbc90281f"
+  },
+  {
+    "path": "原创候选/qa/popsicle-back.png",
+    "bytes": 37722,
+    "sha256": "79e772658c07c2598f4711236ca7c5f4b031038093dedb00a4d32592d3468f33"
+  },
+  {
+    "path": "原创候选/qa/popsicle-hero.png",
+    "bytes": 38537,
+    "sha256": "3603b9f93721d2f4719542969c574e894a99c8903ec8a63bded579551a92fc48"
+  },
+  {
+    "path": "原创候选/qa/popsicle-side.png",
+    "bytes": 33911,
+    "sha256": "f2576dc1e36fe81d1547b6b2021c7c02c9599e9d18042722d559ef6146f75199"
+  },
+  {
+    "path": "原创候选/qa/popsicle-top.png",
+    "bytes": 37397,
+    "sha256": "311b4717fc4c58f0b0f28a17381eff666167757d3712465e264e98bd5ffba015"
+  },
+  {
+    "path": "原创候选/qa/popsicle.metrics.json",
+    "bytes": 610,
+    "sha256": "2c51953ea2966ac2d1c9d78368178c84543f8aa73eb439fd991bc8681974477c"
+  },
+  {
+    "path": "原创候选/qa/potato-back.png",
+    "bytes": 35191,
+    "sha256": "39e9c3801ef6768df1c30e5862e23468d851177e837062aaa9b94d17f9babee6"
+  },
+  {
+    "path": "原创候选/qa/potato-hero.png",
+    "bytes": 36424,
+    "sha256": "c90ec6cb91cf630df178f4bc173ace57c17036f488a9d60a24504c76aa01f1d0"
+  },
+  {
+    "path": "原创候选/qa/potato-side.png",
+    "bytes": 50532,
+    "sha256": "d11cf4f8d57319660e3adc508bdf1d84eadcc64dbd568dcb0cf4f036a8b66167"
+  },
+  {
+    "path": "原创候选/qa/potato-top.png",
+    "bytes": 41525,
+    "sha256": "f4f8621bc36e2673cbecf7f41edec61f3e2d6d5a16320eecab80c8ca55a09bea"
+  },
+  {
+    "path": "原创候选/qa/potato.metrics.json",
+    "bytes": 590,
+    "sha256": "c5cbfc8fa6fd138239bf4736da47ce6bebdeb0c57d930f4fa058e166b4417c8b"
+  },
+  {
+    "path": "原创候选/qa/powerbank-back.png",
+    "bytes": 42433,
+    "sha256": "22407f3b411c7d7730fe35eb8c9ef2fd2046f3fc64982738ebde9c4cbf0a6d82"
+  },
+  {
+    "path": "原创候选/qa/powerbank-hero.png",
+    "bytes": 43514,
+    "sha256": "8e1a93811f4cfeeb1e4b8b98c28c8244fb7fba96ae3df4bebda8808949cc57c4"
+  },
+  {
+    "path": "原创候选/qa/powerbank-side.png",
+    "bytes": 36874,
+    "sha256": "f13e234d35bf7c86d02651ac9d4339de44e8cdc820adbcd51a72a0d63cdead2b"
+  },
+  {
+    "path": "原创候选/qa/powerbank-top.png",
+    "bytes": 43969,
+    "sha256": "c47297e9cbec2e20e2747484a6a86668c2e5a52f072121999d299e5f22d8ad77"
+  },
+  {
+    "path": "原创候选/qa/powerbank.metrics.json",
+    "bytes": 600,
+    "sha256": "fc094176186c6e75be65eb15bc74c708196f5f97c6639eeb0ed9133381b040e7"
+  },
+  {
+    "path": "原创候选/qa/pretzel-back.png",
+    "bytes": 45241,
+    "sha256": "c6b313bce7b840ace4b7cfed68cbb8c4dde242f3b23170561223847dc852d248"
+  },
+  {
+    "path": "原创候选/qa/pretzel-hero.png",
+    "bytes": 44942,
+    "sha256": "e96f4ed80c7db14d34827383d8fb75ff5599d68cd791b6257f1170b4e3d9a8b6"
+  },
+  {
+    "path": "原创候选/qa/pretzel-side.png",
+    "bytes": 36527,
+    "sha256": "836ab13c6bcbdc155dcd7a6f573f5c997d30856c9f29622b7c2a5a28ab2cd3a8"
+  },
+  {
+    "path": "原创候选/qa/pretzel-top.png",
+    "bytes": 30509,
+    "sha256": "25472b1c84ce74fd87262d848ad8d5309082661f69a455ad3504774c9298878d"
+  },
+  {
+    "path": "原创候选/qa/pretzel.metrics.json",
+    "bytes": 594,
+    "sha256": "5e6b9e39f9a946b9d4e301f2d71b03ebfa7d01975bc5679527185b9a350a219d"
+  },
+  {
+    "path": "原创候选/qa/printer-back.png",
+    "bytes": 40896,
+    "sha256": "b55a82c14f67ab9974044bfb951e551d4b46541b22f6ff1730e98f8afeff8546"
+  },
+  {
+    "path": "原创候选/qa/printer-hero.png",
+    "bytes": 49129,
+    "sha256": "afc08848924b13b0023d401c32fc74876aff1daf5194ea327603c43cf7b29a7e"
+  },
+  {
+    "path": "原创候选/qa/printer-side.png",
+    "bytes": 38139,
+    "sha256": "728f4a17a9c454cc1da0058a99891fb067cbe5e074d26660bd9045d4a6f4456e"
+  },
+  {
+    "path": "原创候选/qa/printer-top.png",
+    "bytes": 49180,
+    "sha256": "06aa3bc0a91e0200afc3d86af6f7c6823c3579d70e56529af5835ced3bca9ff8"
+  },
+  {
+    "path": "原创候选/qa/printer.metrics.json",
+    "bytes": 598,
+    "sha256": "12bc8a5d6874464d2c555f7e09cfe0aff6307871b05813dc23d9b06b8e47fdc5"
+  },
+  {
+    "path": "原创候选/qa/radish-back.png",
+    "bytes": 35299,
+    "sha256": "14a8478ec446d615530ebf9dc1570271fdc4e30e3acf79c12ac7cdfcac9798b5"
+  },
+  {
+    "path": "原创候选/qa/radish-hero.png",
+    "bytes": 34525,
+    "sha256": "e8defcfa68a5c70f0946899698bc92305cee9a4036b647a91aff724c58bf3649"
+  },
+  {
+    "path": "原创候选/qa/radish-side.png",
+    "bytes": 40226,
+    "sha256": "869358220ef9769919de50c1e5ab177c6daaa44c33240679f5d710bbd1bff7df"
+  },
+  {
+    "path": "原创候选/qa/radish-top.png",
+    "bytes": 54843,
+    "sha256": "ee0d6f0b44766cd60e88abb1a80585da2835cb41da4e87fe43eebad6d41c16a7"
+  },
+  {
+    "path": "原创候选/qa/radish.metrics.json",
+    "bytes": 590,
+    "sha256": "3bae61b3e41bf14e493d76abf744f2271d16d8140de053c3df8bdc7cd5c63c02"
+  },
+  {
+    "path": "原创候选/qa/router-back.png",
+    "bytes": 44024,
+    "sha256": "013a15b5af5e69032a5252437ddbc053bc2f9274035aabb97b9fa2ff8841a14b"
+  },
+  {
+    "path": "原创候选/qa/router-hero.png",
+    "bytes": 43966,
+    "sha256": "cfbc2ae9c2974a75e5596d58059a089f515e1eeb92ad4f589402d4656c1ae27b"
+  },
+  {
+    "path": "原创候选/qa/router-side.png",
+    "bytes": 37943,
+    "sha256": "a55ad88d3b6bd6a7ecf0587014410665365f4c20f8c2884da4b78e8291b2f04a"
+  },
+  {
+    "path": "原创候选/qa/router-top.png",
+    "bytes": 47866,
+    "sha256": "808547483c0dae47440e33bf2839ea8b2d06d73dbfa27321fe977c69de87bed1"
+  },
+  {
+    "path": "原创候选/qa/router.metrics.json",
+    "bytes": 631,
+    "sha256": "2cc94e5cc8ffc4e640e4a1b21d380744d7f0d0ec53d7161db17c92465ad5729e"
+  },
+  {
+    "path": "原创候选/qa/shovel-back.png",
+    "bytes": 35923,
+    "sha256": "d2ae944ef88d162634091e58dc265ce0feb6cd5ddfcf2812a7f72852f15b2ba9"
+  },
+  {
+    "path": "原创候选/qa/shovel-hero.png",
+    "bytes": 36172,
+    "sha256": "102052f071be2c249535253179efabec86cee90597d7ae3fed752e57ae75ae21"
+  },
+  {
+    "path": "原创候选/qa/shovel-side.png",
+    "bytes": 30868,
+    "sha256": "6b71f489d72b761689aef069455e90e55207151071fda85a122ebfe7f7a685c7"
+  },
+  {
+    "path": "原创候选/qa/shovel-top.png",
+    "bytes": 32711,
+    "sha256": "e2a7082ae4a772636bc4f2b1e19e4d06907a61964e99e8dd12dca726d47e62a1"
+  },
+  {
+    "path": "原创候选/qa/shovel.metrics.json",
+    "bytes": 592,
+    "sha256": "01adee10ac71b01993b711404fd0c1234dd035bd488c02d25b988f36009f66b2"
+  },
+  {
+    "path": "原创候选/qa/starfruit-back.png",
+    "bytes": 51069,
+    "sha256": "c946f7e7c56f217f987d6a8919f362ab7a256c7f4e4bc8cad1a3e44fc1602d8a"
+  },
+  {
+    "path": "原创候选/qa/starfruit-hero.png",
+    "bytes": 47840,
+    "sha256": "d73ad72c085366dcd16501631948c5d664bb1890a5b98cce1b9cfd53af38a1f0"
+  },
+  {
+    "path": "原创候选/qa/starfruit-side.png",
+    "bytes": 62945,
+    "sha256": "f161e950bdebe65e4bb22ce1e3a08d7113a58f585f5428aafa5236fa4e674fef"
+  },
+  {
+    "path": "原创候选/qa/starfruit-top.png",
+    "bytes": 44003,
+    "sha256": "34635736af06c6972a03b13633b4a7226717c6c6edb7fbd0bc3e5ea421d9ab51"
+  },
+  {
+    "path": "原创候选/qa/starfruit.metrics.json",
+    "bytes": 593,
+    "sha256": "03c5fe9b1c652084f434bebe1db20816136c649989e9212af9bb216265aebc16"
+  },
+  {
+    "path": "原创候选/qa/swissroll-back.png",
+    "bytes": 45691,
+    "sha256": "616b0db4b761803fef166d7fded0e30a47b54a730b590346ff5b204978cd861e"
+  },
+  {
+    "path": "原创候选/qa/swissroll-hero.png",
+    "bytes": 52138,
+    "sha256": "731161edb6a32a55c6bd5f5d70685f3443897ee91c9ad69d9564c72db98f5341"
+  },
+  {
+    "path": "原创候选/qa/swissroll-side.png",
+    "bytes": 55601,
+    "sha256": "30d550a6d00c7cd1e113a42415c03ca4916641514ca3f371e04cd3a63c810e9d"
+  },
+  {
+    "path": "原创候选/qa/swissroll-top.png",
+    "bytes": 54576,
+    "sha256": "c27707f3df2ed7da0ee5011b866e3891ed68d9ff7a2cd6699e602320bf8a3818"
+  },
+  {
+    "path": "原创候选/qa/swissroll.metrics.json",
+    "bytes": 597,
+    "sha256": "c20be65ce16b7d0eda2596c56060c84f78cebc2de99652d764e21b67038c982e"
+  },
+  {
+    "path": "原创候选/qa/tablet-back.png",
+    "bytes": 44163,
+    "sha256": "bbd91b682dc524cdc500a5c70f07d994f2e2f1e130f19ef169d09da194b90880"
+  },
+  {
+    "path": "原创候选/qa/tablet-hero.png",
+    "bytes": 49039,
+    "sha256": "13ab6b690c25deed56f457f38aa51ca8f2e6049a84c1cf3584c9173dbca7797d"
+  },
+  {
+    "path": "原创候选/qa/tablet-side.png",
+    "bytes": 34033,
+    "sha256": "3a6ca756b00e3dc1920af9c726fc1ef2b879f308dda300df763dec518c59e653"
+  },
+  {
+    "path": "原创候选/qa/tablet-top.png",
+    "bytes": 28032,
+    "sha256": "3773ae8ab71bd195370094dae7b83d327cc3a0d4b50b70f1ea40675d4bbc54bb"
+  },
+  {
+    "path": "原创候选/qa/tablet.metrics.json",
+    "bytes": 598,
+    "sha256": "8c55c506cdf5e9f1995b0d5ce049465ac245f3e74b7c800ce7f3bb3c15ca7f41"
+  },
+  {
+    "path": "原创候选/qa/teacup-back.png",
+    "bytes": 38980,
+    "sha256": "a0e2a1164abb5fe3df41d293015b8229c243bf00f0ce6e6de4773f0a82fc46da"
+  },
+  {
+    "path": "原创候选/qa/teacup-hero.png",
+    "bytes": 37578,
+    "sha256": "3e902b397cf2f8c8e6bdd6e1cf46db675bf0056ab37e2038b404462a016afa88"
+  },
+  {
+    "path": "原创候选/qa/teacup-side.png",
+    "bytes": 41553,
+    "sha256": "b11a9f2368024d3f77c8fd64d0cffc401c8528fd89ef1d24a6b34c1229b0115d"
+  },
+  {
+    "path": "原创候选/qa/teacup-top.png",
+    "bytes": 58917,
+    "sha256": "f4d586cb65332b74ff78ac66bfe6c53769303749ae64b4797145e5ace4951943"
+  },
+  {
+    "path": "原创候选/qa/teacup.metrics.json",
+    "bytes": 591,
+    "sha256": "e6b43dfd69a5abef20b92f34623fec9552ed02dffa5359ea524177984db20632"
+  },
+  {
+    "path": "原创候选/qa/television-back.png",
+    "bytes": 47346,
+    "sha256": "07d2642ec7d2e06cecbcd0d6e5e2824875c5a0c18e11ae351abba83b90bf6332"
+  },
+  {
+    "path": "原创候选/qa/television-hero.png",
+    "bytes": 52452,
+    "sha256": "73b0623d5c22377ed44401e77572fc7652007bcfae57859ca8fb574f6b6cc7e7"
+  },
+  {
+    "path": "原创候选/qa/television-side.png",
+    "bytes": 42812,
+    "sha256": "7223bbad370212339c25a8eda1255e96fc7c2403d7883f6db2c0f7977efe53d8"
+  },
+  {
+    "path": "原创候选/qa/television-top.png",
+    "bytes": 34412,
+    "sha256": "e976377460db82614d0ab78df16fd919629bc9ac9f21ef934310667ffed35ce2"
+  },
+  {
+    "path": "原创候选/qa/television.metrics.json",
+    "bytes": 616,
+    "sha256": "5bbb9e17c597c695023877a01aabdfadd56f9602f13ad5bc76209976fbb5531c"
+  },
+  {
+    "path": "原创候选/qa/toast-back.png",
+    "bytes": 41570,
+    "sha256": "f7104c810c84730436faa99fe1e43eb7bd1eae3f8b54aa836360272afa0f4a9b"
+  },
+  {
+    "path": "原创候选/qa/toast-hero.png",
+    "bytes": 42530,
+    "sha256": "b7e84ffa6b10517ace48aff3ccd52babf3881e3a823054b3d71a672f90876395"
+  },
+  {
+    "path": "原创候选/qa/toast-side.png",
+    "bytes": 37551,
+    "sha256": "284886f806bb18d4be8e814a2a90ec6c7eabea5fa396358699e1887b69e1d167"
+  },
+  {
+    "path": "原创候选/qa/toast-top.png",
+    "bytes": 35451,
+    "sha256": "434fa0353fda10885d2f6812337d14f61f35840c0423a4dbabda84f0b2bbce47"
+  },
+  {
+    "path": "原创候选/qa/toast.metrics.json",
+    "bytes": 591,
+    "sha256": "2b5771b6ac2582395e0627da0ec9affb187d67a56925398c2a3e625876f07f6b"
+  },
+  {
+    "path": "原创候选/qa/tomato-back.png",
+    "bytes": 40862,
+    "sha256": "33f5f06a0a2209ffea151ea12f61bb714734900f75bdaef38c1841a9ddd510ec"
+  },
+  {
+    "path": "原创候选/qa/tomato-hero.png",
+    "bytes": 38516,
+    "sha256": "4f4d36aa369f9d193079eb6d8ef681a3e8dc0fe85f2194f4c580f90ed5a1728e"
+  },
+  {
+    "path": "原创候选/qa/tomato-side.png",
+    "bytes": 50283,
+    "sha256": "f9cbc4eadb93b6ed2c5e54fcdd89e1d83a7e686b8df35a810d7578e6b411c6fc"
+  },
+  {
+    "path": "原创候选/qa/tomato-top.png",
+    "bytes": 64987,
+    "sha256": "bdd643f902991b962575269e3dee69094c76a9576576be96f28678a04055b543"
+  },
+  {
+    "path": "原创候选/qa/tomato.metrics.json",
+    "bytes": 606,
+    "sha256": "8f25032adaeb330d6a5f75cf8420a046d3200859019ee911d8e2d1d6d07686ae"
+  },
+  {
+    "path": "原创候选/qa/usbdrive-back.png",
+    "bytes": 36020,
+    "sha256": "9776822114b8cf496bb6e1297ea5784d2dacf9a895a497d4d03cccdc7dd0247d"
+  },
+  {
+    "path": "原创候选/qa/usbdrive-hero.png",
+    "bytes": 36607,
+    "sha256": "6b47d576fefecb0f531661cdb783284b30e9c4f6941adbdded3bc8e6555aed40"
+  },
+  {
+    "path": "原创候选/qa/usbdrive-side.png",
+    "bytes": 32101,
+    "sha256": "d765e57455c13a26ce88c133c6f53266b6f182068ee6e550ac9dc1d5450e1d2a"
+  },
+  {
+    "path": "原创候选/qa/usbdrive-top.png",
+    "bytes": 37745,
+    "sha256": "3c33a8b12328ca16a27708ffb22aaf1bf7446173da9cbc78eae34a07c3546ae2"
+  },
+  {
+    "path": "原创候选/qa/usbdrive.metrics.json",
+    "bytes": 601,
+    "sha256": "21437e52dfa32fe83d2ed846649ad9e529af5d77ff29c800a9832564493b1e07"
+  },
+  {
+    "path": "原创候选/qa/validated-models.json",
+    "bytes": 29104,
+    "sha256": "7958a522fd7586a214fbfa7778bfc2f822bbb509e93ac3228b4d0dab7728ceae"
+  },
+  {
+    "path": "原创候选/qa/wafer-back.png",
+    "bytes": 59249,
+    "sha256": "492659cd5d9ae768f85682df562a9f843defa2e614ba31d311b3deb173e491d6"
+  },
+  {
+    "path": "原创候选/qa/wafer-hero.png",
+    "bytes": 63528,
+    "sha256": "abb2b6b32dd88be1605062dd2d94f25950bffb158576337fc155bbf9c6c89c5e"
+  },
+  {
+    "path": "原创候选/qa/wafer-side.png",
+    "bytes": 56007,
+    "sha256": "c5c348c3fe45ae36e81b48266b3b448264e3fcc737f702bf79874e2e7f06da1b"
+  },
+  {
+    "path": "原创候选/qa/wafer-top.png",
+    "bytes": 59080,
+    "sha256": "55c53acf0ddd498fbd68838238c6cf20c3bd8c19c4284199de050ee1d013461b"
+  },
+  {
+    "path": "原创候选/qa/wafer.metrics.json",
+    "bytes": 593,
+    "sha256": "46fbe53cf7d7c14f188af9c592465e49bf9891a5ed212713b3a6b1887f24cf75"
+  },
+  {
+    "path": "原创候选/qa/wateringcan-back.png",
+    "bytes": 41597,
+    "sha256": "4dec0c2b414d2da5500be3c33f4be2cc4d8f330caefe722dd30812c27967e0a5"
+  },
+  {
+    "path": "原创候选/qa/wateringcan-hero.png",
+    "bytes": 41455,
+    "sha256": "c990c1d4217cb155f2802b9f647759711e4aa6c1276d4eb853113a644f24c533"
+  },
+  {
+    "path": "原创候选/qa/wateringcan-side.png",
+    "bytes": 44826,
+    "sha256": "83d2a02c3971e68990662f835443eddad9eb6bae57143234e9637a9cb23b2a53"
+  },
+  {
+    "path": "原创候选/qa/wateringcan-top.png",
+    "bytes": 36896,
+    "sha256": "d971aa20820902229f6ca519b2e8d25763ca2b5e89f8113f74b77a8de4a7ceb9"
+  },
+  {
+    "path": "原创候选/qa/wateringcan.metrics.json",
+    "bytes": 595,
+    "sha256": "e36cefcab3ce389eedba8224381146e956b48d44d468da072acd98b202795662"
+  },
+  {
+    "path": "原创候选/qa/watermelon-back.png",
+    "bytes": 41237,
+    "sha256": "31e25732cfa8f7b24b2330e20672b251899dabb88afe4de321cbbc4cf405fbd1"
+  },
+  {
+    "path": "原创候选/qa/watermelon-hero.png",
+    "bytes": 38908,
+    "sha256": "d2a77180cd35b86253106247fa0913c1ca9b31f72d695c0751f84f01be5f1372"
+  },
+  {
+    "path": "原创候选/qa/watermelon-side.png",
+    "bytes": 49329,
+    "sha256": "fc943e5f7a96d40185323a5fc9ac58c4d65cfe4bc8af47005142c51b0741f942"
+  },
+  {
+    "path": "原创候选/qa/watermelon-top.png",
+    "bytes": 63428,
+    "sha256": "c7bfb043256a75db9ccad287f689207e4b9b003910396bfc4d421821cbd2c846"
+  },
+  {
+    "path": "原创候选/qa/watermelon.metrics.json",
+    "bytes": 596,
+    "sha256": "5f1cf5b3af74f05ab5b8e4d492b72718ac66981ecde12cc0cbeeed4b7f9734ad"
+  },
+  {
+    "path": "原创候选/README.md",
+    "bytes": 694,
+    "sha256": "65998d056eb6b07f8b55614d024b5a9b5c5d4f260ebe09d38d83557ef2617127"
+  },
+  {
+    "path": "原创候选/source/alarmclock.blend",
+    "bytes": 590413,
+    "sha256": "ce7731553b4634d17e921b169af934e8b7274bd595754ea243ca9aada51a2c3c"
+  },
+  {
+    "path": "原创候选/source/avocado.blend",
+    "bytes": 519780,
+    "sha256": "fdb745e2e25fb9619573acfca78b5ffb0a461610726dfc16041e3e9a1e7f26e4"
+  },
+  {
+    "path": "原创候选/source/bellpepper.blend",
+    "bytes": 503280,
+    "sha256": "01e4ad10f17c404efc42880134ff2ab3b441d9c036717fea365e2b2681e86fac"
+  },
+  {
+    "path": "原创候选/source/blueberry.blend",
+    "bytes": 599537,
+    "sha256": "45c36bcc896aa1edb9c0e09d409a052d2e8106005198c66ce44393b92ad8163f"
+  },
+  {
+    "path": "原创候选/source/broccoli.blend",
+    "bytes": 552510,
+    "sha256": "88b19ff169b03c2e1060e031fc6a039e35688ff4233f69237817c4ab84225832"
+  },
+  {
+    "path": "原创候选/source/cabbage.blend",
+    "bytes": 540077,
+    "sha256": "a39b82827314efe407b3fa2e1c42dde35adecb3365e36b0c2d152b492cd7c17a"
+  },
+  {
+    "path": "原创候选/source/chocolate.blend",
+    "bytes": 480998,
+    "sha256": "b503eaf7044ff6b401909e35fc4d1bd077276993b8f2d79d4d32d84eeedf0680"
+  },
+  {
+    "path": "原创候选/source/coconut.blend",
+    "bytes": 554641,
+    "sha256": "7e90436438e92f317b914710a91244d62efa172629e882912f5069403ab1dae0"
+  },
+  {
+    "path": "原创候选/source/cucumber.blend",
+    "bytes": 522134,
+    "sha256": "d24d98fa3e815a58d0f27549e173ab87c692dbda7c33338f610ab8f0738f3ae3"
+  },
+  {
+    "path": "原创候选/source/dragonfruit.blend",
+    "bytes": 590988,
+    "sha256": "f8adabe810ba6ace11752b37bfcf2e1784117e3392c85fb02ef7620ff34c61b2"
+  },
+  {
+    "path": "原创候选/source/dumpling.blend",
+    "bytes": 525423,
+    "sha256": "63aaf7e76ff525ae8e7092edf6898deb05e20d4adaa32cd5067040aa1ff7f681"
+  },
+  {
+    "path": "原创候选/source/egg.blend",
+    "bytes": 487232,
+    "sha256": "62c5fed5c6940a1a5cfc4ac9f5afbc3c99724b02180bdc0f452ade88c63a7a12"
+  },
+  {
+    "path": "原创候选/source/eggtart.blend",
+    "bytes": 530958,
+    "sha256": "6c3f8ceb85158687fbff76d76face832ea31fc7689925e82b78b50b2b5cf6333"
+  },
+  {
+    "path": "原创候选/source/flashlight.blend",
+    "bytes": 541375,
+    "sha256": "65090eb8435a200b2cf65f1d1d8fc0cfe0f4bc968d9980287040e460d75cead7"
+  },
+  {
+    "path": "原创候选/source/gamepad.blend",
+    "bytes": 545062,
+    "sha256": "034892df07a673180b00245330afd433d9eb9dab3a6d5e101ed89d7f8ec3e9f9"
+  },
+  {
+    "path": "原创候选/source/garlic.blend",
+    "bytes": 531742,
+    "sha256": "62f468008bbd81ddcf801d948293fc583f00c18dd554404a4ae7fa6ce96536c8"
+  },
+  {
+    "path": "原创候选/source/goldchime.blend",
+    "bytes": 531815,
+    "sha256": "32f720d09e8faceaad7a0e30cbd381d81efc3f6b92e7fe4abc17996a17110832"
+  },
+  {
+    "path": "原创候选/source/goldring.blend",
+    "bytes": 468101,
+    "sha256": "0fde1a8402c4f170ff14055e7a6cf6a2834673662c5c67f526bf29aa0cc7ebd3"
+  },
+  {
+    "path": "原创候选/source/jadebeads.blend",
+    "bytes": 602631,
+    "sha256": "340c2faafa1837ebabc9e5196607dae8cf897577ca8cc81ae4f12a49cbcaf6e0"
+  },
+  {
+    "path": "原创候选/source/jadecarp.blend",
+    "bytes": 510007,
+    "sha256": "ea58013a0234f88a8dde2cf6233b3476c00d265cc73645dbb29d35bf859c8324"
+  },
+  {
+    "path": "原创候选/source/jadechime.blend",
+    "bytes": 470119,
+    "sha256": "b64514a0f21cb22d28ff0933de86f1e083ed9041580fd5d00231316b2027d6aa"
+  },
+  {
+    "path": "原创候选/source/jadeleaf.blend",
+    "bytes": 490111,
+    "sha256": "8a29f3b39b2a38e8806c363932919d883a77fb32b94ea9f66d65983f6746ed96"
+  },
+  {
+    "path": "原创候选/source/jadelock.blend",
+    "bytes": 499934,
+    "sha256": "c633a7584d9f96a5b10bd4ca8c781d343e6b2b38a9a7f41a139be277a44e4586"
+  },
+  {
+    "path": "原创候选/source/jadepeanut.blend",
+    "bytes": 513960,
+    "sha256": "281e1e50e0368982497e725a1f8766d8ff80206721f8a981d7bcb6bd2ab3b00b"
+  },
+  {
+    "path": "原创候选/source/jadetalisman.blend",
+    "bytes": 480024,
+    "sha256": "c87bc219597f61e3d7284763362e504bee0bc003f17cd2295fb883722e2d274a"
+  },
+  {
+    "path": "原创候选/source/jadeteapot.blend",
+    "bytes": 539492,
+    "sha256": "f981a790b13041393f0a68c12c680f1eded8b9f416a909d87d83ceb1aec52ebb"
+  },
+  {
+    "path": "原创候选/source/jadetiger.blend",
+    "bytes": 565726,
+    "sha256": "1e9db4b0bf2f2cc7c773541df7eb11a8e2b72a6ee99195061158cadfb88fbcb9"
+  },
+  {
+    "path": "原创候选/source/jadevase.blend",
+    "bytes": 503604,
+    "sha256": "0b47fca069206c2cc570ca274964204e71b0ac462ef9f8001c2277169f9b0024"
+  },
+  {
+    "path": "原创候选/source/keyboard.blend",
+    "bytes": 511459,
+    "sha256": "cfecd9c3cde11edf367568de55e03f7192135a4373ecdd1db0bb014d11ebd0d3"
+  },
+  {
+    "path": "原创候选/source/kiwi.blend",
+    "bytes": 505978,
+    "sha256": "448fd0693a04a102313196c3870031a99ef50451ec4ecd6417fb9ccd999f6e72"
+  },
+  {
+    "path": "原创候选/source/lollipop.blend",
+    "bytes": 522654,
+    "sha256": "052337934317028e0d5bdd5d2102f1856a6a5cc21cd51d8cbb0c4f4357197250"
+  },
+  {
+    "path": "原创候选/source/mango.blend",
+    "bytes": 476960,
+    "sha256": "6cfbbbf3ee4d80c1940667308ec4c2fc4d3188e7f13e1f6a57455c95242c30df"
+  },
+  {
+    "path": "原创候选/source/microphone.blend",
+    "bytes": 557793,
+    "sha256": "a42ef77523047fd348e2c74ff73b0b84d99120800a4bf3cbee9443219f31666d"
+  },
+  {
+    "path": "原创候选/source/monitor.blend",
+    "bytes": 467989,
+    "sha256": "410bd306426e856639ac58a24dceb2489fffbf7aacd9934507430eb45c3839f5"
+  },
+  {
+    "path": "原创候选/source/mooncake.blend",
+    "bytes": 559407,
+    "sha256": "66992d8ee6807918d1617991a6daaa9b270a28486f7fb4fd092ed9047254d8a4"
+  },
+  {
+    "path": "原创候选/source/onion.blend",
+    "bytes": 494487,
+    "sha256": "c9f79f19c6014075161fcd486b81df173eb4757d3aa676ed4d381e097e67f950"
+  },
+  {
+    "path": "原创候选/source/pancake.blend",
+    "bytes": 491166,
+    "sha256": "bffd68a1087c048d15dae39fbf59add6ec7a2522250feb75f1be88a994c4a637"
+  },
+  {
+    "path": "原创候选/source/peach.blend",
+    "bytes": 493234,
+    "sha256": "4b6596aed7150285b7ec0890d6531163c28324728b33962124839859d761ed9b"
+  },
+  {
+    "path": "原创候选/source/persimmon.blend",
+    "bytes": 526050,
+    "sha256": "95e4238b5681770ed40d4d1c8759af6dd816f5a02a164c4d57ce27bd9bac1578"
+  },
+  {
+    "path": "原创候选/source/pineapple.blend",
+    "bytes": 634891,
+    "sha256": "5f4cd82bbcc5e72e884caf166a99fa11e9d9c1ab84e3836d0bfe16f118c819b3"
+  },
+  {
+    "path": "原创候选/source/pomegranate.blend",
+    "bytes": 488984,
+    "sha256": "fa3637ca0945a37823a46aeaaf72f54cbe6993374f7355b65d78c50d66ae3f15"
+  },
+  {
+    "path": "原创候选/source/popsicle.blend",
+    "bytes": 468023,
+    "sha256": "7a51b2583f4a91e05270e92c7cc18fb1e53c628da7d85b6c2a169efa09a0ebb7"
+  },
+  {
+    "path": "原创候选/source/potato.blend",
+    "bytes": 485835,
+    "sha256": "83163a11d7fdadd3a1f8f807beab2f8221d9fcf1641d89890ec83479e0df5bfd"
+  },
+  {
+    "path": "原创候选/source/powerbank.blend",
+    "bytes": 480947,
+    "sha256": "d92ee7bb6d00f0124efde715fbfcb75cd953c5e4fd439edde55300fd60a4f935"
+  },
+  {
+    "path": "原创候选/source/pretzel.blend",
+    "bytes": 467008,
+    "sha256": "e0bcdc860a900a9c3a6afd31b2094fe1d201604292a0013be214046afe5e1e0d"
+  },
+  {
+    "path": "原创候选/source/printer.blend",
+    "bytes": 471647,
+    "sha256": "b664ae046a8abe033183c76cc5ef72f1030ddda54d5239c7ab189e0ffc090962"
+  },
+  {
+    "path": "原创候选/source/radish.blend",
+    "bytes": 488931,
+    "sha256": "dfd880fc06745da696e27ac3ac5865dc1dad8b4f9896b3a57c9df3fb70fc84e0"
+  },
+  {
+    "path": "原创候选/source/router.blend",
+    "bytes": 493134,
+    "sha256": "f10a355722cf36309060cfbaee2f2f76a21ef0bd8dadc78df9554f8dc1114914"
+  },
+  {
+    "path": "原创候选/source/shovel.blend",
+    "bytes": 473583,
+    "sha256": "9c1d4dbeb8e66d25c9bc36f81998c8fee8ce5160312249b8ec15c41c5560c42f"
+  },
+  {
+    "path": "原创候选/source/starfruit.blend",
+    "bytes": 444019,
+    "sha256": "f47ff81efbfff1274330811cff276f64874c4ba8e0b0fca2678d73dc48fa4778"
+  },
+  {
+    "path": "原创候选/source/swissroll.blend",
+    "bytes": 530758,
+    "sha256": "9dbb9e79c136d0e261644fd91ee9a38c3f102569c9c9dc108949ae54d33f4a21"
+  },
+  {
+    "path": "原创候选/source/tablet.blend",
+    "bytes": 471599,
+    "sha256": "4f569cb2fbf3ede0e5abba239462d122ae4c79b97a9c7786f8ac5d19466723cd"
+  },
+  {
+    "path": "原创候选/source/teacup.blend",
+    "bytes": 485514,
+    "sha256": "0c8387eb89f1d6b8965dcac79febd52d50496cdfe5cde9f419caf54e19300667"
+  },
+  {
+    "path": "原创候选/source/television.blend",
+    "bytes": 481655,
+    "sha256": "ce68ad32ac0e3d91a364284ede28fef8a8aa2caa32afc8b812c3ed67dd4e5085"
+  },
+  {
+    "path": "原创候选/source/toast.blend",
+    "bytes": 472573,
+    "sha256": "f473c73044791fd1fda29ceb1af83b8f940d5e0a0ca5d2efcd55eb010dc5bac4"
+  },
+  {
+    "path": "原创候选/source/tomato.blend",
+    "bytes": 509500,
+    "sha256": "297697c4385f7360394bcc4564a537125c911c5ee90934d0278ab600fa5800f7"
+  },
+  {
+    "path": "原创候选/source/usbdrive.blend",
+    "bytes": 480030,
+    "sha256": "5ebe4a0caad00f361c7a4032af1b5ba31cd908addf64ff4c6c92110c6d7e174c"
+  },
+  {
+    "path": "原创候选/source/wafer.blend",
+    "bytes": 506845,
+    "sha256": "a0fdb2249cbe616293cb8f5228f8b5f88c4c9354ad76a09ace7d6d35595d1322"
+  },
+  {
+    "path": "原创候选/source/wateringcan.blend",
+    "bytes": 487945,
+    "sha256": "b2ca249fe5f5ad6b5067a1f1e222755a59670fcef37fa6b0d67101719c473111"
+  },
+  {
+    "path": "原创候选/source/watermelon.blend",
+    "bytes": 575338,
+    "sha256": "989271762dfdcc018c8aa07e3f7977e73f68b9131877ba9ae71d375d94ac7095"
+  },
+  {
+    "path": "复现工具/convert_assets.py",
+    "bytes": 2693,
+    "sha256": "51ab4c6cab7424c63454e2a5d37f6626fdf64014a3f37cd3f6b8501e168c03d7"
+  },
+  {
+    "path": "复现工具/model-pipeline/audit_assets.mjs",
+    "bytes": 10940,
+    "sha256": "585a56036a94215c893741191871497a74cfa8dc32a711caf88270f6d08a16e3"
+  },
+  {
+    "path": "复现工具/model-pipeline/generate_electronics.py",
+    "bytes": 20470,
+    "sha256": "fe0b04525d67a24865267150a42594798779b6d3bffb90c583f530d1cdcc8563"
+  },
+  {
+    "path": "复现工具/prepare_assets.py",
+    "bytes": 5017,
+    "sha256": "175b7015b165a87de0643e864345b246d900e4147ee638be0674c9112e1a8816"
+  },
+  {
+    "path": "复现工具/run_unity_algorithm_tests.ps1",
+    "bytes": 3484,
+    "sha256": "3956eece97bf4753d43c6c63e55e7d08171bc14068d9281f861b0d480fa88daf"
+  },
+  {
+    "path": "复现工具/theme21/archive_delivery.py",
+    "bytes": 23105,
+    "sha256": "f4791a4e875ed7b8430f2c775a28f8a32e00c3c145d81650189d7823c5d07aa2"
+  },
+  {
+    "path": "复现工具/theme21/audit_and_stage.py",
+    "bytes": 3193,
+    "sha256": "7632854c7d67ac1a404af8c5ccfb4e85e2384a4f6f2ec3e5f17b49be6638582f"
+  },
+  {
+    "path": "复现工具/theme21/catalog.py",
+    "bytes": 6574,
+    "sha256": "bb95124f4f873a0912dc02de4e87218f70d6d36ac56846087553f8321e65d557"
+  },
+  {
+    "path": "复现工具/theme21/configure_weights.py",
+    "bytes": 6637,
+    "sha256": "10d81ec0ab0a59fcb426f43b6f94580f70994e536d29c55f0a1acffe9dfef0e7"
+  },
+  {
+    "path": "复现工具/theme21/craft_food.py",
+    "bytes": 7817,
+    "sha256": "aa5a8f188283e832a549a7ce08cead01577ea40737a38561a467b3bc1f5ef966"
+  },
+  {
+    "path": "复现工具/theme21/devices.py",
+    "bytes": 4881,
+    "sha256": "5e880e0177438a191178fc49e285c32c28d16aaff58f62edf31af1edf939cd89"
+  },
+  {
+    "path": "复现工具/theme21/generate_models.py",
+    "bytes": 4606,
+    "sha256": "bd6d7347d50f39e82845326d79b515aca2d0ce13d41fb0a58428a435ff046097"
+  },
+  {
+    "path": "复现工具/theme21/modelkit.py",
+    "bytes": 2586,
+    "sha256": "1c5fa8c31af65652966f95b6e9e12d860d1f8e244ad02e4d1b24a1d650be0e98"
+  },
+  {
+    "path": "复现工具/theme21/organic.py",
+    "bytes": 7905,
+    "sha256": "52ff8b074013a46d293f806472b2bbaffeb9a72521e54e5ab4a458b1eb35d3a2"
+  },
+  {
+    "path": "复现工具/theme21/verify_delivery.py",
+    "bytes": 2432,
+    "sha256": "6f79ec6281eafb6ef573cb0f8d8bfa9e7ec2f8bc26d4213883cda68c52ca05e9"
+  },
+  {
+    "path": "文档/05-Unity接入.md",
+    "bytes": 7646,
+    "sha256": "193cebd0454bb9740392c414153886bdbdc35d856e017918e2128f672e2fb821"
+  },
+  {
+    "path": "文档/07-验证结果与后续清单.md",
+    "bytes": 9419,
+    "sha256": "54a08f94554d952f3c762956f2d099fb87a49ca4d853000163e8233f3c0997b9"
+  },
+  {
+    "path": "文档/11-推测与待确认.md",
+    "bytes": 3246,
+    "sha256": "6603e6539a180c26ba72de59fa3d78e822c2f64f375e8ad519d663b061b4e790"
+  },
+  {
+    "path": "文档/15-三消单局核心算法与调优.md",
+    "bytes": 14219,
+    "sha256": "8e40701d4921d94051ba24c3cf8a5ea9777f084f961c988c912a3164027a04ef"
+  },
+  {
+    "path": "文档/16-每主题21类与单局体验.md",
+    "bytes": 10033,
+    "sha256": "4099df166c1e408b7cf9ffa92dcc722b34bf6c196b1b026a963486761d5f3d2b"
+  },
+  {
+    "path": "文档/16A-物品与实际权重对应.md",
+    "bytes": 10303,
+    "sha256": "f9d4e51f076171413e05b73fc8b9de84d5b9d48201ceaff66150e161b3785ae6"
+  },
+  {
+    "path": "文档/README.md",
+    "bytes": 5972,
+    "sha256": "9eb8e19d3e3f6395a34f1c5cfd5a9c0418ec477ff3a035a415cd56dbd77e0ac5"
+  },
+  {
+    "path": "画面/algorithm-acceptance.json",
+    "bytes": 1191,
+    "sha256": "2b1529ce286f70b8e960fcf6cf65040b3ea47697b0115bebc58194a7d89c2b92"
+  },
+  {
+    "path": "画面/antique-core-2.png",
+    "bytes": 505809,
+    "sha256": "f8f9e6005fb511b84cb75deee796d57bfd12c28fda642577031b5aa7434269d5"
+  },
+  {
+    "path": "画面/core-0.png",
+    "bytes": 381609,
+    "sha256": "bc72878a7e62ab81195ebfbd35f1c0cba92e8295fdf67be8c7a480dd4c7d0033"
+  },
+  {
+    "path": "画面/core-1.png",
+    "bytes": 387522,
+    "sha256": "76353cc2a510da6c1150e14f078128654f26df92448dec15474c32f5be4eb4ad"
+  },
+  {
+    "path": "画面/core-2.png",
+    "bytes": 438875,
+    "sha256": "98e35a11c9a3e6c1ccdcd3b1892d62f3bd59b1eb75fbfe020f293ed4c3eff4af"
+  },
+  {
+    "path": "画面/core-home.png",
+    "bytes": 840091,
+    "sha256": "ead02c4a87a9a072d6ba4c6904bec5acd3c3dd4829c29ce8d8a21b8b28143cb0"
+  },
+  {
+    "path": "画面/dessert-core-2.png",
+    "bytes": 687106,
+    "sha256": "2bde784d7b6e20af047ef4133dfac35bf18d82b2f056aa1e82c70f1889040718"
+  },
+  {
+    "path": "画面/electronics-core-2.png",
+    "bytes": 504822,
+    "sha256": "7aa2e22642dab090737764ec0ff5e889a58242f7b0559f0d67cf75d81492d53e"
+  },
+  {
+    "path": "画面/farm-core-2.png",
+    "bytes": 713768,
+    "sha256": "e638b5ab5e22064454ba7521b7e9b0aab5800fd66a2761bea54f2462df09dbe3"
+  },
+  {
+    "path": "画面/player.log",
+    "bytes": 19662,
+    "sha256": "7059c4b4fbb5646edee9b10e242ceddb2302e639e8489ce3b735ca8daed9255a"
+  },
+  {
+    "path": "资源/Jolt补充检查/0/asset-audit.json",
+    "bytes": 21996,
+    "sha256": "fdcbd29703957e48285f72471c4e76959f19ebdfd4634e00224f8987b41d803b"
+  },
+  {
+    "path": "资源/Jolt补充检查/0/kiwi.gltf-validation.json",
+    "bytes": 1158,
+    "sha256": "58b67ed883ed0c0b83ae40d59412a0d79e40af64fe8fdd9cbb1b13e976a7761a"
+  },
+  {
+    "path": "资源/Jolt补充检查/0/mango.gltf-validation.json",
+    "bytes": 1158,
+    "sha256": "9074c59cef870c54aa7ae5c96134ec2ef614d4bc85b737517dd116c4db39e508"
+  },
+  {
+    "path": "资源/Jolt补充检查/0/peach.gltf-validation.json",
+    "bytes": 1158,
+    "sha256": "885e924e61c9954c1a3aec782f95da1657a54420f93f67d227294e396d135ce1"
+  },
+  {
+    "path": "资源/Jolt补充检查/0/pineapple.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "db7e33d3d1e0679e9c7f3803e51ad43dc33f12029c583dab96ae301a74fed130"
+  },
+  {
+    "path": "资源/Jolt补充检查/0/run.log",
+    "bytes": 2994,
+    "sha256": "2bc825be5913202d4faee766114dcc1dbcbd2c68de50641182cfa44b0db45688"
+  },
+  {
+    "path": "资源/Jolt补充检查/0/watermelon.gltf-validation.json",
+    "bytes": 1165,
+    "sha256": "c7f66feee86614f89cb98925ad0b74ea64cc22b17f70538b8482b7e1472461a9"
+  },
+  {
+    "path": "资源/Jolt补充检查/1/asset-audit.json",
+    "bytes": 22059,
+    "sha256": "9e0ac9354c81693c80eb7c598b134b6b50a3a060bdadbb01ee07104d1ce9108f"
+  },
+  {
+    "path": "资源/Jolt补充检查/1/avocado.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "6a84fbb0d7a54484a0a4615aad65b4b899dc940cec02827f35ee4f1a5b9eeb50"
+  },
+  {
+    "path": "资源/Jolt补充检查/1/blueberry.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "2043c994dd66f2f02acecd132f0d3705447dcd64f61f5cd8dae3c5ac2e75cc04"
+  },
+  {
+    "path": "资源/Jolt补充检查/1/coconut.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "5fd1e18784ef4c4fecf90fe45bc8338b20fc78620bd1d5d3cc70aa1f4b677082"
+  },
+  {
+    "path": "资源/Jolt补充检查/1/dragonfruit.gltf-validation.json",
+    "bytes": 1166,
+    "sha256": "c3bf2a6e5ab5be0a9cee960b7dea5b64266955b5943ac047934385c89ef94599"
+  },
+  {
+    "path": "资源/Jolt补充检查/1/pomegranate.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "96f39165c217be1dd284a9d7e24ba8a445655c904f69501b6b5f9d25d15a594e"
+  },
+  {
+    "path": "资源/Jolt补充检查/1/run.log",
+    "bytes": 3057,
+    "sha256": "866f6d7adf696e8f406728b12c4b86847620c15e9ac45083ab9089162a49aae4"
+  },
+  {
+    "path": "资源/Jolt补充检查/10/asset-audit.json",
+    "bytes": 22067,
+    "sha256": "7e3ed7770c1d82596de39e2801d297471132a1da4374c2e505bef4670e1baa7c"
+  },
+  {
+    "path": "资源/Jolt补充检查/10/monitor.gltf-validation.json",
+    "bytes": 1160,
+    "sha256": "623b95189420dcfbdfb76ffbb48d5f118f95652d4908bb90a75fce404c5718ae"
+  },
+  {
+    "path": "资源/Jolt补充检查/10/printer.gltf-validation.json",
+    "bytes": 1160,
+    "sha256": "5ee28f1b4600ac99d111058e523d11da476e035a7b36392b6f5e8f10e0edccaa"
+  },
+  {
+    "path": "资源/Jolt补充检查/10/router.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "d0596457a669aae27ec564421df830072e06a69548622ee6ff45d23d8a8c68b1"
+  },
+  {
+    "path": "资源/Jolt补充检查/10/run.log",
+    "bytes": 3065,
+    "sha256": "db99af8ef3f38e352d52951a0665373defdfaacd121f2512ba3cb7f7337e419d"
+  },
+  {
+    "path": "资源/Jolt补充检查/10/television.gltf-validation.json",
+    "bytes": 1163,
+    "sha256": "9615723d61fdff54151f71b77f9b00512b7a8b62d8e74089dd724a47daecb1f1"
+  },
+  {
+    "path": "资源/Jolt补充检查/10/usbdrive.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "701e35d158cd6974c05de3640cb7770c47a0d58cc1f42ca77986e614ab74d3db"
+  },
+  {
+    "path": "资源/Jolt补充检查/11/alarmclock.gltf-validation.json",
+    "bytes": 1165,
+    "sha256": "dacfb380b8eb6ee0f13f0343d6bd1f00bb760ef3d869183bd6b55f5a50f02e8d"
+  },
+  {
+    "path": "资源/Jolt补充检查/11/asset-audit.json",
+    "bytes": 22026,
+    "sha256": "cb2e709bdd05351f6f9b0003a280401d27c88d34b4d2efd071137dc24ca75ac2"
+  },
+  {
+    "path": "资源/Jolt补充检查/11/flashlight.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "3042768eec96dac32aff35b941b7b48f3f2b4b39d64dc605d636d6225d0fe812"
+  },
+  {
+    "path": "资源/Jolt补充检查/11/gamepad.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "735e074b7cdefb2e1c147748c62513c0f33e8fc5fd7e9e4aaeca0d0edc4c11a1"
+  },
+  {
+    "path": "资源/Jolt补充检查/11/microphone.gltf-validation.json",
+    "bytes": 1165,
+    "sha256": "03b631ca3d79ae03fa9d2b32ea640c988e72c18a5fe193b2365962b6eb9dc843"
+  },
+  {
+    "path": "资源/Jolt补充检查/11/powerbank.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "f724cbbae59c5e5c5b79bbd6ae122e3818167d255015b1ba8303cf0ce42cae69"
+  },
+  {
+    "path": "资源/Jolt补充检查/11/run.log",
+    "bytes": 3024,
+    "sha256": "0a9c3186baac539e18b5099c0a4eea1c3969e5992200823a2e0f6981b9467982"
+  },
+  {
+    "path": "资源/Jolt补充检查/2/asset-audit.json",
+    "bytes": 22025,
+    "sha256": "414248fca4ab8923943afdc96e3ced7a7941c8beaabf421dd946c39d93ba87ff"
+  },
+  {
+    "path": "资源/Jolt补充检查/2/jadecarp.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "ce903bd19d714644f1e05cd2122facfde7417b7fd892d5830b35e1bc84fb687b"
+  },
+  {
+    "path": "资源/Jolt补充检查/2/jadepeanut.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "2b43f62ce3b218dfc6dc83204585f621494b8c58f9da00485a773048f1f045da"
+  },
+  {
+    "path": "资源/Jolt补充检查/2/jadevase.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "10a0619f89866d47737fb4153cc08460e78858a2eaa5fa09935e0e1fc32f3d51"
+  },
+  {
+    "path": "资源/Jolt补充检查/2/persimmon.gltf-validation.json",
+    "bytes": 1163,
+    "sha256": "a58daa3bd03a9edec4eb8c87955783b4ffc9ef05d5e56d9580bab0a3c2579df8"
+  },
+  {
+    "path": "资源/Jolt补充检查/2/run.log",
+    "bytes": 3023,
+    "sha256": "fb43b2f76bb30733a85e145b98113cf0f73b81ffdb1b80cf21ab3b6dd6137cfa"
+  },
+  {
+    "path": "资源/Jolt补充检查/2/starfruit.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "ae2b757bed1e61873debd292ba6f938c714e723f363b31245207d65c1789838b"
+  },
+  {
+    "path": "资源/Jolt补充检查/3/asset-audit.json",
+    "bytes": 22041,
+    "sha256": "30b25c7d4140c556a1e7850e0cdded56ae0951b90a126ee2d9279b361a243bee"
+  },
+  {
+    "path": "资源/Jolt补充检查/3/goldchime.gltf-validation.json",
+    "bytes": 1163,
+    "sha256": "e28fdae7749125e301b852b79661ba24e5eaa8c7f7e160dca623d820fcf224ec"
+  },
+  {
+    "path": "资源/Jolt补充检查/3/goldring.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "2bbf508640008cbad61dce59c8dabc641734ae8668aa9d70f4e75dd00e6ae1d6"
+  },
+  {
+    "path": "资源/Jolt补充检查/3/jadechime.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "3e7c79fa2b1b3a04a4e900d95094bca0c193f222fb9ed529edecbfedb91cb342"
+  },
+  {
+    "path": "资源/Jolt补充检查/3/jadetalisman.gltf-validation.json",
+    "bytes": 1165,
+    "sha256": "2cc341e436d6a4900d5d815f2049fa354928ac214c0266991b72cbae0953f9bb"
+  },
+  {
+    "path": "资源/Jolt补充检查/3/jadetiger.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "68336184977ccf4ba686edaa4558bc0db554ac54bb3099970a6f6241edb46f1a"
+  },
+  {
+    "path": "资源/Jolt补充检查/3/run.log",
+    "bytes": 3039,
+    "sha256": "8617c7b3bdd9c30692e262cd25159d5bf24f4ae991e827bf8f855910877e2b37"
+  },
+  {
+    "path": "资源/Jolt补充检查/4/asset-audit.json",
+    "bytes": 22062,
+    "sha256": "cf7b9e1ce4d6fc0e1b50530b6da452f20703ab17b830f749f8da7c41e2841d3f"
+  },
+  {
+    "path": "资源/Jolt补充检查/4/jadebeads.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "db8297feddb443afedf58c5eecf387bc1416f24ee4c4a24a58b1703ba8051273"
+  },
+  {
+    "path": "资源/Jolt补充检查/4/jadeleaf.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "e2b6837c89874e00159d1f4d41da1b43f376d89a85a36c03d71aea69d97fb2ca"
+  },
+  {
+    "path": "资源/Jolt补充检查/4/jadelock.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "7cae266964d885644d5c4424f315022fbcd885f2f071f419757fd8fafe3ec2c7"
+  },
+  {
+    "path": "资源/Jolt补充检查/4/jadeteapot.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "f4a1bd556dcf0848a8d4d7cb45d0f3376868ea3b8b3030cb53ce1fddf49b4d78"
+  },
+  {
+    "path": "资源/Jolt补充检查/4/run.log",
+    "bytes": 3060,
+    "sha256": "00169d6c750055d9ed08030e9296ef3737563fd9c38c8df5685fe5d415552e3b"
+  },
+  {
+    "path": "资源/Jolt补充检查/4/tomato.gltf-validation.json",
+    "bytes": 1160,
+    "sha256": "22b9ca30a49edf7bf39e03d813c9d4727a8b7412a82e8aafee7c1738fc531413"
+  },
+  {
+    "path": "资源/Jolt补充检查/5/asset-audit.json",
+    "bytes": 22021,
+    "sha256": "076e0ad96f40e010d479a0288c1db2643bb6c28115216f47a06bc2baadb5a832"
+  },
+  {
+    "path": "资源/Jolt补充检查/5/bellpepper.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "eb10109e98ff03a934a03175f74cbb4772ec77f2937bea189f127da73a41957a"
+  },
+  {
+    "path": "资源/Jolt补充检查/5/broccoli.gltf-validation.json",
+    "bytes": 1163,
+    "sha256": "0aef9ff43c1fb069124f946ffb22f9a5bbcea7bb66a2b98a4ce990c6048163ea"
+  },
+  {
+    "path": "资源/Jolt补充检查/5/cabbage.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "03b3b273ae63ec442c14e40679e02b22a7b2c537e1c3e277ff72631e1198a956"
+  },
+  {
+    "path": "资源/Jolt补充检查/5/cucumber.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "56e6e68cb8b3d6fe9b52847c04f4e338d2f834f80db908c2a9a9211f391e9bda"
+  },
+  {
+    "path": "资源/Jolt补充检查/5/potato.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "33ead0066b1c377359d8414e2e3a811e10bf3cb16f085f274c5af9056d58a71f"
+  },
+  {
+    "path": "资源/Jolt补充检查/5/run.log",
+    "bytes": 3019,
+    "sha256": "df081b6d4bfa23ed709faf10f6c6afd7b7571528620be38bf6e443e8770515fe"
+  },
+  {
+    "path": "资源/Jolt补充检查/6/asset-audit.json",
+    "bytes": 22025,
+    "sha256": "4821c9f36c229291643ca4d00a48b2b435751c51a867647f15cbb7333103207a"
+  },
+  {
+    "path": "资源/Jolt补充检查/6/egg.gltf-validation.json",
+    "bytes": 1156,
+    "sha256": "b130747b2607aab1d10c0d18831446f1420339b76a4fe5fbe0ac29dbdaa93d4e"
+  },
+  {
+    "path": "资源/Jolt补充检查/6/garlic.gltf-validation.json",
+    "bytes": 1160,
+    "sha256": "e38ac2b82a59f86e67d1fb5193f7086caa72f5a3038117234cadc2b9906412f8"
+  },
+  {
+    "path": "资源/Jolt补充检查/6/onion.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "9c2777be6038a24c2a6ee88c3a9739cacdf92664ff063999f94532e1715dc218"
+  },
+  {
+    "path": "资源/Jolt补充检查/6/radish.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "d72bad155dd598ee170496da8aa55a66f4779355359749a1797de90f6d43405a"
+  },
+  {
+    "path": "资源/Jolt补充检查/6/run.log",
+    "bytes": 3023,
+    "sha256": "c6bb480108903e6a8af47fcb1737528ce337a73e286e845acff8b27c44c123c1"
+  },
+  {
+    "path": "资源/Jolt补充检查/6/wateringcan.gltf-validation.json",
+    "bytes": 1164,
+    "sha256": "475f97e596c26c88b1c227a910011eea09f71623aae72fe84b78c5b6f0cfdfc8"
+  },
+  {
+    "path": "资源/Jolt补充检查/7/asset-audit.json",
+    "bytes": 22049,
+    "sha256": "312733c80ddec3fd46ab58fab2c6e885cf78ec825b9ac832e339bae881c73204"
+  },
+  {
+    "path": "资源/Jolt补充检查/7/chocolate.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "692f9cbdc1345c3618053ef0089705faedd00980684902c7f7b1005ab429a7bb"
+  },
+  {
+    "path": "资源/Jolt补充检查/7/lollipop.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "295dbe49e5dee1c6b1e464879101d01ac6630625f393e5999dbc4891ac2f6817"
+  },
+  {
+    "path": "资源/Jolt补充检查/7/popsicle.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "b811d16424381e373ecfc2a76387ebfc18dd4d1e708fc03bb6db69d1af766457"
+  },
+  {
+    "path": "资源/Jolt补充检查/7/run.log",
+    "bytes": 3047,
+    "sha256": "26636145dd885ff185906ec2580eb762595a5c89cf2f366403ed32f7705bd011"
+  },
+  {
+    "path": "资源/Jolt补充检查/7/shovel.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "6961d70378f1bb788f0a8e5afcf790f90a22833faa0c5aec133d2d06c8263b3a"
+  },
+  {
+    "path": "资源/Jolt补充检查/7/wafer.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "9b011a4b640533b3b096fdeea609cd35b2052111198e673b929b869fb601c016"
+  },
+  {
+    "path": "资源/Jolt补充检查/8/asset-audit.json",
+    "bytes": 22010,
+    "sha256": "b255c0660b5d87d714975e9b0ae6d9f8911d89a6442fde06d58ebdc5d8851e7f"
+  },
+  {
+    "path": "资源/Jolt补充检查/8/eggtart.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "8477b5f50d2d2d194ed1ab8f1ce99d5d547004df57eec982e934b35416500509"
+  },
+  {
+    "path": "资源/Jolt补充检查/8/pancake.gltf-validation.json",
+    "bytes": 1161,
+    "sha256": "b51d3eed2f6622dfbeeed3097e54f925cb3237a016abbc8e86e83c6a4158fc7c"
+  },
+  {
+    "path": "资源/Jolt补充检查/8/pretzel.gltf-validation.json",
+    "bytes": 1160,
+    "sha256": "52a2c662cb0dfd18e1474dd16f8633017af9213881d3e67d5403a1fc2d563a15"
+  },
+  {
+    "path": "资源/Jolt补充检查/8/run.log",
+    "bytes": 3008,
+    "sha256": "fc4c792a532ca344c63906aa9adf6239f6a747a0062a70a4d9fd6eef94686777"
+  },
+  {
+    "path": "资源/Jolt补充检查/8/swissroll.gltf-validation.json",
+    "bytes": 1163,
+    "sha256": "b98495a2f333b476d87cbf5db39807c22670e9b363cc3e067bfd4760241023ef"
+  },
+  {
+    "path": "资源/Jolt补充检查/8/toast.gltf-validation.json",
+    "bytes": 1158,
+    "sha256": "072efbb2256c694b6ecab45fd01dba3d84e63281fb5f870215ff52bbbf052586"
+  },
+  {
+    "path": "资源/Jolt补充检查/9/asset-audit.json",
+    "bytes": 22014,
+    "sha256": "372bd130b89b4a55d1cb93822b8219bd58d285adcdc405e2055883f383d4bf24"
+  },
+  {
+    "path": "资源/Jolt补充检查/9/dumpling.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "d311045710050c14f3fc4bba047f1997db3b89b45a0facd8654254add8043d78"
+  },
+  {
+    "path": "资源/Jolt补充检查/9/keyboard.gltf-validation.json",
+    "bytes": 1162,
+    "sha256": "4eed292519e759f6e9c30640448d72f6530ebdb55d6df9c12013e32b5359a10a"
+  },
+  {
+    "path": "资源/Jolt补充检查/9/mooncake.gltf-validation.json",
+    "bytes": 1163,
+    "sha256": "3f70887a82030e470fdd4af64b0605e60a1161f8b879f3063bfcaea1fae7bc4c"
+  },
+  {
+    "path": "资源/Jolt补充检查/9/run.log",
+    "bytes": 3012,
+    "sha256": "349f1332eac9e05fe9b747a9bf8280ac324718a996ecf46de7094472129ef073"
+  },
+  {
+    "path": "资源/Jolt补充检查/9/tablet.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "c0f842ebbc01e78768d933e5dc92d3d3e073cb6419aa1ceffd4118662cd64bd7"
+  },
+  {
+    "path": "资源/Jolt补充检查/9/teacup.gltf-validation.json",
+    "bytes": 1159,
+    "sha256": "e7208071ff83cc53a751b863225d409688f2c9e8a2db292704be6ff717a88d11"
+  },
+  {
+    "path": "资源/接入清单.json",
+    "bytes": 33165,
+    "sha256": "581e5b20c536b00020032e7d60981c21c08600b1cb262b78e03d2e78e6513dfb"
+  },
+  {
+    "path": "资源/运行资源哈希.json",
+    "bytes": 239290,
+    "sha256": "d3c959cf32ce718da666d143eddf58feb93d339edddf08be0c91d7ce2459c209"
+  },
+  {
+    "path": "运行/发行启动.log",
+    "bytes": 1011,
+    "sha256": "6e93784026200f8a85b3b7ae9deaf28a7dfa5c0a682645faf8e0805076f638f0"
+  },
+  {
+    "path": "运行/发行构建.log",
+    "bytes": 377865,
+    "sha256": "ee43271ca4b271e700e8f85b1ea265ba8203ef13ea49d97cc80fe83980df8785"
+  },
+  {
+    "path": "运行/可见策略/experience.json",
+    "bytes": 30395,
+    "sha256": "33fec6f1b8cabd8a73d1a3d8ea219f6426bfdea45ba74b1cdccf16b08fadd48b"
+  },
+  {
+    "path": "运行/可见策略/player.log",
+    "bytes": 73320,
+    "sha256": "bf5dd7a27172a7b8d703fa026ce74fac526831cb1bd82e6440608b14276c2681"
+  },
+  {
+    "path": "运行/生产CSharp/ab-bucket-cases.csv",
+    "bytes": 32783,
+    "sha256": "10ddcfa7e8c8898ca2c1f0f478ba78f7d2001c5857bbc251d5c3400442f12397"
+  },
+  {
+    "path": "运行/生产CSharp/original-cases.csv",
+    "bytes": 21057,
+    "sha256": "c292b2eca529fa247266cc839def8575653f99d4f28d5be57e4ec8602ecafe74"
+  },
+  {
+    "path": "运行/生产CSharp/original-weight-traces.csv",
+    "bytes": 176413,
+    "sha256": "a27533ae979828c86d9e1c6861ba94af3bf4378000a73e76c8ffc624a58b84d1"
+  },
+  {
+    "path": "运行/生产CSharp/policy-tests.json",
+    "bytes": 279,
+    "sha256": "3f062423fe8018389567717c3553273fd3d18db2da6b9b3f0b6559857ebbedce"
+  },
+  {
+    "path": "运行/生产CSharp/PolicyTests.dll",
+    "bytes": 32256,
+    "sha256": "2742d7fd3dace1ef771e9d0fd00ba425b0c04074f95b4e40f6c6b7d1af564a55"
+  },
+  {
+    "path": "运行/生产CSharp/PolicyTests.runtimeconfig.json",
+    "bytes": 101,
+    "sha256": "d58a29f5b6e4e7cd065a0a12480d2ec742e2cc21f45d7bc51071dbe96f147b3d"
+  },
+  {
+    "path": "运行/生产CSharp/source-group-quotas.csv",
+    "bytes": 40895,
+    "sha256": "c79ed432f6ba5839d87608fefaf9c532df7b8c6fc64e90a3c0cbab8842abc003"
+  },
+  {
+    "path": "运行/生产CSharp/UnityEngine.CoreModule.dll",
+    "bytes": 1536512,
+    "sha256": "9ac427b73dfda8d44d8179b614e8928ad92d459e83cdbe053f0c5c3266385c37"
+  },
+  {
+    "path": "运行/算法/algorithm-acceptance.json",
+    "bytes": 11088,
+    "sha256": "2379fc60995a63b661ff7ce6fc1572edbf11748ad78c40047e3113d44c80ff8f"
+  },
+  {
+    "path": "运行/算法/algorithm-player.log",
+    "bytes": 41033,
+    "sha256": "d6d43fbf5e09a6c3ff1b946787afe03878d2d60ffaa7c96ac1dfa0426757d611"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/core-rounds.json",
+    "bytes": 1237,
+    "sha256": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseAcceptance.cs",
+    "bytes": 11917,
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseAlgorithmAcceptance.cs",
+    "bytes": 19113,
+    "sha256": "5fabef4cd91783d5a20cc19fd26ceba69cff07ab20f57a1eb24ff3cb9517cfc6"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseColliderProfile.cs",
+    "bytes": 2677,
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseDepthPolicy.cs",
+    "bytes": 3064,
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseExperienceAcceptance.cs",
+    "bytes": 10000,
+    "sha256": "c51cf85d47b593b5603aa531937e63344206c4e57f4e16e9d5e011f5856b38dd"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseGame.cs",
+    "bytes": 39347,
+    "sha256": "93bee328adcf5cfafd27bb9a15b2b19523e7dc452f48c044c680dcb7db6ee403"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseGeneration.cs",
+    "bytes": 10259,
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseHud.cs",
+    "bytes": 14427,
+    "sha256": "d4e6e57c66505d2add6cebb927eb7747570a52af31ba1449bedbdd150643f246"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseItem.cs",
+    "bytes": 3203,
+    "sha256": "c223e60990ffa78801999a442e8e566ba70d39a3c6103c0b221987226d92cc2d"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseLevelPolicy.cs",
+    "bytes": 3946,
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GoosePileDepth.cs",
+    "bytes": 5600,
+    "sha256": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseRules.cs",
+    "bytes": 10382,
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseVideo.cs",
+    "bytes": 6357,
+    "sha256": "ba643b8ca18af8b65f1988e1f7f185822e82de633353e8be49beb79d21830481"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/GooseWeChatPlatform.cs",
+    "bytes": 3004,
+    "sha256": "62cfad58e6f2a7a2b16d0bfa8d0ebf77539e05b4bac684dcfb470e3ab316111c"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/level-tuning.json",
+    "bytes": 22,
+    "sha256": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/pile-algorithms.json",
+    "bytes": 452,
+    "sha256": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44"
+  },
+  {
+    "path": "运行/算法/tested-runtime-sources/themes.json",
+    "bytes": 5656,
+    "sha256": "d6528a2aeb49e96d97e10db6aca8f83a00bdd50c3ad2da2757d86f76c339c767"
+  },
+  {
+    "path": "运行/算法/tested-source-hashes.json",
+    "bytes": 1307,
+    "sha256": "fc6990bc0c2100737e0fcdf8d8573963649be22b85bbe08e607cf4be11afe457"
+  },
+  {
+    "path": "运行/算法/unity-build.log",
+    "bytes": 374837,
+    "sha256": "06ec1d265ffc6b6c492a6caa47876e154ce260a5aa4748994b7dc97f0f939300"
+  },
+  {
+    "path": "运行/编辑测试.log",
+    "bytes": 93312,
+    "sha256": "b4384184a122c502e8c8d8ed1a0941efc0aca8f7dad1b3ad96b1bcacabdfbb46"
+  },
+  {
+    "path": "运行/编辑测试.xml",
+    "bytes": 11661,
+    "sha256": "f54be7cf2d760aa760f37ed5c1036480c393a52abc6144453ea72a445f710d78"
+  },
+  {
+    "path": "运行/编辑测试源码/CatchGoose.Tests.asmdef",
+    "bytes": 156,
+    "sha256": "590c14a97157f2fe54dc51298ddee57fb4e3616a2ef5e16d4dc66c8cec512dc8"
+  },
+  {
+    "path": "运行/编辑测试源码/CatchGoose.Tests.asmdef.meta",
+    "bytes": 166,
+    "sha256": "69a76846f6297bc2f88ba6214befa7994a6477258498bd6bb3b21ac98aef8c19"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseColliderProfileTests.cs",
+    "bytes": 2246,
+    "sha256": "c831224ae2e85014c75d97e6edb281b3c53dbfd1e76cf9ab85c87f5b87f666c9"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseColliderProfileTests.cs.meta",
+    "bytes": 243,
+    "sha256": "ad533e3dd8e2848271f0923ae906314a3966cfa20b6333cebc98aa501ca75de7"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseCoreRoundTests.cs",
+    "bytes": 4350,
+    "sha256": "6b42ceb2f9f54056b2da3fd5ec8d22151a539b102d50667ec75860fccc4e41c6"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseCoreRoundTests.cs.meta",
+    "bytes": 243,
+    "sha256": "65b50ed6346d8ebf9e4f7f1160af762827d1c64834de6bc2ed65e211b3f42c03"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseDepthIntegrationTests.cs",
+    "bytes": 1827,
+    "sha256": "f900471ee19c3a07410525fd600ec690d324255471bc203f79fd849c67760a7f"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseDepthIntegrationTests.cs.meta",
+    "bytes": 243,
+    "sha256": "bda9e1046029f02aa31bd7a3103defaecce84d935f6222ab15bb27fbd1bd450b"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseRulesTests.cs",
+    "bytes": 2405,
+    "sha256": "68e3d3ac1a2fd5969cb6b1fc734eb22b5c8fc7e619d3901973111e7473ec3b34"
+  },
+  {
+    "path": "运行/编辑测试源码/GooseRulesTests.cs.meta",
+    "bytes": 243,
+    "sha256": "0c190dbe2e905c65ec102aa2583eafcc70a05a59db02f069981b8dd6636ea8a1"
+  },
+  {
+    "path": "运行/首轮统计修正前/experience.json",
+    "bytes": 23966,
+    "sha256": "03ac5a6292e26894aa09cd5550ba43636524fa693001776e2e47cab6df638eec"
+  },
+  {
+    "path": "运行/首轮统计修正前/GooseExperienceAcceptance.cs",
+    "bytes": 9834,
+    "sha256": "89f24ba311e50e9c5c0dc1b0a25626a340b6e191fd4b9cf86244f8c4a84cb0af"
+  },
+  {
+    "path": "运行/首轮统计修正前/player.log",
+    "bytes": 45381,
+    "sha256": "b2f562bc8a28deb6403430c840819afabff61713fe041619120ea9f87bc19cb8"
+  },
+  {
+    "path": "配置/扩充前主题.json",
+    "bytes": 2063,
+    "sha256": "6d2f06ebd870921ee5dadfacb201d373dfb5313fe021898daea228577403f1d8"
+  },
+  {
+    "path": "配置/权重来源.json",
+    "bytes": 51909,
+    "sha256": "68568f711fb1660d2a8178a27c8507a5f7e1acecba3413ecbecb78568e80b2df"
+  },
+  {
+    "path": "验证汇总.json",
+    "bytes": 29243,
+    "sha256": "f28c7beab9383d9b827cf7a06f89b4c7468d048f74d9188e38f78dddcef84ebe"
+  }
+]

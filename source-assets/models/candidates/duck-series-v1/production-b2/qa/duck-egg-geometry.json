@@ -1,0 +1,18 @@
+{
+  "id": "duck-egg",
+  "triangles": 3044,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.6279135942459106,
+    0.6863892078399658,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    2.9802322387695312e-08
+  ],
+  "passed": true
+}

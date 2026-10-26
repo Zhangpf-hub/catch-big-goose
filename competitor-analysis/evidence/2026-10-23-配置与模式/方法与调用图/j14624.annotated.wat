@@ -1,0 +1,242 @@
+  (func $j14624 (type $t6) (param $p0 i32) (param $p1 i32) (param $p2 i32) (param $p3 i32)
+    (local $l4 i32)
+    i32.const 5140119
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951356 ;; ActionManager_TypeInfo
+      call $j922
+      i32.const 3955472 ;; GameManager_TypeInfo
+      call $j922
+      i32.const 3956632 ;; IGameModeLevelCtrl_TypeInfo
+      call $j922
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      call $j922
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      call $j922
+      i32.const 5140119
+      i32.const 1
+      i32.store8
+    end
+    block $B1
+      i32.const 3955472 ;; GameManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load8_u offset=4
+      i32.eqz
+      br_if $B1
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load offset=28
+      local.get $p1
+      i32.ne
+      br_if $B1
+      block $B2
+        i32.const 13
+        i32.const 3956632 ;; IGameModeLevelCtrl_TypeInfo
+        i32.load
+        local.get $p0
+        i32.load offset=384
+        call $j951
+        if $I3
+          i32.const 0
+          local.set $p1
+          i32.const 0
+          local.set $p3
+          loop $L4
+            local.get $p0
+            i32.load offset=380
+            i32.load offset=20
+            local.set $l4
+            local.get $p1
+            local.get $l4
+            i32.load offset=12
+            i32.ge_s
+            br_if $B2
+            local.get $l4
+            local.get $p1
+            i32.const 3
+            i32.shl
+            i32.add
+            i32.const 16
+            i32.add
+            i32.load offset=4
+            local.get $p3
+            i32.add
+            local.set $p3
+            local.get $p1
+            i32.const 1
+            i32.add
+            local.set $p1
+            br $L4
+          end
+          unreachable
+        end
+        i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+        i32.load
+        drop
+        local.get $p0
+        i32.load offset=152
+        i32.load offset=12
+        local.set $p3
+      end
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      i32.load
+      call $j923
+      local.get $p1
+      call $j2087 ;; LevelManager$$HasTwoPlayer
+      local.set $p1
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      i32.load
+      drop
+      local.get $p0
+      f32.const 0x1p+0 (;=1;)
+      local.get $p0
+      i32.load offset=140
+      i32.load offset=12
+      f32.convert_i32_s
+      local.get $p0
+      i32.load offset=268
+      f32.convert_i32_s
+      f32.div
+      f32.sub
+      i32.const 1
+      local.get $p1
+      call $j8916 ;; LevelManager$$SetPrograss
+      block $B5
+        local.get $p1
+        i32.eqz
+        br_if $B5
+        i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+        i32.load
+        drop
+        local.get $p0
+        f32.const 0x1p+0 (;=1;)
+        local.get $p0
+        i32.load offset=156
+        i32.load offset=12
+        f32.convert_i32_s
+        local.get $p0
+        i32.load offset=332
+        f32.convert_i32_s
+        f32.div
+        f32.sub
+        i32.const 2
+        local.get $p1
+        call $j8916 ;; LevelManager$$SetPrograss
+        i32.const 3951356 ;; ActionManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 3951356 ;; ActionManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=56
+        local.set $p1
+        local.get $p1
+        i32.eqz
+        br_if $B5
+        local.get $p1
+        local.get $p0
+        f32.load offset=272
+        local.get $p0
+        f32.load offset=336
+        call $j50878
+      end
+      local.get $p3
+      i32.eqz
+      if $I6
+        i32.const 3958052 ;; LevelManager_TypeInfo
+        i32.load
+        call $j923
+        block $B7
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load offset=12
+          br_if $B7
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load offset=28
+          i32.const 1
+          i32.ne
+          br_if $B7
+          i32.const 0
+          call $j13502 ;; TeachManager$$CloseHandGuide
+          local.get $p0
+          local.get $p1
+          call $j43543 ;; LevelManager$$FirstTeachEnd
+        end
+        i32.const 12
+        i32.const 3956632 ;; IGameModeLevelCtrl_TypeInfo
+        i32.load
+        local.get $p0
+        i32.load offset=384
+        call $j1098
+      end
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      i32.load
+      call $j923
+      local.get $p1
+      call $j2087 ;; LevelManager$$HasTwoPlayer
+      i32.eqz
+      br_if $B1
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      i32.load
+      drop
+      local.get $p0
+      i32.load offset=152
+      i32.load offset=12
+      i32.const 1
+      i32.ge_s
+      if $I8
+        i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+        i32.load
+        drop
+        local.get $p0
+        i32.load offset=168
+        i32.load offset=12
+        i32.const 0
+        i32.gt_s
+        br_if $B1
+      end
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      i32.load
+      drop
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      i32.load
+      drop
+      local.get $p0
+      i32.load offset=152
+      i32.load offset=12
+      local.get $p0
+      i32.load offset=168
+      i32.load offset=12
+      i32.ne
+      if $I9
+        i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+        i32.load
+        drop
+        i32.const 1
+        i32.const 2
+        local.get $p0
+        i32.load offset=152
+        i32.load offset=12
+        i32.const 1
+        i32.lt_s
+        select
+        local.set $p2
+      end
+      local.get $p0
+      i32.const 0
+      local.get $p2
+      local.get $p1
+      call $j14627 ;; LevelManager$$BattleLose
+    end)

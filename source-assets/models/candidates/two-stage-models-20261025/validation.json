@@ -1,0 +1,2314 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "ref_apple",
+      "passed": true,
+      "triangles": 510,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "de4f3c09782a9790397a178953ac10563e17c31e1402063ceffe8f2043e92588",
+      "fbxSha256": "d2f8c8fa3006c6499cee647ab61a323ab4681130d29db9697199b7f325666eb4",
+      "materialSha256": "45c3f3075180c623ece797089d6e6eb846edf32865cdbd9b0174fe8d96284cd1",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_banana",
+      "passed": true,
+      "triangles": 288,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "6b89285756178ab6d3bb0d31e8352a2c325e6d1a2c4bac5f437d3b971dc08225",
+      "fbxSha256": "02059b6318e5f3567796a7c442d9914c594c78505e1616a933937d42dc7452ec",
+      "materialSha256": "ae6ad2b265eeb9226a0d1a4479ab5484c0ed737af77d3dd2b14c8aefaabef7ea",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bananas",
+      "passed": true,
+      "triangles": 1105,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "c3c9976a7a24e7ee9a7bd92839d55489f9753850055e32c8794aa6ec496d6615",
+      "fbxSha256": "366a2115f14f56be255fc4a7ce8356f9674b21e6cfa48c08cc65df6ccabe7d8a",
+      "materialSha256": "70ce6c6a480fe48e6d3feb70109624409ce9f1217a6e71aab0b534e97809eeb3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqhotdog",
+      "passed": true,
+      "triangles": 832,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "d41fdb1dbd3b79ba34fbe06e79074975cc86b1217906ebd9c5918e7ca2471a5c",
+      "fbxSha256": "65cd359122029cb6f230bb0eacc3e1a72ad9f87550ac7598c75aba26cb9f676f",
+      "materialSha256": "077b98d0c4ab0ecda5167a63e3e2e50a321690ea18b1f281fcade62e45db26d7",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqmushroom",
+      "passed": true,
+      "triangles": 660,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "cd15925a055615a83b32e0e1215447a2c6840f02135e5a865ec9aa978d593856",
+      "fbxSha256": "534fea4a2a417c2e9441d54b238e242f1d261240877d320aa9439c5047ff2215",
+      "materialSha256": "757c3690ec0e5a729ee54ca07179ee3d342d575a500382751416653ef0d4b503",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqpotato",
+      "passed": true,
+      "triangles": 1382,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "b5d097171aa148c855c46c0e66608194c78808e337a824491ad6c154bd3d87ab",
+      "fbxSha256": "edafa4fd214e1d7277ed852088f43635f223959983ca20675dd1b9714df4d046",
+      "materialSha256": "9e4e4b6425140534fae8fe8e6d6cad3829312d50d3b7230ef13e654c6f2a970a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqsausage",
+      "passed": true,
+      "triangles": 490,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "e9b9379a375a03a5df609ba3f567a6aa5373402a2a81bc76ac4d07f9a77e5f77",
+      "fbxSha256": "39df02db1d95b68f31d3266dc2768b2faaea0961e634fcdb05c3bf9c7c3e4ff9",
+      "materialSha256": "762c9f2e0e12ba9d41bae8509a7e91169ec94a3226deb7a5114422804662e560",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqskewers1",
+      "passed": true,
+      "triangles": 904,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "d2eb659b0284c47fd9f2bd07a5b8410aa7278b855833058a6fa0f02b4770d3de",
+      "fbxSha256": "cfe739115d90a1ea1b07f6886892af8ccf75b540da9334849f5d63b9679f0558",
+      "materialSha256": "e0f5c7e4bdb4c93f897755fe2798696003aad1b432fbf2554fac0b108dc927a0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqskewers2",
+      "passed": true,
+      "triangles": 760,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "46a72b171122f59bd8676a4a7683e51a8530bda25471d122b900397d6ef8062f",
+      "fbxSha256": "139de9094a1cbe2899148f12ac861f3a6d850ccfc078d45f47991a742af0cbc8",
+      "materialSha256": "d2e94cfc9195b50134112a27e0112acd401eaf55640e9b918b5090e8a55b8516",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqtoast",
+      "passed": true,
+      "triangles": 220,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "dcc264660b217f69ae1fd3fb77a1edf884bb39550f36da874b654a85ee8e85da",
+      "fbxSha256": "8fd9cc9872dd855f8aec5c1176715a6ca84976a4368f16fee536ade3ec6a046e",
+      "materialSha256": "8648678abdef4e2d49a7faca9abde43a08c3fdabd9c0f62cefc03dcb9c05ae83",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_beanpaste",
+      "passed": true,
+      "triangles": 1506,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "d31828ce43b49bb7c6b3257116f757016726518adbf6534ee54e27f46c6fae35",
+      "fbxSha256": "ca77d34ce1f3225d796718c3f5d67d63ec0ea44e67bfa3ddbf7b94641dadb820",
+      "materialSha256": "1f7ebbfd41a6f709df2d29a3fee2da66760a7d2b46007baff0b87fb4444b2adb",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfcornjuice",
+      "passed": true,
+      "triangles": 904,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "bfe5baaf70a0b9455b654e4eefe437799f8dcccd8eae8213bce28fc929e95c9b",
+      "fbxSha256": "de3a77b13c86b4abaae919220c5fca59d810022b1d914115be9ec44cc0018ce4",
+      "materialSha256": "d84f65a1c433f365a0cb467b16a086883abfe7a8de91643a2bf2c83c8133bbb8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfegghalf",
+      "passed": true,
+      "triangles": 398,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "5d3dc9f1d8c37f955ee18ddf27edc3652127e5b5935b83b8fa364748e418424d",
+      "fbxSha256": "b4dbde7b5f142ea54aa4402b960291793a57f4fffd416f92ed9a3570d8ff4ea3",
+      "materialSha256": "265b3e4a3ccc7a8899419f2ea1d5b8563eeaba96a4ae4f8c38eb8b042de5fd8b",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bffagao",
+      "passed": true,
+      "triangles": 578,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "0f4456fc53fde85a3a8d39f75d65c20a93db3a5705c8f19c118d9df851ed62b5",
+      "fbxSha256": "370acf81b46ea1caa40dba76b5cd3b0bf8a2a24bc051a76c8a26e5a3e23d4b93",
+      "materialSha256": "d0d481dad7a45a9af3701dcb367dc509490f3cc05bc9cbe51dcb826e510b6c67",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfflowerroll",
+      "passed": true,
+      "triangles": 690,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "8526f1eb65bac6eaef213421298606589ce8cb48e96a3ec7fb5b84f7d0d9a7b7",
+      "fbxSha256": "79b5e6364381b1882675d0d1d70600d008753f501dad6d01c215fb5edc8ce42d",
+      "materialSha256": "19b816ff40bb65ec87310ff0e7c4f184f89c3f6b7d17509de11430e43486af15",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bffrieddoughstick",
+      "passed": true,
+      "triangles": 576,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "bf4e10a18f1fd14877c83b0196f533e1ac8da6aae07b46f834f2f070261c754a",
+      "fbxSha256": "d61858b5fdb9e94921bc7183d633c912cd75c775a7fea366cd3acfe2b39015a7",
+      "materialSha256": "c28644d090a412201b8b6ff377b743ac787a898da1be5f7ec1ca9279d57fc0b5",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bffriedsteamedbun",
+      "passed": true,
+      "triangles": 444,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "969616e00a5f6ec3c8542dbee245ac1dd23799694407a02f6b6f01e50371da57",
+      "fbxSha256": "a4a617aeb5ed76745de91ad386ed3487f89e5599ec242388b0214ed1b7190859",
+      "materialSha256": "ab3be665054e2cf204628eb95c8f7065c51eef24b1a35781fbb7b0b79d4daf20",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfpumpkinpie",
+      "passed": true,
+      "triangles": 528,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "fcd4c0514f287c1e1aad5d1327eccecbbfadf8b771637766c098e9369da8f2d8",
+      "fbxSha256": "475c1293c3b1c250af206bcfe453fcf66cf1f8d416d4d8a12cc3022be31f6d73",
+      "materialSha256": "ef81f121c370889cfd57d1ce92aff4db4aa79c8c4d2aa3fc51fe6465c1d5cf1f",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsesameball",
+      "passed": true,
+      "triangles": 528,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "3eb4a1bd2ac704232eb1d15a54a9d211283e1995d4bea0751e103f04f2bb2d9c",
+      "fbxSha256": "359569c6c0b61456f2d3a42bd6370174ac2a5ffea871520f0166c5725b104bec",
+      "materialSha256": "030041f0cd60565bc1b700aa425999deb19974f58c3ba7940f2c1f33e4c16841",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfshaomai",
+      "passed": true,
+      "triangles": 1544,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "011431dea5f1050fcecad2d7e80324568e050dc1b30d15a36a782347c2c96dbe",
+      "fbxSha256": "be68f7bd781cee4c2c5e8cb022ef0e9cb21dcbd779617a21773603cd30677de7",
+      "materialSha256": "ab39258446a4ff42c2ac539f12915b3031ae1dd0168add0bb1e983d4f801a1c2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfshrimpshaomai",
+      "passed": true,
+      "triangles": 984,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "b0d7d5f7d7b2ba8ce614d6dbb4d841e1eea99a3b4418fd4aa3fa8e1b88881a1d",
+      "fbxSha256": "aedaa920bff29e6a42c8ca24751ca0156bcd2cef2868dda3b71837b6a389c651",
+      "materialSha256": "50b21a3407f88a4038f904f9128b0bb5393bc20d3b0df4b8662dc59d2aa9dbd4",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsoupdumpling",
+      "passed": true,
+      "triangles": 1104,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "6d689ae8e5871bbfeac3743b701c2c855a4eff23da7d17add46c685757c85fbb",
+      "fbxSha256": "8245a1907d62c6d05e42f50e4caa70240b71392cf15c4ed511eadccb6defc47b",
+      "materialSha256": "44d4a3efc4bc5c497c55eb08241f4ebaec2da3964424e75db9c0fb8d508d8f26",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsoymilk",
+      "passed": true,
+      "triangles": 1380,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "df3313bed7ae34b10ef3ebb7be862b6ad6a740555ddf60806543e269b2b45c05",
+      "fbxSha256": "dc19a4e2392afc8594a1d9a6d957dd44ca347fec380dca324972dcc7d2a8d45a",
+      "materialSha256": "5600e4839536f86ffd94d68e964d7ee2ef51caa4e02488e9dc1eedaa5b5e1181",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfspringroll",
+      "passed": true,
+      "triangles": 588,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "121860303523e6bbfebe7334204763f74c0c72a81b73896b855f29e68fc816a6",
+      "fbxSha256": "92ab7ab5d9ebb9e8494c8e4a115207c6e33a4d0a8116b7226bd601bde52a5b37",
+      "materialSha256": "bda77daabdf11d5bac81a176a9a6e42f5408bcd282e6a9080faebcea66992fb1",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsweetcorn",
+      "passed": true,
+      "triangles": 926,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "9129be9b6cd553321c860ce7349fc4598801d2b17e87529b8788a0c31cce0c9d",
+      "fbxSha256": "e07217e585dd16bf5119d3b1bce6ef7dc960d34290a190dee0a763993559eeb9",
+      "materialSha256": "be18c306b36b625c7f7e6b72b8f64f9ecd37854761c8adf63a4ed52b8b9bda05",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bftofupudding",
+      "passed": true,
+      "triangles": 720,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "ddd1c1b9e458c2ac7b891753486f7719ccc84ad66511c86d42781d7199166a8a",
+      "fbxSha256": "7744916b3d97d7636900a1946376c37f8b81b5f4329699df0846214183081e28",
+      "materialSha256": "650976abfc052dd4c0d605f6d2988ed32d98c161b27f5f10da8c8aa1f3e0eee8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfwowotou",
+      "passed": true,
+      "triangles": 800,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "da213c1efe57df22d65c0b9e601d1113ee571ccf0f4b23272c253cf33bedef61",
+      "fbxSha256": "b75ddfdde3368f9aeb5b22ca6356d125aaa05e8d02bd48aedc4e84e957b94ec0",
+      "materialSha256": "08e6def6d518de44887efa2d9a0d522c7cb4933249812e7b4fb4bb765c0577c8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfxiaolongbao",
+      "passed": true,
+      "triangles": 2006,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "268973bebd03ac5a32c5a9191b8154f2ea8a9a42111979c368bf846ab0358cf4",
+      "fbxSha256": "84a740779206580681c03a278f5eccbf5f66a4bee4f56b282a312ea00b17ebf0",
+      "materialSha256": "aec2e7507369723be27a1b5c9b7729e3f96eca4a6ab45022240875ca18f0f60d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_carrot",
+      "passed": true,
+      "triangles": 432,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "5dd0f6c700d7a7b698408a9373392cf36f4fce57409e25aa4cdeb1770b50fb07",
+      "fbxSha256": "fe39bc45f18f60b0c66536f0306754d43f7192c9efed12b1887ed691d5ece27a",
+      "materialSha256": "27c5737fc7da36294decb8cf8acc0cf21cf8768a732b07a889a9a53bd18d0890",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_chewinggum",
+      "passed": true,
+      "triangles": 140,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "65801a7bafb572e5cd52c954311d61e065cf2f650ff9c038d4745fe0028ab556",
+      "fbxSha256": "ecc5ba646d721a7cdc8f3f9a23f5b1825e4143e4ecc5383f046bc42b28fdc177",
+      "materialSha256": "2057b69088015487e892fd95005718edfcd7bd42b03bb2710eb9f4fd7518c6bd",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_chickenleg",
+      "passed": true,
+      "triangles": 1007,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "54723b4333cecbea44f6018b52df0064b5fc0201135fbcba416d499ccb3efdb1",
+      "fbxSha256": "3516e5ff497425451706309f7b1cf4a4c9c9178f737792c6c128275ce3a64fcd",
+      "materialSha256": "6d663ea93a7d7eb513c2ca92dc5feef60df60942c7629fe21e40a8a9c96dc74a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_chinabowl",
+      "passed": true,
+      "triangles": 1000,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "5633428ec50781bebe663ab5f5d9efd70e98d737f3e4964d48ad342d0a7ce9c9",
+      "fbxSha256": "10b65fd181bf248b5f6b47677799a626959b71406a40bb327a534c6000f873ff",
+      "materialSha256": "39ed1d90be9d4e745a8554074e761e36f570be784b90bac4c9298597ebbd575b",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_cookingwine",
+      "passed": true,
+      "triangles": 1498,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "ebadef811e80fd71e930cc098484edcd4ed98d297dec83bfc24b3546e46de369",
+      "fbxSha256": "a73ef28009b0f9c9b233d2a486c25a89454ca178f50c774a5082d12613ed1c9e",
+      "materialSha256": "f26b0eb4e5233921c7bce00c5639ab60eec1e86d56af16287e19cfcc7917ba00",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_corn",
+      "passed": true,
+      "triangles": 1043,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "70ef828895f14e22d4e3fccd62f7744a15f1ca55927a7b7930360abdec567a25",
+      "fbxSha256": "ef43f3dc4a4399974a8dd9514b9fd6fd84d8d0b741c8761825def9d4b0c7b776",
+      "materialSha256": "2e02cc4f9508f9f3f77aa149cac093cbd4d34750646bf6e9705794d923b0705e",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_cs_garlic",
+      "passed": true,
+      "triangles": 932,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "01e8ae244edeeace4a38825b1beb6b263800174000e4bdcadadeb009faccbe40",
+      "fbxSha256": "5b1655f60b2d97fccb8405b9a6af8856031bb3f854363e339720013c60a3d92f",
+      "materialSha256": "b0318451a50808509904d38d506115d42fd83cd90616e61425750acbe197a053",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_dishsoap",
+      "passed": true,
+      "triangles": 742,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "20e56de22614bd7eddc556f3676bdfcf8612bc85444f97345a666bbffb6d599c",
+      "fbxSha256": "0dceef462758f9fd2a97b1a5dd833601f4aa04da0cfda992ada1b57c0f3a0be4",
+      "materialSha256": "941aa158a5bf9c7d0e2dde39dff522f4095e31b6e43c85e6b7043ea112115a80",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_egg2",
+      "passed": true,
+      "triangles": 180,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "959e0e12454feddeb695dcf8e57f4150d51678a1526bd1d1f3d22587b5d63c80",
+      "fbxSha256": "eacac019966ab9765e236aaecccb3d22cc2e12540bc0f9f9aded27785f4d2113",
+      "materialSha256": "451b47ddf3008f9b3491bb09404c53d99155c65d3113b4510626d4d693714348",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_fan",
+      "passed": true,
+      "triangles": 838,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "3594a45a5282654cf6968ca5f32de7ec64f4f3ce48a039d423b0af48e6afe158",
+      "fbxSha256": "3774e3b6e9671466ba134ccdd30332d2e88674abe85337fc9b4b304a9481a034",
+      "materialSha256": "9074bbac89b5757e61bdd71cbdac4a73bfeb25cbd563f8bd90e14b9a33e5d9f9",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_flashlight2",
+      "passed": true,
+      "triangles": 1356,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "af0e2ad3dd37d4a82089416a70bb020ce291f9b58827559c3e57f99fe6adf82a",
+      "fbxSha256": "e75e1830456e2c846e0862dc0f31003566e27cf6c985e59331b2b103d2633a32",
+      "materialSha256": "82d7e3619769714e1583b402d76f9f87663a27ef7cfb822f77ee79d3f710ba2c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_frieddumpling",
+      "passed": true,
+      "triangles": 568,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "c8b478a0488b97f9bbfff5dab966c922a19fbd107a5640a4df0899e57ca07654",
+      "fbxSha256": "ce8d378fba03e87415ddd1b5025b274dfa30acdedb12d9985bf1041534f9a4e9",
+      "materialSha256": "0c8b450ff3b0feaa9635b393c61237ffa795a71bf2401de65d3529c4fc517a98",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_garlic",
+      "passed": true,
+      "triangles": 932,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "17a9e1ac78091c48cc28f9a38ffc533e463f0a58273a2467b5384f68989c1480",
+      "fbxSha256": "1489e42a3a4d3f0606ca25b6767a99847da65b9dd35bcd3d127eaa0afe2f9bb6",
+      "materialSha256": "289b338a3f3c34036761b5486047c8812a522aa862c8741c2ebda06828775083",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_glasscola",
+      "passed": true,
+      "triangles": 1318,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "a1240f279e6d4ba3727f9595343ab99a18fc9d455c0a4542c485474884fe3232",
+      "fbxSha256": "74cf6d343eff482f012186fb6f96b633e5561b94febdf0e7773e52ed1cbea832",
+      "materialSha256": "9289a480c1384aa67e0e9168c7c22ee38f3e2d3833f1b81a94e3ee8cd1e1c8a5",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_glassorgan",
+      "passed": true,
+      "triangles": 1318,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "29305a162fdbc91b5786b04c39dbaa48c36304d1626538620286ff78c9a0d98c",
+      "fbxSha256": "578c1601657111fe90d5054d8892cde2bc64a2e2ce20e0039f82290530951801",
+      "materialSha256": "eb29d9ef92f3af5dbaca2b8d1f90c2efa3c43679bd043ecb5cd36e1063a6b0f8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_bfsteamedbread",
+      "passed": true,
+      "triangles": 2208,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "22fa9cd341cac9a29d3ab6e811096988c42d012e086eb17e0d48262a0835bea7",
+      "fbxSha256": "37c7e18799bf5071530c3f58be86ebad6b072c07f863163f0408e5dc815f67fa",
+      "materialSha256": "19812262a8f1518616f26e23c54d674428348b3f9ceb9e4b4fc7341f11acddab",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_chilisauce",
+      "passed": true,
+      "triangles": 3412,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "be4508b39c476a1943a5ecef0d58f3b3074e6246fbcf55c0320dfb12a22f4df8",
+      "fbxSha256": "9da5686cdaa3a20a1c0f37c14d753ff143a441e4928303537fa145dc5eb8831e",
+      "materialSha256": "af6744fb1e54c316187ae44b2ca9dde2b6cacf48779bfef3cae4e1e94c2345e7",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_colacup",
+      "passed": true,
+      "triangles": 2574,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "7673adfd46ba23cc523de0a014d52029716df6815c1f712d8487040241a0309e",
+      "fbxSha256": "69bc4dabc7570e3c57b9132e1303c6c9570832f6c078d1052add14238e4eb182",
+      "materialSha256": "3da4e20d350a9eb50655c8e54a2a312b020b40a8b83b32a73c37535051818a73",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_egg",
+      "passed": true,
+      "triangles": 1724,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "ebed3c2562e717541ca9e8740c3b7044d3fe3ba31dffccb114ef4a2ce07d10af",
+      "fbxSha256": "297166753b95f9a215c5ccb6ac873ffa16ea8bc0c29d65af3fa6f3950ec3d212",
+      "materialSha256": "fcdea817919e0261f1a078e0fdc8ba7fcd181c73b7a0175693d4941159fd3687",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_eggpancake",
+      "passed": true,
+      "triangles": 2174,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "fd10cbbae8af9de435c1c4ffe371c6105f94cf1c5fc63497066ff838c023c851",
+      "fbxSha256": "107c576593e3b87bbd42f14df56271e64a768cfdd3e761bd49dfe81dc3d5282a",
+      "materialSha256": "2151b6d2ba8edbf800c8264ae8664eb593f8858c61daa23bac4679e28205d17e",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_eggplant",
+      "passed": true,
+      "triangles": 2398,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "d84c9c027f61a71d183a287f2b7e66cacf74dc8b1fc62766035d283ae1c64b6f",
+      "fbxSha256": "739a24c3c34f623af3d9f9e9aaaa67f711ffe26f1fbc389b8d9ba303670049c6",
+      "materialSha256": "ba5cc7143e2471fb20e0ba6f7e3516f619d9c60e0e6c789f70ba0fc8133fb56c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_eggtart",
+      "passed": true,
+      "triangles": 2636,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "3706af9c92f31946993ee9b6ce4c42ea31ff91192f6eb618bbc92f6f37573fbb",
+      "fbxSha256": "a2e61d166a3cc447fdd05c642b0ea5aefe0e9b0ea312dfdaf93fbc5709ec95ca",
+      "materialSha256": "2fed4a3440f9710a411eb4aa13f107d2afcb06337b9cea35748832bf52563d44",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_farmer",
+      "passed": true,
+      "triangles": 2336,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "e64d6ad04bf04043cb574e2cf7dda4eb5066155ff5f590c022516e3445962892",
+      "fbxSha256": "9ad74169deca6e855ba7ca848e4627bd2fd086c30a62fac017729eb50f863d21",
+      "materialSha256": "2538cc9476a70cf29fa41842e2cdd882b1686d5398d3b25713c9fe4dbab8913a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_greenpepper",
+      "passed": true,
+      "triangles": 2690,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "fdd27ccacb6004068a7e30fa69c505eb79d10b99451a5c48e58abd4dfc6c7ec6",
+      "fbxSha256": "db2090d9422c8de68ab967bc9cfdb18751616b8fe24a5c0bff14b40af2daa45f",
+      "materialSha256": "867ff052edec9cbc6639772ac8818b00842dcd90cb0d16d190afe4b6b347313a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_gtcapsulepen",
+      "passed": true,
+      "triangles": 2952,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "9c2d67675e21bc85deee09c06d70ef1a4f8bbe64468f89209a21a88cb3e71170",
+      "fbxSha256": "d8971d9694c102b8b89e48220c3d023dc63daa74b9eed7822da42e930436935e",
+      "materialSha256": "5152ade75beb89f6757c84634feabdfe06af3ecd74c96d3d6ce079a205081427",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_gtcraftpunch",
+      "passed": true,
+      "triangles": 2502,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "014c311059fed0521ec65000f77549c6c9842c121c1653c836d64566cc4bf0f7",
+      "fbxSha256": "2a7e7c9eafbe92e9a8e0328c06eda087640aa45630a20accd7af7f606ad965c0",
+      "materialSha256": "3caad293d299f66095a88202f6a77f9aa04363d29355205abd30b8807b081cb3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_gtnumberblock",
+      "passed": true,
+      "triangles": 3440,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "fe9c4bde1e3ef1f282c13e343d21fb24369142c87b6c6b98b4e73e345cb7d237",
+      "fbxSha256": "d781778f38c67fa128e92635755022660c15ef0d48e1d0be433b60835141d47d",
+      "materialSha256": "ec0764ee5d4406d0e29bc5d0287ff0cbb510e0a5eb528af2316bf2463eb4a043",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_gtyoyo",
+      "passed": true,
+      "triangles": 3320,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "96a965b5ead20aa10cb2d304625fce4759d82b4db773e11a2920704cf8dab35b",
+      "fbxSha256": "a87c614e5863b767ea5bbd37979cd0712c163dce173df9cd85c6c05637317df1",
+      "materialSha256": "2dc3fcf1f4a642497c057b60d428185b24131a2327fac55eebb5e2d83863a6e6",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_milletcake",
+      "passed": true,
+      "triangles": 1816,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "a7f8078474addaf9d7ea15a6b572b215c9ceb8a163816530d3cc9ff5b3fc5e50",
+      "fbxSha256": "7e63f91c4cbb58095d55ab9d04faa6c9ce5b70d723b3d69ccedc2f4c7057f127",
+      "materialSha256": "067ec9956c421d3af53955acd89c239d67b1bd26eec4e8ad8b18eed0bc27a6cb",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_noodles",
+      "passed": true,
+      "triangles": 2247,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "d8051c827c818f635d6dc8c2166b4f0e9e4245ae5f94f8bec048c5c6c6a78e9d",
+      "fbxSha256": "650a5af0662ef22539de42903744de84e0cb25b2a6cdfd72b98283cfc434d2f5",
+      "materialSha256": "c8a55bb7fe5be049d96fe588672f2e93888594f29b25fd2f841d2e4b891c6dfd",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_pancake",
+      "passed": true,
+      "triangles": 2402,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "bd2e43541fe3e85126b8064b37cb34240148055a2e1e2ab53582295ae1eaa198",
+      "fbxSha256": "ba9763987c188a25eaf0c7cbda31a1e48fcd9350aaef3f2ea64de974e49e1404",
+      "materialSha256": "b0e8b3965b3dd9a45c2d0e6bcaa4df9ef020419e5be5bd683060fe20ccdbe4ae",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_potato",
+      "passed": true,
+      "triangles": 1928,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "0b9e0150245e0b12de5ecd545cab2dc715407f45fa61872e6f1d04a02e833f3f",
+      "fbxSha256": "8da4d061b16895b8c49da127d28593e1a1bf24254a08320f8a9e2c9a56302ced",
+      "materialSha256": "b5b80419a990b79138d4ae1acf78cd569701e36871a19d5b22dd12d405e09a7c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_steelcup",
+      "passed": true,
+      "triangles": 2562,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "a7279bea1a775ee8f95a47c421b517646b9c7f06fe7027e45c34efdcea9e4bbf",
+      "fbxSha256": "95a7de2afac4aea15fa16eccca44a07c1551c783d781661d5a7b0b31a1e84744",
+      "materialSha256": "ba14f58c7e116821c40170e86894de086560956934766bd934e5c8a3e34da62d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_tomato",
+      "passed": true,
+      "triangles": 2248,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "e6b42d20ee6fe9c0ebd483bdb5d356e527c6dfb2cebec1c9b807f241d5c82032",
+      "fbxSha256": "deb216e1771211c419662be2520719de646695bc9fdc0c8ae91dee71bcc4505c",
+      "materialSha256": "90f669f6a7f802bd250eab5b66b5606e3d3237b2845fd18d957b14a141c6eab0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_goose_watermelon",
+      "passed": true,
+      "triangles": 2723,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "1e1358ac0cc9f8795c61afa013588b1526c3cf3e83bd91da54d4de10f7665f63",
+      "fbxSha256": "53f85145fbae1d6da17ad819845b6be09817a46f98fbf116077863046653f4af",
+      "materialSha256": "7ad9a1fd019d4aba4f111d071f81ea29ab01055ca55467bde709a43558cdfea9",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_grilledcorn",
+      "passed": true,
+      "triangles": 513,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "ead83acb652567dc44f20f55be5df9f8491b4427fdbcb954691c556dceefa522",
+      "fbxSha256": "27548714e761617e228569a33db1d4f05fd200830f77666014c96caf141af9e7",
+      "materialSha256": "31148bfd64c3dbadc86bc79f8928928978019fc042be00b080adafc83a810179",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_grilledfish2",
+      "passed": true,
+      "triangles": 560,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "176dcdf8c5db74b4381ac9dd685a31ace258f35a0577e504d225164a0451917c",
+      "fbxSha256": "df10e750e1cb44428b59dd0fdb009e9a5e9d74db5ca269c14680f81b85e5e0f7",
+      "materialSha256": "9e2be2231012b3757b5d233f70c73cad1ce8d6ccdf7ec05e9543213bda3f46f0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtbottlecandy",
+      "passed": true,
+      "triangles": 1936,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "5b46aa611643240f77fa09a60cb1c4947115f3b547e5e6c7c8a56785146af654",
+      "fbxSha256": "320d7ac20dd6bd439cea70df81a65ebe33ba1993cdf2f23fdc47d97f8112faff",
+      "materialSha256": "bd200ee932aa6b1096c92487f91991466b6a25efbf2ce341d471e50b90fc8e1e",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtbubblewater",
+      "passed": true,
+      "triangles": 2172,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "416921ce405152c8c53c30e31b1c27021b77bd5e664cf3e859f1b0b3850e0696",
+      "fbxSha256": "41781dbca1d38825649cda28be28de2c7e6a01d34238a10275f3377cbffe4caa",
+      "materialSha256": "220e636cfbd8dbf8433abefd015a02b1b3f38b8fd975d7462520996a00926bb3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtcrocodile",
+      "passed": true,
+      "triangles": 1986,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "67b9854cbabf843658d436d6203462e718adc6104ac375d50995770a8a437c39",
+      "fbxSha256": "0b04d94c3c2935ba1cb139cc950376ee5f859defb65bd8b7b6578b975d382583",
+      "materialSha256": "9bad010bff1b403fc4015824ee1b9bcbade5ae052bcf4e4adf02f5144aa7edf6",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtdinosaur",
+      "passed": true,
+      "triangles": 1996,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "d37fc708fa9efa40f97ebc109e4051e288cf862cf232c681def85d8b4e5ecf34",
+      "fbxSha256": "520f6276a8994db2c02a51cff78330dce8ded055190c1d3d9be1288ab6a5164f",
+      "materialSha256": "43da57b593a708e8b5a541645d06907c02701470339cb4188ed58a5fcf334440",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtdrawingboard",
+      "passed": true,
+      "triangles": 712,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "a5bb53822c05605191f1862cade03dcbeea663d0ee516ab96ebd85d956dbc707",
+      "fbxSha256": "3ce75c6983057d4f9ea539ad58e96fbb18e424e938b151c62fd3b7ce708326af",
+      "materialSha256": "0da4c915bd7a0a0ff5771e9f553dc75a35cd9c29cc71b205fa32d7b3aad4fc15",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtfruiteraser",
+      "passed": true,
+      "triangles": 348,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "fd0223b066a7399c43754d0c0e24d8733acfec2b1fd061735dd0d700ae3a2d10",
+      "fbxSha256": "65749f24e0672a5ab5734a4503cbf14c1054552e4eba8bad3049139d2b390e27",
+      "materialSha256": "79fa120d771ab207e4fdf16c0d190b64b1827cb539cf200bccae07f1eee11105",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtgoosestamp",
+      "passed": true,
+      "triangles": 1024,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "3da1740650f6bc2a8100169efeb47222b571bc3a6e8d01cc25ea1666b2c27649",
+      "fbxSha256": "60d8ceb0cdb3f3ebeda926148397f83dddf8c5945d98712b95dcb962fb3653d0",
+      "materialSha256": "9dbdee313dd78741e182492021eeadbc6c5192eba6e18d1623832f5414ff755a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtkaleidoscope",
+      "passed": true,
+      "triangles": 920,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "2fe4b74a9f775060d7b90b5794d1ba29677cbda928217ce235f8f6c50d5ab446",
+      "fbxSha256": "4a1a8521194a8a7bbd33c6909c42af32cbddfc23ea19154f047f70a232f2a91a",
+      "materialSha256": "acd459541cd0260fb8a8882e52b6287f28bc4215cd8eaf01950ea7a2cebee05f",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtlaserpen",
+      "passed": true,
+      "triangles": 904,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "c272db61cd90dd1088d5b43c88479fe42d16ab76d3c283046ad3904b999514cb",
+      "fbxSha256": "d4b767a561b6508a2862c79e501bc667ff02e75f472238af3b98c4d458991e50",
+      "materialSha256": "1782e827dc9ba458f0c0823d522d77a925d827269af20e050949ae3bb36b34cc",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtmagiccubel",
+      "passed": true,
+      "triangles": 1196,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "9dae7f68bdc157b8c5cc62e972109231ee670d0803ab4e4b62942977a4294b1a",
+      "fbxSha256": "7bfd6c6fbb42cff0c40a85f16bd084314aca01ab7937f917efb0b0bd77a7a2ce",
+      "materialSha256": "8d0204390786f79b8158e20538f5e9ae56ec16813c9108dc2a9ce098e0b6e4db",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpaperboat",
+      "passed": true,
+      "triangles": 380,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "6ffdca7f7ef1ed235bc016b470a3c846ffb121210a5d129d17e9502ba442ad98",
+      "fbxSha256": "c99cc4ff97b0a459d615232edc7887d3ff78613d4baff91fdb0fd093b488b422",
+      "materialSha256": "1b4cb26ec80130a7599abd7affb532dc235f0933f87aa8de6d30379a8bbf8de3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpaperfortune",
+      "passed": true,
+      "triangles": 280,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "a284fcfa97e6c39f97a65a3f611d2224af9a6cb037668a830771cd88913bf963",
+      "fbxSha256": "718e4fe962debeff4d524a3e09e5623dc80d56949ad043327c886c4cd78e0ec0",
+      "materialSha256": "531566e6a446b38540823d09d102493aef881a005ee86f7477fc09e89b2996df",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpaperstar",
+      "passed": true,
+      "triangles": 126,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "b918ad3e71d50a13083a2bb10d9641012173e7238e8010e8c35a78901361b8aa",
+      "fbxSha256": "02e2e914914d9924f8bd4a5b1c9028f9e5c547e97e50a188ac3ed5fbe0550348",
+      "materialSha256": "43302b6aee4e06aa30702005cc8c683b320f22ce5b00c5bb89dbcc7af1945e37",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpapertree",
+      "passed": true,
+      "triangles": 1728,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "c4b67c2bc0f6f85837d22e3004b6cea2f22c33ab655eff1ef36026ba05251c7b",
+      "fbxSha256": "2c5b4354d8531e21de6a63b6cdbd95e256de0478643bf6f126c08808b7b095eb",
+      "materialSha256": "11bcad89fde73de0518914ba2ba3899e257ee099e28358af03efd837c8d69d62",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtplanepen",
+      "passed": true,
+      "triangles": 2336,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "60eb72dc38a8708ef9a221d7e1fdf89e335ef2a06ea03c7057b29cd8b9700022",
+      "fbxSha256": "cc56d779af9e307daf7e4278499ad7f4f6d3a735f0b3f4e4da16593f7afe2aa2",
+      "materialSha256": "5cd18ab1abbd1ac99489c50cd06a780ba5ed2ffb858f7ab23f87a3b57032ffb2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtplasterdeer",
+      "passed": true,
+      "triangles": 1990,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "d214420cd490fdcb96ae2ce6e06a884fcc3a86ee0dd02eda41819232635af57e",
+      "fbxSha256": "f675bb8b134c662ffecf7677b734a223842d8a96f8001bb318abd31d8a51b820",
+      "materialSha256": "8096c19f48969ef3d6fb1c3163c05b45e64d5926b1f63df6969ab051e5c93591",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtplaydough",
+      "passed": true,
+      "triangles": 2472,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "2cbdbf2e5c321e29c4547024b2a01b1b175761a89ec9663621c075e196b22756",
+      "fbxSha256": "e1006a4e1e72a361475513433d126f03b184af3fa45a4fd9224787a4123294ef",
+      "materialSha256": "ade54f3d31fae8465233dbf2811e5431a74ee2bb28becd57f41ebac67ed87144",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtracecar",
+      "passed": true,
+      "triangles": 1988,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "8b5d22f1d7e5b231801f08a3b7ac0545b13bb6658f4bc48a91da1fbe4928c939",
+      "fbxSha256": "d378e58d1dcd1a11503181eba813cdff2b79b09b661ca75bc1e60ea73eff8d78",
+      "materialSha256": "79e4fcca4585868071c3651e476e17d8ea0aac9d13acfd6d67276e5ae23df504",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtringcandy",
+      "passed": true,
+      "triangles": 948,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "0eb9310137c8d91c1286048d0a7bce6a09d6c288dd08b9ea847f7f42e0f7200f",
+      "fbxSha256": "d020f7f9a5f2a19d063b2178cc248c76e287585e2966d42b06050e5beaddeda5",
+      "materialSha256": "994e686c481cca66c259694b9ae8298e3ae4428a1ffb2f05b82388a99630e588",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtsandbag",
+      "passed": true,
+      "triangles": 1256,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "7e16a981ea67fe994fb01731d0f224ed4fc431e44503acaaeef61f6dec53b57d",
+      "fbxSha256": "d82eb17caaf935c07d8435ea5bf2fae618eaf05ae3dd6fa36d501d771565363c",
+      "materialSha256": "7e02d9826a96ccd2c6227a4fe7adfc0d9b1c8655f19bf034697d9d5035ad4b42",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtsmiledoll",
+      "passed": true,
+      "triangles": 1680,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "9350c36ff39a0b0ef3133e2834bebc831aaea8be7686ebe4669d0d82146b7709",
+      "fbxSha256": "658f3dce2db85edb1fb5b21d653e986eeef05c1418ff8a6e21556035a86516cc",
+      "materialSha256": "555934b5918b8ade329e812dbeb2351a7969bda7d04dea1b1ae497c7ab08a72a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtstickerbook",
+      "passed": true,
+      "triangles": 1932,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "995d6782fa1e99fc26eec043ffabef4e646bfc42732a000183fc37d1ce028c16",
+      "fbxSha256": "6ffb1aeca24426467844bcba30e1e9ac18e7b9cb65726faca204f2b7d8b77a13",
+      "materialSha256": "0ff4b21492971ba1d6c24b8497cae1e284f55a9f353bd678292719a51ceaf6d3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtumbrella",
+      "passed": true,
+      "triangles": 1512,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "e160147f0d511678080378bda9329ade6479a4ff143fd0e050e793282e091779",
+      "fbxSha256": "642ca316c89809df503362c7a43b4bafd1cf53b4ccbffcfd608e71043759b13a",
+      "materialSha256": "5d846691b2bd5435c8bed9affe162c0eb83302626b5c377cf807163e47b76d09",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtwallclimber",
+      "passed": true,
+      "triangles": 1404,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "0cb5c78f1441be80037e2576d7ae80d33e3037a072c5143e0049942491f0c884",
+      "fbxSha256": "d0b3206e34445edee2799d92f201c0111573ea3e28f0b1b1314802154ffd4129",
+      "materialSha256": "bcf15dabf57ea8c93b89433483715001f06927c869e20d3a79ee9832f523bc46",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtwatergame",
+      "passed": true,
+      "triangles": 1918,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "5f00867760d9a4a2f18c36384d61e7b77d4deed8e9d2ae59756ea65ad6295f07",
+      "fbxSha256": "f281ab9ce65f13ec1cbb3df623b1c2033009c129f900bb496acfb91a993842d8",
+      "materialSha256": "ce428a77f60c9606533a1d5f988cdbdc1dd5b1bc8d964e91725299d04b0a99c0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtwatergun",
+      "passed": true,
+      "triangles": 3104,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "1982d4b11ab5bd7212117663ead109f48147f27343081bec7cea0b48e4267a4f",
+      "fbxSha256": "1d6baf3ef337f5d678ec474d69e76970ffecf6c2d4f962c319d0a9982dbd3681",
+      "materialSha256": "db69e35908f4fc2a85cba631a968b66587c3bd06d56d0ed4441b705d1132c88d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_hamsausage1",
+      "passed": true,
+      "triangles": 669,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "6d201d4346cc40bb34e189cb2fff982fd45ac2fe14ceede1dd96418acbd7a28a",
+      "fbxSha256": "aa0eaea1d964852fab2b1fc84062ad3f82ad522cb227f0ff224f4cbfd536339e",
+      "materialSha256": "6e3aec1d968b68ff87bd39e4ddf833466ecd850d0e78babfe46cf6eadeafb89c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_hamsausage2",
+      "passed": true,
+      "triangles": 1073,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "48313b7d00d2f8635b51787267dc40130f6773efbe033ac7cbae2387bdbd2522",
+      "fbxSha256": "0ba61be86852ac73473f486e9b8dbc53e6ca5861aed4161c15e19731ce4c1602",
+      "materialSha256": "d65a60ff1087951df19ff378d0d736340ff09f16538ec68ae50a7733bdb209b8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_instantnoodles2",
+      "passed": true,
+      "triangles": 703,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "775296e1f1014654c5b52ae313de3b04d41cd02172c4d479de1189468e8ad6db",
+      "fbxSha256": "81da71e79bd9dbda6d09660d3e08e68eed434b3af0f9ec240e839066a1afd917",
+      "materialSha256": "9aeb463bda2300219fa2a97463a8771152ebc04d8d549fc2ac479f8515bc945f",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_mosquitocoil",
+      "passed": true,
+      "triangles": 982,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "0317d1e82758bf4f062d0c6e401365247e826f7e1bdf3f55605571d3898b8662",
+      "fbxSha256": "c3ab6e67b35f27df789cc5d3e413c69d945f362aee10d6241b5e7c1e02beb4e4",
+      "materialSha256": "78c0343be8f21713699685bff8c955a9087d6180ffbf291d8c0c3e9ac73239b5",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_orange",
+      "passed": true,
+      "triangles": 480,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "ccddcd50ff6d7b03ef088fc389ffcf547cd022c1e4be8dfd47368c63ae4e2ee3",
+      "fbxSha256": "51cb60f7e4029ee3ad7f1753d3433ddf7ab068f80827c25ce9fc568c16693c9c",
+      "materialSha256": "97f309ea753814d38927008805cb10192443ea541a59389aaa364a4397e77221",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_pepperfresh",
+      "passed": true,
+      "triangles": 238,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "4ca988ee91761dfd91544fa026848d57da5a370078856c42ee62acd3c248a19d",
+      "fbxSha256": "f07f1932530cafc07b44b708e8878be3b50fcb4b69f51269d5c2d2b218abfddb",
+      "materialSha256": "f33f882f6eedcdd87f385c78a2a11f2a1d818f450ae5d57a6bde207567a6e24d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_potato",
+      "passed": true,
+      "triangles": 523,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "752816b3835dbe106f138907f127bf6b4fd396a0b028f8c8c388ddc407e5ea37",
+      "fbxSha256": "b41b9b4f3efbce50e7fa629b367c84ab04fad4151af34d2188a04d1f3d9f74af",
+      "materialSha256": "036cfd4d160aaf4ab4d0246e16cc836a9a0124eaabfbe536b06bf5465991eabe",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_potatoskewers",
+      "passed": true,
+      "triangles": 224,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "c39f0977299daeb4837dc5bbfce714b4f0fbfa48140d5dc1c6ef9766d0536d1d",
+      "fbxSha256": "c335dfd6bc4ee008121018e34c8cf1328ad13203db4202509f0cbd29861af4b1",
+      "materialSha256": "56e01bc27c30cc2db3e99e733136bb870a4d56521fb3fc4fe01c87d7cfde8fba",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_redshrimp",
+      "passed": true,
+      "triangles": 1295,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "9cb48b0248625c328b949a69d9df621a2e597a84e9db0a6d5c02076d86725679",
+      "fbxSha256": "bde65f3e0e750d51c4ba78628e9b33041d980ac78a27a71baa75ca2a05bd1c20",
+      "materialSha256": "1b2e887d021b27b2d9b285b36b65b06d3935cb3c46ea1570de76c64449ec4dee",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_ribsbig",
+      "passed": true,
+      "triangles": 762,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "500d1912c5acc30012a61155a0eb729a247b24726b68e77ab3917d050f7e4a99",
+      "fbxSha256": "b4b30d50f20887a451abf553cab4ef6a629a630c53109b5731b0527d17950c09",
+      "materialSha256": "85645d48bfe1a77aa029e375358c71294d20f024853028e74ef26ce9872a959b",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_roastchicken",
+      "passed": true,
+      "triangles": 932,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "1090dadf8859a55bd06c048b6d236d95cd38665655867964dd13f1c2418e014c",
+      "fbxSha256": "29b66ff89edd3dc70b87eaaaa9a3e279ad24ecc24ea7df86d66d8fd8fdefa4d2",
+      "materialSha256": "c2d4655cc70318e0eac197e793f68af661fa30c47ce4c7697f79678647bcf792",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_saltedegg",
+      "passed": true,
+      "triangles": 180,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "57763572b16afd1b8a4b34d1e23bc8f7ad7f2944ac8b3302bbc6b3bb5a960a59",
+      "fbxSha256": "2289ea2450f94f1b0751301dd1df6ab4dfd13acf3d0f2891a49ec742668aa1ff",
+      "materialSha256": "2e6a5b5b603caf2f7885dd0167211d9a2d0db46f961e0482640b1686e091680e",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_sausage",
+      "passed": true,
+      "triangles": 612,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "3497c8e0e9691350323fd4d9b00e037926e56b8a89b8bebe051cf4f9ac8600ac",
+      "fbxSha256": "451edd843fbcc7c9041dc7bac88abd159e37e1333d228eef89986099b6e66fbe",
+      "materialSha256": "8866fb062017d20bc92e8f7f0d9d083d9804ece2a9fe580748b20ae05b9ff663",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_scallop",
+      "passed": true,
+      "triangles": 1029,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "52cad2151dab7fa4903338a4641046e6ca7d7d749b24768c998c0958357900d8",
+      "fbxSha256": "38b0643841207dc03707c3d37c689c7d7b43a91457ad7e7f3c06b9eaddb07227",
+      "materialSha256": "f546b5452d983956669d5e7f0394a61d544a467c06a285ebc60b4049d91fa424",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_shrimp",
+      "passed": true,
+      "triangles": 604,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "4295faad76843e39c4e761f97a0c1d6b6e95ff5de9ba632783cd914bfc599d47",
+      "fbxSha256": "dc74ea91475223032cd229615093b13becdc4fdd6c7f9bfb8d83005461d1f2ea",
+      "materialSha256": "5335cf9660a4dbfeacfaed26b14d27f7186411888591306ce833fc01fcbd0e91",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_soysauce",
+      "passed": true,
+      "triangles": 792,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "59d460f561d78f6c43404dae6734b160ecf8a0c070136abf135437d3e5185b8b",
+      "fbxSha256": "a199aaad8c9c80618ec65e913e348d32aa38174e5c2ec1e5ec951f8a2199a57f",
+      "materialSha256": "86efdfe6f3ab3f76849706d18b74c282c51c0a5cf5b76137c1c13b35c9b842d7",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_spicystrips",
+      "passed": true,
+      "triangles": 1200,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "1d87061aa2d0fd858f5a75211afb6c178667287194c2424f68f1c9cc5c1727e5",
+      "fbxSha256": "3c4b53b4bd840a6679170924061187ddfda9754dd8e79ce3ddd41669b5037f6f",
+      "materialSha256": "43699409a32226151c1e1e8faa4001f723c678bd4adf7c620e4f0720dc1f19aa",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_spinningtop",
+      "passed": true,
+      "triangles": 888,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "3a441c6fcc05f337653ff5370328c7395cf364ed8f469bf2513ac7c392751106",
+      "fbxSha256": "93d83fef1015cd9e5fabcee5f0dbb2e595465bc02bdbbc37460bbde0e6e9ff67",
+      "materialSha256": "aa7e2238bd8172ee85cdd0c2094cc50c77dfadd809b4f54e09bac176fb4f7283",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_thermosbottle",
+      "passed": true,
+      "triangles": 1526,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "77ab99c8ce192765ecfdec26613c97139770b2eac22378ad44d1a899b044f279",
+      "fbxSha256": "3ea7c633ae696d92bffbec1b8e6027ecd25cac012eb3523529e272d4d017f4a5",
+      "materialSha256": "059cfb8be95048a138406365b0f9629731031984d4a0b2c2b4378bb883f40342",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_toycar",
+      "passed": true,
+      "triangles": 1818,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "1d9a7ba1eeb98fe6108c26f09eaa1ab82a5c4ecffd46cd7dd236961d73d673c1",
+      "fbxSha256": "b0058e381f6ab22452ab2fa4b6b81ff46346c361f88f5c09776fa7bb17717e05",
+      "materialSha256": "79b30eba916946f857417e19d280c06cc1952809684e84ab5580101c3446274d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_wahahamilk",
+      "passed": true,
+      "triangles": 1326,
+      "materials": 3,
+      "parts": 3,
+      "sha256": "9871af5e2e45660c843dd82790d9bdc8baeb1f3951239a8683d4b9a9f778f4d4",
+      "fbxSha256": "61d28d294111baf5775707120d804ba670c7c1aaa0db8e2428be7c88d0521a8b",
+      "materialSha256": "5c7bb91990760c452639bc7615fff372a8c3b96349ce497f05a504d15834393b",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_watermelonhalf",
+      "passed": true,
+      "triangles": 540,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "4ff30c8474de17a6804d0b6ca0b4bce6ddf2ca8d2e3380fa65a60020abd27d19",
+      "fbxSha256": "b0f48d7aa3b8fae868649119254a3fec0efff92565ab30f85e76b64cda770659",
+      "materialSha256": "62b48fd4d61871394ae287f83a0646b0d6ca1bddbdcee7cc800d20705962361b",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_watermelonslice",
+      "passed": true,
+      "triangles": 900,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "a543b35250223460946f9a00c54daca53ce9e648abdc67f15646fa660d3d4afc",
+      "fbxSha256": "27e9cf0c05b6d55d19626661004685f74d26608a9425bfa5ae0fc87c431684c0",
+      "materialSha256": "fe0f513f028df518bc24421654ac3c6490b9a88fc5824439956cbfdef2b151da",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_windoilbottle",
+      "passed": true,
+      "triangles": 1608,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "0fa8e44102c94b6c31e876fa41ac51292e6b0f504ed114247ad237240329474c",
+      "fbxSha256": "e6193ce0e3bab08f350cf805949cdc7a69dfce123430146321c707c997a77caa",
+      "materialSha256": "29d60ed4b914a7ce0aa999b59e4b9f618ff1f338ef81fd155e12dd29b5a8ef19",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 3,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_woodhand",
+      "passed": true,
+      "triangles": 1156,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "d26dfef057d741635e570071ddc7e9bc9a780046b61bf5eb3814a48d53766bd0",
+      "fbxSha256": "870d68f3294e90b0e0183fd6185c8aa2d328f5a0e8a472f018aaf1051ffe2e55",
+      "materialSha256": "e4942aff065060815bed3780d8695ca2fe4f9d71f354b869a00ffbabb4bc2ac5",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ]
+}

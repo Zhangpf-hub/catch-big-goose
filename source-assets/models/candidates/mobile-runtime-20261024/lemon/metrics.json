@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "lemon",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lemon\\lemon.fbx",
+  "sourceTriangles": 900,
+  "triangles": 900,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.5631330013275146,
+    0.5631327629089355
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.5631328821182251,
+    0.563132643699646
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

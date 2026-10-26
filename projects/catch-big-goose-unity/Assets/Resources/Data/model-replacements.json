@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "authorization": "早餐 烧烤 两个关卡接入鸭子相关模型，替换大鹅相关模型",
+  "replacements": [
+    {"theme": "breakfast", "source": "ref_goose_eggpancake", "replacement": "duck-eggpancake"},
+    {"theme": "breakfast", "source": "ref_goose_eggtart", "replacement": "duck-eggtart"},
+    {"theme": "breakfast", "source": "ref_goose_milletcake", "replacement": "duck-milletcake"},
+    {"theme": "breakfast", "source": "ref_goose_bfsteamedbread", "replacement": "duck-steamedbread"},
+    {"theme": "barbecue", "source": "ref_goose_eggplant", "replacement": "duck-eggplant"},
+    {"theme": "barbecue", "source": "ref_goose_greenpepper", "replacement": "duck-greenpepper"},
+    {"theme": "barbecue", "source": "ref_goose_pancake", "replacement": "duck-pancake"},
+    {"theme": "barbecue", "source": "ref_goose_potato", "replacement": "duck-potato"}
+  ]
+}

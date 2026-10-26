@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "CarrotMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-8628812596363614174.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

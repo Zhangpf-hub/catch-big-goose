@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtfruiteraser",
+  "sourceId": "GTFruitEraser",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTFruitEraser\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTFruitEraser.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "6cc207adb892e1ba1d30be6e6a4c6c07190c8a4885942988b904f55c772e8900"
+}

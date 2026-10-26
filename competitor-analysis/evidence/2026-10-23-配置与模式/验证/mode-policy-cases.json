@@ -1,0 +1,1730 @@
+[
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MainLevel",
+    "code": 0,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OneScreenBattle",
+    "code": 1,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "TeachScene",
+    "code": 2,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "OnlineBaseGame",
+    "code": 3,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 900
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "NewYearLevel",
+    "code": 4,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "FruitSpLevel",
+    "code": 5,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "BaseSpLevel",
+    "code": 6,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "PVPGame",
+    "code": 7,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 120
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "MonopolyMiniGame",
+    "code": 8,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SeasonLevel",
+    "code": 9,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "SpModeLevel",
+    "code": 10,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 0,
+    "seasonWinType": 0,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 0,
+    "seasonWinType": 1,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 0,
+    "seasonWinType": 2,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 0,
+    "seasonWinType": 3,
+    "target": 1,
+    "fast": 1,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 1,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 1,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 1,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 1,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 2,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 2,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 2,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 2,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 3,
+    "seasonWinType": 0,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 3,
+    "seasonWinType": 1,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 3,
+    "seasonWinType": 2,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  },
+  {
+    "mode": "EndlessLevel",
+    "code": 20,
+    "endlessWinType": 3,
+    "seasonWinType": 3,
+    "target": 0,
+    "fast": 0,
+    "time": 180
+  }
+]

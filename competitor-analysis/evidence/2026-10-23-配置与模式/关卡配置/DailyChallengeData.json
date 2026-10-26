@@ -1,0 +1,192 @@
+{
+  "SheetName": "Assets/Res/ForEditor/ActivityData.xlsx",
+  "WorksheetName": "DailyChallengeData",
+  "dataArray": [
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 23,
+      "_levelindex": 500101
+    },
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 24,
+      "_levelindex": 500101
+    },
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 25,
+      "_levelindex": 500102
+    },
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 26,
+      "_levelindex": 500103
+    },
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 27,
+      "_levelindex": 500104
+    },
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 28,
+      "_levelindex": 500105
+    },
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 29,
+      "_levelindex": 500106
+    },
+    {
+      "_year": 2025,
+      "_month": 4,
+      "_day": 30,
+      "_levelindex": 500107
+    },
+    {
+      "_year": 2026,
+      "_month": 6,
+      "_day": 12,
+      "_levelindex": 500110
+    },
+    {
+      "_year": 2026,
+      "_month": 6,
+      "_day": 13,
+      "_levelindex": 500108
+    },
+    {
+      "_year": 2026,
+      "_month": 6,
+      "_day": 14,
+      "_levelindex": 500109
+    },
+    {
+      "_year": 2026,
+      "_month": 6,
+      "_day": 15,
+      "_levelindex": 500110
+    },
+    {
+      "_year": 2026,
+      "_month": 6,
+      "_day": 16,
+      "_levelindex": 500108
+    },
+    {
+      "_year": 2026,
+      "_month": 6,
+      "_day": 17,
+      "_levelindex": 500109
+    },
+    {
+      "_year": 2026,
+      "_month": 6,
+      "_day": 18,
+      "_levelindex": 500110
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 6,
+      "_levelindex": 500111
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 7,
+      "_levelindex": 500111
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 8,
+      "_levelindex": 500112
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 9,
+      "_levelindex": 500113
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 10,
+      "_levelindex": 500111
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 11,
+      "_levelindex": 500112
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 12,
+      "_levelindex": 500113
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 13,
+      "_levelindex": 500111
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 14,
+      "_levelindex": 500112
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 15,
+      "_levelindex": 500113
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 16,
+      "_levelindex": 500111
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 17,
+      "_levelindex": 500112
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 18,
+      "_levelindex": 500113
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 19,
+      "_levelindex": 500111
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 20,
+      "_levelindex": 500112
+    },
+    {
+      "_year": 2026,
+      "_month": 8,
+      "_day": 21,
+      "_levelindex": 500113
+    }
+  ]
+}

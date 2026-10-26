@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "tray_dessert",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_dessert\\tray_dessert.fbx",
+  "sourceTriangles": 4000,
+  "triangles": 4000,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9993276596069336,
+    1.0,
+    0.2996876835823059
+  ],
+  "normalizedDimensions": [
+    0.9993276596069336,
+    1.0,
+    0.2996875047683716
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

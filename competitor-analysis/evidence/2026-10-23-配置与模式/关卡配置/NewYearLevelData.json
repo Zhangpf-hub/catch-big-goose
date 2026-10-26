@@ -1,0 +1,96 @@
+{
+  "SheetName": "Assets/Res/ForEditor/ActivityData.xlsx",
+  "WorksheetName": "NewYearLevelData",
+  "dataArray": [
+    {
+      "_levelindex": 1,
+      "_needcount": 12,
+      "_sumcount": 12,
+      "_tip": "\u5b8c\u6210\u7b2c1\u5173"
+    },
+    {
+      "_levelindex": 2,
+      "_needcount": 12,
+      "_sumcount": 24,
+      "_tip": "\u5b8c\u6210\u7b2c2\u5173"
+    },
+    {
+      "_levelindex": 3,
+      "_needcount": 12,
+      "_sumcount": 36,
+      "_tip": "\u5b8c\u6210\u7b2c3\u5173"
+    },
+    {
+      "_levelindex": 4,
+      "_needcount": 12,
+      "_sumcount": 48,
+      "_tip": "\u5b8c\u6210\u7b2c4\u5173"
+    },
+    {
+      "_levelindex": 5,
+      "_needcount": 12,
+      "_sumcount": 60,
+      "_tip": "\u5b8c\u6210\u7b2c5\u5173"
+    },
+    {
+      "_levelindex": 6,
+      "_needcount": 15,
+      "_sumcount": 75,
+      "_tip": "\u5b8c\u6210\u7b2c6\u5173"
+    },
+    {
+      "_levelindex": 7,
+      "_needcount": 15,
+      "_sumcount": 90,
+      "_tip": "\u5b8c\u6210\u7b2c7\u5173"
+    },
+    {
+      "_levelindex": 8,
+      "_needcount": 15,
+      "_sumcount": 105,
+      "_tip": "\u5b8c\u6210\u7b2c8\u5173"
+    },
+    {
+      "_levelindex": 9,
+      "_needcount": 15,
+      "_sumcount": 120,
+      "_tip": "\u5b8c\u6210\u7b2c9\u5173"
+    },
+    {
+      "_levelindex": 10,
+      "_needcount": 30,
+      "_sumcount": 150,
+      "_tip": "\u5b8c\u6210\u7b2c10\u5173"
+    },
+    {
+      "_levelindex": 11,
+      "_needcount": 30,
+      "_sumcount": 180,
+      "_tip": "\u5b8c\u6210\u7b2c11\u5173"
+    },
+    {
+      "_levelindex": 12,
+      "_needcount": 30,
+      "_sumcount": 210,
+      "_tip": "\u5b8c\u6210\u7b2c12\u5173"
+    },
+    {
+      "_levelindex": 13,
+      "_needcount": 30,
+      "_sumcount": 240,
+      "_tip": "\u5b8c\u6210\u7b2c13\u5173"
+    },
+    {
+      "_levelindex": 14,
+      "_needcount": 30,
+      "_sumcount": 270,
+      "_tip": "\u5b8c\u6210\u7b2c14\u5173\uff0c\u8fdb\u5165\u6700\u540e\u4e00\u5173"
+    },
+    {
+      "_levelindex": 15,
+      "_needcount": 30,
+      "_sumcount": 300,
+      "_tip": "\u5df2\u5b8c\u6210\u6700\u7ec8\u6311\u6218"
+    }
+  ]
+}

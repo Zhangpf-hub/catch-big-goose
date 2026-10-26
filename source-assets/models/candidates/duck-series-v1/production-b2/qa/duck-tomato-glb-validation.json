@@ -1,0 +1,42 @@
+{
+  "id": "duck-tomato",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangleTarget": true,
+    "bytes": true,
+    "noSkin": true,
+    "noAnimation": true,
+    "uv": true,
+    "atlas": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "geometry": true,
+    "motherPreserved": true
+  },
+  "triangles": 3108,
+  "bytes": 73996,
+  "sha256": "5addf06eccbfce51d4c58caaa69510597c4fbe30b31d1bd0cf087020cc972809",
+  "images": [
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    }
+  ],
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

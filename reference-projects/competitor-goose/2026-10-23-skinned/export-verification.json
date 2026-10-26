@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "Goose_Pancake",
+      "sourceTriangles": 2402,
+      "exportedTriangles": 2402,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "Goose_GTCapsulePen",
+      "sourceTriangles": 2952,
+      "exportedTriangles": 2952,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "Goose_GTCraftPunch",
+      "sourceTriangles": 2502,
+      "exportedTriangles": 2502,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "Goose_GTNumberBlock",
+      "sourceTriangles": 3440,
+      "exportedTriangles": 3440,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "Goose_GTYoYo",
+      "sourceTriangles": 3320,
+      "exportedTriangles": 3320,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    }
+  ]
+}

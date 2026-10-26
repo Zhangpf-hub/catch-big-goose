@@ -1,0 +1,28 @@
+{
+  "id": "persimmon",
+  "theme": "fruit",
+  "triangles": 1468,
+  "vertices": 752,
+  "blenderBounds": [
+    0.9999998807907104,
+    1.0,
+    0.9477611184120178
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 34868,
+  "sha256": "2d6a3c9bed76a28c09131b8e3a9d629a519f66411614637375b23b874543f937",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

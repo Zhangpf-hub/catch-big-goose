@@ -1,0 +1,28 @@
+{
+  "id": "cabbage",
+  "theme": "farm",
+  "triangles": 1692,
+  "vertices": 862,
+  "blenderBounds": [
+    0.7603652477264404,
+    0.810126543045044,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 39764,
+  "sha256": "d6b9037f4837b91e1598a6b702a957e515e3f08fcc28f9ad28e0f974def456c6",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

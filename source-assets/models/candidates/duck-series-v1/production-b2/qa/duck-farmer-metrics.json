@@ -1,0 +1,23 @@
+{
+  "id": "duck-farmer",
+  "triangles": 3894,
+  "dimensions": [
+    0.9927344918251038,
+    1.0,
+    0.8044358491897583
+  ],
+  "sourceCenter": [
+    -7.450580596923828e-08,
+    -0.06238405406475067,
+    0.35867172479629517
+  ],
+  "sourceExtent": 0.8260016441345215,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 91272,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

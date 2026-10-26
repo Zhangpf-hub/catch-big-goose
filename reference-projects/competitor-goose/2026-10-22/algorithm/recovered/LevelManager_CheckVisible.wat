@@ -1,0 +1,31 @@
+;; LevelManager$$CheckVisible
+;; Function-table index: 17840; signature checked. Compiled WASM, not C# source.
+  (func $j10885 (type $t6) (param $p0 i32) (param $p1 i32) (param $p2 i32) (param $p3 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $p3
+    local.get $p3
+    global.set $primary.global$0
+    local.get $p3
+    local.get $p1
+    i32.const 0
+    call $j979
+    i32.const 0
+    call $j1062
+    local.get $p1
+    local.get $p3
+    f32.load offset=4
+    local.get $p0
+    local.get $p2
+    f32.const 0x1p+0 (;=1;)
+    local.get $p3
+    call $j22249
+    f32.lt
+    i32.eqz
+    i32.const 0
+    call $j7288
+    local.get $p3
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

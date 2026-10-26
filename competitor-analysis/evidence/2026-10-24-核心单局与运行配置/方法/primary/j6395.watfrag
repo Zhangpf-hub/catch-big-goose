@@ -1,0 +1,43 @@
+  (func $j6395 (type $t4) (param $p0 i32)
+    i32.const 5139764
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3959288
+      call $j922
+      i32.const 4121964
+      call $j922
+      i32.const 5139764
+      i32.const 1
+      i32.store8
+    end
+    i32.const 5142650
+    i32.load8_u
+    i32.eqz
+    if $I1
+      i32.const 3952992
+      call $j922
+      i32.const 5142650
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3952992
+    i32.load
+    i32.load offset=92
+    i32.load
+    local.set $p0
+    i32.const 3959288
+    i32.load
+    call $j923
+    local.get $p0
+    i32.const 3959288
+    i32.load
+    i32.load offset=92
+    i32.load offset=36
+    i32.const 0
+    call $j48352
+    i32.const 4121964
+    i32.load
+    i32.const 3
+    i32.const 0
+    call $j1407)

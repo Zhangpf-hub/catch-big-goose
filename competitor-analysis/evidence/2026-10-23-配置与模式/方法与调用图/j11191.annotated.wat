@@ -1,0 +1,604 @@
+  (func $j11191 (type $t1) (param $p0 i32) (param $p1 i32) (result i32)
+    (local $l2 i32) (local $l3 i32) (local $l4 i32) (local $l5 i32) (local $l6 i32) (local $l7 i32) (local $l8 i32) (local $l9 i32) (local $l10 i32) (local $l11 f32) (local $l12 f32) (local $l13 f32)
+    i32.const 5139960
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3953888 ;; UnityEngine.Debug_TypeInfo
+      call $j922
+      i32.const 4023804 ;; Method$System.Linq.Enumerable.Concat<string>()
+      call $j922
+      i32.const 4024556 ;; Method$System.Linq.Enumerable.ToArray<string>()
+      call $j922
+      i32.const 3950212 ;; int[]_TypeInfo
+      call $j922
+      i32.const 3958020 ;; LevelDataData_TypeInfo
+      call $j922
+      i32.const 4001592 ;; Method$System.Collections.Generic.List<int>.Add()
+      call $j922
+      i32.const 4001960 ;; Method$System.Collections.Generic.List<LevelDataData>.Add()
+      call $j922
+      i32.const 4004888 ;; Method$System.Collections.Generic.List<string>.Add()
+      call $j922
+      i32.const 4004900 ;; Method$System.Collections.Generic.List<string>.Contains()
+      call $j922
+      i32.const 4004908 ;; Method$System.Collections.Generic.List<string>.IndexOf()
+      call $j922
+      i32.const 4001652 ;; Method$System.Collections.Generic.List<int>.ToArray()
+      call $j922
+      i32.const 4001580 ;; Method$System.Collections.Generic.List<int>..ctor()
+      call $j922
+      i32.const 4001956 ;; Method$System.Collections.Generic.List<LevelDataData>..ctor()
+      call $j922
+      i32.const 4004876 ;; Method$System.Collections.Generic.List<string>..ctor()
+      call $j922
+      i32.const 3999972 ;; Method$System.Collections.Generic.List<EndlessLevelDataData>.get_Count()
+      call $j922
+      i32.const 4001968 ;; Method$System.Collections.Generic.List<LevelDataData>.get_Item()
+      call $j922
+      i32.const 3999976 ;; Method$System.Collections.Generic.List<EndlessLevelDataData>.get_Item()
+      call $j922
+      i32.const 3946992 ;; System.Collections.Generic.List<int>_TypeInfo
+      call $j922
+      i32.const 3947056 ;; System.Collections.Generic.List<LevelDataData>_TypeInfo
+      call $j922
+      i32.const 3947688 ;; System.Collections.Generic.List<string>_TypeInfo
+      call $j922
+      i32.const 3950728 ;; float[]_TypeInfo
+      call $j922
+      i32.const 4125356 ;; 胜利权重未填写
+      call $j922
+      i32.const 4125352 ;; 胜利权重数量不对
+      call $j922
+      i32.const 4065424 ;;  物品不包含在创建物中
+      call $j922
+      i32.const 5139960
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3947056 ;; System.Collections.Generic.List<LevelDataData>_TypeInfo
+    i32.load
+    call $j924
+    local.set $l8
+    local.get $l8
+    i32.const 4001956 ;; Method$System.Collections.Generic.List<LevelDataData>..ctor()
+    i32.load
+    call $j965
+    loop $L1
+      i32.const 3999972 ;; Method$System.Collections.Generic.List<EndlessLevelDataData>.get_Count()
+      i32.load
+      drop
+      local.get $l9
+      local.get $p0
+      i32.load offset=12
+      i32.lt_s
+      if $I2
+        i32.const 3958020 ;; LevelDataData_TypeInfo
+        i32.load
+        call $j924
+        local.set $l3
+        local.get $l3
+        i32.const 0
+        call $j22268 ;; LevelDataData$$.ctor
+        local.get $p0
+        local.get $l9
+        i32.const 3999976 ;; Method$System.Collections.Generic.List<EndlessLevelDataData>.get_Item()
+        i32.load
+        call $j947
+        local.set $l2
+        local.get $l3
+        i32.const 2
+        i32.store offset=8
+        local.get $l3
+        local.get $l2
+        i32.load offset=8
+        i32.store offset=12
+        local.get $l3
+        local.get $l2
+        f32.load offset=12
+        f32.store offset=20
+        block $B3
+          local.get $l9
+          i32.eqz
+          if $I4
+            local.get $l3
+            local.get $l2
+            i32.load offset=16
+            local.get $l2
+            i32.load offset=28
+            i32.const 4023804 ;; Method$System.Linq.Enumerable.Concat<string>()
+            i32.load
+            call $j9101
+            i32.const 4024556 ;; Method$System.Linq.Enumerable.ToArray<string>()
+            i32.load
+            call $j1976
+            i32.store offset=24
+            block $B5
+              local.get $l2
+              i32.load offset=16
+              i32.load offset=12
+              local.set $l5
+              local.get $l5
+              i32.eqz
+              br_if $B5
+              local.get $l2
+              i32.load offset=24
+              local.set $l4
+              block $B6
+                block $B7
+                  local.get $l4
+                  i32.eqz
+                  if $I8
+                    i32.const 4125356 ;; 胜利权重未填写
+                    local.set $p1
+                    br $B7
+                  end
+                  i32.const 4125352 ;; 胜利权重数量不对
+                  local.set $p1
+                  local.get $l4
+                  i32.load offset=12
+                  local.get $l5
+                  i32.ge_s
+                  br_if $B6
+                end
+                i32.const 3953888 ;; UnityEngine.Debug_TypeInfo
+                i32.load
+                call $j923
+                local.get $p1
+                i32.load
+                i32.const 0
+                call $j1050 ;; UnityEngine.Debug$$LogError
+              end
+              i32.const 0
+              local.set $p1
+              local.get $l3
+              i32.const 3950212 ;; int[]_TypeInfo
+              i32.load
+              local.get $l2
+              i32.load offset=16
+              i32.load offset=12
+              call $j939
+              i32.store offset=28
+              local.get $l3
+              i32.const 3950728 ;; float[]_TypeInfo
+              i32.load
+              local.get $l2
+              i32.load offset=16
+              i32.load offset=12
+              call $j939
+              i32.store offset=36
+              local.get $l3
+              i32.const 3950212 ;; int[]_TypeInfo
+              i32.load
+              local.get $l2
+              i32.load offset=16
+              i32.load offset=12
+              call $j939
+              i32.store offset=32
+              loop $L9
+                local.get $p1
+                local.get $l2
+                i32.load offset=16
+                i32.load offset=12
+                i32.ge_s
+                br_if $B5
+                local.get $l3
+                i32.load offset=28
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                local.get $p1
+                i32.const 1
+                i32.add
+                i32.store offset=16
+                local.get $l3
+                i32.load offset=36
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                local.get $l2
+                i32.load offset=24
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                f32.load offset=16
+                f32.store offset=16
+                local.get $l3
+                i32.load offset=32
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                local.get $l2
+                i32.load offset=20
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                i32.load offset=16
+                i32.const 3
+                i32.mul
+                i32.store offset=16
+                local.get $p1
+                i32.const 1
+                i32.add
+                local.set $p1
+                br $L9
+              end
+              unreachable
+            end
+            local.get $l3
+            local.get $l2
+            i32.load offset=32
+            i32.store offset=40
+            local.get $l2
+            i32.load offset=48
+            local.set $p1
+            block $B10
+              local.get $p1
+              i32.eqz
+              br_if $B10
+              local.get $p1
+              i32.load offset=12
+              i32.eqz
+              br_if $B10
+              i32.const 3950212 ;; int[]_TypeInfo
+              i32.load
+              i32.const 1
+              call $j939
+              local.set $p1
+              local.get $p1
+              local.get $l2
+              i32.load offset=48
+              i32.load offset=16
+              i32.store offset=16
+              local.get $l3
+              local.get $p1
+              i32.store offset=56
+            end
+            local.get $l3
+            local.get $l2
+            f32.load offset=52
+            f32.store offset=60
+            local.get $l3
+            local.get $l2
+            i32.load offset=56
+            i32.store offset=64
+            local.get $l2
+            f32.load offset=60
+            local.set $l11
+            i32.const 5150501
+            i32.load8_u
+            i32.eqz
+            if $I11
+              i32.const 3958628 ;; UnityEngine.Mathf_TypeInfo
+              call $j922
+              i32.const 5150501
+              i32.const 1
+              i32.store8
+            end
+            f32.const 0x0p+0 (;=0;)
+            local.get $l11
+            f32.sub
+            f32.abs
+            local.set $l13
+            local.get $l11
+            f32.abs
+            local.set $l11
+            local.get $l11
+            f32.const 0x0p+0 (;=0;)
+            local.get $l11
+            f32.const 0x0p+0 (;=0;)
+            f32.gt
+            select
+            f32.const 0x1.0c6f7ap-20 (;=1e-06;)
+            f32.mul
+            local.set $l11
+            i32.const 3958628 ;; UnityEngine.Mathf_TypeInfo
+            i32.load
+            i32.load offset=92
+            f32.load
+            f32.const 0x1p+3 (;=8;)
+            f32.mul
+            local.set $l12
+            local.get $l13
+            local.get $l11
+            local.get $l12
+            local.get $l11
+            local.get $l12
+            f32.gt
+            select
+            f32.lt
+            if $I12
+              f32.const 0x1p+0 (;=1;)
+              local.set $l11
+            else
+              local.get $l2
+              f32.load offset=60
+              local.set $l11
+            end
+            local.get $l3
+            local.get $l11
+            f32.store offset=68
+            br $B3
+          end
+          local.get $l8
+          i32.const 0
+          i32.const 4001968 ;; Method$System.Collections.Generic.List<LevelDataData>.get_Item()
+          i32.load
+          call $j947
+          local.set $l5
+          local.get $l5
+          i32.load offset=28
+          local.set $l4
+          local.get $l4
+          i32.eqz
+          br_if $B3
+          local.get $l2
+          i32.load offset=24
+          local.set $l7
+          block $B13
+            block $B14
+              local.get $l7
+              i32.eqz
+              if $I15
+                i32.const 4125356 ;; 胜利权重未填写
+                local.set $p1
+                br $B14
+              end
+              i32.const 4125352 ;; 胜利权重数量不对
+              local.set $p1
+              local.get $l7
+              i32.load offset=12
+              local.get $l4
+              i32.load offset=12
+              i32.ge_s
+              br_if $B13
+            end
+            i32.const 3953888 ;; UnityEngine.Debug_TypeInfo
+            i32.load
+            call $j923
+            local.get $p1
+            i32.load
+            i32.const 0
+            call $j1050 ;; UnityEngine.Debug$$LogError
+          end
+          local.get $l5
+          i32.load offset=28
+          local.set $p1
+          local.get $p1
+          i32.eqz
+          br_if $B3
+          local.get $p1
+          i32.load offset=12
+          local.set $l4
+          local.get $l4
+          i32.eqz
+          br_if $B3
+          i32.const 0
+          local.set $p1
+          local.get $l3
+          i32.const 3950728 ;; float[]_TypeInfo
+          i32.load
+          local.get $l4
+          call $j939
+          i32.store offset=36
+          loop $L16
+            local.get $p1
+            local.get $l5
+            i32.load offset=28
+            i32.load offset=12
+            i32.ge_s
+            br_if $B3
+            local.get $l3
+            i32.load offset=36
+            local.get $p1
+            i32.const 2
+            i32.shl
+            i32.add
+            local.get $l2
+            i32.load offset=24
+            local.get $p1
+            i32.const 2
+            i32.shl
+            i32.add
+            f32.load offset=16
+            f32.store offset=16
+            local.get $p1
+            i32.const 1
+            i32.add
+            local.set $p1
+            br $L16
+          end
+          unreachable
+        end
+        block $B17
+          block $B18
+            local.get $l2
+            i32.load offset=36
+            local.set $p1
+            local.get $p1
+            i32.eqz
+            br_if $B18
+            local.get $p1
+            i32.load offset=12
+            i32.eqz
+            br_if $B18
+            local.get $l9
+            if $I19
+              local.get $l8
+              i32.const 0
+              i32.const 4001968 ;; Method$System.Collections.Generic.List<LevelDataData>.get_Item()
+              i32.load
+              call $j947
+              local.set $p1
+            else
+              local.get $l3
+              local.set $p1
+            end
+            local.get $p1
+            local.set $l4
+            local.get $l4
+            i32.load offset=28
+            i32.load offset=12
+            local.set $l5
+            i32.const 3947688 ;; System.Collections.Generic.List<string>_TypeInfo
+            i32.load
+            call $j924
+            local.set $l7
+            local.get $l7
+            i32.const 4004876 ;; Method$System.Collections.Generic.List<string>..ctor()
+            i32.load
+            call $j965
+            local.get $l5
+            local.set $p1
+            loop $L20
+              local.get $l4
+              i32.load offset=24
+              local.set $l6
+              local.get $l6
+              i32.load offset=12
+              local.get $p1
+              i32.gt_s
+              if $I21
+                local.get $l7
+                local.get $l6
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                i32.load offset=16
+                i32.const 4004888 ;; Method$System.Collections.Generic.List<string>.Add()
+                i32.load
+                call $j955 ;; System.Collections.Generic.List<__Il2CppFullySharedGenericType>$$Add
+                local.get $p1
+                i32.const 1
+                i32.add
+                local.set $p1
+                br $L20
+              end
+            end
+            i32.const 0
+            local.set $p1
+            i32.const 3946992 ;; System.Collections.Generic.List<int>_TypeInfo
+            i32.load
+            call $j924
+            local.set $l4
+            local.get $l4
+            i32.const 4001580 ;; Method$System.Collections.Generic.List<int>..ctor()
+            i32.load
+            call $j965
+            loop $L22
+              local.get $l2
+              i32.load offset=36
+              local.set $l6
+              local.get $l6
+              i32.load offset=12
+              local.get $p1
+              i32.gt_s
+              if $I23
+                local.get $l7
+                local.get $l6
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                i32.load offset=16
+                i32.const 4004900 ;; Method$System.Collections.Generic.List<string>.Contains()
+                i32.load
+                call $j1262
+                local.set $l10
+                local.get $l2
+                i32.load offset=36
+                local.get $p1
+                i32.const 2
+                i32.shl
+                i32.add
+                i32.load offset=16
+                local.set $l6
+                block $B24
+                  local.get $l10
+                  if $I25
+                    local.get $l4
+                    local.get $l5
+                    local.get $l7
+                    local.get $l6
+                    i32.const 4004908 ;; Method$System.Collections.Generic.List<string>.IndexOf()
+                    i32.load
+                    call $j1405
+                    i32.const 1
+                    i32.add
+                    i32.add
+                    i32.const 4001592 ;; Method$System.Collections.Generic.List<int>.Add()
+                    i32.load
+                    call $j1149
+                    br $B24
+                  end
+                  i32.const 5
+                  local.get $l6
+                  i32.const 4065424 ;;  物品不包含在创建物中
+                  i32.load
+                  i32.const 0
+                  call $j962 ;; System.String$$Concat
+                  i32.const 0
+                  call $j1429 ;; GameManager$$LogInColor
+                end
+                local.get $p1
+                i32.const 1
+                i32.add
+                local.set $p1
+                br $L22
+              end
+            end
+            local.get $l3
+            local.get $l4
+            i32.const 4001652 ;; Method$System.Collections.Generic.List<int>.ToArray()
+            i32.load
+            call $j1523
+            i32.store offset=48
+            br $B17
+          end
+          local.get $l3
+          i32.const 3950212 ;; int[]_TypeInfo
+          i32.load
+          i32.const 0
+          call $j939
+          i32.store offset=48
+        end
+        local.get $l3
+        local.get $l2
+        i32.load offset=40
+        i32.const 3
+        i32.mul
+        i32.store offset=44
+        local.get $l2
+        i32.load offset=44
+        local.set $p1
+        local.get $p1
+        i32.eqz
+        if $I26
+          local.get $l2
+          i32.load offset=28
+          i32.load offset=12
+          local.set $p1
+        end
+        local.get $l3
+        local.get $p1
+        i32.store offset=52
+        local.get $l8
+        local.get $l3
+        i32.const 4001960 ;; Method$System.Collections.Generic.List<LevelDataData>.Add()
+        i32.load
+        call $j955 ;; System.Collections.Generic.List<__Il2CppFullySharedGenericType>$$Add
+        local.get $l9
+        i32.const 1
+        i32.add
+        local.set $l9
+        br $L1
+      end
+    end
+    local.get $l8
+    return)

@@ -1,0 +1,89 @@
+[
+  {
+    "module": "competitor-main",
+    "Address": 15816,
+    "Name": "PreloadObjMod$$Start",
+    "Signature": "void PreloadObjMod__Start (PreloadObjMod_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j89318",
+    "signatureVerified": true,
+    "bodyRecovered": true,
+    "calls": [
+      "call $j14179 ;; PrepareLoadMa$$PreLoadTempObj"
+    ]
+  },
+  {
+    "module": "competitor-main",
+    "Address": 18140,
+    "Name": "LevelObjectPool$$Get",
+    "Signature": "ObjectUnit_o* LevelObjectPool__Get (LevelObjectPool_o* __this, System_String_o* objName, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j43490",
+    "signatureVerified": true,
+    "bodyRecovered": true,
+    "calls": [
+      "i32.const 3995980 ;; Method$JObjectPoolGroup<ObjectUnit>.GetItem()",
+      "i32.const 3995980 ;; Method$JObjectPoolGroup<ObjectUnit>.GetItem()",
+      "call $j952 ;; UnityEngine.GameObject$$SetActive"
+    ]
+  },
+  {
+    "module": "competitor-main",
+    "Address": 18141,
+    "Name": "LevelObjectPool$$Recycle",
+    "Signature": "void LevelObjectPool__Recycle (LevelObjectPool_o* __this, ObjectUnit_o* obj, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j4698",
+    "signatureVerified": true,
+    "bodyRecovered": true,
+    "calls": [
+      "i32.const 3995988 ;; Method$JObjectPoolGroup<ObjectUnit>.RecycleItem()",
+      "i32.const 3995988 ;; Method$JObjectPoolGroup<ObjectUnit>.RecycleItem()"
+    ]
+  },
+  {
+    "module": "competitor-main",
+    "Address": 18202,
+    "Name": "ObjectUnit$$SetRigid",
+    "Signature": "void ObjectUnit__SetRigid (ObjectUnit_o* __this, bool usePhysic, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j8794",
+    "signatureVerified": true,
+    "bodyRecovered": true,
+    "calls": [
+      "call $j5617 ;; UnityEngine.Rigidbody$$set_isKinematic"
+    ]
+  },
+  {
+    "module": "competitor-main",
+    "Address": 18204,
+    "Name": "ObjectUnit$$HideRigid",
+    "Signature": "void ObjectUnit__HideRigid (ObjectUnit_o* __this, bool isHide, bool isForce, const MethodInfo* method);",
+    "TypeSignature": "viiii",
+    "wasmSymbol": "$j4344",
+    "signatureVerified": true,
+    "bodyRecovered": true,
+    "calls": [
+      "call $j7217 ;; UnityEngine.Rigidbody$$get_isKinematic",
+      "call $j39442 ;; UnityEngine.Rigidbody$$get_velocity",
+      "call $j8794 ;; ObjectUnit$$SetRigid"
+    ]
+  },
+  {
+    "module": "competitor-main",
+    "Address": 36478,
+    "Name": "Kunpo.AssetManager$$getLoadedAssetRequest",
+    "Signature": "Kunpo_AssetRequest_o* Kunpo_AssetManager__getLoadedAssetRequest (System_String_o* key, System_Type_o* type, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j15789",
+    "signatureVerified": true,
+    "bodyRecovered": true,
+    "calls": [
+      "i32.const 3983100 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.TryGetValue()",
+      "i32.const 3987144 ;; Method$System.Collections.Generic.Dictionary<Type, AssetRequest>.TryGetValue()",
+      "i32.const 3983100 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.TryGetValue()",
+      "i32.const 3983100 ;; Method$System.Collections.Generic.Dictionary<string, Dictionary<Type, AssetRequest>>.TryGetValue()",
+      "i32.const 3987144 ;; Method$System.Collections.Generic.Dictionary<Type, AssetRequest>.TryGetValue()"
+    ]
+  }
+]

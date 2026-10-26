@@ -1,0 +1,13 @@
+{
+  "sourceSha256": "d648620ce5578c02f24cbffde3a090e26366739d858ee54269471b71b4f3e0db",
+  "sharedLowNormalization": {
+    "center": [
+      7.450580596923828e-09,
+      0.0043829381465911865,
+      0.502997636795044
+    ],
+    "extent": 0.994003176689148
+  },
+  "sameCameraAndLightingAsLow": true,
+  "conceptUsedAsTexture": false
+}

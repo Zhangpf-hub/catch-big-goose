@@ -1,0 +1,28 @@
+{
+  "id": "duck-eggtart",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangles": true,
+    "bytes": true,
+    "noAnimation": true,
+    "noSkin": true,
+    "uv": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "roundtripGeometry": true
+  },
+  "triangles": 3672,
+  "bytes": 86028,
+  "sha256": "62990f147ebb7cf5ec8738b4feae95e87e561d405b488f8403e357be9238dfdf",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

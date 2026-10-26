@@ -1,0 +1,67 @@
+{
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1838
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Rounded red numeric toy",
+      "triangles": 188
+    },
+    {
+      "name": "Raised lime numeral one",
+      "triangles": 524
+    },
+    {
+      "name": "Back toy connector",
+      "triangles": 160
+    },
+    {
+      "name": "Back toy connector.001",
+      "triangles": 160
+    },
+    {
+      "name": "Back toy connector.002",
+      "triangles": 160
+    },
+    {
+      "name": "Back toy connector.003",
+      "triangles": 160
+    },
+    {
+      "name": "Seated right ankle continuation",
+      "triangles": 36
+    }
+  ],
+  "headNeckSkinFurtherReduced": false,
+  "accessoryReduction": {
+    "bill": 0.32,
+    "feet": 0.38,
+    "eyes": 0.42,
+    "tail": 0.5
+  }
+}

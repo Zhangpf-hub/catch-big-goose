@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtringcandy",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRingCandy\\GTRingCandy.blend",
+  "sourceTriangles": 948,
+  "triangles": 948,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7291674613952637,
+    0.8123868703842163,
+    0.7814958095550537
+  ],
+  "normalizedDimensions": [
+    0.89756178855896,
+    0.9999999403953552,
+    0.9619749188423157
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

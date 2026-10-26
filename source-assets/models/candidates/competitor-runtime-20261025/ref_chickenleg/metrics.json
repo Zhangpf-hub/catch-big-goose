@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_chickenleg",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\ChickenLeg\\ChickenLeg.blend",
+  "sourceTriangles": 1007,
+  "triangles": 1007,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.3259390592575073,
+    2.3912010192871094,
+    0.547931432723999
+  ],
+  "normalizedDimensions": [
+    0.5545075535774231,
+    1.0,
+    0.2291448712348938
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

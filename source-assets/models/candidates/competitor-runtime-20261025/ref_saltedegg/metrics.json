@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_saltedegg",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\SaltedEgg\\SaltedEgg.blend",
+  "sourceTriangles": 180,
+  "triangles": 180,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7741055488586426,
+    0.9842782616615295,
+    0.8062061667442322
+  ],
+  "normalizedDimensions": [
+    0.7864702343940735,
+    1.0,
+    0.819083571434021
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

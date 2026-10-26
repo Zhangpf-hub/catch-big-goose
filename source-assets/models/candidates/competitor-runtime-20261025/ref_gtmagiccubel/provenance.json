@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtmagiccubel",
+  "sourceId": "GTMagicCubeL",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTMagicCubeL\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTMagicCubeL.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "ace52b1f0c29e168a47c3d153c90761d85e0ab9da62858d85c464db1392e1a29"
+}

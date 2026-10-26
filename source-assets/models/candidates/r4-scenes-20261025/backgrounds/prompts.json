@@ -1,0 +1,13 @@
+{
+  "generator": "built-in image_gen",
+  "mode": "new images, one call per theme, opaque backgrounds",
+  "sharedBrief": "Production empty environment background for a Chinese casual 3D object matching mobile game. Portrait 9:16, elevated almost top-down view with subdued perspective. Modest semi-realistic mobile 3D render, rounded clean forms, gentle upper-left light. Centre and lower 85-88 percent calm, low contrast, empty for live colourful objects and a shrinking round container. Decorations only at extreme top/edges. No central objects, baskets, plates, trays, loose game pieces, characters, geese, UI, letters, logos, or baked circular contact shadow. Quiet top/bottom UI zones.",
+  "themes": {
+    "breakfast": "Morning breakfast shop; pale honey wood counter and broad subtle planks, cream tiles and bamboo trim at the top edge, tiny corner folded linen, warm beige and natural wood palette, soft daylight.",
+    "barbecue": "Early-evening barbecue stall; broad matte charcoal/warm grey concrete counter, cropped metal backsplash and dark red wood at the extreme top, tiny amber string lights, restrained cool ambient, centre sufficiently light for the metal tray and colourful food.",
+    "countryside": "Daylight countryside courtyard; pale weathered wooden work surface with subdued taupe grain, rustic courtyard stone wall and small soft sage-green leaves at extreme top corners, natural daylight.",
+    "toys": "Childhood toy room; clean pale maple floor, faint broad plank joins, cropped pale blue/yellow play-mat corners and small distant toy storage shelf at top edge, calm cream/mint/pale blue and warm daylight.",
+    "grocery": "Traditional neighbourhood grocery; broad worn warm-walnut wooden counter with low-contrast grain, sage-green old shelf and tiny plain unlabelled jars only at top, cream wall, soft amber daylight. No groceries on the counter."
+  },
+  "provenance": "Exact generation calls and original file paths are retained in this chat; manifest.json hashes link each staged plate to its original generated PNG. This file preserves the structured production prompt set."
+}

@@ -1,0 +1,161 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5",
+  "files": [],
+  "subMetas": {
+    "12b8b": {
+      "importer": "gltf-mesh",
+      "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5@12b8b",
+      "displayName": "",
+      "id": "12b8b",
+      "name": "Torus.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1200
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db63e": {
+      "importer": "gltf-material",
+      "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5@db63e",
+      "displayName": "",
+      "id": "db63e",
+      "name": "donut_bread.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5a1a5": {
+      "importer": "gltf-material",
+      "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5@5a1a5",
+      "displayName": "",
+      "id": "5a1a5",
+      "name": "donut_cocoa.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "554b0": {
+      "importer": "gltf-material",
+      "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5@554b0",
+      "displayName": "",
+      "id": "554b0",
+      "name": "donut_sprinkle.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d1a1": {
+      "importer": "gltf-material",
+      "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5@9d1a1",
+      "displayName": "",
+      "id": "9d1a1",
+      "name": "donut_sprinkle_pink.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a4b44": {
+      "importer": "gltf-material",
+      "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5@a4b44",
+      "displayName": "",
+      "id": "a4b44",
+      "name": "donut_sprinkle_mint.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4216": {
+      "importer": "gltf-scene",
+      "uuid": "bd039aa1-9384-4ba0-8da3-9c48b80042e5@d4216",
+      "displayName": "",
+      "id": "d4216",
+      "name": "donut.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "bd039aa1-9384-4ba0-8da3-9c48b80042e5@12b8b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "bd039aa1-9384-4ba0-8da3-9c48b80042e5@db63e",
+        "bd039aa1-9384-4ba0-8da3-9c48b80042e5@5a1a5",
+        "bd039aa1-9384-4ba0-8da3-9c48b80042e5@554b0",
+        "bd039aa1-9384-4ba0-8da3-9c48b80042e5@9d1a1",
+        "bd039aa1-9384-4ba0-8da3-9c48b80042e5@a4b44"
+      ],
+      "scenes": [
+        "bd039aa1-9384-4ba0-8da3-9c48b80042e5@d4216"
+      ]
+    }
+  }
+}

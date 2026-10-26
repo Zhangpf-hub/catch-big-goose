@@ -1,0 +1,20 @@
+{
+  "stage": "three-model-review",
+  "approval": {
+    "candidate": "b",
+    "conceptApproved": true,
+    "fusionConceptsApproved": ["eggtart", "steelcup", "numberblock"],
+    "userInstruction": "选 B，三款融合方向也认可，按这个母版推进建模，先交付蛋挞鸭、钢杯鸭和积木鸭的模型效果给我验收。",
+    "comparisonInstruction": "同尺寸对比竞品同类模型 我来验收",
+    "modelReviewApproved": false
+  },
+  "sharedDesign": "Slender milk-white duck B; small head, medium neck, flat broad orange bill, black bead eyes, tucked wings and orange webbed feet; one shared head construction.",
+  "budget": {"targetTriangles": [2000, 4000], "maxTriangles": 6000, "materials": 1, "meshes": 1, "primitives": 1, "textureSize": 256, "maxGlbBytes": 262144},
+  "comparison": {"normalization": "Each complete model has maximum world bounding-box extent 1.0, uniformly scaled without changing proportions", "centering": "world bounding-box center at origin", "orthographicScale": 1.48, "sameCameraPerView": true, "sameLighting": true, "separateSourceFramingOrStretching": false, "referenceShader": "original recovered base-colour/PBR approximation; not original running game shader"},
+  "models": [
+    {"id": "duck-eggtart", "referenceId": "Goose_EggTart", "silhouette": "shallow upright scalloped pastry disc", "colours": ["golden crust", "yellow custard", "milk white", "orange"], "features": ["shallow golden scalloped rim", "broad custard face", "slim duck neck emerging from upper face", "small webbed feet under disc"], "connections": "Duck skin penetrates custard opening and remains connected behind disc; feet enter bottom shell; tail connects to concealed white torso", "simplifications": ["broad toasted patches instead of flaky pastry texture", "solid opaque shell"]},
+    {"id": "duck-steelcup", "referenceId": "Goose_SteelCup", "silhouette": "sideways cylindrical mug with curved neck at open end", "colours": ["satin cool gray", "dark gray interior", "milk white", "orange"], "features": ["open thick cup rim", "connected handle", "white neck from cup interior", "two tucked feet"], "connections": "Hollow cup has a closed inner-to-outer wall profile, handle intersects shell at both mounts; white torso occupies cup, neck exits mouth; tail emerges through a fitted rear opening", "simplifications": ["low metallic satin shading", "no tiny inscriptions or rivets"]},
+    {"id": "duck-numberblock", "referenceId": "Goose_GTNumberBlock", "silhouette": "rounded red rectangular block with a side-emerging neck", "colours": ["coral red", "lime green", "milk white", "orange"], "features": ["rounded red shell", "large green numeral 1", "side neck connection", "two orange webbed feet"], "connections": "Duck torso is inside block; side neck and rear tail are seated against dedicated fittings; feet attach under shell", "simplifications": ["single large numeral", "no additional toy mechanism"]}
+  ],
+  "notYetClaimed": ["Unity import", "runtime physics", "gameplay acceptance", "mobile performance", "homepage replacement", "remaining 17 combinations"]
+}

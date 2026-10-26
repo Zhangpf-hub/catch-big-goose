@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "strawberry",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\strawberry\\strawberry.fbx",
+  "sourceTriangles": 1384,
+  "triangles": 1384,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.5790956616401672,
+    0.5414532423019409,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.5790956616401672,
+    0.5414530634880066,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

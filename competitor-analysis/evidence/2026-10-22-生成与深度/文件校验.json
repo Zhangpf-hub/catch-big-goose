@@ -1,0 +1,362 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 1729,
+    "sha256": "d4ac499912c218b57a97ed01784850c792a857c4cb19c61aded8f21ec0bf3639"
+  },
+  {
+    "path": "Unity源码快照/GooseAlgorithmAcceptance.cs",
+    "bytes": 8127,
+    "sha256": "ec1fee66cb935b3dee7efb15d2d11ec142b4128037e0186b8d67db166e006d35"
+  },
+  {
+    "path": "Unity源码快照/GooseDepthPolicy.cs",
+    "bytes": 2970,
+    "sha256": "06980409c4c23acedc8e86cd572e9665ec9945040443ecc374409f2be21b59a4"
+  },
+  {
+    "path": "Unity源码快照/GooseGame.cs",
+    "bytes": 35451,
+    "sha256": "45cf9f8bc883b12fa8c9da50ead30c81e7b698c4751ae2404e5f276e826788d3"
+  },
+  {
+    "path": "Unity源码快照/GooseGeneration.cs",
+    "bytes": 7650,
+    "sha256": "ba1237c00472bd786f697e49afa87add9afa1683288352c465f7970a563c28ab"
+  },
+  {
+    "path": "Unity源码快照/GooseItem.cs",
+    "bytes": 3167,
+    "sha256": "043ec1850700685ef22be0f15238f8c59e31f83ae7c7e7c5caf9b8cac3f94b4a"
+  },
+  {
+    "path": "Unity源码快照/GoosePileDepth.cs",
+    "bytes": 5600,
+    "sha256": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d"
+  },
+  {
+    "path": "Unity源码快照/GooseRules.cs",
+    "bytes": 5704,
+    "sha256": "5eab3095a6483ea8adf7a5d4e4fa531e03c2ad960094c40c14fd72754a1d611b"
+  },
+  {
+    "path": "复现源码/tests/competitor/PolicyTests.cs",
+    "bytes": 6968,
+    "sha256": "d73e3ab4123ef2775be0108811fcd63ae7d780f9e38361d26b757c0f0c7cfb7c"
+  },
+  {
+    "path": "复现源码/tools/competitor/archive_analysis.py",
+    "bytes": 5184,
+    "sha256": "beb785ed6eae0edbccd5ae855a47e38a6e2e56996169e3d469a29c7463a8cdfe"
+  },
+  {
+    "path": "复现源码/tools/competitor/probe_original_algorithms.mjs",
+    "bytes": 6214,
+    "sha256": "4fb90626794ba376a4a30f96eaa9fb2c692774c40815a6436d8708a9288d2d29"
+  },
+  {
+    "path": "复现源码/tools/competitor/recover_methods.py",
+    "bytes": 5607,
+    "sha256": "91d5acaa0621c956348eade5a53f8444f36578ec4a24030aaeca429df5ac6b2a"
+  },
+  {
+    "path": "复现源码/tools/competitor/run_policy_tests.ps1",
+    "bytes": 1437,
+    "sha256": "3bd59b42cba0db924ce2df4bcfd0762da90071038f34b4ae2a0dea761ee7d3f4"
+  },
+  {
+    "path": "复现源码/tools/competitor/run_unity_algorithm_tests.ps1",
+    "bytes": 1845,
+    "sha256": "2eab83b264c036cd510980fffdd8e8b23e69444350be9249baf7d8368e2fc3b2"
+  },
+  {
+    "path": "复现源码/tools/competitor/validate_recovered.mjs",
+    "bytes": 1330,
+    "sha256": "62fd4e6ebe8f631635350f3b71a15dca4b6894e704ccaa3b1eb4ac94aa891bc4"
+  },
+  {
+    "path": "复现源码/unity/Assets/Editor/GooseAlgorithmBuild.cs",
+    "bytes": 1519,
+    "sha256": "ca681ddfbb1173cd3219714fd1e46350b685df7cb5b9a6065a8b3de99b2b7da8"
+  },
+  {
+    "path": "复现源码/unity/Assets/Resources/Data/pile-algorithms.json",
+    "bytes": 452,
+    "sha256": "22313af87fcc0591ddfc0ffd0d5d1629479544119967ce969e5f4a39ebe40341"
+  },
+  {
+    "path": "复现源码/unity/Assets/Tests/Editor/GooseDepthIntegrationTests.cs",
+    "bytes": 1827,
+    "sha256": "f900471ee19c3a07410525fd600ec690d324255471bc203f79fd849c67760a7f"
+  },
+  {
+    "path": "方法体/j103226.watfrag",
+    "bytes": 2553,
+    "sha256": "872f991fb67889eac6543c378074fd3d6a46d366fb2903bad2dfb9d57a0909c0"
+  },
+  {
+    "path": "方法体/j10878.watfrag",
+    "bytes": 1543,
+    "sha256": "84c9822ced3915ee5339f7d2671d965c82a12dde1deefb454952cd4c1a74abe3"
+  },
+  {
+    "path": "方法体/j10885.watfrag",
+    "bytes": 643,
+    "sha256": "1fd59297b953fc7a6614209ca05a20665a0d11780a8c2577e140dc894ee09e9f"
+  },
+  {
+    "path": "方法体/j18335.watfrag",
+    "bytes": 1930,
+    "sha256": "c886dc9b697f9d8bf4d416fce225113bbacee5b9aa6cf3f4bed7bc3a943defd1"
+  },
+  {
+    "path": "方法体/j2054.watfrag",
+    "bytes": 514,
+    "sha256": "c3712da0ad836b95438921584b3dc49ea770affa66eacaa9485393050a122fbe"
+  },
+  {
+    "path": "方法体/j22248.watfrag",
+    "bytes": 1845,
+    "sha256": "6ba9084447a5e6125d3e81332b3b31b7a028521a0badff021ac13a16e073ae07"
+  },
+  {
+    "path": "方法体/j22249.watfrag",
+    "bytes": 1086,
+    "sha256": "11fa0006b36eb04f1d62e8780128f495f8008aaea30f6a84f455a1ba221dae9a"
+  },
+  {
+    "path": "方法体/j22259.watfrag",
+    "bytes": 2999,
+    "sha256": "5bad1302b94dcfde8396a89e7ece47cebbeaa1fd6790671197ddfa0981826166"
+  },
+  {
+    "path": "方法体/j22262.watfrag",
+    "bytes": 2186,
+    "sha256": "3fa20c967a77f57063e06b53bc39f2837f4d4c1bbb30a86b2db155a57a371249"
+  },
+  {
+    "path": "方法体/j22334.watfrag",
+    "bytes": 488,
+    "sha256": "fc1a2357fe480b233878f48b7e8ba204606abf2c46347fcf73c1989259f5b6ee"
+  },
+  {
+    "path": "方法体/j22335.watfrag",
+    "bytes": 43342,
+    "sha256": "9088412aae3a4117d4096622eff73d03e2b75436bedecda1852653218d4fc4ed"
+  },
+  {
+    "path": "方法体/j22337.watfrag",
+    "bytes": 5549,
+    "sha256": "0704010d7586c42eca12465949425fa7adb53261817aca9628afae5da3769c00"
+  },
+  {
+    "path": "方法体/j32690.watfrag",
+    "bytes": 2260,
+    "sha256": "3f8b8f399bd33a8e4831d25e889b30d464b6451f27e242ea151b54801149c3d9"
+  },
+  {
+    "path": "方法体/j4344.watfrag",
+    "bytes": 2516,
+    "sha256": "f4969d3d13bb99ef279ca959eabd22ea7d99ee321a0edf00d74ebaf9a9f592c2"
+  },
+  {
+    "path": "方法体/j43531.watfrag",
+    "bytes": 372,
+    "sha256": "7de7587995e43fe4d41f9d344b8f2637de22874dce7db3841f1e6f1795ed7e99"
+  },
+  {
+    "path": "方法体/j43532.watfrag",
+    "bytes": 599,
+    "sha256": "fa0fa194efaf202f7a0d7223d3cc4a20d8dbedf292368a900a385ef96177bbdf"
+  },
+  {
+    "path": "方法体/j43536.watfrag",
+    "bytes": 1602,
+    "sha256": "3d5c71a54bdec268bdcf02d518860c50f2193c3803c2696b94ff6392bd63b18d"
+  },
+  {
+    "path": "方法体/j43538.watfrag",
+    "bytes": 1845,
+    "sha256": "967c9b1141d270c78861c9671f8dbb9b67e2e41d9071887328984490d03fe087"
+  },
+  {
+    "path": "方法体/j43549.watfrag",
+    "bytes": 36048,
+    "sha256": "79b80d233ec0a47ad6ac318c8f51a3bb1e4d78bb64f9c76a1f0c3d864893edaf"
+  },
+  {
+    "path": "方法体/j43789.watfrag",
+    "bytes": 1883,
+    "sha256": "60c52e1a15225bbfebc7ad4fda7436925fcee58d8e39a19bc65ea88285a0f77a"
+  },
+  {
+    "path": "方法体/j43790.watfrag",
+    "bytes": 1952,
+    "sha256": "f994ecf86225d1f31f5dab225a558926fd97c7b719ea548a53e76f15098eeda0"
+  },
+  {
+    "path": "方法体/j4380.watfrag",
+    "bytes": 687,
+    "sha256": "887282eaa1ac87252f7a5b07ba3041bc7e4ee0b667043200197f4148919d11d5"
+  },
+  {
+    "path": "方法体/j6377.watfrag",
+    "bytes": 1841,
+    "sha256": "79593a2332a98c93e095248f3fa84a80cff030c7d1cc4b9ac8131cafa5f4046d"
+  },
+  {
+    "path": "方法体/j6450.watfrag",
+    "bytes": 2344,
+    "sha256": "fa1078b38fa15ecb843a00663a739c5704756aa1503afc513ae28b1baabe1225"
+  },
+  {
+    "path": "方法体/j7288.watfrag",
+    "bytes": 3176,
+    "sha256": "f0f62d8815a5679f24cd279a4e39398437113f8bd2321e575045614f13c51377"
+  },
+  {
+    "path": "方法体/j7378.watfrag",
+    "bytes": 5520,
+    "sha256": "ab4a6fe48acb86af9ab79c9f59d6607cb6444e66edf88b81764af5e62b7af9f2"
+  },
+  {
+    "path": "方法体/j74002.watfrag",
+    "bytes": 1475,
+    "sha256": "3a7544e70b16c7282dafb44ad4eaaf051c013a9452d0befe5512d4c2c775c6d9"
+  },
+  {
+    "path": "方法体/j74024.watfrag",
+    "bytes": 136894,
+    "sha256": "bb2d19662ce9c520acec0703746df38be1ee0d6410053ea8c602d40303bc2d44"
+  },
+  {
+    "path": "方法体/j8794.watfrag",
+    "bytes": 927,
+    "sha256": "93d049ba30c44116a7479b961c119ca8ec41a8cc639aae0b9390ef02bec6e049"
+  },
+  {
+    "path": "方法体/j91092.watfrag",
+    "bytes": 588,
+    "sha256": "96f7b5bc290083aed2cd73663424c9a8564e1068ed1637fed23fff68a04ba555"
+  },
+  {
+    "path": "方法体/j940.watfrag",
+    "bytes": 68,
+    "sha256": "785827c11551b01fed8ee9ad4b57b27895c0ef36a8b3a78a8b54462fd3a86f99"
+  },
+  {
+    "path": "方法体/j95003.watfrag",
+    "bytes": 10565,
+    "sha256": "e12945e827744c4f2332e2a43c203705a4a5dda120fc3c75f0fec4c9dda69f89"
+  },
+  {
+    "path": "方法体/j95576.watfrag",
+    "bytes": 4787,
+    "sha256": "8f0b27e4bbfce07db0d799a2b6c8525bdfc9d90eac4b5c1ade0a72b2a4e7b5ff"
+  },
+  {
+    "path": "方法体/j95578.watfrag",
+    "bytes": 3783,
+    "sha256": "141d6f7055d21644d0b2c7ffcc99bf661fb2b073adff3074ac5e7dc2a6b05c53"
+  },
+  {
+    "path": "方法体/j95580.watfrag",
+    "bytes": 11276,
+    "sha256": "d39a09d5e27c06e7d4012b807615449e2531de4c86f0c9ea16d4d59aee47b3fa"
+  },
+  {
+    "path": "方法体/j95581.watfrag",
+    "bytes": 10632,
+    "sha256": "2a93ba3dc1592f53023b520e7ab8e3ad04bc83e7f16929b76c90b4a1a85820c9"
+  },
+  {
+    "path": "方法体/j95582.watfrag",
+    "bytes": 7979,
+    "sha256": "fe230e69be1d9bab11e3da912a3a1a1ff65458fb992a7a4da604c21acb628aab"
+  },
+  {
+    "path": "方法体/method-map.json",
+    "bytes": 11946,
+    "sha256": "0287e420d5b6e0bf075354f831f5226f12de43e983769043440e35e0d80cb8b3"
+  },
+  {
+    "path": "方法体/rejected-methods.json",
+    "bytes": 1113,
+    "sha256": "5f48123b24ef8fb89f2bb97ef4c262cdea093c20639b65ab0234483bc9ed7232"
+  },
+  {
+    "path": "方法体/selected-validation.json",
+    "bytes": 313,
+    "sha256": "417c27ec3838e0acae30fc7ff008a45ee06112ba448e722411c5d1635fe15118"
+  },
+  {
+    "path": "方法体/selected.wasm",
+    "bytes": 69929,
+    "sha256": "b6dd1c226dbcdc9f207f3d7ec8d7fcef66f18a1e818dbedec0aab66d229433ed"
+  },
+  {
+    "path": "方法体/selected.wat",
+    "bytes": 429466,
+    "sha256": "b36779fd7bdd60ff07078cd7073e159515033221a8c79d041ceee241348c54c1"
+  },
+  {
+    "path": "来源/package-inventory.json",
+    "bytes": 7065,
+    "sha256": "5c5bf8772387cabcc68c690368922712a14e3ffc3fa8529991f62cbe86d476bf"
+  },
+  {
+    "path": "来源/recovery.json",
+    "bytes": 1595,
+    "sha256": "0a950c258afa28bae3ef014f70e359c5c7495e89d984fbae6a61b3ba6b7bec8d"
+  },
+  {
+    "path": "验证/algorithm-acceptance.json",
+    "bytes": 5022,
+    "sha256": "e956e9ac9e843d98cbf48333b064000e1b3d6df71a297d619c20d471c7c7d733"
+  },
+  {
+    "path": "验证/algorithm-player.log",
+    "bytes": 25050,
+    "sha256": "8afcd30a2819cbba6d615d8ef2cc8c1ea12f2dbe836bd12c25e361caacab6d2b"
+  },
+  {
+    "path": "验证/isolated-original.wasm",
+    "bytes": 3285,
+    "sha256": "bc3fc1b5caddfdde994143cdb7caf097153408bbf088fe40f9f7321c1b724a0e"
+  },
+  {
+    "path": "验证/original-cases.csv",
+    "bytes": 21057,
+    "sha256": "c292b2eca529fa247266cc839def8575653f99d4f28d5be57e4ec8602ecafe74"
+  },
+  {
+    "path": "验证/original-weight-traces.csv",
+    "bytes": 176413,
+    "sha256": "a27533ae979828c86d9e1c6861ba94af3bf4378000a73e76c8ffc624a58b84d1"
+  },
+  {
+    "path": "验证/policy-tests.json",
+    "bytes": 156,
+    "sha256": "8771ed66d5aece60cf73548dd69f79e0aefc00423f426a72c0bf871de59ce3b3"
+  },
+  {
+    "path": "验证/source-hashes.tsv",
+    "bytes": 587,
+    "sha256": "785320139a442fbf194304c05e233ec5084bbac1f4222d5830d4dde236ca4e1e"
+  },
+  {
+    "path": "验证/unity-editmode-results.xml",
+    "bytes": 8705,
+    "sha256": "d0e505bf85d466a7bb0b99a4de6692f67529c007d1a7c051f64d4564cf31a3a4"
+  },
+  {
+    "path": "验证/wasm-probe.json",
+    "bytes": 491,
+    "sha256": "878099ec84fb22e6ba2de547ee783f9ed078c00b5679bcd8259a4a269e9da667"
+  },
+  {
+    "path": "验证汇总.json",
+    "bytes": 3161,
+    "sha256": "bf36d1c12fb75228c792ea2561a122c0e30cbd8df4bce0de768a3bb1324bf136"
+  }
+]

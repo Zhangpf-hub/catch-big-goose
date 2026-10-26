@@ -1,0 +1,28 @@
+{
+  "id": "duck-steelcup",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangles": true,
+    "bytes": true,
+    "noAnimation": true,
+    "noSkin": true,
+    "uv": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "roundtripGeometry": true
+  },
+  "triangles": 3706,
+  "bytes": 88100,
+  "sha256": "cddab8af0ec8519e4dd7716ca1535f726c1517914aa648ff3f317ae871076e51",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

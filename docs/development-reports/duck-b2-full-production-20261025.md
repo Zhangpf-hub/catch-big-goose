@@ -1,0 +1,56 @@
+# B2 鸭子母模、20 款组合与独立评审关
+
+用户明确回复“B2 三款通过，继续完整计划”后，已将同一 B2 母模扩展到五组 20 款，并接入首页骨骼动作及独立模型评审。正式五主题的物品和关卡配置保持原始哈希。
+
+## 可查看交付
+
+- [全套模型、多视图与竞品对照](../../source-assets/models/candidates/duck-series-v1/production-b2/review.html)
+- [20 款实际网格总览](../../source-assets/models/candidates/duck-series-v1/production-b2/renders/all-models-hero.png)
+- [游戏俯视](../../source-assets/models/candidates/duck-series-v1/production-b2/renders/all-models-gameplay.png)与[64px 辨识](../../source-assets/models/candidates/duck-series-v1/production-b2/renders/all-icons.png)
+- [模型、参考、碰撞、图标及尺寸映射](../../source-assets/models/candidates/duck-series-v1/production-b2/batch.json)
+- [完整交付 ZIP](../../work/duck-b2-full-production-20261025.zip)与[机器可读验收清单](../../source-assets/models/candidates/duck-series-v1/production-b2/delivery.json)
+
+游戏入口为首页右上角「设置 → 鸭子模型评审」，内含早餐铺、烧烤摊、乡村小院、童年玩具和杂货铺。每主题 4 种、48 件，通过原有生成、碰撞、屏幕射线拾取、3D 托盘和三消流程游玩。
+
+## 造型与资产
+
+首三款 GLB 保持用户已通过版本的文件哈希。其余 17 款直接使用原 B2 骨架与母模部件；头、嘴、眼和脚不重新生成。颈部通过原骨架摆姿并将裁切处埋入物件，隐藏身体按组合关系裁去。保留小头、小脚、宽扁橙嘴、奶白细颈的统一特征。
+
+复查四视图后，修正了小米饼表面烙痕悬空、帽带与杯标签埋入外壳、茄子颈部未充分埋入、农夫鸭颈根截面外露及西瓜尾部位置。所有最终视图均由导出 GLB 回读渲染；竞品同样最大边归一为 1，使用相同正交镜头 1.48 与灯光，竞品材质是提取 PBR 的近似还原。
+
+农夫鸭、面条鸭使用内置 `image_gen` 推敲融合关系，结果和实际提示词位于 [concepts/prompts.json](../../source-assets/models/candidates/duck-series-v1/production-b2/concepts/prompts.json)。这些图仅是概念参考，模型验收依据实际网格。
+
+20 款均为 2,780–3,940 三角面、单网格、单材质、单绘制部分，256px 配色与金属/粗糙度图集，最大边 1、包围盒居中。GLB 均低于 256 KiB。闭合性、退化面、回读几何、母模面部刚性尺度及 Khronos 验证全部通过，Khronos 无错误和警告。
+
+## 真实运行检查
+
+Unity 2022.3.62f3 实际导入全部 FBX，逐一检查三角数与 GLB 一致、材质与图集链接、颜色空间、单网格和碰撞代理对齐。使用独立 PhysX 密堆测试 60 件混合模型，15 秒后 60/60 自然休眠；移除最低支撑后 59/59 再次休眠，速度归零。没有调用强制 Sleep 代替自然休眠。
+
+Windows 桌面与移动端配置分别完成：
+
+- 五主题真实生成共 240 件，20 款各用 3 次真实屏幕射线拾取完成三消，共消除 60 件。
+- 所有模型进入真实 3D 托盘，完整轮廓适配单槽；没有强制改可见性或使用自动拾取绕过遮挡。
+- 六次评审进入；胜/负结算探针、重进、退出均保持正式主题、阶段、成绩、每日次数和奖励道具状态。结算探针不宣称自然通关全部 48 件。
+- 首页使用同一 B2 蒙皮，待机、招呼、点击回弹三个动作均检查运行时 BakeMesh 顶点变化；12 次连续点击后回到待机，切主题与进出评审复用同一角色实例。
+
+首次运行发现隐藏窗口使 Unity 默认 Animation 裁剪停更，导致招呼和待机没有持续变形。已设置 `AnimationCullingType.AlwaysAnimate`，最终两种配置全部通过。旧失败报告保留用于解释修正。
+
+首页控制接入真实骨骼动作，移除了原柴犬展示与整体摆动模拟。移动缓存保留 `Goose/DuckMobile` 的金属/光滑度通道。评审使用单独 `duck-review.json`，不把鸭子替换进正式五主题。
+
+## 构建与边界
+
+Windows QA 使用独立公司名与存档命名空间；本地 PlayerConnection 构建钩子保持不变。当前 Windows 发行与微信本地导出在本轮更新，构建和打包字节证据收录到交付清单。
+
+微信包体校验现按 `project.config.json` 的实际打包排除规则计算：SDK 本已排除的 `.symbols.unityweb.br` 不计入发布体积，符号文件仍保留本地；30 MiB 上限未调整。每次导出记录完整纳入/排除文件清单。
+
+最终当前微信目录含 70 个发布文件，共 31,244,537 字节（29.80 MiB）；本地目录连同已排除符号文件共 32,181,282 字节（30.69 MiB）。61 个 JavaScript 文件语法、字体及两段原视频完整性检查通过。完整构建已发布到命名导出目录；之后仅为改审计文件名运行的 ConvertOnly 在目录占用时未替换该成功导出，重复转换产物已单独归档，最终清单再次按当前命名目录核验。
+
+目录结构检查 43 项通过、无失效文档链接。评审顶部最长名称「评审·乡村小院」已在最终 Windows 移动端配置下验证完整显示。
+
+Windows 的移动端配置测试不等同微信真机测试。本轮没有调用付费第三方图生 3D，也没有上传或发布微信线上版本。B2 母模及首三款已有明确美术验收；新增 17 款为本轮交付供用户查看，不冒称其已获用户美术确认。
+
+## 可复现入口
+
+模型脚本：`tools/mascots/build_duck_b2_series.py`；GLB 检查：`audit_duck_b2_series.mjs`；渲染汇总：`review_duck_b2_series.py`；Unity 发布：`stage_duck_b2_series.py` 与编辑器 `GooseDuckProduction`；运行验收：`GooseDuckProductionAcceptance`；最终归档：`collect_duck_series_delivery.py`。
+
+Unity 常规 Prepare Project 已包含鸭子资源准备，避免后续常规构建遗漏母模预制体、专用材质或碰撞资源。

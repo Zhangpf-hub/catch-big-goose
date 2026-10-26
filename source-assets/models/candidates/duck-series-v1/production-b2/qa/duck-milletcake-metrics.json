@@ -1,0 +1,23 @@
+{
+  "id": "duck-milletcake",
+  "triangles": 3552,
+  "dimensions": [
+    0.7673211097717285,
+    0.454160213470459,
+    1.0
+  ],
+  "sourceCenter": [
+    0.026463747024536133,
+    -0.04914536327123642,
+    0.4449301064014435
+  ],
+  "sourceExtent": 0.8769821524620056,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 84348,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

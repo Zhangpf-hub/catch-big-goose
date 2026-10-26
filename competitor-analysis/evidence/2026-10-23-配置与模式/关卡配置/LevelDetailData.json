@@ -1,0 +1,86 @@
+{
+  "SheetName": "Assets/Res/ForEditor/LevelData.xlsx",
+  "WorksheetName": "LevelDetailData",
+  "dataArray": [
+    {
+      "_scenename": "CountrysideStove",
+      "_name": "\u519c\u6751\u5173"
+    },
+    {
+      "_scenename": "Cosmetic",
+      "_name": "\u7f8e\u5986\u5173"
+    },
+    {
+      "_scenename": "JadeStore",
+      "_name": "\u7389\u77f3\u5173"
+    },
+    {
+      "_scenename": "GroceryStore",
+      "_name": "\u5546\u5e97\u5173"
+    },
+    {
+      "_scenename": "Barbecue",
+      "_name": "\u70e7\u70e4\u5173"
+    },
+    {
+      "_scenename": "ToonFood",
+      "_name": "\u751c\u70b9\u5173"
+    },
+    {
+      "_scenename": "WetMarket",
+      "_name": "\u852c\u83dc\u5173"
+    },
+    {
+      "_scenename": "Breakfast",
+      "_name": "\u65e9\u9910\u5173"
+    },
+    {
+      "_scenename": "MainHotPot",
+      "_name": "\u706b\u9505\u5173"
+    },
+    {
+      "_scenename": "BigPot",
+      "_name": "\u94c1\u9505\u5173"
+    },
+    {
+      "_scenename": "CountrysideStove2",
+      "_name": "\u519c\u6751\u5173"
+    },
+    {
+      "_scenename": "Cosmetic2",
+      "_name": "\u7f8e\u5986\u5173"
+    },
+    {
+      "_scenename": "JadeStore2",
+      "_name": "\u7389\u77f3\u5173"
+    },
+    {
+      "_scenename": "GroceryStore2",
+      "_name": "\u5546\u5e97\u5173"
+    },
+    {
+      "_scenename": "Barbecue2",
+      "_name": "\u70e7\u70e4\u5173"
+    },
+    {
+      "_scenename": "ToonFood2",
+      "_name": "\u751c\u70b9\u5173"
+    },
+    {
+      "_scenename": "WetMarket2",
+      "_name": "\u852c\u83dc\u5173"
+    },
+    {
+      "_scenename": "Breakfast2",
+      "_name": "\u65e9\u9910\u5173"
+    },
+    {
+      "_scenename": "MainHotPot2",
+      "_name": "\u706b\u9505\u5173"
+    },
+    {
+      "_scenename": "BigPot2",
+      "_name": "\u94c1\u9505\u5173"
+    }
+  ]
+}

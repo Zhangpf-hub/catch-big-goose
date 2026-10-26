@@ -1,0 +1,9 @@
+{
+  "id": "ref_bbqhotdog",
+  "sourceId": "BBQHotdog",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BBQHotdog\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/BBQHotdog.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+  "sourceSha256": "a5fda7a3d83abd63056611c52d7bccb4ecf1dda07ec9c169000111b79aa3c3e8"
+}

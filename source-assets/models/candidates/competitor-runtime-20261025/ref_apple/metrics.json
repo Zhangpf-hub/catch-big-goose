@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_apple",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Apple\\Apple.blend",
+  "sourceTriangles": 510,
+  "triangles": 510,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.2277418375015259,
+    1.2049027681350708,
+    1.1242170333862305
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.9813975095748901,
+    0.9156786799430847
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

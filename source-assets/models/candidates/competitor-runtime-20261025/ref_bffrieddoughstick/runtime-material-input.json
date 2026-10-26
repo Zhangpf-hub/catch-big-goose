@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "youTiao",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-8418972245682107565.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

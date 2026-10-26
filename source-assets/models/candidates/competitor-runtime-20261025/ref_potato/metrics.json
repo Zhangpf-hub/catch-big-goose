@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_potato",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Potato\\Potato.blend",
+  "sourceTriangles": 523,
+  "triangles": 523,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0688958168029785,
+    2.359623432159424,
+    0.9770786166191101
+  ],
+  "normalizedDimensions": [
+    0.4529942572116852,
+    1.0,
+    0.41408243775367737
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

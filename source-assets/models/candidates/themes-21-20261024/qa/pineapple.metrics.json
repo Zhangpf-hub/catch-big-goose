@@ -1,0 +1,28 @@
+{
+  "id": "pineapple",
+  "theme": "fruit",
+  "triangles": 3052,
+  "vertices": 1624,
+  "blenderBounds": [
+    0.6139498353004456,
+    0.6139498353004456,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 73152,
+  "sha256": "b6431cc2891493001d648d387d48359eeeb53872f2cf22e112421cef601ac63d",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

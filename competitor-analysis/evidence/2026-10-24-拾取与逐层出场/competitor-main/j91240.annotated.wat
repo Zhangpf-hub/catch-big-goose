@@ -1,0 +1,225 @@
+  (func $j91240 (type $t0) (param $p0 i32) (param $p1 i32)
+    (local $l2 i64) (local $l3 f32) (local $l4 f32) (local $l5 f32)
+    local.get $p0
+    i32.const 1058642330
+    i32.store offset=64
+    i64.const 4474776592510143693
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=56
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=60
+    i64.const 4392630932040046346
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=48
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=52
+    local.get $p0
+    i32.const 257
+    i32.store16 offset=44
+    i32.const 5156932
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+      call $j922
+      i32.const 5156932
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.set $p1
+    local.get $p1
+    i32.load offset=24
+    i64.extend_i32_u
+    local.get $p1
+    i32.load offset=28
+    i64.extend_i32_u
+    i64.const 32
+    i64.shl
+    i64.or
+    local.set $l2
+    local.get $p0
+    local.get $p1
+    i32.load offset=32
+    i32.store offset=76
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=68
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=72
+    i32.const 5156932
+    i32.load8_u
+    i32.eqz
+    if $I1
+      i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+      call $j922
+      i32.const 5156932
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.set $p1
+    local.get $p1
+    f32.load offset=32
+    local.set $l3
+    local.get $p1
+    f32.load offset=24
+    f32.const 0x1.99999ap-4 (;=0.1;)
+    f32.mul
+    local.set $l4
+    local.get $p1
+    f32.load offset=28
+    f32.const 0x1.99999ap-4 (;=0.1;)
+    f32.mul
+    local.set $l5
+    i64.const 4593671620984936858
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=264
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=268
+    local.get $p0
+    i32.const 1065353216
+    i32.store offset=252
+    i64.const 4575657221408423936
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=244
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=248
+    i64.const 4417130516425841050
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=236
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=240
+    i64.const 4503599628398939341
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=228
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=232
+    i64.const 4489188110491451392
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=208
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=212
+    i64.const 4489188110473835315
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=200
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=204
+    i64.const 5331799245
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=172
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=176
+    i64.const 4453159313448160461
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=164
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=168
+    local.get $p0
+    i32.const 1041865114
+    i32.store offset=136
+    i64.const 4489188110458735821
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=92
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=96
+    local.get $p0
+    local.get $l3
+    f32.const 0x1.99999ap-4 (;=0.1;)
+    f32.mul
+    f32.store offset=88
+    local.get $p0
+    local.get $l5
+    f32.store offset=84
+    local.get $p0
+    local.get $l4
+    f32.store offset=80
+    local.get $p0
+    i32.const 0
+    call $j1792) ;; AssetPackBase<object>$$.ctor | LoadConfig$$.ctor | BDuckBtnDataSO$$.ctor | BDuckPopDataSO$$.ctor

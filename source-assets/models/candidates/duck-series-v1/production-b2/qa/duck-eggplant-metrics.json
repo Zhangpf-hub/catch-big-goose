@@ -1,0 +1,23 @@
+{
+  "id": "duck-eggplant",
+  "triangles": 2780,
+  "dimensions": [
+    0.5644267201423645,
+    0.6037569642066956,
+    0.9999999403953552
+  ],
+  "sourceCenter": [
+    -0.04976090043783188,
+    -0.005856320261955261,
+    0.4312342405319214
+  ],
+  "sourceExtent": 0.8495904207229614,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 66796,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

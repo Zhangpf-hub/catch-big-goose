@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3aeee7aa-4586-4899-84df-a7bc41954ae8",
+  "files": [],
+  "subMetas": {
+    "5ca58": {
+      "importer": "gltf-mesh",
+      "uuid": "3aeee7aa-4586-4899-84df-a7bc41954ae8@5ca58",
+      "displayName": "",
+      "id": "5ca58",
+      "name": "Crystal_Big.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 590
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "89a26": {
+      "importer": "gltf-material",
+      "uuid": "3aeee7aa-4586-4899-84df-a7bc41954ae8@89a26",
+      "displayName": "",
+      "id": "89a26",
+      "name": "Atlas.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7cac6": {
+      "importer": "gltf-scene",
+      "uuid": "3aeee7aa-4586-4899-84df-a7bc41954ae8@7cac6",
+      "displayName": "",
+      "id": "7cac6",
+      "name": "yushi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3aeee7aa-4586-4899-84df-a7bc41954ae8@5ca58"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3aeee7aa-4586-4899-84df-a7bc41954ae8@89a26"
+      ],
+      "scenes": [
+        "3aeee7aa-4586-4899-84df-a7bc41954ae8@7cac6"
+      ]
+    }
+  }
+}

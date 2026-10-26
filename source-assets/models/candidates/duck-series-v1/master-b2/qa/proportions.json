@@ -1,0 +1,10 @@
+{
+  "headWidth": 0.10951795428991318,
+  "torsoWidthExcludingWings": 0.27577412128448486,
+  "singleFootWidth": 0.09080868493765593,
+  "neckWidthAtZ078": 0.08081897348165512,
+  "headToTorsoWidth": 0.3971291931955281,
+  "footToTorsoWidth": 0.3292864628294071,
+  "unit": "full mother model maximum edge = 1",
+  "source": "evaluated mobile mesh vertices grouped by authored part; descriptive metrics, not user acceptance"
+}

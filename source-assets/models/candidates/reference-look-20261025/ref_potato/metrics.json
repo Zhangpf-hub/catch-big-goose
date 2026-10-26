@@ -1,0 +1,12 @@
+{
+  "id": "ref_potato",
+  "triangles": 523,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.4529942572116852,
+    1.0,
+    0.41408243775367737
+  ],
+  "glbRoundtrip": true
+}

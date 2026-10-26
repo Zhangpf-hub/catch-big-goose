@@ -1,0 +1,12 @@
+{
+  "id": "ref_orange",
+  "triangles": 480,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    1.0,
+    0.9277984499931335,
+    0.9350409507751465
+  ],
+  "glbRoundtrip": true
+}

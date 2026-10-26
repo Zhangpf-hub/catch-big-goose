@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRaceCar\\tex_6189610543022139681.png",
+      "uvMin": [
+        0.009861277416348457,
+        0.006595909595489502
+      ],
+      "uvMax": [
+        0.987628698348999,
+        0.9949312210083008
+      ]
+    },
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRaceCar\\tex_6189610543022139681.png",
+      "uvMin": [
+        0.623025119304657,
+        0.007918132469058037
+      ],
+      "uvMax": [
+        0.9581292271614075,
+        0.80180823802948
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\ref_gtracecar\\albedo.png"
+}

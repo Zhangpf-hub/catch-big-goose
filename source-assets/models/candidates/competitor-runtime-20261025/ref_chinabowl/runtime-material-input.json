@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "China BowlMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-5855036806989603101.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

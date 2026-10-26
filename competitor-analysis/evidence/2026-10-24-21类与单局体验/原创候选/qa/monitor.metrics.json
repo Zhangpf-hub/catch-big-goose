@@ -1,0 +1,28 @@
+{
+  "id": "monitor",
+  "theme": "electronics",
+  "triangles": 648,
+  "vertices": 336,
+  "blenderBounds": [
+    1.0,
+    0.3636363446712494,
+    0.9204545617103577
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 16572,
+  "sha256": "d160094dd782b21f4baafc2ca4d03b9cb27f00fc3db17e8b20eb353509bd0267",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

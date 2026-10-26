@@ -1,0 +1,10 @@
+{
+  "bones": 4,
+  "unweightedVertices": 0,
+  "clips": [
+    "Idle",
+    "Peek",
+    "Bounce"
+  ],
+  "note": "Neck articulation with planted legs. No locomotion clip in this pass."
+}

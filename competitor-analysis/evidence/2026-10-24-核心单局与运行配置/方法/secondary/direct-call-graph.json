@@ -1,0 +1,1341 @@
+[
+  {
+    "symbol": "$j72349",
+    "methodAliases": [
+      "ServerFileCreate.<>c__DisplayClass47_0$$<GetCommonTimeAsyn>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72168",
+    "methodAliases": [
+      "ServerFileCreate.<>c__DisplayClass74_0$$<GetServerFlagData>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 4,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72167",
+    "methodAliases": [
+      "ServerFileCreate.<>c__DisplayClass74_0$$<GetServerFlagData>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 8,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80611",
+    "methodAliases": [
+      "ServerFileCreate$$SaveShareADListFile"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80613",
+    "methodAliases": [
+      "ServerFileCreate$$SaveServerVarFile"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80610",
+    "methodAliases": [
+      "ServerFileCreate$$SaveTimeDataFile"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80606",
+    "methodAliases": [
+      "ServerFileCreate$$get_LoadNetConfigComplete"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80614",
+    "methodAliases": [
+      "ServerFileCreate$$SaveHotFixScriptable"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80612",
+    "methodAliases": [
+      "ServerFileCreate$$SaveServerWarnDataFile"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j2284",
+    "methodAliases": [
+      "CommonArchive$$get_IsNewPlayer",
+      "ServerFileCreate$$GetServerConfigCdnHead",
+      "UIQuizQuestionItem$$get_AddScore",
+      "CardCollecting.UICardCollectingInviteItem$$get_PackageId",
+      "UnityEngine.UIElements.FocusEventBase<object>$$get_relatedTarget",
+      "UnityEngine.UIElements.KeyboardEventBase<object>$$get_modifiers",
+      "UnityEngine.UIElements.MouseEventBase<object>$$get_modifiers",
+      "UnityEngine.UIElements.NavigationMoveEvent$$get_direction",
+      "UnityEngine.UIElements.PanelChangedEventBase<object>$$get_originPanel",
+      "UnityEngine.UIElements.PointerEventBase<object>$$get_pointerId",
+      "UnityEngine.UIElements.TransitionEventBase<object>$$get_stylePropertyNames",
+      "Mono.Unity.UnityTlsContext$$get_RemoteCertificate",
+      "Mono.Net.Security.MobileAuthenticatedStream$$get_Provider",
+      "System.Net.Cookie$$get_Value",
+      "System.Net.HttpWebRequest$$get_Headers",
+      "System.Net.ServicePoint$$get_ConnectionLimit",
+      "System.Net.WebResponseStream$$get_StatusCode",
+      "FairyGUI.GObject$$get_parent",
+      "System.Xml.XmlException$$get_LineNumber",
+      "System.Xml.Schema.SchemaAttDef$$get_Reserved",
+      "Spine.SkeletonData$$get_AudioPath",
+      "Spine.Unity.SkeletonRenderer$$get_CustomSlotMaterials",
+      "System.Runtime.Serialization.ClassDataContract.ClassDataContractCriticalHelper$$get_ChildElementNamespaces",
+      "System.Runtime.Serialization.CollectionDataContract.CollectionDataContractCriticalHelper$$get_ItemName",
+      "UnityEngine.UI.GridLayoutGroup$$get_constraint",
+      "UnityEngine.EventSystems.StandaloneInputModule$$GetCurrentFocusedGameObject",
+      "UnityEngine.GUISkin$$get_horizontalScrollbarLeftButton"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80609",
+    "methodAliases": [
+      "ServerFileCreate$$ToPrettyJson"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j43819",
+        "methodAliases": [
+          "LitJson.JsonMapper$$ToJson"
+        ]
+      }
+    ],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j80615",
+    "methodAliases": [
+      "ServerFileCreate$$SaveABTestDataFile"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72682",
+    "methodAliases": [
+      "EndlessLevelMa.<>c__DisplayClass20_0$$<LoadLongLevel>b__0"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j46543",
+        "methodAliases": [
+          "EndlessLevelMa$$LoadCompelet"
+        ]
+      }
+    ],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j101297",
+    "methodAliases": [
+      "EndlessLevelMa$$GetCurPlayingLevelID"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j23325",
+    "methodAliases": [
+      "EndlessLevelMa$$SetEndlessLevelData"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j7596",
+        "methodAliases": [
+          "ConfigManager$$GetEndlessLevelInfoData"
+        ]
+      }
+    ],
+    "indirectCalls": 24,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j46546",
+    "methodAliases": [
+      "EndlessLevelMa$$GetEndlessLevel0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 9,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j23324",
+    "methodAliases": [
+      "EndlessLevelMa$$StartLevel"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j35838",
+        "methodAliases": [
+          "ThinkingManager$$EndlessLevelRestart"
+        ]
+      }
+    ],
+    "indirectCalls": 10,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j101296",
+    "methodAliases": [
+      "EndlessLevelMa$$ResumeAddTime"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j15162",
+    "methodAliases": [
+      "EndlessLevelMa$$UseEnergyStartGame"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j23324",
+        "methodAliases": [
+          "EndlessLevelMa$$StartLevel"
+        ]
+      },
+      {
+        "symbol": "$j23327",
+        "methodAliases": [
+          "EndlessLevelMa$$GetEnergySave"
+        ]
+      },
+      {
+        "symbol": "$j46548",
+        "methodAliases": [
+          "EndlessLevelMa$$AddEnergySave"
+        ]
+      }
+    ],
+    "indirectCalls": 11,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j23326",
+    "methodAliases": [
+      "EndlessLevelMa$$LoadLongLevel"
+    ],
+    "directCalls": [],
+    "indirectCalls": 62,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j46543",
+    "methodAliases": [
+      "EndlessLevelMa$$LoadCompelet"
+    ],
+    "directCalls": [],
+    "indirectCalls": 16,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j7513",
+    "methodAliases": [
+      "EndlessLevelMa$$GetEndlessLevelSave"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j46547",
+    "methodAliases": [
+      "EndlessLevelMa$$AddLevel"
+    ],
+    "directCalls": [],
+    "indirectCalls": 14,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j46542",
+    "methodAliases": [
+      "EndlessLevelMa$$SetLevel"
+    ],
+    "directCalls": [],
+    "indirectCalls": 3,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j46545",
+    "methodAliases": [
+      "EndlessLevelMa$$GetGoldCountSave"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j23327",
+    "methodAliases": [
+      "EndlessLevelMa$$GetEnergySave"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j46548",
+    "methodAliases": [
+      "EndlessLevelMa$$AddEnergySave"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j101298",
+    "methodAliases": [
+      "EndlessLevelMa$$GetChapterGoose"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j23928",
+        "methodAliases": [
+          "ConfigManager$$GetEndlessLevelChapterData"
+        ]
+      },
+      {
+        "symbol": "$j7596",
+        "methodAliases": [
+          "ConfigManager$$GetEndlessLevelInfoData"
+        ]
+      }
+    ],
+    "indirectCalls": 3,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j101299",
+    "methodAliases": [
+      "EndlessLevelMa$$CheckLevelDataError"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j13624",
+        "methodAliases": [
+          "System.String$$Contains"
+        ]
+      }
+    ],
+    "indirectCalls": 22,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94014",
+    "methodAliases": [
+      "MainLevelModeCtrl$$get_Instance"
+    ],
+    "directCalls": [],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94013",
+    "methodAliases": [
+      "MainLevelModeCtrl$$set_Instance"
+    ],
+    "directCalls": [],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94039",
+    "methodAliases": [
+      "MainLevelModeCtrl$$ICloseLevelScene"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j24228",
+        "methodAliases": [
+          "CameraControl$$ResetCameraPos"
+        ]
+      }
+    ],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94037",
+    "methodAliases": [
+      "MainLevelModeCtrl$$IGameLoseThinking"
+    ],
+    "directCalls": [],
+    "indirectCalls": 22,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j22130",
+    "methodAliases": [
+      "MainLevelModeCtrl$$NorEnterNextMainLevel"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94016",
+    "methodAliases": [
+      "MainLevelModeCtrl$$<IGetAllLevelObj>b__28_0"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j22130",
+        "methodAliases": [
+          "MainLevelModeCtrl$$NorEnterNextMainLevel"
+        ]
+      }
+    ],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94015",
+    "methodAliases": [
+      "MainLevelModeCtrl$$<IGetAllLevelObj>b__28_2"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j22130",
+        "methodAliases": [
+          "MainLevelModeCtrl$$NorEnterNextMainLevel"
+        ]
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j43568",
+    "methodAliases": [
+      "LevelDataHelper$$get_AllLevelDictByIndex"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$fimport$0",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$1",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$10",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$12",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$13",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$16",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$2",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$3",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$4",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$5",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$6",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$7",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$9",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j28525",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 21,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73631",
+    "methodAliases": [
+      "LevelManager.<>c$$<CheckSubmit>b__84_1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74274",
+    "methodAliases": [
+      "LevelManager.<DelayToShowHand>d__105$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 3,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74273",
+    "methodAliases": [
+      "LevelManager.<DelayToShowHand>d__105$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74023",
+    "methodAliases": [
+      "LevelManager.<LoopCreateObj>d__187$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74019",
+    "methodAliases": [
+      "LevelManager.<LoopCrowObjSize>d__192$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74001",
+    "methodAliases": [
+      "LevelManager.<LoopOptimization>d__196$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74033",
+    "methodAliases": [
+      "LevelManager.<LoopCheckLoseObj>d__199$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74390",
+    "methodAliases": [
+      "LevelManager.<CountDownTime>d__202$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74198",
+    "methodAliases": [
+      "LevelManager.<EndlessTime>d__203$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74325",
+    "methodAliases": [
+      "LevelManager.<DelayToCheckContent>d__226$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74251",
+    "methodAliases": [
+      "LevelManager.<DestroyAnim>d__227$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74293",
+    "methodAliases": [
+      "LevelManager.<DelayToLose>d__272$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j71632",
+    "methodAliases": [
+      "LevelManager.<WindObj>d__284$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 19,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j71631",
+    "methodAliases": [
+      "LevelManager.<WindObj>d__284$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74415",
+    "methodAliases": [
+      "LevelManager.<ClawObj>d__288$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 62,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74414",
+    "methodAliases": [
+      "LevelManager.<ClawObj>d__288$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74413",
+    "methodAliases": [
+      "LevelManager.<ClawTargetObj>d__289$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 36,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74412",
+    "methodAliases": [
+      "LevelManager.<ClawTargetObj>d__289$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74180",
+    "methodAliases": [
+      "LevelManager.<FingHighlight>d__292$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72540",
+    "methodAliases": [
+      "LevelManager.<>c__DisplayClass297_0$$<MessObjPosAnim>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73984",
+    "methodAliases": [
+      "LevelManager.<MessObjPosAnim>d__297$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 95,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73983",
+    "methodAliases": [
+      "LevelManager.<MessObjPosAnim>d__297$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73981",
+    "methodAliases": [
+      "LevelManager.<MessObjRotaAnim>d__301$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74028",
+    "methodAliases": [
+      "LevelManager.<LoopCheckTip>d__331$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 14,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74027",
+    "methodAliases": [
+      "LevelManager.<LoopCheckTip>d__331$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73966",
+    "methodAliases": [
+      "LevelManager.<NewGuideLevel1EndAnim>d__345$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 36,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73965",
+    "methodAliases": [
+      "LevelManager.<NewGuideLevel1EndAnim>d__345$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j71642",
+    "methodAliases": [
+      "LevelManager.<WaitTimeAndClick>d__346$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j71641",
+    "methodAliases": [
+      "LevelManager.<WaitTimeAndClick>d__346$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74583",
+    "methodAliases": [
+      "LevelManager.<AddObjAnim>d__365$$MoveNext"
+    ],
+    "directCalls": [],
+    "indirectCalls": 61,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74582",
+    "methodAliases": [
+      "LevelManager.<AddObjAnim>d__365$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95037",
+    "methodAliases": [
+      "LevelManager$$GetCurLevelData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95017",
+    "methodAliases": [
+      "LevelManager$$OtherControlType"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j48979",
+        "methodAliases": [
+          "CameraControl$$AddCameraOffset"
+        ]
+      }
+    ],
+    "indirectCalls": 9,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95014",
+    "methodAliases": [
+      "LevelManager$$SetMaxHeight"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95035",
+    "methodAliases": [
+      "LevelManager$$GetMaxHeight"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95034",
+    "methodAliases": [
+      "LevelManager$$GetMinTouchHeight"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95032",
+    "methodAliases": [
+      "LevelManager$$GetTargetCard"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95033",
+    "methodAliases": [
+      "LevelManager$$GetObjBoxTrans"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j45770",
+    "methodAliases": [
+      "LevelManager$$GetLevelProgress",
+      "UnityEngine.TextCore.Text.FontAsset$$get_regularStyleSpacing"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95015",
+    "methodAliases": [
+      "LevelManager$$ResetShakeData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95005",
+    "methodAliases": [
+      "LevelManager$$WindObj"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95012",
+    "methodAliases": [
+      "LevelManager$$SetShakeData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95018",
+    "methodAliases": [
+      "LevelManager$$OnStartGameReset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95021",
+    "methodAliases": [
+      "LevelManager$$NewGuideState"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j43530",
+    "methodAliases": [
+      "LevelManager$$InitCameraMove"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j24228",
+        "methodAliases": [
+          "CameraControl$$ResetCameraPos"
+        ]
+      },
+      {
+        "symbol": "$j37543",
+        "methodAliases": [
+          "SpModeLongTableMa$$InitCamera"
+        ]
+      }
+    ],
+    "indirectCalls": 4,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95007",
+    "methodAliases": [
+      "LevelManager$$<Start>b__83_0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94047",
+    "methodAliases": [
+      "MainLevelManager$$get_SelectedStar"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94043",
+    "methodAliases": [
+      "MainLevelManager$$set_SelectedStar"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94048",
+    "methodAliases": [
+      "MainLevelManager$$get_CurStar"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94044",
+    "methodAliases": [
+      "MainLevelManager$$set_CurStar"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94045",
+    "methodAliases": [
+      "MainLevelManager$$set_CurIndexType"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94046",
+    "methodAliases": [
+      "MainLevelManager$$get_StartAdSharePosition"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j94051",
+    "methodAliases": [
+      "MainLevelManager$$GetFunctionIdByStar"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91094",
+    "methodAliases": [
+      "ObjectUnit$$CanBeSelect"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j71886",
+    "methodAliases": [
+      "SpModeLongTableMa.<>c$$.cctor"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73253",
+    "methodAliases": [
+      "SpModeLongTableMa.<>c$$<SetCameraPos>b__23_0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j37542",
+    "methodAliases": [
+      "SpModeLongTableMa$$IsPointerOverUI"
+    ],
+    "directCalls": [],
+    "indirectCalls": 3,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j37543",
+    "methodAliases": [
+      "SpModeLongTableMa$$InitCamera"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j37545",
+    "methodAliases": [
+      "SpModeLongTableMa$$CtrlCamera"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j19972",
+        "methodAliases": [
+          "SpModeLongTableMa$$GetMousePos"
+        ]
+      }
+    ],
+    "indirectCalls": 50,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j19972",
+    "methodAliases": [
+      "SpModeLongTableMa$$GetMousePos"
+    ],
+    "directCalls": [],
+    "indirectCalls": 16,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j37544",
+    "methodAliases": [
+      "SpModeLongTableMa$$HasMoveOverLimit"
+    ],
+    "directCalls": [],
+    "indirectCalls": 3,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j19971",
+    "methodAliases": [
+      "SpModeLongTableMa$$SetCameraPos"
+    ],
+    "directCalls": [],
+    "indirectCalls": 19,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74037",
+    "methodAliases": [
+      "NetDataManager.<LoopCheckDay>d__26$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73464",
+    "methodAliases": [
+      "NetDataManager.<>c$$<LoadLibraryChiForestOrder>b__112_0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73462",
+    "methodAliases": [
+      "NetDataManager.<>c$$<LoadRedPacketRankList>b__116_0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72109",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass87_0$$<RefreshTeamListData>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 3,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72107",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72105",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__2"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72106",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72103",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 8,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72102",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__2"
+    ],
+    "directCalls": [],
+    "indirectCalls": 4,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j7003",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__1",
+      "NetDataManager.<>c__DisplayClass125_0$$<GetRedPacketResult>b__1",
+      "NetDataManager.<>c__DisplayClass126_0$$<GetAdvertInfo>b__1",
+      "NetworkHelper.<>c__DisplayClass46_0$$<CreatTeam>b__1",
+      "Kunpo.PayHttpHelper.<>c__DisplayClass2_0$$<CreateOrder>b__1",
+      "Kunpo.PayHttpHelper.<>c__DisplayClass4_0$$<CancelOrder>b__1",
+      "Kunpo.PayHttpHelper.<>c__DisplayClass7_0$$<VerifyOrder>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72936",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass113_0$$<UploadLibraryChiForestOrderInfo>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 10,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72935",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass113_0$$<UploadLibraryChiForestOrderInfo>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 15,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72933",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass114_0$$<GetLibraryChiForestGooseCount>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 6,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72932",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass114_0$$<GetLibraryChiForestGooseCount>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72926",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass117_0$$<GetRedPacketReward>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72925",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass118_0$$<ConfirmAndReissueRedPacketOrder>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72923",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass119_0$$<GetRedPacketCurrentInfo>b__1"
+    ],
+    "directCalls": [],
+    "indirectCalls": 7,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72895",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass120_0$$<ExchangePuzzle>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 4,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j72892",
+    "methodAliases": [
+      "NetDataManager.<>c__DisplayClass123_0$$<GetRedPacketRightPeopleCount>b__0"
+    ],
+    "directCalls": [],
+    "indirectCalls": 4,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91751",
+    "methodAliases": [
+      "NetDataManager$$get_DailyOverrideLevelIndex"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91757",
+    "methodAliases": [
+      "NetDataManager$$SetDailyBaseLevelIndex"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91764",
+    "methodAliases": [
+      "NetDataManager$$GetPublicNetSaveData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91755",
+    "methodAliases": [
+      "NetDataManager$$SetPublicNetSaveData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91763",
+    "methodAliases": [
+      "NetDataManager$$GetSelfNetSaveData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91756",
+    "methodAliases": [
+      "NetDataManager$$SetGlobalData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j91765",
+    "methodAliases": [
+      "NetDataManager$$GetGlobalData"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j41863",
+    "methodAliases": [
+      "NetDataManager$$AddResource"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  }
+]

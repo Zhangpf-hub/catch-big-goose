@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "shabao",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-2276178611983812176.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

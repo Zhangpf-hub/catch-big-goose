@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="10" result="Passed" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.0573957">
+  <test-suite type="TestSuite" id="1021" name="抓住大鹅" fullname="抓住大鹅" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.057396" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1039" name="CatchGoose.Tests.dll" fullname="D:/开发/Catch-big-goose-master/unity/Library/ScriptAssemblies/CatchGoose.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.047745" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="15068" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1040" name="CatchGoose" fullname="CatchGoose" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.047475" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1041" name="Tests" fullname="CatchGoose.Tests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.047373" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1025" name="GooseColliderProfileTests" fullname="CatchGoose.Tests.GooseColliderProfileTests" classname="CatchGoose.Tests.GooseColliderProfileTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.033008" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1029" name="ComplexModelsKeepConvexFallback" fullname="CatchGoose.Tests.GooseColliderProfileTests.ComplexModelsKeepConvexFallback" methodname="ComplexModelsKeepConvexFallback" classname="CatchGoose.Tests.GooseColliderProfileTests" runstate="Runnable" seed="1516218903" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.008071" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1028" name="ProfileEnclosesTransformedVisualBounds" fullname="CatchGoose.Tests.GooseColliderProfileTests.ProfileEnclosesTransformedVisualBounds" classname="CatchGoose.Tests.GooseColliderProfileTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.016124" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1026" name="ProfileEnclosesTransformedVisualBounds(&quot;corn&quot;,True)" fullname="CatchGoose.Tests.GooseColliderProfileTests.ProfileEnclosesTransformedVisualBounds(&quot;corn&quot;,True)" methodname="ProfileEnclosesTransformedVisualBounds" classname="CatchGoose.Tests.GooseColliderProfileTests" runstate="Runnable" seed="2134238282" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.014090" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1027" name="ProfileEnclosesTransformedVisualBounds(&quot;phone&quot;,False)" fullname="CatchGoose.Tests.GooseColliderProfileTests.ProfileEnclosesTransformedVisualBounds(&quot;phone&quot;,False)" methodname="ProfileEnclosesTransformedVisualBounds" classname="CatchGoose.Tests.GooseColliderProfileTests" runstate="Runnable" seed="433209557" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.000717" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1030" name="GooseDepthIntegrationTests" fullname="CatchGoose.Tests.GooseDepthIntegrationTests" classname="CatchGoose.Tests.GooseDepthIntegrationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.002875" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1031" name="HiddenHeldItemRetainsSupportAndCanWake" fullname="CatchGoose.Tests.GooseDepthIntegrationTests.HiddenHeldItemRetainsSupportAndCanWake" methodname="HiddenHeldItemRetainsSupportAndCanWake" classname="CatchGoose.Tests.GooseDepthIntegrationTests" runstate="Runnable" seed="1665402246" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.001999" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1032" name="PickedItemIsNeverReactivatedByDepthPolicy" fullname="CatchGoose.Tests.GooseDepthIntegrationTests.PickedItemIsNeverReactivatedByDepthPolicy" methodname="PickedItemIsNeverReactivatedByDepthPolicy" classname="CatchGoose.Tests.GooseDepthIntegrationTests" runstate="Runnable" seed="2023217213" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.000246" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1033" name="GooseRulesTests" fullname="CatchGoose.Tests.GooseRulesTests" classname="CatchGoose.Tests.GooseRulesTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.010845" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1038" name="FullTrayRejectsAnEighthEntry" fullname="CatchGoose.Tests.GooseRulesTests.FullTrayRejectsAnEighthEntry" methodname="FullTrayRejectsAnEighthEntry" classname="CatchGoose.Tests.GooseRulesTests" runstate="Runnable" seed="522326295" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.002986" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1034" name="LevelCountsAndCompleteTriples" fullname="CatchGoose.Tests.GooseRulesTests.LevelCountsAndCompleteTriples" methodname="LevelCountsAndCompleteTriples" classname="CatchGoose.Tests.GooseRulesTests" runstate="Runnable" seed="2135495192" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.003954" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1036" name="MatchingSeventhItemFreesSpaceBeforeFailure" fullname="CatchGoose.Tests.GooseRulesTests.MatchingSeventhItemFreesSpaceBeforeFailure" methodname="MatchingSeventhItemFreesSpaceBeforeFailure" classname="CatchGoose.Tests.GooseRulesTests" runstate="Runnable" seed="1690100881" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.000466" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1037" name="SameIdsStayAdjacentAndRemoveConservesItems" fullname="CatchGoose.Tests.GooseRulesTests.SameIdsStayAdjacentAndRemoveConservesItems" methodname="SameIdsStayAdjacentAndRemoveConservesItems" classname="CatchGoose.Tests.GooseRulesTests" runstate="Runnable" seed="2110279718" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.002018" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1035" name="SeededQueuesReproduceAcrossRetries" fullname="CatchGoose.Tests.GooseRulesTests.SeededQueuesReproduceAcrossRetries" methodname="SeededQueuesReproduceAcrossRetries" classname="CatchGoose.Tests.GooseRulesTests" runstate="Runnable" seed="1653711327" result="Passed" start-time="2026-10-22 15:51:28Z" end-time="2026-10-22 15:51:28Z" duration="0.000665" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

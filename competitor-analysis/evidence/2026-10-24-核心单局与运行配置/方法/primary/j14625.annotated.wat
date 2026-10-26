@@ -1,0 +1,650 @@
+  (func $j14625 (type $t2) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    (local $l3 i32) (local $l4 i32) (local $l5 i32) (local $l6 i32) (local $l7 i32) (local $l8 f32) (local $l9 f32) (local $l10 f32) (local $l11 f32) (local $l12 f32) (local $l13 f32) (local $l14 f32) (local $l15 i64)
+    global.get $primary.global$0
+    i32.const 144
+    i32.sub
+    local.set $p2
+    local.get $p2
+    global.set $primary.global$0
+    i32.const 5140074
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3953888 ;; UnityEngine.Debug_TypeInfo
+      call $j922
+      i32.const 4026512 ;; Method$UnityEngine.GameObject.GetComponent<ObjectUnit>()
+      call $j922
+      i32.const 4026520 ;; Method$UnityEngine.GameObject.GetComponent<PVPToolObjItem>()
+      call $j922
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      call $j922
+      i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+      call $j922
+      i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+      call $j922
+      i32.const 3959844 ;; PVPManager_TypeInfo
+      call $j922
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      call $j922
+      i32.const 3965088 ;; VibrationsMa_TypeInfo
+      call $j922
+      i32.const 4123832 ;; 未检测到物品
+      call $j922
+      i32.const 4087428 ;; Object
+      call $j922
+      i32.const 5140074
+      i32.const 1
+      i32.store8
+    end
+    local.get $p1
+    i32.const 1
+    i32.eq
+    local.set $l3
+    local.get $p0
+    i32.const 424
+    i32.add
+    local.get $p0
+    i32.const 432
+    i32.add
+    local.get $l3
+    select
+    local.set $l4
+    local.get $l4
+    i32.load
+    i64.extend_i32_u
+    local.get $l4
+    i32.load offset=4
+    i64.extend_i32_u
+    i64.const 32
+    i64.shl
+    i64.or
+    local.set $l15
+    local.get $p0
+    i32.const 212
+    i32.const 276
+    local.get $l3
+    select
+    i32.add
+    i32.load
+    local.set $l6
+    local.get $p0
+    i32.load offset=104
+    local.set $l7
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    call $j923
+    local.get $p2
+    call $j2087 ;; LevelManager$$HasTwoPlayer
+    if $I1
+      local.get $p0
+      i32.load offset=124
+      local.get $p1
+      i32.const 1
+      i32.sub
+      i32.const 2
+      i32.shl
+      i32.add
+      i32.load offset=16
+      local.set $l7
+    end
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    call $j923
+    block $B2
+      block $B3
+        i32.const 3958052 ;; LevelManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=12
+        i32.const 7
+        i32.ne
+        br_if $B3
+        i32.const 3959844 ;; PVPManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 0
+        call $j41314 ;; PVPManager$$IsPointerOverTaggedUI
+        i32.eqz
+        br_if $B3
+        local.get $p0
+        local.get $p1
+        local.get $p2
+        call $j7376 ;; LevelManager$$LostTarget
+        local.get $p2
+        local.get $p2
+        local.get $p2
+        call $j10880 ;; LevelManager$$LosePVPToolObj
+        br $B2
+      end
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      i32.load
+      call $j923
+      block $B4
+        i32.const 0
+        call $j8518 ;; SpModeLongTableMa$$IsCurModeLevel
+        i32.eqz
+        br_if $B4
+        local.get $p2
+        i32.const 104
+        i32.add
+        local.get $p0
+        i32.load offset=144
+        i32.const 0
+        i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+        i32.load
+        call $j947
+        i32.const 0
+        call $j1062 ;; UnityEngine.Transform$$get_position
+        local.get $p2
+        f32.load offset=112
+        local.set $l11
+        local.get $p2
+        f32.load offset=108
+        local.set $l12
+        local.get $p2
+        f32.load offset=104
+        local.set $l9
+        i32.const 5156933
+        i32.load8_u
+        i32.eqz
+        if $I5
+          i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+          call $j922
+          i32.const 5156933
+          i32.const 1
+          i32.store8
+        end
+        i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+        i32.load
+        i32.load offset=92
+        local.set $l3
+        local.get $l3
+        f32.load offset=80
+        local.set $l13
+        local.get $l3
+        f32.load offset=76
+        local.set $l14
+        local.get $l3
+        f32.load offset=72
+        local.set $l10
+        local.get $p2
+        i32.const 104
+        i32.add
+        local.get $p0
+        i32.load offset=144
+        i32.const 1
+        i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+        i32.load
+        call $j947
+        i32.const 0
+        call $j1062 ;; UnityEngine.Transform$$get_position
+        local.get $p2
+        f32.load offset=104
+        local.set $l8
+        local.get $p2
+        i32.const 104
+        i32.add
+        local.get $p0
+        i32.load offset=144
+        i32.const 0
+        i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+        i32.load
+        call $j947
+        i32.const 0
+        call $j1062 ;; UnityEngine.Transform$$get_position
+        local.get $l8
+        local.get $p2
+        f32.load offset=104
+        f32.sub
+        local.set $l8
+        local.get $l9
+        local.get $l10
+        local.get $l8
+        f32.mul
+        f32.const 0x1.333334p-1 (;=0.6;)
+        f32.mul
+        f32.add
+        local.set $l9
+        local.get $l12
+        local.get $l14
+        local.get $l8
+        f32.mul
+        f32.const 0x1.333334p-1 (;=0.6;)
+        f32.mul
+        f32.add
+        local.set $l10
+        local.get $l11
+        local.get $l13
+        local.get $l8
+        f32.mul
+        f32.const 0x1.333334p-1 (;=0.6;)
+        f32.mul
+        f32.add
+        local.set $l8
+        i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+        i32.load
+        call $j923
+        local.get $p2
+        local.get $l8
+        f32.store offset=136
+        local.get $p2
+        local.get $p2
+        i32.load offset=136
+        i32.store offset=56
+        local.get $p2
+        local.get $l10
+        f32.store offset=132
+        local.get $p2
+        local.get $l9
+        f32.store offset=128
+        local.get $p2
+        local.get $p2
+        i64.load offset=128
+        i64.store offset=48
+        local.get $p2
+        i32.const 48
+        i32.add
+        i32.const 0
+        i32.const 18376
+        global.set $__wasm_split_waitTableId
+        i32.const 18376
+        call_indirect $primary.table (type $t1)
+        i32.eqz
+        if $I6
+          i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+          i32.load
+          call $j923
+          i32.const 0
+          i32.const 18380
+          global.set $__wasm_split_waitTableId
+          i32.const 18380
+          call_indirect $primary.table (type $t3)
+          i32.eqz
+          br_if $B4
+        end
+        local.get $p0
+        local.get $p1
+        local.get $p2
+        call $j7376 ;; LevelManager$$LostTarget
+        br $B2
+      end
+      local.get $p2
+      i32.const 0
+      i32.store offset=72
+      local.get $p2
+      i32.const 0
+      i32.store offset=40
+      local.get $p2
+      local.get $l15
+      i64.store offset=64
+      local.get $p2
+      local.get $l15
+      i64.store offset=32
+      local.get $p2
+      i32.const 80
+      i32.add
+      local.get $l7
+      local.get $p2
+      i32.const 32
+      i32.add
+      i32.const 0
+      call $j2543 ;; UnityEngine.Camera$$ScreenPointToRay
+      local.get $p2
+      local.get $p2
+      i64.load offset=96
+      i64.store offset=120
+      local.get $p2
+      local.get $p2
+      i64.load offset=88
+      i64.store offset=112
+      local.get $p2
+      local.get $p2
+      i64.load offset=80
+      i64.store offset=104
+      i32.const 4087428 ;; Object
+      i32.load
+      i32.const 0
+      call $j3478 ;; UnityEngine.LayerMask$$NameToLayer
+      local.set $l3
+      local.get $p2
+      local.get $p2
+      i64.load offset=120
+      i64.store offset=24
+      local.get $p2
+      local.get $p2
+      i64.load offset=112
+      i64.store offset=16
+      local.get $p2
+      local.get $p2
+      i64.load offset=104
+      i64.store offset=8
+      local.get $p0
+      i32.const 216
+      i32.add
+      local.set $l5
+      local.get $p2
+      i32.const 8
+      i32.add
+      local.get $l5
+      f32.const 0x1.9p+6 (;=100;)
+      i32.const 1
+      local.get $l3
+      i32.shl
+      i32.const 0
+      call $j8761 ;; UnityEngine.Physics$$Raycast
+      if $I7
+        i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+        i32.load
+        call $j923
+        local.get $l6
+        i32.const 0
+        i32.const 0
+        call $j971 ;; UnityEngine.Object$$op_Inequality
+        if $I8
+          local.get $l6
+          i32.const 0
+          call $j961 ;; UnityEngine.Component$$get_gameObject
+          local.set $l4
+          local.get $l5
+          i32.const 0
+          call $j8722 ;; UnityEngine.RaycastHit$$get_rigidbody
+          i32.const 0
+          call $j961 ;; UnityEngine.Component$$get_gameObject
+          local.set $l3
+          i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+          i32.load
+          call $j923
+          local.get $l4
+          local.get $l3
+          i32.const 0
+          call $j980 ;; UnityEngine.Object$$op_Equality
+          if $I9
+            local.get $p0
+            i32.const 0
+            local.get $p2
+            call $j14616 ;; LevelManager$$SetTouchPos
+            br $B2
+          end
+          local.get $p0
+          local.get $p2
+          call $j22242 ;; LevelManager$$HasTouchMove
+          i32.eqz
+          br_if $B2
+        end
+        i32.const 3958052 ;; LevelManager_TypeInfo
+        i32.load
+        call $j923
+        block $B10
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load offset=12
+          i32.const 7
+          i32.ne
+          br_if $B10
+          i32.const 3959844 ;; PVPManager_TypeInfo
+          i32.load
+          call $j923
+          i32.const 3959844 ;; PVPManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load offset=32
+          local.set $l3
+          i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+          i32.load
+          call $j923
+          local.get $l3
+          i32.const 0
+          i32.const 0
+          call $j971 ;; UnityEngine.Object$$op_Inequality
+          i32.eqz
+          br_if $B10
+          i32.const 3959844 ;; PVPManager_TypeInfo
+          i32.load
+          call $j923
+          i32.const 3959844 ;; PVPManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load offset=32
+          i32.const 0
+          call $j961 ;; UnityEngine.Component$$get_gameObject
+          local.set $l4
+          local.get $l5
+          i32.const 0
+          call $j8722 ;; UnityEngine.RaycastHit$$get_rigidbody
+          i32.const 0
+          call $j961 ;; UnityEngine.Component$$get_gameObject
+          local.set $l3
+          i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+          i32.load
+          call $j923
+          local.get $l4
+          local.get $l3
+          i32.const 0
+          call $j980 ;; UnityEngine.Object$$op_Equality
+          if $I11
+            local.get $p0
+            i32.const 0
+            local.get $p2
+            call $j14616 ;; LevelManager$$SetTouchPos
+            br $B2
+          end
+          local.get $p0
+          local.get $p2
+          call $j22242 ;; LevelManager$$HasTouchMove
+          i32.eqz
+          br_if $B2
+        end
+        local.get $l5
+        i32.const 0
+        call $j6344 ;; UnityEngine.RaycastHit$$get_transform
+        i32.const 0
+        call $j961 ;; UnityEngine.Component$$get_gameObject
+        i32.const 4026512 ;; Method$UnityEngine.GameObject.GetComponent<ObjectUnit>()
+        i32.load
+        call $j1136
+        local.set $l3
+        i32.const 3958052 ;; LevelManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 3958052 ;; LevelManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=12
+        i32.const 7
+        i32.eq
+        if $I12
+          i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+          i32.load
+          call $j923
+          local.get $l3
+          i32.const 0
+          i32.const 0
+          call $j980 ;; UnityEngine.Object$$op_Equality
+          if $I13
+            local.get $l5
+            i32.const 0
+            call $j6344 ;; UnityEngine.RaycastHit$$get_transform
+            i32.const 0
+            call $j961 ;; UnityEngine.Component$$get_gameObject
+            i32.const 4026520 ;; Method$UnityEngine.GameObject.GetComponent<PVPToolObjItem>()
+            i32.load
+            call $j1136
+            local.set $l3
+            i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+            i32.load
+            call $j923
+            local.get $l3
+            i32.const 0
+            i32.const 0
+            call $j971 ;; UnityEngine.Object$$op_Inequality
+            if $I14
+              i32.const 3959844 ;; PVPManager_TypeInfo
+              i32.load
+              call $j923
+              i32.const 3959844 ;; PVPManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              local.get $l3
+              i32.store offset=32
+              i32.const 3959844 ;; PVPManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              drop
+              local.get $p0
+              local.get $p1
+              local.get $p2
+              call $j7376 ;; LevelManager$$LostTarget
+              br $B2
+            end
+            i32.const 3953888 ;; UnityEngine.Debug_TypeInfo
+            i32.load
+            call $j923
+            i32.const 4123832 ;; 未检测到物品
+            i32.load
+            i32.const 0
+            call $j1075 ;; UnityEngine.Debug$$LogWarning
+            br $B2
+          end
+          local.get $p2
+          local.get $p2
+          local.get $p2
+          call $j10880 ;; LevelManager$$LosePVPToolObj
+        end
+        block $B15
+          i32.const 0
+          i32.const 0
+          call $j2527 ;; UnityEngine.Input$$GetMouseButtonDown
+          i32.eqz
+          br_if $B15
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          local.get $p2
+          call $j2087 ;; LevelManager$$HasTwoPlayer
+          br_if $B15
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          local.get $p2
+          call $j6451 ;; LevelManager$$CanUseNewAnim
+          if $I16
+            local.get $p0
+            i32.load offset=612
+            i32.load offset=56
+            i32.load8_u offset=45
+            i32.eqz
+            br_if $B15
+          end
+          local.get $l3
+          i32.const 0
+          call $j1139 ;; UnityEngine.Object$$get_name
+          local.set $l4
+          i32.const 3965088 ;; VibrationsMa_TypeInfo
+          i32.load
+          call $j923
+          local.get $l4
+          i32.const 0
+          call $j6927 ;; VibrationsMa$$PlayVibration
+        end
+        i32.const 0
+        local.set $l4
+        block $B17
+          local.get $l3
+          i32.load8_u offset=16
+          i32.eqz
+          br_if $B17
+          local.get $l3
+          i32.load8_u offset=17
+          br_if $B17
+          local.get $l3
+          i32.load8_u offset=92
+          i32.const 0
+          i32.ne
+          local.set $l4
+        end
+        local.get $l4
+        i32.eqz
+        br_if $B2
+        local.get $p0
+        i32.const 0
+        local.get $p2
+        call $j14616 ;; LevelManager$$SetTouchPos
+        i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+        i32.load
+        call $j923
+        local.get $l6
+        i32.const 0
+        i32.const 0
+        call $j971 ;; UnityEngine.Object$$op_Inequality
+        if $I18
+          local.get $l6
+          i32.const 0
+          i32.const 0
+          i32.const 0
+          call $j7289 ;; ObjectUnit$$BeSelect
+        end
+        local.get $l3
+        i32.const 1
+        local.get $l7
+        i32.const 0
+        call $j979 ;; UnityEngine.Component$$get_transform
+        i32.const 0
+        call $j7289 ;; ObjectUnit$$BeSelect
+        local.get $p0
+        i32.load offset=72
+        local.get $p1
+        i32.const 1
+        i32.sub
+        i32.const 2
+        i32.shl
+        i32.add
+        i32.load offset=16
+        local.get $l3
+        i32.const 0
+        call $j979 ;; UnityEngine.Component$$get_transform
+        i32.const 0
+        call $j8984 ;; HighlightPlus.HighlightEffect$$SetTarget
+        local.get $p0
+        i32.load offset=72
+        local.get $p1
+        i32.const 1
+        i32.sub
+        i32.const 2
+        i32.shl
+        i32.add
+        i32.load offset=16
+        i32.const 1
+        i32.const 0
+        call $j3070 ;; HighlightPlus.HighlightEffect$$SetHighlighted
+        local.get $p1
+        i32.const 1
+        i32.eq
+        if $I19
+          local.get $p0
+          i32.const 212
+          i32.add
+          local.get $l3
+          i32.store
+          br $B2
+        end
+        local.get $p0
+        i32.const 276
+        i32.add
+        local.get $l3
+        i32.store
+        br $B2
+      end
+      local.get $p0
+      local.get $p1
+      local.get $p2
+      call $j7376 ;; LevelManager$$LostTarget
+      local.get $p2
+      local.get $p2
+      local.get $p2
+      call $j10880 ;; LevelManager$$LosePVPToolObj
+    end
+    local.get $p2
+    i32.const 144
+    i32.add
+    global.set $primary.global$0)

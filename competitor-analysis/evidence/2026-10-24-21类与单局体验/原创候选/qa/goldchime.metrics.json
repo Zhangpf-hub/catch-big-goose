@@ -1,0 +1,28 @@
+{
+  "id": "goldchime",
+  "theme": "antique",
+  "triangles": 1596,
+  "vertices": 816,
+  "blenderBounds": [
+    0.7831324338912964,
+    0.7831324338912964,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 37744,
+  "sha256": "b42f90a783c2e5cd72706ced8ed303d6f90c5377ee5d30c722d477508f771d30",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

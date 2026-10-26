@@ -1,0 +1,53 @@
+{
+  "id": "duck-steamedbread",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_BFSteamedBread/Goose_BFSteamedBread.glb",
+  "sourceSha256": "141586f3a6f3de941653a1308322ba6a19389e598d3fa20b1f0a9139700808f8",
+  "originalWorldDimensions": [
+    1.6515949964523315,
+    1.6443358659744263,
+    1.4182939529418945
+  ],
+  "uniformScale": 0.6054753145583667,
+  "normalizedWorldDimensions": [
+    1.0,
+    0.9956047534942627,
+    0.8587419390678406
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

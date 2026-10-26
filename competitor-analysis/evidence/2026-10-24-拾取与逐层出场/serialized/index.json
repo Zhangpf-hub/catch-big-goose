@@ -1,0 +1,18 @@
+[
+  {
+    "file": "ObjAnimConfig-772.json",
+    "pathId": 772,
+    "assetsFile": "sharedassets0.assets",
+    "bytes": 460,
+    "rawSha256": "651860dbf50f0c535c0c0da316d15eb89abc86487d341fe0d66180e6562c65bf",
+    "strictByteCount": true
+  },
+  {
+    "file": "LevelObjAnimManager-962.json",
+    "pathId": 962,
+    "assetsFile": "sharedassets0.assets",
+    "bytes": 80,
+    "rawSha256": "135b3c3dc080d069dfb99e430026ae1d9ed44eb14b2142dc284ceface09a55ea",
+    "strictByteCount": true
+  }
+]

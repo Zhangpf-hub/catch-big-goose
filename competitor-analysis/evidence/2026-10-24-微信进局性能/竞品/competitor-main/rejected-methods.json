@@ -1,0 +1,62 @@
+[
+  {
+    "name": "LevelManager$$GetUnit",
+    "expected": "iiiiii",
+    "actual": "viiiiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjectPool$$ClearByLevel",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$GetAsset<__Il2CppFullySharedGenericType>",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$Release",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$Release",
+    "expected": "viiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$Release<__Il2CppFullySharedGenericType>",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$LoadAssetBundle",
+    "expected": "iiii",
+    "actual": "iiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$ReleaseAssetBundle",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$ReleaseScene",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.AssetManager$$ReleasePrefab",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "id": "duck-eggpancake",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-eggpancake/duck-eggpancake.glb",
+  "sourceSha256": "4b12cab2585706d1834a66c0f68c0f245afe22532768c82032aee65f424762b9",
+  "originalWorldDimensions": [
+    0.8526465892791748,
+    0.43896397948265076,
+    1.0
+  ],
+  "uniformScale": 1.0,
+  "normalizedWorldDimensions": [
+    0.8526465892791748,
+    0.43896397948265076,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

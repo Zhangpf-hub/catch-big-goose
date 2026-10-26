@@ -1,0 +1,18 @@
+{
+  "id": "duck-chilisauce",
+  "triangles": 2980,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.5903312563896179,
+    0.7315575480461121,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "passed": true
+}

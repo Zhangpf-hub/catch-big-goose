@@ -1,0 +1,477 @@
+[
+  {
+    "path": "contact-sheet.jpg",
+    "bytes": 49067,
+    "sha256": "30141bc6e6262fa99df71a949b488e875084e7932b86d3dd0a07007ab62515ac"
+  },
+  {
+    "path": "export-verification.json",
+    "bytes": 1642,
+    "sha256": "e4b4aa7c10cecc1318e70332e48af4fbd34e50094bb296226d0c54a11c2f507f"
+  },
+  {
+    "path": "gltf-validation.json",
+    "bytes": 1663,
+    "sha256": "b5a1352188c9239376f0968a7ec862af76fb4e2c087024895fd25b39d42205ad"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 2730,
+    "sha256": "b9b9dc8ef55e4ed2d99cd64a1ed658477ab6ecf3fac79e94f8ea45dac7289c7e"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/back.png",
+    "bytes": 45193,
+    "sha256": "aa0a5fb9c2710ddd2ab0587cb3122f0f394ee1f941686feff98db4038c4716c1"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/Goose_GTCapsulePen.blend",
+    "bytes": 766259,
+    "sha256": "6bfeed4077205be37815a993ee257ea4c34368a4aef9d28e07ba9bcee2f1e32e"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/Goose_GTCapsulePen.glb",
+    "bytes": 103828,
+    "sha256": "ed64668c4f33c437fc358f512a17d3655dca42a64f0e06f00e8a91f207f7be6c"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/Goose_GTCapsulePen.mtl",
+    "bytes": 465,
+    "sha256": "19371a4166cbbfa33b51bb60be42286181ed6f7cc647808f55b6b0071b3ebe56"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/Goose_GTCapsulePen.obj",
+    "bytes": 240214,
+    "sha256": "14a2f59cb10dc2a4819fee6ee533a795dea807eb762e22429508f7eb183af0d7"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/icon-192.png",
+    "bytes": 21619,
+    "sha256": "c69f296404efd3b45dea3c80aa9356d924179052ca73383fdfd7393c2ce3e464"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/icon-64.png",
+    "bytes": 3098,
+    "sha256": "32e8869efcb8cb204ce170a9db9ce39bee975ce017c9aaac905dcbc445fe30f7"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/side.png",
+    "bytes": 35399,
+    "sha256": "ae9cbbcc56c594964fd501ca456e3797e52c51c3087998a008e5c595ba98ec6b"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/source-pose.json",
+    "bytes": 467285,
+    "sha256": "88f877d3b7e36b30ad7b6228ac8cfadfc73f1e9d4462b80fee0a1401ce331684"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/source.json",
+    "bytes": 801580,
+    "sha256": "3f6f5cba1b29a67666fb508ddae8ddcfcf1b995594bb5072704add7c4575dbea"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/tex_-6956684983821202065.png",
+    "bytes": 1766,
+    "sha256": "937b0cc8987205679bcfe9c7d46b20d4b393e06bb917b3ff640093401258ce78"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/tex_1309734104842292820.png",
+    "bytes": 8235,
+    "sha256": "6b03b2deaa730dd10102ef0f55d8b8a281c8ff352c29c69487be501afce34fac"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/tex_3468433290855489533.png",
+    "bytes": 26178,
+    "sha256": "8af705a7e2854812005d5436b83ad672740c4973ab694a0d390821c2a0a5798e"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/tex_7929171062440404288.png",
+    "bytes": 20637,
+    "sha256": "6472840500f1383b494d448a1e21770c44f98566729b82439759f210c59efcbc"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/three-quarter.png",
+    "bytes": 34513,
+    "sha256": "322516e52b492b1c2b1eb5ce4c753d2ed423335bf29d8e4d1061c19e457432a9"
+  },
+  {
+    "path": "models/Goose_GTCapsulePen/top.png",
+    "bytes": 42719,
+    "sha256": "24fc75fa6bb27642be283a050d268e3f02aa5488676df8de59f75aae2e02c465"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/back.png",
+    "bytes": 42804,
+    "sha256": "f3a0aa3e63b63a9c1d31a9c24e1e2c2752481110327db957ff9bd287f65df830"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/Goose_GTCraftPunch.blend",
+    "bytes": 716945,
+    "sha256": "e4c1f746ace06ca4ef5eee5b08c99fb4cca60429bad43f46059c98d5439fcc07"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/Goose_GTCraftPunch.glb",
+    "bytes": 87676,
+    "sha256": "74533d02e907897a2caaf529ff0413ba75ac84b1e43e1b07136c0bc22b989be0"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/Goose_GTCraftPunch.mtl",
+    "bytes": 462,
+    "sha256": "924e98efeabfa17f937549b30b5e478879012648af28cb132848376cc6e9bc39"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/Goose_GTCraftPunch.obj",
+    "bytes": 204323,
+    "sha256": "fa0a4c1874759a460fd6d89948a7cde88c459b325703a627f4d9d5be15d7a2dd"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/icon-192.png",
+    "bytes": 23496,
+    "sha256": "3a825268c815fb7efdba2cd59dad7234a8b4f3e8dbe6e62589ed5e6d418d6c3b"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/icon-64.png",
+    "bytes": 3125,
+    "sha256": "edee488fb4e41feeee341e9a071bbcb4b32c1bc3101cccbe65c446042853237b"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/side.png",
+    "bytes": 41525,
+    "sha256": "253754bd49a640d0b18a378f7bbd93fc4325d2faae6ed030c13c9397ceea5779"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/source-pose.json",
+    "bytes": 469346,
+    "sha256": "01a9ef6aa867ac8328e8a21634da14660c8e698cfce7483fc3064659829d50b3"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/source.json",
+    "bytes": 755713,
+    "sha256": "767126cc759227f8fffe75e074bebdd95793399875f345bc224a23f3fce83c49"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/tex_-5518497463231778486.png",
+    "bytes": 7479,
+    "sha256": "d8e7d8518078e2168a5627924a0e593d3a952537c8ebb7a674237762dc749139"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/tex_-6956684983821202065.png",
+    "bytes": 1766,
+    "sha256": "937b0cc8987205679bcfe9c7d46b20d4b393e06bb917b3ff640093401258ce78"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/tex_1309734104842292820.png",
+    "bytes": 8235,
+    "sha256": "6b03b2deaa730dd10102ef0f55d8b8a281c8ff352c29c69487be501afce34fac"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/tex_1852744724906751912.png",
+    "bytes": 33733,
+    "sha256": "6bbfd6fbba09f7af86113ccb66e1e2ec5cc9da356848096c12662b5b83015887"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/tex_8318431319843073827.png",
+    "bytes": 13760,
+    "sha256": "107fd7a1eba60b84a74a16781fd420a229065dcd21978d4366302860e015f390"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/three-quarter.png",
+    "bytes": 37665,
+    "sha256": "5be43ac76583fb54c7d214c29d03514b00b8b0977ff5bc2b2a298cb2fb1f3b1f"
+  },
+  {
+    "path": "models/Goose_GTCraftPunch/top.png",
+    "bytes": 43901,
+    "sha256": "6a181f6d0c26a0519e336dd627b91ffe082b00c6d0bd03ca54009967c49f8fb4"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/back.png",
+    "bytes": 45594,
+    "sha256": "cb575ffd39600aa486bc39d264b848be841b5bac90c04431d2f09d8bea1036f3"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/Goose_GTNumberBlock.blend",
+    "bytes": 882116,
+    "sha256": "c83ff9cb01a8823122aa4036f159ab759001ff6e633ae4f8e125c1e84b7ad2c1"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/Goose_GTNumberBlock.glb",
+    "bytes": 191040,
+    "sha256": "4eb85834047cbe09ca106d2788cdc7a3136670ddd380c6c2de97c5f1959608fd"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/Goose_GTNumberBlock.mtl",
+    "bytes": 460,
+    "sha256": "deb553e197d340bb3a9b69a65b9adcec076232a926217168f5e62588af2b6181"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/Goose_GTNumberBlock.obj",
+    "bytes": 292513,
+    "sha256": "db32f65769f15e6ed12a66a6857809220d9f4cde624b67571c8733fb77c93799"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/icon-192.png",
+    "bytes": 24513,
+    "sha256": "4573514caec8f0efee4167ee576b25d71b43e5b7afd42b454aa028a2bbc04883"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/icon-64.png",
+    "bytes": 3283,
+    "sha256": "89a8a332c44acc744df5329b05a13107d11c2d1f8fa40de9eb15f66c2bb7f5c2"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/side.png",
+    "bytes": 43890,
+    "sha256": "94221ddb576e58d12e1c74c77057108d8ec34017e25d7b4243bd8c8dce31732f"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/source-pose.json",
+    "bytes": 471124,
+    "sha256": "21e9f6f3ee03c2525e2b1c9dc0106e6b250d3488fb0aa6d4189a44462096ab83"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/source.json",
+    "bytes": 1093196,
+    "sha256": "6557b6c12d388add32b9870c6b49e5233fd7ae895191e6e83e4b6abedcdf4860"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/tex_-3167476126218231040.png",
+    "bytes": 17606,
+    "sha256": "8ce390cc7090fbeb4dbd66d245648db2a6ddb4623b5f5026a3e1e0b8b108bbc5"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/tex_-6167232182703313724.png",
+    "bytes": 55236,
+    "sha256": "ca7653af4a726d56cb452b606e1f611c497d5ef7bdfa8f2989fe34e3864f1db2"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/tex_-6956684983821202065.png",
+    "bytes": 1766,
+    "sha256": "937b0cc8987205679bcfe9c7d46b20d4b393e06bb917b3ff640093401258ce78"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/tex_-7016516186108656748.png",
+    "bytes": 6632,
+    "sha256": "a818c0c45575ab75ab00f394b6dfd939892f40b342ba4d80aff11f1be9713350"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/tex_-7225440220168234884.png",
+    "bytes": 182,
+    "sha256": "da49973f8be5e8718983a453392e6717d784f91924419b4aeb90762a9d1994d2"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/tex_1018588914085424813.png",
+    "bytes": 85614,
+    "sha256": "f3be84f30e153c56ff3cf15d0f569e2490634f2133fa7d98d750f4a8b13c66a7"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/tex_1309734104842292820.png",
+    "bytes": 8235,
+    "sha256": "6b03b2deaa730dd10102ef0f55d8b8a281c8ff352c29c69487be501afce34fac"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/three-quarter.png",
+    "bytes": 39388,
+    "sha256": "82010ea64a04ad05a1ea251b882d2b67247f2b8c5dd70093e8176ef077aeea72"
+  },
+  {
+    "path": "models/Goose_GTNumberBlock/top.png",
+    "bytes": 46854,
+    "sha256": "eab6b96accc9cbca59a7d5af948f1e66c7f7598a63c5cff294d869f6130fefd6"
+  },
+  {
+    "path": "models/Goose_GTYoYo/back.png",
+    "bytes": 47755,
+    "sha256": "9f903aa6b48bad41914e76418c8cb1330f8df8184dbb7d24cd73cdca69b3bc55"
+  },
+  {
+    "path": "models/Goose_GTYoYo/Goose_GTYoYo.blend",
+    "bytes": 821954,
+    "sha256": "d6952e213e5ae63967607fbad866dd11f412f142bf8e58db7219fe7e2421a6a4"
+  },
+  {
+    "path": "models/Goose_GTYoYo/Goose_GTYoYo.glb",
+    "bytes": 134180,
+    "sha256": "4f9688f7def9b3d3a8b0295aae19b40586f4a161ae77ed0ea9f61c1fb46ef09b"
+  },
+  {
+    "path": "models/Goose_GTYoYo/Goose_GTYoYo.mtl",
+    "bytes": 458,
+    "sha256": "e857d71abc5099e90f3d982558a07240a5893d23029fe657d808397310918951"
+  },
+  {
+    "path": "models/Goose_GTYoYo/Goose_GTYoYo.obj",
+    "bytes": 261476,
+    "sha256": "e42f43403fe42726d15a4b64e8b5b4f18fc6a510cf5e3233dceb0d7d3f21d9c7"
+  },
+  {
+    "path": "models/Goose_GTYoYo/icon-192.png",
+    "bytes": 22802,
+    "sha256": "6a0ca8f91c287ba07e5f741a068c84f28e842fe95c5ca0aa7cb3af156c243e43"
+  },
+  {
+    "path": "models/Goose_GTYoYo/icon-64.png",
+    "bytes": 2970,
+    "sha256": "a487be8482d13aea864271e580b3cb2242895f214f55ed409fadbe60398211af"
+  },
+  {
+    "path": "models/Goose_GTYoYo/side.png",
+    "bytes": 41923,
+    "sha256": "2f5d7b6dce0636033276737fed4da2b24a5f7b8078101f915310762574be2cc4"
+  },
+  {
+    "path": "models/Goose_GTYoYo/source-pose.json",
+    "bytes": 469045,
+    "sha256": "b0edf8c76a283437c46d12104b4a6fa4b2bc05cf553b61498427488ff36d6186"
+  },
+  {
+    "path": "models/Goose_GTYoYo/source.json",
+    "bytes": 897394,
+    "sha256": "0bcd0e0c13e54310df36c43b929bf6d71df9ad8b1db4e4243f70f76c114efb0b"
+  },
+  {
+    "path": "models/Goose_GTYoYo/tex_-6956684983821202065.png",
+    "bytes": 1766,
+    "sha256": "937b0cc8987205679bcfe9c7d46b20d4b393e06bb917b3ff640093401258ce78"
+  },
+  {
+    "path": "models/Goose_GTYoYo/tex_1309734104842292820.png",
+    "bytes": 8235,
+    "sha256": "6b03b2deaa730dd10102ef0f55d8b8a281c8ff352c29c69487be501afce34fac"
+  },
+  {
+    "path": "models/Goose_GTYoYo/tex_1977790342406215980.png",
+    "bytes": 32247,
+    "sha256": "656a2873ddab3bd8fe04771865141e009fe3c41d2cb834054d7b8d3f636baa8f"
+  },
+  {
+    "path": "models/Goose_GTYoYo/tex_7526620010366973644.png",
+    "bytes": 14831,
+    "sha256": "43992ed01b5927dba401b3ac1dd1effe291fc32ea0b82a3247363923a1ce79ca"
+  },
+  {
+    "path": "models/Goose_GTYoYo/tex_8559956575396474603.png",
+    "bytes": 1646,
+    "sha256": "2cce3b78ca701112623bebc64468c976eb77670550875a519cf2afade9c3283d"
+  },
+  {
+    "path": "models/Goose_GTYoYo/tex_8639381341991664948.png",
+    "bytes": 47669,
+    "sha256": "fe3c693551b7bf8544d54d20fa8987d3241307387c591ef9190dc85d4618a0cd"
+  },
+  {
+    "path": "models/Goose_GTYoYo/three-quarter.png",
+    "bytes": 36905,
+    "sha256": "fa86433f7c706f07c86ff21662668227bc41d67a12e9e181991451200d786b86"
+  },
+  {
+    "path": "models/Goose_GTYoYo/top.png",
+    "bytes": 49734,
+    "sha256": "1550b20109f3fa542e0c2ef413f3a2fa6405829b8bf0e903bd171c457dbb2788"
+  },
+  {
+    "path": "models/Goose_Pancake/back.png",
+    "bytes": 42310,
+    "sha256": "ff35299e9328599e3935f71f02022679edd29336daca1e1c4f0ff41e994599ba"
+  },
+  {
+    "path": "models/Goose_Pancake/Goose_Pancake.blend",
+    "bytes": 909264,
+    "sha256": "f49af62c9fc547b8d9920c73ac941e72a19af23337f37900030edc1a9ea5033a"
+  },
+  {
+    "path": "models/Goose_Pancake/Goose_Pancake.glb",
+    "bytes": 285276,
+    "sha256": "180452c75eded39c92f253a8f60e81cee1ddb24c60636a1a0df5b49d9c4bf784"
+  },
+  {
+    "path": "models/Goose_Pancake/Goose_Pancake.mtl",
+    "bytes": 460,
+    "sha256": "cd110cb9557b153f19f38d004915fa0b9cae3ba99e52c059c61c47fe6a981ae4"
+  },
+  {
+    "path": "models/Goose_Pancake/Goose_Pancake.obj",
+    "bytes": 190787,
+    "sha256": "1323b1b41257387d80710df2d8580c4f3ede379e1f3aadf661de2ea44d89c6e4"
+  },
+  {
+    "path": "models/Goose_Pancake/icon-192.png",
+    "bytes": 30069,
+    "sha256": "20fc1364a298e4ae349b6cfb11dbfc6e5c3c0c9f879ccc8180692799e04dde4f"
+  },
+  {
+    "path": "models/Goose_Pancake/icon-64.png",
+    "bytes": 4033,
+    "sha256": "6abef7fa5717cafa2a57cea5faac608ba29fda647782b24b4c026dfa9d60b7c4"
+  },
+  {
+    "path": "models/Goose_Pancake/side.png",
+    "bytes": 42882,
+    "sha256": "6bdeda00080fa70290f6673426005678ce829f471b65866019b3690c5320b821"
+  },
+  {
+    "path": "models/Goose_Pancake/source-pose.json",
+    "bytes": 469222,
+    "sha256": "2eb1bd89bc3d94aa0c62ced82e2074e3ce9f42aea51f857736f512eeb50657a0"
+  },
+  {
+    "path": "models/Goose_Pancake/source.json",
+    "bytes": 657754,
+    "sha256": "0c18db9686aa2d272abfb1b20ae6d89f79cb2449f93c9c68b785854d8dfaf6c8"
+  },
+  {
+    "path": "models/Goose_Pancake/tex_-617196188587447675.png",
+    "bytes": 24923,
+    "sha256": "c028aa62b3a1724da7a5d681d5f8682572c90655a28a3969dbbcaa78fa535be8"
+  },
+  {
+    "path": "models/Goose_Pancake/tex_-6956684983821202065.png",
+    "bytes": 1766,
+    "sha256": "937b0cc8987205679bcfe9c7d46b20d4b393e06bb917b3ff640093401258ce78"
+  },
+  {
+    "path": "models/Goose_Pancake/tex_1309734104842292820.png",
+    "bytes": 8235,
+    "sha256": "6b03b2deaa730dd10102ef0f55d8b8a281c8ff352c29c69487be501afce34fac"
+  },
+  {
+    "path": "models/Goose_Pancake/tex_1702798965570096355.png",
+    "bytes": 12931,
+    "sha256": "af619ec05153dec029a7fd9762d1b718a536639aaabc77765c55b9a908c8edb8"
+  },
+  {
+    "path": "models/Goose_Pancake/tex_4100659643748777369.png",
+    "bytes": 8215,
+    "sha256": "4cb50ad25e548b0e46c9e50da86bd2e64b7efc263624675fa5efae5cc45d3bc6"
+  },
+  {
+    "path": "models/Goose_Pancake/tex_4291319725443404636.png",
+    "bytes": 220724,
+    "sha256": "10ee70ccf01f09dabccde01115f72e4e8d9076597a1aa9b97814169d858fcf95"
+  },
+  {
+    "path": "models/Goose_Pancake/three-quarter.png",
+    "bytes": 49434,
+    "sha256": "e5c2a906b5e8ec40dcf7f59d48b463b32d2a4f7b52a9537f821002c7018ac703"
+  },
+  {
+    "path": "models/Goose_Pancake/top.png",
+    "bytes": 45640,
+    "sha256": "a049c473cd96e36c2cb2d3dd8955cf4aed54dc8dde9c6b6a7db5cee9a4eb07e4"
+  },
+  {
+    "path": "multiview-1.jpg",
+    "bytes": 95066,
+    "sha256": "0c83c34a1d34f52f830e604be26ee1b690fb359dddbdedb1d22aa23121786e14"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1513,
+    "sha256": "21c04f3bc07a326fb8f91a3942108c4caa188979260b4bd92ac87755752554b8"
+  },
+  {
+    "path": "visual-review.json",
+    "bytes": 499,
+    "sha256": "8bb43c6f4d56c2f3889ff35f5f57994d1103f96c9f86a95c90111bd6c28de5df"
+  }
+]

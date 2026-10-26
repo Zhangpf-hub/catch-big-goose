@@ -1,0 +1,698 @@
+{
+  "date": "2026-10-24T01:21:25.648737+00:00",
+  "themes": 5,
+  "kindsPerTheme": 21,
+  "newOriginalModels": 60,
+  "quotaBindings": 105,
+  "confidence": {
+    "sourceValues": "confirmed frozen resource values",
+    "semanticMappings": "project adaptations",
+    "liveAccount": "unknown"
+  },
+  "algorithmChecks": 132,
+  "experienceChecks": 310,
+  "visualChecks": 23,
+  "editTests": 15,
+  "fullRounds": 20,
+  "wins": 20,
+  "humanWinRate": "not measured",
+  "competitorWinRate": "not measured",
+  "sourceSha256": "283409ec207c284e8f7ea78c247e61b34532d29cb0e142630d574073b5c3babd",
+  "release": [
+    {
+      "path": "unity/Builds/Windows/CatchGoose.exe",
+      "bytes": 666624,
+      "sha256": "f5f73d8616a2500e0fb0223d83774e2d7f6a74c1bbdad772f4fefc9bf5812036"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/app.info",
+      "bytes": 24,
+      "sha256": "2efc7b36bb2295d911a0c4d6a90de7163f0dfbebf54a2c358b0b9aba2e922b57"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/boot.config",
+      "bytes": 164,
+      "sha256": "87b02077d4e93a9a4d13ad675189fd87b5f8fa5565ec46702716c30e97e22efe"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/globalgamemanagers",
+      "bytes": 112780,
+      "sha256": "ecc4ac8872c1933edceea5007f553ff5467f8c9d786f39bb78d5b5ba3ff165a4"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/globalgamemanagers.assets",
+      "bytes": 33544,
+      "sha256": "72539c6d76bb36bb9275eefbe093124e2ac52ff2d974536083ed50519aac80b6"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/globalgamemanagers.assets.resS",
+      "bytes": 2796240,
+      "sha256": "39dd38fcd8dd95d41d6d55fe16a448d29fe2c31d9a162c825c24c6d99a893d7a"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/level0",
+      "bytes": 1128,
+      "sha256": "3447c1bfce81cd0554a17f66be9a6b4b80a2f66a6985437443875b12fca2b8cc"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/CatchGoose.Runtime.dll",
+      "bytes": 77824,
+      "sha256": "bfbc8ffd8f54aa02a3c05e557464f00cb525476c94af13479a1067b8af7945f3"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/LitJson.dll",
+      "bytes": 60416,
+      "sha256": "c1d86a5fc075734207fc08c6ef8a7db2a8f8f3c3c82c1d15f1972a0cab2a0c04"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/MCPForUnity.Runtime.dll",
+      "bytes": 32768,
+      "sha256": "8678badfa0ad2221ed34ba59e92e7d961363ae6a3e322b6f428ed3ebfc3510c2"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/Mono.Security.dll",
+      "bytes": 241152,
+      "sha256": "576f911be2e0db795ea78f78828f3faf4b20900baf1ce8e33ca8fe599370fc1d"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/mscorlib.dll",
+      "bytes": 4631552,
+      "sha256": "98c9b62133db5dd33b22bc6aab6f28e4f04f5b5be6559b28ba5c2738241434d0"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/netstandard.dll",
+      "bytes": 90112,
+      "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/Newtonsoft.Json.dll",
+      "bytes": 691712,
+      "sha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.ComponentModel.Composition.dll",
+      "bytes": 257024,
+      "sha256": "2535fd6fac676852936cb435d917b2d69cc6fcdd391f7b3009898153ba04919f"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Configuration.dll",
+      "bytes": 124928,
+      "sha256": "ec883b49c12ab0e5110337e817a72cf781878d7faf904aa8abb1ab1c4b99bd78"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Core.dll",
+      "bytes": 1113088,
+      "sha256": "f1b33eb1ae8522edcf9ba4c2b85f532d4bab68bfa2a51527264bb61619bed4ea"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Data.DataSetExtensions.dll",
+      "bytes": 29696,
+      "sha256": "1c88d17e686caf77551a18d3672a1589143e6b8ae83bfcf7c306478cdb64ab90"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Data.dll",
+      "bytes": 2125312,
+      "sha256": "534ac87e6a7c1e3ce02ff2d88f4ffa45e7b5fc44e6236922c2f46f8174a29e56"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.dll",
+      "bytes": 2639872,
+      "sha256": "ace2dd6a7d534b581bf4a9d316e743d64508ca2135db73dbff0ddb9365fc454e"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Drawing.dll",
+      "bytes": 489984,
+      "sha256": "435cc673a1aba5af488d8af379d96f7e351a4b5ed2a1772892287a8268567deb"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.EnterpriseServices.dll",
+      "bytes": 44544,
+      "sha256": "03f240d259b9cf27dbc5c9e8f42b8746a50cc5c52395d8e2de5730321f9de3b8"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.IO.Compression.dll",
+      "bytes": 114688,
+      "sha256": "15e84f38fb5e6bb926fe92a79374a083b8dfbabfa11f8cd1d409f21b98447cfd"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "bytes": 18432,
+      "sha256": "02f749fbe31e54cd8b86a35738e1dddae00ccc2e9fdb8990b93f1a494e6e753a"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Net.Http.dll",
+      "bytes": 122880,
+      "sha256": "85f6d618b5df944d2271e2d028b94a93cd371c6134507997441475b1700623cf"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Numerics.dll",
+      "bytes": 119296,
+      "sha256": "55eda0fb467f9356d8f63933fb4b237732f1b215cb8eb0380398f05d3e8a3461"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Runtime.Serialization.dll",
+      "bytes": 934400,
+      "sha256": "c1058a78e3828052b92d535d8fb27f9f3c9eb9cbfcdee1904898611b44d7cdb7"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Security.dll",
+      "bytes": 320000,
+      "sha256": "f7f53eb1401f2bd70ea1dcab1c6c30ae7a4a142e26781c4a78bb885d2f6816a3"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.ServiceModel.Internals.dll",
+      "bytes": 215040,
+      "sha256": "5f926225818163439d823f9ef0f6e798e16604d8b75b66f22a133b40615f1b05"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Transactions.dll",
+      "bytes": 35328,
+      "sha256": "8983073e9627b1086102a9871a23e2ba53a0bb9fcc76826cab9f5dec9107e21a"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Xml.dll",
+      "bytes": 3160064,
+      "sha256": "7a3587565cabf8294cfc372991545f3ae5790d54264e40069f5e0e460b66bc55"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/System.Xml.Linq.dll",
+      "bytes": 136704,
+      "sha256": "48b11f5d3a51034f9b9d330082f9099a0e68956ee2153d151cdf146bf9e76c78"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/Unity.FontABTool.dll",
+      "bytes": 20992,
+      "sha256": "88c7409cefe05324bd126c1c164884c9b510e926c156b938e1fcb5c8956d0d96"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "bytes": 23976,
+      "sha256": "dd3076a438eb4f7933a1246af8989b7560ff30607acda034344572cbe33d3b73"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.AIModule.dll",
+      "bytes": 58792,
+      "sha256": "37d26f798b1262e8e7f31895ec562a60cdf19bc05edb644a5c8793d7d7ecd86e"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "bytes": 95144,
+      "sha256": "c26bd0ad1ba25e04cd3603cb4651c9bfc94322fdeaa2982f77abaa50e60eca6d"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.AnimationModule.dll",
+      "bytes": 164272,
+      "sha256": "0098193d001584f7678ebff0aa4a8cfd48d8293a86509c22a3c889b72cade5e2"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ARModule.dll",
+      "bytes": 21424,
+      "sha256": "9a38cf5d45ae13c77f54c7f430a6d4ea04e90558e8bb43a3f7507bf308872699"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "bytes": 33192,
+      "sha256": "292f865769c8dde1ff64e03fd545200a198f2e0826ecab3ee9a0528614f9a968"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.AudioModule.dll",
+      "bytes": 71592,
+      "sha256": "024588a29a749c998392bf417ac867c001ff4c2a824cae27e0746803413f0af3"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ClothModule.dll",
+      "bytes": 26544,
+      "sha256": "fc47aa364ae043e67560fba37262c0708883b0f8ff560f07652669c8afc5cd3c"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "bytes": 21936,
+      "sha256": "66278fa549b9fffa3b6a168313679fe6c264417f987e351ac4dde4dd97edf38b"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "bytes": 22440,
+      "sha256": "43f8ccfab20ac2dd98b77201f0009901a4f1e10d06a2063412942354fe1b0b6a"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "bytes": 27568,
+      "sha256": "51ea7b5ba53d84d8d86857435e8f48e487349fdf42f5928f610164dff6f37a99"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.CoreModule.dll",
+      "bytes": 1393584,
+      "sha256": "88bc98e7aafd120747dfdc90581ca8cee0aa2734b7a101122be66f543122a963"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "bytes": 21416,
+      "sha256": "0cc31eeed1568d3c0bc8a3fcd213021ee87c007c8688d0c2acfe5f9ea944b414"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.DirectorModule.dll",
+      "bytes": 25000,
+      "sha256": "871e699b71aaabb21919f93c341fcc7c74306ff02e0f027d44cec0bca4b7379f"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.dll",
+      "bytes": 126896,
+      "sha256": "4b430c7be335874f8f5f6e70c97f684f5c033deceda5701cd6c1505c844c6a41"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "bytes": 29608,
+      "sha256": "3bd76d2a52d03e5521c3da9ef0a04d09df9bb3a28ee3d7de70e066256c6d675c"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "bytes": 40360,
+      "sha256": "0deee1cb8acb1c880ac0c477bc48bb3fb24ec3290b68b1627d145a60401e3e93"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.GIModule.dll",
+      "bytes": 20392,
+      "sha256": "483dc5ea662240e1cfa53732b00adc269b71d7c91abbb8a4e6a31923b201ece1"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.GridModule.dll",
+      "bytes": 25512,
+      "sha256": "fb1dfe8ba8714e3ec2921b2b5af446c6e89ba505335a182d7881163b26604a06"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "bytes": 20392,
+      "sha256": "2a5f7331df0eb8ccf4525d6a1a851191a50e729b421b427eace198cb5f164c34"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "bytes": 24496,
+      "sha256": "4dcad3c1af5aab54eaf417e2304ae8adb205916b77296c365ad1183a4d56508c"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "bytes": 191400,
+      "sha256": "048dcf9ef4bf51b00fed7858d108e4500d7f5595ce274fdfe2279f1da0792ca0"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "bytes": 39336,
+      "sha256": "dac12c4e21e3a0653ae2c0a273880b65366b4e61626ae281bff0aaf4478c2f47"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.InputModule.dll",
+      "bytes": 23976,
+      "sha256": "7894baeef6f74807f35be9a6b457bff5c02461490093246cecba9524209690d8"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "bytes": 22440,
+      "sha256": "8de6d981502632b385cb608c758e3d444d7e146f685f8f0b71e93ebafbc1f824"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "bytes": 21416,
+      "sha256": "5b2639200d382f934abcdb0a2eb8812748f305ab00bdf2b9158285dfa99bf88f"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "bytes": 34216,
+      "sha256": "faab5c955079b38b08098a6b08fb597d0c6a5b6488b78bed49f8aa7f1f4c419e"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "bytes": 161704,
+      "sha256": "3c0544c52e38556d48edf74212d91e858bfa24c89f7276b549e8462a7abe48d7"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "bytes": 20904,
+      "sha256": "92baaa65c802986cc7bf0a987801123ff2939ecb40baee154edcb4c00ff42fb8"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "bytes": 141736,
+      "sha256": "9899bb003e274bcd6b4d3f6d4f7bb501305ec27a2be7a9cae2323a556fb2a0bd"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "bytes": 138672,
+      "sha256": "114ebc1394f13a32d9b3e6d2978484f36d6c8c41abf611cda2281d2431890b8e"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "bytes": 20400,
+      "sha256": "82535d4c50ea36588f9f67bd8cddd766377cc741f82df63410434bbb18a824cb"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "bytes": 155560,
+      "sha256": "32cb16f92e3f221d73d56835d4f90a0602d9e45a9b39eacb78014cddcc005c27"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "bytes": 20400,
+      "sha256": "1baebf59a0d3210e418604854b621ee4834a219c233e865426fc3571532a00ae"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "bytes": 21424,
+      "sha256": "477c637df1c17b2da760f7374ea21b5fc8abee5813acd805139324488a484e53"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "bytes": 33192,
+      "sha256": "9ccc73fb48d8d1d57d6eb2e89a2dfcb3462a35c9013f3ad1d23a94ff19a6f9e1"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "bytes": 22440,
+      "sha256": "0273104cf540a559f5ce16bf82819af6ecb1b0fddc8eb787aec91900ece5f780"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "bytes": 26544,
+      "sha256": "9e7ef99cd58a271381a4f57c8e690864ba5529c9b6746d374b734c2796081c2b"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.StreamingModule.dll",
+      "bytes": 20904,
+      "sha256": "cbf601f57e29fd9d159d56aa51e44569749a1fd6e63ce008d8065c6a399d4aee"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "bytes": 25008,
+      "sha256": "ee34542331c1b425bf015fb6586a65dd5e846749ac6b3aa6e28474afb0975697"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "bytes": 35240,
+      "sha256": "fea5b3ca7431d95723564347b0be638a818dac9cc57a5e731a17bf748f59d2b8"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.TerrainModule.dll",
+      "bytes": 101296,
+      "sha256": "5f7ed70cbebcd20ae9e3bc7c9ffe3d0728ade0d314ed574fa87121cc0d54acec"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "bytes": 21424,
+      "sha256": "0fd12376d619047bff9a91d79dcb968cd22dbb5f518773e23593cc23421dcea1"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "bytes": 72624,
+      "sha256": "23c48967255583a226d4d253bbdee0865598cbfd2ff83cee450d0c142af183cb"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "bytes": 249264,
+      "sha256": "bb0ea62b907ff494273ca428bfa0fd42f4f596a3ed70eea5a5f2193bc93b2c80"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "bytes": 39336,
+      "sha256": "e8ab28e29cd3dc25755e5d1c36e4a9f6caa90ab817fc3bf35d9b9a98876923a0"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.TilemapModule.dll",
+      "bytes": 47016,
+      "sha256": "ab57edb0c52771b3c57226f04905192cbb441694a9ff214d480795429d55e883"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.TLSModule.dll",
+      "bytes": 27048,
+      "sha256": "72171bc1468908097449102e1289238410ea287cddd99735be75e2a0c69bc91a"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UI.dll",
+      "bytes": 264192,
+      "sha256": "d77e9286bd9c8ba32e212dbd361c60010021d06a03977396f6a680702f4e6ad6"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "bytes": 1536424,
+      "sha256": "d593a3047c74108191cc669045ddb37e4525fa71a028bdba7da22b88c55a95fa"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UIModule.dll",
+      "bytes": 36784,
+      "sha256": "1cc1d7f5c8ad299ecb9213e989c6568ced8c9173c64ef60f67ac9c66787dc5d8"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UmbraModule.dll",
+      "bytes": 20400,
+      "sha256": "28345aed4143ad7910a8bc33660c8392909cd5f38cab86b9f5a679ef84516692"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "bytes": 21416,
+      "sha256": "a0349402a10e1b0ea74b963694115ae45568cf08b5dc3e209222e397202bc443"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "bytes": 44976,
+      "sha256": "6a20ad410e5baba50dda1bde7077547cbbc38e155c00979f80684b912e17139d"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "bytes": 22440,
+      "sha256": "f5be41662e846ed52192b817336a8fb9c545ec5f9d65a26ac043256b2121500f"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "bytes": 21936,
+      "sha256": "66943720627bd82b6858b68f90892e4ae9a8686d251e5b007a2d1c1dea6712a4"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "bytes": 20392,
+      "sha256": "08fd944375e36775eae61a8c44a39b97bd4b3f7c40c53efb522b1228656503d1"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "bytes": 23472,
+      "sha256": "de2b93867eacfca8cbc5f82e40e4a3f02c3ce7b75751fd6e226bbabe9fa576fa"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "bytes": 22960,
+      "sha256": "14046b9f4b55869dde81e1f4389def69eda96528c333f01dfe869bead52c7643"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "bytes": 58800,
+      "sha256": "6725a5690ac91baa2840c87da0d99772a9ca77781e792572eccd4e72d683e4b2"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "bytes": 21928,
+      "sha256": "e21f123a103f5f5708e59d8a9c76f7d51b4a22ce6751732a0da1e0684a382e1e"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "bytes": 31664,
+      "sha256": "3d2a1cef8429f3a150e284ae7d2ecde85731bab5e8ee3745f922fec92b8a2d9a"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "bytes": 24496,
+      "sha256": "9e72285cc2efe6d580b29697b86a8be08de8f2afe755a71bbed0db35cd129d0f"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.VFXModule.dll",
+      "bytes": 58800,
+      "sha256": "4f015593739d923ea1dbb499dd67a1aee5305bf49b16b55ba10a8c5bc9710007"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.VideoModule.dll",
+      "bytes": 41384,
+      "sha256": "c6fc1f87e22da91da6b1036542c9ab679a528f30dd8779d201e1e205ff5dd990"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "bytes": 36272,
+      "sha256": "4abd1ca25dce04cac3b8aa53e92a4160b1461ca22e8dde2266b780779304132c"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.VRModule.dll",
+      "bytes": 27056,
+      "sha256": "b853c5ecf2da7fa060e4a62f750124aaa8c6f93f9dae85dde7d57acbdaccb26a"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.WindModule.dll",
+      "bytes": 21416,
+      "sha256": "2bed9078fe2f3f8610b216c740f28d5de1587b94652987e0e758ad43fe7ba7f3"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/UnityEngine.XRModule.dll",
+      "bytes": 71080,
+      "sha256": "9c0dc96213b194c67983245430ebb7e79db07c9446832c9e47199040fc420b67"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Managed/Wx.dll",
+      "bytes": 4096,
+      "sha256": "125211a7fe00838d6702eeea864af681c85cfe5a75c52c8e78cce4ac0f062c4b"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Resources/unity default resources",
+      "bytes": 1564240,
+      "sha256": "a11e3e24520676183b3750564b4d9f5a90e8f41fd3523cbfb0c49f3989453da2"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/Resources/unity_builtin_extra",
+      "bytes": 378932,
+      "sha256": "88577fecbbc8b8a303152e72c1dcf103e1d85821d1f5bc9fe64a3a2800428727"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/resources.assets",
+      "bytes": 11022808,
+      "sha256": "bed479a1f3204883cf8a32897edb973860d8cbe0deebb840354cf478dde162aa"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/resources.assets.resS",
+      "bytes": 24509408,
+      "sha256": "6da330121dc0504ebc1da6df1e1e49d8b8f40197935b10d2e528e273a172cb75"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/resources.resource",
+      "bytes": 80352,
+      "sha256": "2fd9a6c61f3e59321817fabe3685d454dc8fe87fcf2c9ac8e081677d83671c02"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/RuntimeInitializeOnLoads.json",
+      "bytes": 159,
+      "sha256": "1913d6b254d5e28bc2d637812d8009af84513ad74a3d9d29aec74790ed1b1d54"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/ScriptingAssemblies.json",
+      "bytes": 2728,
+      "sha256": "d597b8e06c3b26684416469f2e2a5d12f9e95936b52f66695a4de12443e21281"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/sharedassets0.assets",
+      "bytes": 7624,
+      "sha256": "03e8c471375a2a559fbe7f613992a8f5bdd575ead82f51939dbd1ace386d18c1"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/StreamingAssets/Video/Darkchaser-Battletide.mp4",
+      "bytes": 42621409,
+      "sha256": "f58c8e56b4f1342cb2709b0a400c980cfba42e73d22491b29804316a4f099725"
+    },
+    {
+      "path": "unity/Builds/Windows/CatchGoose_Data/StreamingAssets/Video/Skycore-Reboot.f5800.mp4",
+      "bytes": 21868303,
+      "sha256": "16f0594f7b271dfd7d0b45c70f96326965114c6e80fcc01d52193fd0b98cbd45"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "bytes": 7897512,
+      "sha256": "ea0fb1fd0aa074bb46c71e52831a843bfc2b73ea3cf7ee9f205c57ce6d262fb5"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "bytes": 611240,
+      "sha256": "8a394ad37345c4d9eef616b68c7d668325647f2815fef477aebab3f864b70775"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "bytes": 29066,
+      "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "bytes": 2622,
+      "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "bytes": 11635,
+      "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "bytes": 33598,
+      "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "bytes": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "bytes": 18802,
+      "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "bytes": 34056,
+      "sha256": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "bytes": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "bytes": 18811,
+      "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/browscap.ini",
+      "bytes": 311984,
+      "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/config",
+      "bytes": 3815,
+      "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662"
+    },
+    {
+      "path": "unity/Builds/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "bytes": 25817,
+      "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d"
+    },
+    {
+      "path": "unity/Builds/Windows/UnityCrashHandler64.exe",
+      "bytes": 1185192,
+      "sha256": "ca93c9d370e6e595bc402dde42591eb8827783c0a35c87df7ebaa58d530cd725"
+    },
+    {
+      "path": "unity/Builds/Windows/UnityPlayer.dll",
+      "bytes": 31100848,
+      "sha256": "dc005461655b67912029eea6bcc303fe244c3a336e2046107f934b901ab9ce2b"
+    }
+  ]
+}

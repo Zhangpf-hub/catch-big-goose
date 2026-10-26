@@ -1,0 +1,98 @@
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+namespace CatchGoose
+{
+    /// <summary>Confirmed depth threshold and kinematic transition, with project-specific
+    /// settling, occlusion guards and disturbance recovery. See 竞品分析/05-Unity接入.md.</summary>
+    public sealed class GoosePileDepth : MonoBehaviour
+    {
+        GooseGame game;
+        PileAlgorithmSettings settings;
+        float nextRefresh, settleUntil, frontier;
+        bool initialized;
+        public int HeldCount { get; private set; }
+        public int HiddenCount { get; private set; }
+        public int DynamicCount { get; private set; }
+        public bool OverDynamicBudget => DynamicCount > settings.maxDynamicBodies;
+        public float VisibleThreshold { get; private set; }
+        public float RigidThreshold { get; private set; }
+
+        public void Initialize(GooseGame owner, PileAlgorithmSettings profile)
+        { game = owner; settings = profile; }
+        public void ResetRound()
+        { initialized = false; nextRefresh = 0; settleUntil = float.PositiveInfinity; HeldCount = HiddenCount = DynamicCount = 0; }
+        public void SpawnFinished()
+        { initialized = false; settleUntil = Time.time + settings.spawnProtection; nextRefresh = 0; }
+        public void NotifyRemoval()
+        {
+            // Own conservative extension: a removed support may affect distant contacts.
+            // Wake all held bodies immediately; retain colliders and refresh visibility.
+            foreach (var item in game.Remaining) item.ReleaseDepth(Time.time + settings.disturbanceProtection, false);
+            nextRefresh = 0;
+        }
+        public void DisturbAll()
+        {
+            foreach (var item in game.Remaining) item.ReleaseDepth(Time.time + settings.disturbanceProtection, true);
+            initialized = false; settleUntil = Time.time + settings.disturbanceProtection; nextRefresh = 0;
+        }
+        void FixedUpdate()
+        {
+            if (!game || !game.Playing || game.Paused || !game.SpawnComplete || Time.time < nextRefresh) return;
+            nextRefresh = Time.time + settings.refreshInterval;
+            RefreshNow();
+        }
+        public void RefreshNow()
+        {
+            if (!game || !game.Playing || game.Paused || !game.SpawnComplete) return;
+            var items = game.Remaining.ToList();
+            HeldCount = HiddenCount = DynamicCount = 0;
+            if (items.Count == 0) return;
+            if (!settings.depthManagement)
+            { foreach (var i in items) i.ReleaseDepth(Time.time, true); DynamicCount = items.Count; return; }
+            float top = items.Max(i => i.transform.position.y);
+            if (Time.time < settleUntil) { DynamicCount = items.Count; return; }
+            frontier = initialized ? PileDepthPolicy.Descend(frontier, top, settings.frontierStep) : top;
+            initialized = true;
+            VisibleThreshold = PileDepthPolicy.Threshold(frontier, settings.referenceHeight,
+                settings.visibleDepthMin, settings.visibleDepthMax, 1);
+            RigidThreshold = PileDepthPolicy.Threshold(frontier, settings.referenceHeight,
+                settings.visibleDepthMin, settings.visibleDepthMax, settings.rigidDepthMultiplier);
+            foreach (var item in items)
+            {
+                float y = item.transform.position.y;
+                float speed = item.Body.isKinematic ? 0 : item.Body.velocity.magnitude;
+                float angular = item.Body.isKinematic ? 0 : item.Body.angularVelocity.magnitude;
+                if (speed > settings.speedGuard || angular > settings.angularSpeedGuard) item.DepthStillSince = Time.time;
+                bool held = PileDepthPolicy.ShouldFreeze(y, RigidThreshold, item.DepthHeld,
+                    !item.DepthReady || Time.time < item.DepthProtectedUntil, speed, angular,
+                    Time.time - item.DepthStillSince, settings);
+                item.SetDepthHeld(held);
+                // Source SetVisible also affects selection colliders. Our colliders must
+                // retain support, so manual picking is gated independently in GooseGame.
+                bool above = y >= VisibleThreshold + (item.DepthVisible ? -settings.hysteresis : settings.hysteresis);
+                bool visible = !item.DepthReady || above || !CoveredFromAbove(item, top);
+                item.SetDepthVisible(visible);
+                if (held) HeldCount++; else DynamicCount++;
+                if (!visible) HiddenCount++;
+            }
+        }
+        bool CoveredFromAbove(GooseItem item, float top)
+        {
+            // Own sparse-pile guard: five support-proxy rays must all hit another item
+            // before this item may disappear. A deep isolated item remains visible.
+            Bounds bounds = GooseGame.BoundsOf(item.Visual.gameObject);
+            float x = bounds.extents.x * .45f, z = bounds.extents.z * .45f;
+            var probes = new[] { Vector3.zero, new Vector3(x, 0, 0), new Vector3(-x, 0, 0), new Vector3(0, 0, z), new Vector3(0, 0, -z) };
+            foreach (Vector3 offset in probes)
+            {
+                Vector3 origin = bounds.center + offset; origin.y = top + 3;
+                if (!Physics.Raycast(origin, Vector3.down, out var hit, top + 5, ~0, QueryTriggerInteraction.Ignore)) return false;
+                var cover = hit.collider.GetComponentInParent<GooseItem>();
+                if (!cover || cover == item || cover.Picked || cover.transform.position.y <= item.transform.position.y) return false;
+            }
+            return true;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ref_bbqtoast",
+  "triangles": 220,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.9713733792304993,
+    1.0,
+    0.12143954634666443
+  ],
+  "glbRoundtrip": true
+}

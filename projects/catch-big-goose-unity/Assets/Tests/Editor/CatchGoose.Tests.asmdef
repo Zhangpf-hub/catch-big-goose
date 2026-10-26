@@ -1,0 +1,6 @@
+{
+  "name": "CatchGoose.Tests",
+  "references": ["CatchGoose.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

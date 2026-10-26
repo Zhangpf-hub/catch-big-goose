@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://cdn-zhuadae.lanfeitech.com/GMVersion/prod/26102019/ABTestData.config",
+    "fetchedAtUtc": "2026-10-23T15:38:46.606437+00:00",
+    "scope": "Current public CDN response, not proof of this account or historical runtime values",
+    "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://cdn-zhuadae.lanfeitech.com/GMVersion/prod/26102019/HotFixLevelHard.txt",
+    "fetchedAtUtc": "2026-10-23T15:38:47.162557+00:00",
+    "scope": "Current public CDN response, not proof of this account or historical runtime values",
+    "status": 200,
+    "bytes": 581,
+    "sha256": "ab2fac8188fa0e29c24ab1416d698b24380835fe36eda7b35ad393263dc7fb7d",
+    "headers": {
+      "Etag": "\"4AD4E5E783601344314985D3FAC8DFD5\"",
+      "Content-Type": "text/plain",
+      "Last-Modified": "Tue, 20 Oct 2026 11:17:18 GMT",
+      "Date": "Fri, 23 Oct 2026 15:38:47 GMT"
+    }
+  },
+  {
+    "url": "https://cdn-zhuadae.lanfeitech.com/GMVersion/prod/26102019/ABTestData.config",
+    "fetchedAtUtc": "2026-10-23T15:45:07.285698+00:00",
+    "method": "PowerShell Invoke-WebRequest, TLS validated, no credentials",
+    "status": 200,
+    "bytes": 9077,
+    "sha256": "2e69ef8ee693ff4cfae83095e429178b85707042bf28ff6aff6d51363bc3cf22",
+    "scope": "Public CDN response; not actual account assignment"
+  }
+]

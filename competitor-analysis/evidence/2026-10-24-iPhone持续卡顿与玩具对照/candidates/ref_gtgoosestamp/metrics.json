@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtgoosestamp",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTGooseStamp\\GTGooseStamp.blend",
+  "sourceTriangles": 1024,
+  "triangles": 1024,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.6451079845428467,
+    1.2208592891693115,
+    1.0478332042694092
+  ],
+  "normalizedDimensions": [
+    0.5284048318862915,
+    1.0,
+    0.8582751154899597
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

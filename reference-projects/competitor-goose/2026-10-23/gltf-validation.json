@@ -1,0 +1,377 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "GTBottleCandy",
+      "bytes": 192856,
+      "sha256": "7ccb81b2a6024021f433e689ed334c6b90e929e6d9e31b6e336478c80bc90b79",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTBubbleGlue",
+      "bytes": 106152,
+      "sha256": "cbe28ac16fa95e30e17e50391d51938c3f7ba35ca75bc6ddd5dc55e8d4db6072",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTBubbleWater",
+      "bytes": 139676,
+      "sha256": "80576f0481282763acec445e3e4ac459a7f48693fe20785f236955b6df09f50f",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTCrocodile",
+      "bytes": 111624,
+      "sha256": "e6a0d5c83338eeddcc3d19f6b910c2e1d5a9d18322e93453ccd6c70d573a459d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTDinosaur",
+      "bytes": 287528,
+      "sha256": "25fbedc815f8e882f3deec98fca0b7c142f211b01175420d70718a277f36c534",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTDrawingBoard",
+      "bytes": 52400,
+      "sha256": "dff7d882701f81bc40ee25d8e7a5ed120306aa0f6c9d1f170bef0d6033fcb4a2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTFruitEraser",
+      "bytes": 24908,
+      "sha256": "37319e1e80e9a5de49a77fe1cf5ebd9f74c811976bb71478bcbb72779af0837a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTGooseStamp",
+      "bytes": 39864,
+      "sha256": "a8e9df98b4ba1512bb851b3c94078468b2a79aad6257c5f371222aab99e42dc4",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTKaleidoscope",
+      "bytes": 344176,
+      "sha256": "4e16e2d072c63c7a4908dde50ce4f0cc4109910cedf78c4936d2703988890f7d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTLaserPen",
+      "bytes": 52168,
+      "sha256": "dd2d21c35774feb308386d6a90edec70e09e9203457ad91bec5079fb53d56c58",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTMagicCubeL",
+      "bytes": 62356,
+      "sha256": "7b3f8d737eebb7fce2f467587a2be4f1323cb712a71560774ce4da05b26f545d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTPaperBoat",
+      "bytes": 61484,
+      "sha256": "05fb5fb71682ce7c2d04744c42f5c8408952769a63b13647b5ea9c567ff15eba",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTPaperFortune",
+      "bytes": 196640,
+      "sha256": "a8f238faae91c8f1af7488011b6508269f7e5cea44db3f598174b4c666aa2da2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTPaperStar",
+      "bytes": 9764,
+      "sha256": "8380a4ca1d534a0271544c4b40e98da52f170e8c748459fc89c8be7eacecec80",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTPaperTree",
+      "bytes": 80116,
+      "sha256": "7a4b74c423e4fac24903763e13086f114ef175c2eea2adf24bf6c91eb4b77746",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTPlanePen",
+      "bytes": 153512,
+      "sha256": "778d96bafa47877293946a7f3e76020fa9202e6c7b745333dcd55c40bb8b0777",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTPlasterDeer",
+      "bytes": 97796,
+      "sha256": "160aa7bb384844da2f3ff0719f6463c97cac39b2cd8c983b542c4d85792e6cf1",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTPlaydough",
+      "bytes": 175564,
+      "sha256": "b8c2163fba676185ed55850a49c16b020218db62cb52b0dfb1972de9a313c693",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTRaceCar",
+      "bytes": 221244,
+      "sha256": "956bb1e44e551cdbdf9037d5a8c11e40062e4db96406792ef36f71b264869d30",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTRingCandy",
+      "bytes": 42404,
+      "sha256": "a28648ec840125e2d3e98f6a359304aaa1657200906255f96ca65b3ecf87a0a4",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTSandbag",
+      "bytes": 218680,
+      "sha256": "4ed37f478b1d172a6143fa7a5bb50f5902c60790766a0a50a36339bc9a84e219",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTSmileDoll",
+      "bytes": 117476,
+      "sha256": "f7759ea2b429bfa5c342de4983c3e192a60ff16741267eb9fe1960a204807579",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTStickerBook",
+      "bytes": 305268,
+      "sha256": "26ab3741f0744961178386b12fe7cce9a3774a1f314b77ac0466a138785a8c84",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTUmbrella",
+      "bytes": 107764,
+      "sha256": "fac095ffc0fc44d75943353b130385058d32dcc136cf644ab137f2e07e306369",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTWallClimber",
+      "bytes": 54628,
+      "sha256": "112575ed1278f607b33eb89e2e7aa9248cc51609522e6057ebe9f46c37cc3668",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTWaterGame",
+      "bytes": 594892,
+      "sha256": "176848a5db1442912bc476b1128a865a0d2fdb769a43fd4ccea1e938c015f8fa",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "GTWaterGun",
+      "bytes": 169440,
+      "sha256": "39d1080c4be766ab6361d483323148b1031b51d40ac3e9a767270e643e8f3faf",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    }
+  ]
+}

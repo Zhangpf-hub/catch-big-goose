@@ -1,0 +1,12 @@
+{
+  "id": "ref_soysauce",
+  "triangles": 792,
+  "parts": 3,
+  "materials": 3,
+  "dimensions": [
+    0.27971720695495605,
+    1.0,
+    0.4403816759586334
+  ],
+  "glbRoundtrip": true
+}

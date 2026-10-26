@@ -1,0 +1,1701 @@
+{
+  "SheetName": "Assets/Res/ForEditor/ActivityData.xlsx",
+  "WorksheetName": "LongLevelData",
+  "dataArray": [
+    {
+      "_id": 1001,
+      "_levelindex": 1,
+      "_levelid": 100101,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitGrape",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u4e00\u5927\u6ce2\u897f\u74dc\u6765\u88ad\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 2,
+      "_levelid": 100102,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitGrape",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u8349\u8393\u5403\u5230\u9971\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 3,
+      "_levelid": 100103,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_FruitGrape",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u9999\u8549\u6d77\u6d6a\u6765\u88ad\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 4,
+      "_levelid": 100104,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 30,
+      "_levelstarttip": "\u8003\u9a8c\u624b\u901f\u7684\u65f6\u5019\u5230\u4e86\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 5,
+      "_levelid": 100105,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitCarrot",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u7eff\u8272\u98df\u54c1\u6765\u5566\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 6,
+      "_levelid": 100106,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitCarrot",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u9ec4\u8272\u679c\u852c\u6765\u88ad\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 7,
+      "_levelid": 100107,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_FruitCarrot",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 8001,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u7ea2\u8272\u7684\u5371\u9669\u6d6a\u6f6e\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 8,
+      "_levelid": 100108,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 45,
+      "_levelstarttip": "\u8003\u9a8c\u773c\u529b\u7684\u65f6\u5019\u5230\u4e86\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 9,
+      "_levelid": 100109,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitCantaloupe",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u4e2a\u5934\u5f88\u5927\u7684\u6c34\u679c\u6765\u88ad\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 10,
+      "_levelid": 100110,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitCantaloupe",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u51fa\u73b0\u4e86\u5927\u91cf\u5de8\u578b\u852c\u83dc\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 11,
+      "_levelid": 100111,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_FruitCantaloupe",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6c34\u679c\u6b63\u5728\u5feb\u901f\u81a8\u80c0\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 12,
+      "_levelid": 100112,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u5927\u5927\u5927\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 13,
+      "_levelid": 100113,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitTomato",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5927\u7684\u852c\u83dc\u4e0d\u89c1\u4e86\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 14,
+      "_levelid": 100114,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitTomato",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5c0f\u6c34\u679c\u4e00\u53e3\u4e00\u4e2a\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 15,
+      "_levelid": 100115,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_FruitTomato",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 8002,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5c0f\u7269\u54c1\u91cc\u4e0d\u5c0f\u5fc3\u6df7\u5165\u8d85\u5927\u7269\u54c1\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 16,
+      "_levelid": 100116,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u5343\u4e07\u4e0d\u8981\u624b\u6296\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 17,
+      "_levelid": 100117,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitWatermelon",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5929\u6c14\u592a\u70ed\u852c\u83dc\u90fd\u7f29\u6c34\u4e86\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 18,
+      "_levelid": 100118,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitWatermelon",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u88ab\u8001\u677f\u5751\u4e86\u6c34\u679c\u8fd9\u4e48\u5c0f\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 19,
+      "_levelid": 100119,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_FruitWatermelon",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u8d85\u591a\u5c0f\u7269\u54c1\u6765\u88ad\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 20,
+      "_levelid": 100120,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_FruitGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 45,
+      "_levelstarttip": "\u94c1\u9505\u7096\u5927\u9e45\uff01"
+    },
+    {
+      "_id": 1001,
+      "_levelindex": 21,
+      "_levelid": 100121,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_FruitPumpkin",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 8003,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5f00\u542f\u7ec8\u6781\u6311\u6218\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 1,
+      "_levelid": 100201,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeFlower",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u8d85\u5927\u4e94\u4ec1\u6708\u997c\u5927\u4fc3\u9500\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 2,
+      "_levelid": 100202,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeFlower",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u6765\u5403\u8d85\u751c\u5de7\u514b\u529b\u5939\u5fc3\u6708\u997c\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 3,
+      "_levelid": 100203,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_MoonCakeFlower",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u7ea2\u8c46\u6708\u997c\u548c\u86cb\u9ec4\u83b2\u84c9\u5f88\u914d\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 4,
+      "_levelid": 100204,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 30,
+      "_levelstarttip": "\u522b\u5206\u5fc3\uff01\u6293\u7d27\u65f6\u95f4\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 5,
+      "_levelid": 100205,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeFu",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u4e94\u989c\u516d\u8272\u7684\u6708\u997c\u9a6c\u4e0a\u5c31\u6765\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 6,
+      "_levelid": 100206,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeFu",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u91d1\u9ec4\u8272\u624d\u6709\u4e2d\u79cb\u7684\u611f\u89c9"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 7,
+      "_levelid": 100207,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_MoonCakeFu",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 8011,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u5706\u7684\u4e0d\u6b62\u6709\u6708\u4eae"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 8,
+      "_levelid": 100208,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 45,
+      "_levelstarttip": "\u53ef\u4e0d\u8981\u8ba4\u9519\u4e86\u7269\u54c1\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 9,
+      "_levelid": 100209,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeLiuXin",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5927\u6708\u997c\u6765\u88ad\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 10,
+      "_levelid": 100210,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeLiuXin",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u52a0\u5927\u4e0d\u52a0\u4ef7\u7684\u6708\u997c\u5df2\u9001\u8fbe\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 11,
+      "_levelid": 100211,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_MoonCakeLiuXin",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5927\u5927\u5927\u6708\u997c\u6765\u5566\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 12,
+      "_levelid": 100212,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u5f00\u59cb\u5feb\u901f\u5403\u6708\u997c\u5927\u8d5b\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 13,
+      "_levelid": 100213,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeWhite",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u4e00\u53e3\u4e00\u4e2a\u7684\u767d\u5154\u6708\u997c\u7a81\u7136\u53d8\u591a\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 14,
+      "_levelid": 100214,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeWhite",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5c0f\u70b9\u5fc3\u6765\u5566\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 15,
+      "_levelid": 100215,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_MoonCakeWhite",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 8012,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5927\u6708\u997c\u91cc\u627e\u5c0f\u6708\u997c\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 16,
+      "_levelid": 100216,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 120,
+      "_levelstarttip": "\u63a5\u4e0b\u6765\u662f\u7cbe\u5ea6\u548c\u901f\u5ea6\u7684\u53cc\u91cd\u6311\u6218"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 17,
+      "_levelid": 100217,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeZhong",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u5927\u5757\u7269\u54c1\u6b63\u5728\u6d8c\u5165\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 18,
+      "_levelid": 100218,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeZhong",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u6708\u997c\u90fd\u957f\u4e00\u4e2a\u6837\u4f46\u5473\u9053\u5dee\u522b\u5f88\u5927"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 19,
+      "_levelid": 100219,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_MoonCakeZhong",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_levelstarttip": "\u8d85\u5927\u751c\u98df\u5403\u4e2a\u8fc7\u763e\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 20,
+      "_levelid": 100220,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 45,
+      "_levelstarttip": "\u7ea2\u8272\u548c\u9ec4\u8272\u5f88\u914d\u54e6"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 21,
+      "_levelid": 100221,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeWuRen",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5927\u91cf\u7f29\u5c0f\u7248\u6708\u997c\u6765\u88ad\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 22,
+      "_levelid": 100222,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeWuRen",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5c0f\u6c34\u679c\u6b63\u914d\u5c0f\u6708\u997c\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 23,
+      "_levelid": 100223,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_MoonCakeWuRen",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5927\u91cf\u5c0f\u6c34\u679c\u6d8c\u51fa\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 24,
+      "_levelid": 100224,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_MoonCakeGoose",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_resumetime": 45,
+      "_levelstarttip": "\u5927\u9e45\u6765\u8fc7\u4e2d\u79cb\u5566\uff01"
+    },
+    {
+      "_id": 1002,
+      "_levelindex": 25,
+      "_levelid": 100225,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_MoonCakeBuild",
+      "_leveltype": "WeekShortLevel",
+      "_gooseid": 8013,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5f00\u542f\u7ec8\u6781\u6311\u6218\uff01"
+    },
+    {
+      "_id": 1003,
+      "_levelindex": 1,
+      "_levelid": 100301,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_TravelFruite",
+      "_leveltype": "TravelShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6765\u70b9\u6c34\u679c\u5f00\u80c3\uff01"
+    },
+    {
+      "_id": 1003,
+      "_levelindex": 2,
+      "_levelid": 100302,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_TravelFoodStall",
+      "_leveltype": "TravelShortLevel",
+      "_gooseid": 8022,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5927\u6392\u6863\u52a0\u91cf\u4e0d\u52a0\u4ef7\uff01"
+    },
+    {
+      "_id": 1003,
+      "_levelindex": 3,
+      "_levelid": 100303,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_TravelCandy",
+      "_leveltype": "TravelShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u996d\u540e\u751c\u70b9\u6765\u5566\uff01"
+    },
+    {
+      "_id": 1003,
+      "_levelindex": 4,
+      "_levelid": 100304,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_TravelSeafood",
+      "_leveltype": "TravelShortLevel",
+      "_gooseid": 8021,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u5047\u671f\u8d1d\u7c7b\u5927\u7529\u5356\uff01"
+    },
+    {
+      "_id": 1003,
+      "_levelindex": 5,
+      "_levelid": 100305,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_TravelBBQ",
+      "_leveltype": "TravelShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u70e4\u81f3\u7126\u9ec4\u624d\u591f\u9999\uff01"
+    },
+    {
+      "_id": 1003,
+      "_levelindex": 6,
+      "_levelid": 100306,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_TravelFoodCourt",
+      "_leveltype": "TravelShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u653e\u5f00\u4e86\u5403\uff01"
+    },
+    {
+      "_id": 1003,
+      "_levelindex": 7,
+      "_levelid": 100307,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_TravelFarmhouse",
+      "_leveltype": "TravelShortLevel",
+      "_gooseid": 8023,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5065\u5eb7\u996e\u98df\u5f88\u91cd\u8981\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 1,
+      "_levelid": 100401,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQDouya",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6765\u5403\u706b\u9505\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 2,
+      "_levelid": 100402,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQGongcai",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u591a\u70b9\u8089\u66f4\u624d\u8fc7\u763e\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 3,
+      "_levelid": 100403,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQHaibaicai",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 8031,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u706b\u9505\u8d85\u91cf\u8d60\u9001\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 4,
+      "_levelid": 100404,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQHaoeryu",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u52a0\u70b9\u852c\u83dc\u8c03\u5473\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 5,
+      "_levelid": 100405,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQHuangguapian",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u52a0\u70b9\u9ec4\u8272\u8c03\u8272\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 6,
+      "_levelid": 100406,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQHuanghou",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u706b\u9505\u5fc5\u987b\u7206\u8fa3\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 7,
+      "_levelid": 100407,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQHuanghuacai",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5207\u6210\u7247\u66f4\u597d\u5165\u5473"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 8,
+      "_levelid": 100408,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQJunhua",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5706\u5f62\u7684\u83dc\u5f88\u96be\u5939"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 9,
+      "_levelid": 100409,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQLaoroupian",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 8032,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u7ec6\u957f\u7684\u7269\u54c1\u8981\u4ed4\u7ec6\u5939\u53d6\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 10,
+      "_levelid": 100410,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQMalaniurou",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5c0f\u4f46\u91cf\u5927\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 11,
+      "_levelid": 100411,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQMaodu",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u98df\u6750\u53d8\u5c0f\u4e2d\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 12,
+      "_levelid": 100412,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQXiaosurou",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u706b\u9505\u98df\u6750\u7f29\u6c34\u4e0d\u964d\u4ef7\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 13,
+      "_levelid": 100413,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQYaochang",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u8bd5\u8bd5\u6d77\u9c9c\u9505\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 14,
+      "_levelid": 100414,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQYaopian",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u52a0\u70b9\u8611\u83c7\u63d0\u9c9c\uff01"
+    },
+    {
+      "_id": 1004,
+      "_levelindex": 15,
+      "_levelid": 100415,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQYaxue",
+      "_leveltype": "CQHotPotShortLevel",
+      "_gooseid": 8033,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u6765\u5403\u91cd\u5e86\u706b\u9505\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 1,
+      "_levelid": 100501,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQLaolarou",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6765\u987f\u6c5f\u6e56\u83dc\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 2,
+      "_levelid": 100502,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQChenmahua",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6765\u70b9\u96f6\u98df\u89e3\u817b\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 3,
+      "_levelid": 100503,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQLaziji",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 8041,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u6253\u5305\u4e00\u70b9\u91cd\u5e86\u7279\u4ea7\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 4,
+      "_levelid": 100504,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQHetaopian",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u4e0a\u4e00\u684c\u83dc\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 5,
+      "_levelid": 100505,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQMihuatang",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u6241\u5e73\u7684\u7269\u54c1\u597d\u6253\u5305\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 6,
+      "_levelid": 100506,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQZhulian",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5706\u5706\u7684\u7269\u54c1\u6765\u5566\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 7,
+      "_levelid": 100507,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQShaofen",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u793c\u7269\u591f\u5927\u624d\u591f\u8bda\u610f\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 8,
+      "_levelid": 100508,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQBeiduyu",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u4eca\u5929\u7684\u91cf\u4e00\u5b9a\u5403\u9971\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 9,
+      "_levelid": 100509,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQRue",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 8042,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u9700\u8981\u4e00\u5f20\u66f4\u5927\u7684\u684c\u5b50\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 10,
+      "_levelid": 100510,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQXiabu",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u9ebb\u82b1\u4e0d\u80fd\u5403\u592a\u591a\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 11,
+      "_levelid": 100511,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQZheshan",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u662f\u684c\u5b50\u53d8\u5927\u4e86\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 12,
+      "_levelid": 100512,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQDouhua",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u6bdb\u8840\u65fa\u52a0\u91cd\u5e86\u8fa3\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 13,
+      "_levelid": 100513,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQKaoyu",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6765\u4e86\u5fc5\u987b\u5e26\u70b9\u7279\u4ea7"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 14,
+      "_levelid": 100514,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQMiaoxiu",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u4e0d\u5403\u6491\u7edd\u5bf9\u4e0d\u80fd\u8d70\uff01"
+    },
+    {
+      "_id": 1005,
+      "_levelindex": 15,
+      "_levelid": 100515,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQChongqingxiaomian",
+      "_leveltype": "CQCultureShortLevel",
+      "_gooseid": 8043,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u5403\u5b8c\u4e5f\u5f97\u515c\u7740\u8d70\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 1,
+      "_levelid": 100601,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQCSYou",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6765\u5c1d\u5c1d\u5c71\u91cc\u7684\u5473\u9053\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 2,
+      "_levelid": 100602,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQDajingyin",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5fc5\u987b\u6765\u559d\u4e00\u53e3\u5c71\u8336\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 3,
+      "_levelid": 100603,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQHLCuitao",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 8051,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u6e38\u5c71\u73a9\u6c34\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 4,
+      "_levelid": 100604,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQJFSZhuoshan",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5c71\u91cc\u6458\u4e86\u4e00\u5806\u91ce\u679c\u91ce\u83dc"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 5,
+      "_levelid": 100605,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQLaoyingcha",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u9ec4\u8272\u7684\u6c34\u679c\u770b\u8d77\u6765\u5f88\u751c\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 6,
+      "_levelid": 100606,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQSZChuncai",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u7eff\u8272\u7684\u5c71\uff01\u7eff\u8272\u7684\u53f6\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 7,
+      "_levelid": 100607,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQTNNingmeng",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5fc5\u987b\u9001\u6700\u5927\u7f50\u7684\u8336\u53f6\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 8,
+      "_levelid": 100608,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQTuocha",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6241\u5e73\u7684\u5c71\u53ef\u4ee5\u6253\u5305\u5e26\u8d70"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 9,
+      "_levelid": 100609,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQWSCuili",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 8052,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u5706\u6eda\u6eda\u7684\u7279\u4ea7\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 10,
+      "_levelid": 100610,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQWSShengnvfeng",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5c0f\u7684\u98df\u7269\u5bb9\u6613\u716e\u70c2\uff0c\u8d76\u7d27\u635e\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 11,
+      "_levelid": 100611,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQXiongmao",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6362\u4e2a\u66f4\u5927\u7684\u7ba9\u7b50\u53ef\u4ee5\u88c5\u66f4\u591a"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 12,
+      "_levelid": 100612,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQXNSShudingmanbu",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u5e26\u8d70\u5c71\u77f3\u4e5f\u7b97\u5e26\u8d70\u4e00\u70b9\u5927\u5c71"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 13,
+      "_levelid": 100613,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQXueqicheng",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6253\u5305\u5e26\u8d70\u5c71\u91cc\u7684\u7279\u4ea7"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 14,
+      "_levelid": 100614,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQYXXiuya",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u6765\u4e86\u5c31\u5fc5\u987b\u5403\u9971\uff01"
+    },
+    {
+      "_id": 1006,
+      "_levelindex": 15,
+      "_levelid": 100615,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQZXZhongcheng",
+      "_leveltype": "CQMountainShortLevel",
+      "_gooseid": 8053,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u6765\u90fd\u6765\u4e86\uff0c\u90fd\u5e26\u70b9"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 1,
+      "_levelid": 100701,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQDaZuWoFo",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5750\u8f66\u8f6c\u4e00\u5708\u91cd\u5e86\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 2,
+      "_levelid": 100702,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQDYCHuGuoMeng",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u4e0d\u8981\u9519\u8fc7\u6709\u540d\u7684\u5efa\u7b51\u666f\u70b9\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 3,
+      "_levelid": 100703,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQEGongYanQiao",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 8061,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u6765\u91cd\u5e86\u5fc5\u987b\u5750\u4e00\u6b21\u7d22\u9053\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 4,
+      "_levelid": 100704,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQELLiangJiangTing",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u7eaa\u5ff5\u54c1\u5927\u4fc3\u9500\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 5,
+      "_levelid": 100705,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQFJBaiDiCheng",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u5fc5\u987b\u6bcf\u4e2a\u5854\u90fd\u722c\u4e00\u904d\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 6,
+      "_levelid": 100706,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQHongYaDong",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u7eaa\u5ff5\u54c1\u9009\u6247\u5b50\u597d\u770b\u53c8\u597d\u7528\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 7,
+      "_levelid": 100707,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQHuangJingYouLun",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u7eaa\u5ff5\u54c1\u9009\u4e2a\u8d85\u5927\u7684\u66f4\u6709\u6027\u4ef7\u6bd4"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 8,
+      "_levelid": 100708,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQJieFangBei",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u518d\u585e\u4e00\u7247\u7eaa\u5ff5\u54c1\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 9,
+      "_levelid": 100709,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQLPShuangGuiTang",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 8062,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u8d70\u8fdb\u91cd\u5e86\u7684\u6587\u5316\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 10,
+      "_levelid": 100710,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQLZBQingGuiZhan",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u4e70\u4e00\u5806\u7eaa\u5ff5\u54c1\u589e\u52a0\u56de\u5fc6\u91cd\u91cf"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 11,
+      "_levelid": 100711,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQRMDaLiTang",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u5c0f\u7801\u7eaa\u5ff5\u54c1\u5927\u7529\u5356\uff01"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 12,
+      "_levelid": 100712,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQShiBaoZhai",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 240,
+      "_levelstarttip": "\u5c0f\u5c0f\u7684\u8f66\u8f6c\u5927\u5927\u7684\u57ce"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 13,
+      "_levelid": 100713,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQSuoDao",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 180,
+      "_levelstarttip": "\u6253\u5305\u91cd\u5e86\u7684\u6c11\u4fd7\u7269\u4ef6"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 14,
+      "_levelid": 100714,
+      "_bosslevel": 0,
+      "_leveliconkey": "Level_CQTLHeHuaLong",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u8d70\u8d70\u505c\u505c\u53c8\u662f\u4e00\u5904\u666f\u70b9"
+    },
+    {
+      "_id": 1007,
+      "_levelindex": 15,
+      "_levelid": 100715,
+      "_bosslevel": 1,
+      "_leveliconkey": "Level_CQZhangFeiMiao",
+      "_leveltype": "CQMiniCityShortLevel",
+      "_gooseid": 8063,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 0,
+      "_levelstarttip": "\u91cd\u5e86\u7684\u56de\u5fc6\u6253\u5305\u51fa\u552e\uff01"
+    }
+  ]
+}

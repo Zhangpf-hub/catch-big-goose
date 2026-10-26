@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfpumpkinpie",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFPumpkinPie\\BFPumpkinPie.blend",
+  "sourceTriangles": 528,
+  "triangles": 528,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0962424278259277,
+    1.0389525890350342,
+    0.601218581199646
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.947739839553833,
+    0.5484358072280884
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

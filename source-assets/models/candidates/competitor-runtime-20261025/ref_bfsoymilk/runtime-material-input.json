@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "name": "doujiang",
+      "color": [
+        0.886274516582489,
+        0.8331734538078308,
+        0.772831380367279,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    },
+    {
+      "name": "Shell",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonGlassCus",
+      "glassFlattened": true
+    },
+    {
+      "name": "Shell_Top",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-7999585079489659502.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonGlassCus",
+      "glassFlattened": true
+    }
+  ]
+}

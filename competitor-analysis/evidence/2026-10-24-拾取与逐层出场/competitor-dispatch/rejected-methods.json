@@ -1,0 +1,14 @@
+[
+  {
+    "name": "LevelManager$$GetUnit",
+    "expected": "iiiiii",
+    "actual": "viiiiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager$$GetCheckWinTimeAfterCombine",
+    "expected": "fii",
+    "actual": "fii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  }
+]

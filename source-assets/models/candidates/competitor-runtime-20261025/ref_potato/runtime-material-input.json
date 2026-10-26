@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "PotatoMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_2084941093979176156.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

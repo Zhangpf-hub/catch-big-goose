@@ -1,0 +1,12 @@
+{
+  "id": "ref_cookingwine",
+  "triangles": 1498,
+  "parts": 3,
+  "materials": 3,
+  "dimensions": [
+    0.3029387295246124,
+    1.0,
+    0.5108672380447388
+  ],
+  "glbRoundtrip": true
+}

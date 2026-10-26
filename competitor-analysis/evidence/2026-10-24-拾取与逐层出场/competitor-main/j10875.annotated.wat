@@ -1,0 +1,175 @@
+  (func $j10875 (type $t2) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    (local $l3 i32) (local $l4 i32) (local $l5 i32) (local $l6 i32) (local $l7 i32) (local $l8 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $l3
+    local.get $l3
+    global.set $primary.global$0
+    i32.const 5127095
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4003040 ;; Method$System.Collections.Generic.List<ObjectUnit>.Contains()
+      call $j922
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      call $j922
+      i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+      call $j922
+      i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+      call $j922
+      i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+      call $j922
+      i32.const 4039308 ;; Method$DG.Tweening.TweenSettingsExtensions.SetEase<TweenerCore<Vector3, Vector3, VectorOptions>>()
+      call $j922
+      i32.const 4039312 ;; Method$DG.Tweening.TweenSettingsExtensions.SetEase<TweenerCore<Vector3, Vector3, VectorOptions>>()
+      call $j922
+      i32.const 4039444 ;; Method$DG.Tweening.TweenSettingsExtensions.SetUpdate<TweenerCore<Vector3, Vector3, VectorOptions>>()
+      call $j922
+      i32.const 5127095
+      i32.const 1
+      i32.store8
+    end
+    local.get $p1
+    i32.const 1
+    i32.eq
+    local.set $p2
+    local.get $p0
+    i32.const 36
+    i32.const 40
+    local.get $p2
+    select
+    i32.add
+    i32.load
+    local.set $l7
+    local.get $p0
+    i32.const 44
+    i32.const 48
+    local.get $p2
+    select
+    i32.add
+    i32.load
+    local.set $l4
+    i32.const 0
+    local.set $p2
+    loop $L1
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      i32.load
+      drop
+      local.get $p2
+      local.get $l4
+      i32.load offset=12
+      i32.lt_s
+      if $I2
+        block $B3
+          local.get $p0
+          i32.load offset=52
+          local.get $l4
+          local.get $p2
+          i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+          i32.load
+          call $j947
+          i32.const 4003040 ;; Method$System.Collections.Generic.List<ObjectUnit>.Contains()
+          i32.load
+          call $j1262
+          br_if $B3
+          local.get $l4
+          local.get $p2
+          i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+          i32.load
+          call $j947
+          local.set $l5
+          i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+          i32.load
+          call $j923
+          local.get $l5
+          i32.const 0
+          i32.const 0
+          call $j980 ;; UnityEngine.Object$$op_Equality
+          br_if $B3
+          local.get $p0
+          i32.load offset=56
+          i32.load8_u offset=216
+          local.set $l8
+          local.get $l4
+          local.get $p2
+          i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+          i32.load
+          call $j947
+          i32.const 0
+          call $j979 ;; UnityEngine.Component$$get_transform
+          local.set $l5
+          local.get $l7
+          local.get $p2
+          i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+          i32.load
+          call $j947
+          local.set $l6
+          local.get $l8
+          if $I4
+            local.get $l3
+            local.get $l6
+            i32.const 0
+            call $j1062 ;; UnityEngine.Transform$$get_position
+            local.get $l5
+            local.get $l3
+            f32.load
+            local.get $p0
+            i32.load offset=56
+            f32.load offset=212
+            i32.const 0
+            i32.const 0
+            call $j5575 ;; DG.Tweening.ShortcutExtensions$$DOMoveX
+            i32.const 1
+            i32.const 4039444 ;; Method$DG.Tweening.TweenSettingsExtensions.SetUpdate<TweenerCore<Vector3, Vector3, VectorOptions>>()
+            i32.load
+            call $j1315
+            local.get $p0
+            i32.load offset=56
+            i32.load offset=224
+            i32.const 4039308 ;; Method$DG.Tweening.TweenSettingsExtensions.SetEase<TweenerCore<Vector3, Vector3, VectorOptions>>()
+            i32.load
+            call $j6175
+            drop
+            br $B3
+          end
+          local.get $l3
+          local.get $l6
+          i32.const 0
+          call $j1062 ;; UnityEngine.Transform$$get_position
+          local.get $l5
+          local.get $l3
+          f32.load
+          local.get $p0
+          i32.load offset=56
+          f32.load offset=212
+          i32.const 0
+          i32.const 0
+          call $j5575 ;; DG.Tweening.ShortcutExtensions$$DOMoveX
+          i32.const 1
+          i32.const 4039444 ;; Method$DG.Tweening.TweenSettingsExtensions.SetUpdate<TweenerCore<Vector3, Vector3, VectorOptions>>()
+          i32.load
+          call $j1315
+          local.get $p0
+          i32.load offset=56
+          i32.load offset=220
+          i32.const 4039312 ;; Method$DG.Tweening.TweenSettingsExtensions.SetEase<TweenerCore<Vector3, Vector3, VectorOptions>>()
+          i32.load
+          call $j1137
+          drop
+        end
+        local.get $p2
+        i32.const 1
+        i32.add
+        local.set $p2
+        br $L1
+      end
+    end
+    local.get $p0
+    local.get $p1
+    local.get $p2
+    call $j14614 ;; LevelObjAnimManager$$RemoveDelayCoro
+    local.get $l3
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

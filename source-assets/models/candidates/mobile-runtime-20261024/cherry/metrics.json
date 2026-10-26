@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "cherry",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cherry\\cherry.fbx",
+  "sourceTriangles": 1264,
+  "triangles": 1264,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.5956956148147583,
+    0.9000227451324463
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.5956954956054688,
+    0.9000226259231567
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_flashlight2",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Flashlight2\\Flashlight2.blend",
+  "sourceTriangles": 1356,
+  "triangles": 1356,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.676816701889038,
+    1.9779632091522217,
+    1.4525305032730103
+  ],
+  "normalizedDimensions": [
+    0.8477492332458496,
+    1.0,
+    0.734356701374054
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

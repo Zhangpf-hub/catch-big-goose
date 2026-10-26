@@ -1,0 +1,12 @@
+{
+  "id": "ref_banana",
+  "triangles": 288,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    1.0,
+    0.9316105246543884,
+    0.5523849129676819
+  ],
+  "glbRoundtrip": true
+}

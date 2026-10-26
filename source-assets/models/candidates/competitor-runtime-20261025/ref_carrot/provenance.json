@@ -1,0 +1,9 @@
+{
+  "id": "ref_carrot",
+  "sourceId": "Carrot",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Carrot\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Carrot.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "0c06668b9259d973d2789411c964908bc1b010c133c4ff3e27a5ea6d25588f36"
+}

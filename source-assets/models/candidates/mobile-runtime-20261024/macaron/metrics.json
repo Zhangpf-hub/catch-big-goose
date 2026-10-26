@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "macaron",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\macaron\\macaron.fbx",
+  "sourceTriangles": 2652,
+  "triangles": 2652,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9597506523132324,
+    0.741515576839447,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.9597506523132324,
+    0.7415155172348022,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

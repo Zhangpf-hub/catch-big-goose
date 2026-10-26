@@ -1,0 +1,237 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e",
+  "files": [],
+  "subMetas": {
+    "48399": {
+      "importer": "gltf-mesh",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@48399",
+      "displayName": "",
+      "id": "48399",
+      "name": "octagonal-cut-jade-mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 64
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c244a": {
+      "importer": "gltf-mesh",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@c244a",
+      "displayName": "",
+      "id": "c244a",
+      "name": "Cylinder.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 220
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "12b8b": {
+      "importer": "gltf-mesh",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@12b8b",
+      "displayName": "",
+      "id": "12b8b",
+      "name": "Torus.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 96
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2f6d1": {
+      "importer": "gltf-mesh",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@2f6d1",
+      "displayName": "",
+      "id": "2f6d1",
+      "name": "Cube.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 752
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e446": {
+      "importer": "gltf-mesh",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@1e446",
+      "displayName": "",
+      "id": "1e446",
+      "name": "Icosphere.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 160
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9c9f": {
+      "importer": "gltf-material",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@c9c9f",
+      "displayName": "",
+      "id": "c9c9f",
+      "name": "baoshi_emerald_deep.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bbaa9": {
+      "importer": "gltf-material",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@bbaa9",
+      "displayName": "",
+      "id": "bbaa9",
+      "name": "baoshi_emerald_mid.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "00942": {
+      "importer": "gltf-material",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@00942",
+      "displayName": "",
+      "id": "00942",
+      "name": "baoshi_emerald_highlight.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "35a39": {
+      "importer": "gltf-material",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@35a39",
+      "displayName": "",
+      "id": "35a39",
+      "name": "baoshi_gold_recess.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6870c": {
+      "importer": "gltf-material",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@6870c",
+      "displayName": "",
+      "id": "6870c",
+      "name": "baoshi_antique_gold.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "53f27": {
+      "importer": "gltf-scene",
+      "uuid": "19d5bb82-48d4-47f6-ab89-a2e41498321e@53f27",
+      "displayName": "",
+      "id": "53f27",
+      "name": "baoshi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@48399",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@c244a",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@12b8b",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@2f6d1",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@1e446"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@c9c9f",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@bbaa9",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@00942",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@35a39",
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@6870c"
+      ],
+      "scenes": [
+        "19d5bb82-48d4-47f6-ab89-a2e41498321e@53f27"
+      ]
+    }
+  }
+}

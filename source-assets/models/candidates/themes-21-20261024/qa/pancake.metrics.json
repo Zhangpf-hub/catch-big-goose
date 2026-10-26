@@ -1,0 +1,28 @@
+{
+  "id": "pancake",
+  "theme": "dessert",
+  "triangles": 1056,
+  "vertices": 536,
+  "blenderBounds": [
+    1.0,
+    1.0,
+    0.6544117331504822
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 25384,
+  "sha256": "b6e05007aeb67685c65ea1e07bd6d6a296f7a313c2a22b623b77b243843a10c8",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

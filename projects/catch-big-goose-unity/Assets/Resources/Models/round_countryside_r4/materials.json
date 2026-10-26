@@ -1,0 +1,60 @@
+{
+  "materials": [
+    {
+      "name": "countryside_body",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite2",
+      "texture": "Models/round_countryside_r4/grain0",
+      "color": [
+        0.49000000953674316,
+        0.33000001311302185,
+        0.1599999964237213,
+        1.0
+      ],
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcapScale": 0.10000000149011612,
+      "matcapColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "FireTableMetalMa",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    },
+    {
+      "name": "countryside_rim",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite2",
+      "texture": "Models/round_countryside_r4/grain1",
+      "color": [
+        0.800000011920929,
+        0.6399999856948853,
+        0.3700000047683716,
+        1.0
+      ],
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcapScale": 0.10000000149011612,
+      "matcapColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "FireTableMetalMa",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    }
+  ]
+}

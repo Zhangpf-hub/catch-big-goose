@@ -1,0 +1,9 @@
+{
+  "id": "ref_redshrimp",
+  "sourceId": "RedShrimp",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\RedShrimp\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/RedShrimp.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+  "sourceSha256": "a658984a640c7fecc062b95060cd4ead5b8009f00cfed94228c72f53c0645c56"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "peach",
+  "theme": "fruit",
+  "triangles": 976,
+  "vertices": 514,
+  "blenderBounds": [
+    0.8974361419677734,
+    0.7935444116592407,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 24216,
+  "sha256": "c8c1d3898ebcca7cb596fc8f0a2abe5b195d1910fead07b72dc4989e9f4b41a0",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

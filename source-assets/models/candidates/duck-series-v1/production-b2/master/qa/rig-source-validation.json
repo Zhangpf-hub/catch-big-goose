@@ -1,0 +1,44 @@
+{
+  "meshSha256": "8918b8c3b1645593c2a2f81b1b7106e2df61e6e28c5ac134579feac7d05a0936",
+  "boneCount": 9,
+  "unweightedVertices": 0,
+  "weightSumRange": [
+    0.9999999646097422,
+    1.0000000596046448
+  ],
+  "clips": [
+    {
+      "action": "duck_idle",
+      "frames": [
+        1,
+        61
+      ],
+      "sampleFrame": 31,
+      "movedVertices": 1391,
+      "maximumDisplacement": 0.012214234432239898
+    },
+    {
+      "action": "duck_greet",
+      "frames": [
+        1,
+        40
+      ],
+      "sampleFrame": 9,
+      "movedVertices": 1131,
+      "maximumDisplacement": 0.21958428597909022
+    },
+    {
+      "action": "duck_click",
+      "frames": [
+        1,
+        18
+      ],
+      "sampleFrame": 4,
+      "movedVertices": 2722,
+      "maximumDisplacement": 0.1247834931570039
+    }
+  ],
+  "blenderEvaluatedVertexMotionPassed": true,
+  "unityImported": false,
+  "unityVertexMotionVerified": false
+}

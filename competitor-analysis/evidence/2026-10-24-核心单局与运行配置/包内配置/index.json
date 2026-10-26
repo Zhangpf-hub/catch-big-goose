@@ -1,0 +1,65 @@
+[
+  {
+    "cls": "HotFixScriptable",
+    "name": "HotFixCDKey",
+    "pathId": 807,
+    "file": "sharedassets0.assets",
+    "passed": true,
+    "bytes": 196,
+    "sha256": "ab37563d4d7d4924f2bfd5273a2084159839c3090b8f33ee614f431328a15c5e"
+  },
+  {
+    "cls": "HotFixScriptable",
+    "name": "HotFixChallengeActivityIsOpen",
+    "pathId": 808,
+    "file": "sharedassets0.assets",
+    "passed": true,
+    "bytes": 208,
+    "sha256": "52ab76359001fc50e77f7e3b1099a9a44e0157ac4daa4d468d07fa5bf311b56a"
+  },
+  {
+    "cls": "HotFixScriptable",
+    "name": "HotFixKuaiShou",
+    "pathId": 809,
+    "file": "sharedassets0.assets",
+    "passed": true,
+    "bytes": 84,
+    "sha256": "811859074bdb45ac16ba6d8b7699e241ce0054e6baac233ba00019407940ae24"
+  },
+  {
+    "cls": "HotFixScriptable",
+    "name": "HotFixLevelHard",
+    "pathId": 810,
+    "file": "sharedassets0.assets",
+    "passed": true,
+    "bytes": 484,
+    "sha256": "8513e9cd939fc21d22c505c3134671e8faf8cf5fbf732b128817d6241e6cf547"
+  },
+  {
+    "cls": "HotFixScriptable",
+    "name": "HotFixSpLevel",
+    "pathId": 811,
+    "file": "sharedassets0.assets",
+    "passed": true,
+    "bytes": 552,
+    "sha256": "37976bcb61e85f749c9d2b3e9c6b581527ce31c47e9cb911ab098784f4bc70ea"
+  },
+  {
+    "cls": "HotFixScriptable",
+    "name": "HotFixSystem",
+    "pathId": 812,
+    "file": "sharedassets0.assets",
+    "passed": true,
+    "bytes": 1528,
+    "sha256": "7d888965152d47439f576f046a09e46d34ddb358f8b5e90d1dfcdd9fb4944e2b"
+  },
+  {
+    "cls": "ServerFileCreate",
+    "name": "",
+    "pathId": 135,
+    "file": "level0",
+    "passed": true,
+    "bytes": 6312,
+    "sha256": "9c5dfc20e5343434359bb05fdb1569a55660272475f0800a2caa7f608342cf40"
+  }
+]

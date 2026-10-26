@@ -1,0 +1,28 @@
+{
+  "id": "tablet",
+  "theme": "electronics",
+  "triangles": 728,
+  "vertices": 376,
+  "blenderBounds": [
+    0.7819148898124695,
+    0.18936170637607574,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 18340,
+  "sha256": "679cdbc92554318611d95571144615bed06fcaa33ca22ad3a76560e802398bd2",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

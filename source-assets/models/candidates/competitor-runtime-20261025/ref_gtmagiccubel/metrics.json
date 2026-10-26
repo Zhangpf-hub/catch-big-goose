@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtmagiccubel",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTMagicCubeL\\GTMagicCubeL.blend",
+  "sourceTriangles": 1196,
+  "triangles": 1196,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.3300375938415527,
+    1.470726728439331,
+    1.6162209510803223
+  ],
+  "normalizedDimensions": [
+    0.8229305148124695,
+    0.9099787473678589,
+    1.0
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

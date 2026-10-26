@@ -1,0 +1,51 @@
+{
+  "cdnUrl": "https://cdn-zhuadae.lanfeitech.com/GMVersion",
+  "serverFileVersion": "prod/26102019",
+  "ShareADListFile": "shareADListFile.txt",
+  "shareADListData": {
+    "m_FileID": 3,
+    "m_PathID": 726
+  },
+  "serverVarFile": "commonVarFile.config",
+  "CommonTimeConfig": {
+    "m_FileID": 3,
+    "m_PathID": 751
+  },
+  "_useProdTimeConfig": 1,
+  "_configCdnHead": "https://cdn-zhuadae.lanfeitech.com/",
+  "_devTimeConfigUrl": "wx/TimeData/dev/",
+  "_prodTimeConfigUrl": "wx/TimeData/prod/",
+  "_timeFileName": "commonTimeFile.config",
+  "_netConfigScriptable": [
+    {
+      "m_FileID": 3,
+      "m_PathID": 807
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 811
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 808
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 809
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 812
+    },
+    {
+      "m_FileID": 3,
+      "m_PathID": 810
+    }
+  ],
+  "_serverWarnFileName": "ServerWarnFile.config",
+  "abTestDataFile": "ABTestData.config",
+  "abTestData": {
+    "m_FileID": 3,
+    "m_PathID": 725
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_woodhand",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WoodHand\\WoodHand.blend",
+  "sourceTriangles": 1156,
+  "triangles": 1156,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8196440935134888,
+    3.3660378456115723,
+    0.4121202230453491
+  ],
+  "normalizedDimensions": [
+    0.2435041218996048,
+    1.0,
+    0.1224348172545433
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

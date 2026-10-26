@@ -1,0 +1,37 @@
+{
+  "rowClass": "SeasonLevelSpModeDataData",
+  "fields": [
+    [
+      "_seasonid",
+      "int"
+    ],
+    [
+      "_unlocklevel",
+      "int"
+    ],
+    [
+      "_spmodetype",
+      "string"
+    ],
+    [
+      "_spmodelevelid",
+      "int"
+    ],
+    [
+      "_spmodelevelname",
+      "string"
+    ],
+    [
+      "_spmodelevelicon",
+      "string"
+    ],
+    [
+      "_resid",
+      "string"
+    ],
+    [
+      "_rescount",
+      "int"
+    ]
+  ]
+}

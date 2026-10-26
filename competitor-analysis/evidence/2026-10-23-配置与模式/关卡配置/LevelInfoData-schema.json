@@ -1,0 +1,21 @@
+{
+  "rowClass": "LevelInfoDataData",
+  "fields": [
+    [
+      "_id",
+      "int"
+    ],
+    [
+      "_levelid",
+      "int"
+    ],
+    [
+      "_levelkey",
+      "string"
+    ],
+    [
+      "_dayfreecount",
+      "int"
+    ]
+  ]
+}

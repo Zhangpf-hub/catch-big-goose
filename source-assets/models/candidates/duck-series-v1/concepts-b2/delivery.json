@@ -1,0 +1,61 @@
+{
+  "status": "approved-b2-concept",
+  "userDirection": "竞品模型有个特效，头小脚小，比较夸张和抽象，优化下我们的鸭子",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "currentImages": 4,
+  "files": [
+    {
+      "path": "duck-b2-eggtart.png",
+      "bytes": 1597592,
+      "sha256": "424127c4c981f22343ce315375234c6ff2c9be4531d3b0d72c9933acc8241014",
+      "width": 1312,
+      "height": 1199
+    },
+    {
+      "path": "duck-b2-numberblock.png",
+      "bytes": 1554494,
+      "sha256": "e61292eea8633cbba7a7f2078e590fe400ba77a3bba9c2a80b11835f8e050885",
+      "width": 1491,
+      "height": 1055
+    },
+    {
+      "path": "duck-b2-steelcup.png",
+      "bytes": 1657660,
+      "sha256": "b5617d4697a960ff26c1468b66a3a409b4066bb0120afd0c6aae0e4787536d2a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "duck-b2-turnaround.png",
+      "bytes": 1485526,
+      "sha256": "dd6a2958c532215c98001f1e9a4f5f74db02c4c4347d829a2f837df4c670ebcd",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "generation-prompts.json",
+      "bytes": 15002,
+      "sha256": "aa635368dd2282948ad23c27b718dd813592f5d0ed467a9d6963a50588c510f2"
+    },
+    {
+      "path": "review.html",
+      "bytes": 3424,
+      "sha256": "aa690c40420a3b1745fd7015a8654bf07d6824e14f1b6860e749685e49f4f0af"
+    }
+  ],
+  "generatedConceptsOnly": true,
+  "modelUpdated": false,
+  "previousModelShapeRejected": true,
+  "paid3dGenerationCalled": false,
+  "structureCheck": {
+    "passed": false,
+    "errors": [
+      "SDK intermediate package published to canonical directory"
+    ],
+    "newBrokenLinks": []
+  },
+  "structureCheckNote": "Existing Unity SDK intermediate minigame directory appeared during this work; no Unity/WeChat build or move/delete performed in this task.",
+  "userApprovalText": "通过 完成计划",
+  "nextDelivery": "../master-b2/review.html"
+}

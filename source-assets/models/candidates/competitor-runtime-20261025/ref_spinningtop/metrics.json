@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_spinningtop",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\SpinningTop\\SpinningTop.blend",
+  "sourceTriangles": 888,
+  "triangles": 888,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.069406509399414,
+    1.6356282234191895,
+    1.3586585521697998
+  ],
+  "normalizedDimensions": [
+    0.6538200378417969,
+    1.0,
+    0.8306646347045898
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "duck-steelcup",
+  "triangles": 3940,
+  "dimensions": [
+    1.0,
+    0.5726428627967834,
+    0.7619637846946716
+  ],
+  "sourceExtent": 1.1176249980926514,
+  "sourceCenter": [
+    0.05319574475288391,
+    0.0,
+    0.43223389983177185
+  ],
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 96100,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true,
+  "preferredTriangleTargetMet": true
+}

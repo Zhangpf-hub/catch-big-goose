@@ -1,0 +1,134 @@
+{
+  "SheetName": "Assets/Res/ForEditor/ABTestData.xlsx",
+  "WorksheetName": "LevelABData",
+  "dataArray": [
+    {
+      "_id": 1,
+      "_reducegroup": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "_reducetype": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "_des": "\u51cf\u5c11\u5c11\u91cf\u79cd\u7c7b"
+    },
+    {
+      "_id": 2,
+      "_reducegroup": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "_reducetype": [
+        8,
+        2,
+        0,
+        0
+      ],
+      "_des": "\u51cf\u5c11\u4e2d\u91cf\u79cd\u7c7b"
+    },
+    {
+      "_id": 3,
+      "_reducegroup": [
+        10,
+        5,
+        0,
+        0
+      ],
+      "_reducetype": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "_des": "\u51cf\u5c11\u7ec4\u6570\uff0c\u51cf\u5c11\u5c11\u91cf\u79cd\u7c7b"
+    },
+    {
+      "_id": 4,
+      "_reducegroup": [
+        10,
+        5,
+        0,
+        0
+      ],
+      "_reducetype": [
+        8,
+        2,
+        0,
+        0
+      ],
+      "_des": "\u51cf\u5c11\u7ec4\u6570\uff0c\u51cf\u5c11\u4e2d\u91cf\u79cd\u7c7b"
+    },
+    {
+      "_id": 5,
+      "_reducegroup": [
+        13,
+        8,
+        0,
+        0
+      ],
+      "_reducetype": [
+        10,
+        4,
+        1,
+        0
+      ],
+      "_des": "\u5728easy4\u57fa\u7840\u4e0a\u964d\u4f4e\u540e\u671f\u96be\u5ea6"
+    },
+    {
+      "_id": 6,
+      "_reducegroup": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "_reducetype": [
+        0,
+        0,
+        3,
+        2
+      ],
+      "_des": "\u964d\u4f4e\u524d\u671f\u96be\u5ea6\uff08\u57fa\u4e8e\u539f\u7248\uff09"
+    },
+    {
+      "_id": 7,
+      "_reducegroup": [
+        10,
+        5,
+        0,
+        0
+      ],
+      "_reducetype": [
+        8,
+        2,
+        2,
+        2
+      ],
+      "_des": "\u964d\u4f4e\u524d\u671f\u96be\u5ea6\uff08\u57fa\u4e8eeasy4\uff0c\u53ea\u51cf\u79cd\u7c7b\uff0c\u51cf\u5c11\u524d\u671f\u6570\u91cf\u53ef\u80fd\u5bfc\u81f4\u524d\u671f\u4f53\u9a8c\u66f4\u5dee\uff09"
+    },
+    {
+      "_id": 8,
+      "_reducegroup": [
+        10,
+        7,
+        4,
+        4
+      ],
+      "_reducetype": [
+        8,
+        2,
+        2,
+        2
+      ],
+      "_des": "\u964d\u4f4e\u524d\u671f\u6574\u4f53\u96be\u5ea6\uff08\u57fa\u4e8eeasy4\uff0c\u51cf\u79cd\u7c7b\u548c\u6570\u91cf\uff09"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "materials": [
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlaydough\\tex_-6351097788001986610.png",
+      "uvMin": [
+        0.008092678152024746,
+        0.00937101524323225
+      ],
+      "uvMax": [
+        0.985905110836029,
+        0.9899619221687317
+      ]
+    },
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlaydough\\tex_-6351097788001986610.png",
+      "uvMin": [
+        0.010009669698774815,
+        0.011482980102300644
+      ],
+      "uvMax": [
+        0.9849262237548828,
+        0.9862713813781738
+      ]
+    },
+    {
+      "color": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        0.010009669698774815,
+        0.011482980102300644
+      ],
+      "uvMax": [
+        0.9849262237548828,
+        0.9862713813781738
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\ref_gtplaydough\\albedo.png"
+}

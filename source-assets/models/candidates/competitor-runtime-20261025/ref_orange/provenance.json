@@ -1,0 +1,9 @@
+{
+  "id": "ref_orange",
+  "sourceId": "Orange",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Orange\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Orange.prefab",
+  "bundle": "levelcountrysideobjprefab_assets__37a8cd1871982c8b9e9b516ad6caa820.bundle",
+  "sourceSha256": "6198736b693d5bcf3dc9dcbeb3ea88e51857839002c51d5e982713fb4ea7c280"
+}

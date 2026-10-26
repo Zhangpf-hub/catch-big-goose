@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cupcake\\cupcake_albedo_0.png",
+      "uvMin": [
+        0.00035600000410340726,
+        0.00035500526428222656
+      ],
+      "uvMax": [
+        0.9989309906959534,
+        0.9989339709281921
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\cupcake\\albedo.png"
+}

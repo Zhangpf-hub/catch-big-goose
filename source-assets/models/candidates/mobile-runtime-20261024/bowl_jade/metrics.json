@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "bowl_jade",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bowl_jade\\bowl_jade.fbx",
+  "sourceTriangles": 3498,
+  "triangles": 3498,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.99578857421875,
+    0.9983521103858948,
+    0.4438478350639343
+  ],
+  "normalizedDimensions": [
+    0.997432291507721,
+    1.0,
+    0.4445802569389343
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

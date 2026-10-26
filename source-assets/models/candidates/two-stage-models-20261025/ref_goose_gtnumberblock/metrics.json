@@ -1,0 +1,12 @@
+{
+  "id": "ref_goose_gtnumberblock",
+  "triangles": 3440,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.8708950281143188,
+    1.0,
+    0.8187827467918396
+  ],
+  "glbRoundtrip": true
+}

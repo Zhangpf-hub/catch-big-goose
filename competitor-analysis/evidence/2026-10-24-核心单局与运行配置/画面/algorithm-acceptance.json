@@ -1,0 +1,19 @@
+{
+    "passed": true,
+    "unityVersion": "2022.3.62f3",
+    "checks": [
+        "Offscreen frame contains scene and UI colors: core-home.png",
+        "Rendered core stock 0",
+        "Offscreen frame contains scene and UI colors: core-0.png",
+        "Screenshot written 0",
+        "Rendered core stock 1",
+        "Rendered temporary storage",
+        "Offscreen frame contains scene and UI colors: core-1.png",
+        "Screenshot written 1",
+        "Rendered core stock 2",
+        "Offscreen frame contains scene and UI colors: core-2.png",
+        "Screenshot written 2"
+    ],
+    "errors": [],
+    "snapshots": []
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_roastchicken",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\RoastChicken\\RoastChicken.blend",
+  "sourceTriangles": 932,
+  "triangles": 932,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.35957407951355,
+    2.941175937652588,
+    1.4185360670089722
+  ],
+  "normalizedDimensions": [
+    0.8022553324699402,
+    1.0,
+    0.48230233788490295
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

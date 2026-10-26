@@ -1,0 +1,1 @@
+{"passed":true,"checks":104031,"originalNumericCases":606,"originalWeightedDraws":2048,"sourceQuotaFixtures":580,"scope":"Actual production C# policies, without Unity native physics; quota fixtures derive from serialized rows and interpreted WAT, not full CreateLevel execution"}

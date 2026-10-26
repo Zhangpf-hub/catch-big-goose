@@ -1,0 +1,65 @@
+{
+  "assets": [
+    {
+      "id": "cta",
+      "width": 704,
+      "height": 235,
+      "bytes": 218227,
+      "alpha": true
+    },
+    {
+      "id": "title",
+      "width": 576,
+      "height": 288,
+      "bytes": 280582,
+      "alpha": true
+    },
+    {
+      "id": "breakfast",
+      "width": 176,
+      "height": 235,
+      "bytes": 99000,
+      "alpha": true
+    },
+    {
+      "id": "barbecue",
+      "width": 176,
+      "height": 235,
+      "bytes": 91678,
+      "alpha": true
+    },
+    {
+      "id": "countryside",
+      "width": 176,
+      "height": 235,
+      "bytes": 105489,
+      "alpha": true
+    },
+    {
+      "id": "grocery",
+      "width": 176,
+      "height": 235,
+      "bytes": 98046,
+      "alpha": true
+    },
+    {
+      "id": "toys",
+      "width": 176,
+      "height": 235,
+      "bytes": 93919,
+      "alpha": true
+    },
+    {
+      "id": "settings",
+      "width": 128,
+      "height": 128,
+      "bytes": 29939,
+      "alpha": true
+    }
+  ],
+  "totalBytes": 1016880,
+  "aspect": "Fixed aspect preserveAspect art; underlying nine-slice hit surface stays fixed. No stretching of illustration.",
+  "mipmaps": true,
+  "filter": "Trilinear",
+  "markNonReadable": true
+}

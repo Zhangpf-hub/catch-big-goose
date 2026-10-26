@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_soysauce",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\SoySauce\\SoySauce.blend",
+  "sourceTriangles": 792,
+  "triangles": 792,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8948676586151123,
+    3.1991870403289795,
+    1.4088633060455322
+  ],
+  "normalizedDimensions": [
+    0.27971720695495605,
+    1.0,
+    0.4403816759586334
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

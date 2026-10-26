@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtfruiteraser",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTFruitEraser\\GTFruitEraser.blend",
+  "sourceTriangles": 348,
+  "triangles": 348,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.5803378820419312,
+    0.6391259431838989,
+    0.43817514181137085
+  ],
+  "normalizedDimensions": [
+    0.9080179929733276,
+    1.0,
+    0.6855849623680115
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

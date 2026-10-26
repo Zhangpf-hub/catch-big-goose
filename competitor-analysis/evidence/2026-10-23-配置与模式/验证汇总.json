@@ -1,0 +1,115 @@
+{
+  "archivedAtUtc": "2026-10-23T00:50:37.166497+00:00",
+  "packageVersion": "402",
+  "mappedMethodEntries": 344,
+  "uniqueCompiledBodies": 251,
+  "rejectedEntries": 90,
+  "serializedObjectsDecoded": 126,
+  "serializedTableByteRoundTrips": 125,
+  "levelRows": 1129,
+  "endlessRows": 966,
+  "originalWasmProbe": {
+    "passed": true,
+    "numericCases": 606,
+    "weightDraws": 2048,
+    "directHelperOutOfRangeStates": 218,
+    "caveat": "RollIndex is invoked directly. This probe does not model Roll/Check/RemoveItem call lifecycle and does not prove a defect in the shipped game.",
+    "moduleSha256": "bc3fc1b5caddfdde994143cdb7caf097153408bbf088fe40f9f7321c1b724a0e",
+    "scope": "Five original WASM bodies; Unity RNG, IL2CPP field descriptors and list access are host test adapters. Not full-game execution."
+  },
+  "modePolicyProbe": {
+    "passed": true,
+    "originalMethodBodies": [
+      "$j94024",
+      "$j94025",
+      "$j94031"
+    ],
+    "modeConfigurations": 192,
+    "checks": 584,
+    "sha256": "62b2db6dd67b2754c056c3273bfad285cd93448cc0db45134bd03b797a319bc9",
+    "scope": "Original target/fast-create/time routing helpers only. 900/120/180 are host sentinels, not recovered runtime durations. Mode initialization, networking and scene play are not executed."
+  },
+  "policyTests": {
+    "passed": true,
+    "checks": 101526,
+    "originalNumericCases": 606,
+    "originalWeightedDraws": 2048,
+    "sourceQuotaFixtures": 580,
+    "scope": "Actual production C# policies, without Unity native physics; quota fixtures derive from serialized rows and interpreted WAT, not full CreateLevel execution"
+  },
+  "unityEditMode": {
+    "passed": 10,
+    "failed": 0,
+    "endTimeUtc": "2026-10-23 00:46:12Z"
+  },
+  "unityRuntime": {
+    "passed": true,
+    "checks": 75,
+    "unityVersion": "2022.3.62f3",
+    "errors": []
+  },
+  "testedSources": [
+    {
+      "file": "GooseGeneration.cs",
+      "sha256": "98d391f48e54a9d37e5fb2360811d60d5b2b9ae94eb6f192e5ab79385234c495",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseDepthPolicy.cs",
+      "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GoosePileDepth.cs",
+      "sha256": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseItem.cs",
+      "sha256": "043ec1850700685ef22be0f15238f8c59e31f83ae7c7e7c5caf9b8cac3f94b4a",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseRules.cs",
+      "sha256": "b888addad66722dda92fc0381e42de7be103134a76068d877bd4b406a46ce39b",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseGame.cs",
+      "sha256": "bd7422ff9b802b7473e87baaa8c0c6f6564dda4ef4d076a294efff9d16825a71",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseAlgorithmAcceptance.cs",
+      "sha256": "2e19199ae4cbeb61183b50a6e100ed3e5463f6347ea5c61cbd31d676e9cac00b",
+      "matchesTestedBuild": true
+    }
+  ],
+  "allRuntimeSourceHashes": {
+    "GooseAcceptance.cs": "8c8e9b8a31dea7f7662cc9db5f582fbf393ed381c9a32c08cacea159726f47ff",
+    "GooseRules.cs": "b888addad66722dda92fc0381e42de7be103134a76068d877bd4b406a46ce39b",
+    "GooseDepthPolicy.cs": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d",
+    "GoosePileDepth.cs": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d",
+    "GooseWeChatPlatform.cs": "62cfad58e6f2a7a2b16d0bfa8d0ebf77539e05b4bac684dcfb470e3ab316111c",
+    "GooseAlgorithmAcceptance.cs": "2e19199ae4cbeb61183b50a6e100ed3e5463f6347ea5c61cbd31d676e9cac00b",
+    "GooseColliderProfile.cs": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79",
+    "GooseVideo.cs": "ba643b8ca18af8b65f1988e1f7f185822e82de633353e8be49beb79d21830481",
+    "GooseGeneration.cs": "98d391f48e54a9d37e5fb2360811d60d5b2b9ae94eb6f192e5ab79385234c495",
+    "GooseGame.cs": "bd7422ff9b802b7473e87baaa8c0c6f6564dda4ef4d076a294efff9d16825a71",
+    "GooseHud.cs": "48871c9340c2c1e082381aaa3057705528ffa28a8562c7437a05f4edd163257e",
+    "GooseItem.cs": "043ec1850700685ef22be0f15238f8c59e31f83ae7c7e7c5caf9b8cac3f94b4a"
+  },
+  "models": {
+    "newStaticReferences": 27,
+    "skinnedSkipped": 4,
+    "gltfValidationPassed": true
+  },
+  "limits": [
+    "Serialized scene/config values are not post-network runtime values",
+    "344 method mappings share 251 bodies; not 344 independent functions or complete semantic interpretations",
+    "Mode helper execution is not complete mode initialization or play",
+    "Quota fixtures interpret source WAT; full original CreateLevel is not executed",
+    "Unity headless QA does not verify rendering, human input, mobile performance or shipping builds",
+    "Reference alpha is a PBR approximation; source Toon/MatCap shaders are not reproduced"
+  ]
+}

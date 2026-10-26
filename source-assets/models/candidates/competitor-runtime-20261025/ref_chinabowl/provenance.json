@@ -1,0 +1,9 @@
+{
+  "id": "ref_chinabowl",
+  "sourceId": "ChinaBowl",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\ChinaBowl\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/ChinaBowl.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "b39f96282a9a3e190d269e2db00530e4e1de5e292e51dfded5b5626990b7cd3b"
+}

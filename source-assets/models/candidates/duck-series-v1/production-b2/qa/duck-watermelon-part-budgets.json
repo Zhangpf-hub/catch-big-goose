@@ -1,0 +1,79 @@
+{
+  "anatomyTriangles": 2192,
+  "propRatio": 1,
+  "headNeckReduced": false,
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1598
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Green watermelon rind",
+      "triangles": 96
+    },
+    {
+      "name": "Pale rind inset",
+      "triangles": 96
+    },
+    {
+      "name": "Red cut watermelon face",
+      "triangles": 96
+    },
+    {
+      "name": "Black watermelon seed",
+      "triangles": 48
+    },
+    {
+      "name": "Black watermelon seed.001",
+      "triangles": 48
+    },
+    {
+      "name": "Black watermelon seed.002",
+      "triangles": 48
+    },
+    {
+      "name": "Black watermelon seed.003",
+      "triangles": 48
+    },
+    {
+      "name": "Black watermelon seed.004",
+      "triangles": 48
+    },
+    {
+      "name": "Black watermelon seed.005",
+      "triangles": 48
+    },
+    {
+      "name": "Black watermelon seed.006",
+      "triangles": 48
+    },
+    {
+      "name": "Black watermelon seed.007",
+      "triangles": 48
+    }
+  ]
+}

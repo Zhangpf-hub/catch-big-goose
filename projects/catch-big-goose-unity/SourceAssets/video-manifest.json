@@ -1,0 +1,16 @@
+[
+  {
+    "source": "video\\Darkchaser-Battletide.mp4",
+    "target": "Assets\\StreamingAssets\\Video\\Darkchaser-Battletide.mp4",
+    "sourceSha256": "eb140a1907b42708bbf6c734fe9c1d871e5baf34cdc4bf17d05d847ae06cf69f",
+    "targetSha256": "f58c8e56b4f1342cb2709b0a400c980cfba42e73d22491b29804316a4f099725",
+    "encoding": "H.264 Baseline / no B frames / yuv420p / 30 fps / AAC when source has audio / faststart"
+  },
+  {
+    "source": "video\\Skycore-Reboot.f5800.mp4",
+    "target": "Assets\\StreamingAssets\\Video\\Skycore-Reboot.f5800.mp4",
+    "sourceSha256": "e76dc4c964f0dfa5f77d6fa06a5af8a73033ae77e7f6e984bf209a25b371e936",
+    "targetSha256": "16f0594f7b271dfd7d0b45c70f96326965114c6e80fcc01d52193fd0b98cbd45",
+    "encoding": "H.264 Baseline / no B frames / yuv420p / 30 fps / AAC when source has audio / faststart"
+  }
+]

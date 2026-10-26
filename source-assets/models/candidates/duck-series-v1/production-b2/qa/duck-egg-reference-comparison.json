@@ -1,0 +1,53 @@
+{
+  "id": "duck-egg",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Egg/Goose_Egg.glb",
+  "sourceSha256": "0573dd11f1101dae123341d64d5d57c1899dbc56c4dd2ce8ad33cdb641af2739",
+  "originalWorldDimensions": [
+    1.2607054710388184,
+    1.608506679534912,
+    0.9149048328399658
+  ],
+  "uniformScale": 0.6216946517680254,
+  "normalizedWorldDimensions": [
+    0.7837738394737244,
+    0.9999999403953552,
+    0.568791389465332
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

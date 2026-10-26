@@ -1,0 +1,272 @@
+  (func $j43554 (type $t0) (param $p0 i32) (param $p1 i32)
+    (local $l2 i32) (local $l3 i32) (local $l4 i32) (local $l5 f64) (local $l6 f32) (local $l7 f32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $l3
+    local.get $l3
+    global.set $primary.global$0
+    i32.const 5140170
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3955472 ;; GameManager_TypeInfo
+      call $j922
+      i32.const 3957596 ;; int_TypeInfo
+      call $j922
+      i32.const 3959304 ;; NetInitManager_TypeInfo
+      call $j922
+      i32.const 3964288 ;; UIOnlineGamePage_TypeInfo
+      call $j922
+      i32.const 4123724 ;; 有未上传进度{0},上传网络
+      call $j922
+      i32.const 4126788 ;; 间隔{0}秒，允许上传
+      call $j922
+      i32.const 5140170
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load offset=196
+    local.set $p1
+    local.get $p1
+    local.get $p0
+    i32.load offset=200
+    i32.sub
+    local.set $l2
+    i32.const 3959304 ;; NetInitManager_TypeInfo
+    i32.load
+    call $j923
+    f32.const 0x1p+0 (;=1;)
+    local.set $l6
+    local.get $l2
+    local.get $p1
+    i32.div_s
+    local.set $p1
+    block $B1
+      i32.const 3959304 ;; NetInitManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load
+      local.get $p1
+      call $j1480 ;; NetInitManager$$UseVideoMode
+      br_if $B1
+      local.get $p1
+      i32.const -1
+      i32.gt_s
+      local.set $l2
+      local.get $p1
+      f32.convert_i32_s
+      f32.const 0x1p+0 (;=1;)
+      f32.min
+      local.set $l7
+      f32.const 0x1.4p+3 (;=10;)
+      local.set $l6
+      local.get $p0
+      i32.load offset=840
+      local.set $p1
+      block $B2
+        local.get $p1
+        i32.eqz
+        br_if $B2
+        local.get $p1
+        i32.load offset=12
+        i32.eqz
+        br_if $B2
+        local.get $p1
+        i32.load offset=16
+        f32.load offset=12
+        local.set $l6
+      end
+      local.get $l7
+      f32.const 0x0p+0 (;=0;)
+      local.get $l2
+      select
+      local.set $l7
+      i32.const 0
+      local.set $p1
+      loop $L3
+        local.get $p0
+        i32.load offset=840
+        local.set $l2
+        local.get $p1
+        local.get $l2
+        i32.load offset=12
+        i32.ge_s
+        br_if $B1
+        local.get $l2
+        local.get $p1
+        i32.const 2
+        i32.shl
+        i32.add
+        i32.load offset=16
+        f32.load offset=8
+        local.get $l7
+        f32.gt
+        if $I4
+          local.get $p0
+          i32.load offset=840
+          local.get $p1
+          i32.const 2
+          i32.shl
+          i32.add
+          i32.load offset=16
+          f32.load offset=12
+          local.set $l6
+        else
+          local.get $p1
+          i32.const 1
+          i32.add
+          local.set $p1
+          br $L3
+        end
+      end
+    end
+    local.get $p0
+    i32.load offset=844
+    i32.const 1
+    i32.add
+    local.set $p1
+    local.get $p0
+    local.get $p1
+    i32.store offset=844
+    block $B5
+      local.get $l6
+      local.get $p1
+      f32.convert_i32_s
+      f32.le
+      i32.eqz
+      br_if $B5
+      i32.const 3959304 ;; NetInitManager_TypeInfo
+      i32.load
+      call $j923
+      local.get $p1
+      call $j1600 ;; NetInitManager$$CanShowSEventDetail
+      if $I6
+        local.get $l3
+        local.get $p0
+        i32.load offset=844
+        i32.store offset=12
+        i32.const 3957596 ;; int_TypeInfo
+        i32.load
+        local.get $l3
+        i32.const 12
+        i32.add
+        call $j935
+        local.set $p1
+        i32.const 3
+        i32.const 4126788 ;; 间隔{0}秒，允许上传
+        i32.load
+        local.get $p1
+        i32.const 0
+        call $j1006 ;; System.String$$Format
+        i32.const 0
+        call $j1429 ;; GameManager$$LogInColor
+      end
+      local.get $p0
+      i32.const 0
+      i32.store offset=844
+      local.get $p0
+      i32.const 1
+      i32.store8 offset=836
+      local.get $p0
+      i32.load8_u offset=852
+      i32.eqz
+      br_if $B5
+      i32.const 3955472 ;; GameManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load8_u offset=4
+      if $I7
+        local.get $p0
+        i32.const 0
+        i32.store8 offset=852
+        i32.const 3964288 ;; UIOnlineGamePage_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load
+        local.set $l4
+        local.get $p0
+        f32.load offset=272
+        f32.const 0x1.9p+6 (;=100;)
+        f32.mul
+        f64.promote_f32
+        local.set $l5
+        block $B8
+          local.get $l5
+          f64.abs
+          f64.const 0x1p+31 (;=2.14748e+09;)
+          f64.lt
+          if $I9
+            local.get $l5
+            i32.trunc_f64_s
+            local.set $l2
+            br $B8
+          end
+          i32.const -2147483648
+          local.set $l2
+        end
+        local.get $l4
+        local.get $l2
+        i32.const 1
+        i32.const 0
+        call $j6156 ;; UIOnlineGamePage$$SetMyProgress
+        i32.const 3959304 ;; NetInitManager_TypeInfo
+        i32.load
+        call $j923
+        local.get $p1
+        call $j1600 ;; NetInitManager$$CanShowSEventDetail
+        i32.eqz
+        br_if $B5
+        local.get $p0
+        f32.load offset=272
+        f32.const 0x1.9p+6 (;=100;)
+        f32.mul
+        f64.promote_f32
+        local.set $l5
+        block $B10
+          local.get $l5
+          f64.abs
+          f64.const 0x1p+31 (;=2.14748e+09;)
+          f64.lt
+          if $I11
+            local.get $l5
+            i32.trunc_f64_s
+            local.set $p0
+            br $B10
+          end
+          i32.const -2147483648
+          local.set $p0
+        end
+        local.get $l3
+        local.get $p0
+        i32.store offset=8
+        i32.const 3957596 ;; int_TypeInfo
+        i32.load
+        local.get $l3
+        i32.const 8
+        i32.add
+        call $j935
+        local.set $p0
+        i32.const 4
+        i32.const 4123724 ;; 有未上传进度{0},上传网络
+        i32.load
+        local.get $p0
+        i32.const 0
+        call $j1006 ;; System.String$$Format
+        i32.const 0
+        call $j1429 ;; GameManager$$LogInColor
+        br $B5
+      end
+      local.get $p0
+      i32.load8_u offset=852
+      i32.eqz
+      br_if $B5
+      local.get $p0
+      i32.const 0
+      i32.store8 offset=852
+    end
+    local.get $l3
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

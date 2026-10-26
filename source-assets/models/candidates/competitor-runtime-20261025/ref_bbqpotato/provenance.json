@@ -1,0 +1,9 @@
+{
+  "id": "ref_bbqpotato",
+  "sourceId": "BBQPotato",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BBQPotato\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/BBQPotato.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+  "sourceSha256": "b076b834c0675e092be8320c64648b64343514769bf323b3ba729ca92a78c3c9"
+}

@@ -1,0 +1,1105 @@
+[
+  {
+    "symbol": "$j74024",
+    "methodAliases": [
+      "LevelManager.<LoopCreateObj>d__187$$MoveNext"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1009",
+        "methodAliases": [
+          "System.Enum$$ToString"
+        ]
+      },
+      {
+        "symbol": "$j1062",
+        "methodAliases": [
+          "UnityEngine.Transform$$get_position"
+        ]
+      },
+      {
+        "symbol": "$j1073",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1075",
+        "methodAliases": [
+          "UnityEngine.Debug$$LogWarning"
+        ]
+      },
+      {
+        "symbol": "$j1082",
+        "methodAliases": [
+          "Kunpo.KUIManager$$OpenUI"
+        ]
+      },
+      {
+        "symbol": "$j10878",
+        "methodAliases": [
+          "LevelManager$$SetMinTouchHeight"
+        ]
+      },
+      {
+        "symbol": "$j10879",
+        "methodAliases": [
+          "LevelManager$$NewGuide"
+        ]
+      },
+      {
+        "symbol": "$j1098",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j11300",
+        "methodAliases": [
+          "DYDirectPlayManager$$IsThisState"
+        ]
+      },
+      {
+        "symbol": "$j1137",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1145",
+        "methodAliases": [
+          "Kunpo.KUIManager$$OpenATip"
+        ]
+      },
+      {
+        "symbol": "$j11648",
+        "methodAliases": [
+          "ABPackManager$$get_TeachLevelABType"
+        ]
+      },
+      {
+        "symbol": "$j1289",
+        "methodAliases": [
+          "UnityEngine.Transform$$set_position"
+        ]
+      },
+      {
+        "symbol": "$j1396",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1418",
+        "methodAliases": [
+          "UnityEngine.Transform$$get_localScale"
+        ]
+      },
+      {
+        "symbol": "$j1451",
+        "methodAliases": [
+          "UnityEngine.MonoBehaviour$$StopCoroutine"
+        ]
+      },
+      {
+        "symbol": "$j14615",
+        "methodAliases": [
+          "LevelManager$$ShowLoading"
+        ]
+      },
+      {
+        "symbol": "$j14622",
+        "methodAliases": [
+          "LevelManager$$GetPos"
+        ]
+      },
+      {
+        "symbol": "$j1473",
+        "methodAliases": [
+          "DG.Tweening.ShortcutExtensions$$DOScale"
+        ]
+      },
+      {
+        "symbol": "$j1559",
+        "methodAliases": [
+          "UnityEngine.MonoBehaviour$$StartCoroutine"
+        ]
+      },
+      {
+        "symbol": "$j1601",
+        "methodAliases": [
+          "GameManager$$SetGameState"
+        ]
+      },
+      {
+        "symbol": "$j1634",
+        "methodAliases": [
+          "UnityEngine.Transform$$set_localEulerAngles"
+        ]
+      },
+      {
+        "symbol": "$j18335",
+        "methodAliases": [
+          "ValueManager$$GetWeightRandom"
+        ]
+      },
+      {
+        "symbol": "$j2031",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j2086",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j2087",
+        "methodAliases": [
+          "LevelManager$$HasTwoPlayer"
+        ]
+      },
+      {
+        "symbol": "$j21255",
+        "methodAliases": [
+          "UnityEngine.Physics$$set_gravity"
+        ]
+      },
+      {
+        "symbol": "$j21256",
+        "methodAliases": [
+          "UnityEngine.Physics$$set_defaultMaxDepenetrationVelocity"
+        ]
+      },
+      {
+        "symbol": "$j2263",
+        "methodAliases": [
+          "UnityEngine.Transform$$set_rotation"
+        ]
+      },
+      {
+        "symbol": "$j23453",
+        "methodAliases": [
+          "DnSdkHelper$$OnLevelEnter"
+        ]
+      },
+      {
+        "symbol": "$j2419",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j32690",
+        "methodAliases": [
+          "ValueManager$$GetWeightMultiPart"
+        ]
+      },
+      {
+        "symbol": "$j34227",
+        "methodAliases": [
+          "UIGamePage$$ShowGamePageItem"
+        ]
+      },
+      {
+        "symbol": "$j4012",
+        "methodAliases": [
+          "SpLevelManager$$CurLevelIsSpLevel"
+        ]
+      },
+      {
+        "symbol": "$j4344",
+        "methodAliases": [
+          "ObjectUnit$$HideRigid"
+        ]
+      },
+      {
+        "symbol": "$j43529",
+        "methodAliases": [
+          "LevelManager$$InitLevelCol"
+        ]
+      },
+      {
+        "symbol": "$j43542",
+        "methodAliases": [
+          "LevelManager$$FirstTeachShow"
+        ]
+      },
+      {
+        "symbol": "$j43547",
+        "methodAliases": [
+          "LevelManager$$CreateSceneBG"
+        ]
+      },
+      {
+        "symbol": "$j4380",
+        "methodAliases": [
+          "LevelManager$$CheckObjMaxHeight"
+        ]
+      },
+      {
+        "symbol": "$j46948",
+        "methodAliases": [
+          "DnSdkHelper$$OnTutorialStart"
+        ]
+      },
+      {
+        "symbol": "$j47669",
+        "methodAliases": [
+          "DYDirectPlayManager$$IsUseOrderList"
+        ]
+      },
+      {
+        "symbol": "$j47671",
+        "methodAliases": [
+          "DYDirectPlayManager$$IsCreateTile"
+        ]
+      },
+      {
+        "symbol": "$j47673",
+        "methodAliases": [
+          "DYDirectPlayManager$$GetObjRota"
+        ]
+      },
+      {
+        "symbol": "$j47674",
+        "methodAliases": [
+          "DYDirectPlayManager$$GetObjPos"
+        ]
+      },
+      {
+        "symbol": "$j5758",
+        "methodAliases": [
+          "GameManager$$IsStartGameDirection"
+        ]
+      },
+      {
+        "symbol": "$j6377",
+        "methodAliases": [
+          "ObjectUnit$$FinishCreate"
+        ]
+      },
+      {
+        "symbol": "$j6690",
+        "methodAliases": [
+          "ABPackManager$$get_NewPlayerGuideABType"
+        ]
+      },
+      {
+        "symbol": "$j7377",
+        "methodAliases": [
+          "LevelManager$$GetBorder"
+        ]
+      },
+      {
+        "symbol": "$j7378",
+        "methodAliases": [
+          "LevelManager$$CreateUnitObj"
+        ]
+      },
+      {
+        "symbol": "$j8518",
+        "methodAliases": [
+          "SpModeLongTableMa$$IsCurModeLevel"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j924",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j939",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j947",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j951",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j955",
+        "methodAliases": [
+          "System.Collections.Generic.List<__Il2CppFullySharedGenericType>$$Add"
+        ]
+      },
+      {
+        "symbol": "$j965",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j979",
+        "methodAliases": [
+          "UnityEngine.Component$$get_transform"
+        ]
+      }
+    ],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74002",
+    "methodAliases": [
+      "LevelManager.<LoopOptimization>d__196$$MoveNext"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j22259",
+        "methodAliases": [
+          "LevelManager$$CheckAllRigidAndVisible"
+        ]
+      },
+      {
+        "symbol": "$j4380",
+        "methodAliases": [
+          "LevelManager$$CheckObjMaxHeight"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j43532",
+    "methodAliases": [
+      "LevelManager$$GetTimeABIndex"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j15948",
+        "methodAliases": [
+          "ABPackManager$$get_TimeABType"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j43549",
+    "methodAliases": [
+      "LevelManager$$CreateLevel"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1012",
+        "methodAliases": [
+          "System.Int32$$ToString"
+        ]
+      },
+      {
+        "symbol": "$j1060",
+        "methodAliases": [
+          "System.String$$Format"
+        ]
+      },
+      {
+        "symbol": "$j10702",
+        "methodAliases": [
+          "NetInitManager$$CanShowMoreEditorLog"
+        ]
+      },
+      {
+        "symbol": "$j1120",
+        "methodAliases": [
+          "GameManager$$StringAppend"
+        ]
+      },
+      {
+        "symbol": "$j1149",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1188",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1221",
+        "methodAliases": [
+          "Kunpo.Debugger$$Log"
+        ]
+      },
+      {
+        "symbol": "$j1429",
+        "methodAliases": [
+          "GameManager$$LogInColor"
+        ]
+      },
+      {
+        "symbol": "$j1432",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1451",
+        "methodAliases": [
+          "UnityEngine.MonoBehaviour$$StopCoroutine"
+        ]
+      },
+      {
+        "symbol": "$j15242",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1559",
+        "methodAliases": [
+          "UnityEngine.MonoBehaviour$$StartCoroutine"
+        ]
+      },
+      {
+        "symbol": "$j1600",
+        "methodAliases": [
+          "NetInitManager$$CanShowSEventDetail"
+        ]
+      },
+      {
+        "symbol": "$j1648",
+        "methodAliases": [
+          "Kunpo.Debugger$$LogWarning"
+        ]
+      },
+      {
+        "symbol": "$j1790",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1878",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j2054",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j22248",
+        "methodAliases": [
+          "LevelManager$$GetMainLevelABOffsetGroupCount"
+        ]
+      },
+      {
+        "symbol": "$j22334",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j22836",
+        "methodAliases": [
+          "GameManager$$StringListAppend"
+        ]
+      },
+      {
+        "symbol": "$j3189",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j4080",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j43274",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j43534",
+        "methodAliases": [
+          "LevelManager$$GetSPLevelABOffsetCount"
+        ]
+      },
+      {
+        "symbol": "$j43538",
+        "methodAliases": [
+          "LevelManager$$GetMainLevelABOffsetTypeCount"
+        ]
+      },
+      {
+        "symbol": "$j43539",
+        "methodAliases": [
+          "LevelManager$$GetMainLevelABData"
+        ]
+      },
+      {
+        "symbol": "$j4622",
+        "methodAliases": [
+          "ServerFileCreate$$GetHotFixInt"
+        ]
+      },
+      {
+        "symbol": "$j47126",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j5716",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j7388",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j924",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j930",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j935",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j939",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j947",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j948",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j955",
+        "methodAliases": [
+          "System.Collections.Generic.List<__Il2CppFullySharedGenericType>$$Add"
+        ]
+      },
+      {
+        "symbol": "$j965",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j967",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j43538",
+    "methodAliases": [
+      "LevelManager$$GetMainLevelABOffsetTypeCount"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1060",
+        "methodAliases": [
+          "System.String$$Format"
+        ]
+      },
+      {
+        "symbol": "$j1429",
+        "methodAliases": [
+          "GameManager$$LogInColor"
+        ]
+      },
+      {
+        "symbol": "$j1600",
+        "methodAliases": [
+          "NetInitManager$$CanShowSEventDetail"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j935",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j22248",
+    "methodAliases": [
+      "LevelManager$$GetMainLevelABOffsetGroupCount"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1060",
+        "methodAliases": [
+          "System.String$$Format"
+        ]
+      },
+      {
+        "symbol": "$j1429",
+        "methodAliases": [
+          "GameManager$$LogInColor"
+        ]
+      },
+      {
+        "symbol": "$j1600",
+        "methodAliases": [
+          "NetInitManager$$CanShowSEventDetail"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j935",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j43536",
+    "methodAliases": [
+      "LevelManager$$GetObjSize"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j38359",
+        "methodAliases": [
+          "SeasonLevelMa$$GetSizeData"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j949",
+        "methodAliases": [
+          "System.String$$op_Equality"
+        ]
+      }
+    ],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j7378",
+    "methodAliases": [
+      "LevelManager$$CreateUnitObj"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1071",
+        "methodAliases": [
+          "UnityEngine.GameObject$$get_transform"
+        ]
+      },
+      {
+        "symbol": "$j1159",
+        "methodAliases": [
+          "UnityEngine.Transform$$set_localScale"
+        ]
+      },
+      {
+        "symbol": "$j1289",
+        "methodAliases": [
+          "UnityEngine.Transform$$set_position"
+        ]
+      },
+      {
+        "symbol": "$j1305",
+        "methodAliases": [
+          "UnityEngine.Random$$Range"
+        ]
+      },
+      {
+        "symbol": "$j1366",
+        "methodAliases": [
+          "JianEngine.SingleMono<object>$$get_Instance"
+        ]
+      },
+      {
+        "symbol": "$j1610",
+        "methodAliases": [
+          "UnityEngine.Transform$$SetParent"
+        ]
+      },
+      {
+        "symbol": "$j1634",
+        "methodAliases": [
+          "UnityEngine.Transform$$set_localEulerAngles"
+        ]
+      },
+      {
+        "symbol": "$j21510",
+        "methodAliases": [
+          "ObjectUnit$$Init"
+        ]
+      },
+      {
+        "symbol": "$j43490",
+        "methodAliases": [
+          "LevelObjectPool$$Get"
+        ]
+      },
+      {
+        "symbol": "$j43536",
+        "methodAliases": [
+          "LevelManager$$GetObjSize"
+        ]
+      },
+      {
+        "symbol": "$j7288",
+        "methodAliases": [
+          "ObjectUnit$$SetVisible"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j961",
+        "methodAliases": [
+          "UnityEngine.Component$$get_gameObject"
+        ]
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j6450",
+    "methodAliases": [
+      "LevelManager$$CheckRigid"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1062",
+        "methodAliases": [
+          "UnityEngine.Transform$$get_position"
+        ]
+      },
+      {
+        "symbol": "$j1418",
+        "methodAliases": [
+          "UnityEngine.Transform$$get_localScale"
+        ]
+      },
+      {
+        "symbol": "$j22249",
+        "methodAliases": [
+          "LevelManager$$GetDynamicVisibleHeight"
+        ]
+      },
+      {
+        "symbol": "$j4344",
+        "methodAliases": [
+          "ObjectUnit$$HideRigid"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j979",
+        "methodAliases": [
+          "UnityEngine.Component$$get_transform"
+        ]
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j10885",
+    "methodAliases": [
+      "LevelManager$$CheckVisible"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1062",
+        "methodAliases": [
+          "UnityEngine.Transform$$get_position"
+        ]
+      },
+      {
+        "symbol": "$j22249",
+        "methodAliases": [
+          "LevelManager$$GetDynamicVisibleHeight"
+        ]
+      },
+      {
+        "symbol": "$j7288",
+        "methodAliases": [
+          "ObjectUnit$$SetVisible"
+        ]
+      },
+      {
+        "symbol": "$j979",
+        "methodAliases": [
+          "UnityEngine.Component$$get_transform"
+        ]
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j22249",
+    "methodAliases": [
+      "LevelManager$$GetDynamicVisibleHeight"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j6451",
+    "methodAliases": [
+      "LevelManager$$CanUseNewAnim"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j2087",
+        "methodAliases": [
+          "LevelManager$$HasTwoPlayer"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j43531",
+    "methodAliases": [
+      "LevelManager$$GetTriple"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1098",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j18335",
+    "methodAliases": [
+      "ValueManager$$GetWeightRandom"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1305",
+        "methodAliases": [
+          "UnityEngine.Random$$Range"
+        ]
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j32690",
+    "methodAliases": [
+      "ValueManager$$GetWeightMultiPart"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1790",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j18335",
+        "methodAliases": [
+          "ValueManager$$GetWeightRandom"
+        ]
+      },
+      {
+        "symbol": "$j1878",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j2054",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j923",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j924",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95576",
+    "methodAliases": [
+      "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$RollIndex"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1263",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1305",
+        "methodAliases": [
+          "UnityEngine.Random$$Range"
+        ]
+      },
+      {
+        "symbol": "$j4080",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j43257",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j926",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j954",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95578",
+    "methodAliases": [
+      "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$RealRandomRollIndex"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1263",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j1305",
+        "methodAliases": [
+          "UnityEngine.Random$$Range"
+        ]
+      },
+      {
+        "symbol": "$j4080",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j43257",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j922",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j926",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j954",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95582",
+    "methodAliases": [
+      "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$AllocPro"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1263",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j926",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j954",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95581",
+    "methodAliases": [
+      "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$CalProToAlloc"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j1263",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j926",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  }
+]

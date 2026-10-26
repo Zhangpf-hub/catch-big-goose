@@ -1,0 +1,21 @@
+{
+  "glbValidationPassed": true,
+  "comparisonVerificationPassed": true,
+  "htmlReferencesExist": 21,
+  "allReferencedImagesAndModelsExist": true,
+  "visualSheetsInspected": [
+    "hero",
+    "gameplay",
+    "front",
+    "side",
+    "back",
+    "thumbnail"
+  ],
+  "physicsRuntimeVerified": false,
+  "unityImportVerified": false,
+  "userModelApproval": false,
+  "structureCheck": true,
+  "visualQualityStatus": "rejected-by-user",
+  "visualQualityFeedback": "你自己看你这模型做的对么？问题太大了，鸭子的形体都改变了，看下有什么方案能提高模型产出质量的",
+  "technicalChecksDoNotImplyShapeApproval": true
+}

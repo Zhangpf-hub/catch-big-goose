@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bffrieddoughstick",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFFriedDoughStick\\BFFriedDoughStick.blend",
+  "sourceTriangles": 576,
+  "triangles": 576,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.105515480041504,
+    2.7433605194091797,
+    0.5667129755020142
+  ],
+  "normalizedDimensions": [
+    0.7674949765205383,
+    1.0,
+    0.20657619833946228
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

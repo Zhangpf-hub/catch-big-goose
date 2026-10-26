@@ -1,0 +1,30 @@
+{
+  "materials": [
+    {
+      "name": "siQuChe_Body",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_6189610543022139681.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1MulMatcap",
+      "glassFlattened": false
+    },
+    {
+      "name": "siQuChe_Tire",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_6189610543022139681.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1MulMatcap",
+      "glassFlattened": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "DUCKBRAND3",
+  "identity": "Approved duck-series-v1 B2",
+  "assets": [
+    {
+      "id": "title",
+      "width": 576,
+      "height": 288,
+      "bytes": 261202,
+      "alpha": true
+    },
+    {
+      "id": "cta",
+      "width": 704,
+      "height": 235,
+      "bytes": 197996,
+      "alpha": true
+    },
+    {
+      "id": "settings",
+      "width": 128,
+      "height": 128,
+      "bytes": 29454,
+      "alpha": true
+    }
+  ],
+  "previous": "home-stickers-v2; five theme stickers kept",
+  "filter": "Trilinear with mipmaps",
+  "aspect": "PreserveAspect, stable hit surface; no anisotropic stretch",
+  "brand": "抓鸭子",
+  "loading": "Assets/loading-art/duck-loading.jpg"
+}

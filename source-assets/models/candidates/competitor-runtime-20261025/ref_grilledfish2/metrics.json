@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_grilledfish2",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\GrilledFish2\\GrilledFish2.blend",
+  "sourceTriangles": 560,
+  "triangles": 560,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.541840076446533,
+    3.8315443992614746,
+    0.3696139454841614
+  ],
+  "normalizedDimensions": [
+    0.6633983254432678,
+    1.0,
+    0.0964660495519638
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

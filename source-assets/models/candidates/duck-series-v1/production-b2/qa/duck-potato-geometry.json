@@ -1,0 +1,18 @@
+{
+  "id": "duck-potato",
+  "triangles": 3196,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.7173487544059753,
+    0.6868627667427063,
+    0.9999998807907104
+  ],
+  "center": [
+    0.0,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "passed": true
+}

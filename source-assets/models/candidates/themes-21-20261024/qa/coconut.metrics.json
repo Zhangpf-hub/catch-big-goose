@@ -1,0 +1,28 @@
+{
+  "id": "coconut",
+  "theme": "fruit",
+  "triangles": 1908,
+  "vertices": 1052,
+  "blenderBounds": [
+    0.9279260635375977,
+    0.8596591353416443,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 47164,
+  "sha256": "c3b6e7301c9889e8f54bdd08f802606c8393226a8f6c797eb0f92dfbff1fc366",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

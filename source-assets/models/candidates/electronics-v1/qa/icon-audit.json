@@ -1,0 +1,92 @@
+[
+  {
+    "id": "phone",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      24,
+      45,
+      170,
+      144
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "laptop",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      20,
+      30,
+      171,
+      168
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "camera",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      40,
+      38,
+      168,
+      155
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "headphones",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      32,
+      41,
+      161,
+      167
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  },
+  {
+    "id": "handheld",
+    "size": [
+      192,
+      192
+    ],
+    "alphaBounds": [
+      21,
+      59,
+      169,
+      139
+    ],
+    "transparentMarginPassed": true,
+    "thumbnailSize": [
+      64,
+      64
+    ]
+  }
+]

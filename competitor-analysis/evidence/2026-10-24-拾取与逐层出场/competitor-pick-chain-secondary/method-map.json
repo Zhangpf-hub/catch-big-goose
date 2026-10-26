@@ -1,0 +1,38 @@
+[
+  {
+    "Address": 17983,
+    "Name": "LevelManager.<LoopCrowObjSize>d__192$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__LoopCrowObjSize_d__192__System_Collections_IEnumerator_Reset (LevelManager__LoopCrowObjSize_d__192_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74019",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18013,
+    "Name": "LevelManager.<DelayToCheckContent>d__226$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__DelayToCheckContent_d__226__System_Collections_IEnumerator_Reset (LevelManager__DelayToCheckContent_d__226_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74325",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18019,
+    "Name": "LevelManager.<DestroyAnim>d__227$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__DestroyAnim_d__227__System_Collections_IEnumerator_Reset (LevelManager__DestroyAnim_d__227_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74251",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 24848,
+    "Name": "GMLevelManager$$.cctor",
+    "Signature": "void GMLevelManager___cctor (const MethodInfo* method);",
+    "TypeSignature": "vi",
+    "wasmSymbol": "$j99367",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  }
+]

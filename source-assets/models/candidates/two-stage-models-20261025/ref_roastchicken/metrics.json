@@ -1,0 +1,12 @@
+{
+  "id": "ref_roastchicken",
+  "triangles": 932,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.8022553324699402,
+    1.0,
+    0.48230233788490295
+  ],
+  "glbRoundtrip": true
+}

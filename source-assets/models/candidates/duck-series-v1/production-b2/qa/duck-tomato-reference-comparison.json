@@ -1,0 +1,53 @@
+{
+  "id": "duck-tomato",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Tomato/Goose_Tomato.glb",
+  "sourceSha256": "ef73e63a19929daf1ee0c8032b29b4b706c84c5e987ecd72ee4be5afc8f18b2e",
+  "originalWorldDimensions": [
+    1.414609670639038,
+    1.824587345123291,
+    1.215132474899292
+  ],
+  "uniformScale": 0.5480691306298784,
+  "normalizedWorldDimensions": [
+    0.7753039002418518,
+    1.0,
+    0.6659765839576721
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

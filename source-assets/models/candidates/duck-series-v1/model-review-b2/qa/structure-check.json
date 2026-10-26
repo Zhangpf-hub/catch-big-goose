@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "checks": 42,
+  "errors": [
+    "No new broken documentation links"
+  ],
+  "documentLinks": 401,
+  "newBrokenLinks": [
+    {
+      "file": "docs/development-reports/38-首页桌子光照与表层摇动稳定性.md",
+      "link": "../../work/home-lighting-shake-20261025/delivery.json"
+    }
+  ],
+  "preexistingBrokenLinkCount": 0
+}

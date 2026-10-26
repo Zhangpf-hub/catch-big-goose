@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_shrimp",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Shrimp\\Shrimp.blend",
+  "sourceTriangles": 604,
+  "triangles": 604,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8175392150878906,
+    1.5440986156463623,
+    0.2500263452529907
+  ],
+  "normalizedDimensions": [
+    0.5294604897499084,
+    1.0,
+    0.1619238257408142
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

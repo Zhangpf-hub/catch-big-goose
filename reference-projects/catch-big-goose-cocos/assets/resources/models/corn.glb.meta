@@ -1,0 +1,254 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8",
+  "files": [],
+  "subMetas": {
+    "16932": {
+      "importer": "gltf-mesh",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@16932",
+      "displayName": "",
+      "id": "16932",
+      "name": "cob-core-mesh.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 412
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "38549": {
+      "importer": "gltf-material",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@38549",
+      "displayName": "",
+      "id": "38549",
+      "name": "corn-husk-light.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "21d91": {
+      "importer": "gltf-mesh",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@21d91",
+      "displayName": "",
+      "id": "21d91",
+      "name": "cut-stalk-mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 68
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "50e1a": {
+      "importer": "gltf-mesh",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@50e1a",
+      "displayName": "",
+      "id": "50e1a",
+      "name": "vein-mesh.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 456
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8a1c3": {
+      "importer": "gltf-mesh",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@8a1c3",
+      "displayName": "",
+      "id": "8a1c3",
+      "name": "leaf-mesh.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 888
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41ac8": {
+      "importer": "gltf-mesh",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@41ac8",
+      "displayName": "",
+      "id": "41ac8",
+      "name": "Cube.001.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 4752
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "422b7": {
+      "importer": "gltf-material",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@422b7",
+      "displayName": "",
+      "id": "422b7",
+      "name": "corn-stalk.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c992": {
+      "importer": "gltf-material",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@2c992",
+      "displayName": "",
+      "id": "2c992",
+      "name": "corn-husk-green.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6fb35": {
+      "importer": "gltf-material",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@6fb35",
+      "displayName": "",
+      "id": "6fb35",
+      "name": "corn-kernel-gold.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "33a94": {
+      "importer": "gltf-material",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@33a94",
+      "displayName": "",
+      "id": "33a94",
+      "name": "corn-kernel-yellow.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f25a9": {
+      "importer": "gltf-material",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@f25a9",
+      "displayName": "",
+      "id": "f25a9",
+      "name": "corn-core-ochre.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4cc3": {
+      "importer": "gltf-scene",
+      "uuid": "52b82397-2916-4750-b5f0-d6733daa2da8@d4cc3",
+      "displayName": "",
+      "id": "d4cc3",
+      "name": "corn.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "52b82397-2916-4750-b5f0-d6733daa2da8@21d91",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@50e1a",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@8a1c3",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@41ac8",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@16932"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "52b82397-2916-4750-b5f0-d6733daa2da8@422b7",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@38549",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@2c992",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@6fb35",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@33a94",
+        "52b82397-2916-4750-b5f0-d6733daa2da8@f25a9"
+      ],
+      "scenes": [
+        "52b82397-2916-4750-b5f0-d6733daa2da8@d4cc3"
+      ]
+    }
+  }
+}

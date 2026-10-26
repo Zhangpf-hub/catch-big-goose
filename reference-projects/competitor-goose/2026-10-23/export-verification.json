@@ -1,0 +1,275 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "GTBottleCandy",
+      "sourceTriangles": 1936,
+      "exportedTriangles": 1936,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTBubbleGlue",
+      "sourceTriangles": 1664,
+      "exportedTriangles": 1664,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTBubbleWater",
+      "sourceTriangles": 2172,
+      "exportedTriangles": 2172,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTCrocodile",
+      "sourceTriangles": 1986,
+      "exportedTriangles": 1986,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTDinosaur",
+      "sourceTriangles": 1996,
+      "exportedTriangles": 1996,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTDrawingBoard",
+      "sourceTriangles": 712,
+      "exportedTriangles": 712,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTFruitEraser",
+      "sourceTriangles": 348,
+      "exportedTriangles": 348,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTGooseStamp",
+      "sourceTriangles": 1024,
+      "exportedTriangles": 1024,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTKaleidoscope",
+      "sourceTriangles": 920,
+      "exportedTriangles": 920,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTLaserPen",
+      "sourceTriangles": 904,
+      "exportedTriangles": 904,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTMagicCubeL",
+      "sourceTriangles": 1196,
+      "exportedTriangles": 1196,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTPaperBoat",
+      "sourceTriangles": 380,
+      "exportedTriangles": 380,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTPaperFortune",
+      "sourceTriangles": 280,
+      "exportedTriangles": 280,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTPaperStar",
+      "sourceTriangles": 126,
+      "exportedTriangles": 126,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTPaperTree",
+      "sourceTriangles": 1728,
+      "exportedTriangles": 1728,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTPlanePen",
+      "sourceTriangles": 2336,
+      "exportedTriangles": 2336,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTPlasterDeer",
+      "sourceTriangles": 1990,
+      "exportedTriangles": 1990,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTPlaydough",
+      "sourceTriangles": 2472,
+      "exportedTriangles": 2472,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTRaceCar",
+      "sourceTriangles": 1988,
+      "exportedTriangles": 1988,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTRingCandy",
+      "sourceTriangles": 948,
+      "exportedTriangles": 948,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTSandbag",
+      "sourceTriangles": 1256,
+      "exportedTriangles": 1256,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTSmileDoll",
+      "sourceTriangles": 1680,
+      "exportedTriangles": 1680,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTStickerBook",
+      "sourceTriangles": 1932,
+      "exportedTriangles": 1932,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTUmbrella",
+      "sourceTriangles": 1512,
+      "exportedTriangles": 1512,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTWallClimber",
+      "sourceTriangles": 1404,
+      "exportedTriangles": 1404,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTWaterGame",
+      "sourceTriangles": 1918,
+      "exportedTriangles": 1918,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GTWaterGun",
+      "sourceTriangles": 3104,
+      "exportedTriangles": 3104,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    }
+  ]
+}

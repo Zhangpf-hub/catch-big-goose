@@ -1,0 +1,14 @@
+[
+  {
+    "name": "EndlessLevelMa$$GetLevelGoose",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$get_CurIndexType",
+    "expected": "ii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  }
+]

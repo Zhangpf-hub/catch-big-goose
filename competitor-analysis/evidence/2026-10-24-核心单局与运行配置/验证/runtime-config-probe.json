@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "originalBodies": [
+    "j11647",
+    "j50925",
+    "j4622"
+  ],
+  "abCases": 2500,
+  "extraChecks": 28,
+  "sha256": "75705250573ec4b9d97a925f5f2f9386cd7d8bb3d7d72ad8033a77407cb0dc3b",
+  "scope": "Unchanged WASM control flow; config/memory fixtures and mocked dictionary/hash/string calls. Actual user hash, network loading, original Int32.TryParse internals and complete level initialization are not executed."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "wafer",
+  "theme": "dessert",
+  "triangles": 1296,
+  "vertices": 672,
+  "blenderBounds": [
+    1.0,
+    0.7538461685180664,
+    0.5084615349769592
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 31372,
+  "sha256": "dcd11e692a80f67167bee28a414a4ce8ae4b353f60d626dec9e5307db945592f",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "assets-3d\\candidates\\shiba-20261025-v1\\model\\shiba.fbx",
+      "unity": "unity\\Assets\\Resources\\Models\\shiba\\shiba.fbx",
+      "sha256": "8b762a527e5142b3719fa7704760276a71c671e39bffde397e4933de40b8ae96"
+    },
+    {
+      "source": "assets-3d\\candidates\\shiba-20261025-v1\\model\\albedo.png",
+      "unity": "unity\\Assets\\Resources\\Models\\shiba\\albedo.png",
+      "sha256": "c92dac31f7c057941e6d6cd70ab3ff75acd88e9f446c8539c60a79db4ddb33e4"
+    },
+    {
+      "source": "assets-3d\\candidates\\shiba-20261025-v1\\model\\shiba-home.fbx",
+      "unity": "unity\\Assets\\Mascots\\Shiba\\shiba-home.fbx",
+      "sha256": "9095f86e72276aaab78776b0befc844b2cd8f57d0bcd8f4bcfa7a1ef782e82d6"
+    },
+    {
+      "source": "assets-3d\\candidates\\shiba-20261025-v1\\model\\icon-192.png",
+      "unity": "unity\\Assets\\Resources\\Icons\\shiba.png",
+      "sha256": "3113ea41b544f5da454b3d9ac3c56e5c599bf5cac6687921cb5795c95b8826a3"
+    }
+  ]
+}

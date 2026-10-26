@@ -1,0 +1,45 @@
+{
+  "rowClass": "LongLevelDataData",
+  "fields": [
+    [
+      "_id",
+      "int"
+    ],
+    [
+      "_levelindex",
+      "int"
+    ],
+    [
+      "_levelid",
+      "int"
+    ],
+    [
+      "_bosslevel",
+      "int"
+    ],
+    [
+      "_leveliconkey",
+      "string"
+    ],
+    [
+      "_leveltype",
+      "string"
+    ],
+    [
+      "_gooseid",
+      "int"
+    ],
+    [
+      "_toolresumecount",
+      "int[]"
+    ],
+    [
+      "_resumetime",
+      "int"
+    ],
+    [
+      "_levelstarttip",
+      "string"
+    ]
+  ]
+}

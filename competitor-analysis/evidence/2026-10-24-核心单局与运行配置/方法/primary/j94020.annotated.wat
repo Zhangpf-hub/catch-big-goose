@@ -1,0 +1,55 @@
+  (func $j94020 (type $t0) (param $p0 i32) (param $p1 i32)
+    i32.const 5139994
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951356 ;; ActionManager_TypeInfo
+      call $j922
+      i32.const 5139994
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load
+    local.set $p1
+    block $B1
+      local.get $p0
+      local.get $p1
+      i32.const 328
+      i32.add
+      i32.load offset=192
+      local.get $p1
+      i32.load offset=516
+      global.set $__wasm_split_waitTableId
+      global.get $__wasm_split_waitTableId
+      call_indirect $primary.table (type $t1)
+      i32.eqz
+      br_if $B1
+      i32.const 3951356 ;; ActionManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 3951356 ;; ActionManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load offset=48
+      local.set $p1
+      local.get $p1
+      i32.eqz
+      br_if $B1
+      local.get $p0
+      i32.load offset=16
+      local.set $p0
+      local.get $p1
+      i32.load offset=32
+      local.get $p0
+      i32.load offset=20
+      local.get $p0
+      i32.load offset=12
+      local.get $p1
+      i32.load offset=20
+      local.get $p1
+      i32.load offset=12
+      global.set $__wasm_split_waitTableId
+      global.get $__wasm_split_waitTableId
+      call_indirect $primary.table (type $t6)
+    end)

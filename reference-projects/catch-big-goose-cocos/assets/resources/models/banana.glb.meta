@@ -1,0 +1,234 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "21e8800f-082b-4adf-bff1-b93346203522",
+  "files": [],
+  "subMetas": {
+    "33183": {
+      "importer": "gltf-mesh",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@33183",
+      "displayName": "",
+      "id": "33183",
+      "name": "stem-cut-mesh.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "44da6": {
+      "importer": "gltf-mesh",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@44da6",
+      "displayName": "",
+      "id": "44da6",
+      "name": "blossom-tip-mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 68
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6c07e": {
+      "importer": "gltf-mesh",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@6c07e",
+      "displayName": "",
+      "id": "6c07e",
+      "name": "stem-mesh.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 124
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "adc2f": {
+      "importer": "gltf-mesh",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@adc2f",
+      "displayName": "",
+      "id": "adc2f",
+      "name": "curved-peel-mesh.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 1316
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a0b4": {
+      "importer": "gltf-embeded-image",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@9a0b4",
+      "displayName": "",
+      "id": "9a0b4",
+      "name": "banana-peel-256.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "21e8800f-082b-4adf-bff1-b93346203522@9a0b4"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2773e": {
+      "importer": "gltf-material",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@2773e",
+      "displayName": "",
+      "id": "2773e",
+      "name": "banana-cut-and-blossom.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9a750": {
+      "importer": "gltf-material",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@9a750",
+      "displayName": "",
+      "id": "9a750",
+      "name": "banana-olive-stem.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "38c18": {
+      "importer": "gltf-material",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@38c18",
+      "displayName": "",
+      "id": "38c18",
+      "name": "banana-warm-yellow.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d609c": {
+      "importer": "gltf-scene",
+      "uuid": "21e8800f-082b-4adf-bff1-b93346203522@d609c",
+      "displayName": "",
+      "id": "d609c",
+      "name": "banana.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "banana-peel-256",
+        "uri": "21e8800f-082b-4adf-bff1-b93346203522@9a0b4"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "21e8800f-082b-4adf-bff1-b93346203522@44da6",
+        "21e8800f-082b-4adf-bff1-b93346203522@33183",
+        "21e8800f-082b-4adf-bff1-b93346203522@6c07e",
+        "21e8800f-082b-4adf-bff1-b93346203522@adc2f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "21e8800f-082b-4adf-bff1-b93346203522@e39f7"
+      ],
+      "materials": [
+        "21e8800f-082b-4adf-bff1-b93346203522@2773e",
+        "21e8800f-082b-4adf-bff1-b93346203522@9a750",
+        "21e8800f-082b-4adf-bff1-b93346203522@38c18"
+      ],
+      "scenes": [
+        "21e8800f-082b-4adf-bff1-b93346203522@d609c"
+      ]
+    }
+  }
+}

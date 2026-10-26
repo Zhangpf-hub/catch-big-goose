@@ -1,0 +1,27 @@
+{
+  "size": {
+    "total": 25429254,
+    "packages": [
+      {
+        "name": "TOTAL",
+        "size": 25429254
+      },
+      {
+        "name": "main",
+        "size": 1708730
+      },
+      {
+        "name": "/data-package/",
+        "size": 14146096
+      },
+      {
+        "name": "/media/",
+        "size": 5165126
+      },
+      {
+        "name": "/wasmcode/",
+        "size": 4409302
+      }
+    ]
+  }
+}

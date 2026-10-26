@@ -1,0 +1,12 @@
+{
+  "id": "ref_gtplanepen",
+  "triangles": 2336,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.5539959669113159,
+    1.0,
+    0.3868567645549774
+  ],
+  "glbRoundtrip": true
+}

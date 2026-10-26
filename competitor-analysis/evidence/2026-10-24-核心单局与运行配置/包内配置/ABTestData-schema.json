@@ -1,0 +1,33 @@
+{
+  "rowClass": "ABTestDataData",
+  "fields": [
+    [
+      "_featurekey",
+      "string"
+    ],
+    [
+      "_isopen",
+      "int"
+    ],
+    [
+      "_forkkeylist",
+      "string[]"
+    ],
+    [
+      "_forkweightlist",
+      "int[]"
+    ],
+    [
+      "_tempint",
+      "int"
+    ],
+    [
+      "_tempfloat",
+      "float"
+    ],
+    [
+      "_tempstring",
+      "string"
+    ]
+  ]
+}

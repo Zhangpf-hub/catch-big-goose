@@ -1,0 +1,107 @@
+{
+  "source": "source-assets\\models\\candidates\\duck-series-v1\\master-b2\\source\\duck-b2-master-rig.blend",
+  "sourceSha256": "61871a3b432da740cf7466cb623a607621afb94760a0d5f56bd6622b3785b15b",
+  "rule": {
+    "neckCut": 0.68,
+    "neckPose": [
+      0.55,
+      0.18,
+      -0.73
+    ],
+    "headReach": 0.18,
+    "yaw": 0,
+    "lean": 0,
+    "root": [
+      0.045,
+      0.025,
+      0.66
+    ],
+    "feet": [
+      [
+        -0.1,
+        -0.005,
+        0
+      ],
+      [
+        0.1,
+        -0.005,
+        0
+      ]
+    ],
+    "footYaw": 0,
+    "tailBase": [
+      0.395,
+      0.065,
+      0.42
+    ],
+    "tailYaw": -90
+  },
+  "neckCapCenter": [
+    1.979060526569043e-10,
+    -0.09602038562297821,
+    0.6262218952178955
+  ],
+  "rigidPlacement": {
+    "rotation": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation": [
+      0.04500000178813934,
+      0.12102038413286209,
+      0.03377813100814819
+    ]
+  },
+  "headRegenerated": false,
+  "uniformScaleBeforeFinalNormalization": 1,
+  "faceRigidShapeChecksBeforeAccessoryLod": [
+    {
+      "part": "head-core",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 7.654041134230738e-08
+    },
+    {
+      "part": "bill",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 1.1449283303724411e-07
+    },
+    {
+      "part": "eye",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 1.0701592624562384e-07
+    },
+    {
+      "part": "eye",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 1.0274608462125523e-07
+    }
+  ],
+  "exposedSkinFurtherDecimated": false,
+  "hiddenTorsoRemoved": true,
+  "singleContinuousTorsoKept": false,
+  "hiddenWingsRemoved": true,
+  "tailCopiedFromMother": true,
+  "artAccepted": false
+}

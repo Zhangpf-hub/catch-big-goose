@@ -1,0 +1,8 @@
+  (func $j94015 (type $t4) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    local.get $p1
+    i32.eqz
+    if $I0
+      local.get $p0
+      local.get $p1
+      call $j22130
+    end)

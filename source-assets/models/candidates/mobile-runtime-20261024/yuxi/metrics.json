@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "yuxi",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuxi\\yuxi.fbx",
+  "sourceTriangles": 19904,
+  "triangles": 3144,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.4328869581222534,
+    0.4328869581222534,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.43218791484832764,
+    0.43218791484832764,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

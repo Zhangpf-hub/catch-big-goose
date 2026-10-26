@@ -1,0 +1,42 @@
+{
+  "build": "20261024-R2",
+  "passed": true,
+  "iPhoneAcceptancePassed": null,
+  "scope": "Completed native forced-mobile functional/projection tests and local export; not phone performance.",
+  "editTests": 21,
+  "algorithmChecks": 132,
+  "interactionChecks": 60,
+  "ownWins": 15,
+  "referenceWins": 2,
+  "projectionScenes": 21,
+  "projectionSizes": {
+    "render-563": [
+      563,
+      1000
+    ],
+    "render-393": [
+      393,
+      852
+    ],
+    "render-short": [
+      600,
+      960
+    ]
+  },
+  "unchangedStockAndWeights": true,
+  "unchangedDataSha256": {
+    "core-rounds.json": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800",
+    "pile-algorithms.json": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44",
+    "level-tuning.json": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d",
+    "item-presentation.json": "588bc77ceb2ad118851ab58b236310a4139fec2bb4c1b78ba7e89237d296e5bf",
+    "reference-lab.json": "680c9b4ce39e660ddce02f88b3aba85244443751bfe8b3c5c629649578ec08cc"
+  },
+  "wechatRawBytes": 30600138,
+  "wechatRawMiB": 29.18,
+  "javascriptFiles": 61,
+  "nativePlayerSha256": "76a4560e40ec43334f5300f52d45e74f55579709d5ea01eb838f24c7ac9e568b",
+  "packageIds": [
+    "DATA_FILE_MD5: '01e5229e1ebd4fb6',",
+    "CODE_FILE_MD5: '675e7d1efcdec28c',"
+  ]
+}

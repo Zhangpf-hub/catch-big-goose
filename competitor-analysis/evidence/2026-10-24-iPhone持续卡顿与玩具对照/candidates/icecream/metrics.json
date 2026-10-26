@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "icecream",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\icecream\\icecream.fbx",
+  "sourceTriangles": 4016,
+  "triangles": 4000,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.6376820802688599,
+    0.4442824423313141,
+    1.0
+  ],
+  "normalizedDimensions": [
+    0.6376821398735046,
+    0.4442823529243469,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,823 @@
+{
+  "date": "2026-10-22",
+  "currentEngine": "Unity migration (runtime acceptance tracked separately)",
+  "competitor": {
+    "ordinarySamples": 17,
+    "trianglesMin": 220,
+    "trianglesMax": 1382,
+    "trianglesMedian": 760
+  },
+  "own": {
+    "ordinaryModels": 44,
+    "trianglesMedian": 1946.0,
+    "overObservedMax": 35,
+    "over1500": 32,
+    "texturesOver512": 0
+  },
+  "models": [
+    {
+      "id": "apple",
+      "triangles": 2516,
+      "meshes": 3,
+      "materials": 6,
+      "primitives": 6,
+      "textures": [],
+      "bytes": 83596,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "banana",
+      "triangles": 1568,
+      "meshes": 4,
+      "materials": 3,
+      "primitives": 4,
+      "textures": [
+        [
+          256,
+          256
+        ]
+      ],
+      "bytes": 65580,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "banzhi",
+      "triangles": 1472,
+      "meshes": 4,
+      "materials": 4,
+      "primitives": 4,
+      "textures": [
+        [
+          512,
+          256
+        ],
+        [
+          512,
+          256
+        ],
+        [
+          512,
+          256
+        ]
+      ],
+      "bytes": 298788,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "baoshi",
+      "triangles": 1292,
+      "meshes": 5,
+      "materials": 5,
+      "primitives": 7,
+      "textures": [],
+      "bytes": 100896,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "basket_farm",
+      "triangles": 25000,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "bytes": 1070176,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "container"
+    },
+    {
+      "id": "basket_redwood",
+      "triangles": 8348,
+      "meshes": 4,
+      "materials": 5,
+      "primitives": 5,
+      "textures": [
+        [
+          512,
+          256
+        ],
+        [
+          512,
+          256
+        ]
+      ],
+      "bytes": 514368,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "container"
+    },
+    {
+      "id": "bowl_jade",
+      "triangles": 3498,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "bytes": 160908,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "container"
+    },
+    {
+      "id": "bracelet",
+      "triangles": 2940,
+      "meshes": 7,
+      "materials": 6,
+      "primitives": 9,
+      "textures": [],
+      "bytes": 218564,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "cake_slice",
+      "triangles": 1772,
+      "meshes": 1,
+      "materials": 6,
+      "primitives": 6,
+      "textures": [],
+      "bytes": 53312,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "camera",
+      "triangles": 2200,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 51364,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "candy",
+      "triangles": 416,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 20356,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "carrot",
+      "triangles": 3688,
+      "meshes": 7,
+      "materials": 5,
+      "primitives": 8,
+      "textures": [
+        [
+          256,
+          128
+        ]
+      ],
+      "bytes": 143904,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "cherry",
+      "triangles": 1264,
+      "meshes": 1,
+      "materials": 5,
+      "primitives": 5,
+      "textures": [],
+      "bytes": 37916,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "cookie",
+      "triangles": 1388,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 42020,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "corn",
+      "triangles": 6576,
+      "meshes": 5,
+      "materials": 6,
+      "primitives": 7,
+      "textures": [],
+      "bytes": 190644,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "croissant",
+      "triangles": 4068,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 114264,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "cupcake",
+      "triangles": 5952,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "bytes": 559004,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "donut",
+      "triangles": 1200,
+      "meshes": 1,
+      "materials": 5,
+      "primitives": 5,
+      "textures": [],
+      "bytes": 35476,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "duck",
+      "triangles": 5860,
+      "meshes": 1,
+      "materials": 11,
+      "primitives": 11,
+      "textures": [],
+      "bytes": 172904,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "eggplant",
+      "triangles": 1016,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 31048,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "frog",
+      "triangles": 8128,
+      "meshes": 1,
+      "materials": 9,
+      "primitives": 9,
+      "textures": [],
+      "bytes": 230492,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "goose",
+      "triangles": 2500,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "bytes": 115448,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "grape",
+      "triangles": 1740,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 42180,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "handheld",
+      "triangles": 2464,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 57736,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "headphones",
+      "triangles": 1684,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 40820,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "hulu",
+      "triangles": 3776,
+      "meshes": 7,
+      "materials": 5,
+      "primitives": 8,
+      "textures": [
+        [
+          512,
+          256
+        ]
+      ],
+      "bytes": 281648,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "icecream",
+      "triangles": 4016,
+      "meshes": 1,
+      "materials": 7,
+      "primitives": 7,
+      "textures": [],
+      "bytes": 124816,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "koi",
+      "triangles": 2024,
+      "meshes": 1,
+      "materials": 5,
+      "primitives": 5,
+      "textures": [],
+      "bytes": 62844,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "laptop",
+      "triangles": 2404,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 57476,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "lemon",
+      "triangles": 900,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 28932,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "lotus",
+      "triangles": 3892,
+      "meshes": 1,
+      "materials": 7,
+      "primitives": 7,
+      "textures": [],
+      "bytes": 130244,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "macaron",
+      "triangles": 2652,
+      "meshes": 1,
+      "materials": 5,
+      "primitives": 5,
+      "textures": [],
+      "bytes": 88824,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "mouse",
+      "triangles": 1256,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 30052,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "mushroom",
+      "triangles": 1516,
+      "meshes": 1,
+      "materials": 2,
+      "primitives": 2,
+      "textures": [],
+      "bytes": 43464,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "orange",
+      "triangles": 1300,
+      "meshes": 1,
+      "materials": 4,
+      "primitives": 4,
+      "textures": [],
+      "bytes": 59952,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "pear",
+      "triangles": 1308,
+      "meshes": 1,
+      "materials": 4,
+      "primitives": 4,
+      "textures": [],
+      "bytes": 37328,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "phone",
+      "triangles": 1564,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 37272,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "pudding",
+      "triangles": 1780,
+      "meshes": 1,
+      "materials": 4,
+      "primitives": 4,
+      "textures": [],
+      "bytes": 55812,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "pumpkin",
+      "triangles": 3196,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 86068,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "radio",
+      "triangles": 1696,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 41024,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "rock",
+      "triangles": 80,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [],
+      "bytes": 9336,
+      "exceedsObservedTriangles": false,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "special"
+    },
+    {
+      "id": "ruyi",
+      "triangles": 5428,
+      "meshes": 14,
+      "materials": 5,
+      "primitives": 14,
+      "textures": [
+        [
+          256,
+          64
+        ]
+      ],
+      "bytes": 222532,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "smartwatch",
+      "triangles": 1516,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 36264,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "speaker",
+      "triangles": 1868,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 44044,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "strawberry",
+      "triangles": 1384,
+      "meshes": 1,
+      "materials": 3,
+      "primitives": 3,
+      "textures": [],
+      "bytes": 67380,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": false,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "tongqian",
+      "triangles": 3636,
+      "meshes": 5,
+      "materials": 4,
+      "primitives": 5,
+      "textures": [],
+      "bytes": 158956,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "tray_dessert",
+      "triangles": 4000,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          256,
+          256
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "bytes": 267404,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "container"
+    },
+    {
+      "id": "tray_electronics",
+      "triangles": 1520,
+      "meshes": 1,
+      "materials": 1,
+      "primitives": 1,
+      "textures": [
+        [
+          64,
+          64
+        ]
+      ],
+      "bytes": 36984,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "container"
+    },
+    {
+      "id": "yuxi",
+      "triangles": 19904,
+      "meshes": 6,
+      "materials": 5,
+      "primitives": 7,
+      "textures": [],
+      "bytes": 463284,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    },
+    {
+      "id": "yuzhuo",
+      "triangles": 2784,
+      "meshes": 4,
+      "materials": 3,
+      "primitives": 4,
+      "textures": [
+        [
+          512,
+          256
+        ]
+      ],
+      "bytes": 241780,
+      "exceedsObservedTriangles": true,
+      "exceedsNewTarget": true,
+      "exceedsTexture512": false,
+      "category": "ordinary"
+    }
+  ]
+}

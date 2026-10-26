@@ -1,0 +1,53 @@
+{
+  "id": "duck-chilisauce",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_ChiliSauce/Goose_ChiliSauce.glb",
+  "sourceSha256": "6e5e49eb06026cbc900dded7bf592f99b8317bc72effb52fb892e4f8020d013e",
+  "originalWorldDimensions": [
+    1.9026527404785156,
+    2.3107664585113525,
+    1.2093513011932373
+  ],
+  "uniformScale": 0.4327568440837688,
+  "normalizedWorldDimensions": [
+    0.823386013507843,
+    1.0,
+    0.5233550667762756
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

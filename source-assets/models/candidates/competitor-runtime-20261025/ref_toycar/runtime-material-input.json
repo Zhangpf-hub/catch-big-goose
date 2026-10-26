@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "name": "CarMa1",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-287486550958085129.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    },
+    {
+      "name": "CarWheelMa2",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-2412472975970113641.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite2",
+      "glassFlattened": false
+    },
+    {
+      "name": "CarWheelMa1",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_4852232148292786887.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite2",
+      "glassFlattened": false
+    }
+  ]
+}

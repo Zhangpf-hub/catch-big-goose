@@ -1,0 +1,12 @@
+{
+  "id": "ref_flashlight2",
+  "triangles": 1356,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.8477492332458496,
+    1.0,
+    0.734356701374054
+  ],
+  "glbRoundtrip": true
+}

@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_dessert\\tray_dessert_albedo_0.png",
+      "uvMin": [
+        0.0020336639136075974,
+        0.0016846656799316406
+      ],
+      "uvMax": [
+        0.9975839853286743,
+        0.9973700046539307
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\tray_dessert\\albedo.png"
+}

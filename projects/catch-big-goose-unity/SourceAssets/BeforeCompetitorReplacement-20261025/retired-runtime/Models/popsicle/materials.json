@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "name": "popsicle_mat_0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6000000238418579,
+      "texture": "popsicle_albedo_0.png"
+    }
+  ]
+}

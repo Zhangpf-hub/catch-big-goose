@@ -1,0 +1,34 @@
+{
+  "192": {
+    "mode": "RGBA",
+    "bounds": [
+      41,
+      23,
+      148,
+      182
+    ],
+    "margins": [
+      41,
+      23,
+      44,
+      10
+    ]
+  },
+  "64": {
+    "mode": "RGBA",
+    "bounds": [
+      13,
+      7,
+      50,
+      61
+    ],
+    "margins": [
+      13,
+      7,
+      14,
+      3
+    ]
+  },
+  "passed": true,
+  "visualReview": "Actual exported mesh reviewed front, side, back, top and 64px; orange/ivory fields with upright ears, short muzzle, closed curled tail and separate legs."
+}

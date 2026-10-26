@@ -1,0 +1,947 @@
+[
+  {
+    "id": "apple",
+    "materials": 6,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "banana",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/banana/banana_albedo_2.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  },
+  {
+    "id": "banzhi",
+    "materials": 4,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/banzhi/banzhi_albedo_0.png",
+        "sourceDimensions": [
+          512,
+          256
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  },
+  {
+    "id": "baoshi",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "basket_farm",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/basket_farm/basket_farm_albedo_0.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "basket_redwood",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/basket_redwood/basket_redwood_albedo_4.png",
+        "sourceDimensions": [
+          512,
+          256
+        ],
+        "usableTilePixels": 122
+      },
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/basket_redwood/basket_redwood_albedo_1.png",
+        "sourceDimensions": [
+          512,
+          256
+        ],
+        "usableTilePixels": 122
+      }
+    ]
+  },
+  {
+    "id": "bowl_jade",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/bowl_jade/bowl_jade_albedo_0.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "bracelet",
+    "materials": 6,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "cake_slice",
+    "materials": 6,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "candy",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "carrot",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/carrot/carrot_albedo_4.png",
+        "sourceDimensions": [
+          256,
+          128
+        ],
+        "usableTilePixels": 122
+      }
+    ]
+  },
+  {
+    "id": "cherry",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "cookie",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "corn",
+    "materials": 6,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "croissant",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "cupcake",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/cupcake/cupcake_albedo_0.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "donut",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "duck",
+    "materials": 11,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "eggplant",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "frog",
+    "materials": 9,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "grape",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "hulu",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/hulu/hulu_albedo_3.png",
+        "sourceDimensions": [
+          512,
+          256
+        ],
+        "usableTilePixels": 122
+      }
+    ]
+  },
+  {
+    "id": "icecream",
+    "materials": 7,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "koi",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "lemon",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "lotus",
+    "materials": 7,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "macaron",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "mushroom",
+    "materials": 2,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "orange",
+    "materials": 4,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "pear",
+    "materials": 4,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "pudding",
+    "materials": 4,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "pumpkin",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "ref_gtcrocodile",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTCrocodile/tex_808116892596404501.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtdinosaur",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTDinosaur/tex_6916460067506960093.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtdrawingboard",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTDrawingBoard/tex_3538175594027151253.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtfruiteraser",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTFruitEraser/tex_-2771805950930493066.png",
+        "sourceDimensions": [
+          128,
+          128
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtgoosestamp",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTGooseStamp/tex_-9091478964649060643.png",
+        "sourceDimensions": [
+          128,
+          128
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtkaleidoscope",
+    "materials": 2,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTKaleidoscope/tex_7378205099724755732.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      },
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTKaleidoscope/tex_-6186732415379432617.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  },
+  {
+    "id": "ref_gtlaserpen",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTLaserPen/tex_7574107178278518936.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtmagiccubel",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTMagicCubeL/tex_7780502602771374299.png",
+        "sourceDimensions": [
+          128,
+          128
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtpaperboat",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPaperBoat/tex_752519494649156133.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtpaperfortune",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPaperFortune/tex_-6477540267136094694.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtpaperstar",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPaperStar/tex_-4413058295757840012.png",
+        "sourceDimensions": [
+          64,
+          64
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtpapertree",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPaperTree/tex_-6220710457998861077.png",
+        "sourceDimensions": [
+          128,
+          128
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtplanepen",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPlanePen/tex_8619417652736380838.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtplasterdeer",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPlasterDeer/tex_-8799056970662656634.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtplaydough",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPlaydough/tex_-6351097788001986610.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      },
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTPlaydough/tex_-6351097788001986610.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  },
+  {
+    "id": "ref_gtracecar",
+    "materials": 2,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTRaceCar/tex_6189610543022139681.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      },
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTRaceCar/tex_6189610543022139681.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  },
+  {
+    "id": "ref_gtringcandy",
+    "materials": 2,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTRingCandy/tex_-3804928966648046861.png",
+        "sourceDimensions": [
+          128,
+          128
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  },
+  {
+    "id": "ref_gtsandbag",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTSandbag/tex_-2276178611983812176.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtsmiledoll",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTSmileDoll/tex_-6674667076202348853.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtstickerbook",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTStickerBook/tex_7903415434387290677.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "ref_gtwatergame",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_-2940297293892760700.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      },
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_5386740643253612106.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      },
+      {
+        "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_5386740643253612106.png",
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  },
+  {
+    "id": "ruyi",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/ruyi/ruyi_albedo_2.png",
+        "sourceDimensions": [
+          256,
+          64
+        ],
+        "usableTilePixels": 122
+      }
+    ]
+  },
+  {
+    "id": "strawberry",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "tongqian",
+    "materials": 4,
+    "grid": 2,
+    "atlasDimensions": [
+      32,
+      32
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "tray_dessert",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/tray_dessert/tray_dessert_albedo_0.png",
+        "sourceDimensions": [
+          256,
+          256
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "tray_electronics",
+    "materials": 1,
+    "grid": 1,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/tray_electronics/tray_electronics_albedo_0.png",
+        "sourceDimensions": [
+          64,
+          64
+        ],
+        "usableTilePixels": 506
+      }
+    ]
+  },
+  {
+    "id": "yuxi",
+    "materials": 5,
+    "grid": 4,
+    "atlasDimensions": [
+      64,
+      64
+    ],
+    "texturedInputs": []
+  },
+  {
+    "id": "yuzhuo",
+    "materials": 3,
+    "grid": 2,
+    "atlasDimensions": [
+      512,
+      512
+    ],
+    "texturedInputs": [
+      {
+        "source": "unity/SourceAssets/MobileBaseline-20261024/original-models/yuzhuo/yuzhuo_albedo_1.png",
+        "sourceDimensions": [
+          512,
+          256
+        ],
+        "usableTilePixels": 250
+      }
+    ]
+  }
+]

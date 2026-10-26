@@ -1,0 +1,28 @@
+{
+  "id": "blueberry",
+  "theme": "fruit",
+  "triangles": 2516,
+  "vertices": 1312,
+  "blenderBounds": [
+    1.0,
+    0.7349397540092468,
+    0.7012048363685608
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 59232,
+  "sha256": "aaefb4e952aa7b2cc5dbdadaac64ddda09b4eaf71d37149558d270f32fec5aa8",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

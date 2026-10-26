@@ -1,0 +1,143 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "40d1e978-4e7d-460b-a288-a98db6b81396",
+  "files": [],
+  "subMetas": {
+    "95740": {
+      "importer": "gltf-mesh",
+      "uuid": "40d1e978-4e7d-460b-a288-a98db6b81396@95740",
+      "displayName": "",
+      "id": "95740",
+      "name": "smartwatch.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1516
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4eff0": {
+      "importer": "gltf-embeded-image",
+      "uuid": "40d1e978-4e7d-460b-a288-a98db6b81396@4eff0",
+      "displayName": "",
+      "id": "4eff0",
+      "name": "smartwatch_palette.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "40d1e978-4e7d-460b-a288-a98db6b81396@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "40d1e978-4e7d-460b-a288-a98db6b81396@4eff0"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8672": {
+      "importer": "gltf-material",
+      "uuid": "40d1e978-4e7d-460b-a288-a98db6b81396@d8672",
+      "displayName": "",
+      "id": "d8672",
+      "name": "smartwatch_material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b705": {
+      "importer": "gltf-scene",
+      "uuid": "40d1e978-4e7d-460b-a288-a98db6b81396@8b705",
+      "displayName": "",
+      "id": "8b705",
+      "name": "smartwatch.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "smartwatch_palette",
+        "uri": "40d1e978-4e7d-460b-a288-a98db6b81396@4eff0"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "40d1e978-4e7d-460b-a288-a98db6b81396@95740"
+      ],
+      "skeletons": [],
+      "textures": [
+        "40d1e978-4e7d-460b-a288-a98db6b81396@e39f7"
+      ],
+      "materials": [
+        "40d1e978-4e7d-460b-a288-a98db6b81396@d8672"
+      ],
+      "scenes": [
+        "40d1e978-4e7d-460b-a288-a98db6b81396@8b705"
+      ]
+    }
+  }
+}

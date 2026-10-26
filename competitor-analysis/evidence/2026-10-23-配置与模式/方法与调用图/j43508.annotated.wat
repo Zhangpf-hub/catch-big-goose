@@ -1,0 +1,159 @@
+  (func $j43508 (type $t0) (param $p0 i32) (param $p1 i32)
+    (local $l2 i32) (local $l3 i32) (local $l4 i32) (local $l5 i32) (local $l6 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $l2
+    local.get $l2
+    global.set $primary.global$0
+    i32.const 5140053
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3939040 ;; System.Action<bool>_TypeInfo
+      call $j922
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      call $j922
+      i32.const 3945912 ;; System.Collections.Generic.IReadOnlyCollection<MainLevelUpgradedDataData>_TypeInfo
+      call $j922
+      i32.const 3945944 ;; System.Collections.Generic.IReadOnlyList<MainLevelUpgradedDataData>_TypeInfo
+      call $j922
+      i32.const 3958048 ;; LevelLoaderManager_TypeInfo
+      call $j922
+      i32.const 4029172 ;; Method$LevelManager.LoadComplete3()
+      call $j922
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 4122384 ;; 开始加载主线关第三关
+      call $j922
+      i32.const 5140053
+      i32.const 1
+      i32.store8
+    end
+    i32.const 4122384 ;; 开始加载主线关第三关
+    i32.load
+    i32.const 0
+    call $j1441 ;; UnityEngine.MonoBehaviour$$print
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 0
+    call $j2521 ;; NetDataManager$$get_DailyBaseLevelIndex
+    local.set $p1
+    i32.const 3953096 ;; ConfigManager_TypeInfo
+    i32.load
+    call $j923
+    block $B1
+      block $B2
+        local.get $p1
+        i32.const 0
+        call $j4153 ;; ConfigManager$$GetMainLevelUpgradedDataList
+        local.set $l3
+        local.get $l3
+        i32.eqz
+        br_if $B2
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 0
+        call $j4065 ;; NetDataManager$$GetMaxUnlockStar
+        local.set $l4
+        i32.const 5140220
+        i32.load8_u
+        i32.eqz
+        if $I3
+          i32.const 3959288 ;; NetDataManager_TypeInfo
+          call $j922
+          i32.const 5140220
+          i32.const 1
+          i32.store8
+        end
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=52
+        i32.const 0
+        i32.ge_s
+        if $I4
+          i32.const 0
+          i32.const 3945912 ;; System.Collections.Generic.IReadOnlyCollection<MainLevelUpgradedDataData>_TypeInfo
+          i32.load
+          local.get $l3
+          call $j951
+          local.set $l4
+        end
+        local.get $l4
+        i32.const 2
+        i32.lt_s
+        br_if $B2
+        i32.const 1
+        local.set $p1
+        loop $L5
+          local.get $p1
+          local.get $l4
+          i32.ge_s
+          br_if $B1
+          i32.const 0
+          local.set $l5
+          local.get $l2
+          i32.const 8
+          i32.add
+          i32.const 0
+          i32.const 3945944 ;; System.Collections.Generic.IReadOnlyList<MainLevelUpgradedDataData>_TypeInfo
+          i32.load
+          local.get $l3
+          local.get $p1
+          call $j1018
+          i32.load offset=16
+          local.get $p1
+          call $j3322 ;; LevelIndexAndType$$MainLevel
+          i32.const 3958048 ;; LevelLoaderManager_TypeInfo
+          i32.load
+          call $j923
+          local.get $l2
+          local.get $l2
+          i64.load offset=8
+          i64.store
+          local.get $l2
+          local.get $p1
+          call $j5156 ;; LevelLoaderManager$$GetLevelLoader
+          local.set $l6
+          local.get $p1
+          i32.const 1
+          i32.eq
+          if $I6
+            i32.const 3939040 ;; System.Action<bool>_TypeInfo
+            i32.load
+            call $j924
+            local.set $l5
+            local.get $l5
+            local.get $p0
+            i32.const 4029172 ;; Method$LevelManager.LoadComplete3()
+            i32.load
+            i32.const 0
+            call $j969
+          end
+          local.get $l6
+          local.get $l5
+          local.get $p1
+          call $j4700 ;; LevelLoader$$Load
+          local.get $p1
+          i32.const 1
+          i32.add
+          local.set $p1
+          br $L5
+        end
+        unreachable
+      end
+      local.get $p0
+      i32.const 1
+      local.get $p1
+      call $j43523 ;; LevelManager$$LoadComplete3
+    end
+    local.get $l2
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_watermelonhalf",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WatermelonHalf\\WatermelonHalf.blend",
+  "sourceTriangles": 540,
+  "triangles": 540,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.8309189081192017,
+    1.610656499862671,
+    1.6790342330932617
+  ],
+  "normalizedDimensions": [
+    0.9999999403953552,
+    0.8796983957290649,
+    0.9170445203781128
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

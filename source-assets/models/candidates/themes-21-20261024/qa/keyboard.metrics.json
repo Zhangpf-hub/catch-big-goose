@@ -1,0 +1,28 @@
+{
+  "id": "keyboard",
+  "theme": "electronics",
+  "triangles": 1272,
+  "vertices": 688,
+  "blenderBounds": [
+    1.0,
+    0.5319148898124695,
+    0.18617020547389984
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 31920,
+  "sha256": "c67530de6d1c52b8e80db8b4a12cb2b5e9882e07ae3d167c9f6c2788be982030",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

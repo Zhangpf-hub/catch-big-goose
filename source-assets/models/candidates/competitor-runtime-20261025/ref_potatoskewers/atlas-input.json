@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        0.9536296129226685,
+        0.900943398475647,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\PotatoSkewers\\tex_-1549869031239403890.png",
+      "uvMin": [
+        0.01921600103378296,
+        0.012785889208316803
+      ],
+      "uvMax": [
+        0.9940240383148193,
+        0.9864416122436523
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_potatoskewers\\albedo.png"
+}

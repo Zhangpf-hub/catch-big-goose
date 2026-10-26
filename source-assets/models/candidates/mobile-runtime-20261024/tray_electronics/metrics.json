@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "tray_electronics",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_electronics\\tray_electronics.fbx",
+  "sourceTriangles": 1520,
+  "triangles": 1520,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    1.0,
+    0.2727501392364502
+  ],
+  "normalizedDimensions": [
+    1.0,
+    1.0,
+    0.2727501392364502
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

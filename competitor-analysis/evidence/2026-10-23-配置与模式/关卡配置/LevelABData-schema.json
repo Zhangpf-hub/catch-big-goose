@@ -1,0 +1,21 @@
+{
+  "rowClass": "LevelABDataData",
+  "fields": [
+    [
+      "_id",
+      "int"
+    ],
+    [
+      "_reducegroup",
+      "int[]"
+    ],
+    [
+      "_reducetype",
+      "int[]"
+    ],
+    [
+      "_des",
+      "string"
+    ]
+  ]
+}

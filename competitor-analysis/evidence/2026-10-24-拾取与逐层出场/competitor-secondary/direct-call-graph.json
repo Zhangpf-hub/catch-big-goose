@@ -1,0 +1,98 @@
+[
+  {
+    "symbol": "$j2586",
+    "methodAliases": [
+      "LevelTrapDataData$$set_RangeDis",
+      "MonopolyFakeDiceDataData$$set_StartFakeRate",
+      "PVPRobotType1DataData$$set_GetObjIntervalMin",
+      "ReturnRewardDataData$$set_Weight",
+      "ShareDataData$$set_Weight",
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__2",
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__4",
+      "UnityEngine.UIElements.VisualTreeStyleUpdaterTraversal$$set_currentPixelsPerPoint",
+      "UnityEngine.UIElements.VisualTreeStyleUpdaterTraversal$$PrepareTraversal",
+      "UnityEngine.UIElements.PanelSettings$$set_scale",
+      "Spine.RegionAttachment$$set_ScaleX",
+      "Spine.Bone$$set_X",
+      "Spine.BoneData$$set_X",
+      "Spine.PathConstraint$$set_Spacing",
+      "Spine.SkeletonBounds$$set_MaxY",
+      "Spine.Slot$$set_B",
+      "Spine.SlotData$$set_G",
+      "Spine.TransformConstraint$$set_TranslateMix",
+      "UnityEngine.UI.ScrollRect$$set_elasticity",
+      "Kunpo.SingleAttribute$$set_MaxValue",
+      "Animancer.Examples.AnimatorControllers.GameKit.CharacterParameters$$set_DesiredForwardSpeed",
+      "Coffee.UIExtensions.UIParticleAttractor$$set_maxSpeed",
+      "UnityEngine.TextCore.FaceInfo$$set_ascentLine"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j5589",
+    "methodAliases": [
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__10",
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__12",
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__14",
+      "FairyGUI.ScrollPane$$get_contentWidth",
+      "Spine.TrackEntry$$get_TrackTime",
+      "Spine.Bone$$get_B",
+      "UnityEngine.UIElements.PanelEventHandler.PointerEvent$$get_twist",
+      "Animancer.PlayableAssetState$$get_Length"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j9222",
+    "methodAliases": [
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__11",
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__13",
+      "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__15",
+      "Spine.TrackEntry$$set_TrackTime",
+      "UnityEngine.UIElements.PanelEventHandler.PointerEvent$$set_twist"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74404",
+    "methodAliases": [
+      "LevelObjAnimManager.<CombieAnim>d__21$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74291",
+    "methodAliases": [
+      "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j95000",
+    "methodAliases": [
+      "LevelObjAnimManager$$GetCheckWinTimeAfterCombine"
+    ],
+    "directCalls": [],
+    "indirectCalls": 0,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j73744",
+    "methodAliases": [
+      "ShowCreateAnimMod.<ShowAnim>d__9$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  }
+]

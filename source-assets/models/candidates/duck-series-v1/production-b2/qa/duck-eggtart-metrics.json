@@ -1,0 +1,24 @@
+{
+  "id": "duck-eggtart",
+  "triangles": 3752,
+  "dimensions": [
+    0.8843943476676941,
+    0.5603507161140442,
+    1.0
+  ],
+  "sourceExtent": 1.033042311668396,
+  "sourceCenter": [
+    0.01880839467048645,
+    -0.15150579810142517,
+    0.5229602456092834
+  ],
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 89480,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true,
+  "preferredTriangleTargetMet": true
+}

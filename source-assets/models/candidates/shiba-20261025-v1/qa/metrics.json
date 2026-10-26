@@ -1,0 +1,27 @@
+{
+  "id": "shiba",
+  "triangles": 5000,
+  "materials": 1,
+  "texture": [
+    512,
+    512
+  ],
+  "dimensions": [
+    0.37273070216178894,
+    0.9601523876190186,
+    1.0
+  ],
+  "center": [
+    0,
+    0,
+    0
+  ],
+  "sourceCenter": [
+    -8.273124694824219e-05,
+    0.01557689905166626,
+    0.8155122995376587
+  ],
+  "sourceExtent": 1.5988647937774658,
+  "glbBytes": 227228,
+  "basis": "Clean two-tone Shiba; 512 atlas preserves small facial details, no baked lighting"
+}

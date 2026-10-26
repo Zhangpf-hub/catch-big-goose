@@ -1,0 +1,9 @@
+{
+  "id": "ref_scallop",
+  "sourceId": "Scallop",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Scallop\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/Scallop.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+  "sourceSha256": "a20bf1a0938f310723c9b43bc02778ea7bbd5d89f7878ef83a363dba1211ead0"
+}

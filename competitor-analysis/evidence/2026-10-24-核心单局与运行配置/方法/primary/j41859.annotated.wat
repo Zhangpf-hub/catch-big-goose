@@ -1,0 +1,30 @@
+  (func $j41859 (type $t2) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    i32.const 0
+    local.set $p2
+    i32.const 5139780
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3959304 ;; NetInitManager_TypeInfo
+      call $j922
+      i32.const 5139780
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    if $I1
+      i32.const 3959304 ;; NetInitManager_TypeInfo
+      i32.load
+      call $j923
+      local.get $p0
+      i32.const 0
+      call $j41811 ;; NetInitManager$$BuildServerTeamListData
+      local.set $p2
+    end
+    local.get $p1
+    if $I2
+      local.get $p1
+      local.get $p2
+      i32.const 0
+      call $j1184
+    end)

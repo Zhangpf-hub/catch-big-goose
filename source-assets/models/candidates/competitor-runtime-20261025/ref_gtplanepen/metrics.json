@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtplanepen",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlanePen\\GTPlanePen.blend",
+  "sourceTriangles": 2336,
+  "triangles": 2336,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.2631586790084839,
+    2.2800865173339844,
+    0.8820669054985046
+  ],
+  "normalizedDimensions": [
+    0.5539959669113159,
+    1.0,
+    0.3868567645549774
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

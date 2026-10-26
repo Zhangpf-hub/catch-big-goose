@@ -1,0 +1,587 @@
+{
+  "source": "D:\\开发\\Catch-big-goose-master\\work\\competitor-config-trace\\source\\6f7a2014e3c0092b.webgl.data.unityweb.bin",
+  "sourceSha256": "b7cad460af0d7aaf86bdec945f9b4d69a4e494a07b1343007f3cc7254c208b42",
+  "objects": [
+    {
+      "type": "QualitySettings",
+      "name": null,
+      "pathId": 12,
+      "assetsFile": "globalgamemanagers",
+      "data": {
+        "m_CurrentQuality": 1,
+        "m_QualitySettings": [
+          {
+            "name": "Very Low",
+            "pixelLightCount": 0,
+            "shadows": 0,
+            "shadowResolution": 0,
+            "shadowProjection": 1,
+            "shadowCascades": 1,
+            "shadowDistance": 15.0,
+            "shadowNearPlaneOffset": 3.0,
+            "shadowCascade2Split": 0.3333333432674408,
+            "shadowCascade4Split": {
+              "x": 0.06666667014360428,
+              "y": 0.20000000298023224,
+              "z": 0.46666666865348816
+            },
+            "shadowmaskMode": 0,
+            "skinWeights": 1,
+            "textureQuality": 1,
+            "anisotropicTextures": 0,
+            "antiAliasing": 0,
+            "softParticles": false,
+            "softVegetation": false,
+            "realtimeReflectionProbes": false,
+            "billboardsFaceCameraPosition": false,
+            "vSyncCount": 0,
+            "lodBias": 0.30000001192092896,
+            "maximumLODLevel": 0,
+            "streamingMipmapsActive": false,
+            "streamingMipmapsAddAllCameras": true,
+            "streamingMipmapsMemoryBudget": 512.0,
+            "streamingMipmapsRenderersPerFrame": 512,
+            "streamingMipmapsMaxLevelReduction": 2,
+            "streamingMipmapsMaxFileIORequests": 1024,
+            "particleRaycastBudget": 4,
+            "asyncUploadTimeSlice": 2,
+            "asyncUploadBufferSize": 16,
+            "asyncUploadPersistentBuffer": true,
+            "resolutionScalingFixedDPIFactor": 1.0,
+            "customRenderPipeline": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          },
+          {
+            "name": "Medium",
+            "pixelLightCount": 1,
+            "shadows": 1,
+            "shadowResolution": 1,
+            "shadowProjection": 1,
+            "shadowCascades": 1,
+            "shadowDistance": 40.0,
+            "shadowNearPlaneOffset": 3.0,
+            "shadowCascade2Split": 0.3333333432674408,
+            "shadowCascade4Split": {
+              "x": 0.06666667014360428,
+              "y": 0.20000000298023224,
+              "z": 0.46666666865348816
+            },
+            "shadowmaskMode": 0,
+            "skinWeights": 2,
+            "textureQuality": 0,
+            "anisotropicTextures": 1,
+            "antiAliasing": 0,
+            "softParticles": false,
+            "softVegetation": false,
+            "realtimeReflectionProbes": false,
+            "billboardsFaceCameraPosition": false,
+            "vSyncCount": 0,
+            "lodBias": 0.699999988079071,
+            "maximumLODLevel": 0,
+            "streamingMipmapsActive": false,
+            "streamingMipmapsAddAllCameras": true,
+            "streamingMipmapsMemoryBudget": 512.0,
+            "streamingMipmapsRenderersPerFrame": 512,
+            "streamingMipmapsMaxLevelReduction": 2,
+            "streamingMipmapsMaxFileIORequests": 1024,
+            "particleRaycastBudget": 64,
+            "asyncUploadTimeSlice": 2,
+            "asyncUploadBufferSize": 16,
+            "asyncUploadPersistentBuffer": true,
+            "resolutionScalingFixedDPIFactor": 1.0,
+            "customRenderPipeline": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          }
+        ],
+        "m_StrippedMaximumLODLevel": 0
+      },
+      "transforms": []
+    },
+    {
+      "type": "Light",
+      "name": "Directional Light",
+      "pathId": 611,
+      "assetsFile": "sharedassets0.assets",
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 169
+        },
+        "m_Enabled": 1,
+        "m_Type": 1,
+        "m_Shape": 0,
+        "m_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "m_Intensity": 0.3799999952316284,
+        "m_Range": 10.0,
+        "m_SpotAngle": 30.0,
+        "m_InnerSpotAngle": 21.802080154418945,
+        "m_CookieSize": 10.0,
+        "m_Shadows": {
+          "m_Type": 1,
+          "m_Resolution": -1,
+          "m_CustomResolution": -1,
+          "m_Strength": 1.0,
+          "m_Bias": 0.05000000074505806,
+          "m_NormalBias": 0.4000000059604645,
+          "m_NearPlane": 0.20000000298023224,
+          "m_CullingMatrixOverride": {
+            "e00": 1.0,
+            "e01": 0.0,
+            "e02": 0.0,
+            "e03": 0.0,
+            "e10": 0.0,
+            "e11": 1.0,
+            "e12": 0.0,
+            "e13": 0.0,
+            "e20": 0.0,
+            "e21": 0.0,
+            "e22": 1.0,
+            "e23": 0.0,
+            "e30": 0.0,
+            "e31": 0.0,
+            "e32": 0.0,
+            "e33": 1.0
+          },
+          "m_UseCullingMatrixOverride": false
+        },
+        "m_Cookie": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_DrawHalo": false,
+        "m_BakingOutput": {
+          "probeOcclusionLightIndex": -1,
+          "occlusionMaskChannel": -1,
+          "lightmapBakeMode": {
+            "lightmapBakeType": 4,
+            "mixedLightingMode": 2
+          },
+          "isBaked": false
+        },
+        "m_Flare": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_RenderMode": 0,
+        "m_CullingMask": {
+          "m_Bits": 503
+        },
+        "m_RenderingLayerMask": 1,
+        "m_Lightmapping": 1,
+        "m_LightShadowCasterMode": 0,
+        "m_AreaSize": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_BounceIntensity": 1.0,
+        "m_ColorTemperature": 6570.0,
+        "m_UseColorTemperature": false,
+        "m_BoundingSphereOverride": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "m_UseBoundingSphereOverride": false,
+        "m_UseViewFrustumForShadowCasterCull": true
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 169
+          },
+          "m_LocalRotation": {
+            "x": -0.07652297616004944,
+            "y": -0.8228871822357178,
+            "z": 0.5578038692474365,
+            "w": 0.07652299106121063
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 3.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 386
+          }
+        }
+      ]
+    },
+    {
+      "type": "Light",
+      "name": "MainSceneLight",
+      "pathId": 612,
+      "assetsFile": "sharedassets0.assets",
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 215
+        },
+        "m_Enabled": 1,
+        "m_Type": 1,
+        "m_Shape": 0,
+        "m_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "m_Intensity": 0.3799999952316284,
+        "m_Range": 10.0,
+        "m_SpotAngle": 30.0,
+        "m_InnerSpotAngle": 21.802080154418945,
+        "m_CookieSize": 10.0,
+        "m_Shadows": {
+          "m_Type": 2,
+          "m_Resolution": -1,
+          "m_CustomResolution": -1,
+          "m_Strength": 1.0,
+          "m_Bias": 0.009999999776482582,
+          "m_NormalBias": 0.4000000059604645,
+          "m_NearPlane": 0.20000000298023224,
+          "m_CullingMatrixOverride": {
+            "e00": 1.0,
+            "e01": 0.0,
+            "e02": 0.0,
+            "e03": 0.0,
+            "e10": 0.0,
+            "e11": 1.0,
+            "e12": 0.0,
+            "e13": 0.0,
+            "e20": 0.0,
+            "e21": 0.0,
+            "e22": 1.0,
+            "e23": 0.0,
+            "e30": 0.0,
+            "e31": 0.0,
+            "e32": 0.0,
+            "e33": 1.0
+          },
+          "m_UseCullingMatrixOverride": false
+        },
+        "m_Cookie": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_DrawHalo": false,
+        "m_BakingOutput": {
+          "probeOcclusionLightIndex": -1,
+          "occlusionMaskChannel": -1,
+          "lightmapBakeMode": {
+            "lightmapBakeType": 4,
+            "mixedLightingMode": 2
+          },
+          "isBaked": false
+        },
+        "m_Flare": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_RenderMode": 0,
+        "m_CullingMask": {
+          "m_Bits": 512
+        },
+        "m_RenderingLayerMask": 1,
+        "m_Lightmapping": 1,
+        "m_LightShadowCasterMode": 0,
+        "m_AreaSize": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_BounceIntensity": 1.0,
+        "m_ColorTemperature": 6570.0,
+        "m_UseColorTemperature": false,
+        "m_BoundingSphereOverride": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "m_UseBoundingSphereOverride": false,
+        "m_UseViewFrustumForShadowCasterCull": true
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 215
+          },
+          "m_LocalRotation": {
+            "x": 0.5943313241004944,
+            "y": -0.17171302437782288,
+            "z": 0.13176001608371735,
+            "w": 0.7745477557182312
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 3.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 353
+          }
+        }
+      ]
+    },
+    {
+      "type": "RenderSettings",
+      "name": null,
+      "pathId": 56,
+      "assetsFile": "level0",
+      "data": {
+        "m_Fog": false,
+        "m_FogColor": {
+          "r": 0.5,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "m_FogMode": 3,
+        "m_FogDensity": 0.009999999776482582,
+        "m_LinearFogStart": 0.0,
+        "m_LinearFogEnd": 300.0,
+        "m_AmbientSkyColor": {
+          "r": 1.4148107767105103,
+          "g": 1.4148107767105103,
+          "b": 1.4148107767105103,
+          "a": 1.0
+        },
+        "m_AmbientEquatorColor": {
+          "r": 0.11400000005960464,
+          "g": 0.125,
+          "b": 0.13300000131130219,
+          "a": 1.0
+        },
+        "m_AmbientGroundColor": {
+          "r": 0.04699999839067459,
+          "g": 0.0430000014603138,
+          "b": 0.03500000014901161,
+          "a": 1.0
+        },
+        "m_AmbientIntensity": 1.0,
+        "m_AmbientMode": 3,
+        "m_SubtractiveShadowColor": {
+          "r": 0.41999998688697815,
+          "g": 0.4779999852180481,
+          "b": 0.6269999742507935,
+          "a": 1.0
+        },
+        "m_SkyboxMaterial": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_HaloStrength": 0.5,
+        "m_FlareStrength": 1.0,
+        "m_FlareFadeSpeed": 3.0,
+        "m_HaloTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_SpotCookie": {
+          "m_FileID": 2,
+          "m_PathID": 10001
+        },
+        "m_DefaultReflectionMode": 0,
+        "m_DefaultReflectionResolution": 128,
+        "m_ReflectionBounces": 1,
+        "m_ReflectionIntensity": 0.46000000834465027,
+        "m_CustomReflection": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_AmbientProbe": {
+          "sh[ 0]": 0.0,
+          "sh[ 1]": 0.0,
+          "sh[ 2]": 0.0,
+          "sh[ 3]": 0.0,
+          "sh[ 4]": 0.0,
+          "sh[ 5]": 0.0,
+          "sh[ 6]": 0.0,
+          "sh[ 7]": 0.0,
+          "sh[ 8]": 0.0,
+          "sh[ 9]": 0.0,
+          "sh[10]": 0.0,
+          "sh[11]": 0.0,
+          "sh[12]": 0.0,
+          "sh[13]": 0.0,
+          "sh[14]": 0.0,
+          "sh[15]": 0.0,
+          "sh[16]": 0.0,
+          "sh[17]": 0.0,
+          "sh[18]": 0.0,
+          "sh[19]": 0.0,
+          "sh[20]": 0.0,
+          "sh[21]": 0.0,
+          "sh[22]": 0.0,
+          "sh[23]": 0.0,
+          "sh[24]": 0.0,
+          "sh[25]": 0.0,
+          "sh[26]": 0.0
+        },
+        "m_GeneratedSkyboxReflection": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Sun": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_IndirectSpecularColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "m_UseRadianceAmbientProbe": false
+      },
+      "transforms": []
+    },
+    {
+      "type": "Light",
+      "name": "Directional Light",
+      "pathId": 57,
+      "assetsFile": "level0",
+      "data": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 14
+        },
+        "m_Enabled": 1,
+        "m_Type": 1,
+        "m_Shape": 0,
+        "m_Color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "m_Intensity": 0.3799999952316284,
+        "m_Range": 10.0,
+        "m_SpotAngle": 30.0,
+        "m_InnerSpotAngle": 21.802080154418945,
+        "m_CookieSize": 10.0,
+        "m_Shadows": {
+          "m_Type": 1,
+          "m_Resolution": -1,
+          "m_CustomResolution": -1,
+          "m_Strength": 1.0,
+          "m_Bias": 0.05000000074505806,
+          "m_NormalBias": 0.4000000059604645,
+          "m_NearPlane": 0.20000000298023224,
+          "m_CullingMatrixOverride": {
+            "e00": 1.0,
+            "e01": 0.0,
+            "e02": 0.0,
+            "e03": 0.0,
+            "e10": 0.0,
+            "e11": 1.0,
+            "e12": 0.0,
+            "e13": 0.0,
+            "e20": 0.0,
+            "e21": 0.0,
+            "e22": 1.0,
+            "e23": 0.0,
+            "e30": 0.0,
+            "e31": 0.0,
+            "e32": 0.0,
+            "e33": 1.0
+          },
+          "m_UseCullingMatrixOverride": false
+        },
+        "m_Cookie": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_DrawHalo": false,
+        "m_BakingOutput": {
+          "probeOcclusionLightIndex": -1,
+          "occlusionMaskChannel": -1,
+          "lightmapBakeMode": {
+            "lightmapBakeType": 4,
+            "mixedLightingMode": 2
+          },
+          "isBaked": false
+        },
+        "m_Flare": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_RenderMode": 0,
+        "m_CullingMask": {
+          "m_Bits": 471
+        },
+        "m_RenderingLayerMask": 1,
+        "m_Lightmapping": 1,
+        "m_LightShadowCasterMode": 0,
+        "m_AreaSize": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_BounceIntensity": 1.0,
+        "m_ColorTemperature": 6570.0,
+        "m_UseColorTemperature": false,
+        "m_BoundingSphereOverride": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "m_UseBoundingSphereOverride": false,
+        "m_UseViewFrustumForShadowCasterCull": true
+      },
+      "transforms": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 14
+          },
+          "m_LocalRotation": {
+            "x": -0.07652297616004944,
+            "y": -0.8228871822357178,
+            "z": 0.5578038692474365,
+            "w": 0.07652299106121063
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 3.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 48
+          }
+        }
+      ]
+    }
+  ]
+}

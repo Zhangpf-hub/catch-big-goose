@@ -1,0 +1,9 @@
+{
+  "id": "ref_bffriedsteamedbun",
+  "sourceId": "BFFriedSteamedBun",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFFriedSteamedBun\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFFriedSteamedBun.prefab",
+  "bundle": "levelbreakfastobjprefab_assets_part1_3cdb7bf9e295314f501ccfc21ef41cbf.bundle",
+  "sourceSha256": "f977acbea97489a6bad24875dffef46c65b4ef629ec326bac70d382569c868db"
+}

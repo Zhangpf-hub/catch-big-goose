@@ -1,0 +1,610 @@
+{
+  "materials": [
+    {
+      "name": "ref_gtwatergame_m0",
+      "sourceName": "shuizhongtaoquan",
+      "sourceShader": "ToonLite1MulMatcap",
+      "referenceMaterial": true,
+      "texture": "ReferenceTextures/t_0e3d50b4cac51adb4224f6cf",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": false,
+      "opacity": 1,
+      "matcap": null,
+      "matcap1": "ReferenceTextures/t_fe62213d781d2df51db42941",
+      "matcap2": "ReferenceTextures/t_067f17b75a2beeab907a0087",
+      "mask": "ReferenceTextures/d_a783b0dace490ca6aec15245",
+      "matcapScale": 1.2300000190734863,
+      "matcapScale1": 1.2300000190734863,
+      "matcapScale2": 2.0,
+      "matcapColor": [
+        0.2770000100135803,
+        0.2770000100135803,
+        0.2770000100135803,
+        0.0
+      ],
+      "matcapColor1": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.2800000011920929,
+        0.0
+      ],
+      "matcapColor2": [
+        0.597000002861023,
+        0.597000002861023,
+        0.597000002861023,
+        0.0
+      ],
+      "lightColor": [
+        0.25600001215934753,
+        0.25600001215934753,
+        0.25600001215934753,
+        0.0
+      ],
+      "aoMap": null,
+      "aoScale": 0.0,
+      "sourceFloats": {
+        "_AOScale": 0.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 1.0,
+        "_BumpScale": 1.0,
+        "_CustomInvertLightDir": 0.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_FadeColorDirY": 0.0,
+        "_FadeColorOffset": 0.0,
+        "_FadeColorScale": 0.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightShadowMask": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsSingleColor1": 0.0,
+        "_IsSingleColor2": 0.0,
+        "_IsUseNormalMap": 0.0,
+        "_IsUseWorldMatcap": 1.0,
+        "_IsUseWorldMatcap1": 0.0,
+        "_IsUseWorldMatcap2": 0.0,
+        "_MatcapScale": 1.2300000190734863,
+        "_MatcapScale1": 1.2300000190734863,
+        "_MatcapScale2": 2.0,
+        "_MatcapSplitDraker": 0.0,
+        "_MatcapSplitLighter": 0.0,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.800000011920929,
+        "_MetcapShadowMask1": 0.800000011920929,
+        "_MetcapShadowMask2": 0.800000011920929,
+        "_Mode": 0.0,
+        "_NormalScale": 1.0,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_ReflectScale1": 1.0,
+        "_ReflectScale2": 1.0,
+        "_RimLightMul": -1.0,
+        "_RimOffset": 0.30000001192092896,
+        "_RimPower": 1.0,
+        "_RimShadowScale": 0.0,
+        "_RoughnessScale": 0.0,
+        "_RoughnessScale1": 0.0,
+        "_RoughnessScale2": 0.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground3": 0.0,
+        "_ground4": 0.0,
+        "_ground5": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0,
+        "_inverseLightOffset": 0.0,
+        "_inverseLightSmooth": 1.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomInverseDir": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_FadeColorB": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_FadeColorF": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IndirectColor": [
+          0.3479999899864197,
+          0.3479999899864197,
+          0.3479999899864197,
+          0.0
+        ],
+        "_LightColor": [
+          0.25600001215934753,
+          0.25600001215934753,
+          0.25600001215934753,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.2770000100135803,
+          0.2770000100135803,
+          0.2770000100135803,
+          0.0
+        ],
+        "_MatcapColor1": [
+          0.2800000011920929,
+          0.2800000011920929,
+          0.2800000011920929,
+          0.0
+        ],
+        "_MatcapColor2": [
+          0.597000002861023,
+          0.597000002861023,
+          0.597000002861023,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_ReflectOffset1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_ReflectOffset2": [
+          0.11999999731779099,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RimColor": [
+          0.5377358198165894,
+          0.5377358198165894,
+          0.5377358198165894,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_inverseColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    },
+    {
+      "name": "ref_gtwatergame_m1",
+      "sourceName": "shuizhongtaoquan_Inside",
+      "sourceShader": "ToonLite1",
+      "referenceMaterial": true,
+      "texture": "ReferenceTextures/t_fd23c8ba0642a7abb781e177",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": false,
+      "opacity": 1,
+      "matcap": "ReferenceTextures/t_cb2d8d4793bf7f08254440d9",
+      "matcap1": null,
+      "matcap2": null,
+      "mask": null,
+      "matcapScale": 0.6299999952316284,
+      "matcapScale1": 0,
+      "matcapScale2": 0,
+      "matcapColor": [
+        0.7099999785423279,
+        0.7099999785423279,
+        0.7099999785423279,
+        0.0
+      ],
+      "matcapColor1": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "matcapColor2": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        0.1850000023841858,
+        0.1850000023841858,
+        0.1850000023841858,
+        0.0
+      ],
+      "aoMap": null,
+      "aoScale": 0.0,
+      "sourceFloats": {
+        "_AOScale": 0.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 1.0,
+        "_BumpScale": 1.0,
+        "_CustomInvertLightDir": 0.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_FadeColorDirY": 0.0,
+        "_FadeColorOffset": 0.0,
+        "_FadeColorScale": 0.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightShadowMask": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsUseNormalMap": 0.0,
+        "_IsUseWorldMatcap": 0.0,
+        "_MatcapScale": 0.6299999952316284,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.800000011920929,
+        "_Mode": 0.0,
+        "_NormalScale": 1.0,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_RimLightMul": -1.0,
+        "_RimOffset": 0.17000000178813934,
+        "_RimPower": 1.0,
+        "_RimShadowScale": 0.0,
+        "_RoughnessScale": 0.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground3": 0.0,
+        "_ground4": 0.0,
+        "_ground5": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0,
+        "_inverseLightOffset": 0.8199999928474426,
+        "_inverseLightSmooth": 1.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomInverseDir": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_FadeColorB": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_FadeColorF": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IndirectColor": [
+          0.36900001764297485,
+          0.36900001764297485,
+          0.36900001764297485,
+          0.0
+        ],
+        "_LightColor": [
+          0.1850000023841858,
+          0.1850000023841858,
+          0.1850000023841858,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.7099999785423279,
+          0.7099999785423279,
+          0.7099999785423279,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RimColor": [
+          0.22739408910274506,
+          0.6603773832321167,
+          0.5291703343391418,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_inverseColor": [
+          0.3479999899864197,
+          0.3479999899864197,
+          0.3479999899864197,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    },
+    {
+      "name": "ref_gtwatergame_m2",
+      "sourceName": "shuizhongtaoquan_Glass",
+      "sourceShader": "ToonGlass",
+      "referenceMaterial": true,
+      "texture": "ReferenceTextures/t_fd23c8ba0642a7abb781e177",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": true,
+      "opacity": 0.09803921729326248,
+      "matcap": "ReferenceTextures/t_9893c287a412b4e61c9b6143",
+      "matcap1": null,
+      "matcap2": null,
+      "mask": null,
+      "matcapScale": 0.949999988079071,
+      "matcapScale1": 0,
+      "matcapScale2": 0,
+      "matcapColor": [
+        0.2770000100135803,
+        0.2770000100135803,
+        0.2770000100135803,
+        0.0
+      ],
+      "matcapColor1": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "matcapColor2": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        0.5,
+        0.5,
+        0.5,
+        0.0
+      ],
+      "aoMap": null,
+      "aoScale": 0.0,
+      "sourceFloats": {
+        "_AOScale": 0.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 1.0,
+        "_BumpScale": 1.0,
+        "_CustomInvertLightDir": 0.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_FadeColorDirY": 0.0,
+        "_FadeColorOffset": 0.0,
+        "_FadeColorScale": 0.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightShadowMask": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsUseNormalMap": 0.0,
+        "_IsUseWorldMatcap": 1.0,
+        "_MatcapAlphaScale": 1.0,
+        "_MatcapScale": 0.949999988079071,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.800000011920929,
+        "_Mode": 0.0,
+        "_NormalScale": 1.0,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_RimAlphaMul": 0.0,
+        "_RimColorMul": 1.0,
+        "_RimLightMul": -1.0,
+        "_RimOffset": 0.30000001192092896,
+        "_RimPower": 1.0,
+        "_RimShadowScale": 0.0,
+        "_RoughnessScale": 0.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground3": 0.0,
+        "_ground4": 0.0,
+        "_ground5": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0,
+        "_ground8": 0.0,
+        "_inverseLightOffset": 0.0,
+        "_inverseLightSmooth": 1.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          1.0,
+          1.0,
+          1.0,
+          0.09803921729326248
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_CustomInverseDir": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_FadeColorB": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_FadeColorF": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IndirectColor": [
+          0.3499999940395355,
+          0.3499999940395355,
+          0.3499999940395355,
+          0.0
+        ],
+        "_LightColor": [
+          0.5,
+          0.5,
+          0.5,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.2770000100135803,
+          0.2770000100135803,
+          0.2770000100135803,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RimColor": [
+          0.44999998807907104,
+          0.44999998807907104,
+          0.44999998807907104,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_inverseColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    }
+  ]
+}

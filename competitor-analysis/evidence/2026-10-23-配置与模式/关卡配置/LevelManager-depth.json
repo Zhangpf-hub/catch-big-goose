@@ -1,0 +1,25 @@
+{
+  "_rigidDepth": 0.5,
+  "_visibleMinHeight": 4.0,
+  "_visibleMaxHeight": 5.0,
+  "_minVisibleY": 21.0,
+  "_maxOnceTouchHeight": 0.5,
+  "_maxPhysicObjCount": 70,
+  "_maxCreateInterval": 0.029999999329447746,
+  "_frameMaxCreateCount": 3,
+  "_createGrowSpeed": 0.10000000149011612,
+  "_physicCreateTime": 3.5,
+  "_physicMaxCreateInterval": 0.03999999910593033,
+  "_physicFrameCreateCount": 3,
+  "_physicCreateGrowSpeed": 0.20000000298023224,
+  "_isUseRealPhysicSpace": 0,
+  "_physicOverlapSpeed": {
+    "x": 0.30000001192092896,
+    "y": 2.0
+  },
+  "_gravitySpeed": {
+    "x": -19.809999465942383,
+    "y": -50.0
+  },
+  "_layerMinDistance": 0.0
+}

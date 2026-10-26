@@ -1,0 +1,185 @@
+  (func $j43535 (type $t116) (param $p0 i32) (param $p1 i32) (param $p2 i32) (param $p3 i32) (param $p4 i32) (result f32)
+    (local $l5 f32) (local $l6 f32) (local $l7 f32) (local $l8 f32) (local $l9 f32) (local $l10 f32) (local $l11 f32) (local $l12 f32) (local $l13 f32) (local $l14 f32) (local $l15 f32) (local $l16 f32) (local $l17 f32) (local $l18 f32)
+    local.get $p2
+    f32.load
+    local.set $l10
+    local.get $p3
+    f32.load
+    local.get $l10
+    f32.sub
+    local.set $l5
+    local.get $p2
+    f32.load offset=4
+    local.set $l11
+    local.get $p3
+    f32.load offset=4
+    local.get $l11
+    f32.sub
+    local.set $l6
+    local.get $p2
+    f32.load offset=8
+    local.set $l12
+    local.get $p3
+    f32.load offset=8
+    local.get $l12
+    f32.sub
+    local.set $l7
+    local.get $p1
+    f32.load
+    local.set $l13
+    local.get $l13
+    local.get $l10
+    f32.sub
+    local.set $l9
+    local.get $p1
+    f32.load offset=4
+    local.set $l14
+    local.get $l14
+    local.get $l11
+    f32.sub
+    local.set $l16
+    local.get $p1
+    f32.load offset=8
+    local.set $l15
+    local.get $l15
+    local.get $l12
+    f32.sub
+    local.set $l17
+    i32.const 5140223
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3958628 ;; UnityEngine.Mathf_TypeInfo
+      call $j922
+      i32.const 5140223
+      i32.const 1
+      i32.store8
+    end
+    local.get $l5
+    local.get $l5
+    f32.mul
+    local.get $l6
+    local.get $l6
+    f32.mul
+    f32.add
+    local.get $l7
+    local.get $l7
+    f32.mul
+    f32.add
+    local.set $l8
+    block $B1
+      local.get $l8
+      i32.const 3958628 ;; UnityEngine.Mathf_TypeInfo
+      i32.load
+      i32.load offset=92
+      f32.load
+      f32.lt
+      if $I2
+        i32.const 5158080
+        i32.load8_u
+        i32.eqz
+        if $I3
+          i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+          call $j922
+          i32.const 5158080
+          i32.const 1
+          i32.store8
+        end
+        i32.const 3964984 ;; UnityEngine.Vector3_TypeInfo
+        i32.load
+        i32.load offset=92
+        local.set $p0
+        local.get $p0
+        f32.load offset=8
+        local.set $l5
+        local.get $p0
+        f32.load offset=4
+        local.set $l6
+        local.get $p0
+        f32.load
+        local.set $l9
+        br $B1
+      end
+      local.get $l5
+      local.set $l18
+      local.get $l9
+      local.get $l5
+      f32.mul
+      local.get $l16
+      local.get $l6
+      f32.mul
+      f32.add
+      local.get $l17
+      local.get $l7
+      f32.mul
+      f32.add
+      local.set $l5
+      local.get $l18
+      local.get $l5
+      f32.mul
+      local.get $l8
+      f32.div
+      local.set $l9
+      local.get $l6
+      local.get $l5
+      f32.mul
+      local.get $l8
+      f32.div
+      local.set $l6
+      local.get $l7
+      local.get $l5
+      f32.mul
+      local.get $l8
+      f32.div
+      local.set $l5
+    end
+    local.get $l10
+    local.get $l9
+    f32.add
+    local.set $l7
+    local.get $l11
+    local.get $l6
+    f32.add
+    local.set $l6
+    local.get $l12
+    local.get $l5
+    f32.add
+    local.set $l8
+    i32.const 5140222
+    i32.load8_u
+    i32.eqz
+    if $I4
+      i32.const 3958620 ;; System.Math_TypeInfo
+      call $j922
+      i32.const 5140222
+      i32.const 1
+      i32.store8
+    end
+    local.get $l13
+    local.get $l7
+    f32.sub
+    local.set $l5
+    local.get $l14
+    local.get $l6
+    f32.sub
+    local.set $l6
+    local.get $l15
+    local.get $l8
+    f32.sub
+    local.set $l7
+    i32.const 3958620 ;; System.Math_TypeInfo
+    i32.load
+    call $j923
+    local.get $l5
+    local.get $l5
+    f32.mul
+    local.get $l6
+    local.get $l6
+    f32.mul
+    f32.add
+    local.get $l7
+    local.get $l7
+    f32.mul
+    f32.add
+    f32.sqrt
+    return)

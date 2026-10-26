@@ -1,0 +1,14 @@
+  (func $j43548 (type $t5) (param $p0 i32) (param $p1 i32) (param $p2 i32) (result i32)
+    local.get $p0
+    local.get $p0
+    local.get $p1
+    local.get $p0
+    i32.load offset=96
+    local.get $p0
+    i32.load offset=48
+    local.get $p0
+    call $j22254
+    i32.store offset=48
+    local.get $p0
+    i32.load offset=48
+    return)

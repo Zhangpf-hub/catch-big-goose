@@ -1,0 +1,53 @@
+{
+  "id": "duck-yoyo",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTYoYo/Goose_GTYoYo.glb",
+  "sourceSha256": "4f9688f7def9b3d3a8b0295aae19b40586f4a161ae77ed0ea9f61c1fb46ef09b",
+  "originalWorldDimensions": [
+    1.424381971359253,
+    1.9148188829421997,
+    1.276909351348877
+  ],
+  "uniformScale": 0.5222426042004861,
+  "normalizedWorldDimensions": [
+    0.7438729405403137,
+    1.0,
+    0.6668564677238464
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

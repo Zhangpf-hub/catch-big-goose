@@ -1,0 +1,12 @@
+{
+  "id": "ref_spinningtop",
+  "triangles": 888,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.6538200378417969,
+    1.0,
+    0.8306646347045898
+  ],
+  "glbRoundtrip": true
+}

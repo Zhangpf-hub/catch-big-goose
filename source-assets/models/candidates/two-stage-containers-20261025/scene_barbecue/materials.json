@@ -1,0 +1,639 @@
+{
+  "materials": [
+    {
+      "name": "scene_barbecue_m0",
+      "sourceName": "BarbecueKaojiaoMa",
+      "sourceShader": "ToonLite2",
+      "referenceMaterial": true,
+      "texture": "ReferenceTextures/t_9f0960a367129c8cd55de7c2",
+      "color": [
+        0.6320754289627075,
+        0.6320754289627075,
+        0.6320754289627075,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": false,
+      "opacity": 1,
+      "matcap": "ReferenceTextures/t_4cb50ad25e548b0e46c9e50d",
+      "matcap1": null,
+      "matcap2": null,
+      "mask": null,
+      "matcapScale": 0.7200000286102295,
+      "matcapScale1": 0,
+      "matcapScale2": 0,
+      "matcapColor": [
+        0.23584908246994019,
+        0.23584908246994019,
+        0.23584908246994019,
+        0.0
+      ],
+      "matcapColor1": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "matcapColor2": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "aoMap": null,
+      "aoScale": 1.0,
+      "sourceFloats": {
+        "_AOScale": 1.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 0.009999999776482582,
+        "_BumpScale": 1.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightShadowMask": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsUseNormalMap": 0.0,
+        "_IsUseWorldMatcap": 0.0,
+        "_MatcapAlphaScale": 0.0,
+        "_MatcapScale": 0.7200000286102295,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.0,
+        "_Mode": 0.0,
+        "_NormalScale": 1.0,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_RimAlphaMul": 0.0,
+        "_RimColorMul": 1.0,
+        "_RimOffset": 0.6000000238418579,
+        "_RimPower": 0.4000000059604645,
+        "_RimShadowScale": 0.0,
+        "_RoughnessScale": 1.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0,
+        "_ground8": 0.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          0.6320754289627075,
+          0.6320754289627075,
+          0.6320754289627075,
+          0.003921568859368563
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IndirectColor": [
+          1.0,
+          0.17502465844154358,
+          0.0,
+          0.0
+        ],
+        "_LightColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.23584908246994019,
+          0.23584908246994019,
+          0.23584908246994019,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RimColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    },
+    {
+      "name": "scene_barbecue_m1",
+      "sourceName": "BarbecueFireMa",
+      "sourceShader": "ToonLite2Emissive",
+      "referenceMaterial": true,
+      "texture": "ReferenceTextures/t_64ce7cefc0b2b4f3841863af",
+      "color": [
+        0.5094339847564697,
+        0.5094339847564697,
+        0.5094339847564697,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": false,
+      "opacity": 1,
+      "matcap": "ReferenceTextures/t_4cb50ad25e548b0e46c9e50d",
+      "matcap1": null,
+      "matcap2": null,
+      "mask": null,
+      "matcapScale": 0.0,
+      "matcapScale1": 0,
+      "matcapScale2": 0,
+      "matcapColor": [
+        0.25471699237823486,
+        0.25471699237823486,
+        0.25471699237823486,
+        0.0
+      ],
+      "matcapColor1": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "matcapColor2": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "aoMap": "ReferenceTextures/d_d6a617f3127a477561c5bf2e",
+      "aoScale": 1.0,
+      "sourceFloats": {
+        "_AOScale": 1.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 0.009999999776482582,
+        "_BumpScale": 1.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_EmissiveFloatBase": 0.8999999761581421,
+        "_EmissiveFloatScale": 0.30000001192092896,
+        "_EmissiveFloatSpeed": 3.5,
+        "_EmissiveScale": 2.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsUseNormalMap": 0.0,
+        "_IsUseWorldMatcap": 1.0,
+        "_MatcapAlphaScale": 0.0,
+        "_MatcapScale": 0.0,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.0,
+        "_Mode": 0.0,
+        "_NormalScale": 1.0,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_RimAlphaMul": 0.0,
+        "_RimColorMul": 1.0,
+        "_RimOffset": 0.6000000238418579,
+        "_RimPower": 0.4000000059604645,
+        "_RimShadowScale": 0.0,
+        "_RoughnessScale": 1.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0,
+        "_ground8": 0.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          0.5094339847564697,
+          0.5094339847564697,
+          0.5094339847564697,
+          0.003921568859368563
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IndirectColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_LightColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.25471699237823486,
+          0.25471699237823486,
+          0.25471699237823486,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.27000001072883606,
+          0.0,
+          0.0
+        ],
+        "_RimColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    },
+    {
+      "name": "scene_barbecue_m2",
+      "sourceName": "BarbecueNetMa",
+      "sourceShader": "ToonLite2",
+      "referenceMaterial": true,
+      "texture": "ReferenceTextures/t_6033f2905b0e69f5a7e94024",
+      "color": [
+        0.33018869161605835,
+        0.33018869161605835,
+        0.33018869161605835,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": false,
+      "opacity": 1,
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcap1": null,
+      "matcap2": null,
+      "mask": null,
+      "matcapScale": 1.059999942779541,
+      "matcapScale1": 0,
+      "matcapScale2": 0,
+      "matcapColor": [
+        0.3207547068595886,
+        0.3207547068595886,
+        0.3207547068595886,
+        0.0
+      ],
+      "matcapColor1": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "matcapColor2": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "aoMap": null,
+      "aoScale": 1.0,
+      "sourceFloats": {
+        "_AOScale": 1.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 0.009999999776482582,
+        "_BumpScale": 1.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightShadowMask": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsUseNormalMap": 0.0,
+        "_IsUseWorldMatcap": 0.0,
+        "_MatcapAlphaScale": 0.0,
+        "_MatcapScale": 1.059999942779541,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.0,
+        "_Mode": 0.0,
+        "_NormalScale": 1.0,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_RimAlphaMul": 0.0,
+        "_RimColorMul": 1.0,
+        "_RimOffset": 0.6000000238418579,
+        "_RimPower": 0.4000000059604645,
+        "_RimShadowScale": 0.0,
+        "_RoughnessScale": 0.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0,
+        "_ground8": 0.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          0.33018869161605835,
+          0.33018869161605835,
+          0.33018869161605835,
+          0.003921568859368563
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.018867909908294678,
+          0.018867909908294678,
+          0.018867909908294678,
+          0.0
+        ],
+        "_IndirectColor": [
+          0.009433984756469727,
+          0.009433984756469727,
+          0.009433984756469727,
+          0.0
+        ],
+        "_LightColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.3207547068595886,
+          0.3207547068595886,
+          0.3207547068595886,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RimColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    },
+    {
+      "name": "scene_barbecue_m3",
+      "sourceName": "BarbecueIronTableMa",
+      "sourceShader": "ToonLite2",
+      "referenceMaterial": true,
+      "texture": null,
+      "color": [
+        0.43396228551864624,
+        0.43396228551864624,
+        0.43396228551864624,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": false,
+      "opacity": 1,
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcap1": null,
+      "matcap2": null,
+      "mask": null,
+      "matcapScale": 0.6299999952316284,
+      "matcapScale1": 0,
+      "matcapScale2": 0,
+      "matcapColor": [
+        0.23584908246994019,
+        0.23584908246994019,
+        0.23584908246994019,
+        0.0
+      ],
+      "matcapColor1": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "matcapColor2": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "aoMap": null,
+      "aoScale": 1.0,
+      "sourceFloats": {
+        "_AOScale": 1.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 0.009999999776482582,
+        "_BumpScale": 1.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightShadowMask": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsUseNormalMap": 0.0,
+        "_IsUseWorldMatcap": 1.0,
+        "_MatcapAlphaScale": 0.0,
+        "_MatcapScale": 0.6299999952316284,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.33000001311302185,
+        "_Mode": 0.0,
+        "_NormalScale": 1.0,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_RimAlphaMul": 0.0,
+        "_RimColorMul": 1.0,
+        "_RimOffset": 0.6000000238418579,
+        "_RimPower": 0.4000000059604645,
+        "_RimShadowScale": 0.0,
+        "_RoughnessScale": 0.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0,
+        "_ground8": 0.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          0.43396228551864624,
+          0.43396228551864624,
+          0.43396228551864624,
+          0.003921568859368563
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IndirectColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_LightColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.23584908246994019,
+          0.23584908246994019,
+          0.23584908246994019,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RimColor": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    }
+  ]
+}

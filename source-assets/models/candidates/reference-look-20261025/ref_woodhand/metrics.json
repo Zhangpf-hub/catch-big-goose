@@ -1,0 +1,12 @@
+{
+  "id": "ref_woodhand",
+  "triangles": 1156,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.2435041218996048,
+    1.0,
+    0.1224348172545433
+  ],
+  "glbRoundtrip": true
+}

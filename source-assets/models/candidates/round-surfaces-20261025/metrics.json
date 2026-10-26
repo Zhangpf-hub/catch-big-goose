@@ -1,0 +1,37 @@
+[
+  {
+    "id": "round_breakfast_r4",
+    "triangles": 7296,
+    "materials": 2,
+    "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_breakfast/source.json",
+    "unchangedVertices": true
+  },
+  {
+    "id": "round_barbecue_r4",
+    "triangles": 5568,
+    "materials": 2,
+    "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_barbecue/source.json",
+    "unchangedVertices": true
+  },
+  {
+    "id": "round_countryside_r4",
+    "triangles": 7296,
+    "materials": 2,
+    "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_countryside/source.json",
+    "unchangedVertices": true
+  },
+  {
+    "id": "round_toys_r4",
+    "triangles": 3264,
+    "materials": 2,
+    "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_toys/source.json",
+    "unchangedVertices": true
+  },
+  {
+    "id": "round_grocery_r4",
+    "triangles": 7296,
+    "materials": 2,
+    "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_grocery/source.json",
+    "unchangedVertices": true
+  }
+]

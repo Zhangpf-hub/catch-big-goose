@@ -1,0 +1,143 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "7add8f6f-de28-465e-81cd-be15fc5b4890",
+  "files": [],
+  "subMetas": {
+    "f7a80": {
+      "importer": "gltf-mesh",
+      "uuid": "7add8f6f-de28-465e-81cd-be15fc5b4890@f7a80",
+      "displayName": "",
+      "id": "f7a80",
+      "name": "headphones.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1684
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1b3dc": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7add8f6f-de28-465e-81cd-be15fc5b4890@1b3dc",
+      "displayName": "",
+      "id": "1b3dc",
+      "name": "headphones_palette.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "7add8f6f-de28-465e-81cd-be15fc5b4890@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7add8f6f-de28-465e-81cd-be15fc5b4890@1b3dc"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0da80": {
+      "importer": "gltf-material",
+      "uuid": "7add8f6f-de28-465e-81cd-be15fc5b4890@0da80",
+      "displayName": "",
+      "id": "0da80",
+      "name": "headphones_material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3480d": {
+      "importer": "gltf-scene",
+      "uuid": "7add8f6f-de28-465e-81cd-be15fc5b4890@3480d",
+      "displayName": "",
+      "id": "3480d",
+      "name": "headphones.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "headphones_palette",
+        "uri": "7add8f6f-de28-465e-81cd-be15fc5b4890@1b3dc"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7add8f6f-de28-465e-81cd-be15fc5b4890@f7a80"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7add8f6f-de28-465e-81cd-be15fc5b4890@e39f7"
+      ],
+      "materials": [
+        "7add8f6f-de28-465e-81cd-be15fc5b4890@0da80"
+      ],
+      "scenes": [
+        "7add8f6f-de28-465e-81cd-be15fc5b4890@3480d"
+      ]
+    }
+  }
+}

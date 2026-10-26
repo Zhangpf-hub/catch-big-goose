@@ -1,0 +1,77 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0014985935995355248,
+        0.0014968684408813715
+      ],
+      "uvMax": [
+        0.9980869889259338,
+        0.9320422410964966
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        0.018867909908294678,
+        0.018867909908294678,
+        0.018867909908294678,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0014982145512476563,
+        0.019502170383930206
+      ],
+      "uvMax": [
+        0.9982030987739563,
+        0.8836026787757874
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WindOilBottle\\tex_5711493289114707789.png",
+      "uvMin": [
+        0.020229071378707886,
+        0.02988681197166443
+      ],
+      "uvMax": [
+        0.6566247940063477,
+        0.9701131582260132
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0014985935995355248,
+        0.0014968684408813715
+      ],
+      "uvMax": [
+        0.9966844320297241,
+        0.9320422410964966
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_windoilbottle\\albedo.png"
+}

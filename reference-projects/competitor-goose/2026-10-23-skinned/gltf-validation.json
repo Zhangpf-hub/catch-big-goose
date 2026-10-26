@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "Goose_Pancake",
+      "bytes": 285276,
+      "sha256": "180452c75eded39c92f253a8f60e81cee1ddb24c60636a1a0df5b49d9c4bf784",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "Goose_GTCapsulePen",
+      "bytes": 103828,
+      "sha256": "ed64668c4f33c437fc358f512a17d3655dca42a64f0e06f00e8a91f207f7be6c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "Goose_GTCraftPunch",
+      "bytes": 87676,
+      "sha256": "74533d02e907897a2caaf529ff0413ba75ac84b1e43e1b07136c0bc22b989be0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "Goose_GTNumberBlock",
+      "bytes": 191040,
+      "sha256": "4eb85834047cbe09ca106d2788cdc7a3136670ddd380c6c2de97c5f1959608fd",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "Goose_GTYoYo",
+      "bytes": 134180,
+      "sha256": "4f9688f7def9b3d3a8b0295aae19b40586f4a161ae77ed0ea9f61c1fb46ef09b",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ]
+}

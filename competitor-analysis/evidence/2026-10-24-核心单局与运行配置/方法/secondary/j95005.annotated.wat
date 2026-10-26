@@ -1,0 +1,25 @@
+  (func $j95005 (type $t2) (param $p0 i32) (param $p1 i32) (result i32)
+    i32.const 5140138
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3969264 ;; LevelManager.<WindObj>d__284_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5140138
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3969264 ;; LevelManager.<WindObj>d__284_TypeInfo
+    i32.load
+    i32.const 137618
+    call_indirect $primary.table (type $t1)
+    local.set $p1
+    local.get $p1
+    i32.const 0
+    i32.store offset=8
+    local.get $p1
+    local.get $p0
+    i32.store offset=16
+    local.get $p1
+    return)

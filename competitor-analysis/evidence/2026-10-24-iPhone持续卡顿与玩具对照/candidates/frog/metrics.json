@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "frog",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\frog\\frog.fbx",
+  "sourceTriangles": 8128,
+  "triangles": 3000,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8836949467658997,
+    0.6723647117614746,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.8742377161979675,
+    0.6647515892982483,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

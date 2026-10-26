@@ -1,0 +1,96 @@
+{
+  "build": "20261024-R1",
+  "passed": true,
+  "phone": "iPhone 15 Pro",
+  "iPhoneAcceptancePassed": null,
+  "scope": "Native forced-mobile structural/functional acceptance and local WeChat export. No connected phone measurement.",
+  "editTests": 21,
+  "algorithmChecks": 132,
+  "interactionChecks": 60,
+  "ownRounds": 15,
+  "referenceRounds": 2,
+  "structuralRows": 10,
+  "candidateModels": 60,
+  "fourViewModels": 60,
+  "devtoolsAutoOpenPassed": false,
+  "devtoolsError": "TypeError: d.on is not a function (code 10)",
+  "newPreviewQrGenerated": false,
+  "wechatRawBytes": 30596111,
+  "wechatRawMiB": 29.18,
+  "javascriptFiles": 61,
+  "currentGameJs": [
+    "DATA_FILE_MD5: '6d52f19bb9459fcd',",
+    "CODE_FILE_MD5: 'bad188acaf1fe53e',"
+  ],
+  "baseline": [
+    {
+      "theme": "fruit",
+      "count": 300,
+      "triangles": 458916,
+      "drawSlots": 624
+    },
+    {
+      "theme": "antique",
+      "count": 300,
+      "triangles": 639384,
+      "drawSlots": 942
+    },
+    {
+      "theme": "farm",
+      "count": 300,
+      "triangles": 835542,
+      "drawSlots": 1002
+    },
+    {
+      "theme": "dessert",
+      "count": 300,
+      "triangles": 472602,
+      "drawSlots": 588
+    },
+    {
+      "theme": "electronics",
+      "count": 300,
+      "triangles": 483924,
+      "drawSlots": 300
+    }
+  ],
+  "delivery": [
+    {
+      "theme": "fruit",
+      "count": 300,
+      "triangles": 458916,
+      "drawSlots": 300
+    },
+    {
+      "theme": "antique",
+      "count": 300,
+      "triangles": 530190,
+      "drawSlots": 300
+    },
+    {
+      "theme": "farm",
+      "count": 300,
+      "triangles": 553800,
+      "drawSlots": 300
+    },
+    {
+      "theme": "dessert",
+      "count": 300,
+      "triangles": 460338,
+      "drawSlots": 300
+    },
+    {
+      "theme": "electronics",
+      "count": 300,
+      "triangles": 483924,
+      "drawSlots": 300
+    }
+  ],
+  "rejected": [
+    "optimized-render-1",
+    "final-render",
+    "final-sources"
+  ],
+  "currentArtifacts": "delivery-* only",
+  "nativePlayerSha256": "76a4560e40ec43334f5300f52d45e74f55579709d5ea01eb838f24c7ac9e568b"
+}

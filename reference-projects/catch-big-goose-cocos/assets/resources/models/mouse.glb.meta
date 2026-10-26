@@ -1,0 +1,143 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6",
+  "files": [],
+  "subMetas": {
+    "f9b41": {
+      "importer": "gltf-mesh",
+      "uuid": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@f9b41",
+      "displayName": "",
+      "id": "f9b41",
+      "name": "mouse.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1256
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97a3b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@97a3b",
+      "displayName": "",
+      "id": "97a3b",
+      "name": "mouse_palette.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@97a3b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "76a3c": {
+      "importer": "gltf-material",
+      "uuid": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@76a3c",
+      "displayName": "",
+      "id": "76a3c",
+      "name": "mouse_material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8a10": {
+      "importer": "gltf-scene",
+      "uuid": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@c8a10",
+      "displayName": "",
+      "id": "c8a10",
+      "name": "mouse.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "mouse_palette",
+        "uri": "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@97a3b"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@f9b41"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@e39f7"
+      ],
+      "materials": [
+        "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@76a3c"
+      ],
+      "scenes": [
+        "a5e8abc1-40ae-4b00-a075-70d252f0fdd6@c8a10"
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+  (func $j43539 (type $t0) (param $p0 i32) (param $p1 i32)
+    i32.const 5140093
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951300
+      call $j922
+      i32.const 3953096
+      call $j922
+      i32.const 3958052
+      call $j922
+      i32.const 3958464
+      call $j922
+      i32.const 4071588
+      call $j922
+      i32.const 5140093
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3958052
+    i32.load
+    call $j923
+    block $B1
+      i32.const 3958052
+      i32.load
+      i32.load offset=92
+      i32.load offset=12
+      br_if $B1
+      i32.const 3958052
+      i32.load
+      call $j923
+      i32.const 3958052
+      i32.load
+      i32.load offset=92
+      i32.load offset=28
+      i32.const 2
+      i32.ne
+      br_if $B1
+      i32.const 3958464
+      i32.load
+      call $j923
+      i32.const 5140203
+      i32.load8_u
+      i32.eqz
+      if $I2
+        i32.const 3958464
+        call $j922
+        i32.const 5140203
+        i32.const 1
+        i32.store8
+      end
+      i32.const 3958464
+      i32.load
+      call $j923
+      i32.const 3958464
+      i32.load
+      i32.load offset=92
+      i32.load offset=4
+      i32.const 1
+      i32.ne
+      br_if $B1
+      i32.const 3951300
+      i32.load
+      call $j923
+      i32.const 4071588
+      i32.load
+      i32.const 0
+      i32.const 0
+      call $j50926
+      local.set $p1
+      i32.const 3953096
+      i32.load
+      call $j923
+      local.get $p0
+      local.get $p1
+      i32.const 0
+      call $j48176
+      i32.store offset=448
+      return
+    end
+    local.get $p0
+    i32.const 0
+    i32.store offset=448)

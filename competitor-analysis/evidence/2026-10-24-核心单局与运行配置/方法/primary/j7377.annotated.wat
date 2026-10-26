@@ -1,0 +1,83 @@
+  (func $j7377 (type $t37) (param $p0 i32) (param $p1 i32) (param $p2 f32) (param $p3 i32) (result i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $p3
+    local.get $p3
+    global.set $primary.global$0
+    i32.const 5140107
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+      call $j922
+      i32.const 5140107
+      i32.const 1
+      i32.store8
+    end
+    local.get $p1
+    i32.load offset=16
+    i32.load offset=12
+    i32.const 1
+    i32.sub
+    local.set $p0
+    block $B1
+      loop $L2
+        local.get $p0
+        i32.const -1
+        i32.gt_s
+        if $I3
+          local.get $p3
+          local.get $p1
+          i32.load offset=16
+          local.get $p0
+          i32.const 2
+          i32.shl
+          i32.add
+          i32.load offset=16
+          i32.const 0
+          call $j1062 ;; UnityEngine.Transform$$get_position
+          local.get $p2
+          local.get $p3
+          f32.load offset=4
+          f32.ge
+          if $I4
+            local.get $p1
+            i32.load offset=16
+            local.get $p0
+            i32.const 2
+            i32.shl
+            i32.add
+            i32.load offset=16
+            local.set $p0
+            br $B1
+          end
+          local.get $p0
+          i32.const 1
+          i32.sub
+          local.set $p0
+          br $L2
+        end
+      end
+      i32.const 0
+      local.set $p0
+    end
+    i32.const 3959504 ;; UnityEngine.Object_TypeInfo
+    i32.load
+    call $j923
+    local.get $p0
+    i32.const 0
+    i32.const 0
+    call $j980 ;; UnityEngine.Object$$op_Equality
+    if $I5
+      local.get $p1
+      i32.load offset=16
+      i32.load offset=16
+      local.set $p0
+    end
+    local.get $p3
+    i32.const 16
+    i32.add
+    global.set $primary.global$0
+    local.get $p0
+    return)

@@ -1,0 +1,35 @@
+{
+  "purpose": "Local explicitly requested competitor-model experiment, separate from five original themes. Equal group stock is own control setup.",
+  "theme": {
+    "id": "reference_toys",
+    "name": "玩具对照",
+    "items": [
+      "ref_gtcrocodile",
+      "ref_gtdinosaur",
+      "ref_gtdrawingboard",
+      "ref_gtfruiteraser",
+      "ref_gtgoosestamp",
+      "ref_gtkaleidoscope",
+      "ref_gtlaserpen",
+      "ref_gtmagiccubel",
+      "ref_gtpaperboat",
+      "ref_gtpaperfortune",
+      "ref_gtpaperstar",
+      "ref_gtpapertree",
+      "ref_gtplanepen",
+      "ref_gtplasterdeer",
+      "ref_gtplaydough",
+      "ref_gtracecar",
+      "ref_gtringcandy",
+      "ref_gtsandbag",
+      "ref_gtsmiledoll",
+      "ref_gtstickerbook",
+      "ref_gtwatergame"
+    ],
+    "background": "mobile-ui/themes/toys-v1",
+    "container": "round_toys_r4",
+    "circular": true,
+    "halfX": 1.72,
+    "halfZ": 1.72
+  }
+}

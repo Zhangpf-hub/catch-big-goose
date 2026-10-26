@@ -1,0 +1,23 @@
+{
+  "id": "duck-tomato",
+  "triangles": 3108,
+  "dimensions": [
+    0.7700193524360657,
+    0.7349322438240051,
+    1.0
+  ],
+  "sourceCenter": [
+    5.960464477539063e-08,
+    0.024143695831298828,
+    0.3962342441082001
+  ],
+  "sourceExtent": 0.7795904278755188,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 73996,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

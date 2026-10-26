@@ -1,0 +1,144 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "514bfbff-858e-4ec7-9769-8dfabf6a86a9",
+  "files": [],
+  "subMetas": {
+    "71240": {
+      "importer": "gltf-material",
+      "uuid": "514bfbff-858e-4ec7-9769-8dfabf6a86a9@71240",
+      "displayName": "",
+      "id": "71240",
+      "name": "pudding_cream.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe6ae": {
+      "importer": "gltf-mesh",
+      "uuid": "514bfbff-858e-4ec7-9769-8dfabf6a86a9@fe6ae",
+      "displayName": "",
+      "id": "fe6ae",
+      "name": "Cone.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1780
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ddb4d": {
+      "importer": "gltf-material",
+      "uuid": "514bfbff-858e-4ec7-9769-8dfabf6a86a9@ddb4d",
+      "displayName": "",
+      "id": "ddb4d",
+      "name": "pudding_custard.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "56bb2": {
+      "importer": "gltf-material",
+      "uuid": "514bfbff-858e-4ec7-9769-8dfabf6a86a9@56bb2",
+      "displayName": "",
+      "id": "56bb2",
+      "name": "pudding_caramel.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "29cd4": {
+      "importer": "gltf-material",
+      "uuid": "514bfbff-858e-4ec7-9769-8dfabf6a86a9@29cd4",
+      "displayName": "",
+      "id": "29cd4",
+      "name": "pudding_cherry.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cae7e": {
+      "importer": "gltf-scene",
+      "uuid": "514bfbff-858e-4ec7-9769-8dfabf6a86a9@cae7e",
+      "displayName": "",
+      "id": "cae7e",
+      "name": "pudding.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "514bfbff-858e-4ec7-9769-8dfabf6a86a9@fe6ae"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "514bfbff-858e-4ec7-9769-8dfabf6a86a9@ddb4d",
+        "514bfbff-858e-4ec7-9769-8dfabf6a86a9@56bb2",
+        "514bfbff-858e-4ec7-9769-8dfabf6a86a9@71240",
+        "514bfbff-858e-4ec7-9769-8dfabf6a86a9@29cd4"
+      ],
+      "scenes": [
+        "514bfbff-858e-4ec7-9769-8dfabf6a86a9@cae7e"
+      ]
+    }
+  }
+}

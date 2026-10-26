@@ -1,0 +1,239 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec",
+  "files": [],
+  "subMetas": {
+    "43079": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@43079",
+      "displayName": "",
+      "id": "43079",
+      "name": "cartoon+goose+3d+model_normal.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "349e2": {
+      "importer": "gltf-mesh",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@349e2",
+      "displayName": "",
+      "id": "349e2",
+      "name": "meshes[0].mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2500
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f3a88": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@f3a88",
+      "displayName": "",
+      "id": "f3a88",
+      "name": "cartoon+goose+3d+model_basecolor.image",
+      "userData": {
+        "gltfIndex": 1,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05af3": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@05af3",
+      "displayName": "",
+      "id": "05af3",
+      "name": "cartoon+goose+3d+model_rm.image",
+      "userData": {
+        "gltfIndex": 2,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7c43be91-cccc-4976-b9ee-4422807168ec@f3a88"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7c43be91-cccc-4976-b9ee-4422807168ec@43079"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7c43be91-cccc-4976-b9ee-4422807168ec@05af3"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f662f": {
+      "importer": "gltf-material",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@f662f",
+      "displayName": "",
+      "id": "f662f",
+      "name": "tripo_material_e27a1be1-9eee-418a-a12b-e56bab0eb1f5.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438ee": {
+      "importer": "gltf-scene",
+      "uuid": "7c43be91-cccc-4976-b9ee-4422807168ec@438ee",
+      "displayName": "",
+      "id": "438ee",
+      "name": "goose.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "cartoon+goose+3d+model_normal",
+        "uri": "7c43be91-cccc-4976-b9ee-4422807168ec@43079"
+      },
+      {
+        "name": "cartoon+goose+3d+model_basecolor",
+        "uri": "7c43be91-cccc-4976-b9ee-4422807168ec@f3a88"
+      },
+      {
+        "name": "cartoon+goose+3d+model_rm",
+        "uri": "7c43be91-cccc-4976-b9ee-4422807168ec@05af3"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7c43be91-cccc-4976-b9ee-4422807168ec@349e2"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7c43be91-cccc-4976-b9ee-4422807168ec@3effa",
+        "7c43be91-cccc-4976-b9ee-4422807168ec@221a5",
+        "7c43be91-cccc-4976-b9ee-4422807168ec@0089c"
+      ],
+      "materials": [
+        "7c43be91-cccc-4976-b9ee-4422807168ec@f662f"
+      ],
+      "scenes": [
+        "7c43be91-cccc-4976-b9ee-4422807168ec@438ee"
+      ]
+    }
+  }
+}

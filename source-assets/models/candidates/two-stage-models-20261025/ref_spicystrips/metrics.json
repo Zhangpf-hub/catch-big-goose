@@ -1,0 +1,12 @@
+{
+  "id": "ref_spicystrips",
+  "triangles": 1200,
+  "parts": 4,
+  "materials": 4,
+  "dimensions": [
+    0.776190459728241,
+    1.0,
+    0.18975462019443512
+  ],
+  "glbRoundtrip": true
+}

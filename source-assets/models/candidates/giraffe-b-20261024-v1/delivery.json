@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-24",
+  "choice": "Giraffe; recommended B proportions adopted",
+  "model": {
+    "id": "giraffe",
+    "triangles": 5000,
+    "materials": 1,
+    "texture": [
+      512,
+      512
+    ],
+    "dimensions": [
+      0.3102388381958008,
+      0.48581910133361816,
+      1.0
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sourceCenter": [
+      -2.980232238769531E-08,
+      0.03100001811981201,
+      1.5164999961853027
+    ],
+    "sourceExtent": 2.997000217437744,
+    "glbBytes": 247376,
+    "basis": "Original B proportions; current Unity pipeline; 512 texture preserves painted patches"
+  },
+  "unityImport": {
+    "passed": true,
+    "animationVertexDeformationVerified": true,
+    "materials": 1,
+    "triangles": 5000,
+    "physicsSupportPoints": 58,
+    "clips": [
+      "GiraffeRig|Peek",
+      "GiraffeRig|Bounce",
+      "GiraffeRig|Idle"
+    ]
+  },
+  "runtimeChecks": 15,
+  "runtimePassed": true,
+  "naturalSleepBodies": 45,
+  "mobileProfile": "Windows player using mobile material and physics settings",
+  "realPhoneVerified": false,
+  "defaultThemeReplaced": false,
+  "defaultHomeReplaced": false,
+  "hashes": [
+    {
+      "file": "model/giraffe.glb",
+      "sha256": "2852932D55B251B54D74A6CFCB01B8EC5BBFA16B59797EF3152431B1D1F8E238"
+    },
+    {
+      "file": "model/giraffe.fbx",
+      "sha256": "CB119EBC6E1AD55E77E779397C6ABD4260226187B644315FAE035BF0EA538C25"
+    },
+    {
+      "file": "model/giraffe-home.fbx",
+      "sha256": "37CB9A1380BDA55DFA2FB32AEC3AC0FFA420306902E29AA391187866FA68B3E7"
+    },
+    {
+      "file": "model/albedo.png",
+      "sha256": "317AA50BF7FB7B918AE40AE91653CAFDB37F9630AE7DB82F3CF8DD3F1A27D8CC"
+    },
+    {
+      "file": "source/giraffe-animated.blend",
+      "sha256": "3E289FB94F28C9F1C373DB373A67609A2E1A62B45D173E391A1A0C36F90B6C34"
+    },
+    {
+      "file": "source/giraffe-authored.blend",
+      "sha256": "4945CA8F16BC1CD5D585871143D9E2D1468F626FDECAC49703E22851E0BBD1BF"
+    }
+  ]
+}

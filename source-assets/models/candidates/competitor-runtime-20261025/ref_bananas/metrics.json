@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bananas",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Bananas\\Bananas.blend",
+  "sourceTriangles": 1105,
+  "triangles": 1105,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.3022594451904297,
+    1.7562105655670166,
+    1.7531077861785889
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.7628204226493835,
+    0.761472761631012
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

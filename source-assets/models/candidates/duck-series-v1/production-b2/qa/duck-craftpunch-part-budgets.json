@@ -1,0 +1,79 @@
+{
+  "anatomyTriangles": 2272,
+  "propRatio": 1,
+  "headNeckReduced": false,
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1678
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Blue craft punch base",
+      "triangles": 188
+    },
+    {
+      "name": "Pink press lever",
+      "triangles": 188
+    },
+    {
+      "name": "Hinge support",
+      "triangles": 188
+    },
+    {
+      "name": "Hinge support.001",
+      "triangles": 188
+    },
+    {
+      "name": "Actual punch shaft",
+      "triangles": 76
+    },
+    {
+      "name": "White flower center",
+      "triangles": 72
+    },
+    {
+      "name": "Flower punch mark",
+      "triangles": 60
+    },
+    {
+      "name": "Flower punch mark.001",
+      "triangles": 60
+    },
+    {
+      "name": "Flower punch mark.002",
+      "triangles": 60
+    },
+    {
+      "name": "Flower punch mark.003",
+      "triangles": 60
+    },
+    {
+      "name": "Flower punch mark.004",
+      "triangles": 60
+    }
+  ]
+}

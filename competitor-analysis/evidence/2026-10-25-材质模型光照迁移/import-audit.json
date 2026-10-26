@@ -1,0 +1,1254 @@
+{
+    "passed": true,
+    "rows": [
+        {
+            "id": "ref_apple",
+            "material": "ref_apple_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 510,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_4e3386d2c8849c70274265b0.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_b79fa259af10576a13d2e331.png"
+            ]
+        },
+        {
+            "id": "ref_bananas",
+            "material": "ref_bananas_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1105,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_2094055e735cc165ad1fbaef.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_bbqhotdog",
+            "material": "ref_bbqhotdog_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 832,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_0c8145ffeabf949672840333.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_bbqmushroom",
+            "material": "ref_bbqmushroom_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 660,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_7e6f40e02cafb8503171e2c1.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bbqmushroom",
+            "material": "ref_bbqmushroom_m1",
+            "sourceShader": "ToonLite2",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 660,
+            "textures": []
+        },
+        {
+            "id": "ref_bbqpotato",
+            "material": "ref_bbqpotato_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1382,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_d2b70eef430f9a7c443c6a65.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bbqsausage",
+            "material": "ref_bbqsausage_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 490,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_37494a47af50cdc67d4c7765.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bbqskewers1",
+            "material": "ref_bbqskewers1_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 904,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_a786a071014d900c9b22a46d.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bbqskewers2",
+            "material": "ref_bbqskewers2_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 760,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_a786a071014d900c9b22a46d.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bbqtoast",
+            "material": "ref_bbqtoast_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 220,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_4c39593fba57787ef2ab4160.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_bfcornjuice",
+            "material": "ref_bfcornjuice_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 904,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_bfcornjuice",
+            "material": "ref_bfcornjuice_m1",
+            "sourceShader": "ToonGlassCus",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 2,
+            "triangles": 904,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_d54e3599bb3ab914508e16b6.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bfegghalf",
+            "material": "ref_bfegghalf_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 398,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_e6d15f0702b24eb48c1599e1.png",
+                "Assets/Resources/ReferenceTextures/t_d4aa03ffa12d21234a01f060.png"
+            ]
+        },
+        {
+            "id": "ref_bffagao",
+            "material": "ref_bffagao_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 578,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_22a09a62dab9f8b3fd4e2b46.png",
+                "Assets/Resources/ReferenceTextures/t_d4aa03ffa12d21234a01f060.png"
+            ]
+        },
+        {
+            "id": "ref_bfflowerroll",
+            "material": "ref_bfflowerroll_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 690,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_31b7a6fa2c72ad68bbb50f2a.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_bffrieddoughstick",
+            "material": "ref_bffrieddoughstick_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 576,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f6c6cf6eecf624d495426238.png",
+                "Assets/Resources/ReferenceTextures/t_934fde33d120e0743b159638.png"
+            ]
+        },
+        {
+            "id": "ref_bffriedsteamedbun",
+            "material": "ref_bffriedsteamedbun_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 444,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_a8ea0b73c5b27db5e7de165f.png",
+                "Assets/Resources/ReferenceTextures/t_d4aa03ffa12d21234a01f060.png"
+            ]
+        },
+        {
+            "id": "ref_bfpumpkinpie",
+            "material": "ref_bfpumpkinpie_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 528,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_d4aa03ffa12d21234a01f060.png"
+            ]
+        },
+        {
+            "id": "ref_bfsesameball",
+            "material": "ref_bfsesameball_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 528,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_799e2f5195e570ebf1539da9.png",
+                "Assets/Resources/ReferenceTextures/t_934fde33d120e0743b159638.png"
+            ]
+        },
+        {
+            "id": "ref_bfshaomai",
+            "material": "ref_bfshaomai_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1544,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_869a00d947c12d81cb1660a5.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_bfshrimpshaomai",
+            "material": "ref_bfshrimpshaomai_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 984,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_8d4165a0b1d82fc64ebedf19.png",
+                "Assets/Resources/ReferenceTextures/t_d4aa03ffa12d21234a01f060.png"
+            ]
+        },
+        {
+            "id": "ref_bfsoupdumpling",
+            "material": "ref_bfsoupdumpling_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1104,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_3fed0ae9530e121fd88f71e4.png",
+                "Assets/Resources/ReferenceTextures/t_47889b3efae0493071a71136.png"
+            ]
+        },
+        {
+            "id": "ref_bfsoymilk",
+            "material": "ref_bfsoymilk_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 1380,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png",
+                "Assets/Resources/ReferenceTextures/d_98b2247a430de37acbe88ed7.png"
+            ]
+        },
+        {
+            "id": "ref_bfsoymilk",
+            "material": "ref_bfsoymilk_m1",
+            "sourceShader": "ToonGlassCus",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 3,
+            "triangles": 1380,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bfsoymilk",
+            "material": "ref_bfsoymilk_m2",
+            "sourceShader": "ToonGlassCus",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 3,
+            "triangles": 1380,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_072fc29eb8c3fe19395cc48a.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_bfspringroll",
+            "material": "ref_bfspringroll_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 588,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_d4143945b1bfe13119753003.png",
+                "Assets/Resources/ReferenceTextures/t_d4aa03ffa12d21234a01f060.png"
+            ]
+        },
+        {
+            "id": "ref_bfsweetcorn",
+            "material": "ref_bfsweetcorn_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 926,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_bd1c8b4f92e39b8e20ebe68c.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png",
+                "Assets/Resources/ReferenceTextures/d_87d94756c94012b462feee28.png"
+            ]
+        },
+        {
+            "id": "ref_bftofupudding",
+            "material": "ref_bftofupudding_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 720,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f0ed2a5c2561befd5b9ec154.png",
+                "Assets/Resources/ReferenceTextures/t_47889b3efae0493071a71136.png"
+            ]
+        },
+        {
+            "id": "ref_bftofupudding",
+            "material": "ref_bftofupudding_m1",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 720,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f0ed2a5c2561befd5b9ec154.png",
+                "Assets/Resources/ReferenceTextures/t_47889b3efae0493071a71136.png",
+                "Assets/Resources/ReferenceTextures/d_bc7cdde35d3e879d2660529f.png"
+            ]
+        },
+        {
+            "id": "ref_bfwowotou",
+            "material": "ref_bfwowotou_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 800,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_2d622da346f854ee33171c3e.png",
+                "Assets/Resources/ReferenceTextures/t_d4aa03ffa12d21234a01f060.png"
+            ]
+        },
+        {
+            "id": "ref_bfxiaolongbao",
+            "material": "ref_bfxiaolongbao_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 2006,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_5928a33709728872a63a51ef.png",
+                "Assets/Resources/ReferenceTextures/t_47889b3efae0493071a71136.png"
+            ]
+        },
+        {
+            "id": "ref_bfxiaolongbao",
+            "material": "ref_bfxiaolongbao_m1",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 2006,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_5928a33709728872a63a51ef.png",
+                "Assets/Resources/ReferenceTextures/t_313dd8d6dae659520149a206.png",
+                "Assets/Resources/ReferenceTextures/d_ab4fc9a2f2cd99e27a6faf49.png"
+            ]
+        },
+        {
+            "id": "ref_carrot",
+            "material": "ref_carrot_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 432,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_3d9f207c7ec1bfef3c429267.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_1c03b9ba213d7d53f5da6c3a.png"
+            ]
+        },
+        {
+            "id": "ref_chewinggum",
+            "material": "ref_chewinggum_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 140,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f63cc82c4a341a679441bf59.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_chickenleg",
+            "material": "ref_chickenleg_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1007,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_155e9a1afb34c3a31ec76850.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_chinabowl",
+            "material": "ref_chinabowl_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1000,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_e66f9e078f4053c310e51e48.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png",
+                "Assets/Resources/ReferenceTextures/d_ace6ff0d0d972d184d68c9d8.png"
+            ]
+        },
+        {
+            "id": "ref_corn",
+            "material": "ref_corn_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1043,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_1b88c399555485891c358a5d.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_cs_garlic",
+            "material": "ref_cs_garlic_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 932,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f9c89f5b09fe0f054c572de5.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png",
+                "Assets/Resources/ReferenceTextures/d_441b6e6ce89ab1813178a4dd.png"
+            ]
+        },
+        {
+            "id": "ref_fan",
+            "material": "ref_fan_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 838,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_0a032a64cb6fcf89fe49fc85.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_2fac44ce0d89165e44a7fc33.png"
+            ]
+        },
+        {
+            "id": "ref_flashlight2",
+            "material": "ref_flashlight2_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 1356,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_a1ea8a7bb321632a23fed8d7.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png",
+                "Assets/Resources/ReferenceTextures/d_75bc50a150307f1678d10074.png"
+            ]
+        },
+        {
+            "id": "ref_flashlight2",
+            "material": "ref_flashlight2_m1",
+            "sourceShader": "ToonGlass",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 2,
+            "triangles": 1356,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6f0280acde89ada207618fb2.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_frieddumpling",
+            "material": "ref_frieddumpling_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 568,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_d148a69dd2be7c9d234a44f4.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_garlic",
+            "material": "ref_garlic_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 932,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f9c89f5b09fe0f054c572de5.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png",
+                "Assets/Resources/ReferenceTextures/d_441b6e6ce89ab1813178a4dd.png"
+            ]
+        },
+        {
+            "id": "ref_grilledcorn",
+            "material": "ref_grilledcorn_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 513,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6f442a85a5f54c480855bd93.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png",
+                "Assets/Resources/ReferenceTextures/d_7b7152b812c8fabe8d77029f.png"
+            ]
+        },
+        {
+            "id": "ref_grilledfish2",
+            "material": "ref_grilledfish2_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 560,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_bcd9d066dd14b57509873505.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_gtcrocodile",
+            "material": "ref_gtcrocodile_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1986,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_b950effed87d8ef080feb110.png",
+                "Assets/Resources/ReferenceTextures/t_030befe39250692b43d7ab0f.png"
+            ]
+        },
+        {
+            "id": "ref_gtdinosaur",
+            "material": "ref_gtdinosaur_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1996,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_54aed35364f71429b75137c4.png",
+                "Assets/Resources/ReferenceTextures/t_b4937d73af82309c50438319.png"
+            ]
+        },
+        {
+            "id": "ref_gtdrawingboard",
+            "material": "ref_gtdrawingboard_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 712,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_76d701f04b76ca87ed903eef.png",
+                "Assets/Resources/ReferenceTextures/t_d75b87875c76eb9bb639eef6.png"
+            ]
+        },
+        {
+            "id": "ref_gtfruiteraser",
+            "material": "ref_gtfruiteraser_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 348,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_b5b9a19f845655612e64d971.png",
+                "Assets/Resources/ReferenceTextures/t_d8e7d8518078e2168a562792.png"
+            ]
+        },
+        {
+            "id": "ref_gtgoosestamp",
+            "material": "ref_gtgoosestamp_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1024,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_20391785a955c218238668ed.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_gtkaleidoscope",
+            "material": "ref_gtkaleidoscope_m0",
+            "sourceShader": "ToonLite1_ShiftHue",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 920,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6ae180358f4e46d45b3d1867.png",
+                "Assets/Resources/ReferenceTextures/t_5aa959d0f96f8a2329b79536.png"
+            ]
+        },
+        {
+            "id": "ref_gtkaleidoscope",
+            "material": "ref_gtkaleidoscope_m1",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 920,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_1d47f7d6f9cedb4350d36d8f.png",
+                "Assets/Resources/ReferenceTextures/t_6c548964e2c9f5b1b02a4bb8.png"
+            ]
+        },
+        {
+            "id": "ref_gtlaserpen",
+            "material": "ref_gtlaserpen_m0",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 904,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_1f57dac3639555de4b49b9c0.png",
+                "Assets/Resources/ReferenceTextures/t_6f25b1a20e2afa99293e6a2a.png",
+                "Assets/Resources/ReferenceTextures/t_161fa9aec38c2e0bb3de8d72.png",
+                "Assets/Resources/ReferenceTextures/d_4792906f858f1bea4caf5bba.png"
+            ]
+        },
+        {
+            "id": "ref_gtmagiccubel",
+            "material": "ref_gtmagiccubel_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1196,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_eaba2c37c9db40bb96cf456c.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_gtpaperboat",
+            "material": "ref_gtpaperboat_m0",
+            "sourceShader": "ToonLite1_ShiftHue",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 380,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_833053c60a7cf2a5bfa8da2b.png",
+                "Assets/Resources/ReferenceTextures/t_45b44ddeb4d401126624638d.png"
+            ]
+        },
+        {
+            "id": "ref_gtpaperfortune",
+            "material": "ref_gtpaperfortune_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 280,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_05ad64c82d39d2c63b6f4967.png",
+                "Assets/Resources/ReferenceTextures/t_d8e7d8518078e2168a562792.png"
+            ]
+        },
+        {
+            "id": "ref_gtpaperstar",
+            "material": "ref_gtpaperstar_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 126,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_fc833d2f86f82f7ea8b832ee.png",
+                "Assets/Resources/ReferenceTextures/t_d8e7d8518078e2168a562792.png"
+            ]
+        },
+        {
+            "id": "ref_gtpapertree",
+            "material": "ref_gtpapertree_m0",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1728,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_2ce2f39a6c5b1e76ac0f92bb.png",
+                "Assets/Resources/ReferenceTextures/t_45b44ddeb4d401126624638d.png",
+                "Assets/Resources/ReferenceTextures/t_43992ed01b5927dba401b3ac.png",
+                "Assets/Resources/ReferenceTextures/d_16f5acabc00ff0a50fdee80e.png"
+            ]
+        },
+        {
+            "id": "ref_gtplanepen",
+            "material": "ref_gtplanepen_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 2336,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_8275808ca17991db6015ebcd.png",
+                "Assets/Resources/ReferenceTextures/t_030befe39250692b43d7ab0f.png"
+            ]
+        },
+        {
+            "id": "ref_gtplasterdeer",
+            "material": "ref_gtplasterdeer_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1990,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f9e12af0e2825e4ce981f749.png",
+                "Assets/Resources/ReferenceTextures/t_45b44ddeb4d401126624638d.png"
+            ]
+        },
+        {
+            "id": "ref_gtplaydough",
+            "material": "ref_gtplaydough_m0",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 2472,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_0ebf9ddf729297a304ac42c9.png",
+                "Assets/Resources/ReferenceTextures/t_181a37b159eee5a7e62beca4.png",
+                "Assets/Resources/ReferenceTextures/t_d8e7d8518078e2168a562792.png",
+                "Assets/Resources/ReferenceTextures/d_57bff16b441069fd3c82c5c4.png"
+            ]
+        },
+        {
+            "id": "ref_gtplaydough",
+            "material": "ref_gtplaydough_m1",
+            "sourceShader": "ToonGlassCus",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 3,
+            "triangles": 2472,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_0ebf9ddf729297a304ac42c9.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_gtplaydough",
+            "material": "ref_gtplaydough_m2",
+            "sourceShader": "ToonGlassCus",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 3,
+            "triangles": 2472,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_gtracecar",
+            "material": "ref_gtracecar_m0",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 1988,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f9dd56c5aa38d8092d294388.png",
+                "Assets/Resources/ReferenceTextures/t_fe62213d781d2df51db42941.png",
+                "Assets/Resources/ReferenceTextures/t_336a5254d09d099cc12183f5.png",
+                "Assets/Resources/ReferenceTextures/d_5be5d49eaf5c10f3e9d89dee.png"
+            ]
+        },
+        {
+            "id": "ref_gtracecar",
+            "material": "ref_gtracecar_m1",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 1988,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f9dd56c5aa38d8092d294388.png",
+                "Assets/Resources/ReferenceTextures/t_cb2d8d4793bf7f08254440d9.png",
+                "Assets/Resources/ReferenceTextures/t_336a5254d09d099cc12183f5.png",
+                "Assets/Resources/ReferenceTextures/d_5be5d49eaf5c10f3e9d89dee.png"
+            ]
+        },
+        {
+            "id": "ref_gtringcandy",
+            "material": "ref_gtringcandy_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 948,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_2f7971ff84179d47a9bc61ae.png",
+                "Assets/Resources/ReferenceTextures/t_f949a9dc14a6b846f1bf4ba2.png"
+            ]
+        },
+        {
+            "id": "ref_gtringcandy",
+            "material": "ref_gtringcandy_m1",
+            "sourceShader": "CustomCrystal",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 2,
+            "triangles": 948,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_79b55584fa90f42337e106dd.png",
+                "Assets/Resources/ReferenceTextures/t_6cf6bc510132a06d84c7c4e7.png"
+            ]
+        },
+        {
+            "id": "ref_gtsandbag",
+            "material": "ref_gtsandbag_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1256,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_c82bc6ec0ce13d452e6f2b38.png",
+                "Assets/Resources/ReferenceTextures/t_4a233c5cb8c335d0b838eda1.png"
+            ]
+        },
+        {
+            "id": "ref_gtsmiledoll",
+            "material": "ref_gtsmiledoll_m0",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1680,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_0dc1e265b21969567f69116a.png",
+                "Assets/Resources/ReferenceTextures/t_45b44ddeb4d401126624638d.png",
+                "Assets/Resources/ReferenceTextures/t_45ede23cf8132cac2a421052.png",
+                "Assets/Resources/ReferenceTextures/d_9a6e0ed949443deb1bb25851.png"
+            ]
+        },
+        {
+            "id": "ref_gtstickerbook",
+            "material": "ref_gtstickerbook_m0",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1932,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_ff9d9c764532d58e6183e6fd.png",
+                "Assets/Resources/ReferenceTextures/t_d8e7d8518078e2168a562792.png",
+                "Assets/Resources/ReferenceTextures/t_6cf6bc510132a06d84c7c4e7.png",
+                "Assets/Resources/ReferenceTextures/d_0231991a67e7957042291a01.png"
+            ]
+        },
+        {
+            "id": "ref_gtwatergame",
+            "material": "ref_gtwatergame_m0",
+            "sourceShader": "ToonLite1MulMatcap",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 1918,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_0e3d50b4cac51adb4224f6cf.png",
+                "Assets/Resources/ReferenceTextures/t_fe62213d781d2df51db42941.png",
+                "Assets/Resources/ReferenceTextures/t_067f17b75a2beeab907a0087.png",
+                "Assets/Resources/ReferenceTextures/d_a783b0dace490ca6aec15245.png"
+            ]
+        },
+        {
+            "id": "ref_gtwatergame",
+            "material": "ref_gtwatergame_m1",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 1918,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_fd23c8ba0642a7abb781e177.png",
+                "Assets/Resources/ReferenceTextures/t_cb2d8d4793bf7f08254440d9.png"
+            ]
+        },
+        {
+            "id": "ref_gtwatergame",
+            "material": "ref_gtwatergame_m2",
+            "sourceShader": "ToonGlass",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 3,
+            "triangles": 1918,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_fd23c8ba0642a7abb781e177.png",
+                "Assets/Resources/ReferenceTextures/t_9893c287a412b4e61c9b6143.png"
+            ]
+        },
+        {
+            "id": "ref_hamsausage1",
+            "material": "ref_hamsausage1_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 669,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_744c0ffaec24dec40639333b.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_hamsausage2",
+            "material": "ref_hamsausage2_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1073,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_041d80e4c79ae5ba1a9482db.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_orange",
+            "material": "ref_orange_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 480,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_83c8ec70863e636509d5cedb.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_248c73fc193bd16988a60964.png"
+            ]
+        },
+        {
+            "id": "ref_pepperfresh",
+            "material": "ref_pepperfresh_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 238,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_86bd8d5238108d06e2c322ab.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_4dacddefdb3c2b80256c8e5c.png"
+            ]
+        },
+        {
+            "id": "ref_potato",
+            "material": "ref_potato_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 523,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_db8c282704db66ec46741671.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_0cc314691b392a088939ecd7.png"
+            ]
+        },
+        {
+            "id": "ref_potatoskewers",
+            "material": "ref_potatoskewers_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 224,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_9fda98b22796d17c3a18f8f6.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_redshrimp",
+            "material": "ref_redshrimp_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1295,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_326097f959efd6480ff118ed.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_ribsbig",
+            "material": "ref_ribsbig_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 762,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_3b2cc9ef6e1dc92212159c16.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png",
+                "Assets/Resources/ReferenceTextures/d_18445bf73d84d06aad0a5dbe.png"
+            ]
+        },
+        {
+            "id": "ref_roastchicken",
+            "material": "ref_roastchicken_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 932,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_ded998a9b0b120496eb53dea.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png",
+                "Assets/Resources/ReferenceTextures/d_99b1b8db10aac302410b2e39.png"
+            ]
+        },
+        {
+            "id": "ref_saltedegg",
+            "material": "ref_saltedegg_m0",
+            "sourceShader": "ToonEffectFull",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 180,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_157917a7a44de75172a3312f.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png",
+                "Assets/Resources/ReferenceTextures/d_157917a7a44de75172a3312f.png"
+            ]
+        },
+        {
+            "id": "ref_sausage",
+            "material": "ref_sausage_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 612,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_f95c2b5f0d4f63d3ee20e922.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_6d5dec78f2d00c37571c2f46.png"
+            ]
+        },
+        {
+            "id": "ref_scallop",
+            "material": "ref_scallop_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 1029,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_ea6d56b23b9704f8447007d0.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_scallop",
+            "material": "ref_scallop_m1",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 2,
+            "triangles": 1029,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_e3b9b82d45289a862a40ec22.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_shrimp",
+            "material": "ref_shrimp_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 604,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_d9dcf815c2b9071a738d1ee2.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_soysauce",
+            "material": "ref_soysauce_m0",
+            "sourceShader": "ToonLite2",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 792,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_soysauce",
+            "material": "ref_soysauce_m1",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 792,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6d81e9111774f3e0f3e87b7a.png",
+                "Assets/Resources/ReferenceTextures/t_6aecbfc70e31b09f5a6e803d.png"
+            ]
+        },
+        {
+            "id": "ref_soysauce",
+            "material": "ref_soysauce_m2",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 792,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_spinningtop",
+            "material": "ref_spinningtop_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 888,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_03a581666ada7f60bdaa0db4.png",
+                "Assets/Resources/ReferenceTextures/t_030befe39250692b43d7ab0f.png"
+            ]
+        },
+        {
+            "id": "ref_thermosbottle",
+            "material": "ref_thermosbottle_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1526,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6814d1b3fa41cbea4574adb2.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_d5d49933bd66f4f4a94f6cb2.png"
+            ]
+        },
+        {
+            "id": "ref_toycar",
+            "material": "ref_toycar_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 1818,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_24967d9fe98cf7ccdd5998e0.png",
+                "Assets/Resources/ReferenceTextures/t_b859c7b9097a82727fd4e1f6.png"
+            ]
+        },
+        {
+            "id": "ref_toycar",
+            "material": "ref_toycar_m1",
+            "sourceShader": "ToonLite2",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 1818,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_e7fb8e5155c041540adf9f87.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_toycar",
+            "material": "ref_toycar_m2",
+            "sourceShader": "ToonLite2",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 3,
+            "triangles": 1818,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_47bd355515157df3314965fa.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_watermelonhalf",
+            "material": "ref_watermelonhalf_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 540,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_b446ee63c85f0e853cc226da.png",
+                "Assets/Resources/ReferenceTextures/t_4cb50ad25e548b0e46c9e50d.png"
+            ]
+        },
+        {
+            "id": "ref_watermelonslice",
+            "material": "ref_watermelonslice_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 900,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_55834c91aed6e41d3f15979b.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png",
+                "Assets/Resources/ReferenceTextures/d_6c080e62daabb6f3f297d507.png"
+            ]
+        },
+        {
+            "id": "ref_windoilbottle",
+            "material": "ref_windoilbottle_m0",
+            "sourceShader": "ToonGlass",
+            "unityShader": "Goose/ReferenceGlass",
+            "meshCount": 4,
+            "triangles": 1608,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_916313d934cfcc1a7d30f92b.png"
+            ]
+        },
+        {
+            "id": "ref_windoilbottle",
+            "material": "ref_windoilbottle_m1",
+            "sourceShader": "ToonLite2",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 4,
+            "triangles": 1608,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png"
+            ]
+        },
+        {
+            "id": "ref_windoilbottle",
+            "material": "ref_windoilbottle_m2",
+            "sourceShader": "ToonLite2",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 4,
+            "triangles": 1608,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_0221c772b704a78d4b143d18.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png"
+            ]
+        },
+        {
+            "id": "ref_windoilbottle",
+            "material": "ref_windoilbottle_m3",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 4,
+            "triangles": 1608,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_79f755c7fc270dbc7aa9572f.png"
+            ]
+        },
+        {
+            "id": "ref_woodhand",
+            "material": "ref_woodhand_m0",
+            "sourceShader": "ToonLite1",
+            "unityShader": "Goose/ReferenceOpaque",
+            "meshCount": 1,
+            "triangles": 1156,
+            "textures": [
+                "Assets/Resources/ReferenceTextures/t_b16473ae4f34bfb44e0af066.png",
+                "Assets/Resources/ReferenceTextures/t_6b03b2deaa730dd10102ef0f.png"
+            ]
+        }
+    ],
+    "errors": []
+}

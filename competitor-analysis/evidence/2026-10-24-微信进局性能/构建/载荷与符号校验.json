@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "wasmMagicVerified": true,
+  "compressedSymbolsMatchArchivedRaw": true,
+  "files": [
+    {
+      "path": "unity/Builds/WeChat/minigame/data-package/b8567ebc5b70cfd9.webgl.data.unityweb.bin.br",
+      "bytes": 16434647,
+      "decodedBytes": 23598663,
+      "decodedSha256": "eb238df66b990c94829fea61ab6fe3f7a9eb1d023b0294cb3e99198a1f4f4b11"
+    },
+    {
+      "path": "unity/Builds/WeChat/minigame/wasmcode/236b8c01b6b64085.webgl.wasm.code.unityweb.wasm.br",
+      "bytes": 4358284,
+      "decodedBytes": 17703905,
+      "decodedSha256": "c0e5737e5766828c6e51ec2065f2a246a980b2784af547bba41546fe0c8834f5"
+    },
+    {
+      "path": "unity/Builds/WeChat/minigame/webgl.wasm.symbols.unityweb.br",
+      "bytes": 915633,
+      "decodedBytes": 5205154,
+      "decodedSha256": "fa94a778ade3e8ffe9c3e083f3178be1ef205148420c4f18aff8297629f7a871"
+    }
+  ]
+}

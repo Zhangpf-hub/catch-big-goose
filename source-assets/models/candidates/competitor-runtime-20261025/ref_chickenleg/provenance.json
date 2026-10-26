@@ -1,0 +1,9 @@
+{
+  "id": "ref_chickenleg",
+  "sourceId": "ChickenLeg",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\ChickenLeg\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/ChickenLeg.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+  "sourceSha256": "77ff6765f40f101830de484b5385926f8e502f14350bb351fceee22a415b540a"
+}

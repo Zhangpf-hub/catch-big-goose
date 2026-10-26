@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bbqmushroom",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BBQMushroom\\BBQMushroom.blend",
+  "sourceTriangles": 660,
+  "triangles": 660,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8084244132041931,
+    2.880000114440918,
+    0.9518283605575562
+  ],
+  "normalizedDimensions": [
+    0.2807029187679291,
+    1.0,
+    0.3304959535598755
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

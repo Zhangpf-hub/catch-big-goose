@@ -1,0 +1,325 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6",
+  "files": [],
+  "subMetas": {
+    "52463": {
+      "importer": "gltf-scene",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@52463",
+      "displayName": "",
+      "id": "52463",
+      "name": "carrot.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2bfa3": {
+      "importer": "gltf-mesh",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@2bfa3",
+      "displayName": "",
+      "id": "2bfa3",
+      "name": "continuous-curved-carrot-root-mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 836
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c244a": {
+      "importer": "gltf-mesh",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@c244a",
+      "displayName": "",
+      "id": "c244a",
+      "name": "Cylinder.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 236
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d3584": {
+      "importer": "gltf-mesh",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@d3584",
+      "displayName": "",
+      "id": "d3584",
+      "name": "lanceolate-leaf-0-mesh.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 1208
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b3704": {
+      "importer": "gltf-mesh",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@b3704",
+      "displayName": "",
+      "id": "b3704",
+      "name": "lanceolate-leaf-0-center-vein.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 800
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "102f0": {
+      "importer": "gltf-mesh",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@102f0",
+      "displayName": "",
+      "id": "102f0",
+      "name": "hooked-fine-root-tail.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 32
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c71e9": {
+      "importer": "gltf-mesh",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@c71e9",
+      "displayName": "",
+      "id": "c71e9",
+      "name": "partial-growth-mark-0.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 480
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a6db2": {
+      "importer": "gltf-mesh",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@a6db2",
+      "displayName": "",
+      "id": "a6db2",
+      "name": "fine-side-root-0.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 96
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e3771": {
+      "importer": "gltf-embeded-image",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@e3771",
+      "displayName": "",
+      "id": "e3771",
+      "name": "carrot_continuous_skin.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@e3771"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e73c1": {
+      "importer": "gltf-material",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@e73c1",
+      "displayName": "",
+      "id": "e73c1",
+      "name": "carrot_warm_orange_skin.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6bf7f": {
+      "importer": "gltf-material",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@6bf7f",
+      "displayName": "",
+      "id": "6bf7f",
+      "name": "carrot_deep_leaf_green.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1b9e9": {
+      "importer": "gltf-material",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@1b9e9",
+      "displayName": "",
+      "id": "1b9e9",
+      "name": "carrot_fresh_leaf_green.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bce9f": {
+      "importer": "gltf-material",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@bce9f",
+      "displayName": "",
+      "id": "bce9f",
+      "name": "carrot_leaf_vein.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2b216": {
+      "importer": "gltf-material",
+      "uuid": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@2b216",
+      "displayName": "",
+      "id": "2b216",
+      "name": "carrot_soft_orange_growth_grooves.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "carrot_continuous_skin",
+        "uri": "4e9878cf-e0e7-4c41-baab-f372f11dfba6@e3771"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@2bfa3",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@c244a",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@d3584",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@b3704",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@102f0",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@c71e9",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@a6db2"
+      ],
+      "skeletons": [],
+      "textures": [
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@e39f7"
+      ],
+      "materials": [
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@e73c1",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@6bf7f",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@1b9e9",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@bce9f",
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@2b216"
+      ],
+      "scenes": [
+        "4e9878cf-e0e7-4c41-baab-f372f11dfba6@52463"
+      ]
+    }
+  }
+}

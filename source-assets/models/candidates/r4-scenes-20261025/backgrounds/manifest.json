@@ -1,0 +1,52 @@
+[
+  {
+    "theme": "breakfast",
+    "source": "C:\\Users\\123\\.codex\\generated_images\\01a1700a-1f83-7490-bc99-5f87946c797b\\exec-0affceb0-849d-4e32-99a4-f88336acd3ae.png",
+    "asset": "unity\\Assets\\Resources\\Textures\\mobile-ui\\themes\\breakfast-r4.png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 1789438,
+    "sha256": "5423f479761a2b92681df8bafeaf5c28a69f353651e59eaecd66c6266ffb5fe3",
+    "generator": "built-in image_gen"
+  },
+  {
+    "theme": "barbecue",
+    "source": "C:\\Users\\123\\.codex\\generated_images\\01a1700a-1f83-7490-bc99-5f87946c797b\\exec-8a3de636-032b-4730-8b3d-08c9860ff656.png",
+    "asset": "unity\\Assets\\Resources\\Textures\\mobile-ui\\themes\\barbecue-r4.png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 2653317,
+    "sha256": "6276fa7b61cd22b1e6e2866285b9eb77d568d4c470adb2a7e7d752a1e02862a9",
+    "generator": "built-in image_gen"
+  },
+  {
+    "theme": "countryside",
+    "source": "C:\\Users\\123\\.codex\\generated_images\\01a1700a-1f83-7490-bc99-5f87946c797b\\exec-d703bd71-8e62-40b0-bf6a-c32916bd8ab4.png",
+    "asset": "unity\\Assets\\Resources\\Textures\\mobile-ui\\themes\\countryside-r4.png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 2859601,
+    "sha256": "6911b87cacf5862d600cab766eff3ee64e3b0f7118ef6673052a4c1e2f7ef48d",
+    "generator": "built-in image_gen"
+  },
+  {
+    "theme": "toys",
+    "source": "C:\\Users\\123\\.codex\\generated_images\\01a1700a-1f83-7490-bc99-5f87946c797b\\exec-d797146e-51ac-411a-b51b-25988850460f.png",
+    "asset": "unity\\Assets\\Resources\\Textures\\mobile-ui\\themes\\toys-r4.png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 1705026,
+    "sha256": "d963189f46c8fd76a8dfdc164ea1eadb2eb20bcbbbe66b2019ae686eb9c4ad47",
+    "generator": "built-in image_gen"
+  },
+  {
+    "theme": "grocery",
+    "source": "C:\\Users\\123\\.codex\\generated_images\\01a1700a-1f83-7490-bc99-5f87946c797b\\exec-3e39c71b-73af-4cfd-b0d5-fb7b6ebcd99a.png",
+    "asset": "unity\\Assets\\Resources\\Textures\\mobile-ui\\themes\\grocery-r4.png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 2692776,
+    "sha256": "f1f705befaa436906f273f2c666a3bf395979a2001cd45b1dcbc9d036c533ef4",
+    "generator": "built-in image_gen"
+  }
+]

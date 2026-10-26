@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtstickerbook",
+  "sourceId": "GTStickerBook",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTStickerBook\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTStickerBook.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "3c6e81267ff68c6e12614e550ec75ade73e6ba960e3253e20f55c63897f296a6"
+}

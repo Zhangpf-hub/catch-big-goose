@@ -1,0 +1,4 @@
+  (func $j95016 (type $t0) (param $p0 i32) (param $p1 i32)
+    local.get $p0
+    i32.const 1
+    i32.store8 offset=418)

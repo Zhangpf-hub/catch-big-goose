@@ -1,0 +1,9 @@
+{
+  "id": "ref_corn",
+  "sourceId": "Corn",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Corn\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Corn.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "c7978ffd03c5346775e6ecdcb955f34586d0d3ced79fd1a2df9fb86e07ac4ae3"
+}

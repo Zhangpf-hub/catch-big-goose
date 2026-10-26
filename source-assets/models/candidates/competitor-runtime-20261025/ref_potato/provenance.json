@@ -1,0 +1,9 @@
+{
+  "id": "ref_potato",
+  "sourceId": "Potato",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Potato\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Potato.prefab",
+  "bundle": "levelcountrysideobjprefab_assets__37a8cd1871982c8b9e9b516ad6caa820.bundle",
+  "sourceSha256": "63c9dc413c53d37d98b9a05f14794a0ef5b497df504a2608327fc03d2cb45e90"
+}

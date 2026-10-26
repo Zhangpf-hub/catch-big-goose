@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTSmileDoll\\tex_-6674667076202348853.png",
+      "uvMin": [
+        0.019404053688049316,
+        0.01407100260257721
+      ],
+      "uvMax": [
+        0.9887944459915161,
+        0.9899353384971619
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\ref_gtsmiledoll\\albedo.png"
+}

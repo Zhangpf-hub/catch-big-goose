@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtpaperboat",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperBoat\\GTPaperBoat.blend",
+  "sourceTriangles": 380,
+  "triangles": 380,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.403364419937134,
+    0.8238071799278259,
+    0.8438348770141602
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.3427724838256836,
+    0.3511056900024414
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

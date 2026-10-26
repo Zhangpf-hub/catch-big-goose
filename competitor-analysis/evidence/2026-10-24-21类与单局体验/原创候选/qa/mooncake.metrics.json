@@ -1,0 +1,28 @@
+{
+  "id": "mooncake",
+  "theme": "dessert",
+  "triangles": 1960,
+  "vertices": 1016,
+  "blenderBounds": [
+    0.9951117634773254,
+    1.0,
+    0.40955692529678345
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 46520,
+  "sha256": "9d45f80087ae1308ec3c1ebf141764fdbcaec610b139ad435435c85000316173",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

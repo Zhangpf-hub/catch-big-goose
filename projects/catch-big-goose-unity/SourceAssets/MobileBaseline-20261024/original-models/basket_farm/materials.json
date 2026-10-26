@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "name": "basket_farm_mat_0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.550000011920929,
+      "texture": "basket_farm_albedo_0.png"
+    }
+  ]
+}

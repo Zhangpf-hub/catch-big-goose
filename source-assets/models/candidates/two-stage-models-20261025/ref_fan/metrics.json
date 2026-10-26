@@ -1,0 +1,12 @@
+{
+  "id": "ref_fan",
+  "triangles": 838,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.7606079578399658,
+    0.9999999403953552,
+    0.07110283523797989
+  ],
+  "glbRoundtrip": true
+}

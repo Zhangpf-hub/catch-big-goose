@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_redshrimp",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\RedShrimp\\RedShrimp.blend",
+  "sourceTriangles": 1295,
+  "triangles": 1295,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.270935297012329,
+    2.2098307609558105,
+    0.639594316482544
+  ],
+  "normalizedDimensions": [
+    0.575127899646759,
+    1.0,
+    0.2894313633441925
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

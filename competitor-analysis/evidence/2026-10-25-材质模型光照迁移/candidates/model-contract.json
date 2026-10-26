@@ -1,0 +1,564 @@
+{
+  "models": [
+    {
+      "id": "ref_apple",
+      "materials": 1,
+      "triangles": 510,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bananas",
+      "materials": 1,
+      "triangles": 1105,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bbqhotdog",
+      "materials": 1,
+      "triangles": 832,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bbqmushroom",
+      "materials": 2,
+      "triangles": 660,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 1
+    },
+    {
+      "id": "ref_bbqpotato",
+      "materials": 1,
+      "triangles": 1382,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bbqsausage",
+      "materials": 1,
+      "triangles": 490,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bbqskewers1",
+      "materials": 1,
+      "triangles": 904,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bbqskewers2",
+      "materials": 1,
+      "triangles": 760,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bbqtoast",
+      "materials": 1,
+      "triangles": 220,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfcornjuice",
+      "materials": 2,
+      "triangles": 904,
+      "glassMaterials": 1,
+      "colorOnlyMaterials": 1
+    },
+    {
+      "id": "ref_bfegghalf",
+      "materials": 1,
+      "triangles": 398,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bffagao",
+      "materials": 1,
+      "triangles": 578,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfflowerroll",
+      "materials": 1,
+      "triangles": 690,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bffrieddoughstick",
+      "materials": 1,
+      "triangles": 576,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bffriedsteamedbun",
+      "materials": 1,
+      "triangles": 444,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfpumpkinpie",
+      "materials": 1,
+      "triangles": 528,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 1
+    },
+    {
+      "id": "ref_bfsesameball",
+      "materials": 1,
+      "triangles": 528,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfshaomai",
+      "materials": 1,
+      "triangles": 1544,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfshrimpshaomai",
+      "materials": 1,
+      "triangles": 984,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfsoupdumpling",
+      "materials": 1,
+      "triangles": 1104,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfsoymilk",
+      "materials": 3,
+      "triangles": 1380,
+      "glassMaterials": 2,
+      "colorOnlyMaterials": 2
+    },
+    {
+      "id": "ref_bfspringroll",
+      "materials": 1,
+      "triangles": 588,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfsweetcorn",
+      "materials": 1,
+      "triangles": 926,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bftofupudding",
+      "materials": 2,
+      "triangles": 720,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfwowotou",
+      "materials": 1,
+      "triangles": 800,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_bfxiaolongbao",
+      "materials": 2,
+      "triangles": 2006,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_carrot",
+      "materials": 1,
+      "triangles": 432,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_chewinggum",
+      "materials": 1,
+      "triangles": 140,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_chickenleg",
+      "materials": 1,
+      "triangles": 1007,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_chinabowl",
+      "materials": 1,
+      "triangles": 1000,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_corn",
+      "materials": 1,
+      "triangles": 1043,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_cs_garlic",
+      "materials": 1,
+      "triangles": 932,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_fan",
+      "materials": 1,
+      "triangles": 838,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_flashlight2",
+      "materials": 2,
+      "triangles": 1356,
+      "glassMaterials": 1,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_frieddumpling",
+      "materials": 1,
+      "triangles": 568,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_garlic",
+      "materials": 1,
+      "triangles": 932,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_grilledcorn",
+      "materials": 1,
+      "triangles": 513,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_grilledfish2",
+      "materials": 1,
+      "triangles": 560,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtcrocodile",
+      "materials": 1,
+      "triangles": 1986,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtdinosaur",
+      "materials": 1,
+      "triangles": 1996,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtdrawingboard",
+      "materials": 1,
+      "triangles": 712,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtfruiteraser",
+      "materials": 1,
+      "triangles": 348,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtgoosestamp",
+      "materials": 1,
+      "triangles": 1024,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtkaleidoscope",
+      "materials": 2,
+      "triangles": 920,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtlaserpen",
+      "materials": 1,
+      "triangles": 904,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtmagiccubel",
+      "materials": 1,
+      "triangles": 1196,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtpaperboat",
+      "materials": 1,
+      "triangles": 380,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtpaperfortune",
+      "materials": 1,
+      "triangles": 280,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtpaperstar",
+      "materials": 1,
+      "triangles": 126,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtpapertree",
+      "materials": 1,
+      "triangles": 1728,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtplanepen",
+      "materials": 1,
+      "triangles": 2336,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtplasterdeer",
+      "materials": 1,
+      "triangles": 1990,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtplaydough",
+      "materials": 3,
+      "triangles": 2472,
+      "glassMaterials": 2,
+      "colorOnlyMaterials": 1
+    },
+    {
+      "id": "ref_gtracecar",
+      "materials": 2,
+      "triangles": 1988,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtringcandy",
+      "materials": 2,
+      "triangles": 948,
+      "glassMaterials": 1,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtsandbag",
+      "materials": 1,
+      "triangles": 1256,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtsmiledoll",
+      "materials": 1,
+      "triangles": 1680,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtstickerbook",
+      "materials": 1,
+      "triangles": 1932,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_gtwatergame",
+      "materials": 3,
+      "triangles": 1918,
+      "glassMaterials": 1,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_hamsausage1",
+      "materials": 1,
+      "triangles": 669,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_hamsausage2",
+      "materials": 1,
+      "triangles": 1073,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_orange",
+      "materials": 1,
+      "triangles": 480,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_pepperfresh",
+      "materials": 1,
+      "triangles": 238,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_potato",
+      "materials": 1,
+      "triangles": 523,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_potatoskewers",
+      "materials": 1,
+      "triangles": 224,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_redshrimp",
+      "materials": 1,
+      "triangles": 1295,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_ribsbig",
+      "materials": 1,
+      "triangles": 762,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_roastchicken",
+      "materials": 1,
+      "triangles": 932,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_saltedegg",
+      "materials": 1,
+      "triangles": 180,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_sausage",
+      "materials": 1,
+      "triangles": 612,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_scallop",
+      "materials": 2,
+      "triangles": 1029,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_shrimp",
+      "materials": 1,
+      "triangles": 604,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_soysauce",
+      "materials": 3,
+      "triangles": 792,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 2
+    },
+    {
+      "id": "ref_spinningtop",
+      "materials": 1,
+      "triangles": 888,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_thermosbottle",
+      "materials": 1,
+      "triangles": 1526,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_toycar",
+      "materials": 3,
+      "triangles": 1818,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_watermelonhalf",
+      "materials": 1,
+      "triangles": 540,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_watermelonslice",
+      "materials": 1,
+      "triangles": 900,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "ref_windoilbottle",
+      "materials": 4,
+      "triangles": 1608,
+      "glassMaterials": 1,
+      "colorOnlyMaterials": 3
+    },
+    {
+      "id": "ref_woodhand",
+      "materials": 1,
+      "triangles": 1156,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfsoupdumpling",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFSoupDumpling\\BFSoupDumpling.blend",
+  "sourceTriangles": 1104,
+  "triangles": 1104,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.1271311044692993,
+    0.7494856715202332,
+    0.9901472330093384
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.6649498343467712,
+    0.878466784954071
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

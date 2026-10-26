@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTKaleidoscope\\tex_7378205099724755732.png",
+      "uvMin": [
+        0.010982939973473549,
+        0.006985529791563749
+      ],
+      "uvMax": [
+        0.9882320165634155,
+        0.9873764514923096
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.060855865478515625,
+        0.08713388442993164
+      ],
+      "uvMax": [
+        0.8329033851623535,
+        0.8591809272766113
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_gtkaleidoscope\\albedo.png"
+}

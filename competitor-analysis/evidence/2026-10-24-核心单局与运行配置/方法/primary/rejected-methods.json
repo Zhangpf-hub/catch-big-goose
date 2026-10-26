@@ -1,0 +1,884 @@
+[
+  {
+    "name": "ServerFileCreate.<>c__DisplayClass47_0$$<GetCommonTimeAsyn>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate.<>c__DisplayClass74_0$$<GetServerFlagData>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate.<>c__DisplayClass74_0$$<GetServerFlagData>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$SaveShareADListFile",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$SaveServerVarFile",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetServerFileIntVar",
+    "expected": "iiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetServerFileStringVar",
+    "expected": "iiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetNewYearLevelData",
+    "expected": "ii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetFruitSpLevelData",
+    "expected": "ii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetSpLevelData",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$SaveTimeDataFile",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetCommonTimeData",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$get_LoadNetConfigComplete",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$SaveHotFixScriptable",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetHotFixData",
+    "expected": "iiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$SaveServerWarnDataFile",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$GetServerConfigCdnHead",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$ToPrettyJson",
+    "expected": "iiii",
+    "actual": "iiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ServerFileCreate$$SaveABTestDataFile",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa.<>c__DisplayClass20_0$$<LoadLongLevel>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$GetCurPlayingLevelID",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$SetEndlessLevelData",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$GetEndlessLevel0",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$StartLevel",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$ResumeAddTime",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$UseEnergyStartGame",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$LoadLongLevel",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$LoadCompelet",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$GetEndlessLevelSave",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$AddLevel",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$SetLevel",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$GetGoldCountSave",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$GetEnergySave",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$AddEnergySave",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$GetLevelGoose",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$GetChapterGoose",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "EndlessLevelMa$$CheckLevelDataError",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$get_Instance",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$set_Instance",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$ICloseLevelScene",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$IGetCurLevelIndexType",
+    "expected": "iiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$IGameLoseThinking",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$NorEnterNextMainLevel",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$<IGetAllLevelObj>b__28_0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelModeCtrl$$<IGetAllLevelObj>b__28_2",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelDataHelper$$get_AllLevelDictByIndex",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<>c$$<CheckSubmit>b__84_1",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<DelayToShowHand>d__105$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<DelayToShowHand>d__105$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<LoopCreateObj>d__187$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<LoopCrowObjSize>d__192$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<LoopOptimization>d__196$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<LoopCheckLoseObj>d__199$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<CountDownTime>d__202$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<EndlessTime>d__203$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<DelayToCheckContent>d__226$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<DestroyAnim>d__227$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<DelayToLose>d__272$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<WindObj>d__284$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<WindObj>d__284$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<ClawObj>d__288$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<ClawObj>d__288$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<ClawTargetObj>d__289$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<ClawTargetObj>d__289$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<FingHighlight>d__292$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<>c__DisplayClass297_0$$<MessObjPosAnim>b__1",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<MessObjPosAnim>d__297$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<MessObjPosAnim>d__297$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<MessObjRotaAnim>d__301$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<LoopCheckTip>d__331$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<LoopCheckTip>d__331$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<NewGuideLevel1EndAnim>d__345$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<NewGuideLevel1EndAnim>d__345$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<WaitTimeAndClick>d__346$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<WaitTimeAndClick>d__346$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<AddObjAnim>d__365$$MoveNext",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<AddObjAnim>d__365$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetCurLevelData",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$OtherControlType",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$SetMaxHeight",
+    "expected": "vifii",
+    "actual": "vifii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetMaxHeight",
+    "expected": "fiii",
+    "actual": "fiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetMinTouchHeight",
+    "expected": "fiii",
+    "actual": "fiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetLevelMaxAndLeftTime",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetTargetCard",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetObjBoxTrans",
+    "expected": "iiii",
+    "actual": "iiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetPos",
+    "expected": "iiifi",
+    "actual": "viiifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetUnit",
+    "expected": "iiiiii",
+    "actual": "viiiiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetLevelProgress",
+    "expected": "fii",
+    "actual": "fii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$ResetShakeData",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$WindObj",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$ThrowPos",
+    "expected": "iiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetDownPoint",
+    "expected": "iiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetShareData",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$SetShakeData",
+    "expected": "vifffi",
+    "actual": "vifffi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$OnStartGameReset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$NewGuideState",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$InitCameraMove",
+    "expected": "viffi",
+    "actual": "viffi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$<Start>b__83_0",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$get_SelectedStar",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$set_SelectedStar",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$get_CurStar",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$set_CurStar",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$get_CurIndexType",
+    "expected": "ii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$set_CurIndexType",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$get_StartAdSharePosition",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$GetFunctionIdByStar",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "MainLevelManager$$GetUnlockProgress",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ObjectUnit$$CanBeSelect",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa.<>c$$.cctor",
+    "expected": "vi",
+    "actual": "vi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa.<>c$$<SetCameraPos>b__23_0",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa$$IsPointerOverUI",
+    "expected": "iii",
+    "actual": "iii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa$$InitCamera",
+    "expected": "viiifi",
+    "actual": "viiifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa$$CtrlCamera",
+    "expected": "vi",
+    "actual": "vi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa$$GetMousePos",
+    "expected": "vi",
+    "actual": "vi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa$$HasMoveOverLimit",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "SpModeLongTableMa$$SetCameraPos",
+    "expected": "viifi",
+    "actual": "viifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<LoopCheckDay>d__26$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c$$<LoadLibraryChiForestOrder>b__112_0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c$$<LoadRedPacketRankList>b__116_0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass87_0$$<RefreshTeamListData>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__2",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__2",
+    "expected": "viiii",
+    "actual": "viiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass113_0$$<UploadLibraryChiForestOrderInfo>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass113_0$$<UploadLibraryChiForestOrderInfo>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass114_0$$<GetLibraryChiForestGooseCount>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass114_0$$<GetLibraryChiForestGooseCount>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass117_0$$<GetRedPacketReward>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass118_0$$<ConfirmAndReissueRedPacketOrder>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass119_0$$<GetRedPacketCurrentInfo>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass120_0$$<ExchangePuzzle>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass123_0$$<GetRedPacketRightPeopleCount>b__0",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass125_0$$<GetRedPacketResult>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager.<>c__DisplayClass126_0$$<GetAdvertInfo>b__1",
+    "expected": "viii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$get_DailyOverrideLevelIndex",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$SetDailyBaseLevelIndex",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$GetPublicNetSaveData",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$SetPublicNetSaveData",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$GetSelfNetSaveData",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$GetRelation",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$SetGlobalData",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$GetGlobalData",
+    "expected": "ii",
+    "actual": "ii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "NetDataManager$$AddResource",
+    "expected": "viiiiii",
+    "actual": "viiiiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$Roll",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  }
+]

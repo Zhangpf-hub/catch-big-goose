@@ -1,0 +1,12 @@
+{
+  "id": "ref_goose_potato",
+  "triangles": 1928,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.7809672355651855,
+    1.0,
+    0.5461188554763794
+  ],
+  "glbRoundtrip": true
+}

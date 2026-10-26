@@ -1,0 +1,83 @@
+{
+  "anatomyTriangles": 2112,
+  "propRatio": 1,
+  "headNeckReduced": false,
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1518
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Thick millet round",
+      "triangles": 576
+    },
+    {
+      "name": "Seated millet grid",
+      "triangles": 104
+    },
+    {
+      "name": "Seated millet grid.001",
+      "triangles": 104
+    },
+    {
+      "name": "Seated millet grid.002",
+      "triangles": 104
+    },
+    {
+      "name": "Seated millet cross",
+      "triangles": 104
+    },
+    {
+      "name": "Seated millet cross.001",
+      "triangles": 104
+    },
+    {
+      "name": "Seated millet cross.002",
+      "triangles": 104
+    },
+    {
+      "name": "Millet seed",
+      "triangles": 48
+    },
+    {
+      "name": "Millet seed.001",
+      "triangles": 48
+    },
+    {
+      "name": "Millet seed.002",
+      "triangles": 48
+    },
+    {
+      "name": "Millet seed.003",
+      "triangles": 48
+    },
+    {
+      "name": "Millet seed.004",
+      "triangles": 48
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "rowClass": "GameToolDataData",
+  "fields": [
+    [
+      "_id",
+      "int"
+    ],
+    [
+      "_key",
+      "string"
+    ],
+    [
+      "_name",
+      "string"
+    ],
+    [
+      "_description",
+      "string"
+    ],
+    [
+      "_limitcount",
+      "int"
+    ],
+    [
+      "_intvalue",
+      "int"
+    ],
+    [
+      "_price",
+      "int"
+    ],
+    [
+      "_boxweight",
+      "float"
+    ],
+    [
+      "_freecount",
+      "int"
+    ],
+    [
+      "_buycount",
+      "int"
+    ]
+  ]
+}

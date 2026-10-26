@@ -1,0 +1,22 @@
+{
+    "passed": true,
+    "mobileProfile": true,
+    "realGeneratorUsed": true,
+    "forcedVisibility": false,
+    "automatedPickBypass": false,
+    "scope": "Production-source Windows player: actual five-theme review menu, generation, screen-ray input, tray and matches; actual homepage bone animation and save isolation. Not WeChat device performance.",
+    "unityVersion": "2022.3.62f3",
+    "generated": 0,
+    "removed": 0,
+    "roundTrips": 0,
+    "continuousHomeClicks": 0,
+    "items": [],
+    "motions": [],
+    "checks": [
+        "Production GooseGame started",
+        "Homepage finishes loading actual B2 prefab",
+        "Review HUD shows the complete longest theme title",
+        "Review HUD title fits without clipping"
+    ],
+    "errors": []
+}

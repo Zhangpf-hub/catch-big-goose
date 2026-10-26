@@ -1,0 +1,24 @@
+[
+  {
+    "slot": 47221,
+    "target": {
+      "module": "secondary",
+      "symbol": "$j4702"
+    },
+    "aliases": [
+      "System.Xml.Schema.SchemaEntity$$get_IsExternal"
+    ],
+    "limitation": "Cache index list proves index presence only; not proof of executed patch body"
+  },
+  {
+    "slot": 92122,
+    "target": {
+      "module": "secondary",
+      "symbol": "$j10747"
+    },
+    "aliases": [
+      "ProtoBuf.Meta.MetaType$$GetSurrogateOrBaseOrSelf"
+    ],
+    "limitation": "Cache index list proves index presence only; not proof of executed patch body"
+  }
+]

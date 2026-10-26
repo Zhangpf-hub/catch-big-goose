@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_toycar",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\ToyCar\\ToyCar.blend",
+  "sourceTriangles": 1818,
+  "triangles": 1818,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.567248821258545,
+    1.7912849187850952,
+    1.6541450023651123
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.6977449655532837,
+    0.6443259716033936
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

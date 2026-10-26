@@ -1,0 +1,12 @@
+{
+  "id": "ref_pepperfresh",
+  "triangles": 238,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    1.0,
+    0.34119197726249695,
+    0.1428004503250122
+  ],
+  "glbRoundtrip": true
+}

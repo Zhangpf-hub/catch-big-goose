@@ -1,0 +1,53 @@
+{
+  "id": "duck-capsulepen",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-capsulepen/duck-capsulepen.glb",
+  "sourceSha256": "8578e2da8f95d574aed44b4af902e0c61934ff64fed74b138efad5946c76a380",
+  "originalWorldDimensions": [
+    1.0,
+    0.44986435770988464,
+    0.735792875289917
+  ],
+  "uniformScale": 1.0,
+  "normalizedWorldDimensions": [
+    1.0,
+    0.44986435770988464,
+    0.735792875289917
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

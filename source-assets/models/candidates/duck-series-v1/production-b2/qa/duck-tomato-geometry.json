@@ -1,0 +1,18 @@
+{
+  "id": "duck-tomato",
+  "triangles": 3108,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.7700193524360657,
+    0.7349322438240051,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "passed": true
+}

@@ -1,0 +1,76 @@
+{
+  "inputs": [
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-eggtart\\duck-eggtart.fbx",
+      "sha256": "a6414d1a2ff5998645fb69b10fd67588c2d8653c6213fd43257c4a50053ac37d",
+      "staged": "Assets\\candidates\\duck-eggtart\\duck-eggtart.fbx"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-eggtart\\albedo.png",
+      "sha256": "4f5c319c2082b70f3ade0738ac408879ed838254273c5d791721f5dd57e397e6",
+      "staged": "Assets\\candidates\\duck-eggtart\\albedo.png"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-eggtart\\unity-metallic.png",
+      "sha256": "890c78f76d8f2262b9dc835acf52d20af1b0f3d588e37ee013730d206a775e03",
+      "staged": "Assets\\candidates\\duck-eggtart\\unity-metallic.png"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-eggtart\\convex-hull.obj",
+      "sha256": "8f6cc7b86a6bf7a41e2ea617d67a0a01c92481376e3d7c386d1d794e82a06c70",
+      "staged": "Assets\\candidates\\duck-eggtart\\collision.fbx",
+      "conversion": "The exact validated offline hull vertices, exported with the visual FBX axes."
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-steelcup\\duck-steelcup.fbx",
+      "sha256": "aed6507aa210efd1d389720a5ff58f50e5915f8bfbe73ee49eb953b6ccb466d7",
+      "staged": "Assets\\candidates\\duck-steelcup\\duck-steelcup.fbx"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-steelcup\\albedo.png",
+      "sha256": "4f5c319c2082b70f3ade0738ac408879ed838254273c5d791721f5dd57e397e6",
+      "staged": "Assets\\candidates\\duck-steelcup\\albedo.png"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-steelcup\\unity-metallic.png",
+      "sha256": "890c78f76d8f2262b9dc835acf52d20af1b0f3d588e37ee013730d206a775e03",
+      "staged": "Assets\\candidates\\duck-steelcup\\unity-metallic.png"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-steelcup\\convex-hull.obj",
+      "sha256": "0c45ddb90086a51e5622268bff81a730120c591c8b87ddf2aa7a1080a6adcdac",
+      "staged": "Assets\\candidates\\duck-steelcup\\collision.fbx",
+      "conversion": "The exact validated offline hull vertices, exported with the visual FBX axes."
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-numberblock\\duck-numberblock.fbx",
+      "sha256": "c8ff63554cfad6f1bd1c14491578b3b0f2208eadc09a42a8c99dd524deffa6ca",
+      "staged": "Assets\\candidates\\duck-numberblock\\duck-numberblock.fbx"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-numberblock\\albedo.png",
+      "sha256": "4f5c319c2082b70f3ade0738ac408879ed838254273c5d791721f5dd57e397e6",
+      "staged": "Assets\\candidates\\duck-numberblock\\albedo.png"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-numberblock\\unity-metallic.png",
+      "sha256": "890c78f76d8f2262b9dc835acf52d20af1b0f3d588e37ee013730d206a775e03",
+      "staged": "Assets\\candidates\\duck-numberblock\\unity-metallic.png"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\model-review-b2\\models\\duck-numberblock\\convex-hull.obj",
+      "sha256": "031f62b8c3d76ce6a680e1f271e08318e3b0001a22f0a315594ac5cdfc4e7970",
+      "staged": "Assets\\candidates\\duck-numberblock\\collision.fbx",
+      "conversion": "The exact validated offline hull vertices, exported with the visual FBX axes."
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\master-b2\\source\\duck-b2-master-rig.blend",
+      "sha256": "61871a3b432da740cf7466cb623a607621afb94760a0d5f56bd6622b3785b15b",
+      "staged": "Assets/candidates/duck-b2-home/duck-b2-home.fbx",
+      "conversion": "FBX bake of the three original actions, original blend unchanged."
+    }
+  ],
+  "sourceProjectModified": false,
+  "unityVersion": "2022.3.62f3",
+  "networkPolicyCopied": true
+}

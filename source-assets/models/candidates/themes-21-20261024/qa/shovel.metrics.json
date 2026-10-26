@@ -1,0 +1,28 @@
+{
+  "id": "shovel",
+  "theme": "farm",
+  "triangles": 724,
+  "vertices": 368,
+  "blenderBounds": [
+    0.41818180680274963,
+    0.11363635957241058,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 18024,
+  "sha256": "e6886fb70d1224ce3a58167173f99560f64f8a6ff8d81493050223d4436f6681",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

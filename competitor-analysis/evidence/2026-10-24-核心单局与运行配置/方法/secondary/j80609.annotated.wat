@@ -1,0 +1,60 @@
+  (func $j80609 (type $t5) (param $p0 i32) (param $p1 i32) (param $p2 i32) (result i32)
+    (local $l3 i32)
+    i32.const 5140319
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3957796 ;; LitJson.JsonMapper_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3957812 ;; LitJson.JsonWriter_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5140319
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3957812 ;; LitJson.JsonWriter_TypeInfo
+    i32.load
+    i32.const 137618
+    call_indirect $primary.table (type $t1)
+    local.set $p2
+    local.get $p2
+    i32.const 0
+    i32.const 37048
+    call_indirect $primary.table (type $t3)
+    local.get $p2
+    i32.const 1
+    i32.store8 offset=36
+    local.get $p1
+    local.get $p2
+    i32.load offset=24
+    local.get $p2
+    i32.load offset=28
+    i32.div_s
+    i32.mul
+    local.set $l3
+    local.get $p2
+    local.get $p1
+    i32.store offset=28
+    local.get $p2
+    local.get $l3
+    i32.store offset=24
+    i32.const 3957796 ;; LitJson.JsonMapper_TypeInfo
+    i32.load
+    i32.const 735
+    call_indirect $primary.table (type $t0)
+    local.get $p0
+    local.get $p2
+    i32.const 0
+    call $j43819 ;; LitJson.JsonMapper$$ToJson
+    local.get $p2
+    i32.load
+    local.set $p0
+    local.get $p2
+    local.get $p0
+    i32.load offset=216
+    local.get $p0
+    i32.load offset=212
+    call_indirect $primary.table (type $t2)
+    return)

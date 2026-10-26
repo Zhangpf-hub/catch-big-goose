@@ -1,0 +1,292 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912",
+  "files": [],
+  "subMetas": {
+    "60058": {
+      "importer": "gltf-mesh",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@60058",
+      "displayName": "",
+      "id": "60058",
+      "name": "Icosphere.013.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "98166": {
+      "importer": "gltf-material",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@98166",
+      "displayName": "",
+      "id": "98166",
+      "name": "bracelet_pale_jade.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "688b0": {
+      "importer": "gltf-mesh",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@688b0",
+      "displayName": "",
+      "id": "688b0",
+      "name": "focal-cloud-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 144
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "12b8b": {
+      "importer": "gltf-mesh",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@12b8b",
+      "displayName": "",
+      "id": "12b8b",
+      "name": "Torus.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 576
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e446": {
+      "importer": "gltf-mesh",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@1e446",
+      "displayName": "",
+      "id": "1e446",
+      "name": "Icosphere.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 1040
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "825ed": {
+      "importer": "gltf-mesh",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@825ed",
+      "displayName": "",
+      "id": "825ed",
+      "name": "Sphere.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 672
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "52ffd": {
+      "importer": "gltf-mesh",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@52ffd",
+      "displayName": "",
+      "id": "52ffd",
+      "name": "Torus.001.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 240
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe6ae": {
+      "importer": "gltf-mesh",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@fe6ae",
+      "displayName": "",
+      "id": "fe6ae",
+      "name": "Cone.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 188
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea688": {
+      "importer": "gltf-material",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@ea688",
+      "displayName": "",
+      "id": "ea688",
+      "name": "bracelet_gold_recess.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84b35": {
+      "importer": "gltf-material",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@84b35",
+      "displayName": "",
+      "id": "84b35",
+      "name": "bracelet_wine_cord.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "261e6": {
+      "importer": "gltf-material",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@261e6",
+      "displayName": "",
+      "id": "261e6",
+      "name": "bracelet_antique_gold.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "448a5": {
+      "importer": "gltf-material",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@448a5",
+      "displayName": "",
+      "id": "448a5",
+      "name": "bracelet_amethyst.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06ed1": {
+      "importer": "gltf-material",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@06ed1",
+      "displayName": "",
+      "id": "06ed1",
+      "name": "bracelet_amethyst_highlight.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "858f2": {
+      "importer": "gltf-scene",
+      "uuid": "ac6876d0-1eaa-425a-9859-d2251403e912@858f2",
+      "displayName": "",
+      "id": "858f2",
+      "name": "bracelet.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ac6876d0-1eaa-425a-9859-d2251403e912@688b0",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@12b8b",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@1e446",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@825ed",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@52ffd",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@fe6ae",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@60058"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ac6876d0-1eaa-425a-9859-d2251403e912@ea688",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@84b35",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@261e6",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@448a5",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@06ed1",
+        "ac6876d0-1eaa-425a-9859-d2251403e912@98166"
+      ],
+      "scenes": [
+        "ac6876d0-1eaa-425a-9859-d2251403e912@858f2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+  (func $j108299 (type $t5) (param $p0 i32) (param $p1 i32) (param $p2 i32) (result i32)
+    i32.const 5121040
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4017948 ;; Method$Kunpo.AssetManager.LoadAsset<IAssetBundleResource>()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5121040
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    local.get $p1
+    i32.const 4017948 ;; Method$Kunpo.AssetManager.LoadAsset<IAssetBundleResource>()
+    i32.load
+    i32.const 137866
+    call_indirect $primary.table (type $t5)
+    return)

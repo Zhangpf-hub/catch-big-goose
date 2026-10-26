@@ -1,0 +1,114 @@
+{
+  "basis": "Manual inspection of actual GLB roundtrip front/side/back/hero/gameplay sheets and 192/64px icons, including targeted corrected turnarounds.",
+  "initialThreeUserApproved": true,
+  "remainingSeventeenUserApprovalClaimed": false,
+  "checks": [
+    "Consistent B2 small head, bill and feet",
+    "Neck roots embedded in props",
+    "Tail attachment on final watermelon and farmer",
+    "Five-theme prop silhouette and color separation",
+    "Same-unit competitor comparisons; original reference sources unchanged"
+  ],
+  "models": [
+    {
+      "id": "duck-eggpancake",
+      "sha256": "4b12cab2585706d1834a66c0f68c0f245afe22532768c82032aee65f424762b9",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-eggtart",
+      "sha256": "b657c83435da8b0606c61794e0bc79bfa57bca5fe9ac95fe39180c5cd5bd2fd1",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-milletcake",
+      "sha256": "98e4b933794770f25ad556ccc62c4bad0adbbe1723e4efa006a4fbec7c8208dc",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-steamedbread",
+      "sha256": "b4a24c0a2658000178aa582e83ef44173a87766d924451f2d160d311d6525d3f",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-eggplant",
+      "sha256": "16a501081eae14d506022440847dbdf8922eee943ad5c3cf05868340459edf73",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-greenpepper",
+      "sha256": "9b42b5a92de2e85f330d6c8e87f9637095f2eeded52fae20b143b2b9213139da",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-pancake",
+      "sha256": "55467ee3e91059e0234efbe44cc5b021779a42f39b6df9e11e383bc7537c5729",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-potato",
+      "sha256": "45d8f46025ea092f9e59b39883a4ddd07d5c74052b4f209f07f7b54dacea7f65",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-tomato",
+      "sha256": "5addf06eccbfce51d4c58caaa69510597c4fbe30b31d1bd0cf087020cc972809",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-steelcup",
+      "sha256": "b3dc84c5384936a59c98e2b2e126c1b1397e89c245d8eca33df0a1c44864c325",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-farmer",
+      "sha256": "20c60d936a32bb6270cd6e67ebe757b730a5c9c454f402636fae5dd92e80922f",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-watermelon",
+      "sha256": "b2a8b8060dafa6b1029e5d99c6701ff139e9439ae54003c0441f569db7288044",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-numberblock",
+      "sha256": "e3908538fc7f9e02d6117babea29959fd3d3871c556a4730979f47e5e9a23409",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-yoyo",
+      "sha256": "36c43ef7d0df499ed4bc7fdff741ebb21c9c95899f69faa5d8443dd08a9ecd94",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-craftpunch",
+      "sha256": "f3353486747063ca4a0d39057eb901e932093ceac7ebe4c26313660ab7773e66",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-capsulepen",
+      "sha256": "8578e2da8f95d574aed44b4af902e0c61934ff64fed74b138efad5946c76a380",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-chilisauce",
+      "sha256": "0493c2fbd569b7fc559242260fb1f8bdd0372535171deb4be6c79ef559165dda",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-colacup",
+      "sha256": "d4cacd3dade67b10f93dd9a09f5adbd131962dc2ca6c3a00a6b09617bc6752b8",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-egg",
+      "sha256": "8362834b4b3b8328dbed4975f177202949b12dbba267d7b932df5b0327827b42",
+      "assistantVisualReview": "reviewed"
+    },
+    {
+      "id": "duck-noodles",
+      "sha256": "07e97880bf7ed4d3396bfbace7cc69b15f33b3938fcf935648c7243b0004d6ce",
+      "assistantVisualReview": "reviewed"
+    }
+  ]
+}

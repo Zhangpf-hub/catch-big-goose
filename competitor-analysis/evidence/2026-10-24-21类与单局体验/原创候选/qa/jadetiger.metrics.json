@@ -1,0 +1,28 @@
+{
+  "id": "jadetiger",
+  "theme": "antique",
+  "triangles": 2016,
+  "vertices": 1100,
+  "blenderBounds": [
+    1.0,
+    0.4160097539424896,
+    0.6689885854721069
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 49364,
+  "sha256": "45f251887ec8f81ad7e2a1f1b35c27b6606d2e6dbca4df476f1b04d96864c25f",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

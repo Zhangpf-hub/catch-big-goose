@@ -1,0 +1,982 @@
+[
+  {
+    "path": "algorithm/algorithm-acceptance.json",
+    "bytes": 11078,
+    "sha256": "7797180f09cca86fa1434ee4c693583a13560160fbeb64d0bc14c78c8b5e7c8a"
+  },
+  {
+    "path": "algorithm.log",
+    "bytes": 64001,
+    "sha256": "bf8a58f38239251f2871a2a7a294c024dad72b7889fdd84c78dd78305eff0e5e"
+  },
+  {
+    "path": "before-sources/Assets/Editor/GooseAlgorithmBuild.cs",
+    "bytes": 1703,
+    "sha256": "5a7e18d82e50dfc9c35b365a193f6c3b78b638d565cb79e3c6e2827f6ce88de4"
+  },
+  {
+    "path": "before-sources/Assets/Editor/GooseAssetImporter.cs",
+    "bytes": 2335,
+    "sha256": "4060af3d301b7893f9876df3da1210b3a4f15712787beabc17b1e9795b4b6211"
+  },
+  {
+    "path": "before-sources/Assets/Editor/GooseDeviceAudit.cs",
+    "bytes": 3887,
+    "sha256": "8d1d8adeccbbe5d97acc763eaad12364747fde81f50bddc4344efdb34896bbd0"
+  },
+  {
+    "path": "before-sources/Assets/Editor/GooseDeviceBuild.cs",
+    "bytes": 768,
+    "sha256": "aac1964a61286fe0223037adad625f16526fd2a0a170037fa54626c9e8d8fb03"
+  },
+  {
+    "path": "before-sources/Assets/Editor/GoosePhysicsBake.cs",
+    "bytes": 5733,
+    "sha256": "f9396c0ae21ec53ec808118d38acc6fe30fc3d0ca544bc945ff5e7fdd6789f0c"
+  },
+  {
+    "path": "before-sources/Assets/Editor/GooseProjectSetup.cs",
+    "bytes": 8387,
+    "sha256": "8835449cc383aadd1453f5074fa04d0f074791236774934cbc78620e8187554b"
+  },
+  {
+    "path": "before-sources/Assets/Editor/GooseWeChatBuild.cs",
+    "bytes": 8531,
+    "sha256": "1dfc39cde23ca5ca8548d07d794308bb0446f4b3c1a165b395a25005eb73b338"
+  },
+  {
+    "path": "before-sources/Assets/Resources/Data/core-rounds.json",
+    "bytes": 1237,
+    "sha256": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800"
+  },
+  {
+    "path": "before-sources/Assets/Resources/Data/item-presentation.json",
+    "bytes": 10458,
+    "sha256": "588bc77ceb2ad118851ab58b236310a4139fec2bb4c1b78ba7e89237d296e5bf"
+  },
+  {
+    "path": "before-sources/Assets/Resources/Data/level-tuning.json",
+    "bytes": 22,
+    "sha256": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d"
+  },
+  {
+    "path": "before-sources/Assets/Resources/Data/pile-algorithms.json",
+    "bytes": 452,
+    "sha256": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44"
+  },
+  {
+    "path": "before-sources/Assets/Resources/Data/reference-lab.json",
+    "bytes": 932,
+    "sha256": "680c9b4ce39e660ddce02f88b3aba85244443751bfe8b3c5c629649578ec08cc"
+  },
+  {
+    "path": "before-sources/Assets/Resources/Data/themes.json",
+    "bytes": 5656,
+    "sha256": "d6528a2aeb49e96d97e10db6aca8f83a00bdd50c3ad2da2757d86f76c339c767"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseAcceptance.cs",
+    "bytes": 11917,
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseAlgorithmAcceptance.cs",
+    "bytes": 19144,
+    "sha256": "d6847ba3f7ac3e4d177d8d635dc5500ab67c9c2a6f7bd7fd05eb79d37e792ca7"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseAssetCache.cs",
+    "bytes": 4897,
+    "sha256": "99f65a96e7df28aacad33cbfc9c9c0d53da0e0fcc2bfa58c9807449472c2aa8c"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseColliderProfile.cs",
+    "bytes": 2677,
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseDepthPolicy.cs",
+    "bytes": 3064,
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseDeviceBenchmark.cs",
+    "bytes": 5032,
+    "sha256": "891b6518e5847851463700326a5f356cc65dc05ea4d2ff687b8473c469d350c3"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseDeviceMonitor.cs",
+    "bytes": 2758,
+    "sha256": "630af87b610e6067bc76a68ca41272364eb2d49947c83eb0327c8d3c4d24659e"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseExperienceAcceptance.cs",
+    "bytes": 10487,
+    "sha256": "cd54adb57e4df7eeb84edef884da2562f092680af167711d47c64d67ab564d09"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseFrameCapture.cs",
+    "bytes": 2141,
+    "sha256": "9cda29040c8e31e0e2727d58055664d558feb470aa739f156b2df2bb48b3d05a"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseGame.cs",
+    "bytes": 48895,
+    "sha256": "5aac6d562c168d8d650afdb1512478955059a3a91cc44b52fa8c91ad2fe7c4ae"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseGeneration.cs",
+    "bytes": 10259,
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseHud.cs",
+    "bytes": 26395,
+    "sha256": "4ed812ef60024ebd18a0488b0889d0ca95a1d5db91b355625d199ab838bddca9"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseInteractionAcceptance.cs",
+    "bytes": 11339,
+    "sha256": "ea4828d66049de85e0a2cc0430a6a6b57ce30a90098db8b838500c4013ae50b1"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseItem.cs",
+    "bytes": 5664,
+    "sha256": "1d7092a22cf8968ce720cfad25616550f6ab41615f5145fd60748efa7481fec9"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseLevelPolicy.cs",
+    "bytes": 3946,
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GoosePerformanceAcceptance.cs",
+    "bytes": 3403,
+    "sha256": "65c047bbd94abb8063b7129dc5aec76039dc0011cf36e6c3826ee982ed545c9b"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GoosePerformanceCounters.cs",
+    "bytes": 467,
+    "sha256": "41c1657697cad11c2352bef63b08ea6b8a2568633758923332373f1c9a75ef87"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GoosePhoneLayout.cs",
+    "bytes": 2820,
+    "sha256": "7533fa4cfced9ea59cfbe3be1578b4a1f90311949bcbbc2a6daf86e55cec7252"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GoosePileDepth.cs",
+    "bytes": 7266,
+    "sha256": "acb6ff2d4be1818e97e1eace2cb88c66745eb2c83e4c09448bd97547f9a36604"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GoosePresentationProfile.cs",
+    "bytes": 725,
+    "sha256": "1c330f72c1a3f637cf8e60fc7963a7a5235470d9a9094cc393c15f4ae3af35b0"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseRoundProfiler.cs",
+    "bytes": 1941,
+    "sha256": "547f8de28dc982d13d145a44dfc80bda6b2b63454306af5b8c8532ec8c4d2acf"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseRules.cs",
+    "bytes": 10382,
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseRuntimePerformance.cs",
+    "bytes": 1058,
+    "sha256": "c9760b3b64e6eeecfd7198356b4076cc382c1d9aaa4a2125cb7e76adaa3f777b"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseToolIcon.cs",
+    "bytes": 2149,
+    "sha256": "930ece573f6693586c33f6cfd58008680f7ae8fc2bdd5b14e5c01a9af7d8fe07"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseTrayPresentation.cs",
+    "bytes": 8007,
+    "sha256": "e4e06cf662751bb87537980fcd0a640f47723610bc64039dde42c6999a3ccd67"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseUiAcceptance.cs",
+    "bytes": 7165,
+    "sha256": "6a574480dd95fc245f28e0e051a33ba8a83b70229e79b3ebca076834bad73a77"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseVideo.cs",
+    "bytes": 7542,
+    "sha256": "d8bfb223d6bdca4f8acc9234ddf62fefb60ffe00ce0687b3874ae4bdc73f5eec"
+  },
+  {
+    "path": "before-sources/Assets/Scripts/GooseWeChatPlatform.cs",
+    "bytes": 4497,
+    "sha256": "dab9c3848262ad40755661a552e0cc98bc11702872a2d147f4d6aaa41d919c45"
+  },
+  {
+    "path": "before-sources/Assets/Tests/Editor/GooseColliderProfileTests.cs",
+    "bytes": 2246,
+    "sha256": "c831224ae2e85014c75d97e6edb281b3c53dbfd1e76cf9ab85c87f5b87f666c9"
+  },
+  {
+    "path": "before-sources/Assets/Tests/Editor/GooseCoreRoundTests.cs",
+    "bytes": 4350,
+    "sha256": "6b42ceb2f9f54056b2da3fd5ec8d22151a539b102d50667ec75860fccc4e41c6"
+  },
+  {
+    "path": "before-sources/Assets/Tests/Editor/GooseDepthIntegrationTests.cs",
+    "bytes": 1827,
+    "sha256": "f900471ee19c3a07410525fd600ec690d324255471bc203f79fd849c67760a7f"
+  },
+  {
+    "path": "before-sources/Assets/Tests/Editor/GooseMobileBudgetTests.cs",
+    "bytes": 2377,
+    "sha256": "894f7eb2af6ecd0016407ff31bda06122652befdc54304d7ea29cb06c6dbf537"
+  },
+  {
+    "path": "before-sources/Assets/Tests/Editor/GoosePerformanceTests.cs",
+    "bytes": 2205,
+    "sha256": "8d7a587c08f73976844e592b527bc2c39fbf2156a29e0a0b86e98dfd28c79296"
+  },
+  {
+    "path": "before-sources/Assets/Tests/Editor/GooseRulesTests.cs",
+    "bytes": 2405,
+    "sha256": "68e3d3ac1a2fd5969cb6b1fc734eb22b5c8fc7e619d3901973111e7473ec3b34"
+  },
+  {
+    "path": "build-delivery.log",
+    "bytes": 369558,
+    "sha256": "a51671835e3de287fcc5ef53772a20cdf730b3ab59edd7fa773364250de09963"
+  },
+  {
+    "path": "competitor-camera-transforms.json",
+    "bytes": 19184,
+    "sha256": "f2f4a8a2ad9adb34a16486fbb28410087e4e955973b3f3ff85c6fb093a497d5d"
+  },
+  {
+    "path": "competitor-GetObjSize.wat",
+    "bytes": 1996,
+    "sha256": "82332da336b05764295b7adbe16d88a94fc0285c13a4ece6676972552c98ee1e"
+  },
+  {
+    "path": "competitor-reference.png",
+    "bytes": 824387,
+    "sha256": "f6a21269a835c62e6b2491ff48704fd0dfc8df427ea4fbe3ac9f3136a0e55d86"
+  },
+  {
+    "path": "delivery-sources/Assets/Editor/GooseAlgorithmBuild.cs",
+    "bytes": 1703,
+    "sha256": "5a7e18d82e50dfc9c35b365a193f6c3b78b638d565cb79e3c6e2827f6ce88de4"
+  },
+  {
+    "path": "delivery-sources/Assets/Editor/GooseAssetImporter.cs",
+    "bytes": 2335,
+    "sha256": "4060af3d301b7893f9876df3da1210b3a4f15712787beabc17b1e9795b4b6211"
+  },
+  {
+    "path": "delivery-sources/Assets/Editor/GooseDeviceAudit.cs",
+    "bytes": 3887,
+    "sha256": "8d1d8adeccbbe5d97acc763eaad12364747fde81f50bddc4344efdb34896bbd0"
+  },
+  {
+    "path": "delivery-sources/Assets/Editor/GooseDeviceBuild.cs",
+    "bytes": 856,
+    "sha256": "c94ba6dd1854b53405dce021b86e4f72b8ac22af287667eca19119e3fa0c219f"
+  },
+  {
+    "path": "delivery-sources/Assets/Editor/GoosePhysicsBake.cs",
+    "bytes": 5733,
+    "sha256": "f9396c0ae21ec53ec808118d38acc6fe30fc3d0ca544bc945ff5e7fdd6789f0c"
+  },
+  {
+    "path": "delivery-sources/Assets/Editor/GooseProjectSetup.cs",
+    "bytes": 8387,
+    "sha256": "8835449cc383aadd1453f5074fa04d0f074791236774934cbc78620e8187554b"
+  },
+  {
+    "path": "delivery-sources/Assets/Editor/GooseWeChatBuild.cs",
+    "bytes": 8531,
+    "sha256": "1dfc39cde23ca5ca8548d07d794308bb0446f4b3c1a165b395a25005eb73b338"
+  },
+  {
+    "path": "delivery-sources/Assets/Resources/Data/core-rounds.json",
+    "bytes": 1237,
+    "sha256": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800"
+  },
+  {
+    "path": "delivery-sources/Assets/Resources/Data/item-presentation.json",
+    "bytes": 10458,
+    "sha256": "588bc77ceb2ad118851ab58b236310a4139fec2bb4c1b78ba7e89237d296e5bf"
+  },
+  {
+    "path": "delivery-sources/Assets/Resources/Data/level-tuning.json",
+    "bytes": 22,
+    "sha256": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d"
+  },
+  {
+    "path": "delivery-sources/Assets/Resources/Data/pile-algorithms.json",
+    "bytes": 452,
+    "sha256": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44"
+  },
+  {
+    "path": "delivery-sources/Assets/Resources/Data/reference-lab.json",
+    "bytes": 932,
+    "sha256": "680c9b4ce39e660ddce02f88b3aba85244443751bfe8b3c5c629649578ec08cc"
+  },
+  {
+    "path": "delivery-sources/Assets/Resources/Data/themes.json",
+    "bytes": 5658,
+    "sha256": "3a95b3a235d2d399d5df7562b6767553df7f4180553242348ff5492b9c3c285e"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseAcceptance.cs",
+    "bytes": 11917,
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseAlgorithmAcceptance.cs",
+    "bytes": 19144,
+    "sha256": "d6847ba3f7ac3e4d177d8d635dc5500ab67c9c2a6f7bd7fd05eb79d37e792ca7"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseAssetCache.cs",
+    "bytes": 4897,
+    "sha256": "99f65a96e7df28aacad33cbfc9c9c0d53da0e0fcc2bfa58c9807449472c2aa8c"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseColliderProfile.cs",
+    "bytes": 2677,
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseDepthPolicy.cs",
+    "bytes": 3064,
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseDeviceBenchmark.cs",
+    "bytes": 5032,
+    "sha256": "891b6518e5847851463700326a5f356cc65dc05ea4d2ff687b8473c469d350c3"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseDeviceMonitor.cs",
+    "bytes": 2758,
+    "sha256": "af9862c9981107983e3355d1bc3fdfbb9e9ee87766c6ae1938422f3c20c29c89"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseExperienceAcceptance.cs",
+    "bytes": 10736,
+    "sha256": "35225e751303c9e70761d92b6ca6ddcfe9d7db49cc82e4bd8213a88dee45a30d"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseFrameCapture.cs",
+    "bytes": 2185,
+    "sha256": "990153b3af0b627332b7f86d3bed92528571599b067ddb9c2cd81973dafdfdc9"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseGame.cs",
+    "bytes": 49307,
+    "sha256": "21dde6536414c4ecb1383d9cba371a039c62f69d131fbed29f6cdc9144c74d85"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseGeneration.cs",
+    "bytes": 10259,
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseHud.cs",
+    "bytes": 26395,
+    "sha256": "9e34030f40ca3ad7082c1e466bfa237a911e1d21eced082c5462ad645762d05e"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseInteractionAcceptance.cs",
+    "bytes": 11339,
+    "sha256": "ea4828d66049de85e0a2cc0430a6a6b57ce30a90098db8b838500c4013ae50b1"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseItem.cs",
+    "bytes": 5664,
+    "sha256": "1d7092a22cf8968ce720cfad25616550f6ab41615f5145fd60748efa7481fec9"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseLevelPolicy.cs",
+    "bytes": 3946,
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GoosePerformanceAcceptance.cs",
+    "bytes": 3403,
+    "sha256": "65c047bbd94abb8063b7129dc5aec76039dc0011cf36e6c3826ee982ed545c9b"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GoosePerformanceCounters.cs",
+    "bytes": 467,
+    "sha256": "41c1657697cad11c2352bef63b08ea6b8a2568633758923332373f1c9a75ef87"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GoosePhoneLayout.cs",
+    "bytes": 3428,
+    "sha256": "f77a79dc3c86a414539fe83af83c8bf6b112099a978e86dbe82caaaf34e58f23"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GoosePileDepth.cs",
+    "bytes": 7266,
+    "sha256": "acb6ff2d4be1818e97e1eace2cb88c66745eb2c83e4c09448bd97547f9a36604"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GoosePresentationProfile.cs",
+    "bytes": 725,
+    "sha256": "1c330f72c1a3f637cf8e60fc7963a7a5235470d9a9094cc393c15f4ae3af35b0"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseRoundProfiler.cs",
+    "bytes": 1941,
+    "sha256": "547f8de28dc982d13d145a44dfc80bda6b2b63454306af5b8c8532ec8c4d2acf"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseRules.cs",
+    "bytes": 10382,
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseRuntimePerformance.cs",
+    "bytes": 1058,
+    "sha256": "f1f5504647a2590ac904bd8060a267dd0c3d538c4c5d6510d3d65a7ea8c2dc59"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseScaleAcceptance.cs",
+    "bytes": 5533,
+    "sha256": "1ba4f206d722a98c24019a108fffc3e242e96f9bd6fca5024667cee44c91e490"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseToolIcon.cs",
+    "bytes": 2149,
+    "sha256": "930ece573f6693586c33f6cfd58008680f7ae8fc2bdd5b14e5c01a9af7d8fe07"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseTrayPresentation.cs",
+    "bytes": 8007,
+    "sha256": "e4e06cf662751bb87537980fcd0a640f47723610bc64039dde42c6999a3ccd67"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseUiAcceptance.cs",
+    "bytes": 7165,
+    "sha256": "6a574480dd95fc245f28e0e051a33ba8a83b70229e79b3ebca076834bad73a77"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseVideo.cs",
+    "bytes": 7542,
+    "sha256": "d8bfb223d6bdca4f8acc9234ddf62fefb60ffe00ce0687b3874ae4bdc73f5eec"
+  },
+  {
+    "path": "delivery-sources/Assets/Scripts/GooseWeChatPlatform.cs",
+    "bytes": 4497,
+    "sha256": "dab9c3848262ad40755661a552e0cc98bc11702872a2d147f4d6aaa41d919c45"
+  },
+  {
+    "path": "delivery-sources/Assets/Tests/Editor/GooseColliderProfileTests.cs",
+    "bytes": 2246,
+    "sha256": "c831224ae2e85014c75d97e6edb281b3c53dbfd1e76cf9ab85c87f5b87f666c9"
+  },
+  {
+    "path": "delivery-sources/Assets/Tests/Editor/GooseCoreRoundTests.cs",
+    "bytes": 4350,
+    "sha256": "6b42ceb2f9f54056b2da3fd5ec8d22151a539b102d50667ec75860fccc4e41c6"
+  },
+  {
+    "path": "delivery-sources/Assets/Tests/Editor/GooseDepthIntegrationTests.cs",
+    "bytes": 1827,
+    "sha256": "f900471ee19c3a07410525fd600ec690d324255471bc203f79fd849c67760a7f"
+  },
+  {
+    "path": "delivery-sources/Assets/Tests/Editor/GooseMobileBudgetTests.cs",
+    "bytes": 2377,
+    "sha256": "894f7eb2af6ecd0016407ff31bda06122652befdc54304d7ea29cb06c6dbf537"
+  },
+  {
+    "path": "delivery-sources/Assets/Tests/Editor/GoosePerformanceTests.cs",
+    "bytes": 2205,
+    "sha256": "8d7a587c08f73976844e592b527bc2c39fbf2156a29e0a0b86e98dfd28c79296"
+  },
+  {
+    "path": "delivery-sources/Assets/Tests/Editor/GooseRulesTests.cs",
+    "bytes": 2405,
+    "sha256": "68e3d3ac1a2fd5969cb6b1fc734eb22b5c8fc7e619d3901973111e7473ec3b34"
+  },
+  {
+    "path": "documents-and-tools/22-场景与物件占屏比例修正.md",
+    "bytes": 9815,
+    "sha256": "e4e19625953cdadc9cca4dacf5c8a791ad54407323e245edf6cc34dce710f9b3"
+  },
+  {
+    "path": "documents-and-tools/archive_scale_alignment.py",
+    "bytes": 7782,
+    "sha256": "4436b117525748d1cc120f6c546d970332a1c6e82cbe9e8e50dc3a10bffe57d7"
+  },
+  {
+    "path": "documents-and-tools/read_scene_proportions.py",
+    "bytes": 2610,
+    "sha256": "e1499a2009a893514e044c27fb2ae323275015793aad4d7800524d684ee93b03"
+  },
+  {
+    "path": "documents-and-tools/README.md",
+    "bytes": 11263,
+    "sha256": "d5cd7c814d1a93568f7657e7cfe2392fa312d54fea2179a105595e02263fd405"
+  },
+  {
+    "path": "documents-and-tools/verify_scale_alignment.py",
+    "bytes": 1103,
+    "sha256": "33770d6a3406fca1776cf7db186c9424bfecd56aead7ad56b0fb55cfe96af0d5"
+  },
+  {
+    "path": "documents-and-tools/WECHAT.md",
+    "bytes": 9537,
+    "sha256": "4c3ab686a6fcdcc7e83855723542e4da34e6b5d5b54d49ef3e50c8a64ea0f0ca"
+  },
+  {
+    "path": "edit-tests-delivery.log",
+    "bytes": 96363,
+    "sha256": "18a4d33f750fea480dd2e0f11cdc4281c62faad3e19e86675dcc6a234dc54603"
+  },
+  {
+    "path": "edit-tests-delivery.xml",
+    "bytes": 15735,
+    "sha256": "8d9fc08efbc9e4ea9a2e3c29364e37c00081c5370b79499b7a57aaf140f5c483"
+  },
+  {
+    "path": "experience/experience.json",
+    "bytes": 25173,
+    "sha256": "9b41fb083c56ee3cf5269ec4b4bb86bc5cbb6abeb157090b7d975cd982e97e0f"
+  },
+  {
+    "path": "experience.log",
+    "bytes": 75445,
+    "sha256": "e6b7048d58c00dfef8039ee809ac823680fcacb925881b0f5f79e9d6ec4eb8b0"
+  },
+  {
+    "path": "interaction/full-tray-result.png",
+    "bytes": 226622,
+    "sha256": "431723623f97d7df5cd2b1fa840866a8ba41b39dfdaaede261d28a50dde76581"
+  },
+  {
+    "path": "interaction/interaction.json",
+    "bytes": 4100,
+    "sha256": "9565bb39b79413cd8d1dd4f75639efb7046341cce9f044152018c5da0e674c6b"
+  },
+  {
+    "path": "interaction/master-opening-complete.png",
+    "bytes": 363325,
+    "sha256": "46517884e30cafb35c9155fa28d207f2e84f9cbd1bc8ef57e6007b2203556698"
+  },
+  {
+    "path": "interaction/opening-bottom.png",
+    "bytes": 219725,
+    "sha256": "4c8e3a6120df87682dcfcadb8dd176a8589a9d38e07c4f9965951fe0f6f11272"
+  },
+  {
+    "path": "interaction/opening-complete.png",
+    "bytes": 278880,
+    "sha256": "523f770360e3224628bef6e0e04d597ba2a209a076c20f70d221fc7f37411827"
+  },
+  {
+    "path": "interaction/opening-middle.png",
+    "bytes": 227504,
+    "sha256": "dd4a024be824085b4b945132eb0eef51080dd2fe8508d4e00ac2942579f3c9e1"
+  },
+  {
+    "path": "interaction/pick-arrived.png",
+    "bytes": 274353,
+    "sha256": "1922e9cb7cfb1655ed7521b1b7c3fa2b092e4b4485e992c1325d3c20dab026ef"
+  },
+  {
+    "path": "interaction/pick-middle.png",
+    "bytes": 284275,
+    "sha256": "4321c01717afee08b99f73393747a4514de2a75fa35d424c7275616b141daa2e"
+  },
+  {
+    "path": "interaction/stored-models.png",
+    "bytes": 369212,
+    "sha256": "fa4a8406e78c7982ef5091890c101ccd4ec4881b484966dfaca491b5eec31b2e"
+  },
+  {
+    "path": "interaction/tray-reordered.png",
+    "bytes": 362441,
+    "sha256": "44c6d7e8c0ea14343f39e657d62e5e85293aea08c5e0003c527fbc216cc84103"
+  },
+  {
+    "path": "interaction/triple-in-flight.png",
+    "bytes": 263882,
+    "sha256": "8a3076be056454a38fbc796aa4c859316d5fd2abc7f47d78a7236078ac455e63"
+  },
+  {
+    "path": "interaction.log",
+    "bytes": 17023,
+    "sha256": "c0d30a99a8c20ba015b56e1bd44d890f22280ee8d5d66c5e06d6818ee751c1f1"
+  },
+  {
+    "path": "reference/experience.json",
+    "bytes": 13247,
+    "sha256": "9c4ccb2729479e378074c2cda26cce0aaab648ba68176ea055d0ec67b9024067"
+  },
+  {
+    "path": "reference.log",
+    "bytes": 74541,
+    "sha256": "609fa2c4fed982a46405437730017fb81bd6de7aa3d4192798dd308ee8cb2cb6"
+  },
+  {
+    "path": "rejected-initial-layout/algorithm.log",
+    "bytes": 48066,
+    "sha256": "5500de86ab73dd0b8fac22340b5e30398a6b0982a9a56b0690f8161292b7d3ce"
+  },
+  {
+    "path": "rejected-initial-layout/experience/experience.json",
+    "bytes": 13186,
+    "sha256": "bb570681884836d4ab909f514565d6c846c2ab93a4c7705f1b759651dc8bf3d7"
+  },
+  {
+    "path": "rejected-initial-layout/experience.log",
+    "bytes": 14135,
+    "sha256": "a6a326c0c40d2b69a784b27df08472f12148371fefb54be6cc2ba729b4657136"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/full-tray-result.png",
+    "bytes": 225823,
+    "sha256": "ab0310d3450b3f782778986acb6c72eb529c17a51d9f87f4b48cf5f2f88e62fa"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/interaction.json",
+    "bytes": 4099,
+    "sha256": "6c238ab1a5417e7f9b09e59407fff1e41c525c3e60ecc1d43fc84a3aaf017d1d"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/master-opening-complete.png",
+    "bytes": 368938,
+    "sha256": "dc218f1f6e242cb226e5b8edf6a0972fa42abe5f65ee7a5e3173812496323bad"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/opening-bottom.png",
+    "bytes": 219725,
+    "sha256": "4c8e3a6120df87682dcfcadb8dd176a8589a9d38e07c4f9965951fe0f6f11272"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/opening-complete.png",
+    "bytes": 278880,
+    "sha256": "523f770360e3224628bef6e0e04d597ba2a209a076c20f70d221fc7f37411827"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/opening-middle.png",
+    "bytes": 224961,
+    "sha256": "2d5d4a18143c1d3e91ffcae383f7c632ac19d31fa4ce853176fde9e66aa431ac"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/pick-arrived.png",
+    "bytes": 274223,
+    "sha256": "f9f9e42b1acc4a70cebc81569f79acb5f90d6ccc393acb34f4a8701079700bb3"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/pick-middle.png",
+    "bytes": 284668,
+    "sha256": "7360e353685ae4d6d92f58a78cbae704205e1aa6145cbb42c9aff07d4339aa49"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/stored-models.png",
+    "bytes": 379296,
+    "sha256": "b565aa49d345ffd9acc69f45b7c3ddc815472a72f87fbfa836a0ee3d83d41cee"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/tray-reordered.png",
+    "bytes": 375702,
+    "sha256": "5ab9b7b2cf956e892a8d68981de360e7b0b204f9feb729af2064d4f14cee79a5"
+  },
+  {
+    "path": "rejected-initial-layout/interaction/triple-in-flight.png",
+    "bytes": 263631,
+    "sha256": "ecf1ec5bd3110fb21dfa4cb05c6d36fd8bc762ceefa889eb39a40b1fb7bca228"
+  },
+  {
+    "path": "rejected-initial-layout/interaction.log",
+    "bytes": 17052,
+    "sha256": "741cf00de3f7512d4f0ffd282a1f0f31bf3dc12251ad7af691db902341c70262"
+  },
+  {
+    "path": "rejected-initial-layout/reference.log",
+    "bytes": 92437,
+    "sha256": "5a3d6c469521a18db1442f0cfde8f7a3d6a951febe6dae75303c0f33fe4956a8"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/antique-300.png",
+    "bytes": 489909,
+    "sha256": "8c7d3bc6eb399ee38021ba08364b302cb95b6180c994b159f7f4ea98338aa73b"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/dessert-300.png",
+    "bytes": 421712,
+    "sha256": "c6427afd12d14dc8b87f1e35cf174a64d5a55d5f2b9f0eb000f226f0cca93ecf"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/electronics-300.png",
+    "bytes": 338052,
+    "sha256": "2799ac110a90555d3e24627f1935eac6670259b4d2e52af98ae0d735997e4e0b"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/farm-300.png",
+    "bytes": 466397,
+    "sha256": "b9d70dea19dfaabb878106a609d20cfca73967dcbca1bdd80e88fb67a01a11d5"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/fruit-300.png",
+    "bytes": 384021,
+    "sha256": "be3864ac6cb23398c13c16871e609095209659a4dbfda6ab3eb92490622e2a1e"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/proportions.json",
+    "bytes": 129260,
+    "sha256": "5253b1f76d33400888d9f8bd2a6604a32cff106eb992f38ab04582875bd30f01"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/reference_toys-126.png",
+    "bytes": 522366,
+    "sha256": "d3ab0a87d2b10bb14638a9346edb311f117440e65563738d74652dfc1c15c998"
+  },
+  {
+    "path": "rejected-initial-layout/render-393/reference_toys-300.png",
+    "bytes": 517803,
+    "sha256": "d2e461c2e12d2fec6563807534c520412ac1ca59dc742811867aafe9b2e01b37"
+  },
+  {
+    "path": "rejected-initial-layout/render-393.log",
+    "bytes": 25740,
+    "sha256": "0ac7b853caadc7d3681a2c115659052ef1a54f644364bbf3fe1076795afb5d1d"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/antique-300.png",
+    "bytes": 679412,
+    "sha256": "42b94ff9117926177cd57d27601aa524dab54f4187c29dc90b4221460c19d1ee"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/dessert-300.png",
+    "bytes": 558670,
+    "sha256": "dff6b0c09ec62122c80f7e1256299a0b6acb3706c13c5c02d43392925ac8847a"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/electronics-300.png",
+    "bytes": 369792,
+    "sha256": "97d95223e7c5b29b032c5de51a98db2391b36218869a6a0572b424b6edd6c6b3"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/farm-300.png",
+    "bytes": 623326,
+    "sha256": "e16c3c3ab39dc9c8b3788c1cc6c6f641c2ded9b3b5429c723f99895cc67480bb"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/fruit-300.png",
+    "bytes": 465975,
+    "sha256": "224e50fd313a861cd5c2e892350d526f8972ef8c835c08104873ebe17b296c34"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/proportions.json",
+    "bytes": 132008,
+    "sha256": "cdf53b05c5dc70ba46e805f92514faa50d3e9e6eca873ee482c1cc07b8558f3d"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/reference_toys-126.png",
+    "bytes": 750595,
+    "sha256": "77ebbd7e2837783b53ac48129251af342a12729f36f22acd22a4d47151a5f9f6"
+  },
+  {
+    "path": "rejected-initial-layout/render-563/reference_toys-300.png",
+    "bytes": 753477,
+    "sha256": "66ab240611c023bfe5a6d4d0e8872043d2d247eb61b94fc6708b5db711024d0b"
+  },
+  {
+    "path": "rejected-initial-layout/render-563.log",
+    "bytes": 25803,
+    "sha256": "2d9573778fc7ef5ca0611c280d685edd80126683afff305e8238373b22b6c810"
+  },
+  {
+    "path": "render-393/antique-300.png",
+    "bytes": 484863,
+    "sha256": "1892b01f1418ea3bec9ee365cfcf66735cd742f7e68b443debb452e90e56502d"
+  },
+  {
+    "path": "render-393/dessert-300.png",
+    "bytes": 425826,
+    "sha256": "387ae82382ad732bba5b7b19e2a77ba54359d424d18ad084b73e7c897de67264"
+  },
+  {
+    "path": "render-393/electronics-300.png",
+    "bytes": 330992,
+    "sha256": "2094d95324c6a582bbe9fe03c26613f559dfe2611d86a2454d370abb5ac45879"
+  },
+  {
+    "path": "render-393/farm-300.png",
+    "bytes": 469570,
+    "sha256": "ba79442ff90cc439d5148b3e700f4ae1813c7743532545ca8e02fbf838bb4ad5"
+  },
+  {
+    "path": "render-393/fruit-300.png",
+    "bytes": 380880,
+    "sha256": "ecf82b1c19cd03e16c346992e7ab9e62636b5faabcd3b5b5571147dad4efec65"
+  },
+  {
+    "path": "render-393/proportions.json",
+    "bytes": 123636,
+    "sha256": "e4503acf2423fcfba729544227f4da493080fa3f63309c383f4e04d02f54b52e"
+  },
+  {
+    "path": "render-393/reference_toys-126.png",
+    "bytes": 519528,
+    "sha256": "933f05fb59feacea7c416975ef69bed729e711cd61a08ed17948e1c9764c679f"
+  },
+  {
+    "path": "render-393/reference_toys-300.png",
+    "bytes": 525726,
+    "sha256": "8f63e7bfcd19b40ebd0b0201d8790076742e796eabdcbee36eef683b9211f74c"
+  },
+  {
+    "path": "render-393.log",
+    "bytes": 25765,
+    "sha256": "5a92889c4c4bd0b26370d581b1769c2384d078a9d507b0c224fb75a4a66c3d8f"
+  },
+  {
+    "path": "render-563/antique-300.png",
+    "bytes": 685261,
+    "sha256": "d51ad4bff449b92e2f4e3a77ca60254f96eb6b0c0641389470e67e721a6d4002"
+  },
+  {
+    "path": "render-563/dessert-300.png",
+    "bytes": 553637,
+    "sha256": "0118245049d79a1909de77362b77911fac6433f97ee095deee1a0dbddc08a4a4"
+  },
+  {
+    "path": "render-563/electronics-300.png",
+    "bytes": 382729,
+    "sha256": "9a596d74acc656319549cad6aa64c5743658032eb4460ce3051890dab8848daa"
+  },
+  {
+    "path": "render-563/farm-300.png",
+    "bytes": 629362,
+    "sha256": "e3c2d723cb99d1e6977f3eff47bf76cd8ef7e137b2edc6d7b9f6f62070f5c272"
+  },
+  {
+    "path": "render-563/fruit-300.png",
+    "bytes": 457539,
+    "sha256": "5295bbee9f7e8b016228c57d9375481f13ccec9beab96bb141e4ff19e05c69f1"
+  },
+  {
+    "path": "render-563/proportions.json",
+    "bytes": 123026,
+    "sha256": "dab06f6b4f5f2f7fb06102b0e7d0c65c6e0226daec605053f0e2437f4bbd57a8"
+  },
+  {
+    "path": "render-563/reference_toys-126.png",
+    "bytes": 738193,
+    "sha256": "563672298f5109c45c6d8cb3ca5be9cea65634a87ded342f5023286860c68ab4"
+  },
+  {
+    "path": "render-563/reference_toys-300.png",
+    "bytes": 743629,
+    "sha256": "ff276aa86751e4ca21c10f6df210351593beff958c89d5ffca4b42684c8f3d05"
+  },
+  {
+    "path": "render-563.log",
+    "bytes": 25837,
+    "sha256": "d70e87c37f40b9a95473b058755b3eda6c56db5995841c7ba68c7e0fd7ab40b8"
+  },
+  {
+    "path": "render-short/antique-300.png",
+    "bytes": 693392,
+    "sha256": "d08d6c1baa25938d194543cbf1c8083f671aad57cd3a8c0459899e7cb61cdd7e"
+  },
+  {
+    "path": "render-short/dessert-300.png",
+    "bytes": 598338,
+    "sha256": "b078ffa2209334cbdb057edc5416032331b3f11e747321128209519ba0376287"
+  },
+  {
+    "path": "render-short/electronics-300.png",
+    "bytes": 421683,
+    "sha256": "ac88974fb6a8a8cca454ab7bccc5d1b6cda3c390a672541e61c9e32c628428ab"
+  },
+  {
+    "path": "render-short/farm-300.png",
+    "bytes": 659339,
+    "sha256": "00e1db462295f96deff5869d5cb7982ed82074c13f5160131032c9c5c1efa386"
+  },
+  {
+    "path": "render-short/fruit-300.png",
+    "bytes": 499914,
+    "sha256": "9949977d9d75b469e28b3a5776820b909f81005c6dda5f55ac00acf7cc3e5380"
+  },
+  {
+    "path": "render-short/proportions.json",
+    "bytes": 131233,
+    "sha256": "7876aa12f7ce56bc47def724376f14b41942e933593e33790b4813b9d72eb9a2"
+  },
+  {
+    "path": "render-short/reference_toys-126.png",
+    "bytes": 744820,
+    "sha256": "4a6961ab37dac9d879cbceff4537e5c193a4bcd623615f15a8ac86a2f4e667cf"
+  },
+  {
+    "path": "render-short/reference_toys-300.png",
+    "bytes": 743355,
+    "sha256": "fdb05fbf9ea62756f09e6d53c6692aa2c8d0f976594c41aa55a09008623f0df9"
+  },
+  {
+    "path": "render-short.log",
+    "bytes": 25824,
+    "sha256": "a5b077af0e56b4b2286f0581507ec5952321b789a768c5ab5f3c124d2f56fc55"
+  },
+  {
+    "path": "screenshot-measurements.json",
+    "bytes": 1449,
+    "sha256": "26456df7d3da69b8f8a38a820ff9d7c21069e14fa2022209a522baa0ba5f0b9a"
+  },
+  {
+    "path": "source-map.json",
+    "bytes": 11077,
+    "sha256": "83156d911bdaf2faa1cabda8ad0cdaafe839d04cae21a0ac70dec82b5db4db4a"
+  },
+  {
+    "path": "wechat/exported-files.json",
+    "bytes": 10842,
+    "sha256": "e1e4cf1cfb4403ce1d0770d7f77d15316716b18746e3e30a434d51d6ce8ddb78"
+  },
+  {
+    "path": "wechat/font-subset.json",
+    "bytes": 473,
+    "sha256": "558c0314a3fa1a5773e30fde7ba99c52d56d42073e53eccaa271ce779c687578"
+  },
+  {
+    "path": "wechat/game.js",
+    "bytes": 8189,
+    "sha256": "dedfc4b305446a0de85224f0f27207cbc853bc7d131fdbb8a67c0804f2585a60"
+  },
+  {
+    "path": "wechat/game.json",
+    "bytes": 703,
+    "sha256": "d8ac716ec5d0dd49948369591b8fbdaae7b443e79341e2beed872d521d71babb"
+  },
+  {
+    "path": "wechat/package-audit.json",
+    "bytes": 1427,
+    "sha256": "34aecd2193d522c2213ba1de5f43d78db72f3f1e4c7aafd561f84722470ef386"
+  },
+  {
+    "path": "wechat/project.config.json",
+    "bytes": 1741,
+    "sha256": "64f5ad3ed2882536fc465abf50943b9d9e5db0a3724d4414408f44919b548bbe"
+  },
+  {
+    "path": "wechat/unity-wechat-build.log",
+    "bytes": 425426,
+    "sha256": "fe627766bf0821c3eba0d99412ad893fd49d701da2a83233907dfe1a3695c753"
+  },
+  {
+    "path": "验证汇总.json",
+    "bytes": 1364,
+    "sha256": "6aa5e1e3da7c2aa9418f5c54eebf288bf44846d6aeef02c77187e13969057596"
+  }
+]

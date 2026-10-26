@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": "duck-eggpancake",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_eggpancake"
+    },
+    {
+      "id": "duck-eggtart",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_eggtart"
+    },
+    {
+      "id": "duck-milletcake",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_milletcake"
+    },
+    {
+      "id": "duck-steamedbread",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_bfsteamedbread"
+    },
+    {
+      "id": "duck-eggplant",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_eggplant"
+    },
+    {
+      "id": "duck-greenpepper",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_greenpepper"
+    },
+    {
+      "id": "duck-pancake",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_pancake"
+    },
+    {
+      "id": "duck-potato",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_potato"
+    },
+    {
+      "id": "duck-tomato",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_tomato"
+    },
+    {
+      "id": "duck-steelcup",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_steelcup"
+    },
+    {
+      "id": "duck-farmer",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_farmer"
+    },
+    {
+      "id": "duck-watermelon",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_watermelon"
+    },
+    {
+      "id": "duck-numberblock",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtnumberblock"
+    },
+    {
+      "id": "duck-yoyo",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtyoyo"
+    },
+    {
+      "id": "duck-craftpunch",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtcraftpunch"
+    },
+    {
+      "id": "duck-capsulepen",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtcapsulepen"
+    },
+    {
+      "id": "duck-chilisauce",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_chilisauce"
+    },
+    {
+      "id": "duck-colacup",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_colacup"
+    },
+    {
+      "id": "duck-egg",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_egg"
+    },
+    {
+      "id": "duck-noodles",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_noodles"
+    }
+  ]
+}

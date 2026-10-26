@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "BBQSkewers2",
+      "sourceTriangles": 760,
+      "exportedTriangles": 760,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GrilledCorn",
+      "sourceTriangles": 514,
+      "exportedTriangles": 513,
+      "duplicateFacesRemoved": 1,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "BBQHotdog",
+      "sourceTriangles": 832,
+      "exportedTriangles": 832,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "FriedDumpling",
+      "sourceTriangles": 570,
+      "exportedTriangles": 568,
+      "duplicateFacesRemoved": 2,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "GrilledFish2",
+      "sourceTriangles": 560,
+      "exportedTriangles": 560,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "PotatoSkewers",
+      "sourceTriangles": 224,
+      "exportedTriangles": 224,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "RedShrimp",
+      "sourceTriangles": 1295,
+      "exportedTriangles": 1295,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "RibsBig",
+      "sourceTriangles": 762,
+      "exportedTriangles": 762,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "Scallop",
+      "sourceTriangles": 1029,
+      "exportedTriangles": 1029,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "Shrimp",
+      "sourceTriangles": 604,
+      "exportedTriangles": 604,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "BBQMushroom",
+      "sourceTriangles": 660,
+      "exportedTriangles": 660,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "BBQPotato",
+      "sourceTriangles": 1382,
+      "exportedTriangles": 1382,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "BBQSausage",
+      "sourceTriangles": 490,
+      "exportedTriangles": 490,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "BBQSkewers1",
+      "sourceTriangles": 904,
+      "exportedTriangles": 904,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "BBQToast",
+      "sourceTriangles": 220,
+      "exportedTriangles": 220,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "ChickenLeg",
+      "sourceTriangles": 1008,
+      "exportedTriangles": 1007,
+      "duplicateFacesRemoved": 1,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    },
+    {
+      "id": "RoastChicken",
+      "sourceTriangles": 932,
+      "exportedTriangles": 932,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true,
+      "preview": "base-color, neutral lighting; original Toon/MatCap shader not reproduced"
+    }
+  ]
+}

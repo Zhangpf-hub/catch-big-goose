@@ -1,0 +1,42 @@
+{
+  "id": "duck-eggpancake",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangleTarget": true,
+    "bytes": true,
+    "noSkin": true,
+    "noAnimation": true,
+    "uv": true,
+    "atlas": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "geometry": true,
+    "motherPreserved": true
+  },
+  "triangles": 3900,
+  "bytes": 91684,
+  "sha256": "4b12cab2585706d1834a66c0f68c0f245afe22532768c82032aee65f424762b9",
+  "images": [
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "mime": "image/png"
+    }
+  ],
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "atlasSha256": "a2cb8b5ace142964974e9dd83a9e0606900e7b81de5e2f963570aa843cee3da5",
+  "slices": {
+    "body": [
+      20,
+      28,
+      1510,
+      670
+    ],
+    "wheel": [
+      627,
+      706,
+      909,
+      988
+    ]
+  },
+  "processing": "Pixel-preserving rectangle slicing only; alpha preserved"
+}

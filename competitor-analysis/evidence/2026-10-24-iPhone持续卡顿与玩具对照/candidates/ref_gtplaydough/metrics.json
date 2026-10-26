@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtplaydough",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlaydough\\GTPlaydough.blend",
+  "sourceTriangles": 2472,
+  "triangles": 2472,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.995626449584961,
+    2.145021438598633,
+    2.1613893508911133
+  ],
+  "normalizedDimensions": [
+    0.9233072400093079,
+    0.9924271702766418,
+    1.0
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

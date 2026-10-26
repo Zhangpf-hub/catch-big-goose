@@ -1,0 +1,23 @@
+{
+  "id": "duck-steamedbread",
+  "triangles": 3536,
+  "dimensions": [
+    0.7146337628364563,
+    0.6824114918708801,
+    0.9999999403953552
+  ],
+  "sourceCenter": [
+    1.043081283569336e-07,
+    0.014143705368041992,
+    0.4262342154979706
+  ],
+  "sourceExtent": 0.8395903706550598,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 83824,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

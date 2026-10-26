@@ -1,0 +1,9 @@
+{
+  "id": "ref_frieddumpling",
+  "sourceId": "FriedDumpling",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\FriedDumpling\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/FriedDumpling.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+  "sourceSha256": "e030830076d705075b45b803b70339cb3f1c937f066eb0d944c2d4cc5c7357de"
+}

@@ -1,0 +1,665 @@
+{
+  "models": [
+    {
+      "id": "duck-eggpancake",
+      "key": "eggpancake",
+      "theme": "breakfast",
+      "themeName": "早餐铺",
+      "name": "鸡蛋饼鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_EggPancake/Goose_EggPancake.glb",
+      "features": [
+        "金黄折饼",
+        "白色蛋面",
+        "橙黄蛋黄"
+      ],
+      "connection": "颈穿出折饼上沿，脚承托下缘",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-eggpancake/duck-eggpancake.glb",
+      "fbx": "models/duck-eggpancake/duck-eggpancake.fbx",
+      "source": "source/duck-eggpancake-authored.blend",
+      "icon": "renders/duck-eggpancake/duck/icon-192.png",
+      "collision": "models/duck-eggpancake/convex-hull.obj",
+      "dimensions": [
+        0.8526465892791748,
+        0.43896397948265076,
+        1.0
+      ],
+      "triangles": 3900,
+      "glbBytes": 91684,
+      "sha256": "4b12cab2585706d1834a66c0f68c0f245afe22532768c82032aee65f424762b9"
+    },
+    {
+      "id": "duck-eggtart",
+      "key": "eggtart",
+      "theme": "breakfast",
+      "themeName": "早餐铺",
+      "name": "蛋挞鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_EggTart/Goose_EggTart.glb",
+      "features": [
+        "波浪挞边",
+        "黄色蛋心",
+        "浅盘背面"
+      ],
+      "connection": "已通过原件",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-eggtart/duck-eggtart.glb",
+      "fbx": "models/duck-eggtart/duck-eggtart.fbx",
+      "source": "source/duck-eggtart-authored.blend",
+      "icon": "renders/duck-eggtart/duck/icon-192.png",
+      "collision": "models/duck-eggtart/convex-hull.obj",
+      "dimensions": [
+        0.8843943476676941,
+        0.5603507161140442,
+        1.0
+      ],
+      "triangles": 3752,
+      "glbBytes": 89480,
+      "sha256": "b657c83435da8b0606c61794e0bc79bfa57bca5fe9ac95fe39180c5cd5bd2fd1"
+    },
+    {
+      "id": "duck-milletcake",
+      "key": "milletcake",
+      "theme": "breakfast",
+      "themeName": "早餐铺",
+      "name": "小米饼鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_MilletCake/Goose_MilletCake.glb",
+      "features": [
+        "金黄圆饼",
+        "格状烙痕",
+        "浅褐芝麻点"
+      ],
+      "connection": "颈穿出圆饼顶侧，脚贴饼底",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-milletcake/duck-milletcake.glb",
+      "fbx": "models/duck-milletcake/duck-milletcake.fbx",
+      "source": "source/duck-milletcake-authored.blend",
+      "icon": "renders/duck-milletcake/duck/icon-192.png",
+      "collision": "models/duck-milletcake/convex-hull.obj",
+      "dimensions": [
+        0.7673211097717285,
+        0.454160213470459,
+        1.0
+      ],
+      "triangles": 3552,
+      "glbBytes": 84348,
+      "sha256": "98e4b933794770f25ad556ccc62c4bad0adbbe1723e4efa006a4fbec7c8208dc"
+    },
+    {
+      "id": "duck-steamedbread",
+      "key": "steamedbread",
+      "theme": "breakfast",
+      "themeName": "早餐铺",
+      "name": "馒头鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_BFSteamedBread/Goose_BFSteamedBread.glb",
+      "features": [
+        "奶油白蓬松圆体",
+        "顶部褶纹",
+        "平底"
+      ],
+      "connection": "鸭身藏入馒头，颈穿出顶部",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-steamedbread/duck-steamedbread.glb",
+      "fbx": "models/duck-steamedbread/duck-steamedbread.fbx",
+      "source": "source/duck-steamedbread-authored.blend",
+      "icon": "renders/duck-steamedbread/duck/icon-192.png",
+      "collision": "models/duck-steamedbread/convex-hull.obj",
+      "dimensions": [
+        0.7146337628364563,
+        0.6824114918708801,
+        0.9999999403953552
+      ],
+      "triangles": 3536,
+      "glbBytes": 83824,
+      "sha256": "b4a24c0a2658000178aa582e83ef44173a87766d924451f2d160d311d6525d3f"
+    },
+    {
+      "id": "duck-eggplant",
+      "key": "eggplant",
+      "theme": "barbecue",
+      "themeName": "烧烤摊",
+      "name": "茄子鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Eggplant/Goose_Eggplant.glb",
+      "features": [
+        "紫色长果",
+        "绿色萼片",
+        "弯曲短柄"
+      ],
+      "connection": "颈由果实肩侧穿出，果体细长",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-eggplant/duck-eggplant.glb",
+      "fbx": "models/duck-eggplant/duck-eggplant.fbx",
+      "source": "source/duck-eggplant-authored.blend",
+      "icon": "renders/duck-eggplant/duck/icon-192.png",
+      "collision": "models/duck-eggplant/convex-hull.obj",
+      "dimensions": [
+        0.5644267201423645,
+        0.6037569642066956,
+        0.9999999403953552
+      ],
+      "triangles": 2780,
+      "glbBytes": 66796,
+      "sha256": "16a501081eae14d506022440847dbdf8922eee943ad5c3cf05868340459edf73"
+    },
+    {
+      "id": "duck-greenpepper",
+      "key": "greenpepper",
+      "theme": "barbecue",
+      "themeName": "烧烤摊",
+      "name": "青椒鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_GreenPepper/Goose_GreenPepper.glb",
+      "features": [
+        "三瓣青绿果体",
+        "凹顶",
+        "弯柄"
+      ],
+      "connection": "颈穿出侧瓣上方",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-greenpepper/duck-greenpepper.glb",
+      "fbx": "models/duck-greenpepper/duck-greenpepper.fbx",
+      "source": "source/duck-greenpepper-authored.blend",
+      "icon": "renders/duck-greenpepper/duck/icon-192.png",
+      "collision": "models/duck-greenpepper/convex-hull.obj",
+      "dimensions": [
+        0.6965635418891907,
+        0.7121785283088684,
+        1.0
+      ],
+      "triangles": 3632,
+      "glbBytes": 85660,
+      "sha256": "9b42b5a92de2e85f330d6c8e87f9637095f2eeded52fae20b143b2b9213139da"
+    },
+    {
+      "id": "duck-pancake",
+      "key": "pancake",
+      "theme": "barbecue",
+      "themeName": "烧烤摊",
+      "name": "煎饼鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_Pancake/Goose_Pancake.glb",
+      "features": [
+        "三层薄饼",
+        "金黄边缘",
+        "焦色烙点"
+      ],
+      "connection": "鸭身藏在薄饼层里，颈从上层探出",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-pancake/duck-pancake.glb",
+      "fbx": "models/duck-pancake/duck-pancake.fbx",
+      "source": "source/duck-pancake-authored.blend",
+      "icon": "renders/duck-pancake/duck/icon-192.png",
+      "collision": "models/duck-pancake/convex-hull.obj",
+      "dimensions": [
+        0.8546855449676514,
+        0.7607927918434143,
+        0.9999999403953552
+      ],
+      "triangles": 3664,
+      "glbBytes": 86436,
+      "sha256": "55467ee3e91059e0234efbe44cc5b021779a42f39b6df9e11e383bc7537c5729"
+    },
+    {
+      "id": "duck-potato",
+      "key": "potato",
+      "theme": "barbecue",
+      "themeName": "烧烤摊",
+      "name": "土豆鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Potato/Goose_Potato.glb",
+      "features": [
+        "浅棕不规则椭圆",
+        "深色芽眼",
+        "宽钝两端"
+      ],
+      "connection": "颈穿出土豆肩部，脚靠拢",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-potato/duck-potato.glb",
+      "fbx": "models/duck-potato/duck-potato.fbx",
+      "source": "source/duck-potato-authored.blend",
+      "icon": "renders/duck-potato/duck/icon-192.png",
+      "collision": "models/duck-potato/convex-hull.obj",
+      "dimensions": [
+        0.7173487544059753,
+        0.6868627667427063,
+        0.9999999403953552
+      ],
+      "triangles": 3196,
+      "glbBytes": 76140,
+      "sha256": "45d8f46025ea092f9e59b39883a4ddd07d5c74052b4f209f07f7b54dacea7f65"
+    },
+    {
+      "id": "duck-tomato",
+      "key": "tomato",
+      "theme": "courtyard",
+      "themeName": "乡村小院",
+      "name": "番茄鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Tomato/Goose_Tomato.glb",
+      "features": [
+        "红色分瓣圆果",
+        "绿色星状萼",
+        "短柄"
+      ],
+      "connection": "颈穿出萼片一侧",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-tomato/duck-tomato.glb",
+      "fbx": "models/duck-tomato/duck-tomato.fbx",
+      "source": "source/duck-tomato-authored.blend",
+      "icon": "renders/duck-tomato/duck/icon-192.png",
+      "collision": "models/duck-tomato/convex-hull.obj",
+      "dimensions": [
+        0.7700193524360657,
+        0.7349322438240051,
+        1.0
+      ],
+      "triangles": 3108,
+      "glbBytes": 73996,
+      "sha256": "5addf06eccbfce51d4c58caaa69510597c4fbe30b31d1bd0cf087020cc972809"
+    },
+    {
+      "id": "duck-steelcup",
+      "key": "steelcup",
+      "theme": "courtyard",
+      "themeName": "乡村小院",
+      "name": "钢杯鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_SteelCup/Goose_SteelCup.glb",
+      "features": [
+        "开口钢杯",
+        "卷边",
+        "弧形提手"
+      ],
+      "connection": "已通过原件",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-steelcup/duck-steelcup.glb",
+      "fbx": "models/duck-steelcup/duck-steelcup.fbx",
+      "source": "source/duck-steelcup-authored.blend",
+      "icon": "renders/duck-steelcup/duck/icon-192.png",
+      "collision": "models/duck-steelcup/convex-hull.obj",
+      "dimensions": [
+        1.0,
+        0.5726428627967834,
+        0.7619637846946716
+      ],
+      "triangles": 3940,
+      "glbBytes": 96100,
+      "sha256": "b3dc84c5384936a59c98e2b2e126c1b1397e89c245d8eca33df0a1c44864c325"
+    },
+    {
+      "id": "duck-farmer",
+      "key": "farmer",
+      "theme": "courtyard",
+      "themeName": "乡村小院",
+      "name": "农夫鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Farmer/Goose_Farmer.glb",
+      "features": [
+        "宽草帽檐",
+        "拱形帽冠",
+        "深棕帽带"
+      ],
+      "connection": "草帽包住身体，细颈从前檐探出",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-farmer/duck-farmer.glb",
+      "fbx": "models/duck-farmer/duck-farmer.fbx",
+      "source": "source/duck-farmer-authored.blend",
+      "icon": "renders/duck-farmer/duck/icon-192.png",
+      "collision": "models/duck-farmer/convex-hull.obj",
+      "dimensions": [
+        0.9927344918251038,
+        1.0,
+        0.8044358491897583
+      ],
+      "triangles": 3894,
+      "glbBytes": 91272,
+      "sha256": "20c60d936a32bb6270cd6e67ebe757b730a5c9c454f402636fae5dd92e80922f"
+    },
+    {
+      "id": "duck-watermelon",
+      "key": "watermelon",
+      "theme": "courtyard",
+      "themeName": "乡村小院",
+      "name": "西瓜鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Watermelon/Goose_Watermelon.glb",
+      "features": [
+        "绿色弧形瓜皮",
+        "红色切面",
+        "黑籽"
+      ],
+      "connection": "颈穿出瓜瓤顶侧，脚贴平切底边",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-watermelon/duck-watermelon.glb",
+      "fbx": "models/duck-watermelon/duck-watermelon.fbx",
+      "source": "source/duck-watermelon-authored.blend",
+      "icon": "renders/duck-watermelon/duck/icon-192.png",
+      "collision": "models/duck-watermelon/convex-hull.obj",
+      "dimensions": [
+        1.0,
+        0.6152029633522034,
+        0.9438755512237549
+      ],
+      "triangles": 2864,
+      "glbBytes": 69132,
+      "sha256": "b2a8b8060dafa6b1029e5d99c6701ff139e9439ae54003c0441f569db7288044"
+    },
+    {
+      "id": "duck-numberblock",
+      "key": "numberblock",
+      "theme": "toys",
+      "themeName": "童年玩具",
+      "name": "数字积木鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTNumberBlock/Goose_GTNumberBlock.glb",
+      "features": [
+        "红方块",
+        "绿色数字1",
+        "背部连接钮"
+      ],
+      "connection": "已通过原件",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-numberblock/duck-numberblock.glb",
+      "fbx": "models/duck-numberblock/duck-numberblock.fbx",
+      "source": "source/duck-numberblock-authored.blend",
+      "icon": "renders/duck-numberblock/duck/icon-192.png",
+      "collision": "models/duck-numberblock/convex-hull.obj",
+      "dimensions": [
+        1.0,
+        0.4598657488822937,
+        0.8691062927246094
+      ],
+      "triangles": 3820,
+      "glbBytes": 91292,
+      "sha256": "e3908538fc7f9e02d6117babea29959fd3d3871c556a4730979f47e5e9a23409"
+    },
+    {
+      "id": "duck-yoyo",
+      "key": "yoyo",
+      "theme": "toys",
+      "themeName": "童年玩具",
+      "name": "悠悠球鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTYoYo/Goose_GTYoYo.glb",
+      "features": [
+        "双蓝色轮盘",
+        "中央轴缝",
+        "黄色中心圈"
+      ],
+      "connection": "颈从轮盘间隙穿出，脚贴轮盘底部",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-yoyo/duck-yoyo.glb",
+      "fbx": "models/duck-yoyo/duck-yoyo.fbx",
+      "source": "source/duck-yoyo-authored.blend",
+      "icon": "renders/duck-yoyo/duck/icon-192.png",
+      "collision": "models/duck-yoyo/convex-hull.obj",
+      "dimensions": [
+        0.7470215559005737,
+        0.5796435475349426,
+        0.9999999403953552
+      ],
+      "triangles": 3508,
+      "glbBytes": 82872,
+      "sha256": "36c43ef7d0df499ed4bc7fdff741ebb21c9c95899f69faa5d8443dd08a9ecd94"
+    },
+    {
+      "id": "duck-craftpunch",
+      "key": "craftpunch",
+      "theme": "toys",
+      "themeName": "童年玩具",
+      "name": "打孔器鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTCraftPunch/Goose_GTCraftPunch.glb",
+      "features": [
+        "蓝色底座",
+        "粉色压柄",
+        "金属压柱与进纸口"
+      ],
+      "connection": "颈从压柄尾部探出",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-craftpunch/duck-craftpunch.glb",
+      "fbx": "models/duck-craftpunch/duck-craftpunch.fbx",
+      "source": "source/duck-craftpunch-authored.blend",
+      "icon": "renders/duck-craftpunch/duck/icon-192.png",
+      "collision": "models/duck-craftpunch/convex-hull.obj",
+      "dimensions": [
+        0.7414854168891907,
+        0.6871456503868103,
+        1.0
+      ],
+      "triangles": 3472,
+      "glbBytes": 82524,
+      "sha256": "f3353486747063ca4a0d39057eb901e932093ceac7ebe4c26313660ab7773e66"
+    },
+    {
+      "id": "duck-capsulepen",
+      "key": "capsulepen",
+      "theme": "toys",
+      "themeName": "童年玩具",
+      "name": "胶囊笔鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTCapsulePen/Goose_GTCapsulePen.glb",
+      "features": [
+        "长胶囊笔身",
+        "双色笔帽",
+        "锥形笔尖"
+      ],
+      "connection": "细颈从笔身上部穿出，小脚承托横放笔身",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-capsulepen/duck-capsulepen.glb",
+      "fbx": "models/duck-capsulepen/duck-capsulepen.fbx",
+      "source": "source/duck-capsulepen-authored.blend",
+      "icon": "renders/duck-capsulepen/duck/icon-192.png",
+      "collision": "models/duck-capsulepen/convex-hull.obj",
+      "dimensions": [
+        1.0,
+        0.44986435770988464,
+        0.7357929348945618
+      ],
+      "triangles": 3028,
+      "glbBytes": 72356,
+      "sha256": "8578e2da8f95d574aed44b4af902e0c61934ff64fed74b138efad5946c76a380"
+    },
+    {
+      "id": "duck-chilisauce",
+      "key": "chilisauce",
+      "theme": "grocery",
+      "themeName": "杂货铺",
+      "name": "辣椒酱鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_ChiliSauce/Goose_ChiliSauce.glb",
+      "features": [
+        "红褐酱罐",
+        "深色旋盖",
+        "奶油标签与辣椒标志"
+      ],
+      "connection": "颈穿出罐肩，标签正面完整",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-chilisauce/duck-chilisauce.glb",
+      "fbx": "models/duck-chilisauce/duck-chilisauce.fbx",
+      "source": "source/duck-chilisauce-authored.blend",
+      "icon": "renders/duck-chilisauce/duck/icon-192.png",
+      "collision": "models/duck-chilisauce/convex-hull.obj",
+      "dimensions": [
+        0.5903312563896179,
+        0.7315575480461121,
+        1.0
+      ],
+      "triangles": 2980,
+      "glbBytes": 71316,
+      "sha256": "0493c2fbd569b7fc559242260fb1f8bdd0372535171deb4be6c79ef559165dda"
+    },
+    {
+      "id": "duck-colacup",
+      "key": "colacup",
+      "theme": "grocery",
+      "themeName": "杂货铺",
+      "name": "可乐杯鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_ColaCup/Goose_ColaCup.glb",
+      "features": [
+        "红色锥杯",
+        "白色杯盖",
+        "弯折吸管"
+      ],
+      "connection": "颈从杯盖侧口探出",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-colacup/duck-colacup.glb",
+      "fbx": "models/duck-colacup/duck-colacup.fbx",
+      "source": "source/duck-colacup-authored.blend",
+      "icon": "renders/duck-colacup/duck/icon-192.png",
+      "collision": "models/duck-colacup/convex-hull.obj",
+      "dimensions": [
+        0.6539026498794556,
+        0.7090417146682739,
+        1.0
+      ],
+      "triangles": 2784,
+      "glbBytes": 66932,
+      "sha256": "d4cacd3dade67b10f93dd9a09f5adbd131962dc2ca6c3a00a6b09617bc6752b8"
+    },
+    {
+      "id": "duck-egg",
+      "key": "egg",
+      "theme": "grocery",
+      "themeName": "杂货铺",
+      "name": "鸡蛋鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Egg/Goose_Egg.glb",
+      "features": [
+        "乳白破蛋壳",
+        "不规则裂口",
+        "内侧蛋黄"
+      ],
+      "connection": "鸭身包在蛋壳里，颈从裂口探出",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-egg/duck-egg.glb",
+      "fbx": "models/duck-egg/duck-egg.fbx",
+      "source": "source/duck-egg-authored.blend",
+      "icon": "renders/duck-egg/duck/icon-192.png",
+      "collision": "models/duck-egg/convex-hull.obj",
+      "dimensions": [
+        0.6279135942459106,
+        0.6863892078399658,
+        1.0
+      ],
+      "triangles": 3044,
+      "glbBytes": 72516,
+      "sha256": "8362834b4b3b8328dbed4975f177202949b12dbba267d7b932df5b0327827b42"
+    },
+    {
+      "id": "duck-noodles",
+      "key": "noodles",
+      "theme": "grocery",
+      "themeName": "杂货铺",
+      "name": "面条鸭",
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Noodles/Goose_Noodles.glb",
+      "features": [
+        "红色面杯",
+        "盘曲面条",
+        "掀开杯盖"
+      ],
+      "connection": "细颈从杯中面条间探出",
+      "targetTriangles": [
+        2000,
+        4000
+      ],
+      "maximumTriangles": 6000,
+      "headSource": "Locked B2 mother mesh; no regeneration",
+      "model": "models/duck-noodles/duck-noodles.glb",
+      "fbx": "models/duck-noodles/duck-noodles.fbx",
+      "source": "source/duck-noodles-authored.blend",
+      "icon": "renders/duck-noodles/duck/icon-192.png",
+      "collision": "models/duck-noodles/convex-hull.obj",
+      "dimensions": [
+        0.6325883269309998,
+        0.6536483764648438,
+        1.0
+      ],
+      "triangles": 3940,
+      "glbBytes": 92860,
+      "sha256": "07e97880bf7ed4d3396bfbace7cc69b15f33b3938fcf935648c7243b0004d6ce"
+    }
+  ],
+  "officialThemesReplaced": false
+}

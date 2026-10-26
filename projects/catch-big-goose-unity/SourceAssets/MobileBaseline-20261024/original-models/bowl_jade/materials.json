@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "name": "bowl_jade_mat_0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "texture": "bowl_jade_albedo_0.png"
+    }
+  ]
+}

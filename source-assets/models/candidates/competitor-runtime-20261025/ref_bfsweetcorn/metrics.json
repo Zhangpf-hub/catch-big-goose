@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfsweetcorn",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFSweetCorn\\BFSweetCorn.blend",
+  "sourceTriangles": 926,
+  "triangles": 926,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.6950106620788574,
+    1.952869176864624,
+    0.6375844478607178
+  ],
+  "normalizedDimensions": [
+    0.8679591417312622,
+    1.0,
+    0.3264859914779663
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

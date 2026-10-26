@@ -1,0 +1,27 @@
+{
+  "id": "headphones",
+  "triangles": 2388,
+  "vertices": 1248,
+  "blenderBounds": [
+    1.0,
+    0.26854461431503296,
+    0.8403756022453308
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "bytes": 56312,
+  "materials": 1,
+  "textures": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "gltfAxes": "Y-up, front +Z",
+  "blenderVersion": "4.5.14 LTS",
+  "roundtripPassed": true
+}

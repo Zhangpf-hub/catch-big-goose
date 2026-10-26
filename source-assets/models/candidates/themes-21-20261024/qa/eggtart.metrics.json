@@ -1,0 +1,28 @@
+{
+  "id": "eggtart",
+  "theme": "dessert",
+  "triangles": 1528,
+  "vertices": 798,
+  "blenderBounds": [
+    0.9938895106315613,
+    0.9999999403953552,
+    0.4011113941669464
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 36912,
+  "sha256": "8735912ea21a942951f5511f0278c6d12b481bcb57a04a00f12d429b34754152",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

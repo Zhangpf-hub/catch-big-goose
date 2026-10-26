@@ -1,0 +1,1154 @@
+[
+  {
+    "Address": 17203,
+    "Name": "ServerFileCreate.<>c__DisplayClass47_0$$<GetCommonTimeAsyn>b__0",
+    "Signature": "void ServerFileCreate___c__DisplayClass47_0___GetCommonTimeAsyn_b__0 (ServerFileCreate___c__DisplayClass47_0_o* __this, bool isSuccess, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72349",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17209,
+    "Name": "ServerFileCreate.<>c__DisplayClass74_0$$<GetServerFlagData>b__0",
+    "Signature": "void ServerFileCreate___c__DisplayClass74_0___GetServerFlagData_b__0 (ServerFileCreate___c__DisplayClass74_0_o* __this, LitJson_JsonData_o* res, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72168",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17210,
+    "Name": "ServerFileCreate.<>c__DisplayClass74_0$$<GetServerFlagData>b__1",
+    "Signature": "void ServerFileCreate___c__DisplayClass74_0___GetServerFlagData_b__1 (ServerFileCreate___c__DisplayClass74_0_o* __this, System_String_o* err, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72167",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17149,
+    "Name": "ServerFileCreate$$SaveShareADListFile",
+    "Signature": "void ServerFileCreate__SaveShareADListFile (ServerFileCreate_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80611",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17152,
+    "Name": "ServerFileCreate$$SaveServerVarFile",
+    "Signature": "void ServerFileCreate__SaveServerVarFile (ServerFileCreate_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80613",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17166,
+    "Name": "ServerFileCreate$$SaveTimeDataFile",
+    "Signature": "void ServerFileCreate__SaveTimeDataFile (ServerFileCreate_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80610",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17173,
+    "Name": "ServerFileCreate$$get_LoadNetConfigComplete",
+    "Signature": "bool ServerFileCreate__get_LoadNetConfigComplete (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j80606",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17174,
+    "Name": "ServerFileCreate$$SaveHotFixScriptable",
+    "Signature": "void ServerFileCreate__SaveHotFixScriptable (ServerFileCreate_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80614",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17179,
+    "Name": "ServerFileCreate$$SaveServerWarnDataFile",
+    "Signature": "void ServerFileCreate__SaveServerWarnDataFile (ServerFileCreate_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80612",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17181,
+    "Name": "ServerFileCreate$$GetServerConfigCdnHead",
+    "Signature": "System_String_o* ServerFileCreate__GetServerConfigCdnHead (ServerFileCreate_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j2284",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17182,
+    "Name": "ServerFileCreate$$ToPrettyJson",
+    "Signature": "System_String_o* ServerFileCreate__ToPrettyJson (Il2CppObject* data, int32_t headSpace, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j80609",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17184,
+    "Name": "ServerFileCreate$$SaveABTestDataFile",
+    "Signature": "void ServerFileCreate__SaveABTestDataFile (ServerFileCreate_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80615",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17681,
+    "Name": "EndlessLevelMa.<>c__DisplayClass20_0$$<LoadLongLevel>b__0",
+    "Signature": "void EndlessLevelMa___c__DisplayClass20_0___LoadLongLevel_b__0 (EndlessLevelMa___c__DisplayClass20_0_o* __this, bool isSuccess, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72682",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17657,
+    "Name": "EndlessLevelMa$$GetCurPlayingLevelID",
+    "Signature": "int32_t EndlessLevelMa__GetCurPlayingLevelID (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j101297",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17658,
+    "Name": "EndlessLevelMa$$SetEndlessLevelData",
+    "Signature": "bool EndlessLevelMa__SetEndlessLevelData (int32_t level, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j23325",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17660,
+    "Name": "EndlessLevelMa$$GetEndlessLevel0",
+    "Signature": "EndlessLevelDataData_o* EndlessLevelMa__GetEndlessLevel0 (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j46546",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17663,
+    "Name": "EndlessLevelMa$$StartLevel",
+    "Signature": "void EndlessLevelMa__StartLevel (int32_t startLevel, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j23324",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17664,
+    "Name": "EndlessLevelMa$$ResumeAddTime",
+    "Signature": "int32_t EndlessLevelMa__ResumeAddTime (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j101296",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17665,
+    "Name": "EndlessLevelMa$$UseEnergyStartGame",
+    "Signature": "void EndlessLevelMa__UseEnergyStartGame (bool isUseEnergy, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j15162",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17666,
+    "Name": "EndlessLevelMa$$LoadLongLevel",
+    "Signature": "void EndlessLevelMa__LoadLongLevel (System_Action_bool__o* OnCompelet, System_Action_float__o* OnProgress, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j23326",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17667,
+    "Name": "EndlessLevelMa$$LoadCompelet",
+    "Signature": "void EndlessLevelMa__LoadCompelet (bool isSuccess, int32_t loadingID, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j46543",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17669,
+    "Name": "EndlessLevelMa$$GetEndlessLevelSave",
+    "Signature": "int32_t EndlessLevelMa__GetEndlessLevelSave (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j7513",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17670,
+    "Name": "EndlessLevelMa$$AddLevel",
+    "Signature": "void EndlessLevelMa__AddLevel (int32_t curLevel, int32_t addGold, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j46547",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17671,
+    "Name": "EndlessLevelMa$$SetLevel",
+    "Signature": "void EndlessLevelMa__SetLevel (int32_t levelIndex, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j46542",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17672,
+    "Name": "EndlessLevelMa$$GetGoldCountSave",
+    "Signature": "int32_t EndlessLevelMa__GetGoldCountSave (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j46545",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17673,
+    "Name": "EndlessLevelMa$$GetEnergySave",
+    "Signature": "int32_t EndlessLevelMa__GetEnergySave (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j23327",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17674,
+    "Name": "EndlessLevelMa$$AddEnergySave",
+    "Signature": "void EndlessLevelMa__AddEnergySave (int32_t count, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j46548",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17676,
+    "Name": "EndlessLevelMa$$GetChapterGoose",
+    "Signature": "int32_t EndlessLevelMa__GetChapterGoose (int32_t levelIndex, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j101298",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17677,
+    "Name": "EndlessLevelMa$$CheckLevelDataError",
+    "Signature": "void EndlessLevelMa__CheckLevelDataError (EndlessLevelData_o* data, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j101299",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17682,
+    "Name": "MainLevelModeCtrl$$get_Instance",
+    "Signature": "MainLevelModeCtrl_o* MainLevelModeCtrl__get_Instance (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j94014",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17683,
+    "Name": "MainLevelModeCtrl$$set_Instance",
+    "Signature": "void MainLevelModeCtrl__set_Instance (MainLevelModeCtrl_o* value, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94013",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17688,
+    "Name": "MainLevelModeCtrl$$ICloseLevelScene",
+    "Signature": "void MainLevelModeCtrl__ICloseLevelScene (MainLevelModeCtrl_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94039",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17701,
+    "Name": "MainLevelModeCtrl$$IGameLoseThinking",
+    "Signature": "void MainLevelModeCtrl__IGameLoseThinking (MainLevelModeCtrl_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94037",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17702,
+    "Name": "MainLevelModeCtrl$$NorEnterNextMainLevel",
+    "Signature": "void MainLevelModeCtrl__NorEnterNextMainLevel (MainLevelModeCtrl_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j22130",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17714,
+    "Name": "MainLevelModeCtrl$$<IGetAllLevelObj>b__28_0",
+    "Signature": "void MainLevelModeCtrl___IGetAllLevelObj_b__28_0 (MainLevelModeCtrl_o* __this, bool canEnter, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j94016",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17715,
+    "Name": "MainLevelModeCtrl$$<IGetAllLevelObj>b__28_2",
+    "Signature": "void MainLevelModeCtrl___IGetAllLevelObj_b__28_2 (MainLevelModeCtrl_o* __this, bool isSuccess, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j94015",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17733,
+    "Name": "LevelDataHelper$$get_AllLevelDictByIndex",
+    "Signature": "System_Collections_Generic_Dictionary_int__List_LevelIndexAndType___o* LevelDataHelper__get_AllLevelDictByIndex (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j43568",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17948,
+    "Name": "LevelManager.<>c$$<CheckSubmit>b__84_1",
+    "Signature": "void LevelManager___c___CheckSubmit_b__84_1 (LevelManager___c_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j73631",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17960,
+    "Name": "LevelManager.<DelayToShowHand>d__105$$MoveNext",
+    "Signature": "bool LevelManager__DelayToShowHand_d__105__MoveNext (LevelManager__DelayToShowHand_d__105_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74274",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17962,
+    "Name": "LevelManager.<DelayToShowHand>d__105$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__DelayToShowHand_d__105__System_Collections_IEnumerator_Reset (LevelManager__DelayToShowHand_d__105_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74273",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17977,
+    "Name": "LevelManager.<LoopCreateObj>d__187$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__LoopCreateObj_d__187__System_Collections_IEnumerator_Reset (LevelManager__LoopCreateObj_d__187_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74023",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17983,
+    "Name": "LevelManager.<LoopCrowObjSize>d__192$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__LoopCrowObjSize_d__192__System_Collections_IEnumerator_Reset (LevelManager__LoopCrowObjSize_d__192_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74019",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17989,
+    "Name": "LevelManager.<LoopOptimization>d__196$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__LoopOptimization_d__196__System_Collections_IEnumerator_Reset (LevelManager__LoopOptimization_d__196_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74001",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17995,
+    "Name": "LevelManager.<LoopCheckLoseObj>d__199$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__LoopCheckLoseObj_d__199__System_Collections_IEnumerator_Reset (LevelManager__LoopCheckLoseObj_d__199_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74033",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18001,
+    "Name": "LevelManager.<CountDownTime>d__202$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__CountDownTime_d__202__System_Collections_IEnumerator_Reset (LevelManager__CountDownTime_d__202_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74390",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18007,
+    "Name": "LevelManager.<EndlessTime>d__203$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__EndlessTime_d__203__System_Collections_IEnumerator_Reset (LevelManager__EndlessTime_d__203_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74198",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18013,
+    "Name": "LevelManager.<DelayToCheckContent>d__226$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__DelayToCheckContent_d__226__System_Collections_IEnumerator_Reset (LevelManager__DelayToCheckContent_d__226_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74325",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18019,
+    "Name": "LevelManager.<DestroyAnim>d__227$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__DestroyAnim_d__227__System_Collections_IEnumerator_Reset (LevelManager__DestroyAnim_d__227_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74251",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18025,
+    "Name": "LevelManager.<DelayToLose>d__272$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__DelayToLose_d__272__System_Collections_IEnumerator_Reset (LevelManager__DelayToLose_d__272_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74293",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18029,
+    "Name": "LevelManager.<WindObj>d__284$$MoveNext",
+    "Signature": "bool LevelManager__WindObj_d__284__MoveNext (LevelManager__WindObj_d__284_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j71632",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18031,
+    "Name": "LevelManager.<WindObj>d__284$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__WindObj_d__284__System_Collections_IEnumerator_Reset (LevelManager__WindObj_d__284_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j71631",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18035,
+    "Name": "LevelManager.<ClawObj>d__288$$MoveNext",
+    "Signature": "bool LevelManager__ClawObj_d__288__MoveNext (LevelManager__ClawObj_d__288_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74415",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18037,
+    "Name": "LevelManager.<ClawObj>d__288$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__ClawObj_d__288__System_Collections_IEnumerator_Reset (LevelManager__ClawObj_d__288_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74414",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18041,
+    "Name": "LevelManager.<ClawTargetObj>d__289$$MoveNext",
+    "Signature": "bool LevelManager__ClawTargetObj_d__289__MoveNext (LevelManager__ClawTargetObj_d__289_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74413",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18043,
+    "Name": "LevelManager.<ClawTargetObj>d__289$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__ClawTargetObj_d__289__System_Collections_IEnumerator_Reset (LevelManager__ClawTargetObj_d__289_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74412",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18049,
+    "Name": "LevelManager.<FingHighlight>d__292$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__FingHighlight_d__292__System_Collections_IEnumerator_Reset (LevelManager__FingHighlight_d__292_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74180",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18052,
+    "Name": "LevelManager.<>c__DisplayClass297_0$$<MessObjPosAnim>b__1",
+    "Signature": "void LevelManager___c__DisplayClass297_0___MessObjPosAnim_b__1 (LevelManager___c__DisplayClass297_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j72540",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18055,
+    "Name": "LevelManager.<MessObjPosAnim>d__297$$MoveNext",
+    "Signature": "bool LevelManager__MessObjPosAnim_d__297__MoveNext (LevelManager__MessObjPosAnim_d__297_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j73984",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18057,
+    "Name": "LevelManager.<MessObjPosAnim>d__297$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__MessObjPosAnim_d__297__System_Collections_IEnumerator_Reset (LevelManager__MessObjPosAnim_d__297_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j73983",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18063,
+    "Name": "LevelManager.<MessObjRotaAnim>d__301$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__MessObjRotaAnim_d__301__System_Collections_IEnumerator_Reset (LevelManager__MessObjRotaAnim_d__301_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j73981",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18067,
+    "Name": "LevelManager.<LoopCheckTip>d__331$$MoveNext",
+    "Signature": "bool LevelManager__LoopCheckTip_d__331__MoveNext (LevelManager__LoopCheckTip_d__331_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74028",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18069,
+    "Name": "LevelManager.<LoopCheckTip>d__331$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__LoopCheckTip_d__331__System_Collections_IEnumerator_Reset (LevelManager__LoopCheckTip_d__331_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74027",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18073,
+    "Name": "LevelManager.<NewGuideLevel1EndAnim>d__345$$MoveNext",
+    "Signature": "bool LevelManager__NewGuideLevel1EndAnim_d__345__MoveNext (LevelManager__NewGuideLevel1EndAnim_d__345_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j73966",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18075,
+    "Name": "LevelManager.<NewGuideLevel1EndAnim>d__345$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__NewGuideLevel1EndAnim_d__345__System_Collections_IEnumerator_Reset (LevelManager__NewGuideLevel1EndAnim_d__345_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j73965",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18079,
+    "Name": "LevelManager.<WaitTimeAndClick>d__346$$MoveNext",
+    "Signature": "bool LevelManager__WaitTimeAndClick_d__346__MoveNext (LevelManager__WaitTimeAndClick_d__346_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j71642",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18081,
+    "Name": "LevelManager.<WaitTimeAndClick>d__346$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__WaitTimeAndClick_d__346__System_Collections_IEnumerator_Reset (LevelManager__WaitTimeAndClick_d__346_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j71641",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18085,
+    "Name": "LevelManager.<AddObjAnim>d__365$$MoveNext",
+    "Signature": "bool LevelManager__AddObjAnim_d__365__MoveNext (LevelManager__AddObjAnim_d__365_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74583",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18087,
+    "Name": "LevelManager.<AddObjAnim>d__365$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelManager__AddObjAnim_d__365__System_Collections_IEnumerator_Reset (LevelManager__AddObjAnim_d__365_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74582",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17789,
+    "Name": "LevelManager$$GetCurLevelData",
+    "Signature": "System_Collections_Generic_List_LevelDataData__o* LevelManager__GetCurLevelData (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j95037",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17808,
+    "Name": "LevelManager$$OtherControlType",
+    "Signature": "void LevelManager__OtherControlType (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95017",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17811,
+    "Name": "LevelManager$$SetMaxHeight",
+    "Signature": "void LevelManager__SetMaxHeight (LevelManager_o* __this, float height, int32_t index, const MethodInfo* method);",
+    "TypeSignature": "vifii",
+    "wasmSymbol": "$j95014",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17812,
+    "Name": "LevelManager$$GetMaxHeight",
+    "Signature": "float LevelManager__GetMaxHeight (LevelManager_o* __this, int32_t index, const MethodInfo* method);",
+    "TypeSignature": "fiii",
+    "wasmSymbol": "$j95035",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17817,
+    "Name": "LevelManager$$GetMinTouchHeight",
+    "Signature": "float LevelManager__GetMinTouchHeight (LevelManager_o* __this, int32_t index, const MethodInfo* method);",
+    "TypeSignature": "fiii",
+    "wasmSymbol": "$j95034",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17829,
+    "Name": "LevelManager$$GetTargetCard",
+    "Signature": "LevelObjStruct_array* LevelManager__GetTargetCard (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j95032",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17837,
+    "Name": "LevelManager$$GetObjBoxTrans",
+    "Signature": "UnityEngine_Transform_o* LevelManager__GetObjBoxTrans (LevelManager_o* __this, int32_t playerIndex, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j95033",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17865,
+    "Name": "LevelManager$$GetLevelProgress",
+    "Signature": "float LevelManager__GetLevelProgress (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "fii",
+    "wasmSymbol": "$j45770",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17883,
+    "Name": "LevelManager$$ResetShakeData",
+    "Signature": "void LevelManager__ResetShakeData (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95015",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17885,
+    "Name": "LevelManager$$WindObj",
+    "Signature": "System_Collections_IEnumerator_o* LevelManager__WindObj (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j95005",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17904,
+    "Name": "LevelManager$$SetShakeData",
+    "Signature": "void LevelManager__SetShakeData (LevelManager_o* __this, float limit, float max, float force, const MethodInfo* method);",
+    "TypeSignature": "vifffi",
+    "wasmSymbol": "$j95012",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17908,
+    "Name": "LevelManager$$OnStartGameReset",
+    "Signature": "void LevelManager__OnStartGameReset (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95018",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17914,
+    "Name": "LevelManager$$NewGuideState",
+    "Signature": "void LevelManager__NewGuideState (LevelManager_o* __this, bool isStart, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j95021",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17930,
+    "Name": "LevelManager$$InitCameraMove",
+    "Signature": "void LevelManager__InitCameraMove (LevelManager_o* __this, float minZ, float maxZ, const MethodInfo* method);",
+    "TypeSignature": "viffi",
+    "wasmSymbol": "$j43530",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17935,
+    "Name": "LevelManager$$<Start>b__83_0",
+    "Signature": "void LevelManager___Start_b__83_0 (LevelManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95007",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18168,
+    "Name": "MainLevelManager$$get_SelectedStar",
+    "Signature": "int32_t MainLevelManager__get_SelectedStar (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j94047",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18169,
+    "Name": "MainLevelManager$$set_SelectedStar",
+    "Signature": "void MainLevelManager__set_SelectedStar (int32_t value, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94043",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18170,
+    "Name": "MainLevelManager$$get_CurStar",
+    "Signature": "int32_t MainLevelManager__get_CurStar (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j94048",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18171,
+    "Name": "MainLevelManager$$set_CurStar",
+    "Signature": "void MainLevelManager__set_CurStar (int32_t value, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94044",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18173,
+    "Name": "MainLevelManager$$set_CurIndexType",
+    "Signature": "void MainLevelManager__set_CurIndexType (LevelIndexAndType_o value, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94045",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18174,
+    "Name": "MainLevelManager$$get_StartAdSharePosition",
+    "Signature": "int32_t MainLevelManager__get_StartAdSharePosition (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j94046",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18175,
+    "Name": "MainLevelManager$$GetFunctionIdByStar",
+    "Signature": "int32_t MainLevelManager__GetFunctionIdByStar (int32_t star, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j94051",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18219,
+    "Name": "ObjectUnit$$CanBeSelect",
+    "Signature": "bool ObjectUnit__CanBeSelect (ObjectUnit_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j91094",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18384,
+    "Name": "SpModeLongTableMa.<>c$$.cctor",
+    "Signature": "void SpModeLongTableMa___c___cctor (const MethodInfo* method);",
+    "TypeSignature": "vi",
+    "wasmSymbol": "$j71886",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18386,
+    "Name": "SpModeLongTableMa.<>c$$<SetCameraPos>b__23_0",
+    "Signature": "void SpModeLongTableMa___c___SetCameraPos_b__23_0 (SpModeLongTableMa___c_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j73253",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18376,
+    "Name": "SpModeLongTableMa$$IsPointerOverUI",
+    "Signature": "bool SpModeLongTableMa__IsPointerOverUI (UnityEngine_Vector3_o bottomPoint, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j37542",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18377,
+    "Name": "SpModeLongTableMa$$InitCamera",
+    "Signature": "void SpModeLongTableMa__InitCamera (UnityEngine_Camera_o* cam, UnityEngine_Transform_o* moveTrans, UnityEngine_Vector2_o limitPos, float cameraAngle, const MethodInfo* method);",
+    "TypeSignature": "viiifi",
+    "wasmSymbol": "$j37543",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18378,
+    "Name": "SpModeLongTableMa$$CtrlCamera",
+    "Signature": "void SpModeLongTableMa__CtrlCamera (const MethodInfo* method);",
+    "TypeSignature": "vi",
+    "wasmSymbol": "$j37545",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18379,
+    "Name": "SpModeLongTableMa$$GetMousePos",
+    "Signature": "void SpModeLongTableMa__GetMousePos (const MethodInfo* method);",
+    "TypeSignature": "vi",
+    "wasmSymbol": "$j19972",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18380,
+    "Name": "SpModeLongTableMa$$HasMoveOverLimit",
+    "Signature": "bool SpModeLongTableMa__HasMoveOverLimit (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j37544",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18381,
+    "Name": "SpModeLongTableMa$$SetCameraPos",
+    "Signature": "void SpModeLongTableMa__SetCameraPos (UnityEngine_Vector3_o pos, bool isAnim, float animTime, const MethodInfo* method);",
+    "TypeSignature": "viifi",
+    "wasmSymbol": "$j19971",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18590,
+    "Name": "NetDataManager.<LoopCheckDay>d__26$$System.Collections.IEnumerator.Reset",
+    "Signature": "void NetDataManager__LoopCheckDay_d__26__System_Collections_IEnumerator_Reset (NetDataManager__LoopCheckDay_d__26_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74037",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18602,
+    "Name": "NetDataManager.<>c$$<LoadLibraryChiForestOrder>b__112_0",
+    "Signature": "void NetDataManager___c___LoadLibraryChiForestOrder_b__112_0 (NetDataManager___c_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j73464",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18603,
+    "Name": "NetDataManager.<>c$$<LoadRedPacketRankList>b__116_0",
+    "Signature": "void NetDataManager___c___LoadRedPacketRankList_b__116_0 (NetDataManager___c_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j73462",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18609,
+    "Name": "NetDataManager.<>c__DisplayClass87_0$$<RefreshTeamListData>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass87_0___RefreshTeamListData_b__0 (NetDataManager___c__DisplayClass87_0_o* __this, LitJson_JsonData_o* result, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72109",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18612,
+    "Name": "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass88_0___RefreshTeamInfoData_b__0 (NetDataManager___c__DisplayClass88_0_o* __this, LitJson_JsonData_o* result, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72107",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18613,
+    "Name": "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__2",
+    "Signature": "void NetDataManager___c__DisplayClass88_0___RefreshTeamInfoData_b__2 (NetDataManager___c__DisplayClass88_0_o* __this, bool b1, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72105",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18614,
+    "Name": "NetDataManager.<>c__DisplayClass88_0$$<RefreshTeamInfoData>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass88_0___RefreshTeamInfoData_b__1 (NetDataManager___c__DisplayClass88_0_o* __this, System_ValueTuple_string__string__o errorid, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72106",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18616,
+    "Name": "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass89_0___SearchTeamInfoData_b__0 (NetDataManager___c__DisplayClass89_0_o* __this, LitJson_JsonData_o* result, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72103",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18617,
+    "Name": "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__2",
+    "Signature": "void NetDataManager___c__DisplayClass89_0___SearchTeamInfoData_b__2 (NetDataManager___c__DisplayClass89_0_o* __this, bool isSuccess, SearchTeamInfoData_o* callbackData, const MethodInfo* method);",
+    "TypeSignature": "viiii",
+    "wasmSymbol": "$j72102",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18618,
+    "Name": "NetDataManager.<>c__DisplayClass89_0$$<SearchTeamInfoData>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass89_0___SearchTeamInfoData_b__1 (NetDataManager___c__DisplayClass89_0_o* __this, System_ValueTuple_string__string__o errorid, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j7003",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18628,
+    "Name": "NetDataManager.<>c__DisplayClass113_0$$<UploadLibraryChiForestOrderInfo>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass113_0___UploadLibraryChiForestOrderInfo_b__0 (NetDataManager___c__DisplayClass113_0_o* __this, LitJson_JsonData_o* SData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72936",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18629,
+    "Name": "NetDataManager.<>c__DisplayClass113_0$$<UploadLibraryChiForestOrderInfo>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass113_0___UploadLibraryChiForestOrderInfo_b__1 (NetDataManager___c__DisplayClass113_0_o* __this, System_ValueTuple_string__string__o FData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72935",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18631,
+    "Name": "NetDataManager.<>c__DisplayClass114_0$$<GetLibraryChiForestGooseCount>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass114_0___GetLibraryChiForestGooseCount_b__0 (NetDataManager___c__DisplayClass114_0_o* __this, LitJson_JsonData_o* success, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72933",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18632,
+    "Name": "NetDataManager.<>c__DisplayClass114_0$$<GetLibraryChiForestGooseCount>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass114_0___GetLibraryChiForestGooseCount_b__1 (NetDataManager___c__DisplayClass114_0_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72932",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18638,
+    "Name": "NetDataManager.<>c__DisplayClass117_0$$<GetRedPacketReward>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass117_0___GetRedPacketReward_b__1 (NetDataManager___c__DisplayClass117_0_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72926",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18640,
+    "Name": "NetDataManager.<>c__DisplayClass118_0$$<ConfirmAndReissueRedPacketOrder>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass118_0___ConfirmAndReissueRedPacketOrder_b__0 (NetDataManager___c__DisplayClass118_0_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72925",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18643,
+    "Name": "NetDataManager.<>c__DisplayClass119_0$$<GetRedPacketCurrentInfo>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass119_0___GetRedPacketCurrentInfo_b__1 (NetDataManager___c__DisplayClass119_0_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72923",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18645,
+    "Name": "NetDataManager.<>c__DisplayClass120_0$$<ExchangePuzzle>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass120_0___ExchangePuzzle_b__0 (NetDataManager___c__DisplayClass120_0_o* __this, LitJson_JsonData_o* jsonData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72895",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18651,
+    "Name": "NetDataManager.<>c__DisplayClass123_0$$<GetRedPacketRightPeopleCount>b__0",
+    "Signature": "void NetDataManager___c__DisplayClass123_0___GetRedPacketRightPeopleCount_b__0 (NetDataManager___c__DisplayClass123_0_o* __this, LitJson_JsonData_o* jsonData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j72892",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18658,
+    "Name": "NetDataManager.<>c__DisplayClass125_0$$<GetRedPacketResult>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass125_0___GetRedPacketResult_b__1 (NetDataManager___c__DisplayClass125_0_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j7003",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18661,
+    "Name": "NetDataManager.<>c__DisplayClass126_0$$<GetAdvertInfo>b__1",
+    "Signature": "void NetDataManager___c__DisplayClass126_0___GetAdvertInfo_b__1 (NetDataManager___c__DisplayClass126_0_o* __this, System_ValueTuple_string__string__o failData, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j7003",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18492,
+    "Name": "NetDataManager$$get_DailyOverrideLevelIndex",
+    "Signature": "int32_t NetDataManager__get_DailyOverrideLevelIndex (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j91751",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18502,
+    "Name": "NetDataManager$$SetDailyBaseLevelIndex",
+    "Signature": "void NetDataManager__SetDailyBaseLevelIndex (int32_t baseIndex, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j91757",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18505,
+    "Name": "NetDataManager$$GetPublicNetSaveData",
+    "Signature": "PlayerNetPublicSaveData_o* NetDataManager__GetPublicNetSaveData (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j91764",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18508,
+    "Name": "NetDataManager$$SetPublicNetSaveData",
+    "Signature": "void NetDataManager__SetPublicNetSaveData (PlayerNetPublicSaveData_o* data, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j91755",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18517,
+    "Name": "NetDataManager$$GetSelfNetSaveData",
+    "Signature": "PlayerNetSelfSaveData_o* NetDataManager__GetSelfNetSaveData (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j91763",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18538,
+    "Name": "NetDataManager$$SetGlobalData",
+    "Signature": "void NetDataManager__SetGlobalData (GlobalNetworkData_o* data, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j91756",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18540,
+    "Name": "NetDataManager$$GetGlobalData",
+    "Signature": "GlobalNetworkData_o* NetDataManager__GetGlobalData (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j91765",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18562,
+    "Name": "NetDataManager$$AddResource",
+    "Signature": "void NetDataManager__AddResource (int32_t type, int32_t count, int32_t pos, int32_t way, bool isTrack, const MethodInfo* method);",
+    "TypeSignature": "viiiiii",
+    "wasmSymbol": "$j41863",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  }
+]

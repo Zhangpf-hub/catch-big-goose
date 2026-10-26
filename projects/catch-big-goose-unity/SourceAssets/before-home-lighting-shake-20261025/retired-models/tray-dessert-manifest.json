@@ -1,0 +1,46 @@
+{
+  "reason": "No runtime id or external GUID references; inactive dessert tray replaced by round_dessert_r4. Preserve original files and GUIDs outside Resources for package budget.",
+  "original": "Assets/Resources/Models/tray_dessert",
+  "files": [
+    {
+      "path": "albedo.png",
+      "bytes": 92706,
+      "sha256": "60cee00ad404f05bb9b5e37159174e43f6ee56ed53e48884da9cdfc3c56ae19e"
+    },
+    {
+      "path": "albedo.png.meta",
+      "bytes": 2945,
+      "sha256": "92edd2ff74fe58941b899023481e97af42c4439620648a645384281f99be790c"
+    },
+    {
+      "path": "materials.json",
+      "bytes": 233,
+      "sha256": "dcbde9bb3ae92007388a34c5e19a2447d3ba543738841015644e504aef593f96"
+    },
+    {
+      "path": "materials.json.meta",
+      "bytes": 158,
+      "sha256": "a77e8312179c656b15ed42f4298e955615dc778057333dc880c7ba7414c09d68"
+    },
+    {
+      "path": "tray_dessert_mobile.mat",
+      "bytes": 2255,
+      "sha256": "e8068d1738b5884c0c43ad5757464eb33605c07c33aae1adeeab0b8ed7c8c9f6"
+    },
+    {
+      "path": "tray_dessert_mobile.mat.meta",
+      "bytes": 188,
+      "sha256": "bc35f0f4d506953c668ee4322c4110b2eda98608216f1ee4f7c704e2608a092c"
+    },
+    {
+      "path": "tray_dessert.fbx",
+      "bytes": 189132,
+      "sha256": "f0d746fa7d7e6285e49c3248863d4c0d6cb3d8fa568feb36b724929834464ef3"
+    },
+    {
+      "path": "tray_dessert.fbx.meta",
+      "bytes": 3021,
+      "sha256": "4884ceecae801a46bc9392470fa4811ad3727925e62ca4ed92efe885ee9d41c1"
+    }
+  ]
+}

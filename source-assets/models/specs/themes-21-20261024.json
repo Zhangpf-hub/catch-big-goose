@@ -1,0 +1,1745 @@
+{
+  "purpose": "Original Unity theme expansion, 12 new items per theme",
+  "models": [
+    {
+      "id": "watermelon",
+      "theme": "fruit",
+      "name": "西瓜",
+      "paletteIndex": 12,
+      "silhouette": "长椭球",
+      "recognitionFeatures": [
+        "深浅瓜纹",
+        "短瓜蒂",
+        "完整厚瓜体"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "pineapple",
+      "theme": "fruit",
+      "name": "菠萝",
+      "paletteIndex": 2,
+      "silhouette": "菱格筒体与叶冠",
+      "recognitionFeatures": [
+        "菱格果皮",
+        "放射叶冠",
+        "圆底果身"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "peach",
+      "theme": "fruit",
+      "name": "桃子",
+      "paletteIndex": 10,
+      "silhouette": "带沟心形",
+      "recognitionFeatures": [
+        "双瓣果肉",
+        "纵向沟线",
+        "叶与短梗"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "kiwi",
+      "theme": "fruit",
+      "name": "猕猴桃",
+      "paletteIndex": 6,
+      "silhouette": "厚切圆片",
+      "recognitionFeatures": [
+        "棕色外皮",
+        "绿色切面",
+        "放射黑籽"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "mango",
+      "theme": "fruit",
+      "name": "芒果",
+      "paletteIndex": 2,
+      "silhouette": "弯曲肾形",
+      "recognitionFeatures": [
+        "偏心果腹",
+        "收尖果端",
+        "短叶梗"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "coconut",
+      "theme": "fruit",
+      "name": "椰子",
+      "paletteIndex": 6,
+      "silhouette": "粗壳圆球",
+      "recognitionFeatures": [
+        "棕色厚壳",
+        "三个芽眼",
+        "浅色壳棱"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "blueberry",
+      "theme": "fruit",
+      "name": "蓝莓",
+      "paletteIndex": 4,
+      "silhouette": "三连圆果",
+      "recognitionFeatures": [
+        "蓝紫果体",
+        "五瓣花萼",
+        "短枝相连"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "dragonfruit",
+      "theme": "fruit",
+      "name": "火龙果",
+      "paletteIndex": 10,
+      "silhouette": "鳞片椭球",
+      "recognitionFeatures": [
+        "粉红果壳",
+        "绿色厚鳞片",
+        "两端收口"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "avocado",
+      "theme": "fruit",
+      "name": "牛油果",
+      "paletteIndex": 12,
+      "silhouette": "梨形厚半果",
+      "recognitionFeatures": [
+        "绿色外皮",
+        "浅色切面",
+        "棕色大核"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "pomegranate",
+      "theme": "fruit",
+      "name": "石榴",
+      "paletteIndex": 0,
+      "silhouette": "带冠圆球",
+      "recognitionFeatures": [
+        "红色果体",
+        "厚花冠",
+        "粗果皮棱"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "persimmon",
+      "theme": "fruit",
+      "name": "柿子",
+      "paletteIndex": 2,
+      "silhouette": "扁方圆果",
+      "recognitionFeatures": [
+        "橙色四瓣",
+        "绿色大萼片",
+        "短果梗"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "starfruit",
+      "theme": "fruit",
+      "name": "杨桃",
+      "paletteIndex": 13,
+      "silhouette": "五角厚柱",
+      "recognitionFeatures": [
+        "五条凸棱",
+        "五角端面",
+        "绿黄双色"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadevase",
+      "theme": "antique",
+      "name": "玉瓶",
+      "paletteIndex": 1,
+      "silhouette": "窄颈鼓腹",
+      "recognitionFeatures": [
+        "厚瓶口",
+        "窄颈鼓腹",
+        "环形底足"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadepeanut",
+      "theme": "antique",
+      "name": "玉花生",
+      "paletteIndex": 9,
+      "silhouette": "双节荚形",
+      "recognitionFeatures": [
+        "双节轮廓",
+        "浅槽纹",
+        "厚吊环"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadecarp",
+      "theme": "antique",
+      "name": "玉鲤鱼",
+      "paletteIndex": 1,
+      "silhouette": "鱼形",
+      "recognitionFeatures": [
+        "立体鱼身",
+        "分叉尾鳍",
+        "眼与背鳍"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadetiger",
+      "theme": "antique",
+      "name": "玉虎",
+      "paletteIndex": 2,
+      "silhouette": "伏卧兽形",
+      "recognitionFeatures": [
+        "四肢与虎头",
+        "圆耳",
+        "背部深条纹"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadetalisman",
+      "theme": "antique",
+      "name": "玉牌",
+      "paletteIndex": 1,
+      "silhouette": "圆角长牌",
+      "recognitionFeatures": [
+        "穿绳孔环",
+        "厚牌体",
+        "金色凸纹"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "goldring",
+      "theme": "antique",
+      "name": "金戒指",
+      "paletteIndex": 2,
+      "silhouette": "环与宝石",
+      "recognitionFeatures": [
+        "厚金环",
+        "蓝色石座",
+        "凸起主石"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "goldchime",
+      "theme": "antique",
+      "name": "金编钟",
+      "paletteIndex": 2,
+      "silhouette": "悬钮钟形",
+      "recognitionFeatures": [
+        "厚钟身",
+        "顶端悬钮",
+        "底部钟唇"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadechime",
+      "theme": "antique",
+      "name": "玉磬",
+      "paletteIndex": 1,
+      "silhouette": "折角板形",
+      "recognitionFeatures": [
+        "折角主体",
+        "金色悬孔",
+        "厚实板面"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadeleaf",
+      "theme": "antique",
+      "name": "玉叶",
+      "paletteIndex": 12,
+      "silhouette": "尖椭叶形",
+      "recognitionFeatures": [
+        "叶片轮廓",
+        "中央叶脉",
+        "顶部吊环"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadelock",
+      "theme": "antique",
+      "name": "长命锁",
+      "paletteIndex": 2,
+      "silhouette": "圆肩锁形",
+      "recognitionFeatures": [
+        "左右锁肩",
+        "中央凸纹",
+        "厚悬挂环"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadeteapot",
+      "theme": "antique",
+      "name": "玉壶",
+      "paletteIndex": 1,
+      "silhouette": "壶体与嘴把",
+      "recognitionFeatures": [
+        "鼓腹壶身",
+        "弯壶嘴",
+        "壶把与壶盖"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "jadebeads",
+      "theme": "antique",
+      "name": "玉珠串",
+      "paletteIndex": 1,
+      "silhouette": "厚珠环",
+      "recognitionFeatures": [
+        "连续玉珠",
+        "金色隔珠",
+        "一枚垂坠珠"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "tomato",
+      "theme": "farm",
+      "name": "番茄",
+      "paletteIndex": 0,
+      "silhouette": "扁圆果",
+      "recognitionFeatures": [
+        "红色果体",
+        "五瓣绿萼",
+        "短果梗"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "potato",
+      "theme": "farm",
+      "name": "土豆",
+      "paletteIndex": 9,
+      "silhouette": "不规则椭球",
+      "recognitionFeatures": [
+        "土黄色表皮",
+        "可见芽眼",
+        "偏心厚体"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "cabbage",
+      "theme": "farm",
+      "name": "白菜",
+      "paletteIndex": 1,
+      "silhouette": "抱叶椭球",
+      "recognitionFeatures": [
+        "层叠外叶",
+        "浅色菜心",
+        "厚白菜梗"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "broccoli",
+      "theme": "farm",
+      "name": "西兰花",
+      "paletteIndex": 12,
+      "silhouette": "树冠形",
+      "recognitionFeatures": [
+        "分枝菜梗",
+        "簇状花冠",
+        "大小花球"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "bellpepper",
+      "theme": "farm",
+      "name": "甜椒",
+      "paletteIndex": 0,
+      "silhouette": "三瓣鼓体",
+      "recognitionFeatures": [
+        "分瓣外形",
+        "弯绿梗",
+        "下端厚瓣"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "cucumber",
+      "theme": "farm",
+      "name": "黄瓜",
+      "paletteIndex": 12,
+      "silhouette": "长弯柱",
+      "recognitionFeatures": [
+        "收尖瓜头",
+        "浅色条棱",
+        "粗表皮颗粒"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "onion",
+      "theme": "farm",
+      "name": "洋葱",
+      "paletteIndex": 3,
+      "silhouette": "层纹水滴",
+      "recognitionFeatures": [
+        "紫色层纹",
+        "收束尖颈",
+        "白色根盘"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "radish",
+      "theme": "farm",
+      "name": "白萝卜",
+      "paletteIndex": 7,
+      "silhouette": "锥形粗根",
+      "recognitionFeatures": [
+        "白色粗根",
+        "厚绿叶束",
+        "短尾根"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "garlic",
+      "theme": "farm",
+      "name": "蒜头",
+      "paletteIndex": 9,
+      "silhouette": "多瓣球",
+      "recognitionFeatures": [
+        "六瓣蒜体",
+        "短蒜梗",
+        "扁根盘"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "wateringcan",
+      "theme": "farm",
+      "name": "浇水壶",
+      "paletteIndex": 8,
+      "silhouette": "壶嘴提把",
+      "recognitionFeatures": [
+        "大壶身",
+        "斜壶嘴与喷头",
+        "顶部厚提把"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "egg",
+      "theme": "farm",
+      "name": "鸡蛋",
+      "paletteIndex": 9,
+      "silhouette": "卵形与托圈",
+      "recognitionFeatures": [
+        "上下不同曲率",
+        "奶油色蛋壳",
+        "浅色厚底托"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "shovel",
+      "theme": "farm",
+      "name": "小铲子",
+      "paletteIndex": 4,
+      "silhouette": "铲面长柄",
+      "recognitionFeatures": [
+        "宽铲面",
+        "木色厚柄",
+        "环形握把"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "chocolate",
+      "theme": "dessert",
+      "name": "巧克力",
+      "paletteIndex": 6,
+      "silhouette": "厚分格板",
+      "recognitionFeatures": [
+        "方块分格",
+        "厚底板",
+        "浅色包装角"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "lollipop",
+      "theme": "dessert",
+      "name": "棒棒糖",
+      "paletteIndex": 10,
+      "silhouette": "圆糖长棒",
+      "recognitionFeatures": [
+        "厚圆糖盘",
+        "旋纹",
+        "粗糖棒"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "popsicle",
+      "theme": "dessert",
+      "name": "冰棍",
+      "paletteIndex": 8,
+      "silhouette": "圆角冰体",
+      "recognitionFeatures": [
+        "上下双色冰体",
+        "厚木棒",
+        "三条压纹"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "wafer",
+      "theme": "dessert",
+      "name": "威化饼",
+      "paletteIndex": 9,
+      "silhouette": "多层厚方片",
+      "recognitionFeatures": [
+        "棋盘纹面",
+        "三层夹心",
+        "棕色巧克力边"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "swissroll",
+      "theme": "dessert",
+      "name": "蛋糕卷",
+      "paletteIndex": 9,
+      "silhouette": "横向圆卷",
+      "recognitionFeatures": [
+        "螺旋截面",
+        "厚奶油芯",
+        "金黄外皮"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "eggtart",
+      "theme": "dessert",
+      "name": "蛋挞",
+      "paletteIndex": 2,
+      "silhouette": "碟状厚挞",
+      "recognitionFeatures": [
+        "折边挞皮",
+        "黄色蛋液面",
+        "棕色烘烤斑"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "pancake",
+      "theme": "dessert",
+      "name": "松饼",
+      "paletteIndex": 9,
+      "silhouette": "三层圆饼",
+      "recognitionFeatures": [
+        "叠层厚饼",
+        "黄油块",
+        "浅棕糖浆圈"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "pretzel",
+      "theme": "dessert",
+      "name": "碱水结",
+      "paletteIndex": 6,
+      "silhouette": "交叉双环",
+      "recognitionFeatures": [
+        "两大环孔",
+        "交叉厚面条",
+        "白色盐粒"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "toast",
+      "theme": "dessert",
+      "name": "吐司",
+      "paletteIndex": 9,
+      "silhouette": "拱顶厚片",
+      "recognitionFeatures": [
+        "棕色厚边",
+        "奶油色内芯",
+        "圆拱顶"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "dumpling",
+      "theme": "dessert",
+      "name": "小笼包",
+      "paletteIndex": 9,
+      "silhouette": "褶口圆包",
+      "recognitionFeatures": [
+        "鼓起厚包体",
+        "顶部褶口",
+        "底部蒸皮圈"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "mooncake",
+      "theme": "dessert",
+      "name": "月饼",
+      "paletteIndex": 2,
+      "silhouette": "印花厚圆饼",
+      "recognitionFeatures": [
+        "齿状饼边",
+        "凸起圆纹",
+        "中央方印"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "teacup",
+      "theme": "dessert",
+      "name": "奶茶杯",
+      "paletteIndex": 10,
+      "silhouette": "带盖杯形",
+      "recognitionFeatures": [
+        "锥形厚杯",
+        "双色封盖",
+        "粗吸管"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "tablet",
+      "theme": "electronics",
+      "name": "平板",
+      "paletteIndex": 14,
+      "silhouette": "宽屏薄板",
+      "recognitionFeatures": [
+        "大屏边框",
+        "侧按键",
+        "背面镜头"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "keyboard",
+      "theme": "electronics",
+      "name": "键盘",
+      "paletteIndex": 1,
+      "silhouette": "宽键盘板",
+      "recognitionFeatures": [
+        "多排大键帽",
+        "长空格",
+        "双色机壳"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "monitor",
+      "theme": "electronics",
+      "name": "显示器",
+      "paletteIndex": 8,
+      "silhouette": "屏与支架",
+      "recognitionFeatures": [
+        "宽屏边框",
+        "厚立柱",
+        "平衡底座"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "television",
+      "theme": "electronics",
+      "name": "电视机",
+      "paletteIndex": 6,
+      "silhouette": "带脚厚屏",
+      "recognitionFeatures": [
+        "圆角厚屏",
+        "两枚控制钮",
+        "左右底脚"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "printer",
+      "theme": "electronics",
+      "name": "打印机",
+      "paletteIndex": 7,
+      "silhouette": "叠层箱形",
+      "recognitionFeatures": [
+        "进纸托盘",
+        "出纸口",
+        "实体纸张"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "router",
+      "theme": "electronics",
+      "name": "路由器",
+      "paletteIndex": 9,
+      "silhouette": "箱体与双天线",
+      "recognitionFeatures": [
+        "厚箱体",
+        "两根粗天线",
+        "三枚状态灯"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "usbdrive",
+      "theme": "electronics",
+      "name": "U盘",
+      "paletteIndex": 10,
+      "silhouette": "短棒接头",
+      "recognitionFeatures": [
+        "双色壳体",
+        "厚金属接头",
+        "挂绳孔环"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "powerbank",
+      "theme": "electronics",
+      "name": "充电宝",
+      "paletteIndex": 2,
+      "silhouette": "厚圆角砖",
+      "recognitionFeatures": [
+        "厚机身",
+        "端口凸边",
+        "电量灯"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "microphone",
+      "theme": "electronics",
+      "name": "话筒",
+      "paletteIndex": 3,
+      "silhouette": "圆头柄",
+      "recognitionFeatures": [
+        "金属网罩轮廓",
+        "收束握柄",
+        "底部开关"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "gamepad",
+      "theme": "electronics",
+      "name": "手柄",
+      "paletteIndex": 4,
+      "silhouette": "双握持宽体",
+      "recognitionFeatures": [
+        "左右握柄",
+        "十字键",
+        "四枚按钮"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "flashlight",
+      "theme": "electronics",
+      "name": "手电筒",
+      "paletteIndex": 0,
+      "silhouette": "扩口筒形",
+      "recognitionFeatures": [
+        "宽灯头",
+        "亮色灯面",
+        "防滑握柄"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    },
+    {
+      "id": "alarmclock",
+      "theme": "electronics",
+      "name": "闹钟",
+      "paletteIndex": 13,
+      "silhouette": "双铃圆盘",
+      "recognitionFeatures": [
+        "钟面与粗指针",
+        "左右铃罩",
+        "两只底脚"
+      ],
+      "connections": "Closed solid parts assembled by contact or overlap; no floating accessories",
+      "simplification": "No text, branding, micro surface noise or internal mechanisms",
+      "budget": {
+        "targetTriangles": [
+          1000,
+          4000
+        ],
+        "maxTriangles": 6000,
+        "maxGlbBytes": 262144,
+        "materials": 1,
+        "texture": [
+          64,
+          64
+        ],
+        "normalizedLongestEdge": 1,
+        "minThickness": 0.08
+      }
+    }
+  ]
+}

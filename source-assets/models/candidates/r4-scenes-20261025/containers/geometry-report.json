@@ -1,0 +1,47 @@
+[
+  {
+    "id": "round_breakfast_r4",
+    "triangles": 7296,
+    "materials": 2,
+    "outerDiameter": 4,
+    "innerRadius": 1.74,
+    "floorY": 0,
+    "rimHeight": 0.305
+  },
+  {
+    "id": "round_barbecue_r4",
+    "triangles": 5568,
+    "materials": 2,
+    "outerDiameter": 4,
+    "innerRadius": 1.74,
+    "floorY": 0,
+    "rimHeight": 0.305
+  },
+  {
+    "id": "round_countryside_r4",
+    "triangles": 7296,
+    "materials": 2,
+    "outerDiameter": 4,
+    "innerRadius": 1.74,
+    "floorY": 0,
+    "rimHeight": 0.305
+  },
+  {
+    "id": "round_toys_r4",
+    "triangles": 3264,
+    "materials": 2,
+    "outerDiameter": 4,
+    "innerRadius": 1.74,
+    "floorY": 0,
+    "rimHeight": 0.305
+  },
+  {
+    "id": "round_grocery_r4",
+    "triangles": 7296,
+    "materials": 2,
+    "outerDiameter": 4,
+    "innerRadius": 1.74,
+    "floorY": 0,
+    "rimHeight": 0.305
+  }
+]

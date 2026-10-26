@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfflowerroll",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFFlowerRoll\\BFFlowerRoll.blend",
+  "sourceTriangles": 690,
+  "triangles": 690,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.6512320041656494,
+    1.3504949808120728,
+    1.4541337490081787
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.81787109375,
+    0.8806356191635132
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "nanguabing2",
+      "color": [
+        0.8980392217636108,
+        0.46197935938835144,
+        0.09019608795642853,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

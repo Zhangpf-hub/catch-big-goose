@@ -1,0 +1,53 @@
+{
+  "id": "duck-eggpancake",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_EggPancake/Goose_EggPancake.glb",
+  "sourceSha256": "c1083017b3f3863f992f528296e33e8de1cc2e2a0154009d088bab5944f44917",
+  "originalWorldDimensions": [
+    2.448118209838867,
+    1.752869963645935,
+    1.9760253429412842
+  ],
+  "uniformScale": 0.4084770073524428,
+  "normalizedWorldDimensions": [
+    1.0,
+    0.7160070538520813,
+    0.8071609139442444
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

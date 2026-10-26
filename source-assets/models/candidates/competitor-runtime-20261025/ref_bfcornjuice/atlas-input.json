@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        0.7926317453384399,
+        0.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.009499999694526196,
+        0.30799999833106995
+      ],
+      "uvMax": [
+        0.9973000288009644,
+        0.9944999814033508
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        0.7926317453384399,
+        0.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFCornJuice\\tex_2196100583132731175.png",
+      "uvMin": [
+        0.007300000172108412,
+        0.006200000178068876
+      ],
+      "uvMax": [
+        0.994700014591217,
+        0.9898999929428101
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_bfcornjuice\\albedo.png"
+}

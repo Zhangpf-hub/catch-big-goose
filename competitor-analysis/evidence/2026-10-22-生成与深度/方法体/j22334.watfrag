@@ -1,0 +1,21 @@
+  (func $j22334 (type $t2) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    (local $l3 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $l3
+    local.get $l3
+    global.set $primary.global$0
+    local.get $l3
+    local.get $p1
+    i32.store offset=12
+    local.get $p0
+    local.get $l3
+    i32.const 12
+    i32.add
+    local.get $p2
+    call $j22335
+    local.get $l3
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

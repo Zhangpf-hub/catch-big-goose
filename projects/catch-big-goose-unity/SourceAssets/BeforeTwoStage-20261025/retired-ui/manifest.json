@@ -1,0 +1,86 @@
+[
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\mobile-ui\\market-table.png",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\mobile-ui\\market-table.png",
+    "bytes": 1619355,
+    "sha256": "b2bc6d5881d86bcb3682dfc0ce2c60a26379bd1fcf37f5b20c5a7339e944bba3"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\mobile-ui\\market-table.png.meta",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\mobile-ui\\market-table.png.meta",
+    "bytes": 2978,
+    "sha256": "76806833fee035e0e365ac47048af0f6e8d417756ed41a1359a936b0f992bb14"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\mobile-ui\\goose-hero.png",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\mobile-ui\\goose-hero.png",
+    "bytes": 1319748,
+    "sha256": "e1befcaa0f9a357c3aec119291ecd17ae0c24a5f1e5c17ac94aae57a7b1a9994"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\mobile-ui\\goose-hero.png.meta",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\mobile-ui\\goose-hero.png.meta",
+    "bytes": 2978,
+    "sha256": "84019e616a857d6459944e61f847e5e3d4dacf02334f0bbd3176c07e945c5621"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_dessert.jpg",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_dessert.jpg",
+    "bytes": 249427,
+    "sha256": "17c02079cd16bea9608d50f576d442f662b63a7c09354a8fed10f821b62dba77"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_dessert.jpg.meta",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_dessert.jpg.meta",
+    "bytes": 2978,
+    "sha256": "875ce567dde386cfbe8c094833151f739c7ab1da4c9308f000c05630add61e9a"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_electronics.jpg",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_electronics.jpg",
+    "bytes": 83119,
+    "sha256": "8e1493abbcef953ed9fab0e3847fdde45aaa2f28c1e50b4ce67b2a3972cacb60"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_electronics.jpg.meta",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_electronics.jpg.meta",
+    "bytes": 2978,
+    "sha256": "d7549b7d6a6447e071fa1ce726a007995783d108d186e9c521ea44f04122c2fb"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_farm.jpg",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_farm.jpg",
+    "bytes": 226282,
+    "sha256": "6162ea92631ffdfcb81809f6690d81e8f2f630bd15e892557c74a2ef80ba23f8"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_farm.jpg.meta",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_farm.jpg.meta",
+    "bytes": 2978,
+    "sha256": "68acda065371e31b046a53e5007962deef7617ec1d3378b3a0b133f7a671e762"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_jade.jpg",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_jade.jpg",
+    "bytes": 68910,
+    "sha256": "5a1e36e8416720cd85f51badda82924ad0ebc5200ed13fbf36d061423bdaae16"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_jade.jpg.meta",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_jade.jpg.meta",
+    "bytes": 2978,
+    "sha256": "9d43805f1c154254ddfd429c67bd2c50c04451fa3fdab0e12c7fa9cd2656c557"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_redwood.jpg",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_redwood.jpg",
+    "bytes": 91638,
+    "sha256": "646045505c30df460cb656839ee7653bba56d307469478ac6e652533a23e1e51"
+  },
+  {
+    "source": "unity\\Assets\\Resources\\Textures\\bg_redwood.jpg.meta",
+    "destination": "unity\\SourceAssets\\BeforeTwoStage-20261025\\retired-ui\\Textures\\bg_redwood.jpg.meta",
+    "bytes": 2978,
+    "sha256": "a4251161df95805a8a899758c5c2c4d047c99afbbc479be363f9cb524a1aa4c3"
+  }
+]

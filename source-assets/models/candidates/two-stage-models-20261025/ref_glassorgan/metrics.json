@@ -1,0 +1,12 @@
+{
+  "id": "ref_glassorgan",
+  "triangles": 1318,
+  "parts": 4,
+  "materials": 4,
+  "dimensions": [
+    0.45603877305984497,
+    1.0,
+    0.5826835036277771
+  ],
+  "glbRoundtrip": true
+}

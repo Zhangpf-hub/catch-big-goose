@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "yumi",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_4121379649234230098.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

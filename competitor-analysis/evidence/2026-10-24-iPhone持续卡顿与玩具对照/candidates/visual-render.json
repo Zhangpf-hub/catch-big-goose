@@ -1,0 +1,302 @@
+[
+  {
+    "id": "apple",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "banana",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "grape",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "orange",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "strawberry",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "lemon",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "pear",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "cherry",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "basket_redwood",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "tongqian",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "bracelet",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "baoshi",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "hulu",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "yuzhuo",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "banzhi",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "yuxi",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ruyi",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "bowl_jade",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "carrot",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "corn",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "eggplant",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "frog",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "pumpkin",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "mushroom",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "koi",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "lotus",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "duck",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "basket_farm",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "cupcake",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "donut",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "icecream",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "macaron",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "cookie",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "cake_slice",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "candy",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "pudding",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "croissant",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "tray_dessert",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "tray_electronics",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtcrocodile",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtdinosaur",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtdrawingboard",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtfruiteraser",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtgoosestamp",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtkaleidoscope",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtlaserpen",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtmagiccubel",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpaperboat",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpaperfortune",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpaperstar",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpapertree",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtplanepen",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtplasterdeer",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtplaydough",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtracecar",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtringcandy",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtsandbag",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtsmiledoll",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtstickerbook",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtwatergame",
+    "views": 4,
+    "glbRoundTrip": true
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 753
+  },
+  "m_Name": "ObjectAnimConfig3",
+  "serializationData": {
+    "SerializedFormat": 0,
+    "SerializedBytes": [],
+    "ReferencedUnityObjects": [],
+    "SerializedBytesString": "",
+    "Prefab": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "PrefabModificationsReferencedUnityObjects": [],
+    "PrefabModifications": "",
+    "SerializationNodes": []
+  },
+  "isDedebug": 1,
+  "useVibration": 1,
+  "_objUIPartYLenghTime": 0.02800000086426735,
+  "_objUIPartXLenghTime": 0.014999999664723873,
+  "_objMoveBaseTime": 0.11999999731779099,
+  "_objMoveMinTime": 0.25999999046325684,
+  "_objMoveMaxTime": 0.3499999940395355,
+  "_objPickYOffsetDir": {
+    "x": 0.0,
+    "y": 0.10000000149011612,
+    "z": 0.05000000074505806
+  },
+  "_objPickYOffsetHeightMul": {
+    "x": 0.0,
+    "y": 0.029999999329447746,
+    "z": 0.029999999329447746
+  },
+  "_objPickYOffsetTime": 0.10000000149011612,
+  "_storeObjYOffsetScale": 0.5,
+  "_isObjPickYOffsetUseCusCurve": 0,
+  "_objPickYOffsetEase": 3,
+  "_objPickYOffsetCurve": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_isObjPickMoveXZUseCusCurve": 0,
+  "_objPickMoveXZEase": 2,
+  "_objPickMoveXZCurve": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_isObjPickMoveYUseCusCurve": 0,
+  "_objPickMoveYEase": 3,
+  "_objPickMoveYCurve": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_objRotaMaxTime": 0.30000001192092896,
+  "_isObjPickRotaUseCusCurve": 0,
+  "_objPickRotaEase": 3,
+  "_objPickRotaCurve": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_plateDropDir": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -0.11999999731779099
+  },
+  "_plateDropTime": 0.15000000596046448,
+  "_plateLightTime": 0.10000000149011612,
+  "_plateLightFadeTime": 0.10000000149011612,
+  "_vibratoCount": 10,
+  "_isPlateDropUseCusCurve": 0,
+  "_plateDropEase": 2,
+  "_plateDropCurve": {
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 2.6875,
+        "outSlope": 2.6875,
+        "weightedMode": 0,
+        "inWeight": 0.0,
+        "outWeight": 0.025369979441165924
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 2.68749737739563,
+        "outSlope": 2.68749737739563,
+        "weightedMode": 0,
+        "inWeight": 0.025370001792907715,
+        "outWeight": 0.0
+      }
+    ],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_pickScaleCurve1": 6,
+  "_pickScaleCurve2": 2,
+  "_pickScaleMaxLerp": 0.30000001192092896,
+  "_pickScaleAllLimitTime": 0.4000000059604645,
+  "_pickMaxScale": 1.2999999523162842,
+  "_plateObjMoveTime": 0.20000000298023224,
+  "_isPlateObjMoveUseCusCurve": 0,
+  "_plateObjMoveEase": 7,
+  "_plateObjMoveCurve": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "_objCombineDelayTime": 0.05000000074505806,
+  "_objPickTriToSortTime": 0.3499999940395355,
+  "_objCombineAnimMoveTime": 0.15000000596046448,
+  "_objCombineAnimZoomTime": 0.10000000149011612,
+  "_objCombineOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 1.0
+  },
+  "_objCombineYZMoveEase": 15,
+  "_objCombineXMoveEase": 2,
+  "_objCombineMoveMaxScale": 1.2000000476837158,
+  "_objCombineZoomMaxScale": 1.600000023841858,
+  "_objCombineScaleEase1": 3,
+  "_objCombineScaleEase2": 9
+}

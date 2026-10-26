@@ -1,0 +1,216 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "15d024b3-a416-4e87-9296-f8001e043875",
+  "files": [],
+  "subMetas": {
+    "39241": {
+      "importer": "gltf-material",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@39241",
+      "displayName": "",
+      "id": "39241",
+      "name": "apple_leaf.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221eb": {
+      "importer": "gltf-mesh",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@221eb",
+      "displayName": "",
+      "id": "221eb",
+      "name": "appleLeafMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 564
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bfc85": {
+      "importer": "gltf-mesh",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@bfc85",
+      "displayName": "",
+      "id": "bfc85",
+      "name": "appleStemCurve.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 240
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "825ed": {
+      "importer": "gltf-mesh",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@825ed",
+      "displayName": "",
+      "id": "825ed",
+      "name": "Sphere.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 1712
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "30b90": {
+      "importer": "gltf-material",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@30b90",
+      "displayName": "",
+      "id": "30b90",
+      "name": "apple_leaf_vein.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f154": {
+      "importer": "gltf-material",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@4f154",
+      "displayName": "",
+      "id": "4f154",
+      "name": "apple_stem.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6415b": {
+      "importer": "gltf-material",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@6415b",
+      "displayName": "",
+      "id": "6415b",
+      "name": "apple_stem_cut.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8004": {
+      "importer": "gltf-material",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@c8004",
+      "displayName": "",
+      "id": "c8004",
+      "name": "apple_skin.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5dd9": {
+      "importer": "gltf-material",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@e5dd9",
+      "displayName": "",
+      "id": "e5dd9",
+      "name": "apple_lenticel.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "28cd4": {
+      "importer": "gltf-scene",
+      "uuid": "15d024b3-a416-4e87-9296-f8001e043875@28cd4",
+      "displayName": "",
+      "id": "28cd4",
+      "name": "apple.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "15d024b3-a416-4e87-9296-f8001e043875@221eb",
+        "15d024b3-a416-4e87-9296-f8001e043875@bfc85",
+        "15d024b3-a416-4e87-9296-f8001e043875@825ed"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "15d024b3-a416-4e87-9296-f8001e043875@39241",
+        "15d024b3-a416-4e87-9296-f8001e043875@30b90",
+        "15d024b3-a416-4e87-9296-f8001e043875@4f154",
+        "15d024b3-a416-4e87-9296-f8001e043875@6415b",
+        "15d024b3-a416-4e87-9296-f8001e043875@c8004",
+        "15d024b3-a416-4e87-9296-f8001e043875@e5dd9"
+      ],
+      "scenes": [
+        "15d024b3-a416-4e87-9296-f8001e043875@28cd4"
+      ]
+    }
+  }
+}

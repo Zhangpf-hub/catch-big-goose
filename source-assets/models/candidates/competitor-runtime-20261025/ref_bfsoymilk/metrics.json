@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfsoymilk",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFSoyMilk\\BFSoyMilk.blend",
+  "sourceTriangles": 1380,
+  "triangles": 1380,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.4775726795196533,
+    1.6434872150421143,
+    1.5723812580108643
+  ],
+  "normalizedDimensions": [
+    0.8990472555160522,
+    0.9999999403953552,
+    0.9567346572875977
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

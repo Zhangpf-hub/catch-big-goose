@@ -1,0 +1,36 @@
+{
+  "SheetName": "Assets/Res/ForEditor/LevelData.xlsx",
+  "WorksheetName": "LevelInfoData",
+  "dataArray": [
+    {
+      "_id": 1,
+      "_levelid": 19141,
+      "_levelkey": "IceSummerSpLevel",
+      "_dayfreecount": 1
+    },
+    {
+      "_id": 2,
+      "_levelid": 19151,
+      "_levelkey": "TaoYuanSpLevel",
+      "_dayfreecount": 1
+    },
+    {
+      "_id": 3,
+      "_levelid": 19161,
+      "_levelkey": "LightMealsSpLevel",
+      "_dayfreecount": 1
+    },
+    {
+      "_id": 4,
+      "_levelid": 19163,
+      "_levelkey": "AutumnPicnicSpLevel",
+      "_dayfreecount": 1
+    },
+    {
+      "_id": 5,
+      "_levelid": 19165,
+      "_levelkey": "AlpenliebeSpLevel",
+      "_dayfreecount": 1
+    }
+  ]
+}

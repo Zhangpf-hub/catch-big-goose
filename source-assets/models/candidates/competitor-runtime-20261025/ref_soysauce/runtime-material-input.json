@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "name": "SoySauceBottleMa",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite2",
+      "glassFlattened": false
+    },
+    {
+      "name": "SoySauceTexMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_6952941555355447436.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    },
+    {
+      "name": "SoySauceRedMa",
+      "color": [
+        1.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

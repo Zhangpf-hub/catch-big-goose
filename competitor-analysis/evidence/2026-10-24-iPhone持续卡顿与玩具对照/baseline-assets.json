@@ -1,0 +1,1890 @@
+{
+    "scope": "Imported Unity meshes and source quotas; drawSlots are unculled renderer/submesh submissions, not measured GPU draw calls",
+    "models": [
+        {
+            "id": "apple",
+            "path": "Assets/Resources/Models/apple/apple.fbx",
+            "renderers": 3,
+            "materials": 6,
+            "drawSlots": 6,
+            "vertices": 1950,
+            "triangles": 2516,
+            "readableMeshes": 3,
+            "textureBytes": 0,
+            "meshBytes": 222384,
+            "dimensions": {
+                "x": 0.9542438387870789,
+                "y": 0.9999999403953552,
+                "z": 0.8807793855667114
+            }
+        },
+        {
+            "id": "banana",
+            "path": "Assets/Resources/Models/banana/banana.fbx",
+            "renderers": 4,
+            "materials": 3,
+            "drawSlots": 4,
+            "vertices": 876,
+            "triangles": 1568,
+            "readableMeshes": 4,
+            "textureBytes": 44384,
+            "meshBytes": 109344,
+            "dimensions": {
+                "x": 0.9999998807907105,
+                "y": 0.1783410906791687,
+                "z": 0.4441509246826172
+            }
+        },
+        {
+            "id": "grape",
+            "path": "Assets/Resources/Models/grape/grape.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 896,
+            "triangles": 1740,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 108616,
+            "dimensions": {
+                "x": 0.5331078171730042,
+                "y": 0.9999999403953552,
+                "z": 0.5181223154067993
+            }
+        },
+        {
+            "id": "orange",
+            "path": "Assets/Resources/Models/orange/orange.fbx",
+            "renderers": 1,
+            "materials": 4,
+            "drawSlots": 4,
+            "vertices": 1505,
+            "triangles": 1300,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 161856,
+            "dimensions": {
+                "x": 0.9934398531913757,
+                "y": 1.0,
+                "z": 0.9737624526023865
+            }
+        },
+        {
+            "id": "strawberry",
+            "path": "Assets/Resources/Models/strawberry/strawberry.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 1749,
+            "triangles": 1384,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 186232,
+            "dimensions": {
+                "x": 0.5790956020355225,
+                "y": 0.9999999403953552,
+                "z": 0.5414531230926514
+            }
+        },
+        {
+            "id": "lemon",
+            "path": "Assets/Resources/Models/lemon/lemon.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 640,
+            "triangles": 900,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 73960,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.563132643699646,
+                "z": 0.5631329417228699
+            }
+        },
+        {
+            "id": "pear",
+            "path": "Assets/Resources/Models/pear/pear.fbx",
+            "renderers": 1,
+            "materials": 4,
+            "drawSlots": 4,
+            "vertices": 796,
+            "triangles": 1308,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 93888,
+            "dimensions": {
+                "x": 0.6793976426124573,
+                "y": 0.9999999403953552,
+                "z": 0.6793977618217468
+            }
+        },
+        {
+            "id": "cherry",
+            "path": "Assets/Resources/Models/cherry/cherry.fbx",
+            "renderers": 1,
+            "materials": 5,
+            "drawSlots": 5,
+            "vertices": 801,
+            "triangles": 1264,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 93896,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.9000226855278015,
+                "z": 0.5956954956054688
+            }
+        },
+        {
+            "id": "goose",
+            "path": "Assets/Resources/Models/goose/goose.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 2328,
+            "triangles": 2500,
+            "readableMeshes": 1,
+            "textureBytes": 44384,
+            "meshBytes": 255096,
+            "dimensions": {
+                "x": 0.9290546178817749,
+                "y": 1.0,
+                "z": 0.9177713394165039
+            }
+        },
+        {
+            "id": "watermelon",
+            "path": "Assets/Resources/Models/watermelon/watermelon.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1266,
+            "triangles": 2272,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 150408,
+            "dimensions": {
+                "x": 0.6942275166511536,
+                "y": 0.9999999403953552,
+                "z": 0.6401020288467407
+            }
+        },
+        {
+            "id": "pineapple",
+            "path": "Assets/Resources/Models/pineapple/pineapple.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1624,
+            "triangles": 3052,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 194136,
+            "dimensions": {
+                "x": 0.6139498353004456,
+                "y": 0.9999999403953552,
+                "z": 0.6139498949050903
+            }
+        },
+        {
+            "id": "peach",
+            "path": "Assets/Resources/Models/peach/peach.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 514,
+            "triangles": 976,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 62664,
+            "dimensions": {
+                "x": 0.8974361419677734,
+                "y": 1.0,
+                "z": 0.7935444712638855
+            }
+        },
+        {
+            "id": "kiwi",
+            "path": "Assets/Resources/Models/kiwi/kiwi.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 620,
+            "triangles": 1172,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 75192,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.37638896703720095,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "mango",
+            "path": "Assets/Resources/Models/mango/mango.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 376,
+            "triangles": 740,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 46584,
+            "dimensions": {
+                "x": 0.6041665077209473,
+                "y": 0.9999999403953552,
+                "z": 0.5
+            }
+        },
+        {
+            "id": "coconut",
+            "path": "Assets/Resources/Models/coconut/coconut.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1052,
+            "triangles": 1908,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 125496,
+            "dimensions": {
+                "x": 0.9279260635375977,
+                "y": 1.0,
+                "z": 0.8596591353416443
+            }
+        },
+        {
+            "id": "blueberry",
+            "path": "Assets/Resources/Models/blueberry/blueberry.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1312,
+            "triangles": 2516,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 157752,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.7012048363685608,
+                "z": 0.7349397540092468
+            }
+        },
+        {
+            "id": "dragonfruit",
+            "path": "Assets/Resources/Models/dragonfruit/dragonfruit.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1244,
+            "triangles": 2420,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 150072,
+            "dimensions": {
+                "x": 0.705660879611969,
+                "y": 0.9999999403953552,
+                "z": 0.7098659873008728
+            }
+        },
+        {
+            "id": "avocado",
+            "path": "Assets/Resources/Models/avocado/avocado.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 708,
+            "triangles": 1396,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 86328,
+            "dimensions": {
+                "x": 0.6593408584594727,
+                "y": 0.9999998807907105,
+                "z": 0.5934065580368042
+            }
+        },
+        {
+            "id": "pomegranate",
+            "path": "Assets/Resources/Models/pomegranate/pomegranate.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 482,
+            "triangles": 932,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 59064,
+            "dimensions": {
+                "x": 0.7640445828437805,
+                "y": 0.9999998807907105,
+                "z": 0.7415730357170105
+            }
+        },
+        {
+            "id": "persimmon",
+            "path": "Assets/Resources/Models/persimmon/persimmon.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 752,
+            "triangles": 1468,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 91416,
+            "dimensions": {
+                "x": 0.9999998807907105,
+                "y": 0.9477611184120178,
+                "z": 1.0
+            }
+        },
+        {
+            "id": "starfruit",
+            "path": "Assets/Resources/Models/starfruit/starfruit.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 180,
+            "triangles": 176,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 21000,
+            "dimensions": {
+                "x": 0.9533717036247253,
+                "y": 0.8904216289520264,
+                "z": 1.0
+            }
+        },
+        {
+            "id": "basket_redwood",
+            "path": "Assets/Resources/Models/basket_redwood/basket_redwood.fbx",
+            "renderers": 4,
+            "materials": 5,
+            "drawSlots": 5,
+            "vertices": 10515,
+            "triangles": 8348,
+            "readableMeshes": 4,
+            "textureBytes": 176160,
+            "meshBytes": 1116104,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.33850008249282839,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "tongqian",
+            "path": "Assets/Resources/Models/tongqian/tongqian.fbx",
+            "renderers": 5,
+            "materials": 4,
+            "drawSlots": 5,
+            "vertices": 4285,
+            "triangles": 3636,
+            "readableMeshes": 5,
+            "textureBytes": 0,
+            "meshBytes": 463032,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.12000010162591934,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "bracelet",
+            "path": "Assets/Resources/Models/bracelet/bracelet.fbx",
+            "renderers": 7,
+            "materials": 6,
+            "drawSlots": 9,
+            "vertices": 6105,
+            "triangles": 2940,
+            "readableMeshes": 7,
+            "textureBytes": 0,
+            "meshBytes": 632728,
+            "dimensions": {
+                "x": 0.7816616296768189,
+                "y": 0.1755986362695694,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "baoshi",
+            "path": "Assets/Resources/Models/baoshi/baoshi.fbx",
+            "renderers": 5,
+            "materials": 5,
+            "drawSlots": 7,
+            "vertices": 2965,
+            "triangles": 1292,
+            "readableMeshes": 5,
+            "textureBytes": 0,
+            "meshBytes": 306232,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.42470377683639529,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "hulu",
+            "path": "Assets/Resources/Models/hulu/hulu.fbx",
+            "renderers": 7,
+            "materials": 5,
+            "drawSlots": 8,
+            "vertices": 4684,
+            "triangles": 3712,
+            "readableMeshes": 7,
+            "textureBytes": 88080,
+            "meshBytes": 505520,
+            "dimensions": {
+                "x": 0.6757742762565613,
+                "y": 0.9999998211860657,
+                "z": 0.6757742166519165
+            }
+        },
+        {
+            "id": "yuzhuo",
+            "path": "Assets/Resources/Models/yuzhuo/yuzhuo.fbx",
+            "renderers": 4,
+            "materials": 3,
+            "drawSlots": 4,
+            "vertices": 2977,
+            "triangles": 2784,
+            "readableMeshes": 4,
+            "textureBytes": 88080,
+            "meshBytes": 325632,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.2696160674095154,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "banzhi",
+            "path": "Assets/Resources/Models/banzhi/banzhi.fbx",
+            "renderers": 4,
+            "materials": 4,
+            "drawSlots": 4,
+            "vertices": 1068,
+            "triangles": 1472,
+            "readableMeshes": 4,
+            "textureBytes": 88080,
+            "meshBytes": 123552,
+            "dimensions": {
+                "x": 0.995526909828186,
+                "y": 0.761469304561615,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "yuxi",
+            "path": "Assets/Resources/Models/yuxi/yuxi.fbx",
+            "renderers": 6,
+            "materials": 5,
+            "drawSlots": 7,
+            "vertices": 12686,
+            "triangles": 19528,
+            "readableMeshes": 6,
+            "textureBytes": 0,
+            "meshBytes": 1317928,
+            "dimensions": {
+                "x": 0.43288692831993105,
+                "y": 0.9999999403953552,
+                "z": 0.43288689851760867
+            }
+        },
+        {
+            "id": "ruyi",
+            "path": "Assets/Resources/Models/ruyi/ruyi.fbx",
+            "renderers": 14,
+            "materials": 5,
+            "drawSlots": 14,
+            "vertices": 5174,
+            "triangles": 5428,
+            "readableMeshes": 14,
+            "textureBytes": 11632,
+            "meshBytes": 570144,
+            "dimensions": {
+                "x": 0.9999998807907105,
+                "y": 0.1454261988401413,
+                "z": 0.6116794943809509
+            }
+        },
+        {
+            "id": "jadevase",
+            "path": "Assets/Resources/Models/jadevase/jadevase.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 624,
+            "triangles": 1240,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 76392,
+            "dimensions": {
+                "x": 0.6807511448860169,
+                "y": 0.9999999403953552,
+                "z": 0.6807512044906616
+            }
+        },
+        {
+            "id": "jadepeanut",
+            "path": "Assets/Resources/Models/jadepeanut/jadepeanut.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 716,
+            "triangles": 1280,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 85704,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.47516196966171267,
+                "z": 0.4362850785255432
+            }
+        },
+        {
+            "id": "jadecarp",
+            "path": "Assets/Resources/Models/jadecarp/jadecarp.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 624,
+            "triangles": 1224,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 76200,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.6338889598846436,
+                "z": 0.38640084862709048
+            }
+        },
+        {
+            "id": "jadetiger",
+            "path": "Assets/Resources/Models/jadetiger/jadetiger.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1100,
+            "triangles": 2016,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 131400,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.6689885854721069,
+                "z": 0.416009783744812
+            }
+        },
+        {
+            "id": "jadetalisman",
+            "path": "Assets/Resources/Models/jadetalisman/jadetalisman.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 416,
+            "triangles": 816,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 51336,
+            "dimensions": {
+                "x": 0.5889570713043213,
+                "y": 0.9999998211860657,
+                "z": 0.2067485898733139
+            }
+        },
+        {
+            "id": "goldring",
+            "path": "Assets/Resources/Models/goldring/goldring.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 310,
+            "triangles": 612,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 38712,
+            "dimensions": {
+                "x": 0.8496731519699097,
+                "y": 0.9999998807907105,
+                "z": 0.23529423773288728
+            }
+        },
+        {
+            "id": "goldchime",
+            "path": "Assets/Resources/Models/goldchime/goldchime.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 816,
+            "triangles": 1596,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 99096,
+            "dimensions": {
+                "x": 0.7831323742866516,
+                "y": 1.0,
+                "z": 0.7831324338912964
+            }
+        },
+        {
+            "id": "jadechime",
+            "path": "Assets/Resources/Models/jadechime/jadechime.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 344,
+            "triangles": 644,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 42360,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.6031709313392639,
+                "z": 0.2230609804391861
+            }
+        },
+        {
+            "id": "jadeleaf",
+            "path": "Assets/Resources/Models/jadeleaf/jadeleaf.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 542,
+            "triangles": 900,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 64440,
+            "dimensions": {
+                "x": 0.47904205322265627,
+                "y": 0.9999998807907105,
+                "z": 0.2251473367214203
+            }
+        },
+        {
+            "id": "jadelock",
+            "path": "Assets/Resources/Models/jadelock/jadelock.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 572,
+            "triangles": 1128,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 70056,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.7631579041481018,
+                "z": 0.25723692774772646
+            }
+        },
+        {
+            "id": "jadeteapot",
+            "path": "Assets/Resources/Models/jadeteapot/jadeteapot.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 900,
+            "triangles": 1752,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 109032,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.5682005286216736,
+                "z": 0.4667360484600067
+            }
+        },
+        {
+            "id": "jadebeads",
+            "path": "Assets/Resources/Models/jadebeads/jadebeads.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1338,
+            "triangles": 2624,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 161544,
+            "dimensions": {
+                "x": 0.8435138463973999,
+                "y": 0.2658194601535797,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "bowl_jade",
+            "path": "Assets/Resources/Models/bowl_jade/bowl_jade.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 2794,
+            "triangles": 3498,
+            "readableMeshes": 1,
+            "textureBytes": 175456,
+            "meshBytes": 311808,
+            "dimensions": {
+                "x": 0.9957885146141052,
+                "y": 0.44384774565696719,
+                "z": 0.9983519911766052
+            }
+        },
+        {
+            "id": "carrot",
+            "path": "Assets/Resources/Models/carrot/carrot.fbx",
+            "renderers": 7,
+            "materials": 5,
+            "drawSlots": 8,
+            "vertices": 2585,
+            "triangles": 2870,
+            "readableMeshes": 7,
+            "textureBytes": 22544,
+            "meshBytes": 283512,
+            "dimensions": {
+                "x": 0.30628329515457156,
+                "y": 0.9999999403953552,
+                "z": 0.29947975277900698
+            }
+        },
+        {
+            "id": "corn",
+            "path": "Assets/Resources/Models/corn/corn.fbx",
+            "renderers": 5,
+            "materials": 6,
+            "drawSlots": 7,
+            "vertices": 4722,
+            "triangles": 6576,
+            "readableMeshes": 5,
+            "textureBytes": 0,
+            "meshBytes": 540376,
+            "dimensions": {
+                "x": 0.6061517000198364,
+                "y": 0.9999998807907105,
+                "z": 0.6161227226257324
+            }
+        },
+        {
+            "id": "eggplant",
+            "path": "Assets/Resources/Models/eggplant/eggplant.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 682,
+            "triangles": 1016,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 79384,
+            "dimensions": {
+                "x": 0.46509313583374026,
+                "y": 0.9999999403953552,
+                "z": 0.4330178201198578
+            }
+        },
+        {
+            "id": "frog",
+            "path": "Assets/Resources/Models/frog/frog.fbx",
+            "renderers": 1,
+            "materials": 9,
+            "drawSlots": 9,
+            "vertices": 5406,
+            "triangles": 8128,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 618568,
+            "dimensions": {
+                "x": 0.8836949467658997,
+                "y": 0.9999999403953552,
+                "z": 0.6723645925521851
+            }
+        },
+        {
+            "id": "pumpkin",
+            "path": "Assets/Resources/Models/pumpkin/pumpkin.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 1994,
+            "triangles": 3196,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 231496,
+            "dimensions": {
+                "x": 0.8717125058174133,
+                "y": 1.0,
+                "z": 0.8805031180381775
+            }
+        },
+        {
+            "id": "mushroom",
+            "path": "Assets/Resources/Models/mushroom/mushroom.fbx",
+            "renderers": 1,
+            "materials": 2,
+            "drawSlots": 2,
+            "vertices": 1006,
+            "triangles": 1516,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 116432,
+            "dimensions": {
+                "x": 0.9999997019767761,
+                "y": 0.9862044453620911,
+                "z": 1.0
+            }
+        },
+        {
+            "id": "koi",
+            "path": "Assets/Resources/Models/koi/koi.fbx",
+            "renderers": 1,
+            "materials": 5,
+            "drawSlots": 5,
+            "vertices": 1429,
+            "triangles": 2024,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 163304,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.38504937291145327,
+                "z": 0.4767041504383087
+            }
+        },
+        {
+            "id": "lotus",
+            "path": "Assets/Resources/Models/lotus/lotus.fbx",
+            "renderers": 1,
+            "materials": 7,
+            "drawSlots": 7,
+            "vertices": 3127,
+            "triangles": 3892,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 348840,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.426636666059494,
+                "z": 0.9740992188453674
+            }
+        },
+        {
+            "id": "duck",
+            "path": "Assets/Resources/Models/duck/duck.fbx",
+            "renderers": 1,
+            "materials": 11,
+            "drawSlots": 11,
+            "vertices": 3973,
+            "triangles": 5860,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 453896,
+            "dimensions": {
+                "x": 0.7258060574531555,
+                "y": 0.9999999403953552,
+                "z": 0.7439634203910828
+            }
+        },
+        {
+            "id": "tomato",
+            "path": "Assets/Resources/Models/tomato/tomato.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 624,
+            "triangles": 1220,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 76152,
+            "dimensions": {
+                "x": 0.9350646138191223,
+                "y": 0.9999999403953552,
+                "z": 0.9090908169746399
+            }
+        },
+        {
+            "id": "potato",
+            "path": "Assets/Resources/Models/potato/potato.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 434,
+            "triangles": 848,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 53448,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.6744188666343689,
+                "z": 0.6654370427131653
+            }
+        },
+        {
+            "id": "cabbage",
+            "path": "Assets/Resources/Models/cabbage/cabbage.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 862,
+            "triangles": 1692,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 104664,
+            "dimensions": {
+                "x": 0.7603652477264404,
+                "y": 1.0,
+                "z": 0.810126543045044
+            }
+        },
+        {
+            "id": "broccoli",
+            "path": "Assets/Resources/Models/broccoli/broccoli.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1038,
+            "triangles": 1828,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 123192,
+            "dimensions": {
+                "x": 0.8446629047393799,
+                "y": 1.0,
+                "z": 0.9069767594337463
+            }
+        },
+        {
+            "id": "bellpepper",
+            "path": "Assets/Resources/Models/bellpepper/bellpepper.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 586,
+            "triangles": 1124,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 71352,
+            "dimensions": {
+                "x": 0.7209638357162476,
+                "y": 0.9999999403953552,
+                "z": 0.6879357099533081
+            }
+        },
+        {
+            "id": "cucumber",
+            "path": "Assets/Resources/Models/cucumber/cucumber.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 798,
+            "triangles": 1316,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 94008,
+            "dimensions": {
+                "x": 0.35104724764823916,
+                "y": 0.9999999403953552,
+                "z": 0.31666678190231326
+            }
+        },
+        {
+            "id": "onion",
+            "path": "Assets/Resources/Models/onion/onion.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 632,
+            "triangles": 1004,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 74328,
+            "dimensions": {
+                "x": 0.8734458088874817,
+                "y": 0.9999999403953552,
+                "z": 0.8824587464332581
+            }
+        },
+        {
+            "id": "radish",
+            "path": "Assets/Resources/Models/radish/radish.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 478,
+            "triangles": 928,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 58632,
+            "dimensions": {
+                "x": 0.5931320190429688,
+                "y": 0.9999999403953552,
+                "z": 0.5641021728515625
+            }
+        },
+        {
+            "id": "garlic",
+            "path": "Assets/Resources/Models/garlic/garlic.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 812,
+            "triangles": 1592,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 98664,
+            "dimensions": {
+                "x": 0.7712467312812805,
+                "y": 1.0,
+                "z": 0.8244275450706482
+            }
+        },
+        {
+            "id": "wateringcan",
+            "path": "Assets/Resources/Models/wateringcan/wateringcan.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 520,
+            "triangles": 992,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 63432,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.6870980262756348,
+                "z": 0.4842246472835541
+            }
+        },
+        {
+            "id": "egg",
+            "path": "Assets/Resources/Models/egg/egg.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 458,
+            "triangles": 912,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 56520,
+            "dimensions": {
+                "x": 0.5875000357627869,
+                "y": 0.9999999403953552,
+                "z": 0.5875000953674316
+            }
+        },
+        {
+            "id": "shovel",
+            "path": "Assets/Resources/Models/shovel/shovel.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 368,
+            "triangles": 724,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 45624,
+            "dimensions": {
+                "x": 0.41818180680274966,
+                "y": 0.9999998807907105,
+                "z": 0.11363647133111954
+            }
+        },
+        {
+            "id": "basket_farm",
+            "path": "Assets/Resources/Models/basket_farm/basket_farm.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 20964,
+            "triangles": 25000,
+            "readableMeshes": 1,
+            "textureBytes": 44384,
+            "meshBytes": 2314152,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.18833203613758088,
+                "z": 0.988772451877594
+            }
+        },
+        {
+            "id": "cupcake",
+            "path": "Assets/Resources/Models/cupcake/cupcake.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 6262,
+            "triangles": 5951,
+            "readableMeshes": 1,
+            "textureBytes": 44384,
+            "meshBytes": 674172,
+            "dimensions": {
+                "x": 0.20758900046348573,
+                "y": 0.2865380346775055,
+                "z": 0.19244705140590669
+            }
+        },
+        {
+            "id": "donut",
+            "path": "Assets/Resources/Models/donut/donut.fbx",
+            "renderers": 1,
+            "materials": 5,
+            "drawSlots": 5,
+            "vertices": 862,
+            "triangles": 1200,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 98984,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.3757714331150055,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "icecream",
+            "path": "Assets/Resources/Models/icecream/icecream.fbx",
+            "renderers": 1,
+            "materials": 7,
+            "drawSlots": 7,
+            "vertices": 2931,
+            "triangles": 4016,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 331512,
+            "dimensions": {
+                "x": 0.6376820802688599,
+                "y": 0.9999998807907105,
+                "z": 0.4442823529243469
+            }
+        },
+        {
+            "id": "macaron",
+            "path": "Assets/Resources/Models/macaron/macaron.fbx",
+            "renderers": 1,
+            "materials": 5,
+            "drawSlots": 5,
+            "vertices": 2123,
+            "triangles": 2604,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 236888,
+            "dimensions": {
+                "x": 0.9597506523132324,
+                "y": 0.9999999403953552,
+                "z": 0.7415154576301575
+            }
+        },
+        {
+            "id": "cookie",
+            "path": "Assets/Resources/Models/cookie/cookie.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 956,
+            "triangles": 1388,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 110152,
+            "dimensions": {
+                "x": 0.9898214340209961,
+                "y": 0.9999998807907105,
+                "z": 0.21112361550331117
+            }
+        },
+        {
+            "id": "cake_slice",
+            "path": "Assets/Resources/Models/cake_slice/cake_slice.fbx",
+            "renderers": 1,
+            "materials": 6,
+            "drawSlots": 6,
+            "vertices": 1168,
+            "triangles": 1752,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 135040,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.7797338962554932,
+                "z": 0.7656806707382202
+            }
+        },
+        {
+            "id": "candy",
+            "path": "Assets/Resources/Models/candy/candy.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 464,
+            "triangles": 416,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 51256,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.4479166865348816,
+                "z": 0.453125
+            }
+        },
+        {
+            "id": "pudding",
+            "path": "Assets/Resources/Models/pudding/pudding.fbx",
+            "renderers": 1,
+            "materials": 4,
+            "drawSlots": 4,
+            "vertices": 1285,
+            "triangles": 1780,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 146496,
+            "dimensions": {
+                "x": 0.8250001072883606,
+                "y": 1.0,
+                "z": 0.8250001668930054
+            }
+        },
+        {
+            "id": "croissant",
+            "path": "Assets/Resources/Models/croissant/croissant.fbx",
+            "renderers": 1,
+            "materials": 3,
+            "drawSlots": 3,
+            "vertices": 2710,
+            "triangles": 4068,
+            "readableMeshes": 1,
+            "textureBytes": 0,
+            "meshBytes": 310696,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.3943490982055664,
+                "z": 0.6318614482879639
+            }
+        },
+        {
+            "id": "chocolate",
+            "path": "Assets/Resources/Models/chocolate/chocolate.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 448,
+            "triangles": 864,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 54984,
+            "dimensions": {
+                "x": 0.7720658779144287,
+                "y": 0.2720343768596649,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "lollipop",
+            "path": "Assets/Resources/Models/lollipop/lollipop.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 816,
+            "triangles": 1588,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 99000,
+            "dimensions": {
+                "x": 0.5714285373687744,
+                "y": 0.9999998807907105,
+                "z": 0.1622450202703476
+            }
+        },
+        {
+            "id": "popsicle",
+            "path": "Assets/Resources/Models/popsicle/popsicle.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 336,
+            "triangles": 648,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 41640,
+            "dimensions": {
+                "x": 0.4475138187408447,
+                "y": 0.9999998211860657,
+                "z": 0.22154705226421357
+            }
+        },
+        {
+            "id": "wafer",
+            "path": "Assets/Resources/Models/wafer/wafer.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 672,
+            "triangles": 1296,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 81672,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.508461594581604,
+                "z": 0.7538461685180664
+            }
+        },
+        {
+            "id": "swissroll",
+            "path": "Assets/Resources/Models/swissroll/swissroll.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 888,
+            "triangles": 1732,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 107640,
+            "dimensions": {
+                "x": 0.9797296524047852,
+                "y": 0.9797297120094299,
+                "z": 1.0
+            }
+        },
+        {
+            "id": "eggtart",
+            "path": "Assets/Resources/Models/eggtart/eggtart.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 798,
+            "triangles": 1528,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 96552,
+            "dimensions": {
+                "x": 0.9938894510269165,
+                "y": 0.4011114537715912,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "pancake",
+            "path": "Assets/Resources/Models/pancake/pancake.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 536,
+            "triangles": 1056,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 65736,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.654411792755127,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "pretzel",
+            "path": "Assets/Resources/Models/pretzel/pretzel.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 336,
+            "triangles": 620,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 41304,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.9272648692131043,
+                "z": 0.2942379117012024
+            }
+        },
+        {
+            "id": "toast",
+            "path": "Assets/Resources/Models/toast/toast.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 340,
+            "triangles": 664,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 42216,
+            "dimensions": {
+                "x": 0.8226949572563171,
+                "y": 0.9999999403953552,
+                "z": 0.3049646317958832
+            }
+        },
+        {
+            "id": "dumpling",
+            "path": "Assets/Resources/Models/dumpling/dumpling.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 874,
+            "triangles": 1452,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 102936,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.8868334293365479,
+                "z": 0.9677422046661377
+            }
+        },
+        {
+            "id": "mooncake",
+            "path": "Assets/Resources/Models/mooncake/mooncake.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1016,
+            "triangles": 1960,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 122664,
+            "dimensions": {
+                "x": 0.9951117634773254,
+                "y": 0.4095570147037506,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "teacup",
+            "path": "Assets/Resources/Models/teacup/teacup.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 496,
+            "triangles": 976,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 60936,
+            "dimensions": {
+                "x": 0.530964732170105,
+                "y": 0.9999999403953552,
+                "z": 0.5309647917747498
+            }
+        },
+        {
+            "id": "tray_dessert",
+            "path": "Assets/Resources/Models/tray_dessert/tray_dessert.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 3601,
+            "triangles": 4000,
+            "readableMeshes": 1,
+            "textureBytes": 44384,
+            "meshBytes": 395304,
+            "dimensions": {
+                "x": 0.999327540397644,
+                "y": 0.29968759417533877,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "phone",
+            "path": "Assets/Resources/Models/phone/phone.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 808,
+            "triangles": 1564,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 97944,
+            "dimensions": {
+                "x": 0.5605000257492065,
+                "y": 0.21750010550022126,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "laptop",
+            "path": "Assets/Resources/Models/laptop/laptop.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1272,
+            "triangles": 2404,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 152568,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.7087869048118591,
+                "z": 0.7211952209472656
+            }
+        },
+        {
+            "id": "camera",
+            "path": "Assets/Resources/Models/camera/camera.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1128,
+            "triangles": 2200,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 136296,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.7388888597488403,
+                "z": 0.7133333683013916
+            }
+        },
+        {
+            "id": "headphones",
+            "path": "Assets/Resources/Models/headphones/headphones.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 896,
+            "triangles": 1684,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 107832,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.840375542640686,
+                "z": 0.26854467391967776
+            }
+        },
+        {
+            "id": "handheld",
+            "path": "Assets/Resources/Models/handheld/handheld.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1272,
+            "triangles": 2464,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 153288,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.2116505205631256,
+                "z": 0.5150485038757324
+            }
+        },
+        {
+            "id": "speaker",
+            "path": "Assets/Resources/Models/speaker/speaker.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 960,
+            "triangles": 1868,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 116184,
+            "dimensions": {
+                "x": 0.509761393070221,
+                "y": 0.9999998807907105,
+                "z": 0.4913232624530792
+            }
+        },
+        {
+            "id": "mouse",
+            "path": "Assets/Resources/Models/mouse/mouse.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 642,
+            "triangles": 1256,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 78312,
+            "dimensions": {
+                "x": 0.625499963760376,
+                "y": 0.5500001311302185,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "smartwatch",
+            "path": "Assets/Resources/Models/smartwatch/smartwatch.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 784,
+            "triangles": 1516,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 95064,
+            "dimensions": {
+                "x": 0.42589282989501955,
+                "y": 0.22053579986095429,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "id": "radio",
+            "path": "Assets/Resources/Models/radio/radio.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 896,
+            "triangles": 1696,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 107976,
+            "dimensions": {
+                "x": 0.9999998807907105,
+                "y": 0.7579655647277832,
+                "z": 0.4373626410961151
+            }
+        },
+        {
+            "id": "tablet",
+            "path": "Assets/Resources/Models/tablet/tablet.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 376,
+            "triangles": 728,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 46440,
+            "dimensions": {
+                "x": 0.7819148898124695,
+                "y": 0.9999998807907105,
+                "z": 0.1893617957830429
+            }
+        },
+        {
+            "id": "keyboard",
+            "path": "Assets/Resources/Models/keyboard/keyboard.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 688,
+            "triangles": 1272,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 82920,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.18617025017738343,
+                "z": 0.5319148302078247
+            }
+        },
+        {
+            "id": "monitor",
+            "path": "Assets/Resources/Models/monitor/monitor.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 336,
+            "triangles": 648,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 41640,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.9204545021057129,
+                "z": 0.36363643407821658
+            }
+        },
+        {
+            "id": "television",
+            "path": "Assets/Resources/Models/television/television.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 472,
+            "triangles": 916,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 57912,
+            "dimensions": {
+                "x": 0.9999998807907105,
+                "y": 0.8294116854667664,
+                "z": 0.3911764919757843
+            }
+        },
+        {
+            "id": "printer",
+            "path": "Assets/Resources/Models/printer/printer.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 376,
+            "triangles": 724,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 46392,
+            "dimensions": {
+                "x": 0.8628262877464294,
+                "y": 0.5895724892616272,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "id": "router",
+            "path": "Assets/Resources/Models/router/router.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 518,
+            "triangles": 996,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 63288,
+            "dimensions": {
+                "x": 0.93023282289505,
+                "y": 0.9999999403953552,
+                "z": 0.6637250185012817
+            }
+        },
+        {
+            "id": "usbdrive",
+            "path": "Assets/Resources/Models/usbdrive/usbdrive.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 416,
+            "triangles": 816,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 51336,
+            "dimensions": {
+                "x": 0.32608699798583987,
+                "y": 0.9999998807907105,
+                "z": 0.16304360330104829
+            }
+        },
+        {
+            "id": "powerbank",
+            "path": "Assets/Resources/Models/powerbank/powerbank.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 448,
+            "triangles": 864,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 54984,
+            "dimensions": {
+                "x": 0.5308641791343689,
+                "y": 0.9999999403953552,
+                "z": 0.2925926744937897
+            }
+        },
+        {
+            "id": "microphone",
+            "path": "Assets/Resources/Models/microphone/microphone.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1054,
+            "triangles": 2092,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 127896,
+            "dimensions": {
+                "x": 0.4596205949783325,
+                "y": 0.9999999403953552,
+                "z": 0.4596206843852997
+            }
+        },
+        {
+            "id": "gamepad",
+            "path": "Assets/Resources/Models/gamepad/gamepad.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 980,
+            "triangles": 1916,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 118680,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.4889828562736511,
+                "z": 0.27912041544914248
+            }
+        },
+        {
+            "id": "flashlight",
+            "path": "Assets/Resources/Models/flashlight/flashlight.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 944,
+            "triangles": 1872,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 114696,
+            "dimensions": {
+                "x": 0.5647059082984924,
+                "y": 0.9999999403953552,
+                "z": 0.5647059679031372
+            }
+        },
+        {
+            "id": "alarmclock",
+            "path": "Assets/Resources/Models/alarmclock/alarmclock.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 1356,
+            "triangles": 2596,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 162936,
+            "dimensions": {
+                "x": 0.8608618974685669,
+                "y": 0.9999999403953552,
+                "z": 0.3105252981185913
+            }
+        },
+        {
+            "id": "tray_electronics",
+            "path": "Assets/Resources/Models/tray_electronics/tray_electronics.fbx",
+            "renderers": 1,
+            "materials": 1,
+            "drawSlots": 1,
+            "vertices": 800,
+            "triangles": 1520,
+            "readableMeshes": 1,
+            "textureBytes": 3424,
+            "meshBytes": 96648,
+            "dimensions": {
+                "x": 1.0,
+                "y": 0.2727501094341278,
+                "z": 0.9999999403953552
+            }
+        }
+    ],
+    "rounds": [
+        {
+            "theme": "fruit",
+            "count": 300,
+            "triangles": 458916,
+            "drawSlots": 624
+        },
+        {
+            "theme": "antique",
+            "count": 300,
+            "triangles": 639384,
+            "drawSlots": 942
+        },
+        {
+            "theme": "farm",
+            "count": 300,
+            "triangles": 835542,
+            "drawSlots": 1002
+        },
+        {
+            "theme": "dessert",
+            "count": 300,
+            "triangles": 472602,
+            "drawSlots": 588
+        },
+        {
+            "theme": "electronics",
+            "count": 300,
+            "triangles": 483924,
+            "drawSlots": 300
+        }
+    ]
+}

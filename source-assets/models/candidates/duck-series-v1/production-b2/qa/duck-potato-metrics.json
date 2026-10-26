@@ -1,0 +1,23 @@
+{
+  "id": "duck-potato",
+  "triangles": 3196,
+  "dimensions": [
+    0.7173487544059753,
+    0.6868627667427063,
+    0.9999999403953552
+  ],
+  "sourceCenter": [
+    0.005589425563812256,
+    0.009143710136413574,
+    0.41623422503471375
+  ],
+  "sourceExtent": 0.8195903897285461,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 76140,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

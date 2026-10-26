@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WatermelonHalf\\tex_-8229752691280182192.png",
+      "uvMin": [
+        0.004581451416015625,
+        0.2626953125
+      ],
+      "uvMax": [
+        0.99755859375,
+        0.9948196411132812
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_watermelonhalf\\albedo.png"
+}

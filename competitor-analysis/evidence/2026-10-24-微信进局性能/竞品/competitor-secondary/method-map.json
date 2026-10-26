@@ -1,0 +1,74 @@
+[
+  {
+    "Address": 18144,
+    "Name": "LevelObjectPool$$ClearByLevel",
+    "Signature": "void LevelObjectPool__ClearByLevel (LevelObjectPool_o* __this, LevelIndexAndType_o indexType, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j43493",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 36466,
+    "Name": "Kunpo.AssetManager$$Release",
+    "Signature": "void Kunpo_AssetManager__Release (System_String_o* key, bool force, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j49957",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 36467,
+    "Name": "Kunpo.AssetManager$$Release",
+    "Signature": "void Kunpo_AssetManager__Release (System_String_o* key, System_Type_o* type, bool force, const MethodInfo* method);",
+    "TypeSignature": "viiii",
+    "wasmSymbol": "$j24624",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 104271,
+    "Name": "Kunpo.AssetManager$$Release<__Il2CppFullySharedGenericType>",
+    "Signature": "void Kunpo_AssetManager__Release___Il2CppFullySharedGenericType_ (System_String_o* key, bool force, const MethodInfo_1974F* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j49959",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 36469,
+    "Name": "Kunpo.AssetManager$$LoadAssetBundle",
+    "Signature": "Kunpo_AssetRequest_o* Kunpo_AssetManager__LoadAssetBundle (System_String_o* key, bool releasable, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j108299",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 36470,
+    "Name": "Kunpo.AssetManager$$ReleaseAssetBundle",
+    "Signature": "void Kunpo_AssetManager__ReleaseAssetBundle (System_String_o* label, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j108295",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 36472,
+    "Name": "Kunpo.AssetManager$$ReleaseScene",
+    "Signature": "void Kunpo_AssetManager__ReleaseScene (System_String_o* key, System_Action_Scene__o* onUnloaded, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j108293",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 36474,
+    "Name": "Kunpo.AssetManager$$ReleasePrefab",
+    "Signature": "void Kunpo_AssetManager__ReleasePrefab (System_String_o* key, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j108294",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  }
+]

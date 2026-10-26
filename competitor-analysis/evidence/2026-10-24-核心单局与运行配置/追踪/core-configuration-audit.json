@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "profiles": [
+    {
+      "profile": "intro",
+      "mode": "MainLevel",
+      "index": 5,
+      "level": 1,
+      "layerCount": 1,
+      "normalBudget": 12,
+      "targetBudget": 3,
+      "total": 15,
+      "seconds": 0,
+      "layers": [
+        {
+          "_sumcount": 12,
+          "_typecount": 2,
+          "_height": 6.0,
+          "_limitheight": 4.0,
+          "_limittime": [
+            0
+          ],
+          "_wincount": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "short",
+      "mode": "OneScreenBattle",
+      "index": 5,
+      "level": 1,
+      "layerCount": 2,
+      "normalBudget": 60,
+      "targetBudget": 0,
+      "total": 60,
+      "seconds": 120,
+      "layers": [
+        {
+          "_sumcount": 30,
+          "_typecount": 6,
+          "_height": 10.0,
+          "_limitheight": 8.0,
+          "_limittime": [
+            120
+          ],
+          "_wincount": []
+        },
+        {
+          "_sumcount": 30,
+          "_typecount": 3,
+          "_height": 15.0,
+          "_limitheight": 0.0,
+          "_limittime": [],
+          "_wincount": []
+        }
+      ]
+    },
+    {
+      "profile": "deep-main",
+      "mode": "MainLevel",
+      "index": 5,
+      "level": 2,
+      "layerCount": 4,
+      "normalBudget": 300,
+      "targetBudget": 0,
+      "total": 300,
+      "seconds": 600,
+      "layers": [
+        {
+          "_sumcount": 150,
+          "_typecount": 21,
+          "_height": 14.0,
+          "_limitheight": 21.0,
+          "_limittime": [
+            600,
+            900,
+            0
+          ],
+          "_wincount": []
+        },
+        {
+          "_sumcount": 60,
+          "_typecount": 10,
+          "_height": 18.0,
+          "_limitheight": 0.0,
+          "_limittime": [],
+          "_wincount": []
+        },
+        {
+          "_sumcount": 45,
+          "_typecount": 8,
+          "_height": 20.0,
+          "_limitheight": 0.0,
+          "_limittime": [],
+          "_wincount": []
+        },
+        {
+          "_sumcount": 45,
+          "_typecount": 7,
+          "_height": 22.0,
+          "_limitheight": 0.0,
+          "_limittime": [],
+          "_wincount": []
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Raw configured kind counts match source, runtime clamps them to our available models",
+    "Difficulty labels map three source archetypes into our single-player UI; not original progression",
+    "Source heights are retained; actual spawning uses our scale, clear-drop and density adapter",
+    "No AB reduction is applied without explicit own configuration; source weight arrays are not mapped to unrelated items"
+  ]
+}

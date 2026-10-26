@@ -1,0 +1,17 @@
+{
+  "stage": "three-representative-candidates-before-user-art-acceptance",
+  "authorization": ["选 B，三款融合方向也认可，按这个母版推进建模，先交付蛋挞鸭、钢杯鸭和积木鸭的模型效果给我验收。", "通过 完成计划"],
+  "master": "../master-b2/source/duck-b2-master-rig.blend",
+  "masterMeshUserAccepted": false,
+  "acceptanceBoundary": "Review mother shape and the three real combinations together; do not count an automatic goal continuation as a new art approval.",
+  "shapeIdentity": "Same small head, bill, eyes and webbed feet derived from the B2 mother. Pose the existing neck; trim hidden torso. Accessory LOD is compared against detailed renders.",
+  "models": [
+    {"id":"duck-eggtart","primaryColor":"golden yellow","silhouette":"shallow fluted disc","features":["shallow pastry rim","yellow custard face","small duck head on a continuous neck"],"connection":"neck passes through upper custard face; cap hidden in filling; feet seated at lower edge","simplifications":["no individual pastry flakes","broad toasted color patches"]},
+    {"id":"duck-steelcup","primaryColor":"steel grey","silhouette":"sideways open mug with handle","features":["rolled open rim","rounded top handle","low projecting small duck head"],"connection":"one continuous body-to-neck mesh inside the open cup; rear tail and feet seated into wall","simplifications":["no fine metal scratches","one material with metal/roughness atlas"]},
+    {"id":"duck-numberblock","primaryColor":"red with lime numeral","silhouette":"tilted rounded block","features":["large numeral 1","four rear toy connectors","small head and feet"],"connection":"neck enters side wall; hidden cap lies inside block; short ankle connects tilted underside","simplifications":["no printed markings","no moving joints"]}
+  ],
+  "budgets":{"targetTriangles":[2000,4000],"maximumTriangles":6000,"maximumGlbBytes":262144,"atlasPixels":256,"meshCount":1,"materialCount":1,"primitiveCount":1},
+  "comparison":{"normalizeEachMaximumEdge":1,"centerBounds":true,"orthographicScale":1.48,"sameCameraAndLighting":true,"noPerImageRefit":true,"referencePose":"retained source pose","referenceShader":"recovered base-colour/PBR approximation, not original game shading"},
+  "formalThemesReplaced":false,
+  "paid3dServiceCalled":false
+}

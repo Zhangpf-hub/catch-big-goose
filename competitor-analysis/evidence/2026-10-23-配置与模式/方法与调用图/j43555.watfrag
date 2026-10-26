@@ -1,0 +1,10 @@
+  (func $j43555 (type $t25) (param $p0 i32) (param $p1 i32) (param $p2 f32) (param $p3 i32)
+    local.get $p0
+    local.get $p0
+    local.get $p1
+    local.get $p2
+    local.get $p0
+    call $j43556
+    i32.const 0
+    call $j1112
+    drop)

@@ -1,0 +1,45 @@
+  (func $j94016 (type $t4) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    i32.const 5140009
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3939040 ;; System.Action<bool>_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4029632 ;; Method$MainLevelModeCtrl.<IGetAllLevelObj>b__28_2()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3961680 ;; SeasonLevelMa_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5140009
+      i32.const 1
+      i32.store8
+    end
+    local.get $p1
+    if $I1
+      i32.const 3939040 ;; System.Action<bool>_TypeInfo
+      i32.load
+      i32.const 137618
+      call_indirect $primary.table (type $t1)
+      local.set $p1
+      local.get $p1
+      local.get $p0
+      i32.const 4029632 ;; Method$MainLevelModeCtrl.<IGetAllLevelObj>b__28_2()
+      i32.load
+      i32.const 0
+      i32.const 9548
+      call_indirect $primary.table (type $t6)
+      i32.const 3961680 ;; SeasonLevelMa_TypeInfo
+      i32.load
+      i32.const 735
+      call_indirect $primary.table (type $t0)
+      local.get $p1
+      i32.const 0
+      i32.const 18325
+      call_indirect $primary.table (type $t3)
+      return
+    end
+    local.get $p0
+    local.get $p0
+    call $j22130) ;; MainLevelModeCtrl$$NorEnterNextMainLevel

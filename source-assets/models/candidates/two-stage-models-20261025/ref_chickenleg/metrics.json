@@ -1,0 +1,12 @@
+{
+  "id": "ref_chickenleg",
+  "triangles": 1007,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.5545075535774231,
+    1.0,
+    0.2291448712348938
+  ],
+  "glbRoundtrip": true
+}

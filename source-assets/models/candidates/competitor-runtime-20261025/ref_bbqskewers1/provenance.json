@@ -1,0 +1,9 @@
+{
+  "id": "ref_bbqskewers1",
+  "sourceId": "BBQSkewers1",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BBQSkewers1\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/BBQSkewers1.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+  "sourceSha256": "1e00e5ab835d601edf427a999d18cc5c1662b78ecfc2dec1d935cc8c27284d5a"
+}

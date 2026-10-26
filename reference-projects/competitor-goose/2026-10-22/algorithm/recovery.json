@@ -1,0 +1,41 @@
+{
+  "methodBodiesRecovered": true,
+  "version": 29,
+  "classes": 13,
+  "metadataSha256": "2961e1d51bcd176226efb51485dc68e19b7b0d56717ee5616d328d4345e74374",
+  "webdata": "be0962437e720eb5.webgl.data.unityweb.bin",
+  "webdataSha256": "c278f9d49f3c84de08cc5f6a9d983517f148fa61a46d40efb5fcdd73ad3ae694",
+  "wasmCandidates": [
+    {
+      "file": "0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br",
+      "bytes": 1,
+      "header": "00",
+      "isRawWasm": false,
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+    }
+  ],
+  "limitation": "18 compiled method bodies mapped with matching WASM signatures. Original C# not recovered. Full mode delegation and actual per-level weight configuration remain unverified.",
+  "initialCachePass": {
+    "methodBodiesRecovered": false,
+    "reason": "The cache wasm.br is a one-byte placeholder"
+  },
+  "recoveredMethodCount": 18,
+  "methodMap": "recovered/method-map.json",
+  "tools": {
+    "Il2CppDumper": "6.7.46",
+    "WABT": "1.0.39",
+    "decompiler": "WABT wasm-decompile memory error; analyzed validated WAT directly"
+  },
+  "packageWasm": [
+    {
+      "bytes": 22842675,
+      "sha256": "54773e2463e7fec7a7de731ddc8af2b792b338873f83f98529c3767757829f53",
+      "file": "_wasmcode1_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.decoded.wasm"
+    },
+    {
+      "bytes": 18128665,
+      "sha256": "ac8951c815c18f26010e8e209b593f9bc84ed7766255ea0cf79a16bda6cb36b4",
+      "file": "_wasmcode_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.decoded.wasm"
+    }
+  ]
+}

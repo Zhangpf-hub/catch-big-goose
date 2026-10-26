@@ -1,0 +1,18 @@
+{
+  "id": "duck-greenpepper",
+  "triangles": 3632,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.6965635418891907,
+    0.7121785283088684,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    2.9802322387695312e-08
+  ],
+  "passed": true
+}

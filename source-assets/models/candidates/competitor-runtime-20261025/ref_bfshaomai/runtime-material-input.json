@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "nuomishaomai",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-1946380019870035512.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

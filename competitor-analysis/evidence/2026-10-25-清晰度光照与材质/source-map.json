@@ -1,0 +1,77 @@
+[
+  {
+    "current": "unity/Assets/Resources/GooseItemMobile.shader",
+    "snapshot": "sources/unity/Assets/Resources/GooseItemMobile.shader",
+    "sha256": "05cdcc52aaf2394fc2267fd3f2a7b58bfc3b3b30b2813ff1b99e7a51e70c0fd2"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseAssetCache.cs",
+    "snapshot": "sources/unity/Assets/Scripts/GooseAssetCache.cs",
+    "sha256": "99f65a96e7df28aacad33cbfc9c9c0d53da0e0fcc2bfa58c9807449472c2aa8c"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseRuntimePerformance.cs",
+    "snapshot": "sources/unity/Assets/Scripts/GooseRuntimePerformance.cs",
+    "sha256": "f1f5504647a2590ac904bd8060a267dd0c3d538c4c5d6510d3d65a7ea8c2dc59"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseGame.cs",
+    "snapshot": "sources/unity/Assets/Scripts/GooseGame.cs",
+    "sha256": "21dde6536414c4ecb1383d9cba371a039c62f69d131fbed29f6cdc9144c74d85"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseAssetImporter.cs",
+    "snapshot": "sources/unity/Assets/Editor/GooseAssetImporter.cs",
+    "sha256": "4060af3d301b7893f9876df3da1210b3a4f15712787beabc17b1e9795b4b6211"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseWeChatBuild.cs",
+    "snapshot": "sources/unity/Assets/Editor/GooseWeChatBuild.cs",
+    "sha256": "1dfc39cde23ca5ca8548d07d794308bb0446f4b3c1a165b395a25005eb73b338"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseProjectSetup.cs",
+    "snapshot": "sources/unity/Assets/Editor/GooseProjectSetup.cs",
+    "sha256": "8835449cc383aadd1453f5074fa04d0f074791236774934cbc78620e8187554b"
+  },
+  {
+    "current": "unity/ProjectSettings/QualitySettings.asset",
+    "snapshot": "sources/unity/ProjectSettings/QualitySettings.asset",
+    "sha256": "18c0f0b4b76f3e6b68bb2e25a675a5d3ebaaed43f3c95dc59c1c8585a8bae3ac"
+  },
+  {
+    "current": "unity/Builds/WeChat/minigame/check-version.js",
+    "snapshot": "sources/unity/Builds/WeChat/minigame/check-version.js",
+    "sha256": "bf04cc7c09a598115dfc71bf6b90ded17c7ecdc1ea783299f08ac47902c39bba"
+  },
+  {
+    "current": "tools/unity/build_material_atlas.py",
+    "snapshot": "sources/tools/unity/build_material_atlas.py",
+    "sha256": "e172badc40183d20628376b46adf02b0959a94a852aa3c6bae91cff629c97556"
+  },
+  {
+    "current": "tools/unity/bake_mobile_models.py",
+    "snapshot": "sources/tools/unity/bake_mobile_models.py",
+    "sha256": "9e8fb6d8712045b7cd97e49bb9b2cfb09cd99537e3e6785d5725e659373be729"
+  },
+  {
+    "current": "references/competitor-goose/2026-10-23/models/GTCrocodile/source.json",
+    "snapshot": "sources/references/competitor-goose/2026-10-23/models/GTCrocodile/source.json",
+    "sha256": "f62e25c49cd9d738f8b1d76dceeb3176e71e5dd07b4f49d37c053163c5d2eb5d"
+  },
+  {
+    "current": "references/competitor-goose/2026-10-23/models/GTWaterGame/source.json",
+    "snapshot": "sources/references/competitor-goose/2026-10-23/models/GTWaterGame/source.json",
+    "sha256": "ba6dcfe5ae236f93565b593b3ec2b1849fc945118599624d34c8d5e5d161497a"
+  },
+  {
+    "current": "tools/competitor/audit_render_appearance.py",
+    "snapshot": "sources/tools/competitor/audit_render_appearance.py",
+    "sha256": "1104484701801bab4dd3c3e3b2c1d24f94169efe9f7f5d2da109fdd9e2744f6f"
+  },
+  {
+    "current": "tools/competitor/archive_appearance.py",
+    "snapshot": "sources/tools/competitor/archive_appearance.py",
+    "sha256": "ee0355d0a26f0cabcc55d47aba4b3cb30533d40a2d77604192374af0bb7584da"
+  }
+]

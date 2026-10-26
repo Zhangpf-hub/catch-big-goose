@@ -1,0 +1,334 @@
+{
+  "items": [
+    {
+      "id": "watermelon",
+      "scale": 1.55,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "pineapple",
+      "scale": 1.45,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "coconut",
+      "scale": 1.2,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "dragonfruit",
+      "scale": 1.1,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "blueberry",
+      "scale": 0.65,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "cherry",
+      "scale": 0.7,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "strawberry",
+      "scale": 0.82,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "lemon",
+      "scale": 0.9,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "goose",
+      "scale": 1.25,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "jadevase",
+      "scale": 1.45,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "hulu",
+      "scale": 1.3,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "ruyi",
+      "scale": 1.4,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "yuxi",
+      "scale": 1.15,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "banzhi",
+      "scale": 0.65,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "tongqian",
+      "scale": 0.72,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "yuzhuo",
+      "scale": 0.95,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "pumpkin",
+      "scale": 1.45,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "cabbage",
+      "scale": 1.4,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "corn",
+      "scale": 1.4,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "carrot",
+      "scale": 1.3,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "eggplant",
+      "scale": 1.25,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "broccoli",
+      "scale": 1.2,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "duck",
+      "scale": 1.25,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "koi",
+      "scale": 1.3,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "lotus",
+      "scale": 1.1,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "cake_slice",
+      "scale": 1.35,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "cupcake",
+      "scale": 1.15,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "donut",
+      "scale": 1.15,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "cookie",
+      "scale": 0.8,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "candy",
+      "scale": 0.65,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "macaron",
+      "scale": 0.8,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "popsicle",
+      "scale": 1.3,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "icecream",
+      "scale": 1.35,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "croissant",
+      "scale": 1.25,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "radio",
+      "scale": 1.4,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "alarmclock",
+      "scale": 1.2,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "handheld",
+      "scale": 1.25,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "camera",
+      "scale": 1.15,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "phone",
+      "scale": 1.2,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "earbuds",
+      "scale": 0.75,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "usbdisk",
+      "scale": 0.65,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "watch",
+      "scale": 0.8,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "battery",
+      "scale": 0.75,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "pencil",
+      "scale": 1.4,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "charger",
+      "scale": 0.85,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "ref_gtcrocodile",
+      "scale": 1.3289,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtdinosaur",
+      "scale": 1.0,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtdrawingboard",
+      "scale": 1.2305,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtfruiteraser",
+      "scale": 0.65,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtgoosestamp",
+      "scale": 0.6554,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtkaleidoscope",
+      "scale": 1.4349,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtlaserpen",
+      "scale": 0.8255,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtmagiccubel",
+      "scale": 0.8677,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtpaperboat",
+      "scale": 1.2903,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtpaperfortune",
+      "scale": 0.6908,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtpaperstar",
+      "scale": 0.65,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtpapertree",
+      "scale": 0.9306,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtplanepen",
+      "scale": 1.2241,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtplasterdeer",
+      "scale": 1.5078,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtplaydough",
+      "scale": 1.1604,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtracecar",
+      "scale": 1.3093,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtringcandy",
+      "scale": 0.65,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtsandbag",
+      "scale": 0.9315,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtsmiledoll",
+      "scale": 0.6836,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtstickerbook",
+      "scale": 1.4372,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    },
+    {
+      "id": "ref_gtwatergame",
+      "scale": 1.55,
+      "evidence": "Frozen toy authored extent / batch median; clamped to fit own board"
+    }
+  ]
+}

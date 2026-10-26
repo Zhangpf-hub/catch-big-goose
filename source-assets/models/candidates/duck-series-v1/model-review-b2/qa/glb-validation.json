@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "duck-eggtart",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "preferredTriangles": true,
+        "maximumTriangles": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "textures256": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "roundtripGeometry": true
+      },
+      "triangles": 3752,
+      "bytes": 89480,
+      "sha256": "b657c83435da8b0606c61794e0bc79bfa57bca5fe9ac95fe39180c5cd5bd2fd1",
+      "images": [
+        {
+          "mime": "image/png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "mime": "image/png",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      },
+      "unityImported": false
+    },
+    {
+      "id": "duck-steelcup",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "preferredTriangles": true,
+        "maximumTriangles": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "textures256": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "roundtripGeometry": true
+      },
+      "triangles": 3940,
+      "bytes": 96100,
+      "sha256": "b3dc84c5384936a59c98e2b2e126c1b1397e89c245d8eca33df0a1c44864c325",
+      "images": [
+        {
+          "mime": "image/png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "mime": "image/png",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      },
+      "unityImported": false
+    },
+    {
+      "id": "duck-numberblock",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "preferredTriangles": true,
+        "maximumTriangles": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "textures256": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "roundtripGeometry": true
+      },
+      "triangles": 3820,
+      "bytes": 91292,
+      "sha256": "e3908538fc7f9e02d6117babea29959fd3d3871c556a4730979f47e5e9a23409",
+      "images": [
+        {
+          "mime": "image/png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "mime": "image/png",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      },
+      "unityImported": false
+    }
+  ],
+  "artApproved": false,
+  "physicsRuntimeVerified": false
+}

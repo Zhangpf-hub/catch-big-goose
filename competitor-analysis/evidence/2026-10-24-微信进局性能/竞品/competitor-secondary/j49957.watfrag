@@ -1,0 +1,469 @@
+  (func $j49957 (type $t4) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    global.get $primary.global$0
+    i32.const 48
+    i32.sub
+    local.set $p2
+    local.get $p2
+    global.set $primary.global$0
+    i32.const 5121037
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951804
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3983100
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3987148
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3987156
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3988584
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3988588
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3988592
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3998516
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3998520
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3998524
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5121037
+      i32.const 1
+      i32.store8
+    end
+    local.get $p2
+    i32.const 0
+    i32.store offset=44
+    local.get $p2
+    i64.const 0
+    i64.store offset=32
+    local.get $p2
+    i64.const 0
+    i64.store offset=24
+    block $B1
+      block $B2
+        block $B3
+          block $B4
+            block $B5
+              i32.const 3951804
+              i32.load
+              i32.load offset=92
+              i32.load offset=12
+              local.get $p0
+              local.get $p2
+              i32.const 44
+              i32.add
+              i32.const 3983100
+              i32.load
+              i32.const 10779
+              call_indirect $primary.table (type $t8)
+              i32.eqz
+              br_if $B5
+              i32.const 3987148
+              i32.load
+              drop
+              local.get $p2
+              i32.load offset=44
+              local.set $p0
+              local.get $p0
+              i32.load offset=16
+              local.get $p0
+              i32.load offset=24
+              i32.eq
+              br_if $B5
+              i32.const 3951804
+              i32.load
+              i32.load offset=92
+              i32.load offset=8
+              local.get $p2
+              i32.load offset=44
+              i32.const 3987156
+              i32.load
+              i32.const 3899
+              call_indirect $primary.table (type $t2)
+              i32.const 3998516
+              i32.load
+              i32.const 10819
+              call_indirect $primary.table (type $t4)
+              block $B6
+                block $B7
+                  block $B8
+                    block $B9
+                      local.get $p1
+                      if $I10
+                        local.get $p2
+                        i32.const 8
+                        i32.add
+                        i32.const 3951804
+                        i32.load
+                        i32.load offset=92
+                        i32.load offset=8
+                        i32.const 3998524
+                        i32.load
+                        i32.const 10057
+                        call_indirect $primary.table (type $t4)
+                        local.get $p2
+                        local.get $p2
+                        i64.load offset=16
+                        i64.store offset=32
+                        local.get $p2
+                        local.get $p2
+                        i64.load offset=8
+                        i64.store offset=24
+                        local.get $p2
+                        local.get $p2
+                        i32.const 24
+                        i32.add
+                        i32.store
+                        local.get $p2
+                        i32.const 0
+                        i32.store offset=8
+                        local.get $p2
+                        local.get $p2
+                        i32.load
+                        i32.store offset=12
+                        block $B11
+                          block $B12
+                            loop $L13
+                              i32.const 4610948
+                              i32.const 0
+                              i32.store
+                              i32.const 3888
+                              local.get $p2
+                              i32.const 24
+                              i32.add
+                              i32.const 3988588
+                              i32.load
+                              call $fimport$2
+                              local.set $p0
+                              i32.const 4610948
+                              i32.load
+                              local.set $p1
+                              i32.const 4610948
+                              i32.const 0
+                              i32.store
+                              local.get $p1
+                              i32.const 1
+                              i32.eq
+                              if $I14
+                                i32.const 2539788
+                                call $fimport$0
+                                local.set $p0
+                                br $B11
+                              end
+                              local.get $p0
+                              if $I15
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                i32.const 3889
+                                local.get $p2
+                                i32.const 24
+                                i32.add
+                                i32.const 3988592
+                                i32.load
+                                call $fimport$2
+                                local.set $p0
+                                i32.const 4610948
+                                i32.load
+                                local.set $p1
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                local.get $p1
+                                i32.const 1
+                                i32.eq
+                                br_if $B12
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                i32.const 3908
+                                local.get $p0
+                                local.get $p2
+                                call $fimport$12
+                                i32.const 4610948
+                                i32.load
+                                local.set $p0
+                                i32.const 4610948
+                                i32.const 0
+                                i32.store
+                                local.get $p0
+                                i32.const 1
+                                i32.eq
+                                br_if $B12
+                                br $L13
+                              end
+                            end
+                            br $B6
+                          end
+                          i32.const 2539788
+                          call $fimport$0
+                          local.set $p0
+                        end
+                        call $fimport$1
+                        i32.const 2539788
+                        call $fimport$9
+                        i32.ne
+                        br_if $B8
+                        local.get $p2
+                        local.get $p0
+                        call $fimport$7
+                        i32.load
+                        i32.store offset=8
+                        i32.const 4610948
+                        i32.const 0
+                        i32.store
+                        i32.const 369
+                        call $fimport$6
+                        i32.const 4610948
+                        i32.load
+                        local.set $p0
+                        i32.const 4610948
+                        i32.const 0
+                        i32.store
+                        local.get $p0
+                        i32.const 1
+                        i32.eq
+                        br_if $B9
+                        local.get $p2
+                        i32.const 8
+                        i32.add
+                        i32.const 3911
+                        call_indirect $primary.table (type $t1)
+                        drop
+                      end
+                      local.get $p2
+                      i32.const 8
+                      i32.add
+                      i32.const 3951804
+                      i32.load
+                      i32.load offset=92
+                      i32.load offset=8
+                      i32.const 3998524
+                      i32.load
+                      i32.const 10057
+                      call_indirect $primary.table (type $t4)
+                      local.get $p2
+                      local.get $p2
+                      i64.load offset=16
+                      i64.store offset=32
+                      local.get $p2
+                      local.get $p2
+                      i64.load offset=8
+                      i64.store offset=24
+                      local.get $p2
+                      local.get $p2
+                      i32.const 24
+                      i32.add
+                      i32.store
+                      local.get $p2
+                      i32.const 0
+                      i32.store offset=8
+                      local.get $p2
+                      local.get $p2
+                      i32.load
+                      i32.store offset=12
+                      br $B7
+                    end
+                    call $fimport$4
+                    local.set $p0
+                    call $fimport$1
+                    drop
+                  end
+                  i32.const 4610948
+                  i32.const 0
+                  i32.store
+                  i32.const 3909
+                  local.get $p2
+                  i32.const 8
+                  i32.add
+                  call $fimport$3
+                  drop
+                  i32.const 4610948
+                  i32.load
+                  local.set $p1
+                  i32.const 4610948
+                  i32.const 0
+                  i32.store
+                  local.get $p1
+                  i32.const 1
+                  i32.eq
+                  br_if $B2
+                  br $B1
+                end
+                block $B16
+                  block $B17
+                    block $B18
+                      loop $L19
+                        block $B20
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          i32.const 3888
+                          local.get $p2
+                          i32.const 24
+                          i32.add
+                          i32.const 3988588
+                          i32.load
+                          call $fimport$2
+                          local.set $p0
+                          i32.const 4610948
+                          i32.load
+                          local.set $p1
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          local.get $p1
+                          i32.const 1
+                          i32.eq
+                          br_if $B20
+                          local.get $p0
+                          i32.eqz
+                          br_if $B16
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          i32.const 3889
+                          local.get $p2
+                          i32.const 24
+                          i32.add
+                          i32.const 3988592
+                          i32.load
+                          call $fimport$2
+                          local.set $p0
+                          i32.const 4610948
+                          i32.load
+                          local.set $p1
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          local.get $p1
+                          i32.const 1
+                          i32.eq
+                          br_if $B18
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          i32.const 3910
+                          local.get $p0
+                          local.get $p2
+                          call $fimport$12
+                          i32.const 4610948
+                          i32.load
+                          local.set $p0
+                          i32.const 4610948
+                          i32.const 0
+                          i32.store
+                          local.get $p0
+                          i32.const 1
+                          i32.ne
+                          br_if $L19
+                          br $B18
+                        end
+                      end
+                      i32.const 2539788
+                      call $fimport$0
+                      local.set $p0
+                      br $B17
+                    end
+                    i32.const 2539788
+                    call $fimport$0
+                    local.set $p0
+                  end
+                  call $fimport$1
+                  i32.const 2539788
+                  call $fimport$9
+                  i32.ne
+                  br_if $B3
+                  local.get $p2
+                  local.get $p0
+                  call $fimport$7
+                  i32.load
+                  i32.store offset=8
+                  i32.const 4610948
+                  i32.const 0
+                  i32.store
+                  i32.const 369
+                  call $fimport$6
+                  i32.const 4610948
+                  i32.load
+                  local.set $p0
+                  i32.const 4610948
+                  i32.const 0
+                  i32.store
+                  local.get $p0
+                  i32.const 1
+                  i32.eq
+                  br_if $B4
+                end
+              end
+              local.get $p2
+              i32.const 8
+              i32.add
+              i32.const 3911
+              call_indirect $primary.table (type $t1)
+              drop
+              i32.const 3951804
+              i32.load
+              i32.load offset=92
+              i32.load offset=8
+              i32.const 3998520
+              i32.load
+              i32.const 101760
+              call_indirect $primary.table (type $t3)
+            end
+            local.get $p2
+            i32.const 48
+            i32.add
+            global.set $primary.global$0
+            return
+          end
+          call $fimport$4
+          local.set $p0
+          call $fimport$1
+          drop
+        end
+        i32.const 4610948
+        i32.const 0
+        i32.store
+        i32.const 3911
+        local.get $p2
+        i32.const 8
+        i32.add
+        call $fimport$3
+        drop
+        i32.const 4610948
+        i32.load
+        local.set $p1
+        i32.const 4610948
+        i32.const 0
+        i32.store
+        local.get $p1
+        i32.const 1
+        i32.ne
+        br_if $B1
+      end
+      i32.const 0
+      call $fimport$0
+      drop
+      call $fimport$1
+      drop
+      i32.const 137629
+      call_indirect $primary.table (type $t10)
+      unreachable
+    end
+    local.get $p0
+    call $fimport$10
+    unreachable)

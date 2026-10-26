@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Flashlight2\\tex_5614956116124921220.png",
+      "uvMin": [
+        0.001500000013038516,
+        0.001500000013038516
+      ],
+      "uvMax": [
+        0.995199978351593,
+        0.9984999895095825
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Flashlight2\\tex_-8829695842721243366.png",
+      "uvMin": [
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ],
+      "uvMax": [
+        0.9998999834060669,
+        0.9998999834060669
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_flashlight2\\albedo.png"
+}

@@ -1,0 +1,195 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9",
+  "files": [],
+  "subMetas": {
+    "825ed": {
+      "importer": "gltf-mesh",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@825ed",
+      "displayName": "",
+      "id": "825ed",
+      "name": "Sphere.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 3892
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0768c": {
+      "importer": "gltf-material",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@0768c",
+      "displayName": "",
+      "id": "0768c",
+      "name": "lotus_pad.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4fb0": {
+      "importer": "gltf-material",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@d4fb0",
+      "displayName": "",
+      "id": "d4fb0",
+      "name": "lotus_deep.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8edb": {
+      "importer": "gltf-material",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@e8edb",
+      "displayName": "",
+      "id": "e8edb",
+      "name": "lotus_pink.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b781c": {
+      "importer": "gltf-material",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@b781c",
+      "displayName": "",
+      "id": "b781c",
+      "name": "lotus_pale.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "86fc3": {
+      "importer": "gltf-material",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@86fc3",
+      "displayName": "",
+      "id": "86fc3",
+      "name": "lotus_center.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8bb6": {
+      "importer": "gltf-material",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@b8bb6",
+      "displayName": "",
+      "id": "b8bb6",
+      "name": "lotus_stamen_tip.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce839": {
+      "importer": "gltf-material",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@ce839",
+      "displayName": "",
+      "id": "ce839",
+      "name": "lotus_pad_vein.material",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea4be": {
+      "importer": "gltf-scene",
+      "uuid": "6432d2fc-dff7-4494-8628-37dda35739c9@ea4be",
+      "displayName": "",
+      "id": "ea4be",
+      "name": "lotus.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6432d2fc-dff7-4494-8628-37dda35739c9@825ed"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6432d2fc-dff7-4494-8628-37dda35739c9@0768c",
+        "6432d2fc-dff7-4494-8628-37dda35739c9@d4fb0",
+        "6432d2fc-dff7-4494-8628-37dda35739c9@e8edb",
+        "6432d2fc-dff7-4494-8628-37dda35739c9@b781c",
+        "6432d2fc-dff7-4494-8628-37dda35739c9@86fc3",
+        "6432d2fc-dff7-4494-8628-37dda35739c9@b8bb6",
+        "6432d2fc-dff7-4494-8628-37dda35739c9@ce839"
+      ],
+      "scenes": [
+        "6432d2fc-dff7-4494-8628-37dda35739c9@ea4be"
+      ]
+    }
+  }
+}

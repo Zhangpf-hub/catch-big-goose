@@ -1,0 +1,56 @@
+{
+  "materials": [
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTWaterGame\\tex_-2940297293892760700.png",
+      "uvMin": [
+        0.003488349262624979,
+        0.0016411154065281153
+      ],
+      "uvMax": [
+        0.9972963333129883,
+        0.9957656264305115
+      ]
+    },
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTWaterGame\\tex_5386740643253612106.png",
+      "uvMin": [
+        0.01130876038223505,
+        0.006748080253601074
+      ],
+      "uvMax": [
+        0.15093547105789185,
+        0.4841218888759613
+      ]
+    },
+    {
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTWaterGame\\tex_5386740643253612106.png",
+      "uvMin": [
+        0.7762370109558105,
+        0.482755184173584
+      ],
+      "uvMax": [
+        0.8625327348709106,
+        0.5394388437271118
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\ref_gtwatergame\\albedo.png"
+}

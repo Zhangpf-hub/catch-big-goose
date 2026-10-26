@@ -1,0 +1,25 @@
+{
+  "rowClass": "SpLevelDataData",
+  "fields": [
+    [
+      "_leveltype",
+      "string"
+    ],
+    [
+      "_levelindex",
+      "int"
+    ],
+    [
+      "_needcount",
+      "int"
+    ],
+    [
+      "_sumcount",
+      "int"
+    ],
+    [
+      "_tip",
+      "string"
+    ]
+  ]
+}

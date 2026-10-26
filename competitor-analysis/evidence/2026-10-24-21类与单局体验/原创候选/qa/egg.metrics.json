@@ -1,0 +1,28 @@
+{
+  "id": "egg",
+  "theme": "farm",
+  "triangles": 912,
+  "vertices": 458,
+  "blenderBounds": [
+    0.5875000357627869,
+    0.5875000357627869,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 21996,
+  "sha256": "952f2713f9d49dcdedaa91123360f0b9559417f97020df0257685a04ad7adfb3",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

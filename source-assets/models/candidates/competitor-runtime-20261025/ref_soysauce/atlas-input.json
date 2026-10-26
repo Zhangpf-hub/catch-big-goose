@@ -1,0 +1,59 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        -0.0005634501576423645,
+        0.010034956969320774
+      ],
+      "uvMax": [
+        1.0,
+        1.0
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\SoySauce\\tex_6952941555355447436.png",
+      "uvMin": [
+        -0.002059102989733219,
+        0.005694130435585976
+      ],
+      "uvMax": [
+        0.9977432489395142,
+        0.9816495180130005
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.014611542224884033,
+        0.01461152732372284
+      ],
+      "uvMax": [
+        0.985388457775116,
+        1.0
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_soysauce\\albedo.png"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "duck-egg",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-egg/duck-egg.glb",
+  "sourceSha256": "8362834b4b3b8328dbed4975f177202949b12dbba267d7b932df5b0327827b42",
+  "originalWorldDimensions": [
+    0.6279135942459106,
+    0.6863892078399658,
+    0.9999999403953552
+  ],
+  "uniformScale": 1.0000000596046483,
+  "normalizedWorldDimensions": [
+    0.6279136538505554,
+    0.6863892674446106,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtdrawingboard",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTDrawingBoard\\GTDrawingBoard.blend",
+  "sourceTriangles": 712,
+  "triangles": 712,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.3553584814071655,
+    2.292008399963379,
+    0.5503233075141907
+  ],
+  "normalizedDimensions": [
+    0.591340959072113,
+    1.0,
+    0.2401052713394165
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

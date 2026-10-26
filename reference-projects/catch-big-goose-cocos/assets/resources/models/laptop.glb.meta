@@ -1,0 +1,143 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c",
+  "files": [],
+  "subMetas": {
+    "11969": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@11969",
+      "displayName": "",
+      "id": "11969",
+      "name": "laptop_palette.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "19cde": {
+      "importer": "gltf-mesh",
+      "uuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@19cde",
+      "displayName": "",
+      "id": "19cde",
+      "name": "laptop.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2404
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@11969"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "26c4b": {
+      "importer": "gltf-material",
+      "uuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@26c4b",
+      "displayName": "",
+      "id": "26c4b",
+      "name": "laptop_material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fd296": {
+      "importer": "gltf-scene",
+      "uuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@fd296",
+      "displayName": "",
+      "id": "fd296",
+      "name": "laptop.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "laptop_palette",
+        "uri": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@11969"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@19cde"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@e39f7"
+      ],
+      "materials": [
+        "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@26c4b"
+      ],
+      "scenes": [
+        "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@fd296"
+      ]
+    }
+  }
+}

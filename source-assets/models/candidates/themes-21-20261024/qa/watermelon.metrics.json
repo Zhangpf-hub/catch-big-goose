@@ -1,0 +1,28 @@
+{
+  "id": "watermelon",
+  "theme": "fruit",
+  "triangles": 2272,
+  "vertices": 1266,
+  "blenderBounds": [
+    0.6942275762557983,
+    0.640101969242096,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 56180,
+  "sha256": "8aba2f9947807e7e72fb32ec0a5068337eaf59aa70e96b38135ae4dac6e09aab",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

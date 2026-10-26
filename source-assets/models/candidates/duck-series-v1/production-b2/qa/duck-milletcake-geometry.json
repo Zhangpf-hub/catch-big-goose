@@ -1,0 +1,18 @@
+{
+  "id": "duck-milletcake",
+  "triangles": 3552,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.7673211097717285,
+    0.454160213470459,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "passed": true
+}

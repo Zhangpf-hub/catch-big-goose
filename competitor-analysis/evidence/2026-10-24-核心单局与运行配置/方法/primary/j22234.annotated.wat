@@ -1,0 +1,42 @@
+  (func $j22234 (type $t15) (param $p0 i32) (param $p1 f32) (param $p2 i32)
+    i32.const 5140139
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      call $j922
+      i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+      call $j922
+      i32.const 5140139
+      i32.const 1
+      i32.store8
+    end
+    i32.const 0
+    local.set $p2
+    loop $L1
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      i32.load
+      drop
+      local.get $p2
+      local.get $p0
+      i32.load offset=152
+      i32.load offset=12
+      i32.lt_s
+      if $I2
+        local.get $p0
+        i32.load offset=152
+        local.get $p2
+        i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+        i32.load
+        call $j947
+        local.get $p0
+        f32.load offset=708
+        i32.const 0
+        call $j21508 ;; ObjectUnit$$MessForce
+        local.get $p2
+        i32.const 1
+        i32.add
+        local.set $p2
+        br $L1
+      end
+    end)

@@ -1,0 +1,167 @@
+{
+  "reason": "No current code/scene references; superseded challenge UI excluded from Resources.",
+  "files": [
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/control-deck-bg.jpg",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/control-deck-bg.jpg",
+      "bytes": 256308,
+      "sha256": "27aa6cd545a55a0aa6ee98b60626c3ae45f389739acd95b4d420df39fe481877"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/control-deck-bg.jpg.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/control-deck-bg.jpg.meta",
+      "bytes": 2978,
+      "sha256": "e32b848380e05494667710c67b3e7627c91e7281e8fd49e0e153fbe6a5d2d90e"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/cta-button-clean.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/cta-button-clean.png",
+      "bytes": 37995,
+      "sha256": "d459b8e74a7a920be3c519d5c6dda8bdc46b6c593bfbc878b04a685654f73dc3"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/cta-button-clean.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/cta-button-clean.png.meta",
+      "bytes": 2978,
+      "sha256": "fb715df03195ae1b1a17d32bfa93bd343d1810dc6c1d9f630b4a4f492c447239"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/difficulty-easy-clean.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/difficulty-easy-clean.png",
+      "bytes": 53167,
+      "sha256": "1cc21c36ba11abf31f24f7e5c7e9bd04c0eab480db77f4e081d761e768980979"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/difficulty-easy-clean.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/difficulty-easy-clean.png.meta",
+      "bytes": 2978,
+      "sha256": "8739665c7f7d16c805cec4fc211e1236a59652018ddb8431b78ebbc7bac77520"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/difficulty-master-clean.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/difficulty-master-clean.png",
+      "bytes": 46845,
+      "sha256": "060ed0806506ff03fff0559d9b500064f70377d7ca1de8a996a34a293129be54"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/difficulty-master-clean.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/difficulty-master-clean.png.meta",
+      "bytes": 2978,
+      "sha256": "283e838b7e3da6b156a84eb469fba9030ba619ac61b65cfcbb1263fb4387a4fc"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/difficulty-normal-clean.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/difficulty-normal-clean.png",
+      "bytes": 45895,
+      "sha256": "b6a16279572d6c7381dcf0d08cee9886bd8bf31cc79f486329f3da93805b8ae5"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/difficulty-normal-clean.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/difficulty-normal-clean.png.meta",
+      "bytes": 2978,
+      "sha256": "a4959fb315d71199855d85e7d1d8f0b1b77b45954f9cb5976f7eead9ff9ab251"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/fallback.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/fallback.meta",
+      "bytes": 172,
+      "sha256": "37c6b992ee24264d9dcbe6a4d3b7f2329f3f8c620637ed5ade875c94bae39ee1"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/header-reference.jpg",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/header-reference.jpg",
+      "bytes": 50384,
+      "sha256": "17f4c81b330ff10c7c07bc34324bdd6f45e9627025e80d6f2a18b0b7124f36ec"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/header-reference.jpg.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/header-reference.jpg.meta",
+      "bytes": 2978,
+      "sha256": "03c5d0ea49b8d04f3d5540903a9ea22a4959a1c6f21c42620118e76491ea405a"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/map-continuous-v2.jpg",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/map-continuous-v2.jpg",
+      "bytes": 535775,
+      "sha256": "d959f1118439339be717ebae6fafa8def26628809a3c4f487fc925e083571fef"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/map-continuous-v2.jpg.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/map-continuous-v2.jpg.meta",
+      "bytes": 2978,
+      "sha256": "0506cbb8168d2d4f81d21ddbb46d95df665589272247f1835aa4b1b122c8ed60"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-antique-v4.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-antique-v4.png",
+      "bytes": 197097,
+      "sha256": "97e96b8ddc1d993fa258f6b83effb4532239396509504ba5c0c4d8bb8058f082"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-antique-v4.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-antique-v4.png.meta",
+      "bytes": 2978,
+      "sha256": "4540e5d539c7f7d87043f1c18bd632369c713dc3ef0078cf565e900c262e10bc"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-dessert-v4.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-dessert-v4.png",
+      "bytes": 194243,
+      "sha256": "ff93ff2c4d8af275d06ed67b8ca3b2c5f069875d14228cd848b89bef362b2e50"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-dessert-v4.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-dessert-v4.png.meta",
+      "bytes": 2978,
+      "sha256": "49a0bf76ecd676375194625fe08623908bbdd1b4c2f0f3b8797e92ee3f32b0ac"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-electronics.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-electronics.png",
+      "bytes": 36691,
+      "sha256": "15c2933986819fe866de2d5201529066c0cb1b4ccf89fae37fe4d3e9bfc03b0a"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-electronics.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-electronics.png.meta",
+      "bytes": 2978,
+      "sha256": "0b247dfa37148d5300aec579c475d017e04fde05ecb9bce6b4aa7b9040ff318b"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-farm-v4.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-farm-v4.png",
+      "bytes": 189200,
+      "sha256": "32da8e2e97dbe5bebaae01162676cf6728f06a8b78a37b879af3b114f396c7be"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-farm-v4.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-farm-v4.png.meta",
+      "bytes": 2978,
+      "sha256": "52c3b6e756659d53fd3d520fa9e336bd0b9aae9fead687e8d29dfdd3e2c96089"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-fruit-v4.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-fruit-v4.png",
+      "bytes": 192569,
+      "sha256": "5682fcc37f7a20e50ee2416e68442a7ab8ac6c76e51c208c4d83d43cd23438d4"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/station-medallion-fruit-v4.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/station-medallion-fruit-v4.png.meta",
+      "bytes": 2978,
+      "sha256": "3116741932768a2bb7aad1b62b6b34774a5adda9623d01d2208dd4be65d2799a"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/summary-frame-blank.png",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/summary-frame-blank.png",
+      "bytes": 9352,
+      "sha256": "e96e53d7195796ac580d90b3de5882358d7fffcaadfcba5931859d34af5fc9d0"
+    },
+    {
+      "original": "unity/Assets/Resources/Textures/challenge-ui/summary-frame-blank.png.meta",
+      "archived": "unity/SourceAssets/ReferenceLookBaseline-20261025/retired-ui/challenge-ui/summary-frame-blank.png.meta",
+      "bytes": 2978,
+      "sha256": "01b7c117a5e8ed762fd95bb4a77122de06cea73b7a517688fb2a43f11b34de64"
+    }
+  ]
+}

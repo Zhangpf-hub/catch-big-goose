@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "ThermosBottleMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_1037927908517186073.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

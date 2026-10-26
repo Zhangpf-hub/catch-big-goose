@@ -1,0 +1,56 @@
+{
+  "materials": [
+    {
+      "name": "home_table_cream",
+      "referenceMaterial": true,
+      "sourceShader": "Project furniture adaptation",
+      "texture": "Models/home-table/cream",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "matcap": "Models/home-table/matcap",
+      "matcapScale": 0.1,
+      "matcapColor": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ]
+    },
+    {
+      "name": "home_table_wood",
+      "referenceMaterial": true,
+      "sourceShader": "Project furniture adaptation",
+      "texture": "Models/home-table/wood",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "matcap": "Models/home-table/matcap",
+      "matcapScale": 0.06,
+      "matcapColor": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ]
+    }
+  ]
+}

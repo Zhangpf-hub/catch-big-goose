@@ -1,0 +1,28 @@
+{
+  "id": "television",
+  "theme": "electronics",
+  "triangles": 916,
+  "vertices": 472,
+  "blenderBounds": [
+    0.9999999403953552,
+    0.3911764323711395,
+    0.8294116854667664
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 22592,
+  "sha256": "ac09f2743554be99585e537935641802319d74975114083f8d1d6e67dadc8732",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

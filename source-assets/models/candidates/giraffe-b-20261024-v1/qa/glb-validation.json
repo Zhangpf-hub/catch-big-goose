@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangles": true,
+    "bytes": true,
+    "noAnimation": true,
+    "noErrors": true,
+    "noWarnings": true
+  },
+  "triangles": 5000,
+  "bytes": 247376,
+  "sha256": "2852932d55b251b54d74a6cfcb01b8ec5bbfa16b59797ef3152431b1d1f8e238",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

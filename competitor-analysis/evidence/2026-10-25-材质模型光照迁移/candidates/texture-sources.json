@@ -1,0 +1,566 @@
+{
+  "t_4e3386d2c8849c70274265b0.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Apple/tex_-8256350372672205632.png",
+    "sha256": "4e3386d2c8849c70274265b0478d3d85dfffb66ff8d835160c41cf332b54bb22"
+  },
+  "t_6b03b2deaa730dd10102ef0f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WoodHand/tex_1309734104842292820.png",
+    "sha256": "6b03b2deaa730dd10102ef0f55d8b8a281c8ff352c29c69487be501afce34fac"
+  },
+  "d_b79fa259af10576a13d2e331.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Apple/tex_-1453231959395345583.png",
+    "sha256": "b79fa259af10576a13d2e331f4aab7f40a4e0e3ca9a20d56ee1f284e36ec469d"
+  },
+  "t_2094055e735cc165ad1fbaef.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Bananas/tex_-5820958605898207888.png",
+    "sha256": "2094055e735cc165ad1fbaef0750f7e11884938c9dc335a5ee30d4ef099636ec"
+  },
+  "t_4cb50ad25e548b0e46c9e50d.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WatermelonHalf/tex_4100659643748777369.png",
+    "sha256": "4cb50ad25e548b0e46c9e50da86bd2e64b7efc263624675fa5efae5cc45d3bc6"
+  },
+  "t_0c8145ffeabf949672840333.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BBQHotdog/tex_4426473408641692948.png",
+    "sha256": "0c8145ffeabf949672840333f285471e364ee1face614953aec119e30b8beb89"
+  },
+  "t_b859c7b9097a82727fd4e1f6.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ToyCar/tex_-2659979768124359822.png",
+    "sha256": "b859c7b9097a82727fd4e1f61d0a2fb08c1f417e365dd5ebd767118ab8076319"
+  },
+  "t_7e6f40e02cafb8503171e2c1.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BBQMushroom/tex_6713141871699598120.png",
+    "sha256": "7e6f40e02cafb8503171e2c17c000dcfe6c077e85a7705fdcd318eb3af9ec687"
+  },
+  "t_6aecbfc70e31b09f5a6e803d.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/SoySauce/tex_7832787953167869695.png",
+    "sha256": "6aecbfc70e31b09f5a6e803d9027ec5ad07813c1eede6fce538a1df98cac1261"
+  },
+  "t_d2b70eef430f9a7c443c6a65.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BBQPotato/tex_-275963483993458219.png",
+    "sha256": "d2b70eef430f9a7c443c6a65c0fa874f53d1cedca93d0052f2a17b33f62fea74"
+  },
+  "t_37494a47af50cdc67d4c7765.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BBQSausage/tex_-4646787381910779035.png",
+    "sha256": "37494a47af50cdc67d4c77650967e5f3b01767ab5726e76ab9ceb3f055172a5e"
+  },
+  "t_a786a071014d900c9b22a46d.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BBQSkewers2/tex_5220511560128044377.png",
+    "sha256": "a786a071014d900c9b22a46d6997753fbd612100114bc0c671cf5257cc1a4740"
+  },
+  "t_4c39593fba57787ef2ab4160.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BBQToast/tex_3897503120883338056.png",
+    "sha256": "4c39593fba57787ef2ab4160e6804a31b966cc62ef6962157e84b104ccedef37"
+  },
+  "t_d54e3599bb3ab914508e16b6.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFCornJuice/tex_2196100583132731175.png",
+    "sha256": "d54e3599bb3ab914508e16b6d4472cf0ec37080737be96dae6fcd75bb512f0e9"
+  },
+  "t_e6d15f0702b24eb48c1599e1.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFEggHalf/tex_783166024449524141.png",
+    "sha256": "e6d15f0702b24eb48c1599e11c18babc233feebada78bc1a6368ef7cc5830d3b"
+  },
+  "t_d4aa03ffa12d21234a01f060.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFWoWoTou/tex_-1501534297775173260.png",
+    "sha256": "d4aa03ffa12d21234a01f06048a1f9cf88c73c2332671f0e44b417ed91f10c85"
+  },
+  "t_22a09a62dab9f8b3fd4e2b46.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFFaGao/tex_6300670085102000962.png",
+    "sha256": "22a09a62dab9f8b3fd4e2b46d8ff3fd93fe28a8526df4e4bbfd1120b4465ebb0"
+  },
+  "t_31b7a6fa2c72ad68bbb50f2a.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFFlowerRoll/tex_9161247971756154409.png",
+    "sha256": "31b7a6fa2c72ad68bbb50f2a4c13200f2c0189c47f0d306f99cf1807cc1b03da"
+  },
+  "t_f6c6cf6eecf624d495426238.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFFriedDoughStick/tex_-8418972245682107565.png",
+    "sha256": "f6c6cf6eecf624d4954262381042489153857f3df869ed3f59d6e8cd8e03d8a5"
+  },
+  "t_934fde33d120e0743b159638.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSesameBall/tex_-159817819220854123.png",
+    "sha256": "934fde33d120e0743b159638297a327e5a881dd7fbfd94de0a9d8d7f0fd60778"
+  },
+  "t_a8ea0b73c5b27db5e7de165f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFFriedSteamedBun/tex_5511575803204161500.png",
+    "sha256": "a8ea0b73c5b27db5e7de165fa8f5b22b09ead6c881634301534082af7d24eee1"
+  },
+  "t_799e2f5195e570ebf1539da9.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSesameBall/tex_-488927916378682696.png",
+    "sha256": "799e2f5195e570ebf1539da90a4530fcc54d48306b45772f94ff84135d635344"
+  },
+  "t_869a00d947c12d81cb1660a5.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFShaoMai/tex_-1946380019870035512.png",
+    "sha256": "869a00d947c12d81cb1660a5eda086c0a76fa2d1e1860651a4d2eddf91e41d21"
+  },
+  "t_8d4165a0b1d82fc64ebedf19.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFShrimpShaoMai/tex_5851725594247640115.png",
+    "sha256": "8d4165a0b1d82fc64ebedf198aba400fbe1594d1eb18edfed70d45dc52fbdec1"
+  },
+  "t_3fed0ae9530e121fd88f71e4.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSoupDumpling/tex_-4997012826245381430.png",
+    "sha256": "3fed0ae9530e121fd88f71e40a2d8e931c0ac46bf9be6b4a12caec0707870000"
+  },
+  "t_47889b3efae0493071a71136.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFXiaoLongBao/tex_1167073631805402463.png",
+    "sha256": "47889b3efae0493071a71136b057b121e2da0c9a73a510c452d5d60e0d687dd4"
+  },
+  "d_98b2247a430de37acbe88ed7.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSoyMilk/tex_-4807613530975420468.png",
+    "sha256": "98b2247a430de37acbe88ed7bf5e85acacc32a2007414387add4136e5127ac37"
+  },
+  "t_072fc29eb8c3fe19395cc48a.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSoyMilk/tex_-7999585079489659502.png",
+    "sha256": "072fc29eb8c3fe19395cc48a60a9d7f7462ac073dea8c1c5a2107294bfa62a38"
+  },
+  "t_d4143945b1bfe13119753003.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSpringRoll/tex_-412816770124149593.png",
+    "sha256": "d4143945b1bfe13119753003553aa427aa3dbb907b7027fc57004eac5a270f8a"
+  },
+  "t_bd1c8b4f92e39b8e20ebe68c.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSweetCorn/tex_4121379649234230098.png",
+    "sha256": "bd1c8b4f92e39b8e20ebe68c3b03ab8ccc65b50fbba84cc23c93fd614d15d5f5"
+  },
+  "d_87d94756c94012b462feee28.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFSweetCorn/tex_-3891915832200636492.png",
+    "sha256": "87d94756c94012b462feee28a9a36eec8529d4cc1a5aeb532021dd15136ac55b"
+  },
+  "t_f0ed2a5c2561befd5b9ec154.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFTofuPudding/tex_-126621223339456275.png",
+    "sha256": "f0ed2a5c2561befd5b9ec154a51633a3b68a8161797cb914880d1720ec212636"
+  },
+  "d_bc7cdde35d3e879d2660529f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFTofuPudding/tex_-5612578858214876544.png",
+    "sha256": "bc7cdde35d3e879d2660529f2104b82698432b20c51fe582845a1083ed82eb32"
+  },
+  "t_2d622da346f854ee33171c3e.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFWoWoTou/tex_-1259338174050132931.png",
+    "sha256": "2d622da346f854ee33171c3e88da7e2a555acc287545781eaae6d974eb23315c"
+  },
+  "t_5928a33709728872a63a51ef.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFXiaoLongBao/tex_7238521664323171525.png",
+    "sha256": "5928a33709728872a63a51ef6ef271f51c75e858ea626a1b7701488f3fb22adc"
+  },
+  "t_313dd8d6dae659520149a206.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFXiaoLongBao/tex_-1025275639448792486.png",
+    "sha256": "313dd8d6dae659520149a20697e9b8999bd60d91d6c976f495788ae2bc14b2e8"
+  },
+  "d_ab4fc9a2f2cd99e27a6faf49.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/BFXiaoLongBao/tex_3446818864056103248.png",
+    "sha256": "ab4fc9a2f2cd99e27a6faf490a34030c8d7945f450b9f72a0ecaeca73e12a768"
+  },
+  "t_3d9f207c7ec1bfef3c429267.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Carrot/tex_-8628812596363614174.png",
+    "sha256": "3d9f207c7ec1bfef3c42926764a9775901d5d070528de88d3d5a9214558ebab4"
+  },
+  "d_1c03b9ba213d7d53f5da6c3a.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Carrot/tex_5349952539766769461.png",
+    "sha256": "1c03b9ba213d7d53f5da6c3addba5f2fbd331a45c48877266d50c4483a8bf220"
+  },
+  "t_f63cc82c4a341a679441bf59.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ChewingGum/tex_8071437139408042982.png",
+    "sha256": "f63cc82c4a341a679441bf5910f2063d317b9a92e350256d2242d8a4241a9531"
+  },
+  "t_155e9a1afb34c3a31ec76850.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ChickenLeg/tex_-6915391214552426185.png",
+    "sha256": "155e9a1afb34c3a31ec768503307ac0c23188ac9be47beb4e620e9325bd862cb"
+  },
+  "t_e66f9e078f4053c310e51e48.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ChinaBowl/tex_-5855036806989603101.png",
+    "sha256": "e66f9e078f4053c310e51e48c4ff011ccd7d08604081dd2513ef5bc5977341d9"
+  },
+  "d_ace6ff0d0d972d184d68c9d8.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ChinaBowl/tex_-4133155829726859479.png",
+    "sha256": "ace6ff0d0d972d184d68c9d85b6c36b99611f17462732a02df56e2c24089d3cd"
+  },
+  "t_1b88c399555485891c358a5d.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Corn/tex_8456652568056180500.png",
+    "sha256": "1b88c399555485891c358a5d14637082a4d7949b1e1a1b3a4c2d6d96bd519ae7"
+  },
+  "t_f9c89f5b09fe0f054c572de5.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Garlic/tex_-3281139769586121915.png",
+    "sha256": "f9c89f5b09fe0f054c572de52e446fc92457f05be673614a93d4abda6f62c804"
+  },
+  "d_441b6e6ce89ab1813178a4dd.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Garlic/tex_-7527138790472233584.png",
+    "sha256": "441b6e6ce89ab1813178a4dd9216aa80410bb8324305de0fe59f0714ae9c9938"
+  },
+  "t_0a032a64cb6fcf89fe49fc85.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Fan/tex_-6269998994732029008.png",
+    "sha256": "0a032a64cb6fcf89fe49fc85cfc2526f468acda474497eb52b508268a3221653"
+  },
+  "d_2fac44ce0d89165e44a7fc33.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Fan/tex_-4576866368896527620.png",
+    "sha256": "2fac44ce0d89165e44a7fc33288101fc4322a865aaaf05181da768c4678094ee"
+  },
+  "t_a1ea8a7bb321632a23fed8d7.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Flashlight2/tex_5614956116124921220.png",
+    "sha256": "a1ea8a7bb321632a23fed8d75ccd3d6df1ac25c7e3643faf2c5ffe60797e22ae"
+  },
+  "d_75bc50a150307f1678d10074.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Flashlight2/tex_7212266553666983511.png",
+    "sha256": "75bc50a150307f1678d10074ce3bde6e7dd3faab07f8568bb93ad2fceeb58f20"
+  },
+  "t_6f0280acde89ada207618fb2.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Flashlight2/tex_-8829695842721243366.png",
+    "sha256": "6f0280acde89ada207618fb2e87361ec79ec74441ad3fab6656060d584845f22"
+  },
+  "t_d148a69dd2be7c9d234a44f4.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/FriedDumpling/tex_1247583589888344263.png",
+    "sha256": "d148a69dd2be7c9d234a44f4a5ce25385f3c24e61c1308f88c233d3bd77e6cdc"
+  },
+  "t_6f442a85a5f54c480855bd93.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/GrilledCorn/tex_1155059445024369207.png",
+    "sha256": "6f442a85a5f54c480855bd93737c3970f90e0e3b30f86c26930a7814b6cb4312"
+  },
+  "d_7b7152b812c8fabe8d77029f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/GrilledCorn/tex_-6084386829251924846.png",
+    "sha256": "7b7152b812c8fabe8d77029f2a38af59a532e38733cace512c4b7b445537ff23"
+  },
+  "t_bcd9d066dd14b57509873505.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/GrilledFish2/tex_7873455057560961480.png",
+    "sha256": "bcd9d066dd14b57509873505ef2372c7372210477780d8d6a5df68cd8d2bd901"
+  },
+  "t_b950effed87d8ef080feb110.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTCrocodile/tex_808116892596404501.png",
+    "sha256": "b950effed87d8ef080feb1106cd27a60f2fcda7d131f6885e6cde24b7934c252"
+  },
+  "t_030befe39250692b43d7ab0f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/SpinningTop/tex_1218480915622659578.png",
+    "sha256": "030befe39250692b43d7ab0f772debf12d211818ad3320f9d4f0b8ee500afc65"
+  },
+  "t_54aed35364f71429b75137c4.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTDinosaur/tex_6916460067506960093.png",
+    "sha256": "54aed35364f71429b75137c404f214394ed018b986a9454d9e18276059236968"
+  },
+  "t_b4937d73af82309c50438319.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTDinosaur/tex_-7191274393169970094.png",
+    "sha256": "b4937d73af82309c504383191ce8b2296b5e8ae1602688fd83cb8f351dd430ca"
+  },
+  "t_76d701f04b76ca87ed903eef.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTDrawingBoard/tex_3538175594027151253.png",
+    "sha256": "76d701f04b76ca87ed903eef60115355fba0ae1e44d89d80d9d2cc7f4d9faa7b"
+  },
+  "t_d75b87875c76eb9bb639eef6.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTDrawingBoard/tex_-8636837863846649403.png",
+    "sha256": "d75b87875c76eb9bb639eef632b6599bb49c163c532309d0dbbe1104a6e4445b"
+  },
+  "t_b5b9a19f845655612e64d971.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTFruitEraser/tex_-2771805950930493066.png",
+    "sha256": "b5b9a19f845655612e64d971b68bdc677bb7f2986eaaeb5991bcffe72d0d4c51"
+  },
+  "t_d8e7d8518078e2168a562792.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTStickerBook/tex_-5518497463231778486.png",
+    "sha256": "d8e7d8518078e2168a5627924a0e593d3a952537c8ebb7a674237762dc749139"
+  },
+  "t_20391785a955c218238668ed.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTGooseStamp/tex_-9091478964649060643.png",
+    "sha256": "20391785a955c218238668ed54f35c81276f5e9b60805bc51fa7ea7e4205ac69"
+  },
+  "t_6ae180358f4e46d45b3d1867.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTKaleidoscope/tex_7378205099724755732.png",
+    "sha256": "6ae180358f4e46d45b3d18671247c9ba2d0e255fc436817ffd042b1573d242cd"
+  },
+  "t_5aa959d0f96f8a2329b79536.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTKaleidoscope/tex_-3986071789454091839.png",
+    "sha256": "5aa959d0f96f8a2329b7953647f99a64562b7975c67e82c25adaffe26c03ef0c"
+  },
+  "t_1d47f7d6f9cedb4350d36d8f.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTKaleidoscope/tex_-6186732415379432617.png",
+    "sha256": "1d47f7d6f9cedb4350d36d8f790ed6289ed44243eb7a1b3f2065976afc6191dd"
+  },
+  "t_6c548964e2c9f5b1b02a4bb8.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTKaleidoscope/tex_-1377995537774471113.png",
+    "sha256": "6c548964e2c9f5b1b02a4bb872c3fe0e743002245eabdb480542ff44c29a4dc0"
+  },
+  "t_1f57dac3639555de4b49b9c0.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTLaserPen/tex_7574107178278518936.png",
+    "sha256": "1f57dac3639555de4b49b9c086fdaf17bb8ad53443f39e2029c90c11e3b0222b"
+  },
+  "t_6f25b1a20e2afa99293e6a2a.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTLaserPen/tex_5951442678979493926.png",
+    "sha256": "6f25b1a20e2afa99293e6a2a7e30c7aafa51921b80e75847c81e040ad7572cd0"
+  },
+  "t_161fa9aec38c2e0bb3de8d72.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTLaserPen/tex_4605977584303899224.png",
+    "sha256": "161fa9aec38c2e0bb3de8d728626a1ca25f748b9cbd9d12c95227b8ecf235791"
+  },
+  "d_4792906f858f1bea4caf5bba.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTLaserPen/tex_6425023400567497310.png",
+    "sha256": "4792906f858f1bea4caf5bbaaca430fcd0606395b0af0c3a6e4f1f40f743046a"
+  },
+  "t_eaba2c37c9db40bb96cf456c.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTMagicCubeL/tex_7780502602771374299.png",
+    "sha256": "eaba2c37c9db40bb96cf456c99f364a759d9596ddcbde36cc8cfc63c31ab0e24"
+  },
+  "t_833053c60a7cf2a5bfa8da2b.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPaperBoat/tex_752519494649156133.png",
+    "sha256": "833053c60a7cf2a5bfa8da2bb040ad537c596ed96863ab9b2970b4e3544a5352"
+  },
+  "t_45b44ddeb4d401126624638d.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTSmileDoll/tex_181888979082503163.png",
+    "sha256": "45b44ddeb4d401126624638d6e7b53799e4614552207cdb1bef7d73a685c0c66"
+  },
+  "t_05ad64c82d39d2c63b6f4967.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPaperFortune/tex_-6477540267136094694.png",
+    "sha256": "05ad64c82d39d2c63b6f49678e52588de871df97fa909c0021ad9b11f4e017b4"
+  },
+  "t_fc833d2f86f82f7ea8b832ee.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPaperStar/tex_-4413058295757840012.png",
+    "sha256": "fc833d2f86f82f7ea8b832eec4131d1f7510c6c5e658e0b8630e461ab8668be5"
+  },
+  "t_2ce2f39a6c5b1e76ac0f92bb.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPaperTree/tex_-6220710457998861077.png",
+    "sha256": "2ce2f39a6c5b1e76ac0f92bbfc2e39361eab289043bb3e8ec3d3712eb911cd40"
+  },
+  "t_43992ed01b5927dba401b3ac.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPaperTree/tex_7526620010366973644.png",
+    "sha256": "43992ed01b5927dba401b3ac1dd1effe291fc32ea0b82a3247363923a1ce79ca"
+  },
+  "d_16f5acabc00ff0a50fdee80e.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPaperTree/tex_-3890053057991545370.png",
+    "sha256": "16f5acabc00ff0a50fdee80eadd3ebf839d50976b918efeed36397350b788ad4"
+  },
+  "t_8275808ca17991db6015ebcd.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPlanePen/tex_8619417652736380838.png",
+    "sha256": "8275808ca17991db6015ebcdfd53ea533f3283db7715e54413de74f580941e21"
+  },
+  "t_f9e12af0e2825e4ce981f749.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPlasterDeer/tex_-8799056970662656634.png",
+    "sha256": "f9e12af0e2825e4ce981f7493604fc1137b413e523cbdf096c9bb8975ef322ce"
+  },
+  "t_0ebf9ddf729297a304ac42c9.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPlaydough/tex_-6351097788001986610.png",
+    "sha256": "0ebf9ddf729297a304ac42c971e59687ee8cebbeb27c51df8ed70bfa257cbbf4"
+  },
+  "t_181a37b159eee5a7e62beca4.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPlaydough/tex_-5285507808950527314.png",
+    "sha256": "181a37b159eee5a7e62beca474a9ecfcc5566e760f45180ec1307ca77ccadd3b"
+  },
+  "d_57bff16b441069fd3c82c5c4.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTPlaydough/tex_-7443993018962953423.png",
+    "sha256": "57bff16b441069fd3c82c5c4cf4d9d93a5016f31ed8afc513aebd45064160849"
+  },
+  "t_f9dd56c5aa38d8092d294388.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTRaceCar/tex_6189610543022139681.png",
+    "sha256": "f9dd56c5aa38d8092d294388e37156c9bccf94082f223b3fda4a542c9c62ac1a"
+  },
+  "t_fe62213d781d2df51db42941.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_1561481077606006445.png",
+    "sha256": "fe62213d781d2df51db429412d42d68dcd1e10163e5e039687c91022cfe9176f"
+  },
+  "t_336a5254d09d099cc12183f5.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTRaceCar/tex_-973428630237716764.png",
+    "sha256": "336a5254d09d099cc12183f509a35678e156db7c5c7b133d3e52e2a7c3f3537f"
+  },
+  "d_5be5d49eaf5c10f3e9d89dee.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTRaceCar/tex_-3543660082381172811.png",
+    "sha256": "5be5d49eaf5c10f3e9d89dee86d134d92ddf7ce60ae44cea0aa0d692eceb4f6c"
+  },
+  "t_cb2d8d4793bf7f08254440d9.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_-6689135225550164689.png",
+    "sha256": "cb2d8d4793bf7f08254440d9fd3485ad24c10dc29a06594633b23d083b285c06"
+  },
+  "t_2f7971ff84179d47a9bc61ae.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTRingCandy/tex_-3804928966648046861.png",
+    "sha256": "2f7971ff84179d47a9bc61aed1b6dcb30d6944dbb0fd2d082100a81ee5d543f4"
+  },
+  "t_f949a9dc14a6b846f1bf4ba2.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTRingCandy/tex_-3401606221225278310.png",
+    "sha256": "f949a9dc14a6b846f1bf4ba24d2c88c3a30dc5ce32822472cbb2fa873cdc366a"
+  },
+  "t_79b55584fa90f42337e106dd.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTRingCandy/tex_-8463825974019899075.png",
+    "sha256": "79b55584fa90f42337e106dd2e8638d5829d0252e09cda85cebc538381d10f08"
+  },
+  "t_6cf6bc510132a06d84c7c4e7.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTStickerBook/tex_6584717958892772185.png",
+    "sha256": "6cf6bc510132a06d84c7c4e7a8a44a472149a33e66b51eaa113d460ff66e2fe1"
+  },
+  "t_c82bc6ec0ce13d452e6f2b38.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTSandbag/tex_-2276178611983812176.png",
+    "sha256": "c82bc6ec0ce13d452e6f2b389ccab4b03c22d404bf093d3409a4ece9a5cc52c0"
+  },
+  "t_4a233c5cb8c335d0b838eda1.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTSandbag/tex_-1737270797731368213.png",
+    "sha256": "4a233c5cb8c335d0b838eda1019e45c2c7d3fe26ad00b465fd371c7856d42c19"
+  },
+  "t_0dc1e265b21969567f69116a.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTSmileDoll/tex_-6674667076202348853.png",
+    "sha256": "0dc1e265b21969567f69116ae66fbad8c6c52f3d5f670522123c5f9d07e4624d"
+  },
+  "t_45ede23cf8132cac2a421052.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTSmileDoll/tex_1559004863619559382.png",
+    "sha256": "45ede23cf8132cac2a421052fc745f97d0d4df7845c617f27ccbf434ac7e0e4c"
+  },
+  "d_9a6e0ed949443deb1bb25851.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTSmileDoll/tex_-1163781912959417413.png",
+    "sha256": "9a6e0ed949443deb1bb25851d10a771dd0da1f2c347dbdd7a7de9403da0b5e0c"
+  },
+  "t_ff9d9c764532d58e6183e6fd.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTStickerBook/tex_7903415434387290677.png",
+    "sha256": "ff9d9c764532d58e6183e6fd4c48b50ee51e2bc8ea13ff9c28cf1f7459aa5c2b"
+  },
+  "d_0231991a67e7957042291a01.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTStickerBook/tex_-235464227347677481.png",
+    "sha256": "0231991a67e7957042291a015661770d1009b1d7ce1511e6ba533fb1cd17eae9"
+  },
+  "t_0e3d50b4cac51adb4224f6cf.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_-2940297293892760700.png",
+    "sha256": "0e3d50b4cac51adb4224f6cfee758c58cf7d4b6ae4ec570a0a8fda7f52d2b314"
+  },
+  "t_067f17b75a2beeab907a0087.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_7143993655247716793.png",
+    "sha256": "067f17b75a2beeab907a00875c5974a2e9aca96102369f3aabb90ffa7e17884a"
+  },
+  "d_a783b0dace490ca6aec15245.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_8300263659646618848.png",
+    "sha256": "a783b0dace490ca6aec152450a1064996d951f48b1b528e19506decc82b87ceb"
+  },
+  "t_fd23c8ba0642a7abb781e177.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_5386740643253612106.png",
+    "sha256": "fd23c8ba0642a7abb781e177859e2d23b09510367cad33d0939e4a1118bb1968"
+  },
+  "t_9893c287a412b4e61c9b6143.png": {
+    "source": "references/competitor-goose/2026-10-23/models/GTWaterGame/tex_8872812945016723261.png",
+    "sha256": "9893c287a412b4e61c9b6143687d7bd881d34264a1d2d54b02b12ca9880b1f4c"
+  },
+  "t_744c0ffaec24dec40639333b.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/HamSausage1/tex_4084707508025034049.png",
+    "sha256": "744c0ffaec24dec40639333ba540fba2894ff473c8d58d17e610b408958526b2"
+  },
+  "t_041d80e4c79ae5ba1a9482db.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/HamSausage2/tex_3019183771690455511.png",
+    "sha256": "041d80e4c79ae5ba1a9482db425646e8f82f94a4c6181eea19915f3d68019768"
+  },
+  "t_83c8ec70863e636509d5cedb.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Orange/tex_4854335026670375988.png",
+    "sha256": "83c8ec70863e636509d5cedbef4e6ff1e603292011bfbfbfa5d2cdda7ffbb8b9"
+  },
+  "d_248c73fc193bd16988a60964.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Orange/tex_5385477322334193813.png",
+    "sha256": "248c73fc193bd16988a60964b85a6fced426c3e7ad580a7964d06831d6913fcd"
+  },
+  "t_86bd8d5238108d06e2c322ab.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/PepperFresh/tex_-7941703992862913547.png",
+    "sha256": "86bd8d5238108d06e2c322abd096dca201be73662836d69dd836b3c3adadfb86"
+  },
+  "d_4dacddefdb3c2b80256c8e5c.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/PepperFresh/tex_-1134548928410037921.png",
+    "sha256": "4dacddefdb3c2b80256c8e5c401cd628de60a3cc27fbf0db33b92248a223fde1"
+  },
+  "t_db8c282704db66ec46741671.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Potato/tex_2084941093979176156.png",
+    "sha256": "db8c282704db66ec467416717081f0f9f4b7156693d884b536849f2c2df61fbb"
+  },
+  "d_0cc314691b392a088939ecd7.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Potato/tex_6435209282969157128.png",
+    "sha256": "0cc314691b392a088939ecd7ea4b68379cd57b22ede3d6066036af1d4892253e"
+  },
+  "t_9fda98b22796d17c3a18f8f6.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/PotatoSkewers/tex_-1549869031239403890.png",
+    "sha256": "9fda98b22796d17c3a18f8f63b8d8a0001b826e48d3d68e18e6f0308fda6944b"
+  },
+  "t_326097f959efd6480ff118ed.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/RedShrimp/tex_4547070137822733881.png",
+    "sha256": "326097f959efd6480ff118ed288feae5157bb4f7896622e45bde8b7bcde798b3"
+  },
+  "t_3b2cc9ef6e1dc92212159c16.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/RibsBig/tex_-2124595194341417309.png",
+    "sha256": "3b2cc9ef6e1dc92212159c1624330fe65611ce9dec464fc7875db9b4501641af"
+  },
+  "d_18445bf73d84d06aad0a5dbe.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/RibsBig/tex_6867240124412236530.png",
+    "sha256": "18445bf73d84d06aad0a5dbe5ca731a180ffa9bc906a3606a66ba9e6714d48ac"
+  },
+  "t_ded998a9b0b120496eb53dea.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/RoastChicken/tex_-8987558857709541743.png",
+    "sha256": "ded998a9b0b120496eb53dea344ed071ae9f04550e1fce80eefe0f3c5f8f8a77"
+  },
+  "d_99b1b8db10aac302410b2e39.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/RoastChicken/tex_7003392572111315622.png",
+    "sha256": "99b1b8db10aac302410b2e399592dac812f7f2de46680f60fcbc4fbcc141f859"
+  },
+  "t_157917a7a44de75172a3312f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/SaltedEgg/tex_1737156557279638385.png",
+    "sha256": "157917a7a44de75172a3312f1fec3b4e295741ed82e18f9bd077db86ce522c6f"
+  },
+  "d_157917a7a44de75172a3312f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/SaltedEgg/tex_1737156557279638385.png",
+    "sha256": "157917a7a44de75172a3312f1fec3b4e295741ed82e18f9bd077db86ce522c6f"
+  },
+  "t_f95c2b5f0d4f63d3ee20e922.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Sausage/tex_-7887511756429733915.png",
+    "sha256": "f95c2b5f0d4f63d3ee20e92213b54dc2908d3b403703f9e0bbc96b96ecd7f515"
+  },
+  "d_6d5dec78f2d00c37571c2f46.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Sausage/tex_-8992654177124893053.png",
+    "sha256": "6d5dec78f2d00c37571c2f46cb870698044e9fef3fabbc985a8114edc6f8b3b5"
+  },
+  "t_ea6d56b23b9704f8447007d0.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Scallop/tex_-3131464560742744553.png",
+    "sha256": "ea6d56b23b9704f8447007d0882cc24cd52c4ed76dc319a320653ea31c0782b9"
+  },
+  "t_e3b9b82d45289a862a40ec22.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Scallop/tex_-8056750806060916452.png",
+    "sha256": "e3b9b82d45289a862a40ec22a24503cbd6c32e2d592f8f4e60cd22ea0016c8c1"
+  },
+  "t_d9dcf815c2b9071a738d1ee2.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/Shrimp/tex_4049322158631170073.png",
+    "sha256": "d9dcf815c2b9071a738d1ee21373efd3b2acd4c55532f8406f0901c9c270849f"
+  },
+  "t_6d81e9111774f3e0f3e87b7a.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/SoySauce/tex_6952941555355447436.png",
+    "sha256": "6d81e9111774f3e0f3e87b7a505c091c042361447b3b43045d75cf8165df7f4b"
+  },
+  "t_03a581666ada7f60bdaa0db4.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/SpinningTop/tex_5384502753058388229.png",
+    "sha256": "03a581666ada7f60bdaa0db46a649f0e832a69f802e7fb4e3484a393b1e31e9e"
+  },
+  "t_6814d1b3fa41cbea4574adb2.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ThermosBottle/tex_1037927908517186073.png",
+    "sha256": "6814d1b3fa41cbea4574adb205999b8245354b167e3596494be06c98fafe867e"
+  },
+  "d_d5d49933bd66f4f4a94f6cb2.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ThermosBottle/tex_-5470489802652019213.png",
+    "sha256": "d5d49933bd66f4f4a94f6cb24f4a50458177722029be004f6fb4c921bf2dc464"
+  },
+  "t_24967d9fe98cf7ccdd5998e0.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ToyCar/tex_-287486550958085129.png",
+    "sha256": "24967d9fe98cf7ccdd5998e00836e75fed3c0b8383fd6d824515e13c2f50df4c"
+  },
+  "t_e7fb8e5155c041540adf9f87.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ToyCar/tex_-2412472975970113641.png",
+    "sha256": "e7fb8e5155c041540adf9f87c7d3c2fa5cc6f492414b02d14c4ce72ce20d0e48"
+  },
+  "t_47bd355515157df3314965fa.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/ToyCar/tex_4852232148292786887.png",
+    "sha256": "47bd355515157df3314965fa854f03742b546b410476d36d08439da2f6d25791"
+  },
+  "t_b446ee63c85f0e853cc226da.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WatermelonHalf/tex_-8229752691280182192.png",
+    "sha256": "b446ee63c85f0e853cc226da898d2a98dd5c49d65be7aa02794cc1e46187223d"
+  },
+  "t_55834c91aed6e41d3f15979b.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WatermelonSlice/tex_-2044224812902787832.png",
+    "sha256": "55834c91aed6e41d3f15979b73a3827edf250ac307aacca28916597c3f8b7a8b"
+  },
+  "d_6c080e62daabb6f3f297d507.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WatermelonSlice/tex_-3275854411350840730.png",
+    "sha256": "6c080e62daabb6f3f297d50760898ee35c6270b82fce5b1e2c4352516243525c"
+  },
+  "t_916313d934cfcc1a7d30f92b.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WindOilBottle/tex_3780516301551225342.png",
+    "sha256": "916313d934cfcc1a7d30f92ba0a31fec8c5fa12b3f5c7ee034d0318821dee854"
+  },
+  "t_0221c772b704a78d4b143d18.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WindOilBottle/tex_5711493289114707789.png",
+    "sha256": "0221c772b704a78d4b143d185cad6c46cd23bd72312c2a734c6f5a76c2957570"
+  },
+  "t_79f755c7fc270dbc7aa9572f.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WindOilBottle/tex_8171240280110079537.png",
+    "sha256": "79f755c7fc270dbc7aa9572f28a1536c1b8e370713804d52fc49873dd3e4ed2c"
+  },
+  "t_b16473ae4f34bfb44e0af066.png": {
+    "source": "references/competitor-goose/2026-10-25-runtime/models/WoodHand/tex_2676660324966141739.png",
+    "sha256": "b16473ae4f34bfb44e0af06616425f9e852e3485357e8544b48180370df87fe5"
+  }
+}

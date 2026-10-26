@@ -1,0 +1,12 @@
+{
+  "id": "ref_carrot",
+  "triangles": 432,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.3930606245994568,
+    1.0,
+    0.27296537160873413
+  ],
+  "glbRoundtrip": true
+}

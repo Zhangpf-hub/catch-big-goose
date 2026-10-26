@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtpaperboat",
+  "sourceId": "GTPaperBoat",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTPaperBoat\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTPaperBoat.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "4912f3d55d8f17dd9d1381ea0ce0904fc6033e3fb7d3ecb00cfaa0665aac43eb"
+}

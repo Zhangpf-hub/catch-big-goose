@@ -1,0 +1,4 @@
+{
+  "retiredModelIds": ["basket_farm", "basket_redwood", "bowl_jade", "ref_goose_bfsteamedbread", "ref_goose_eggpancake", "ref_goose_eggplant", "ref_goose_eggtart", "ref_goose_greenpepper", "ref_goose_milletcake", "ref_goose_pancake", "ref_goose_potato", "rock", "scene_barbecue", "scene_countryside", "shiba", "tray_electronics"],
+  "retiredPaths": ["Assets/Resources/Mascots/ShibaHome.prefab", "Assets/Mascots/Shiba", "Assets/Mascots/Giraffe", "Assets/retired-mascots", "Assets/Resources/Audio/honk.wav", "Assets/Editor/GooseWeChatLegacyResources.cs"]
+}

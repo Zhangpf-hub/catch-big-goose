@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "Banana",
+      "sourceTriangles": 288,
+      "exportedTriangles": 288,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "GlassCola",
+      "sourceTriangles": 1318,
+      "exportedTriangles": 1318,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true
+    },
+    {
+      "id": "WahahaMilk",
+      "sourceTriangles": 1326,
+      "exportedTriangles": 1326,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "BeanPaste",
+      "sourceTriangles": 1506,
+      "exportedTriangles": 1506,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "CookingWine",
+      "sourceTriangles": 1498,
+      "exportedTriangles": 1498,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "DishSoap",
+      "sourceTriangles": 742,
+      "exportedTriangles": 742,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Egg2",
+      "sourceTriangles": 180,
+      "exportedTriangles": 180,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "GlassOrgan",
+      "sourceTriangles": 1318,
+      "exportedTriangles": 1318,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true
+    },
+    {
+      "id": "InstantNoodles2",
+      "sourceTriangles": 703,
+      "exportedTriangles": 703,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true
+    },
+    {
+      "id": "MosquitoCoil",
+      "sourceTriangles": 982,
+      "exportedTriangles": 982,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "SpicyStrips",
+      "sourceTriangles": 1200,
+      "exportedTriangles": 1200,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 4,
+      "uvPreserved": true
+    }
+  ]
+}

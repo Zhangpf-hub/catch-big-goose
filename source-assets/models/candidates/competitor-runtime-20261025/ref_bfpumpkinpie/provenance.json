@@ -1,0 +1,9 @@
+{
+  "id": "ref_bfpumpkinpie",
+  "sourceId": "BFPumpkinPie",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFPumpkinPie\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFPumpkinPie.prefab",
+  "bundle": "levelbreakfastobjprefab_assets_part1_3cdb7bf9e295314f501ccfc21ef41cbf.bundle",
+  "sourceSha256": "87ed3c7817a6de628ef2992de3f023adb84b576d79ef570fff92f6e67f2b1504"
+}

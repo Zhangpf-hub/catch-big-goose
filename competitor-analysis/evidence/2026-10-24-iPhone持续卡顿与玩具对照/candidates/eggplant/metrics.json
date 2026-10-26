@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "eggplant",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\eggplant\\eggplant.fbx",
+  "sourceTriangles": 1016,
+  "triangles": 1016,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.46509313583374023,
+    0.43301790952682495,
+    1.0
+  ],
+  "normalizedDimensions": [
+    0.46509313583374023,
+    0.433017760515213,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

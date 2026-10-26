@@ -1,0 +1,9 @@
+{
+  "id": "ref_garlic",
+  "sourceId": "Garlic",
+  "scene": "GroceryStore",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Garlic\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/GroceryStore/Garlic.prefab",
+  "bundle": "levelgrocerystoreobjprefab_assets_part1_c5ae02dc8706f065a89b9c5e485787bc.bundle",
+  "sourceSha256": "e3875a3999bc5cff9548f61424c76e1caa5f480b1565395e0f4e44b8a6cad043"
+}

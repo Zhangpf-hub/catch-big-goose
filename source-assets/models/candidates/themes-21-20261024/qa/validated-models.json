@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "kiwi",
+    "bytes": 28920,
+    "triangles": 1172,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.37638887763023376,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "97a2e1e657d280634ca8e5dfdedf6da3112796f95e019fe7cbb7483cb689f013",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 64,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "mango",
+    "bytes": 18360,
+    "triangles": 740,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.6041665077209473,
+      1,
+      0.4999999403953552
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "d0f58488e82ef64da62cc89fb00e9c978a385ec0c8aab525b8f261ff2a502ee3",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 118,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "peach",
+    "bytes": 24216,
+    "triangles": 976,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8974361419677734,
+      1,
+      0.7935444116592407
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "c8c1d3898ebcca7cb596fc8f0a2abe5b195d1910fead07b72dc4989e9f4b41a0",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 137,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "pineapple",
+    "bytes": 73152,
+    "triangles": 3052,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.6139498353004456,
+      1,
+      0.6139498353004456
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "b6431cc2891493001d648d387d48359eeeb53872f2cf22e112421cef601ac63d",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 136,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "watermelon",
+    "bytes": 56180,
+    "triangles": 2272,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.6942275762557983,
+      1,
+      0.640101969242096
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "8aba2f9947807e7e72fb32ec0a5068337eaf59aa70e96b38135ae4dac6e09aab",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 142,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "avocado",
+    "bytes": 32988,
+    "triangles": 1396,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.6593408584594727,
+      0.9999999403953552,
+      0.5934064984321594
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "94db277ad4d068b0d5b3d23caf3b9c0eddf30bddafee65f81997584357431435",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 140,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "blueberry",
+    "bytes": 59232,
+    "triangles": 2516,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.7012048363685608,
+      0.7349397540092468
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "aaefb4e952aa7b2cc5dbdadaac64ddda09b4eaf71d37149558d270f32fec5aa8",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 125,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "coconut",
+    "bytes": 47164,
+    "triangles": 1908,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9279260635375977,
+      1,
+      0.8596591353416443
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "c3b6e7301c9889e8f54bdd08f802606c8393226a8f6c797eb0f92dfbff1fc366",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 139,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "dragonfruit",
+    "bytes": 56536,
+    "triangles": 2420,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.705660879611969,
+      1,
+      0.709865927696228
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "e46b9e28eff2be7d0fbb11f9fa9e8c71c6130623b4c1afafa1c73770430607f5",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 139,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "pomegranate",
+    "bytes": 23056,
+    "triangles": 932,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.7640446424484253,
+      0.9999999403953552,
+      0.7415729761123657
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "f3c19480523ab2ea79c380d7b45b8efddcdb720dd30d61ab91d8818b37ab4949",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 144,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadecarp",
+    "bytes": 29244,
+    "triangles": 1224,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.6338889598846436,
+      0.38640081882476807
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "1b497ed87c298743a86e647490e516775af6a55bfee338a084dfca0b16fdac82",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 121,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadepeanut",
+    "bytes": 32588,
+    "triangles": 1280,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.47516193985939026,
+      0.4362850487232208
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "6da4e46af87c9ea6d31afb721d5858bf06638fe714e6e0665032c98eefe1274c",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 123,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadevase",
+    "bytes": 29308,
+    "triangles": 1240,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.6807511448860168,
+      1,
+      0.6807511448860168
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "0de4791dbea16a4691f1573059f37e86143e51cd7f60f737f5514acfe33c764f",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 73,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "persimmon",
+    "bytes": 34868,
+    "triangles": 1468,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9999998807907104,
+      0.9477611184120178,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "2d6a3c9bed76a28c09131b8e3a9d629a519f66411614637375b23b874543f937",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 147,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "starfruit",
+    "bytes": 8788,
+    "triangles": 176,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9533717632293701,
+      0.8904215693473816,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "e734c9b3a1355ed1ce4a98ea8a8aba57e64f3714bf0064c05eaec6d25f366e89",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 22,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "goldchime",
+    "bytes": 37744,
+    "triangles": 1596,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.7831324338912964,
+      1,
+      0.7831324338912964
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "b42f90a783c2e5cd72706ced8ed303d6f90c5377ee5d30c722d477508f771d30",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 66,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "goldring",
+    "bytes": 15492,
+    "triangles": 612,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8496732115745544,
+      1,
+      0.2352941334247589
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "af4135c2a6c3d4466b0ff86c3e847796b69d540664aab266a178f6554e4f8b86",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 76,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadechime",
+    "bytes": 16796,
+    "triangles": 644,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.6031709909439087,
+      0.22306093573570251
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "6d40a379136bd84f5bf13b1ee0ca50a8156c770f0adc2f6a2b3d80b75db69513",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 68,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadetalisman",
+    "bytes": 20204,
+    "triangles": 816,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.5889570713043213,
+      0.9999999403953552,
+      0.20674848556518555
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "37a2be12f63cffaae55777af8b931b1562149887514cc6e8da1c9f39830fdb78",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 49,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadetiger",
+    "bytes": 49364,
+    "triangles": 2016,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.6689885854721069,
+      0.4160097539424896
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "45f251887ec8f81ad7e2a1f1b35c27b6606d2e6dbca4df476f1b04d96864c25f",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 94,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadebeads",
+    "bytes": 60684,
+    "triangles": 2624,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8435138463973999,
+      0.26581934094429016,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "1cc3b1212eb687fe2fbd1ef2c9a8751f0c46149e0e641078fe4b4820240ec40d",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 38,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadeleaf",
+    "bytes": 24728,
+    "triangles": 900,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.47904205322265625,
+      1,
+      0.22514723241329193
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "260d36732310dc2ba4908e69e948e51455aa74aca518ea0f37b03663162a4bf2",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 91,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadelock",
+    "bytes": 27024,
+    "triangles": 1128,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.7631579041481018,
+      0.25723686814308167
+    ],
+    "center": [
+      0,
+      -2.9802322387695312e-08,
+      0
+    ],
+    "sha256": "0dc0e6ef47c1fc247468f8366d929b3d4970e8fab6044496bf41f643c9a63ca9",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 76,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "jadeteapot",
+    "bytes": 41252,
+    "triangles": 1752,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.5682005286216736,
+      0.4667360484600067
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "6b80db97cec36fcb4eab0d1315f14ae6a5a11e45c768994d34716f948051c116",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 143,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "tomato",
+    "bytes": 29256,
+    "triangles": 1220,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9350646734237671,
+      0.9999999403953552,
+      0.9090908169746399
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "b6031e9ef3081ae3f39210012091666da21e3a68174a78352f296a6dff139f61",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 138,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "bellpepper",
+    "bytes": 27436,
+    "triangles": 1124,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.7209638357162476,
+      1,
+      0.6879356503486633
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "715f2f45fba1119748b55628479163098013826d33b240f47ca8ef949549564d",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 136,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "broccoli",
+    "bytes": 46260,
+    "triangles": 1828,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8446629643440247,
+      1,
+      0.9069766998291016
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "ef618f9d5bb374653da8e7ed2bd36f1c1521f7409fd5da207f856f6f4b7708d7",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 130,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "cabbage",
+    "bytes": 39764,
+    "triangles": 1692,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.7603652477264404,
+      1,
+      0.810126543045044
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "d6b9037f4837b91e1598a6b702a957e515e3f08fcc28f9ad28e0f974def456c6",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 147,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "cucumber",
+    "bytes": 35700,
+    "triangles": 1316,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.3510472774505615,
+      1,
+      0.31666669249534607
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "da0076e5427452790890e767b87142d61c00f172b9a12f565f8c7d87312a3112",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 117,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "potato",
+    "bytes": 20896,
+    "triangles": 848,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.6744188666343689,
+      0.6654370427131653
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "2170430b3a9ddbe6f0f03dbea89e67312835865e6eed1b6b4641561258e86bc1",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 122,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "egg",
+    "bytes": 21996,
+    "triangles": 912,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.5875000357627869,
+      1,
+      0.5875000357627869
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "952f2713f9d49dcdedaa91123360f0b9559417f97020df0257685a04ad7adfb3",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 122,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "garlic",
+    "bytes": 37532,
+    "triangles": 1592,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.7712467312812805,
+      1,
+      0.8244274854660034
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "6260585de4b90bbf1d23f7e747518f8285c471a029abc80189cbd018201a7fe3",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 133,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "onion",
+    "bytes": 28300,
+    "triangles": 1004,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8734458088874817,
+      0.9999999403953552,
+      0.8824587464332581
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "58b083adc16ca59d8c3d008b041ebaf8026d0f60b785096b1671eb07db749221",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 92,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "radish",
+    "bytes": 22832,
+    "triangles": 928,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.5931320190429688,
+      1,
+      0.5641021132469177
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "cc13ac6015fc37abf1a81412568aa6d75f2a3d50c8f9862b47e2ee4fcc43cce2",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 66,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "wateringcan",
+    "bytes": 24524,
+    "triangles": 992,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.6870980262756348,
+      0.4842246174812317
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "9e2e54e9a680cebf29c672ed5245a05babbddd7cc2d922b961751825eb3c4bc7",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 84,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "chocolate",
+    "bytes": 21604,
+    "triangles": 864,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.7720658779144287,
+      0.27203428745269775,
+      0.9999999403953552
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "61dcd11c0df76fff3a1374f657dfdeec87a8db9550487f9468baf5910a5d2335",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 42,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "lollipop",
+    "bytes": 37548,
+    "triangles": 1588,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.5714285969734192,
+      1,
+      0.16224491596221924
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "6ed8535fbdab7eb8e38766956bb31aa844c731e66c53ec52c250efd05e56fe7b",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 85,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "popsicle",
+    "bytes": 16640,
+    "triangles": 648,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.4475138187408447,
+      0.9999999403953552,
+      0.2215469479560852
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "aa8bcd14fb16152177edca5be576a3247bb1bee9449a06729ea13fa3c59434eb",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 62,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "shovel",
+    "bytes": 18024,
+    "triangles": 724,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.41818180680274963,
+      1,
+      0.11363635957241058
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "e6886fb70d1224ce3a58167173f99560f64f8a6ff8d81493050223d4436f6681",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 46,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "wafer",
+    "bytes": 31372,
+    "triangles": 1296,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.5084615349769592,
+      0.7538461685180664
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "dcd11e692a80f67167bee28a414a4ce8ae4b353f60d626dec9e5307db945592f",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 24,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "eggtart",
+    "bytes": 36912,
+    "triangles": 1528,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9938895106315613,
+      0.4011113941669464,
+      0.9999999403953552
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "8735912ea21a942951f5511f0278c6d12b481bcb57a04a00f12d429b34754152",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 61,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "pancake",
+    "bytes": 25384,
+    "triangles": 1056,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.6544117331504822,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "b6e05007aeb67685c65ea1e07bd6d6a296f7a313c2a22b623b77b243843a10c8",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 85,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "pretzel",
+    "bytes": 16428,
+    "triangles": 620,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.927264928817749,
+      0.29423782229423523
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "deb7bf3c2fd725c67d461e3643c00f614cfc992ea0778a11a7866a0d5cc6f858",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 56,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "swissroll",
+    "bytes": 40728,
+    "triangles": 1732,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9797297120094299,
+      0.9797297120094299,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "c5133d6c0979b397b61d16d6192afcd711da53aaca2808df6d5bbc22701a047b",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 46,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "toast",
+    "bytes": 16772,
+    "triangles": 664,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8226949572563171,
+      1,
+      0.304964542388916
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "70bf1e2d665c17f0801eefdbbe4bed61c35007ae6ea39542e59bb9c460d3cda4",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 63,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "dumpling",
+    "bytes": 38708,
+    "triangles": 1452,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.8868334293365479,
+      0.9677421450614929
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "9cdacb424d675542116553f32ede0c01f29b5fce009489edaa006416d44b397c",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 125,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "keyboard",
+    "bytes": 31920,
+    "triangles": 1272,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.18617020547389984,
+      0.5319148898124695
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "c67530de6d1c52b8e80db8b4a12cb2b5e9882e07ae3d167c9f6c2788be982030",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 53,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "mooncake",
+    "bytes": 46520,
+    "triangles": 1960,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9951117634773254,
+      0.40955692529678345,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "9d45f80087ae1308ec3c1ebf141764fdbcaec610b139ad435435c85000316173",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 54,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "tablet",
+    "bytes": 18340,
+    "triangles": 728,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.7819148898124695,
+      1,
+      0.18936170637607574
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "679cdbc92554318611d95571144615bed06fcaa33ca22ad3a76560e802398bd2",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 18,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "teacup",
+    "bytes": 23636,
+    "triangles": 976,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.530964732170105,
+      1,
+      0.530964732170105
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "630cfcdd8d8cfe1338eaf831e3bd4761f62fc33abe44e98639ae098d5387dd45",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 54,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "monitor",
+    "bytes": 16572,
+    "triangles": 648,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.9204545617103577,
+      0.3636363446712494
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "d160094dd782b21f4baafc2ca4d03b9cb27f00fc3db17e8b20eb353509bd0267",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 40,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "printer",
+    "bytes": 18348,
+    "triangles": 724,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8628263473510742,
+      0.5895724296569824,
+      1
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "2cbbd50052cd9cbcc62041aea09cdd8a930bd98a3f81c2d498fe53819431b1e4",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 27,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "router",
+    "bytes": 24600,
+    "triangles": 996,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9302328824996948,
+      1.0000000596046448,
+      0.663724958896637
+    ],
+    "center": [
+      0,
+      -2.9802322387695312e-08,
+      0
+    ],
+    "sha256": "50104923a1dc6b00ff22cf4c4bb21024478a2f240e3f1f7e0262e3ca53769aa3",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 34,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "television",
+    "bytes": 22592,
+    "triangles": 916,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.9999999403953552,
+      0.8294116854667664,
+      0.3911764323711395
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "ac09f2743554be99585e537935641802319d74975114083f8d1d6e67dadc8732",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 29,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "usbdrive",
+    "bytes": 20164,
+    "triangles": 816,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.32608699798583984,
+      1,
+      0.16304349899291992
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "6b7503266ffea85dc5d315636b2aba51c51f5a595669a47ea97630151732838d",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 42,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "alarmclock",
+    "bytes": 61196,
+    "triangles": 2596,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.8608618974685669,
+      1,
+      0.31052520871162415
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "40bd1177ced6d48fe86be113b37c85749967e6628ccdf009310472dbb5abbe9a",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 82,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "flashlight",
+    "bytes": 43412,
+    "triangles": 1872,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.5647059082984924,
+      1,
+      0.5647059082984924
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "233b665642046280df80f6845b59a3edf35e0a2e27307cf7c1ca118b2c72a529",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 122,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "gamepad",
+    "bytes": 44904,
+    "triangles": 1916,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      1,
+      0.4889828562736511,
+      0.27912038564682007
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "6539b01e6b61ca536ae5e5ddda50bc93cd658823904b2eb086f569aea8dc16c1",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 53,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "microphone",
+    "bytes": 48264,
+    "triangles": 2092,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.4596205949783325,
+      1,
+      0.4596205949783325
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "3fb873c08d31177bda035d90c233e407dee78e8754ef259425dc069e7049d2e0",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 91,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  },
+  {
+    "id": "powerbank",
+    "bytes": 21524,
+    "triangles": 864,
+    "materials": 1,
+    "primitives": 1,
+    "size": [
+      0.5308641791343689,
+      1,
+      0.2925925850868225
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "sha256": "4ff95fb2e6ca1fb8af421d1e241df4cc94f3e87f239998d8f9a2f1f4ded25362",
+    "validatorErrors": 0,
+    "validatorWarnings": 0,
+    "hullPoints": 36,
+    "convexHullPassed": true,
+    "sleepingAfter15s": 9
+  }
+]

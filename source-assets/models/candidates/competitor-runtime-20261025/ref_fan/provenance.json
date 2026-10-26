@@ -1,0 +1,9 @@
+{
+  "id": "ref_fan",
+  "sourceId": "Fan",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Fan\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Fan.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "4a1c6ac761e97383cd90853d13775dd09d296116851d5136f6b4183a89281710"
+}

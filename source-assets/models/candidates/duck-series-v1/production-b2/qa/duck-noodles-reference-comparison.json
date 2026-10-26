@@ -1,0 +1,53 @@
+{
+  "id": "duck-noodles",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Noodles/Goose_Noodles.glb",
+  "sourceSha256": "80d587252e70c4b410b20158538d8435c1cae649ac54dc7b9da641d62f1adf58",
+  "originalWorldDimensions": [
+    2.1612095832824707,
+    2.820188045501709,
+    1.9088070392608643
+  ],
+  "uniformScale": 0.35458628427101957,
+  "normalizedWorldDimensions": [
+    0.7663352489471436,
+    0.9999999403953552,
+    0.6768367886543274
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

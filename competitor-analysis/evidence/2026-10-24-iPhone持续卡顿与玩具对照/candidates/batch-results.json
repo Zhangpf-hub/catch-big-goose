@@ -1,0 +1,1322 @@
+[
+  {
+    "pipelineVersion": 5,
+    "id": "apple",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\apple\\apple.fbx",
+    "sourceTriangles": 2516,
+    "triangles": 2516,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9542438387870789,
+      0.8807795643806458,
+      1.0
+    ],
+    "normalizedDimensions": [
+      0.9542438387870789,
+      0.8807793855667114,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "banana",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banana\\banana.fbx",
+    "sourceTriangles": 1568,
+    "triangles": 1568,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9999999403953552,
+      0.4441509544849396,
+      0.1783411204814911
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.44415098428726196,
+      0.1783410757780075
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "grape",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\grape\\grape.fbx",
+    "sourceTriangles": 1740,
+    "triangles": 1740,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.5331078171730042,
+      0.5181224346160889,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.5331078171730042,
+      0.5181221961975098,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "orange",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\orange\\orange.fbx",
+    "sourceTriangles": 1300,
+    "triangles": 1300,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9934398531913757,
+      0.9737626314163208,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.9934398531913757,
+      0.9737625122070312,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "strawberry",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\strawberry\\strawberry.fbx",
+    "sourceTriangles": 1384,
+    "triangles": 1384,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.5790956616401672,
+      0.5414532423019409,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.5790956616401672,
+      0.5414530634880066,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "lemon",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lemon\\lemon.fbx",
+    "sourceTriangles": 900,
+    "triangles": 900,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.5631330013275146,
+      0.5631327629089355
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.5631328821182251,
+      0.563132643699646
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "pear",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pear\\pear.fbx",
+    "sourceTriangles": 1308,
+    "triangles": 1308,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.6793976426124573,
+      0.6793978810310364,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.6793976426124573,
+      0.679397702217102,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "cherry",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cherry\\cherry.fbx",
+    "sourceTriangles": 1264,
+    "triangles": 1264,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.5956956148147583,
+      0.9000227451324463
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.5956954956054688,
+      0.9000226259231567
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "basket_redwood",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_redwood\\basket_redwood.fbx",
+    "sourceTriangles": 8348,
+    "triangles": 8348,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      1.0,
+      0.33850014209747314
+    ],
+    "normalizedDimensions": [
+      1.0,
+      1.0,
+      0.33850014209747314
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "tongqian",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tongqian\\tongqian.fbx",
+    "sourceTriangles": 3636,
+    "triangles": 3636,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      1.0,
+      0.12000015377998352
+    ],
+    "normalizedDimensions": [
+      1.0,
+      1.0,
+      0.12000013887882233
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "bracelet",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bracelet\\bracelet.fbx",
+    "sourceTriangles": 2940,
+    "triangles": 2940,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.7816616296768188,
+      1.0,
+      0.17559868097305298
+    ],
+    "normalizedDimensions": [
+      0.7816616296768188,
+      1.0,
+      0.17559856176376343
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "baoshi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\baoshi\\baoshi.fbx",
+    "sourceTriangles": 1292,
+    "triangles": 1292,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      1.0,
+      0.4247038662433624
+    ],
+    "normalizedDimensions": [
+      1.0,
+      1.0,
+      0.42470377683639526
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "hulu",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\hulu\\hulu.fbx",
+    "sourceTriangles": 3776,
+    "triangles": 3776,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.6757742762565613,
+      0.6757742762565613,
+      1.0
+    ],
+    "normalizedDimensions": [
+      0.6757742762565613,
+      0.6757742762565613,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "yuzhuo",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuzhuo\\yuzhuo.fbx",
+    "sourceTriangles": 2784,
+    "triangles": 2784,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      1.0,
+      0.26961609721183777
+    ],
+    "normalizedDimensions": [
+      1.0,
+      1.0,
+      0.2696160674095154
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "banzhi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banzhi\\banzhi.fbx",
+    "sourceTriangles": 1472,
+    "triangles": 1472,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.995526909828186,
+      1.0000001192092896,
+      0.7614694833755493
+    ],
+    "normalizedDimensions": [
+      0.995526909828186,
+      1.0,
+      0.7614693641662598
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "yuxi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuxi\\yuxi.fbx",
+    "sourceTriangles": 19904,
+    "triangles": 3144,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.4328869581222534,
+      0.4328869581222534,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.43218791484832764,
+      0.43218791484832764,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "ruyi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\ruyi\\ruyi.fbx",
+    "sourceTriangles": 5428,
+    "triangles": 3989,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9999999403953552,
+      0.6116795539855957,
+      0.1454261839389801
+    ],
+    "normalizedDimensions": [
+      0.9999999403953552,
+      0.6115489602088928,
+      0.14547407627105713
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "bowl_jade",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bowl_jade\\bowl_jade.fbx",
+    "sourceTriangles": 3498,
+    "triangles": 3498,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.99578857421875,
+      0.9983521103858948,
+      0.4438478350639343
+    ],
+    "normalizedDimensions": [
+      0.997432291507721,
+      1.0,
+      0.4445802569389343
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "carrot",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\carrot\\carrot.fbx",
+    "sourceTriangles": 3688,
+    "triangles": 3688,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.3062833249568939,
+      0.29947981238365173,
+      1.0
+    ],
+    "normalizedDimensions": [
+      0.3062833249568939,
+      0.29947972297668457,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "corn",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\corn\\corn.fbx",
+    "sourceTriangles": 6576,
+    "triangles": 2994,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.6061517000198364,
+      0.616122841835022,
+      1.0
+    ],
+    "normalizedDimensions": [
+      0.6043074727058411,
+      0.6154220104217529,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "eggplant",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\eggplant\\eggplant.fbx",
+    "sourceTriangles": 1016,
+    "triangles": 1016,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.46509313583374023,
+      0.43301790952682495,
+      1.0
+    ],
+    "normalizedDimensions": [
+      0.46509313583374023,
+      0.433017760515213,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "frog",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\frog\\frog.fbx",
+    "sourceTriangles": 8128,
+    "triangles": 3000,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.8836949467658997,
+      0.6723647117614746,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.8742377161979675,
+      0.6647515892982483,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "pumpkin",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pumpkin\\pumpkin.fbx",
+    "sourceTriangles": 3196,
+    "triangles": 3196,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.8717125654220581,
+      0.8805032968521118,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.8717125654220581,
+      0.8805030584335327,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "mushroom",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\mushroom\\mushroom.fbx",
+    "sourceTriangles": 1516,
+    "triangles": 1516,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9999997615814209,
+      1.0000001192092896,
+      0.9862045645713806
+    ],
+    "normalizedDimensions": [
+      0.9999997615814209,
+      1.0,
+      0.9862043857574463
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "koi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\koi\\koi.fbx",
+    "sourceTriangles": 2024,
+    "triangles": 2024,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.4767042100429535,
+      0.385049432516098
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.4767041504383087,
+      0.38504934310913086
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "lotus",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lotus\\lotus.fbx",
+    "sourceTriangles": 3892,
+    "triangles": 3892,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.974099338054657,
+      0.4266367256641388
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.9740992784500122,
+      0.42663657665252686
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "duck",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\duck\\duck.fbx",
+    "sourceTriangles": 5860,
+    "triangles": 3999,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.7258061170578003,
+      0.7439635992050171,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.7258061170578003,
+      0.7433931827545166,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "basket_farm",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_farm\\basket_farm.fbx",
+    "sourceTriangles": 25000,
+    "triangles": 25000,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.9887726306915283,
+      0.18833211064338684
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.9887726306915283,
+      0.18833202123641968
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "cupcake",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cupcake\\cupcake.fbx",
+    "sourceTriangles": 5951,
+    "triangles": 3999,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.20758900046348572,
+      0.19244709610939026,
+      0.2865380644798279
+    ],
+    "normalizedDimensions": [
+      0.7206906080245972,
+      0.6711074113845825,
+      0.9999999403953552
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "donut",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\donut\\donut.fbx",
+    "sourceTriangles": 1200,
+    "triangles": 1200,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      1.0000001192092896,
+      0.37577149271965027
+    ],
+    "normalizedDimensions": [
+      1.0,
+      1.0,
+      0.3757714629173279
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "icecream",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\icecream\\icecream.fbx",
+    "sourceTriangles": 4016,
+    "triangles": 4000,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.6376820802688599,
+      0.4442824423313141,
+      1.0
+    ],
+    "normalizedDimensions": [
+      0.6376821398735046,
+      0.4442823529243469,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "macaron",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\macaron\\macaron.fbx",
+    "sourceTriangles": 2652,
+    "triangles": 2652,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9597506523132324,
+      0.741515576839447,
+      1.0000001192092896
+    ],
+    "normalizedDimensions": [
+      0.9597506523132324,
+      0.7415155172348022,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "cookie",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cookie\\cookie.fbx",
+    "sourceTriangles": 1388,
+    "triangles": 1388,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9898214936256409,
+      0.21112369000911713,
+      1.0
+    ],
+    "normalizedDimensions": [
+      0.9898214936256409,
+      0.21112364530563354,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "cake_slice",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cake_slice\\cake_slice.fbx",
+    "sourceTriangles": 1772,
+    "triangles": 1772,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.765680730342865,
+      0.7797340154647827
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.7656806111335754,
+      0.7797339558601379
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "candy",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\candy\\candy.fbx",
+    "sourceTriangles": 416,
+    "triangles": 416,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.4531250596046448,
+      0.447916716337204
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.453125,
+      0.4479166567325592
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "pudding",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pudding\\pudding.fbx",
+    "sourceTriangles": 1780,
+    "triangles": 1780,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.8250001072883606,
+      0.8250002861022949,
+      1.000000238418579
+    ],
+    "normalizedDimensions": [
+      0.824999988079071,
+      0.824999988079071,
+      1.0
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "croissant",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\croissant\\croissant.fbx",
+    "sourceTriangles": 4068,
+    "triangles": 4000,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      0.6318615078926086,
+      0.3943491280078888
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.6318614482879639,
+      0.39434903860092163
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "tray_dessert",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_dessert\\tray_dessert.fbx",
+    "sourceTriangles": 4000,
+    "triangles": 4000,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.9993276596069336,
+      1.0,
+      0.2996876835823059
+    ],
+    "normalizedDimensions": [
+      0.9993276596069336,
+      1.0,
+      0.2996875047683716
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 5,
+    "id": "tray_electronics",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_electronics\\tray_electronics.fbx",
+    "sourceTriangles": 1520,
+    "triangles": 1520,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0,
+      1.0,
+      0.2727501392364502
+    ],
+    "normalizedDimensions": [
+      1.0,
+      1.0,
+      0.2727501392364502
+    ],
+    "reference": false,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtcrocodile",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTCrocodile\\GTCrocodile.blend",
+    "sourceTriangles": 1986,
+    "triangles": 1986,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      2.2671422958374023,
+      1.851438045501709,
+      2.4753522872924805
+    ],
+    "normalizedDimensions": [
+      0.9158867597579956,
+      0.7479493021965027,
+      1.0
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtdinosaur",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTDinosaur\\GTDinosaur.blend",
+    "sourceTriangles": 1996,
+    "triangles": 1996,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.8626827001571655,
+      1.2132809162139893,
+      1.3736162185668945
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.6513621211051941,
+      0.737439751625061
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtdrawingboard",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTDrawingBoard\\GTDrawingBoard.blend",
+    "sourceTriangles": 712,
+    "triangles": 712,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.3553584814071655,
+      2.292008399963379,
+      0.5503233075141907
+    ],
+    "normalizedDimensions": [
+      0.591340959072113,
+      1.0,
+      0.2401052713394165
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtfruiteraser",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTFruitEraser\\GTFruitEraser.blend",
+    "sourceTriangles": 348,
+    "triangles": 348,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.5803378820419312,
+      0.6391259431838989,
+      0.43817514181137085
+    ],
+    "normalizedDimensions": [
+      0.9080179929733276,
+      1.0,
+      0.6855849623680115
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtgoosestamp",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTGooseStamp\\GTGooseStamp.blend",
+    "sourceTriangles": 1024,
+    "triangles": 1024,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.6451079845428467,
+      1.2208592891693115,
+      1.0478332042694092
+    ],
+    "normalizedDimensions": [
+      0.5284048318862915,
+      1.0,
+      0.8582751154899597
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtkaleidoscope",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTKaleidoscope\\GTKaleidoscope.blend",
+    "sourceTriangles": 920,
+    "triangles": 920,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.7791422605514526,
+      2.672835350036621,
+      2.177313804626465
+    ],
+    "normalizedDimensions": [
+      0.29150402545928955,
+      1.0,
+      0.8146082758903503
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtlaserpen",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTLaserPen\\GTLaserPen.blend",
+    "sourceTriangles": 904,
+    "triangles": 904,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.3083149194717407,
+      1.537700891494751,
+      0.3625029921531677
+    ],
+    "normalizedDimensions": [
+      0.20050384104251862,
+      1.0,
+      0.23574350774288177
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtmagiccubel",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTMagicCubeL\\GTMagicCubeL.blend",
+    "sourceTriangles": 1196,
+    "triangles": 1196,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.3300375938415527,
+      1.470726728439331,
+      1.6162209510803223
+    ],
+    "normalizedDimensions": [
+      0.8229305148124695,
+      0.9099787473678589,
+      1.0
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtpaperboat",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperBoat\\GTPaperBoat.blend",
+    "sourceTriangles": 380,
+    "triangles": 380,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      2.403364419937134,
+      0.8238071799278259,
+      0.8438348770141602
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.3427724838256836,
+      0.3511056900024414
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtpaperfortune",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperFortune\\GTPaperFortune.blend",
+    "sourceTriangles": 280,
+    "triangles": 280,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.286669373512268,
+      1.1290040016174316,
+      0.9144158363342285
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.8774624466896057,
+      0.7106844186782837
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtpaperstar",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperStar\\GTPaperStar.blend",
+    "sourceTriangles": 126,
+    "triangles": 126,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.6973447799682617,
+      0.6662572622299194,
+      0.3814559876918793
+    ],
+    "normalizedDimensions": [
+      1.0,
+      0.9554201364517212,
+      0.5470120310783386
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtpapertree",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperTree\\GTPaperTree.blend",
+    "sourceTriangles": 1728,
+    "triangles": 1728,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.2753212451934814,
+      1.7333378791809082,
+      1.4395699501037598
+    ],
+    "normalizedDimensions": [
+      0.7357603311538696,
+      1.0,
+      0.8305189609527588
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtplanepen",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlanePen\\GTPlanePen.blend",
+    "sourceTriangles": 2336,
+    "triangles": 2336,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.2631586790084839,
+      2.2800865173339844,
+      0.8820669054985046
+    ],
+    "normalizedDimensions": [
+      0.5539959669113159,
+      1.0,
+      0.3868567645549774
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtplasterdeer",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlasterDeer\\GTPlasterDeer.blend",
+    "sourceTriangles": 1990,
+    "triangles": 1990,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      2.326106071472168,
+      2.808579683303833,
+      2.33038067817688
+    ],
+    "normalizedDimensions": [
+      0.8282144069671631,
+      1.0,
+      0.8297363519668579
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtplaydough",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlaydough\\GTPlaydough.blend",
+    "sourceTriangles": 2472,
+    "triangles": 2472,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.995626449584961,
+      2.145021438598633,
+      2.1613893508911133
+    ],
+    "normalizedDimensions": [
+      0.9233072400093079,
+      0.9924271702766418,
+      1.0
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtracecar",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRaceCar\\GTRaceCar.blend",
+    "sourceTriangles": 1988,
+    "triangles": 1988,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.6946146488189697,
+      2.438849925994873,
+      1.0412075519561768
+    ],
+    "normalizedDimensions": [
+      0.6948416829109192,
+      1.0,
+      0.4269256293773651
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtringcandy",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRingCandy\\GTRingCandy.blend",
+    "sourceTriangles": 948,
+    "triangles": 948,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      0.7291674613952637,
+      0.8123868703842163,
+      0.7814958095550537
+    ],
+    "normalizedDimensions": [
+      0.89756178855896,
+      0.9999999403953552,
+      0.9619749188423157
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtsandbag",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTSandbag\\GTSandbag.blend",
+    "sourceTriangles": 1256,
+    "triangles": 1256,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.502643346786499,
+      1.6482231616973877,
+      1.7350808382034302
+    ],
+    "normalizedDimensions": [
+      0.8660365343093872,
+      0.9499403238296509,
+      1.0
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtsmiledoll",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTSmileDoll\\GTSmileDoll.blend",
+    "sourceTriangles": 1680,
+    "triangles": 1680,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.0939593315124512,
+      1.273275375366211,
+      0.5909023880958557
+    ],
+    "normalizedDimensions": [
+      0.8591694831848145,
+      1.0,
+      0.4640806019306183
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtstickerbook",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTStickerBook\\GTStickerBook.blend",
+    "sourceTriangles": 1932,
+    "triangles": 1932,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      1.7148172855377197,
+      2.6769585609436035,
+      0.8195301294326782
+    ],
+    "normalizedDimensions": [
+      0.6405841708183289,
+      0.9999999403953552,
+      0.30614224076271057
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  },
+  {
+    "pipelineVersion": 6,
+    "id": "ref_gtwatergame",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTWaterGame\\GTWaterGame.blend",
+    "sourceTriangles": 1918,
+    "triangles": 1918,
+    "renderers": 1,
+    "materials": 1,
+    "sourceDimensions": [
+      3.198320150375366,
+      1.5686817169189453,
+      0.5920699238777161
+    ],
+    "normalizedDimensions": [
+      0.9999999403953552,
+      0.4904704988002777,
+      0.18511901795864105
+    ],
+    "reference": true,
+    "textureSize": 512,
+    "collisionTriangles": null
+  }
+]

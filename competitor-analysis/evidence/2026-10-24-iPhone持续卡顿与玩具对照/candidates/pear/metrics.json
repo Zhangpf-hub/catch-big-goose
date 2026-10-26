@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "pear",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pear\\pear.fbx",
+  "sourceTriangles": 1308,
+  "triangles": 1308,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.6793976426124573,
+    0.6793978810310364,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.6793976426124573,
+    0.679397702217102,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

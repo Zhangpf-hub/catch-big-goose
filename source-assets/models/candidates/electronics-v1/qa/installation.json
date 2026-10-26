@@ -1,0 +1,40 @@
+{
+  "verifiedOn": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "blender": {
+    "version": "4.5.14 LTS",
+    "buildHash": "62c1db4208e8",
+    "executable": "D:/开发/tools/blender/blender-4.5.14-windows-x64/blender.exe",
+    "source": "https://download.blender.org/release/Blender4.5/blender-4.5.14-windows-x64.zip",
+    "officialSha256": "b9533d2397ac1984db4466fb23a7a4649391cca93f6e84209f9bcc60d071c8b9",
+    "sha256Verified": true,
+    "userPathConfigured": true,
+    "startMenuShortcut": "Blender 4.5 LTS.lnk"
+  },
+  "uv": {"version": "0.13.4", "installedVia": "winget astral-sh.uv"},
+  "mcp": {
+    "package": "mcp-for-blender",
+    "version": "2.2.2",
+    "upstream": "https://github.com/ahujasid/blender-mcp",
+    "executable": "C:/Users/123/.local/bin/mcp-for-blender.exe",
+    "python": "C:/Users/123/AppData/Roaming/uv/tools/mcp-for-blender/Scripts/python.exe",
+    "addonVersion": [1, 8],
+    "addonProtocol": 14,
+    "codexServerName": "blender",
+    "connection": "127.0.0.1:9876",
+    "telemetryDisabled": true,
+    "nativeCodexToolsRequireRestart": true,
+    "verification": "MCP SDK initialize, list_tools (9 tools), execute_blender_code, imported final phone GLB and get_scene_info"
+  },
+  "validator": {
+    "package": "gltf-validator",
+    "version": "2.0.0-dev.3.10",
+    "module": "D:/开发/tools/gltf-audit/node_modules/gltf-validator"
+  },
+  "skill": {
+    "name": "match3-model-pipeline",
+    "installedAt": "C:/Users/123/.codex/skills/match3-model-pipeline",
+    "sourceInProject": "skills/match3-model-pipeline",
+    "validationPassed": true
+  }
+}

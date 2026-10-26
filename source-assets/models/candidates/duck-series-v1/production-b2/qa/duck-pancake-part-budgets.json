@@ -1,0 +1,59 @@
+{
+  "anatomyTriangles": 2272,
+  "propRatio": 1,
+  "headNeckReduced": false,
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1678
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Layered pan cake",
+      "triangles": 392
+    },
+    {
+      "name": "Layered pan cake.001",
+      "triangles": 392
+    },
+    {
+      "name": "Layered pan cake.002",
+      "triangles": 392
+    },
+    {
+      "name": "Toasted patch",
+      "triangles": 72
+    },
+    {
+      "name": "Toasted patch.001",
+      "triangles": 72
+    },
+    {
+      "name": "Toasted patch.002",
+      "triangles": 72
+    }
+  ]
+}

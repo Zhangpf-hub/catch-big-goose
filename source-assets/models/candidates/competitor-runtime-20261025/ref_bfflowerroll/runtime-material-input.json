@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "huaJuan",
+      "color": [
+        1.0,
+        0.9817641377449036,
+        0.9430000185966492,
+        1
+      ],
+      "texture": "tex_9161247971756154409.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

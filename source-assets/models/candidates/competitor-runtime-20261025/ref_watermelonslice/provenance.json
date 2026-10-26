@@ -1,0 +1,9 @@
+{
+  "id": "ref_watermelonslice",
+  "sourceId": "WatermelonSlice",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\WatermelonSlice\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/WatermelonSlice.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part1_5181798df32f95196365c0e9e6ad2c5e.bundle",
+  "sourceSha256": "e560e9886bae585fcb2ff7d143b23b940396d50df765ef70398fbf9d626a0b17"
+}

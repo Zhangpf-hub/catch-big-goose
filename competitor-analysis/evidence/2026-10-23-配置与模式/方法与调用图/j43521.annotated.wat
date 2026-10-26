@@ -1,0 +1,36 @@
+  (func $j43521 (type $t0) (param $p0 i32) (param $p1 i32)
+    i32.const 5140179
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3955472 ;; GameManager_TypeInfo
+      call $j922
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      call $j922
+      i32.const 5140179
+      i32.const 1
+      i32.store8
+    end
+    block $B1
+      i32.const 3955472 ;; GameManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load8_u offset=4
+      i32.eqz
+      br_if $B1
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      i32.load
+      call $j923
+      i32.const 0
+      call $j8518 ;; SpModeLongTableMa$$IsCurModeLevel
+      i32.eqz
+      br_if $B1
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      i32.load
+      call $j923
+      i32.const 0
+      i32.const 18378
+      global.set $__wasm_split_waitTableId
+      i32.const 18378
+      call_indirect $primary.table (type $t4)
+    end)

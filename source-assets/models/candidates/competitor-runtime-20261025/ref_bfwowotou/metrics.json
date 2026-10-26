@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfwowotou",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFWoWoTou\\BFWoWoTou.blend",
+  "sourceTriangles": 800,
+  "triangles": 800,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7884033918380737,
+    0.8724055886268616,
+    0.778057873249054
+  ],
+  "normalizedDimensions": [
+    0.9037119746208191,
+    1.0,
+    0.891853392124176
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

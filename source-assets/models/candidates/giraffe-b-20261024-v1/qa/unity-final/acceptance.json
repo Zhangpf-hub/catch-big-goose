@@ -1,0 +1,23 @@
+{
+    "passed": true,
+    "sleepers": 45,
+    "maxSettledSpeed": 0.0,
+    "checks": [
+        "45 dynamic giraffes remain inside arena",
+        "At least 40/45 bodies naturally sleep after 15 seconds",
+        "Settled speed below 0.15 m/s",
+        "Dense pile ray hits an actual body",
+        "Removing a support does not leak remaining bodies through floor",
+        "Real round spawned",
+        "Production generator supplies complete giraffe triples",
+        "Generated giraffes use one renderer/material and remain in real container",
+        "Giraffe can be found through a screen ray among actual props",
+        "Screen tap picks giraffe through production input",
+        "Actual giraffe mesh arrives at seven-slot tray",
+        "Long neck fits inside one tray slot",
+        "Matching giraffe pickup accepted",
+        "Matching giraffe pickup accepted",
+        "Three actual giraffes complete production match"
+    ],
+    "errors": []
+}

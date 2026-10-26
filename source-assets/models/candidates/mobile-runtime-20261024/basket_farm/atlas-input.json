@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_farm\\basket_farm_albedo_0.png",
+      "uvMin": [
+        0.0004180000105407089,
+        0.0004140138626098633
+      ],
+      "uvMax": [
+        0.9995819926261902,
+        0.9995859861373901
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\basket_farm\\albedo.png"
+}

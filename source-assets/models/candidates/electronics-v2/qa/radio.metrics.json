@@ -1,0 +1,27 @@
+{
+  "id": "radio",
+  "triangles": 1696,
+  "vertices": 896,
+  "blenderBounds": [
+    0.9999999403953552,
+    0.4373626112937927,
+    0.757965624332428
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "bytes": 41024,
+  "materials": 1,
+  "textures": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "gltfAxes": "Y-up, front +Z",
+  "blenderVersion": "4.5.14 LTS",
+  "roundtripPassed": true
+}

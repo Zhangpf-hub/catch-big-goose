@@ -1,0 +1,12 @@
+{
+  "id": "ref_chewinggum",
+  "triangles": 140,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.32811450958251953,
+    1.0,
+    0.6850555539131165
+  ],
+  "glbRoundtrip": true
+}

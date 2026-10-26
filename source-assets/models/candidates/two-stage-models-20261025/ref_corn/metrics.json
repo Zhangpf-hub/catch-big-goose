@@ -1,0 +1,12 @@
+{
+  "id": "ref_corn",
+  "triangles": 1043,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.7785060405731201,
+    1.0,
+    0.2958707809448242
+  ],
+  "glbRoundtrip": true
+}

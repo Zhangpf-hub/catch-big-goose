@@ -1,0 +1,107 @@
+{
+  "stage": "three-representative-art-review",
+  "items": [
+    {
+      "id": "duck-eggtart",
+      "name": "蛋挞鸭",
+      "model": "models/duck-eggtart/duck-eggtart.glb",
+      "fbx": "models/duck-eggtart/duck-eggtart.fbx",
+      "source": "source/duck-eggtart-authored.blend",
+      "icon192": "renders/duck-eggtart/duck/icon-192.png",
+      "icon64": "renders/duck-eggtart/duck/icon-64.png",
+      "albedo": "models/duck-eggtart/albedo.png",
+      "collision": "models/duck-eggtart/convex-hull.obj",
+      "collisionCoordinates": "Blender Z-up, offline proxy only",
+      "normalizedDimensionsBlenderZUp": [
+        0.8843943476676941,
+        0.5603507161140442,
+        1.0
+      ],
+      "normalizedDimensionsGltfYUp": [
+        0.8843943476676941,
+        1.0,
+        0.5603507161140442
+      ],
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_EggTart/Goose_EggTart.glb",
+      "referenceSha256": "6da007ffb96c0d5a5ae8a3dc0f5ccb1bd5f2be8270847d03a01a194de5adcf70",
+      "triangles": 3752,
+      "glbBytes": 89480,
+      "hullTriangles": 106,
+      "unityImported": true,
+      "artApproved": false,
+      "unityImportScope": "isolated-qa-project",
+      "productionProjectImported": false,
+      "realGameSnapshotVerified": true,
+      "wechatDeviceVerified": false
+    },
+    {
+      "id": "duck-steelcup",
+      "name": "钢杯鸭",
+      "model": "models/duck-steelcup/duck-steelcup.glb",
+      "fbx": "models/duck-steelcup/duck-steelcup.fbx",
+      "source": "source/duck-steelcup-authored.blend",
+      "icon192": "renders/duck-steelcup/duck/icon-192.png",
+      "icon64": "renders/duck-steelcup/duck/icon-64.png",
+      "albedo": "models/duck-steelcup/albedo.png",
+      "collision": "models/duck-steelcup/convex-hull.obj",
+      "collisionCoordinates": "Blender Z-up, offline proxy only",
+      "normalizedDimensionsBlenderZUp": [
+        1.0,
+        0.5726428627967834,
+        0.7619637846946716
+      ],
+      "normalizedDimensionsGltfYUp": [
+        1.0,
+        0.7619637846946716,
+        0.5726428627967834
+      ],
+      "reference": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_SteelCup/Goose_SteelCup.glb",
+      "referenceSha256": "af9e6d4d99c4a7c16f2775fe4e8a348dc883f53b930435a8ff34d2c4f95f7882",
+      "triangles": 3940,
+      "glbBytes": 96100,
+      "hullTriangles": 106,
+      "unityImported": true,
+      "artApproved": false,
+      "unityImportScope": "isolated-qa-project",
+      "productionProjectImported": false,
+      "realGameSnapshotVerified": true,
+      "wechatDeviceVerified": false
+    },
+    {
+      "id": "duck-numberblock",
+      "name": "积木鸭",
+      "model": "models/duck-numberblock/duck-numberblock.glb",
+      "fbx": "models/duck-numberblock/duck-numberblock.fbx",
+      "source": "source/duck-numberblock-authored.blend",
+      "icon192": "renders/duck-numberblock/duck/icon-192.png",
+      "icon64": "renders/duck-numberblock/duck/icon-64.png",
+      "albedo": "models/duck-numberblock/albedo.png",
+      "collision": "models/duck-numberblock/convex-hull.obj",
+      "collisionCoordinates": "Blender Z-up, offline proxy only",
+      "normalizedDimensionsBlenderZUp": [
+        1.0,
+        0.4598657488822937,
+        0.8691062927246094
+      ],
+      "normalizedDimensionsGltfYUp": [
+        1.0,
+        0.8691062927246094,
+        0.4598657488822937
+      ],
+      "reference": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTNumberBlock/Goose_GTNumberBlock.glb",
+      "referenceSha256": "4eb85834047cbe09ca106d2788cdc7a3136670ddd380c6c2de97c5f1959608fd",
+      "triangles": 3820,
+      "glbBytes": 91292,
+      "hullTriangles": 104,
+      "unityImported": true,
+      "artApproved": false,
+      "unityImportScope": "isolated-qa-project",
+      "productionProjectImported": false,
+      "realGameSnapshotVerified": true,
+      "wechatDeviceVerified": false
+    }
+  ],
+  "formalThemesChanged": false,
+  "remainingSeventeenStarted": false,
+  "homepageChanged": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "duck-craftpunch",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTCraftPunch/Goose_GTCraftPunch.glb",
+  "sourceSha256": "74533d02e907897a2caaf529ff0413ba75ac84b1e43e1b07136c0bc22b989be0",
+  "originalWorldDimensions": [
+    1.0532636642456055,
+    1.348539113998413,
+    0.98015958070755
+  ],
+  "uniformScale": 0.7415431926442266,
+  "normalizedWorldDimensions": [
+    0.7810404896736145,
+    1.0,
+    0.7268306612968445
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

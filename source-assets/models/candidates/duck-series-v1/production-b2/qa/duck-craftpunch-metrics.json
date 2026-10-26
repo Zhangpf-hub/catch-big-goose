@@ -1,0 +1,23 @@
+{
+  "id": "duck-craftpunch",
+  "triangles": 3472,
+  "dimensions": [
+    0.7414854168891907,
+    0.6871456503868103,
+    1.0
+  ],
+  "sourceCenter": [
+    0.0,
+    0.011869445443153381,
+    0.39754584431648254
+  ],
+  "sourceExtent": 0.7822136282920837,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 82524,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

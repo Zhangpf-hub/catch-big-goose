@@ -1,0 +1,28 @@
+{
+  "id": "bellpepper",
+  "theme": "farm",
+  "triangles": 1124,
+  "vertices": 586,
+  "blenderBounds": [
+    0.7209638357162476,
+    0.6879356503486633,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 27436,
+  "sha256": "715f2f45fba1119748b55628479163098013826d33b240f47ca8ef949549564d",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

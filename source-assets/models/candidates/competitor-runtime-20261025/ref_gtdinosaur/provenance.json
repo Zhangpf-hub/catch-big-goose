@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtdinosaur",
+  "sourceId": "GTDinosaur",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTDinosaur\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTDinosaur.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "a4878e9a5e02efda4f7f693bb4cd2389b31f961206465dde7418acc38d86c43f"
+}

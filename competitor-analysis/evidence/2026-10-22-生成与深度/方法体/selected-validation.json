@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "methodCount": 34,
+  "signatureMatched": true,
+  "bytes": 69929,
+  "sha256": "b6dd1c226dbcdc9f207f3d7ec8d7fcef66f18a1e818dbedec0aab66d229433ed",
+  "scope": "WABT names/types/control flow and JS engine validation only; dependency imports are unresolved and the module is not instantiated."
+}

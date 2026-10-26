@@ -1,0 +1,251 @@
+{
+  "protectedFiles": {
+    "Assets/Resources/Data/themes.json": "5440cde8dd6f4a26c9283ebb5a8e8c86b5e22f8d340fd3f9146778fcaa69feff",
+    "Assets/Resources/Data/theme-rounds.json": "7e1ec6c061de9bf0db932571b26cca6d43fdefa020042157608df13c4df97aa3",
+    "Assets/Editor/GoosePlayerNetworkPolicy.cs": "363012a5797d1064b5d44f5db3531b239547e37e3320e773f27150eab5d3c71a"
+  },
+  "inputs": [
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggpancake\\duck-eggpancake.fbx",
+      "sha256": "3d22bd5cf309cf02ed3086f82146b4cc07a676d798e636ba6bf9c2ffb0978962"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggpancake\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggpancake\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggtart\\duck-eggtart.fbx",
+      "sha256": "a6414d1a2ff5998645fb69b10fd67588c2d8653c6213fd43257c4a50053ac37d"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggtart\\albedo.png",
+      "sha256": "4f5c319c2082b70f3ade0738ac408879ed838254273c5d791721f5dd57e397e6"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggtart\\unity-metallic.png",
+      "sha256": "890c78f76d8f2262b9dc835acf52d20af1b0f3d588e37ee013730d206a775e03"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-milletcake\\duck-milletcake.fbx",
+      "sha256": "8a4e948328dc0ce9735b2bcc96da31c55d771bdca7ba74d8189c85be38fa9030"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-milletcake\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-milletcake\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-steamedbread\\duck-steamedbread.fbx",
+      "sha256": "f04811a15e8f523e0b0d3139fe417f0eed95df92306096b1b56272237347ebcc"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-steamedbread\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-steamedbread\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggplant\\duck-eggplant.fbx",
+      "sha256": "777a2bcfa717bf5c03328dcd6f5ed6eea69963d43b1afd8354c1c30757c7c275"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggplant\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-eggplant\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-greenpepper\\duck-greenpepper.fbx",
+      "sha256": "f5e7d863d3733d7299bf1410a27b1a4e4fb314ef83de1e1f1c130e57c76a6b52"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-greenpepper\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-greenpepper\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-pancake\\duck-pancake.fbx",
+      "sha256": "198d272f58df7a5a1b43391fd773dead7bfe586eea66c0cabb13ef4b0305fc64"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-pancake\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-pancake\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-potato\\duck-potato.fbx",
+      "sha256": "b097d4d987116df6e340197c8cd799712acefa489ee598938ee7ed71b9b3f094"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-potato\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-potato\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-tomato\\duck-tomato.fbx",
+      "sha256": "f0449ab7ec0fece128b814d478c350eae50ca2ff892d2b858f058f732a064223"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-tomato\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-tomato\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-steelcup\\duck-steelcup.fbx",
+      "sha256": "aed6507aa210efd1d389720a5ff58f50e5915f8bfbe73ee49eb953b6ccb466d7"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-steelcup\\albedo.png",
+      "sha256": "4f5c319c2082b70f3ade0738ac408879ed838254273c5d791721f5dd57e397e6"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-steelcup\\unity-metallic.png",
+      "sha256": "890c78f76d8f2262b9dc835acf52d20af1b0f3d588e37ee013730d206a775e03"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-farmer\\duck-farmer.fbx",
+      "sha256": "d63c130ac9154a331a48135eb8ff2336b31963d66f9f0cde0930765ff6e477c8"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-farmer\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-farmer\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-watermelon\\duck-watermelon.fbx",
+      "sha256": "2fba89ed16cb3e8903289b54ac80ba6c9124a89fcbad339029f3bae7201f8dbc"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-watermelon\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-watermelon\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-numberblock\\duck-numberblock.fbx",
+      "sha256": "c8ff63554cfad6f1bd1c14491578b3b0f2208eadc09a42a8c99dd524deffa6ca"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-numberblock\\albedo.png",
+      "sha256": "4f5c319c2082b70f3ade0738ac408879ed838254273c5d791721f5dd57e397e6"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-numberblock\\unity-metallic.png",
+      "sha256": "890c78f76d8f2262b9dc835acf52d20af1b0f3d588e37ee013730d206a775e03"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-yoyo\\duck-yoyo.fbx",
+      "sha256": "3f4fc707e8ca927536e814e4449878126e3ae658abdeef541a9f503b5d273266"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-yoyo\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-yoyo\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-craftpunch\\duck-craftpunch.fbx",
+      "sha256": "89520e008ecdbb52121f873a32a1829e96e7683fe88133fa155983f33d416100"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-craftpunch\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-craftpunch\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-capsulepen\\duck-capsulepen.fbx",
+      "sha256": "2279ed998871c4ce917fc9bb825f3bad9ee66c64a2e89de835b9b9e0fa5523f3"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-capsulepen\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-capsulepen\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-chilisauce\\duck-chilisauce.fbx",
+      "sha256": "2189b3cd880f4b461b2e546374e1a3233621bd8fd0e0d73fe4d2f05e1af7e7b1"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-chilisauce\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-chilisauce\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-colacup\\duck-colacup.fbx",
+      "sha256": "6c3221f7edb923ecd6fa2fca91b3ed742cc834e49052cbc5f5b7b4208aecad45"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-colacup\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-colacup\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-egg\\duck-egg.fbx",
+      "sha256": "bec756decb106e0e86df2cb6e3ddf9955a42fa5e3504d002abb4aee06231c77e"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-egg\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-egg\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-noodles\\duck-noodles.fbx",
+      "sha256": "db3242435297e04913919bf45fbaf54a976a9f4de6a37c4a53a4e7c8843cd34e"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-noodles\\albedo.png",
+      "sha256": "2ff8ebb14654ed845f857fe7530b8b9361ba30b3bf09de31314f6ad5eba56338"
+    },
+    {
+      "source": "source-assets\\models\\candidates\\duck-series-v1\\production-b2\\models\\duck-noodles\\unity-metallic.png",
+      "sha256": "7f3567c842825c5bafcbd10c102d0b7c3d9b8e3363676a87851626708a5b9482"
+    }
+  ],
+  "productionProject": "D:\\开发\\Catch-big-goose-master\\projects\\catch-big-goose-unity",
+  "userAuthorization": "B2 三款通过，继续完整计划"
+}

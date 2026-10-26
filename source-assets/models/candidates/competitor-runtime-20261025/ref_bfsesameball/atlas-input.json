@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFSesameBall\\tex_-488927916378682696.png",
+      "uvMin": [
+        0.007699999958276749,
+        0.00570000009611249
+      ],
+      "uvMax": [
+        0.9909999966621399,
+        0.9941999912261963
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_bfsesameball\\albedo.png"
+}

@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "kind": "static",
+      "file": "models/duck-b2-master/duck-b2-master.glb",
+      "triangles": 5412,
+      "bytes": 124092,
+      "withinPreferred4000TriangleTarget": false,
+      "sha256": "8918b8c3b1645593c2a2f81b1b7106e2df61e6e28c5ac134579feac7d05a0936",
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleLimit": true,
+        "byteLimit": true,
+        "uv": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "noSkin": true,
+        "noAnimations": true,
+        "roundtripGeometry": true
+      },
+      "passed": true,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "kind": "rig",
+      "file": "models/duck-b2-master-rig.glb",
+      "triangles": 5412,
+      "bytes": 198736,
+      "withinPreferred4000TriangleTarget": false,
+      "sha256": "4e30910710068a9307b16429d9f64168c529df9692b9c525635bbbcf1869a639",
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleLimit": true,
+        "byteLimit": true,
+        "uv": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "oneSkin": true,
+        "threeClips": true,
+        "clipNames": true,
+        "roundtripVertexMotion": true,
+        "currentMotionEvidence": true
+      },
+      "passed": true,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ],
+  "artApproval": false,
+  "unityImported": false
+}

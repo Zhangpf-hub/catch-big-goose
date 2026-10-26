@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_watermelonslice",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\WatermelonSlice\\WatermelonSlice.blend",
+  "sourceTriangles": 900,
+  "triangles": 900,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.2960238456726074,
+    1.1442142724990845,
+    1.3142366409301758
+  ],
+  "normalizedDimensions": [
+    0.9861419200897217,
+    0.8706303238868713,
+    1.0
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

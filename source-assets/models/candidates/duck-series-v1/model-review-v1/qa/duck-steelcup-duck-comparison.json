@@ -1,0 +1,53 @@
+{
+  "id": "duck-steelcup",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/model-review-v1/models/duck-steelcup/duck-steelcup.glb",
+  "sourceSha256": "cddab8af0ec8519e4dd7716ca1535f726c1517914aa648ff3f317ae871076e51",
+  "originalWorldDimensions": [
+    1.0,
+    0.5266238451004028,
+    0.809647798538208
+  ],
+  "uniformScale": 1.0,
+  "normalizedWorldDimensions": [
+    1.0,
+    0.5266238451004028,
+    0.809647798538208
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

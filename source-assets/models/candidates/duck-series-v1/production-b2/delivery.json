@@ -1,0 +1,55 @@
+{
+  "status": "production-complete",
+  "approvedMother": "B2",
+  "initialThreeUnchanged": true,
+  "modelCount": 20,
+  "triangleRange": [
+    2780,
+    3940
+  ],
+  "glbByteRange": [
+    66796,
+    96100
+  ],
+  "unityVersion": "2022.3.62f3",
+  "physicsBodies": 60,
+  "naturallySleeping": 60,
+  "sleepingAfterSupportRemoval": 59,
+  "runtimeDesktopPassed": true,
+  "runtimeMobileProfilePassed": true,
+  "screenMatchedModels": 20,
+  "matchedPerProfile": 60,
+  "reviewEntriesPerProfile": 6,
+  "homepageRealSkinAnimation": true,
+  "rapidClicksPerProfile": 12,
+  "formalThemesReplaced": false,
+  "formalFilesUnchanged": {
+    "Assets/Resources/Data/themes.json": "5440cde8dd6f4a26c9283ebb5a8e8c86b5e22f8d340fd3f9146778fcaa69feff",
+    "Assets/Resources/Data/theme-rounds.json": "7e1ec6c061de9bf0db932571b26cca6d43fdefa020042157608df13c4df97aa3",
+    "Assets/Editor/GoosePlayerNetworkPolicy.cs": "363012a5797d1064b5d44f5db3531b239547e37e3320e773f27150eab5d3c71a"
+  },
+  "windowsRelease": "projects/catch-big-goose-unity/Builds/Windows/catch-big-goose.exe",
+  "wechatLocalExportPassed": true,
+  "wechatPackagedBytes": 31244537,
+  "wechatRawDirectoryBytes": 32181282,
+  "wechatExcludedFiles": [
+    {
+      "path": "webgl.wasm.symbols.unityweb.br",
+      "bytes": 936745
+    }
+  ],
+  "structureCheckPassed": true,
+  "structureChecks": 43,
+  "limitations": [
+    "Windows mobile profile is not a physical WeChat device test.",
+    "New seventeen shapes are delivered for user review; only the B2 mother and first three have explicit prior art approval."
+  ],
+  "conceptGeneration": {
+    "mode": "built-in image_gen",
+    "prompts": "concepts/prompts.json",
+    "images": [
+      "concepts/farmer-fusion.png",
+      "concepts/noodles-fusion.png"
+    ]
+  }
+}

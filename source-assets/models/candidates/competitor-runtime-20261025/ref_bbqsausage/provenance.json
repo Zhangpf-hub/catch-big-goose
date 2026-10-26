@@ -1,0 +1,9 @@
+{
+  "id": "ref_bbqsausage",
+  "sourceId": "BBQSausage",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BBQSausage\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/BBQSausage.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+  "sourceSha256": "2dddfc54d658593c8c9c7274100806b5c85831acec8165b9eacbe972086ffa3b"
+}

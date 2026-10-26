@@ -1,0 +1,33 @@
+  (func $j72892 (type $t4) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    i32.const 5140501
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4028400 ;; Method$JsonHelper.GetVal<int>()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4111884 ;; num
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5140501
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load offset=8
+    local.set $p0
+    local.get $p0
+    if $I1
+      local.get $p0
+      local.get $p1
+      i32.const 4111884 ;; num
+      i32.load
+      i32.const 0
+      i32.const 4028400 ;; Method$JsonHelper.GetVal<int>()
+      i32.load
+      i32.const 5381
+      call_indirect $primary.table (type $t8)
+      i32.const 0
+      i32.const 10831
+      call_indirect $primary.table (type $t4)
+    end)

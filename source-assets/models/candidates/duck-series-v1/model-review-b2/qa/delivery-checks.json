@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "candidate-local files, rendering evidence and input hashes; isolated Unity QA recorded separately",
+  "workspaceStructureCheckPassed": false,
+  "workspaceStructureErrors": [
+    "No new broken documentation links"
+  ],
+  "sameSizeComparisonPassed": true,
+  "offlineHullGeometryAndInputHashesPassed": true,
+  "htmlLocalReferences": 46,
+  "missingReferences": [],
+  "browserLayoutVerified": false,
+  "isolatedUnityEditorQaPassed": true,
+  "unityRuntimeVerified": true,
+  "unityRuntimeScope": "isolated Windows player, real-game snapshot, desktop and mobile settings",
+  "wechatDeviceVerified": false,
+  "artAccepted": false
+}

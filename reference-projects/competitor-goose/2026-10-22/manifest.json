@@ -1,0 +1,166 @@
+{
+  "appId": "wxb98ac240fd74b0e3",
+  "date": "2026-10-22",
+  "purpose": "Local visual reference only; not runtime assets",
+  "unityPyVersion": "1.25.4",
+  "sources": [
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbarbecueobjprefab_assets__72a69c35c772575b0456de55b9990197.bundle",
+      "bytes": 272917,
+      "sha256": "daad20c1c91f7203ff33e906e4f2017eb3dc623b5089682c6398daec34c4b54b"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+      "bytes": 623348,
+      "sha256": "696b835c559744fd789fea371d76505a1b67350aed784238cace5df9ccfca25f"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+      "bytes": 626897,
+      "sha256": "baf4525c98eb238830675bee2990908278dc255b398fb6eef8eafdca512cb51d"
+    }
+  ],
+  "models": [
+    {
+      "id": "BBQSkewers2",
+      "triangles": 760,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQSkewers2/source.json",
+      "sourceSha256": "7528e068a2455e6e3a3e193f1bbd8445d9690f394fceb497aadd11d468c45a85"
+    },
+    {
+      "id": "GrilledCorn",
+      "triangles": 514,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GrilledCorn/source.json",
+      "sourceSha256": "76331fe2a533173207e10c472c9713072cd164a6c159c5ddb8fa29965deee2f3"
+    },
+    {
+      "id": "BBQHotdog",
+      "triangles": 832,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQHotdog/source.json",
+      "sourceSha256": "d62ecd95314e061b5f58e0712317fd94ba307f7f5a920060674c1ff193a0d525"
+    },
+    {
+      "id": "FriedDumpling",
+      "triangles": 570,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/FriedDumpling/source.json",
+      "sourceSha256": "f155ef0124893302a3ad7bd40890d3949fa65204c2df456162a8d8798ed1cf02"
+    },
+    {
+      "id": "GrilledFish2",
+      "triangles": 560,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GrilledFish2/source.json",
+      "sourceSha256": "41e180144ba7583882ae2369711c5d4e5a5fa881b76ae80c9a097f853e46aa08"
+    },
+    {
+      "id": "PotatoSkewers",
+      "triangles": 224,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/PotatoSkewers/source.json",
+      "sourceSha256": "545e8cc677101c698f5bd747d1bb63a860b37d48a414eedd92f80c169b79b583"
+    },
+    {
+      "id": "RedShrimp",
+      "triangles": 1295,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/RedShrimp/source.json",
+      "sourceSha256": "e999ff8f3e588968e8ceeb87eb1152a575b22fa65a47875d0db2af57316235be"
+    },
+    {
+      "id": "RibsBig",
+      "triangles": 762,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/RibsBig/source.json",
+      "sourceSha256": "7245b41f1c26466eceafbe46ed34dc62e1406fb437a6793fa2420702364c4868"
+    },
+    {
+      "id": "Scallop",
+      "triangles": 1029,
+      "meshes": 2,
+      "materials": 2,
+      "source": "models/Scallop/source.json",
+      "sourceSha256": "b6f2493407555fd40e0e5c3baefd86a5b677ec42e9cc7a4c3d23542a126b821e"
+    },
+    {
+      "id": "Shrimp",
+      "triangles": 604,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Shrimp/source.json",
+      "sourceSha256": "d0cd96aa37496f754e1285422f72a63dc67e761fcea3ba672569242ba452c343"
+    },
+    {
+      "id": "BBQMushroom",
+      "triangles": 660,
+      "meshes": 3,
+      "materials": 2,
+      "source": "models/BBQMushroom/source.json",
+      "sourceSha256": "991b30b7bea03c4452fbc5c3565d088a57be9ad61b42759a1b5e7be50e28745e"
+    },
+    {
+      "id": "BBQPotato",
+      "triangles": 1382,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQPotato/source.json",
+      "sourceSha256": "4bece9400773a0384ac40f888ec0f529a1ee22cde06ad972dfda30ddbc9f09e9"
+    },
+    {
+      "id": "BBQSausage",
+      "triangles": 490,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQSausage/source.json",
+      "sourceSha256": "41d1ce7b7c19a03fe91c5aa550113e4e7474fffdcff932637aa4da9a2c279b70"
+    },
+    {
+      "id": "BBQSkewers1",
+      "triangles": 904,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQSkewers1/source.json",
+      "sourceSha256": "6cfa755aedfc93c658f3fa9348ec5d7d0d6e48e23a156f11c17fdb0a4e61d9ef"
+    },
+    {
+      "id": "BBQToast",
+      "triangles": 220,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQToast/source.json",
+      "sourceSha256": "aa2f2dc1d214c09822755c3ec5b801acb4099f80d284a4132262cabc2cf31026"
+    },
+    {
+      "id": "ChickenLeg",
+      "triangles": 1008,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/ChickenLeg/source.json",
+      "sourceSha256": "f0694a50d4a4dcfa13ff286ed98a7ffdfc6927ad00da1818fd558ef6b98c8d0e"
+    },
+    {
+      "id": "RoastChicken",
+      "triangles": 932,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/RoastChicken/source.json",
+      "sourceSha256": "e0c8984cd6ae0b8b49cf66675ef82535f445cb1c49fd0797d99a81f032ef6667"
+    }
+  ],
+  "methodBodiesRecovered": true,
+  "skipped": [
+    "Goose_Pancake: skinned special item"
+  ],
+  "recoveredMethodCount": 18
+}

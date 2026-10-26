@@ -1,0 +1,12 @@
+{
+  "events": [
+    {"name":"app_boot","at":"2026-08-12T00:00:00Z","sessionId":"s1","props":{}},
+    {"name":"home_view","at":"2026-08-12T00:00:01Z","sessionId":"s1","props":{}},
+    {"name":"round_start","at":"2026-08-12T00:00:02Z","sessionId":"s1","props":{"roundId":"r1","level":1}},
+    {"name":"round_end","at":"2026-08-12T00:02:00Z","sessionId":"s1","props":{"roundId":"r1","level":1,"win":true,"progress":100}},
+    {"name":"app_boot","at":"2026-08-12T01:00:00Z","sessionId":"s2","props":{}},
+    {"name":"home_view","at":"2026-08-12T01:00:01Z","sessionId":"s2","props":{}},
+    {"name":"round_start","at":"2026-08-12T01:00:02Z","sessionId":"s2","props":{"roundId":"r2","level":2}},
+    {"name":"round_end","at":"2026-08-12T01:01:00Z","sessionId":"s2","props":{"roundId":"r2","level":2,"win":false,"progress":60}}
+  ]
+}

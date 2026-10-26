@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_chewinggum",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\ChewingGum\\ChewingGum.blend",
+  "sourceTriangles": 140,
+  "triangles": 140,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.4389325678348541,
+    1.3377420902252197,
+    0.9164276123046875
+  ],
+  "normalizedDimensions": [
+    0.32811450958251953,
+    1.0,
+    0.6850555539131165
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

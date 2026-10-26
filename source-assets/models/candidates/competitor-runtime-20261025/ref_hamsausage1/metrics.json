@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_hamsausage1",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\HamSausage1\\HamSausage1.blend",
+  "sourceTriangles": 669,
+  "triangles": 669,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.5219064354896545,
+    2.1127946376800537,
+    0.5225681066513062
+  ],
+  "normalizedDimensions": [
+    0.2470218539237976,
+    1.0,
+    0.2473350316286087
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

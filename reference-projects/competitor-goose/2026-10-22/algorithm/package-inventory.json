@@ -1,0 +1,177 @@
+[
+  {
+    "package": "401\\_wasmcode1_.wxapkg",
+    "bytes": 4675950,
+    "sourceSha256": "2e12aab0db1f37dd05e97d96c6020d92e866dedb27db9a2c12654f362499f416",
+    "entries": [
+      {
+        "file": "/wasmcode1/0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br",
+        "size": 4674718,
+        "extracted": "_wasmcode1_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br",
+        "sha256": "3d4a35c961dc2e6f4af871eac10ef7290d31c07d4c02e1c728e392cb28a00ff1",
+        "wasm": {
+          "bytes": 22842675,
+          "sha256": "54773e2463e7fec7a7de731ddc8af2b792b338873f83f98529c3767757829f53",
+          "file": "_wasmcode1_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.decoded.wasm"
+        }
+      },
+      {
+        "file": "/wasmcode1/game.js",
+        "size": 1105,
+        "extracted": "_wasmcode1_/1-game.js",
+        "sha256": "3cc148639fa98fe9704ca3067b4385d3bb87cca67816a261ff28af5a4b21d009"
+      }
+    ]
+  },
+  {
+    "package": "401\\_wasmcode_.wxapkg",
+    "bytes": 4066303,
+    "sourceSha256": "f6bb7a2817e89d6151e04e986a96ac2d7647a89782b7dbd14e21d181093e929e",
+    "entries": [
+      {
+        "file": "/wasmcode/0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br",
+        "size": 4064989,
+        "extracted": "_wasmcode_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br",
+        "sha256": "bb9f6be5cdf34ff3bd10a9e2c1ebb14b135b38c882d9fc08c7503ee0f23bb6e9",
+        "wasm": {
+          "bytes": 18128665,
+          "sha256": "ac8951c815c18f26010e8e209b593f9bc84ed7766255ea0cf79a16bda6cb36b4",
+          "file": "_wasmcode_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.decoded.wasm"
+        }
+      },
+      {
+        "file": "/wasmcode/0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.precompile.txt",
+        "size": 0,
+        "extracted": "_wasmcode_/1-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.precompile.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "file": "/wasmcode/game.js",
+        "size": 1103,
+        "extracted": "_wasmcode_/2-game.js",
+        "sha256": "d2d277ba63d143c806b2d2d2c0d10c2843637c0fcf299d69d8f0f1761577f851"
+      }
+    ]
+  },
+  {
+    "package": "401\\__WITHOUT_MULTI_PLUGINCODE__.wxapkg",
+    "bytes": 765732,
+    "sourceSha256": "d0f392b2df24afc59c37bbd4318df2e2bd4aad6894e5ff15a6146d52e82a6ec7",
+    "entries": [
+      {
+        "file": "/images/Cover.jpg",
+        "size": 46190,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/0-Cover.jpg",
+        "sha256": "0a1dc2265d7aabf1b1e408d66cb131f109342bd8e4dcfc9ee1ec050043f9ca20"
+      },
+      {
+        "file": "/images/unity_logo.png",
+        "size": 1216,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/1-unity_logo.png",
+        "sha256": "34799ce1b7a341e39c6c6ea7fa439f170989f3ecc5d0cd3681573569b4b6d239"
+      },
+      {
+        "file": "/open-data/image/HeadMask.png",
+        "size": 5960,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/2-HeadMask.png",
+        "sha256": "fe883acb12ad214b8185041276e3bb21cd6a802b39184a74a3728d060c638960"
+      },
+      {
+        "file": "/open-data/image/bluePix.png",
+        "size": 1623,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/3-bluePix.png",
+        "sha256": "19b243acb24c060acd3ef3362ce81ea12c659feb57685dc45cc122ceaad26e70"
+      },
+      {
+        "file": "/open-data/image/cupIcon.png",
+        "size": 2117,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/4-cupIcon.png",
+        "sha256": "548a043c87d0dbdc70a328f5f2c78794a973a6937d57ec62a29fd628e0c3090d"
+      },
+      {
+        "file": "/open-data/image/fnt_number-export.png",
+        "size": 4868,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/5-fnt_number-export.png",
+        "sha256": "d46fd34007c541d15af48450584a4758b328d0cb056b5912372dcc9a6d6c7bc1"
+      },
+      {
+        "file": "/open-data/image/organPix.png",
+        "size": 1623,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/6-organPix.png",
+        "sha256": "fc29e35f7e5b5ffb66bc5085e89d44c243060b3ddf406fab9619c357e19b68e7"
+      },
+      {
+        "file": "/open-data/image/rank1.png",
+        "size": 3622,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/7-rank1.png",
+        "sha256": "2fa7e4010297696a1be64b4f76e44a93b61466b540d5bba7239e0f55f786b883"
+      },
+      {
+        "file": "/open-data/image/rank2.png",
+        "size": 2583,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/8-rank2.png",
+        "sha256": "752c6176d8b6107fbbc6843af3b1cd478a80ba51cbac89f88b6af05cc0d61e11"
+      },
+      {
+        "file": "/open-data/image/rank3.png",
+        "size": 2566,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/9-rank3.png",
+        "sha256": "8d8f33ad1cff14b8d3a8b907e11c77be76986c125f8a5c4e84c26287c1ee32e7"
+      },
+      {
+        "file": "/open-data/image/scoreOtherBg.jpg",
+        "size": 2023,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/10-scoreOtherBg.jpg",
+        "sha256": "c9b518fe73e1a54bfbf20ec0794c039b7837d56a63b88f362deb58c38e7e92cc"
+      },
+      {
+        "file": "/open-data/image/scoreSelfBg.jpg",
+        "size": 2124,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/11-scoreSelfBg.jpg",
+        "sha256": "8b57a7d30a826f2b580560e2ae43bf96a2be68bd84e273b39bdcfdf4e9aa8ade"
+      },
+      {
+        "file": "/open-data/image/whitePix.png",
+        "size": 1623,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/12-whitePix.png",
+        "sha256": "05c2a3762ef94b993612a6d8b3e81d8e73bb906979ee3f566d2dc4b04bc356fb"
+      },
+      {
+        "file": "/open-data/image/yellowPix.png",
+        "size": 1623,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/13-yellowPix.png",
+        "sha256": "5422f5eef4064c285db344f9d91f53cf5168c286ccdd59d4891cd238a960b17b"
+      },
+      {
+        "file": "/open-data/render/image/loading.png",
+        "size": 6244,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/14-loading.png",
+        "sha256": "ced01531e93259285e4ce9f440699921f7d7ad2616084ba6caff7af24eee43eb"
+      },
+      {
+        "file": "/game.js",
+        "size": 584398,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/15-game.js",
+        "sha256": "390f013e2d0585092cf9685d791859c44c79edc83467a473f54dbd114e898244"
+      },
+      {
+        "file": "/app-config.json",
+        "size": 1211,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/16-app-config.json",
+        "sha256": "b5b98934fdea1aa2eb9465ef31df6f8f58edada92e6d2fd8d89b64e295a2eb79"
+      },
+      {
+        "file": "/workers.js",
+        "size": 1105,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/17-workers.js",
+        "sha256": "6d0554d1e8bccf7d483f57921be6394ad7d08869be9452d74c88bc024f492a4d"
+      },
+      {
+        "file": "/subContext.js",
+        "size": 92283,
+        "extracted": "__WITHOUT_MULTI_PLUGINCODE__/18-subContext.js",
+        "sha256": "291d952c80a274f76f06a4cd39bd45a21a69c13122129e4519e1eec0ff0a8f28"
+      }
+    ]
+  }
+]

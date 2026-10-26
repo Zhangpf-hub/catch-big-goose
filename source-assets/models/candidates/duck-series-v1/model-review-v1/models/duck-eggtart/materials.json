@@ -1,0 +1,10 @@
+{
+  "materials": [
+    {
+      "name": "duck-eggtart-mobile",
+      "texture": "albedo.png",
+      "metallic": 0,
+      "roughness": 0.53
+    }
+  ]
+}

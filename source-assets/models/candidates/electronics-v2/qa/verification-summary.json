@@ -1,0 +1,253 @@
+{
+  "status": "passed",
+  "asOf": "2026-10-22",
+  "theme": "electronics",
+  "name": "数码工坊",
+  "products": 9,
+  "container": "tray_electronics",
+  "modelCount": 53,
+  "activeModels": 49,
+  "candidateModels": 3,
+  "unusedResources": 1,
+  "ordinaryItemCounts": [
+    48,
+    54,
+    81
+  ],
+  "physics": {
+    "engine": "Jolt 1.1.0 WASM",
+    "bodyCount": 81,
+    "simulatedSeconds": 20,
+    "fixedStep": 0.008333333333333333,
+    "sleepingAfter15s": 81,
+    "containmentPassed": true,
+    "raycastPassed": true,
+    "removalPassed": true,
+    "warnings": []
+  },
+  "browserCases": 9,
+  "navigationAndVictory": true,
+  "importedProducts": 9,
+  "gltfErrors": 0,
+  "gltfWarnings": 0,
+  "regressionTests": 32,
+  "build": {
+    "status": "passed",
+    "bytes": 20897378,
+    "mib": 19.929292678833008,
+    "creatorExitCode": 36,
+    "isolatedSnapshot": true,
+    "logPath": "D:\\开发\\Catch-big-goose-master\\work\\electronics-build-20261021\\build.log",
+    "theme": "electronics",
+    "sourceEditorUnchanged": true
+  },
+  "models": [
+    {
+      "id": "camera",
+      "bytes": 51364,
+      "triangles": 2200,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.7388888597488403,
+        0.7133333683013916
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "15683aeb3ab54d3a9f88b796e88a60ed95c288d613484458765502670c7174d1",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 83,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "handheld",
+      "bytes": 57736,
+      "triangles": 2464,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.21165049076080322,
+        0.5150485634803772
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "36ae23a569da928ef197768816a61923982b188dbd5b90c7804b5de94df4c1a7",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 33,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "headphones",
+      "bytes": 40820,
+      "triangles": 1684,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.8403756022453308,
+        0.26854461431503296
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "133f73ec0b78fd195369dd6e2da29d325f1dc3b6c9ffbb6ab460a7d5b37aa758",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 49,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "laptop",
+      "bytes": 57476,
+      "triangles": 2404,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.7087869048118591,
+        0.7211952209472656
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "f23c906a935f691d42411527d8aa4cd21d4b2ea341fd3a9dc9762f4720953ef9",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 67,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "mouse",
+      "bytes": 30052,
+      "triangles": 1256,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.6255000233650208,
+        0.5500000715255737,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "69a0b312a70352cd5a74475fc8330aaee9af2929e4825568f25ce0802226d17d",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 124,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "phone",
+      "bytes": 37272,
+      "triangles": 1564,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.5605000257492065,
+        0.2175000011920929,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "258791c6f9a41cb3d4c7d8d779f3a7fe61dced936fbb136330e453f71e62b708",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 45,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "radio",
+      "bytes": 41024,
+      "triangles": 1696,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.9999999403953552,
+        0.757965624332428,
+        0.4373626112937927
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "af5ff7b42675f50aafb0037b941b58b620a5e576bf5adb015839edcc11a67788",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 39,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "smartwatch",
+      "bytes": 36264,
+      "triangles": 1516,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.4258928596973419,
+        0.22053571045398712,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "1d12aa2f1a3b66621f7228b9bcf53d0c24e0c8fa173f970d1406a6da7c12bea8",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 56,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "speaker",
+      "bytes": 44044,
+      "triangles": 1868,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.509761393070221,
+        0.9999999403953552,
+        0.49132320284843445
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "cffcf752dd65e2d842d05d8aed121004c026072fc097fd7410bdfc86f85dc959",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 52,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    }
+  ]
+}

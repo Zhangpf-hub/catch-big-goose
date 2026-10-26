@@ -1,0 +1,28 @@
+{
+  "id": "jadelock",
+  "theme": "antique",
+  "triangles": 1128,
+  "vertices": 572,
+  "blenderBounds": [
+    1.0,
+    0.25723686814308167,
+    0.7631579041481018
+  ],
+  "center": [
+    0.0,
+    0.0,
+    -2.9802322387695312e-08
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 27024,
+  "sha256": "0dc0e6ef47c1fc247468f8366d929b3d4970e8fab6044496bf41f643c9a63ca9",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

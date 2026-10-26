@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bowl_jade\\bowl_jade_albedo_0.png",
+      "uvMin": [
+        0.000244140625,
+        0.000244140625
+      ],
+      "uvMax": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\bowl_jade\\albedo.png"
+}

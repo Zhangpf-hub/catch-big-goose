@@ -1,0 +1,61 @@
+  (func $j41863 (type $t11) (param $p0 i32) (param $p1 i32) (param $p2 i32) (param $p3 i32) (param $p4 i32) (param $p5 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $p5
+    local.get $p5
+    global.set $primary.global$0
+    local.get $p5
+    local.get $p0
+    i32.store offset=12
+    i32.const 5139792
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3961140 ;; ResourceType_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5139792
+      i32.const 1
+      i32.store8
+    end
+    local.get $p1
+    if $I1
+      i32.const 3961140 ;; ResourceType_TypeInfo
+      i32.load
+      local.set $p0
+      local.get $p5
+      i32.const -1
+      i32.store offset=4
+      local.get $p5
+      local.get $p0
+      i32.store
+      local.get $p5
+      local.get $p5
+      i32.load offset=12
+      i32.store offset=8
+      local.get $p5
+      i32.const 0
+      i32.const 1891
+      call_indirect $primary.table (type $t2)
+      local.set $p0
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      i32.const 735
+      call_indirect $primary.table (type $t0)
+      local.get $p0
+      local.get $p1
+      local.get $p2
+      local.get $p3
+      local.get $p4
+      local.get $p5
+      i32.const 18563
+      call_indirect $primary.table (type $t11)
+    end
+    local.get $p5
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

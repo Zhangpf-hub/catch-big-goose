@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "saleSeconds": [120, 300, 480],
+  "saleProbabilities": [0.8, 0.5, 0.5],
+  "driveSeconds": 6.0,
+  "stopSeconds": 2.5,
+  "rewardPerProp": 1,
+  "reviveSeconds": 300
+}

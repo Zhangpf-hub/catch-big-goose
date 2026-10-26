@@ -1,0 +1,23 @@
+{
+  "id": "duck-watermelon",
+  "triangles": 2864,
+  "dimensions": [
+    1.0,
+    0.6152029633522034,
+    0.9438755512237549
+  ],
+  "sourceCenter": [
+    0.0,
+    -0.04085630923509598,
+    0.3462342321872711
+  ],
+  "sourceExtent": 0.7200000286102295,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 69132,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

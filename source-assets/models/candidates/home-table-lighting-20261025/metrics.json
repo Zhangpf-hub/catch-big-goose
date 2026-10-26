@@ -1,0 +1,12 @@
+{
+  "id": "home-table",
+  "triangles": 1496,
+  "materials": 2,
+  "dimensions": [
+    4.599999904632568,
+    4.599999904632568,
+    1.2000000476837158
+  ],
+  "roundtrip": true,
+  "scope": "Non-physical furniture; authored diameter 4.6, not normalized gameplay item. No collider required."
+}

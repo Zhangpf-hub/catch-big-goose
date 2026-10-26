@@ -1,0 +1,54 @@
+{
+    "passed": false,
+    "unityVersion": "2022.3.62f3",
+    "checks": [
+        "Weighted generation and depth profile enabled",
+        "Serialized competitor scene profile reaches actual game settings",
+        "fruit: spawn deadline",
+        "fruit: finite stock, golden separate",
+        "fruit: complete per-type triples",
+        "fruit: frozen allocation preserved",
+        "fruit: actual pile retained above floor",
+        "fruit: support colliders retained",
+        "fruit: held state agrees with actual Rigidbody",
+        "fruit: hiding retains logical inventory",
+        "fruit: hidden manual pick rejected",
+        "fruit: shuffle available",
+        "fruit: shuffle wakes held pile",
+        "fruit: shuffle creates no replacement stock",
+        "fruit: weighted finite round clears without refill",
+        "antique: spawn deadline",
+        "antique: finite stock, golden separate",
+        "antique: complete per-type triples",
+        "antique: frozen allocation preserved",
+        "antique: actual pile retained above floor",
+        "antique: support colliders retained",
+        "antique: held state agrees with actual Rigidbody",
+        "antique: hiding retains logical inventory",
+        "antique: hidden manual pick rejected"
+    ],
+    "errors": [
+        "InvalidOperationException: No collision-free drop position for tongqian\nCatchGoose.GooseGame.ClearDropPosition (CatchGoose.GooseItem item, UnityEngine.Vector3 desired) (at D:/开发/Catch-big-goose-master/unity/Assets/Scripts/GooseGame.cs:274)\nCatchGoose.GooseGame.UseProp (System.Int32 kind) (at D:/开发/Catch-big-goose-master/unity/Assets/Scripts/GooseGame.cs:491)\nCatchGoose.GooseAlgorithmAcceptance+<Start>d__10.MoveNext () (at D:/开发/Catch-big-goose-master/unity/Assets/Scripts/GooseAlgorithmAcceptance.cs:75)\nUnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+        "Algorithm acceptance timeout"
+    ],
+    "snapshots": [
+        {
+            "theme": "fruit",
+            "total": 82,
+            "hidden": 20,
+            "held": 76,
+            "dynamicBodies": 6,
+            "visibleThreshold": 1.1736371517181397,
+            "rigidThreshold": 1.385599970817566
+        },
+        {
+            "theme": "antique",
+            "total": 82,
+            "hidden": 23,
+            "held": 70,
+            "dynamicBodies": 12,
+            "visibleThreshold": 1.1795846223831177,
+            "rigidThreshold": 1.3914122581481934
+        }
+    ]
+}

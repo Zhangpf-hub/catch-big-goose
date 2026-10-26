@@ -1,0 +1,59 @@
+  (func $j43495 (type $t11) (param $p0 i32) (param $p1 i32) (param $p2 i32) (param $p3 i32) (param $p4 i32) (param $p5 i32)
+    i32.const 5127092
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4003036 ;; Method$System.Collections.Generic.List<ObjectUnit>.Clear()
+      call $j922
+      i32.const 4003440 ;; Method$System.Collections.Generic.List<PlateContentItem>.get_Count()
+      call $j922
+      i32.const 4003444 ;; Method$System.Collections.Generic.List<PlateContentItem>.get_Item()
+      call $j922
+      i32.const 5127092
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    local.get $p1
+    i32.store offset=36
+    local.get $p0
+    local.get $p2
+    i32.store offset=40
+    local.get $p0
+    local.get $p3
+    i32.store offset=44
+    local.get $p0
+    local.get $p4
+    i32.store offset=48
+    local.get $p0
+    i32.load offset=52
+    i32.const 4003036 ;; Method$System.Collections.Generic.List<ObjectUnit>.Clear()
+    i32.load
+    call $j1025 ;; System.Collections.Generic.List<__Il2CppFullySharedGenericType>$$Clear
+    i32.const 0
+    local.set $p1
+    loop $L1
+      i32.const 4003440 ;; Method$System.Collections.Generic.List<PlateContentItem>.get_Count()
+      i32.load
+      drop
+      local.get $p1
+      local.get $p0
+      i32.load offset=32
+      i32.load offset=12
+      i32.lt_s
+      if $I2
+        local.get $p0
+        i32.load offset=32
+        local.get $p1
+        i32.const 4003444 ;; Method$System.Collections.Generic.List<PlateContentItem>.get_Item()
+        i32.load
+        call $j947
+        i32.const 0
+        call $j40855 ;; PlateContentItem$$ResetItem
+        local.get $p1
+        i32.const 1
+        i32.add
+        local.set $p1
+        br $L1
+      end
+    end)

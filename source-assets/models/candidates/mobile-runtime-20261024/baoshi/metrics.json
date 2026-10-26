@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "baoshi",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\baoshi\\baoshi.fbx",
+  "sourceTriangles": 1292,
+  "triangles": 1292,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    1.0,
+    0.4247038662433624
+  ],
+  "normalizedDimensions": [
+    1.0,
+    1.0,
+    0.42470377683639526
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "batch": "electronics-v1",
+  "purpose": "电子产品三消模型生成和验证首批候选，尚非完整九件主题",
+  "source": "原创确定性 Blender 几何，不使用第三方模型或真实品牌 UI",
+  "style": "圆角玩具比例，明快大色块，柔和倒角，与已有三消物件统一尺度",
+  "contract": {
+    "format": "GLB 2.0",
+    "upAxis": "+Y",
+    "frontAxis": "+Z for upright products; +Y display normal for devices lying flat",
+    "normalizedMaxEdge": 1,
+    "boundsTolerance": 0.0001,
+    "minNormalizedThickness": 0.08,
+    "maxTriangles": 6000,
+    "maxMaterials": 1,
+    "maxPrimitives": 1,
+    "maxBytes": 262144,
+    "textureSize": [64, 64],
+    "metallic": 0,
+    "roughnessRange": [0.45, 0.75],
+    "iconSize": [192, 192],
+    "iconMinMargin": 6,
+    "thumbnailSize": [64, 64]
+  },
+  "items": [
+    {
+      "id": "phone",
+      "label": "手机",
+      "mainColor": "coral",
+      "silhouette": "thick elongated rounded rectangle",
+      "recognition": ["screen", "four large app tiles", "earpiece", "rear dual camera"],
+      "approximations": ["no brand or text", "thicker shell for collision and side readability"]
+    },
+    {
+      "id": "laptop",
+      "label": "笔记本电脑",
+      "mainColor": "mint",
+      "silhouette": "open hinged wedge",
+      "recognition": ["open lid", "screen", "keyboard", "trackpad", "hinge"],
+      "approximations": ["no key legends", "fixed lid angle", "no ports"]
+    },
+    {
+      "id": "camera",
+      "label": "相机",
+      "mainColor": "yellow",
+      "silhouette": "compact box with projecting circular lens",
+      "recognition": ["layered lens", "grip", "viewfinder and flash", "shutter", "rear screen"],
+      "approximations": ["opaque stylized lens", "no internal optics", "no brand"]
+    },
+    {
+      "id": "headphones",
+      "label": "头戴耳机",
+      "mainColor": "purple",
+      "silhouette": "arch and two distinct earcups",
+      "recognition": ["arched headband", "headband cushion", "two earcups", "dark ear pads", "support yokes"],
+      "approximations": ["convex collision fills arch hole", "no cable", "fixed joints"]
+    },
+    {
+      "id": "handheld",
+      "label": "掌机",
+      "mainColor": "blue with coral grip",
+      "silhouette": "wide horizontal rounded rectangle",
+      "recognition": ["central screen", "two sticks", "D-pad", "four action buttons", "contrasting grips"],
+      "approximations": ["original abstract game image", "no logos or text"]
+    }
+  ],
+  "stopConditions": [
+    "nonfinite or non-manifold geometry",
+    "budget or normalized bounds failure",
+    "glTF validator errors or warnings",
+    "convex hull construction failure or fallback",
+    "pile escapes, fails to sleep or cannot be picked",
+    "clipped transparent icon or ambiguous 64px silhouette"
+  ]
+}

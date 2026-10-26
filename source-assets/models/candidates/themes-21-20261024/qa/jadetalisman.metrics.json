@@ -1,0 +1,28 @@
+{
+  "id": "jadetalisman",
+  "theme": "antique",
+  "triangles": 816,
+  "vertices": 416,
+  "blenderBounds": [
+    0.5889570713043213,
+    0.20674848556518555,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 20204,
+  "sha256": "37a2be12f63cffaae55777af8b931b1562149887514cc6e8da1c9f39830fdb78",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

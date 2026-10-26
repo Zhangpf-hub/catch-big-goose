@@ -1,0 +1,53 @@
+{
+  "id": "duck-yoyo",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-yoyo/duck-yoyo.glb",
+  "sourceSha256": "36c43ef7d0df499ed4bc7fdff741ebb21c9c95899f69faa5d8443dd08a9ecd94",
+  "originalWorldDimensions": [
+    0.7470215559005737,
+    0.5796435475349426,
+    0.9999998807907104
+  ],
+  "uniformScale": 1.0000001192093038,
+  "normalizedWorldDimensions": [
+    0.7470216155052185,
+    0.5796436071395874,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

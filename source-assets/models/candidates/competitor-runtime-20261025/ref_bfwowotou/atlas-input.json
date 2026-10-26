@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        0.962480902671814,
+        0.7882353067398071,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFWoWoTou\\tex_-1259338174050132931.png",
+      "uvMin": [
+        0.005053400993347168,
+        0.0050504207611083984
+      ],
+      "uvMax": [
+        0.992559552192688,
+        0.9897167682647705
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_bfwowotou\\albedo.png"
+}

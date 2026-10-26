@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-25",
+  "stage": "b2-three-model-art-review",
+  "status": "awaiting-user-three-model-art-review",
+  "recommendedCandidate": "b",
+  "userApproved": true,
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "generationCalls": 7,
+  "currentImages": 6,
+  "modelingStarted": true,
+  "unityModified": false,
+  "thumbnailMethod": "CSS 64x64 and 128x128 canvas, source background retained, no raster re-edit",
+  "files": [
+    {
+      "id": "a",
+      "path": "concepts/duck-a-turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1308189,
+      "sha256": "cec076635b5403fd18546b3840f37df9dbc67b1efd20b86b2da6f3fe76767195"
+    },
+    {
+      "id": "b",
+      "path": "concepts/duck-b-turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1500447,
+      "sha256": "83161684617d711aacf3cb960c091617073cc38c255beb4b13d0a2d7364b0470"
+    },
+    {
+      "id": "c",
+      "path": "concepts/duck-c-turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1493659,
+      "sha256": "f2647ec4edb923761905977ae0741cf64d6a7d461bf880427fb0cdf66a976d53"
+    },
+    {
+      "id": "eggtart",
+      "path": "concepts/duck-eggtart-concept.png",
+      "width": 1312,
+      "height": 1199,
+      "bytes": 1606896,
+      "sha256": "43a90b83c3d1dba581426361ec212ac29f946da528fe8a97183fa31289b15155"
+    },
+    {
+      "id": "steelcup",
+      "path": "concepts/duck-steelcup-concept.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1604611,
+      "sha256": "d15011b7608793fe1fff3ee91768c3175b8f27d7129d42de85471c0d7adee3fb"
+    },
+    {
+      "id": "numberblock",
+      "path": "concepts/duck-numberblock-concept.png",
+      "width": 1491,
+      "height": 1055,
+      "bytes": 1565249,
+      "sha256": "68ad5e783cf3fbcbdd2a2e09d87957b568541b20cd85ee4c75abb542dc0a0940"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 4275,
+      "sha256": "c83e58542678e8a9f57863b9cbdf79034c713ba96a3908a510a7aa51aa63ed79"
+    },
+    {
+      "path": "concepts/design-review.html",
+      "bytes": 11611,
+      "sha256": "8e462c4da81083aad80136a7b357090be17615cc509b15bdd86d620997d77aa5"
+    },
+    {
+      "path": "concepts/generation-prompts.json",
+      "bytes": 22136,
+      "sha256": "9b89453c48b752ca78096544c0e532aad670ea2e44302dfcd069c5ed61981e8f"
+    },
+    {
+      "path": "concept-review-qa.json",
+      "bytes": 884,
+      "sha256": "c42d7285f8fd2168ab18205b60c7a750c62aec9c3dc9c17cdfb99fa851946632"
+    }
+  ],
+  "qa": "concept-review-qa.json",
+  "browserVisualChecksStatus": "not-verified",
+  "referenceHashes": [
+    {
+      "path": "projects/catch-big-goose-unity/Assets/Resources/Icons/ref_goose_eggtart.png",
+      "sha256": "b194b7af4369da6790273f2a94dab574c01163c496aec2ba7eca5fd83e97a8c2"
+    },
+    {
+      "path": "projects/catch-big-goose-unity/Assets/Resources/Icons/ref_goose_steelcup.png",
+      "sha256": "3e25d7fe30889b46d43616d04dcc647d5bde7909610a04879d2d5f5c14624735"
+    },
+    {
+      "path": "projects/catch-big-goose-unity/Assets/Resources/Icons/ref_goose_gtnumberblock.png",
+      "sha256": "1ad2bf4cf3ad3fc5481360af876d11a5044f8c7b70ca6e38ab7d1e1c1204daf0"
+    }
+  ],
+  "currentModelReview": "model-review-b2/review.html",
+  "modelReviewApproved": false,
+  "currentDelivery": "model-review-b2/review.html",
+  "modelReviewRejected": true,
+  "b2ConceptApproved": true,
+  "b2MasterModelApproved": false,
+  "previousRejectedModelReview": "model-review-v1/model-review.html",
+  "fullPlanComplete": false,
+  "b2ThreeModelReviewApproved": false
+}

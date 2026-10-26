@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_thermosbottle",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\ThermosBottle\\ThermosBottle.blend",
+  "sourceTriangles": 1526,
+  "triangles": 1526,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.7171531915664673,
+    3.12796688079834,
+    2.212590456008911
+  ],
+  "normalizedDimensions": [
+    0.5489678382873535,
+    1.0,
+    0.7073574066162109
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

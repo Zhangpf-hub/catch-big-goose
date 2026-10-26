@@ -1,0 +1,28 @@
+{
+  "id": "lollipop",
+  "theme": "dessert",
+  "triangles": 1588,
+  "vertices": 816,
+  "blenderBounds": [
+    0.5714285969734192,
+    0.16224491596221924,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 37548,
+  "sha256": "6ed8535fbdab7eb8e38766956bb31aa844c731e66c53ec52c250efd05e56fe7b",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

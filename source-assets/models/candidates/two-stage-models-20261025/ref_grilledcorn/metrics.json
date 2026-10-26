@@ -1,0 +1,12 @@
+{
+  "id": "ref_grilledcorn",
+  "triangles": 513,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.31745442748069763,
+    1.0,
+    0.4383382797241211
+  ],
+  "glbRoundtrip": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ref_watermelonhalf",
+  "triangles": 540,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.9999999403953552,
+    0.8796983957290649,
+    0.9170445203781128
+  ],
+  "glbRoundtrip": true
+}

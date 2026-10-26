@@ -1,0 +1,1035 @@
+{
+  "schemaVersion": 1,
+  "validationScope": "GLB + Khronos validator + real project hull sampler and JoltWorld with Cocos math adapter",
+  "cocosEditorImport": "separate verification required",
+  "physics": {
+    "engine": "Jolt 1.1.0 WASM",
+    "bodyCount": 45,
+    "simulatedSeconds": 20,
+    "fixedStep": 0.008333333333333333,
+    "sleepingAfter15s": 45,
+    "containmentPassed": true,
+    "raycastPassed": true,
+    "removalPassed": true,
+    "warnings": []
+  },
+  "baseline": [
+    {
+      "id": "apple",
+      "bytes": 83596,
+      "triangles": 2516,
+      "materials": 6,
+      "primitives": 6,
+      "size": [
+        0.9542438387870789,
+        1,
+        0.8807794153690338
+      ],
+      "center": [
+        0,
+        0,
+        1.4901161193847656e-8
+      ],
+      "sha256": "121ce9bf0a90b7ecb57909590a4acd59d1b91198caa23d49f3643894cab06819"
+    },
+    {
+      "id": "banana",
+      "bytes": 65580,
+      "triangles": 1568,
+      "materials": 3,
+      "primitives": 4,
+      "size": [
+        0.9999999403953552,
+        0.1783410608768463,
+        0.4441509395837784
+      ],
+      "center": [
+        0,
+        0,
+        -7.450580596923828e-9
+      ],
+      "sha256": "bba114636662d31a5f825848cf08f5f5b7f1295544da3098434cdad2a39bc3bd"
+    },
+    {
+      "id": "banzhi",
+      "bytes": 298788,
+      "triangles": 1472,
+      "materials": 4,
+      "primitives": 4,
+      "size": [
+        0.995526909828186,
+        0.7614692747592926,
+        1
+      ],
+      "center": [
+        0,
+        -1.4901161193847656e-8,
+        0
+      ],
+      "sha256": "5a4cbd8586984710e027f9f4622d4e00daa42cce95d553417f570bb427d92502"
+    },
+    {
+      "id": "baoshi",
+      "bytes": 100896,
+      "triangles": 1292,
+      "materials": 5,
+      "primitives": 7,
+      "size": [
+        1,
+        0.4247037470340729,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "1aa105eb02672275c01bc212d48e2710d7c2d24df9b69078cd68b77abf757073"
+    },
+    {
+      "id": "basket_farm",
+      "bytes": 1070176,
+      "triangles": 25000,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.1883319392800331,
+        0.9887726008892059
+      ],
+      "center": [
+        0,
+        3.725290298461914e-9,
+        1.4901161193847656e-8
+      ],
+      "sha256": "67daf1b06ed319555a77b28569c67590fcdfbd6180b58ff391f684bb050123b8"
+    },
+    {
+      "id": "basket_redwood",
+      "bytes": 514368,
+      "triangles": 8348,
+      "materials": 5,
+      "primitives": 5,
+      "size": [
+        1,
+        0.3384999930858612,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "0dcebce92b01f4b23e9cf521cdbaa581c3005bf9f111fa1b456dd5a72a157eed"
+    },
+    {
+      "id": "bowl_jade",
+      "bytes": 160908,
+      "triangles": 3498,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.99578857421875,
+        0.44384765625,
+        0.99835205078125
+      ],
+      "center": [
+        -0.0001068115234375,
+        0.2222442626953125,
+        0.0001983642578125
+      ],
+      "sha256": "8a10ac9d80fa8ac55059937b75be43bf59365c76d454fefb51368116492c911e"
+    },
+    {
+      "id": "bracelet",
+      "bytes": 218564,
+      "triangles": 2940,
+      "materials": 6,
+      "primitives": 9,
+      "size": [
+        0.7816615998744965,
+        0.17559855431318283,
+        1
+      ],
+      "center": [
+        1.4901161193847656e-8,
+        -3.725290298461914e-9,
+        0
+      ],
+      "sha256": "adbe1e856ec22e9ab4fa00e91584903edd04c01b3b68c559667493106a3d2168"
+    },
+    {
+      "id": "cake_slice",
+      "bytes": 53312,
+      "triangles": 1772,
+      "materials": 6,
+      "primitives": 6,
+      "size": [
+        0.9999999701976776,
+        0.7797338664531708,
+        0.7656806111335754
+      ],
+      "center": [
+        -1.4901161193847656e-8,
+        1.4901161193847656e-8,
+        0
+      ],
+      "sha256": "c0c1778c58c7240fc3e97fbf5757fd74060763bc0823e3f24c24fe07b7219cab"
+    },
+    {
+      "id": "camera",
+      "bytes": 51364,
+      "triangles": 2200,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.7388888597488403,
+        0.7133333683013916
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "15683aeb3ab54d3a9f88b796e88a60ed95c288d613484458765502670c7174d1"
+    },
+    {
+      "id": "candy",
+      "bytes": 20356,
+      "triangles": 416,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        1,
+        0.4479166567325592,
+        0.453125
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "1d4f45d6495e34bcfbcc82b9f271bc9d908d181dde426d9ce0182d3a2c9acb5e"
+    },
+    {
+      "id": "carrot",
+      "bytes": 143904,
+      "triangles": 3688,
+      "materials": 5,
+      "primitives": 8,
+      "size": [
+        0.3062833249568939,
+        1,
+        0.29947972297668457
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "35c2097f6a1e8e9acd77f26819692158f4ed2565c01e85dfc8d8ae91e68d6b1d"
+    },
+    {
+      "id": "cherry",
+      "bytes": 37916,
+      "triangles": 1264,
+      "materials": 5,
+      "primitives": 5,
+      "size": [
+        1,
+        0.9000226557254791,
+        0.5956954658031464
+      ],
+      "center": [
+        0,
+        1.4901161193847656e-8,
+        -1.4901161193847656e-8
+      ],
+      "sha256": "67da84b8fa277c5103f5721f3f5fa7f9eae72ba0d2c51a4632d4afb900a89450"
+    },
+    {
+      "id": "cookie",
+      "bytes": 42020,
+      "triangles": 1388,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        0.9898214936256409,
+        1,
+        0.211123526096344
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "e563ec887813c04485dd196e1f0f99b0c28da1565947d5279ca0e4f6d91738c4"
+    },
+    {
+      "id": "corn",
+      "bytes": 190644,
+      "triangles": 6576,
+      "materials": 6,
+      "primitives": 7,
+      "size": [
+        0.6061517000198364,
+        0.9999999403953552,
+        0.6161227226257324
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "a90f82732d28a79af5b10a5fe9f5d45f27fb2590edf4251897799413d2b1d289"
+    },
+    {
+      "id": "croissant",
+      "bytes": 114264,
+      "triangles": 4068,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        1.0000000596046448,
+        0.39434903860092163,
+        0.6318614482879639
+      ],
+      "center": [
+        -2.9802322387695312e-8,
+        0,
+        0
+      ],
+      "sha256": "e35c25d6c3edf83e6a9e70d9cc99e4eb196b06267b892a333a78db7d9560eff1"
+    },
+    {
+      "id": "cupcake",
+      "bytes": 559004,
+      "triangles": 5952,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.20758900046348572,
+        0.2865380170723604,
+        0.19244702257559929
+      ],
+      "center": [
+        0.2542154937982559,
+        0.39159706181437737,
+        -0.10107046162900345
+      ],
+      "sha256": "a0d233ab56f65a19256f0baf371beffbe4ada6601f66920a648341e6104642fd"
+    },
+    {
+      "id": "donut",
+      "bytes": 35476,
+      "triangles": 1200,
+      "materials": 5,
+      "primitives": 5,
+      "size": [
+        1,
+        0.37577134370803833,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "3840898c58e17be3a5221abc8736d1b6869beeed1535e54125e726dae746e627"
+    },
+    {
+      "id": "duck",
+      "bytes": 172904,
+      "triangles": 5860,
+      "materials": 11,
+      "primitives": 11,
+      "size": [
+        0.7258060872554779,
+        1,
+        0.7439633905887604
+      ],
+      "center": [
+        1.4901161193847656e-8,
+        0,
+        1.4901161193847656e-8
+      ],
+      "sha256": "1ce1b88991534d6e912c0c0214529119177297b4a06193f0d93ca82ee8949797"
+    },
+    {
+      "id": "eggplant",
+      "bytes": 31048,
+      "triangles": 1016,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        0.46509315073490143,
+        0.9999999701976776,
+        0.433017760515213
+      ],
+      "center": [
+        7.450580596923828e-9,
+        1.4901161193847656e-8,
+        0
+      ],
+      "sha256": "40e4dc6c4388f968def1085813203d6df3fb614064d87b63cf9e07e8c4620963"
+    },
+    {
+      "id": "frog",
+      "bytes": 230492,
+      "triangles": 8128,
+      "materials": 9,
+      "primitives": 9,
+      "size": [
+        0.8836949467658997,
+        1,
+        0.6723645329475403
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "602a1068a4aa589c0c59212e8dc74761cd5209e592f82a8584ff23da619ad29b"
+    },
+    {
+      "id": "goose",
+      "bytes": 115448,
+      "triangles": 2500,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.9290547072887421,
+        0.9999999701976776,
+        0.9177712500095367
+      ],
+      "center": [
+        0.0010964125394821167,
+        0.07866229116916656,
+        -0.17563121020793915
+      ],
+      "sha256": "5016dd5d4e5660f5434d31bba2b5af15766c94b5783de70f07758fef7562b69d"
+    },
+    {
+      "id": "grape",
+      "bytes": 42180,
+      "triangles": 1740,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        0.5331078171730042,
+        1,
+        0.5181222259998322
+      ],
+      "center": [
+        0,
+        0,
+        1.4901161193847656e-8
+      ],
+      "sha256": "e3fe7aa0738f61f099aca5ae7a3ffb20ad05f9399b1ffcf0f512c21691953813"
+    },
+    {
+      "id": "handheld",
+      "bytes": 57736,
+      "triangles": 2464,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.21165049076080322,
+        0.5150485634803772
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "36ae23a569da928ef197768816a61923982b188dbd5b90c7804b5de94df4c1a7"
+    },
+    {
+      "id": "headphones",
+      "bytes": 40820,
+      "triangles": 1684,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.8403756022453308,
+        0.26854461431503296
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "133f73ec0b78fd195369dd6e2da29d325f1dc3b6c9ffbb6ab460a7d5b37aa758"
+    },
+    {
+      "id": "hulu",
+      "bytes": 281648,
+      "triangles": 3776,
+      "materials": 5,
+      "primitives": 8,
+      "size": [
+        0.6757742762565613,
+        1,
+        0.6757742762565613
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "1322e2553d3bf8b683e790a65c4f381a8664bd0fa70073b085550b96636a80e5"
+    },
+    {
+      "id": "icecream",
+      "bytes": 124816,
+      "triangles": 4016,
+      "materials": 7,
+      "primitives": 7,
+      "size": [
+        0.6376820504665375,
+        0.9999999403953552,
+        0.44428229331970215
+      ],
+      "center": [
+        1.4901161193847656e-8,
+        0,
+        0
+      ],
+      "sha256": "4d93c81d7831030eb26547d49707257e290ed46c05148c16ecacdfc346b6996b"
+    },
+    {
+      "id": "koi",
+      "bytes": 62844,
+      "triangles": 2024,
+      "materials": 5,
+      "primitives": 5,
+      "size": [
+        1,
+        0.38504934310913086,
+        0.4767041504383087
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "88b26cf4bc909143b249be36c5b9dbf5006e75d8a05d09a1796ac73f2abde6aa"
+    },
+    {
+      "id": "laptop",
+      "bytes": 57476,
+      "triangles": 2404,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.7087869048118591,
+        0.7211952209472656
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "f23c906a935f691d42411527d8aa4cd21d4b2ea341fd3a9dc9762f4720953ef9"
+    },
+    {
+      "id": "lemon",
+      "bytes": 28932,
+      "triangles": 900,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        1,
+        0.563132643699646,
+        0.5631329119205475
+      ],
+      "center": [
+        0,
+        0,
+        1.4901161193847656e-8
+      ],
+      "sha256": "a63b5c9d8b66137f8b950930c0b3d87e90d7c6d12f51d4b3bb14c25c60bbf212"
+    },
+    {
+      "id": "lotus",
+      "bytes": 130244,
+      "triangles": 3892,
+      "materials": 7,
+      "primitives": 7,
+      "size": [
+        1,
+        0.42663657665252686,
+        0.9740992784500122
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "e33e0bf1fc54f7878abf5991be8a7c3e1100fd9cc3583f6eeaaa41baee74ed2a"
+    },
+    {
+      "id": "macaron",
+      "bytes": 88824,
+      "triangles": 2652,
+      "materials": 5,
+      "primitives": 5,
+      "size": [
+        0.9597506523132324,
+        0.9999999701976776,
+        0.7415153980255127
+      ],
+      "center": [
+        0,
+        -1.4901161193847656e-8,
+        0
+      ],
+      "sha256": "cd569f109fe9f1b25d517e99dc533aded03cff6d79a967730fe1e24a59f8f5e8"
+    },
+    {
+      "id": "mouse",
+      "bytes": 30052,
+      "triangles": 1256,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.6255000233650208,
+        0.5500000715255737,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "69a0b312a70352cd5a74475fc8330aaee9af2929e4825568f25ce0802226d17d"
+    },
+    {
+      "id": "mushroom",
+      "bytes": 43464,
+      "triangles": 1516,
+      "materials": 2,
+      "primitives": 2,
+      "size": [
+        0.9999997615814209,
+        0.9862043857574463,
+        0.9999999701976776
+      ],
+      "center": [
+        0,
+        0,
+        -1.4901161193847656e-8
+      ],
+      "sha256": "fa2c260643e3f55c3e0ac6bbab842e8693c7ca173f814f11337a3d179c43868b"
+    },
+    {
+      "id": "orange",
+      "bytes": 59952,
+      "triangles": 1300,
+      "materials": 4,
+      "primitives": 4,
+      "size": [
+        0.9934398531913757,
+        1,
+        0.9737624824047089
+      ],
+      "center": [
+        0,
+        0,
+        1.4901161193847656e-8
+      ],
+      "sha256": "4f9c61fd47979d533c03b6b22f7ff0f8b0b3af304aaca2612fae913d61787a6f"
+    },
+    {
+      "id": "pear",
+      "bytes": 37328,
+      "triangles": 1308,
+      "materials": 4,
+      "primitives": 4,
+      "size": [
+        0.6793976426124573,
+        1,
+        0.679397702217102
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "04e41a2072c15173791c56c647f480d5cd9918e90bcabb1769d9784706aaf7c7"
+    },
+    {
+      "id": "phone",
+      "bytes": 37272,
+      "triangles": 1564,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.5605000257492065,
+        0.2175000011920929,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "258791c6f9a41cb3d4c7d8d779f3a7fe61dced936fbb136330e453f71e62b708"
+    },
+    {
+      "id": "pudding",
+      "bytes": 55812,
+      "triangles": 1780,
+      "materials": 4,
+      "primitives": 4,
+      "size": [
+        0.8250001072883606,
+        1.0000000596046448,
+        0.8250001072883606
+      ],
+      "center": [
+        0,
+        2.9802322387695312e-8,
+        0
+      ],
+      "sha256": "eb13c265930931bd7e49a63e9600260e663a3977e3eb5d12b5ed2c39529032a4"
+    },
+    {
+      "id": "pumpkin",
+      "bytes": 86068,
+      "triangles": 3196,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        0.8717125654220581,
+        1,
+        0.8805030882358551
+      ],
+      "center": [
+        0,
+        0,
+        1.4901161193847656e-8
+      ],
+      "sha256": "5310da49ebcf4f3214abc021a14903814016c76857de1b43cd8ef88385078071"
+    },
+    {
+      "id": "radio",
+      "bytes": 41024,
+      "triangles": 1696,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.9999999403953552,
+        0.757965624332428,
+        0.4373626112937927
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "af5ff7b42675f50aafb0037b941b58b620a5e576bf5adb015839edcc11a67788"
+    },
+    {
+      "id": "rock",
+      "bytes": 9336,
+      "triangles": 80,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1.0000001192092896,
+        0.5987885594367981,
+        0.7440584003925323
+      ],
+      "center": [
+        0,
+        0,
+        -1.4901161193847656e-8
+      ],
+      "sha256": "a228c79b8f64c69e831d3e310656c28218f93c3e9528ae08ed5c69135d5fad6d"
+    },
+    {
+      "id": "ruyi",
+      "bytes": 222532,
+      "triangles": 5428,
+      "materials": 5,
+      "primitives": 14,
+      "size": [
+        0.9999999403953552,
+        0.14542622864246368,
+        0.6116795539855957
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "b7b4c7f272a2af861f5514554e395d2644d1f6d80ebd2cb1247794bf9e43e1f6"
+    },
+    {
+      "id": "smartwatch",
+      "bytes": 36264,
+      "triangles": 1516,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.4258928596973419,
+        0.22053571045398712,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "1d12aa2f1a3b66621f7228b9bcf53d0c24e0c8fa173f970d1406a6da7c12bea8"
+    },
+    {
+      "id": "speaker",
+      "bytes": 44044,
+      "triangles": 1868,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.509761393070221,
+        0.9999999403953552,
+        0.49132320284843445
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "cffcf752dd65e2d842d05d8aed121004c026072fc097fd7410bdfc86f85dc959"
+    },
+    {
+      "id": "strawberry",
+      "bytes": 67380,
+      "triangles": 1384,
+      "materials": 3,
+      "primitives": 3,
+      "size": [
+        0.5790956616401672,
+        1,
+        0.5414530634880066
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "d4596347d3231fa198fe7008e2e8f16136887c97affd1c4e68641b377b792bed"
+    },
+    {
+      "id": "tongqian",
+      "bytes": 158956,
+      "triangles": 3636,
+      "materials": 4,
+      "primitives": 5,
+      "size": [
+        1,
+        0.12000000849366188,
+        1
+      ],
+      "center": [
+        0,
+        1.862645149230957e-9,
+        0
+      ],
+      "sha256": "94aebf2353b1c0a704180df2ae513f9a037320b532db23729d3ae060e538a8ae"
+    },
+    {
+      "id": "tray_dessert",
+      "bytes": 267404,
+      "triangles": 4000,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.9993276596069336,
+        0.2996875196695328,
+        1
+      ],
+      "center": [
+        2.9802322387695312e-8,
+        -7.450580596923828e-9,
+        0
+      ],
+      "sha256": "b96a0ea0580a761318637daaa7e0d42d0f43916c2f236a5ff396a1e3bf8b080e"
+    },
+    {
+      "id": "tray_electronics",
+      "bytes": 36984,
+      "triangles": 1520,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.27275000512599945,
+        1
+      ],
+      "center": [
+        0,
+        7.450580596923828e-9,
+        0
+      ],
+      "sha256": "f49f09f9b482c825e37cacbb623cd07fbddb829db4b23fe7db2e0b611975af69"
+    },
+    {
+      "id": "yuxi",
+      "bytes": 463284,
+      "triangles": 19904,
+      "materials": 5,
+      "primitives": 7,
+      "size": [
+        0.4328869581222534,
+        1,
+        0.4328869581222534
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "0ef2bc4943f5c12adcca811c7b7abd9c68647ebe53524cba3335d0f19c0146d7"
+    },
+    {
+      "id": "yuzhuo",
+      "bytes": 241780,
+      "triangles": 2784,
+      "materials": 3,
+      "primitives": 4,
+      "size": [
+        1,
+        0.2696160823106766,
+        1
+      ],
+      "center": [
+        0,
+        7.450580596923828e-9,
+        0
+      ],
+      "sha256": "35afa0ae3381d487a73df77eab3222a7ea91969412559355fa80e182a2c51e1c"
+    }
+  ],
+  "models": [
+    {
+      "id": "monitor",
+      "bytes": 16572,
+      "triangles": 648,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        1,
+        0.9204545617103577,
+        0.3636363446712494
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "d160094dd782b21f4baafc2ca4d03b9cb27f00fc3db17e8b20eb353509bd0267",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 40,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "printer",
+      "bytes": 18348,
+      "triangles": 724,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.8628263473510742,
+        0.5895724296569824,
+        1
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "2cbbd50052cd9cbcc62041aea09cdd8a930bd98a3f81c2d498fe53819431b1e4",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 27,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "router",
+      "bytes": 24600,
+      "triangles": 996,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.9302328824996948,
+        1.0000000596046448,
+        0.663724958896637
+      ],
+      "center": [
+        0,
+        -2.9802322387695312e-8,
+        0
+      ],
+      "sha256": "50104923a1dc6b00ff22cf4c4bb21024478a2f240e3f1f7e0262e3ca53769aa3",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 34,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "television",
+      "bytes": 22592,
+      "triangles": 916,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.9999999403953552,
+        0.8294116854667664,
+        0.3911764323711395
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "ac09f2743554be99585e537935641802319d74975114083f8d1d6e67dadc8732",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 29,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    },
+    {
+      "id": "usbdrive",
+      "bytes": 20164,
+      "triangles": 816,
+      "materials": 1,
+      "primitives": 1,
+      "size": [
+        0.32608699798583984,
+        1,
+        0.16304349899291992
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "sha256": "6b7503266ffea85dc5d315636b2aba51c51f5a595669a47ea97630151732838d",
+      "validatorErrors": 0,
+      "validatorWarnings": 0,
+      "hullPoints": 42,
+      "convexHullPassed": true,
+      "sleepingAfter15s": 9
+    }
+  ]
+}

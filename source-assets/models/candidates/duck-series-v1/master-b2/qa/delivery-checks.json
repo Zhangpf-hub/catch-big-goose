@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "icons": [
+    {
+      "pixels": 192,
+      "alphaBounds": [
+        72,
+        20,
+        124,
+        175
+      ],
+      "minimumMargin": 17
+    },
+    {
+      "pixels": 64,
+      "alphaBounds": [
+        23,
+        6,
+        42,
+        59
+      ],
+      "minimumMargin": 5
+    }
+  ],
+  "htmlLocalReferences": 21,
+  "missingReferences": [],
+  "browserLayoutVerified": false,
+  "staticRenderHashCurrent": true,
+  "artApproval": false,
+  "unityAcceptance": false
+}

@@ -1,0 +1,60 @@
+{
+  "materials": [
+    {
+      "name": "breakfast_body",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite1",
+      "texture": "ReferenceTextures/t_37d75e7d28431a1ec5999de8",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcapScale": 0.2199999988079071,
+      "matcapColor": [
+        0.3962264060974121,
+        0.3962264060974121,
+        0.3962264060974121,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "woodBoxBottom",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    },
+    {
+      "name": "breakfast_rim",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite1",
+      "texture": "ReferenceTextures/t_37d75e7d28431a1ec5999de8",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcapScale": 0.25,
+      "matcapColor": [
+        0.3962264060974121,
+        0.3962264060974121,
+        0.3962264060974121,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "woodBox",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    }
+  ]
+}

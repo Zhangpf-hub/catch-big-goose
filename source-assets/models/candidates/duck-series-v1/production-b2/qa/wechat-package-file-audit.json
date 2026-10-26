@@ -1,0 +1,293 @@
+{
+  "rawBytes": 32181282,
+  "packagedBytes": 31244537,
+  "maximumBytes": 31457280,
+  "included": [
+    {
+      "path": "check-version.js",
+      "bytes": 8294
+    },
+    {
+      "path": "events.js",
+      "bytes": 1603
+    },
+    {
+      "path": "game.js",
+      "bytes": 8189
+    },
+    {
+      "path": "game.json",
+      "bytes": 703
+    },
+    {
+      "path": "plugin-config.js",
+      "bytes": 506
+    },
+    {
+      "path": "project.config.json",
+      "bytes": 1746
+    },
+    {
+      "path": "texture-config.js",
+      "bytes": 125
+    },
+    {
+      "path": "unity-namespace.js",
+      "bytes": 9011
+    },
+    {
+      "path": "weapp-adapter.js",
+      "bytes": 76398
+    },
+    {
+      "path": "webgl.wasm.framework.unityweb.js",
+      "bytes": 487031
+    },
+    {
+      "path": "data-package/0cf884ea33d45896.webgl.data.unityweb.bin.br",
+      "bytes": 20154096
+    },
+    {
+      "path": "data-package/game.js",
+      "bytes": 0
+    },
+    {
+      "path": "images/challenge-map-bg.jpg",
+      "bytes": 538229
+    },
+    {
+      "path": "images/unity_logo.png",
+      "bytes": 1216
+    },
+    {
+      "path": "media/Darkchaser-Battletide.mp4",
+      "bytes": 3871281
+    },
+    {
+      "path": "media/game.js",
+      "bytes": 34
+    },
+    {
+      "path": "media/manifest.json",
+      "bytes": 562
+    },
+    {
+      "path": "media/Skycore-Reboot.f5800.mp4",
+      "bytes": 1293382
+    },
+    {
+      "path": "unity-sdk/ad.js",
+      "bytes": 9184
+    },
+    {
+      "path": "unity-sdk/authorize.js",
+      "bytes": 758
+    },
+    {
+      "path": "unity-sdk/camera.js",
+      "bytes": 3058
+    },
+    {
+      "path": "unity-sdk/canvas-context.js",
+      "bytes": 346
+    },
+    {
+      "path": "unity-sdk/canvas.js",
+      "bytes": 853
+    },
+    {
+      "path": "unity-sdk/chat.js",
+      "bytes": 5229
+    },
+    {
+      "path": "unity-sdk/cloud.js",
+      "bytes": 9225
+    },
+    {
+      "path": "unity-sdk/conf.js",
+      "bytes": 51
+    },
+    {
+      "path": "unity-sdk/file-info.js",
+      "bytes": 1621
+    },
+    {
+      "path": "unity-sdk/fix.js",
+      "bytes": 2865
+    },
+    {
+      "path": "unity-sdk/fs.js",
+      "bytes": 16691
+    },
+    {
+      "path": "unity-sdk/game-club.js",
+      "bytes": 2606
+    },
+    {
+      "path": "unity-sdk/game-recorder.js",
+      "bytes": 3278
+    },
+    {
+      "path": "unity-sdk/index.js",
+      "bytes": 3130
+    },
+    {
+      "path": "unity-sdk/logger.js",
+      "bytes": 647
+    },
+    {
+      "path": "unity-sdk/module-helper.js",
+      "bytes": 370
+    },
+    {
+      "path": "unity-sdk/open-data.js",
+      "bytes": 7875
+    },
+    {
+      "path": "unity-sdk/recorder.js",
+      "bytes": 4625
+    },
+    {
+      "path": "unity-sdk/response.js",
+      "bytes": 1965
+    },
+    {
+      "path": "unity-sdk/resType.js",
+      "bytes": 31280
+    },
+    {
+      "path": "unity-sdk/resTypeOther.js",
+      "bytes": 2390
+    },
+    {
+      "path": "unity-sdk/sdk.js",
+      "bytes": 17674
+    },
+    {
+      "path": "unity-sdk/share.js",
+      "bytes": 837
+    },
+    {
+      "path": "unity-sdk/storage.js",
+      "bytes": 4432
+    },
+    {
+      "path": "unity-sdk/texture.js",
+      "bytes": 11345
+    },
+    {
+      "path": "unity-sdk/upload-file.js",
+      "bytes": 2739
+    },
+    {
+      "path": "unity-sdk/userinfo.js",
+      "bytes": 3012
+    },
+    {
+      "path": "unity-sdk/util.js",
+      "bytes": 6589
+    },
+    {
+      "path": "unity-sdk/utils.js",
+      "bytes": 13687
+    },
+    {
+      "path": "unity-sdk/video.js",
+      "bytes": 2628
+    },
+    {
+      "path": "wasmcode/5b0347da2f35b791.webgl.wasm.code.unityweb.wasm.br",
+      "bytes": 4489465
+    },
+    {
+      "path": "wasmcode/game.js",
+      "bytes": 0
+    },
+    {
+      "path": "unity-sdk/audio/common.js",
+      "bytes": 2301
+    },
+    {
+      "path": "unity-sdk/audio/const.js",
+      "bytes": 234
+    },
+    {
+      "path": "unity-sdk/audio/index.js",
+      "bytes": 192
+    },
+    {
+      "path": "unity-sdk/audio/inner-audio.js",
+      "bytes": 12629
+    },
+    {
+      "path": "unity-sdk/audio/store.js",
+      "bytes": 692
+    },
+    {
+      "path": "unity-sdk/audio/unity-audio.js",
+      "bytes": 48378
+    },
+    {
+      "path": "unity-sdk/audio/utils.js",
+      "bytes": 2138
+    },
+    {
+      "path": "unity-sdk/bluetooth/index.js",
+      "bytes": 1316
+    },
+    {
+      "path": "unity-sdk/font/fix-cmap.js",
+      "bytes": 2305
+    },
+    {
+      "path": "unity-sdk/font/index.js",
+      "bytes": 6910
+    },
+    {
+      "path": "unity-sdk/font/read-metrics.js",
+      "bytes": 1393
+    },
+    {
+      "path": "unity-sdk/font/split-sc.js",
+      "bytes": 4755
+    },
+    {
+      "path": "unity-sdk/font/util.js",
+      "bytes": 479
+    },
+    {
+      "path": "unity-sdk/gyroscope/index.js",
+      "bytes": 2626
+    },
+    {
+      "path": "unity-sdk/mobileKeyboard/index.js",
+      "bytes": 4410
+    },
+    {
+      "path": "unity-sdk/TCPSocket/index.js",
+      "bytes": 5548
+    },
+    {
+      "path": "unity-sdk/touch/index.js",
+      "bytes": 2378
+    },
+    {
+      "path": "unity-sdk/UDPSocket/index.js",
+      "bytes": 6467
+    },
+    {
+      "path": "unity-sdk/video/index.js",
+      "bytes": 24252
+    },
+    {
+      "path": "workers/response/index.js",
+      "bytes": 2273
+    }
+  ],
+  "excluded": [
+    {
+      "path": "webgl.wasm.symbols.unityweb.br",
+      "bytes": 936745
+    }
+  ]
+}

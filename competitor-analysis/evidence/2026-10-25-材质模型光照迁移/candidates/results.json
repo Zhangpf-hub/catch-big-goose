@@ -1,0 +1,962 @@
+[
+  {
+    "id": "ref_apple",
+    "triangles": 510,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.9813975095748901,
+      0.9156786799430847
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bananas",
+    "triangles": 1105,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.7628204226493835,
+      0.761472761631012
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bbqhotdog",
+    "triangles": 832,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.451622873544693,
+      1.0,
+      0.22549766302108765
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bbqmushroom",
+    "triangles": 660,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.2807029187679291,
+      1.0,
+      0.3304959535598755
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bbqpotato",
+    "triangles": 1382,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.4556335210800171,
+      1.0,
+      0.4289410710334778
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bbqsausage",
+    "triangles": 490,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.298662930727005,
+      1.0,
+      0.27011817693710327
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bbqskewers1",
+    "triangles": 904,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.24952857196331024,
+      1.0,
+      0.1727590709924698
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bbqskewers2",
+    "triangles": 760,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.2949330806732178,
+      1.0,
+      0.2217479795217514
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bbqtoast",
+    "triangles": 220,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9713733792304993,
+      1.0,
+      0.12143954634666443
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfcornjuice",
+    "triangles": 904,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.650550901889801,
+      1.0,
+      0.892025351524353
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfegghalf",
+    "triangles": 398,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.7823038101196289,
+      1.0,
+      0.6510869264602661
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bffagao",
+    "triangles": 578,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.8448429703712463,
+      0.7732000946998596
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfflowerroll",
+    "triangles": 690,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.81787109375,
+      0.8806356191635132
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bffrieddoughstick",
+    "triangles": 576,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.7674949765205383,
+      1.0,
+      0.20657619833946228
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bffriedsteamedbun",
+    "triangles": 444,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.8054007291793823,
+      0.9365907907485962
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfpumpkinpie",
+    "triangles": 528,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.947739839553833,
+      0.5484358072280884
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfsesameball",
+    "triangles": 528,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.996539294719696,
+      0.9973227977752686
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfshaomai",
+    "triangles": 1544,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.8288524150848389,
+      0.9953449368476868,
+      1.0
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfshrimpshaomai",
+    "triangles": 984,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.796701967716217,
+      1.0,
+      0.9982649683952332
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfsoupdumpling",
+    "triangles": 1104,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.6649498343467712,
+      0.878466784954071
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfsoymilk",
+    "triangles": 1380,
+    "parts": 3,
+    "materials": 3,
+    "dimensions": [
+      0.8990472555160522,
+      0.9999999403953552,
+      0.9567346572875977
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfspringroll",
+    "triangles": 588,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.90916508436203,
+      0.9160052537918091
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfsweetcorn",
+    "triangles": 926,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.8679591417312622,
+      1.0,
+      0.3264859914779663
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bftofupudding",
+    "triangles": 720,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      1.0,
+      0.8194980025291443,
+      0.858816921710968
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfwowotou",
+    "triangles": 800,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9037119746208191,
+      1.0,
+      0.891853392124176
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_bfxiaolongbao",
+    "triangles": 2006,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.9361858367919922,
+      1.0,
+      0.8220235705375671
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_carrot",
+    "triangles": 432,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.3930606245994568,
+      1.0,
+      0.27296537160873413
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_chewinggum",
+    "triangles": 140,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.32811450958251953,
+      1.0,
+      0.6850555539131165
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_chickenleg",
+    "triangles": 1007,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.5545075535774231,
+      1.0,
+      0.2291448712348938
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_chinabowl",
+    "triangles": 1000,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.696131706237793,
+      0.9651771783828735
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_corn",
+    "triangles": 1043,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.7785060405731201,
+      1.0,
+      0.2958707809448242
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_cs_garlic",
+    "triangles": 932,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9332119822502136,
+      1.0,
+      0.9987332820892334
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_fan",
+    "triangles": 838,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.7606079578399658,
+      0.9999999403953552,
+      0.07110283523797989
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_flashlight2",
+    "triangles": 1356,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.8477492332458496,
+      1.0,
+      0.734356701374054
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_frieddumpling",
+    "triangles": 568,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.5324474573135376,
+      0.3560427129268646
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_garlic",
+    "triangles": 932,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9332118630409241,
+      1.0,
+      0.9987332224845886
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_grilledcorn",
+    "triangles": 513,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.31745442748069763,
+      1.0,
+      0.4383382797241211
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_grilledfish2",
+    "triangles": 560,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.6633983254432678,
+      1.0,
+      0.0964660495519638
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtcrocodile",
+    "triangles": 1986,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9158867597579956,
+      0.7479493021965027,
+      1.0
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtdinosaur",
+    "triangles": 1996,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.6513621211051941,
+      0.737439751625061
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtdrawingboard",
+    "triangles": 712,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.591340959072113,
+      1.0,
+      0.2401052713394165
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtfruiteraser",
+    "triangles": 348,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9080179929733276,
+      1.0,
+      0.6855849623680115
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtgoosestamp",
+    "triangles": 1024,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.5284048318862915,
+      1.0,
+      0.8582751154899597
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtkaleidoscope",
+    "triangles": 920,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.29150402545928955,
+      1.0,
+      0.8146082758903503
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtlaserpen",
+    "triangles": 904,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.20050384104251862,
+      1.0,
+      0.23574350774288177
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtmagiccubel",
+    "triangles": 1196,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.8229305148124695,
+      0.9099787473678589,
+      1.0
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtpaperboat",
+    "triangles": 380,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.3427724838256836,
+      0.3511056900024414
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtpaperfortune",
+    "triangles": 280,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.8774624466896057,
+      0.7106844186782837
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtpaperstar",
+    "triangles": 126,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.9554201364517212,
+      0.5470120310783386
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtpapertree",
+    "triangles": 1728,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.7357603311538696,
+      1.0,
+      0.8305189609527588
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtplanepen",
+    "triangles": 2336,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.5539959669113159,
+      1.0,
+      0.3868567645549774
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtplasterdeer",
+    "triangles": 1990,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.8282144069671631,
+      1.0,
+      0.8297363519668579
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtplaydough",
+    "triangles": 2472,
+    "parts": 3,
+    "materials": 3,
+    "dimensions": [
+      0.9233072400093079,
+      0.9924271702766418,
+      1.0
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtracecar",
+    "triangles": 1988,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.6948416829109192,
+      1.0,
+      0.4269256293773651
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtringcandy",
+    "triangles": 948,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.89756178855896,
+      0.9999999403953552,
+      0.9619749188423157
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtsandbag",
+    "triangles": 1256,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.8660365343093872,
+      0.9499403238296509,
+      1.0
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtsmiledoll",
+    "triangles": 1680,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.8591694831848145,
+      1.0,
+      0.4640806019306183
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtstickerbook",
+    "triangles": 1932,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.6405841708183289,
+      0.9999999403953552,
+      0.30614224076271057
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_gtwatergame",
+    "triangles": 1918,
+    "parts": 3,
+    "materials": 3,
+    "dimensions": [
+      0.9999999403953552,
+      0.4904704988002777,
+      0.18511901795864105
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_hamsausage1",
+    "triangles": 669,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.2470218539237976,
+      1.0,
+      0.2473350316286087
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_hamsausage2",
+    "triangles": 1073,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.14281785488128662,
+      1.0,
+      0.142817884683609
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_orange",
+    "triangles": 480,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.9277984499931335,
+      0.9350409507751465
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_pepperfresh",
+    "triangles": 238,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.34119197726249695,
+      0.1428004503250122
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_potato",
+    "triangles": 523,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.4529942572116852,
+      1.0,
+      0.41408243775367737
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_potatoskewers",
+    "triangles": 224,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.35580822825431824,
+      0.9999999403953552,
+      0.0580052025616169
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_redshrimp",
+    "triangles": 1295,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.575127899646759,
+      1.0,
+      0.2894313633441925
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_ribsbig",
+    "triangles": 762,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.7089359760284424,
+      0.19876563549041748
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_roastchicken",
+    "triangles": 932,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.8022553324699402,
+      1.0,
+      0.48230233788490295
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_saltedegg",
+    "triangles": 180,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.7864702343940735,
+      1.0,
+      0.819083571434021
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_sausage",
+    "triangles": 612,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.49630898237228394,
+      0.23615287989377975
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_scallop",
+    "triangles": 1029,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.5677088499069214,
+      1.0,
+      0.17698346078395844
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_shrimp",
+    "triangles": 604,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.5294604897499084,
+      1.0,
+      0.1619238257408142
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_soysauce",
+    "triangles": 792,
+    "parts": 3,
+    "materials": 3,
+    "dimensions": [
+      0.27971720695495605,
+      1.0,
+      0.4403816759586334
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_spinningtop",
+    "triangles": 888,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.6538200378417969,
+      1.0,
+      0.8306646347045898
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_thermosbottle",
+    "triangles": 1526,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.5489678382873535,
+      1.0,
+      0.7073574066162109
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_toycar",
+    "triangles": 1818,
+    "parts": 3,
+    "materials": 3,
+    "dimensions": [
+      1.0,
+      0.6977449655532837,
+      0.6443259716033936
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_watermelonhalf",
+    "triangles": 540,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9999999403953552,
+      0.8796983957290649,
+      0.9170445203781128
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_watermelonslice",
+    "triangles": 900,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.9861419200897217,
+      0.8706303238868713,
+      1.0
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_windoilbottle",
+    "triangles": 1608,
+    "parts": 4,
+    "materials": 4,
+    "dimensions": [
+      0.5992487072944641,
+      1.0,
+      0.17461149394512177
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "ref_woodhand",
+    "triangles": 1156,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      0.2435041218996048,
+      1.0,
+      0.1224348172545433
+    ],
+    "glbRoundtrip": true
+  }
+]

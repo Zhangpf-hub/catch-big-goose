@@ -1,0 +1,553 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "duck-eggtart",
+      "passed": true,
+      "checks": {
+        "sameCamera": true,
+        "sameOrthographicScale": true,
+        "sameLighting": true,
+        "normalizedMaximumExtent": true,
+        "centered": true,
+        "inputHashesCurrent": true,
+        "reference192Size": true,
+        "referenceIconMargin": true,
+        "reference64Size": true,
+        "duck192Size": true,
+        "duckIconMargin": true,
+        "duck64Size": true,
+        "frontSameCanvas": true,
+        "frontNoCropping": true,
+        "sideSameCanvas": true,
+        "sideNoCropping": true,
+        "backSameCanvas": true,
+        "backNoCropping": true,
+        "heroSameCanvas": true,
+        "heroNoCropping": true,
+        "gameplaySameCanvas": true,
+        "gameplayNoCropping": true
+      },
+      "icons": [
+        {
+          "kind": "reference",
+          "size": 192,
+          "alphaBounds": [
+            37,
+            37,
+            149,
+            159
+          ],
+          "minimumMargin": 33
+        },
+        {
+          "kind": "reference",
+          "size": 64,
+          "alphaBounds": [
+            12,
+            12,
+            50,
+            53
+          ],
+          "minimumMargin": 11
+        },
+        {
+          "kind": "duck",
+          "size": 192,
+          "alphaBounds": [
+            58,
+            40,
+            160,
+            156
+          ],
+          "minimumMargin": 32
+        },
+        {
+          "kind": "duck",
+          "size": 64,
+          "alphaBounds": [
+            19,
+            13,
+            54,
+            53
+          ],
+          "minimumMargin": 10
+        }
+      ],
+      "normalization": [
+        {
+          "id": "duck-eggtart",
+          "kind": "reference",
+          "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_EggTart/Goose_EggTart.glb",
+          "sourceSha256": "6da007ffb96c0d5a5ae8a3dc0f5ccb1bd5f2be8270847d03a01a194de5adcf70",
+          "originalWorldDimensions": [
+            1.3312076330184937,
+            1.4408202171325684,
+            1.2397971153259277
+          ],
+          "uniformScale": 0.6940491173771411,
+          "normalizedWorldDimensions": [
+            0.9239234924316406,
+            1.0,
+            0.8604800701141357
+          ],
+          "normalizedCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orthographicScale": 1.48,
+          "cameras": {
+            "front": [
+              0,
+              -3,
+              0.015
+            ],
+            "side": [
+              3,
+              0,
+              0.015
+            ],
+            "back": [
+              0,
+              3,
+              0.015
+            ],
+            "hero": [
+              2.2,
+              -3,
+              1.5
+            ],
+            "gameplay": [
+              1.4,
+              -2.3,
+              3.3
+            ]
+          },
+          "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+          "shader": "Recovered base-colour/PBR approximation",
+          "sourceUnchanged": true
+        },
+        {
+          "id": "duck-eggtart",
+          "kind": "duck",
+          "input": "source-assets/models/candidates/duck-series-v1/model-review-b2/models/duck-eggtart/duck-eggtart.glb",
+          "sourceSha256": "b657c83435da8b0606c61794e0bc79bfa57bca5fe9ac95fe39180c5cd5bd2fd1",
+          "originalWorldDimensions": [
+            0.8843943476676941,
+            0.5603507161140442,
+            1.0
+          ],
+          "uniformScale": 1.0,
+          "normalizedWorldDimensions": [
+            0.8843943476676941,
+            0.5603507161140442,
+            1.0
+          ],
+          "normalizedCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orthographicScale": 1.48,
+          "cameras": {
+            "front": [
+              0,
+              -3,
+              0.015
+            ],
+            "side": [
+              3,
+              0,
+              0.015
+            ],
+            "back": [
+              0,
+              3,
+              0.015
+            ],
+            "hero": [
+              2.2,
+              -3,
+              1.5
+            ],
+            "gameplay": [
+              1.4,
+              -2.3,
+              3.3
+            ]
+          },
+          "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+          "shader": "Original 256px palette PBR",
+          "sourceUnchanged": true
+        }
+      ]
+    },
+    {
+      "id": "duck-steelcup",
+      "passed": true,
+      "checks": {
+        "sameCamera": true,
+        "sameOrthographicScale": true,
+        "sameLighting": true,
+        "normalizedMaximumExtent": true,
+        "centered": true,
+        "inputHashesCurrent": true,
+        "reference192Size": true,
+        "referenceIconMargin": true,
+        "reference64Size": true,
+        "duck192Size": true,
+        "duckIconMargin": true,
+        "duck64Size": true,
+        "frontSameCanvas": true,
+        "frontNoCropping": true,
+        "sideSameCanvas": true,
+        "sideNoCropping": true,
+        "backSameCanvas": true,
+        "backNoCropping": true,
+        "heroSameCanvas": true,
+        "heroNoCropping": true,
+        "gameplaySameCanvas": true,
+        "gameplayNoCropping": true
+      },
+      "icons": [
+        {
+          "kind": "reference",
+          "size": 192,
+          "alphaBounds": [
+            50,
+            53,
+            158,
+            148
+          ],
+          "minimumMargin": 34
+        },
+        {
+          "kind": "reference",
+          "size": 64,
+          "alphaBounds": [
+            16,
+            17,
+            53,
+            50
+          ],
+          "minimumMargin": 11
+        },
+        {
+          "kind": "duck",
+          "size": 192,
+          "alphaBounds": [
+            33,
+            43,
+            150,
+            151
+          ],
+          "minimumMargin": 33
+        },
+        {
+          "kind": "duck",
+          "size": 64,
+          "alphaBounds": [
+            10,
+            14,
+            51,
+            51
+          ],
+          "minimumMargin": 10
+        }
+      ],
+      "normalization": [
+        {
+          "id": "duck-steelcup",
+          "kind": "reference",
+          "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_SteelCup/Goose_SteelCup.glb",
+          "sourceSha256": "af9e6d4d99c4a7c16f2775fe4e8a348dc883f53b930435a8ff34d2c4f95f7882",
+          "originalWorldDimensions": [
+            1.7720379829406738,
+            1.9766364097595215,
+            1.5194019079208374
+          ],
+          "uniformScale": 0.5059099362242652,
+          "normalizedWorldDimensions": [
+            0.8964915871620178,
+            0.9999999403953552,
+            0.7686805129051208
+          ],
+          "normalizedCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orthographicScale": 1.48,
+          "cameras": {
+            "front": [
+              0,
+              -3,
+              0.015
+            ],
+            "side": [
+              3,
+              0,
+              0.015
+            ],
+            "back": [
+              0,
+              3,
+              0.015
+            ],
+            "hero": [
+              2.2,
+              -3,
+              1.5
+            ],
+            "gameplay": [
+              1.4,
+              -2.3,
+              3.3
+            ]
+          },
+          "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+          "shader": "Recovered base-colour/PBR approximation",
+          "sourceUnchanged": true
+        },
+        {
+          "id": "duck-steelcup",
+          "kind": "duck",
+          "input": "source-assets/models/candidates/duck-series-v1/model-review-b2/models/duck-steelcup/duck-steelcup.glb",
+          "sourceSha256": "b3dc84c5384936a59c98e2b2e126c1b1397e89c245d8eca33df0a1c44864c325",
+          "originalWorldDimensions": [
+            1.0,
+            0.5726428627967834,
+            0.7619637250900269
+          ],
+          "uniformScale": 1.0,
+          "normalizedWorldDimensions": [
+            1.0,
+            0.5726428627967834,
+            0.7619637250900269
+          ],
+          "normalizedCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orthographicScale": 1.48,
+          "cameras": {
+            "front": [
+              0,
+              -3,
+              0.015
+            ],
+            "side": [
+              3,
+              0,
+              0.015
+            ],
+            "back": [
+              0,
+              3,
+              0.015
+            ],
+            "hero": [
+              2.2,
+              -3,
+              1.5
+            ],
+            "gameplay": [
+              1.4,
+              -2.3,
+              3.3
+            ]
+          },
+          "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+          "shader": "Original 256px palette PBR",
+          "sourceUnchanged": true
+        }
+      ]
+    },
+    {
+      "id": "duck-numberblock",
+      "passed": true,
+      "checks": {
+        "sameCamera": true,
+        "sameOrthographicScale": true,
+        "sameLighting": true,
+        "normalizedMaximumExtent": true,
+        "centered": true,
+        "inputHashesCurrent": true,
+        "reference192Size": true,
+        "referenceIconMargin": true,
+        "reference64Size": true,
+        "duck192Size": true,
+        "duckIconMargin": true,
+        "duck64Size": true,
+        "frontSameCanvas": true,
+        "frontNoCropping": true,
+        "sideSameCanvas": true,
+        "sideNoCropping": true,
+        "backSameCanvas": true,
+        "backNoCropping": true,
+        "heroSameCanvas": true,
+        "heroNoCropping": true,
+        "gameplaySameCanvas": true,
+        "gameplayNoCropping": true
+      },
+      "icons": [
+        {
+          "kind": "reference",
+          "size": 192,
+          "alphaBounds": [
+            47,
+            52,
+            158,
+            137
+          ],
+          "minimumMargin": 34
+        },
+        {
+          "kind": "reference",
+          "size": 64,
+          "alphaBounds": [
+            15,
+            17,
+            53,
+            46
+          ],
+          "minimumMargin": 11
+        },
+        {
+          "kind": "duck",
+          "size": 192,
+          "alphaBounds": [
+            30,
+            53,
+            150,
+            159
+          ],
+          "minimumMargin": 30
+        },
+        {
+          "kind": "duck",
+          "size": 64,
+          "alphaBounds": [
+            9,
+            17,
+            50,
+            53
+          ],
+          "minimumMargin": 9
+        }
+      ],
+      "normalization": [
+        {
+          "id": "duck-numberblock",
+          "kind": "reference",
+          "input": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTNumberBlock/Goose_GTNumberBlock.glb",
+          "sourceSha256": "4eb85834047cbe09ca106d2788cdc7a3136670ddd380c6c2de97c5f1959608fd",
+          "originalWorldDimensions": [
+            1.6034743785858154,
+            1.8411798477172852,
+            1.5075262784957886
+          ],
+          "uniformScale": 0.5431299941935661,
+          "normalizedWorldDimensions": [
+            0.8708950281143188,
+            1.0,
+            0.8187827467918396
+          ],
+          "normalizedCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orthographicScale": 1.48,
+          "cameras": {
+            "front": [
+              0,
+              -3,
+              0.015
+            ],
+            "side": [
+              3,
+              0,
+              0.015
+            ],
+            "back": [
+              0,
+              3,
+              0.015
+            ],
+            "hero": [
+              2.2,
+              -3,
+              1.5
+            ],
+            "gameplay": [
+              1.4,
+              -2.3,
+              3.3
+            ]
+          },
+          "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+          "shader": "Recovered base-colour/PBR approximation",
+          "sourceUnchanged": true
+        },
+        {
+          "id": "duck-numberblock",
+          "kind": "duck",
+          "input": "source-assets/models/candidates/duck-series-v1/model-review-b2/models/duck-numberblock/duck-numberblock.glb",
+          "sourceSha256": "e3908538fc7f9e02d6117babea29959fd3d3871c556a4730979f47e5e9a23409",
+          "originalWorldDimensions": [
+            1.0,
+            0.4598657488822937,
+            0.8691062927246094
+          ],
+          "uniformScale": 1.0,
+          "normalizedWorldDimensions": [
+            1.0,
+            0.4598657488822937,
+            0.8691062927246094
+          ],
+          "normalizedCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "orthographicScale": 1.48,
+          "cameras": {
+            "front": [
+              0,
+              -3,
+              0.015
+            ],
+            "side": [
+              3,
+              0,
+              0.015
+            ],
+            "back": [
+              0,
+              3,
+              0.015
+            ],
+            "hero": [
+              2.2,
+              -3,
+              1.5
+            ],
+            "gameplay": [
+              1.4,
+              -2.3,
+              3.3
+            ]
+          },
+          "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+          "shader": "Original 256px palette PBR",
+          "sourceUnchanged": true
+        }
+      ]
+    }
+  ],
+  "renderSource": "GLB roundtrip, Blender Cycles 16 samples",
+  "noConceptImageSubstitution": true
+}

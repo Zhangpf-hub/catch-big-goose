@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "XPshaoMai",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_5851725594247640115.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

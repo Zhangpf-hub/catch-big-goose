@@ -1,0 +1,53 @@
+{
+  "id": "duck-milletcake",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-milletcake/duck-milletcake.glb",
+  "sourceSha256": "98e4b933794770f25ad556ccc62c4bad0adbbe1723e4efa006a4fbec7c8208dc",
+  "originalWorldDimensions": [
+    0.7673211097717285,
+    0.454160213470459,
+    1.0
+  ],
+  "uniformScale": 1.0,
+  "normalizedWorldDimensions": [
+    0.7673211097717285,
+    0.454160213470459,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

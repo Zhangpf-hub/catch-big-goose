@@ -1,0 +1,53 @@
+{
+  "id": "duck-pancake",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_Pancake/Goose_Pancake.glb",
+  "sourceSha256": "180452c75eded39c92f253a8f60e81cee1ddb24c60636a1a0df5b49d9c4bf784",
+  "originalWorldDimensions": [
+    2.921764612197876,
+    2.997753620147705,
+    2.2678680419921875
+  ],
+  "uniformScale": 0.3335831181318791,
+  "normalizedWorldDimensions": [
+    0.9746513366699219,
+    1.0,
+    0.7565224766731262
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

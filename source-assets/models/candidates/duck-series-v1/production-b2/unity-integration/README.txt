@@ -1,0 +1,1 @@
+Unity 2022.3.62f3 integration sources and preserved GUIDs for the existing Catch Big Goose project. This is an overlay, not a standalone Unity project. The active project is already integrated. Formal themes.json and theme-rounds.json are deliberately not replaced. Presentation scale rows are in batch.json and the active item-presentation.json.

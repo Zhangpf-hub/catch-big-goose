@@ -1,0 +1,28 @@
+{
+  "id": "kiwi",
+  "theme": "fruit",
+  "triangles": 1172,
+  "vertices": 620,
+  "blenderBounds": [
+    1.0,
+    1.0,
+    0.37638887763023376
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 28920,
+  "sha256": "97a2e1e657d280634ca8e5dfdedf6da3112796f95e019fe7cbb7483cb689f013",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

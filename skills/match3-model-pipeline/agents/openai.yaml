@@ -1,0 +1,4 @@
+interface:
+  display_name: "三消模型生成管线"
+  short_description: "按项目现有规格生成 Blender 三消物件、图标并验证 GLB 与碰撞"
+  default_prompt: "使用 $match3-model-pipeline 为当前抓住大鹅工程生成一批三消物品，按已有模型规格验证后交付候选资源和报告。"

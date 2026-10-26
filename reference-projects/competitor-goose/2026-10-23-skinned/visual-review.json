@@ -1,0 +1,10 @@
+{
+  "reviewedAt": "2026-10-24",
+  "reviewedImages": ["contact-sheet.jpg", "multiview-1.jpg"],
+  "result": "Five serialized prefab poses are recognizable. Goose neck, body and feet are visible across views; attachments remain aligned.",
+  "limits": [
+    "Static pose bake; animation is not evaluated and GLB files do not contain a playable skeleton",
+    "Basic color/PBR approximation; original Toon/MatCap shader is not reproduced",
+    "Not tested as Unity physics or production resources"
+  ]
+}

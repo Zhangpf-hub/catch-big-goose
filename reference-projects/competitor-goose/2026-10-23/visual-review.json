@@ -1,0 +1,22 @@
+{
+  "reviewDate": "2026-10-23",
+  "modelsViewed": 27,
+  "viewsPerModel": 4,
+  "viewedSheets": [
+    "contact-sheet.jpg",
+    "multiview-1.jpg",
+    "multiview-2.jpg",
+    "multiview-3.jpg"
+  ],
+  "checks": [
+    "Actual GLB round-trip renders reviewed for silhouette, UV/base color, back/side structure and framing",
+    "Opaque-white transparent wrappers traced to source ToonGlass and re-rendered with an explicit alpha approximation",
+    "Final 27 GLBs revalidated after the material fix"
+  ],
+  "limits": [
+    "Original Toon/MatCap/Glass shader appearance not reproduced",
+    "GTBubbleGlue outer packaging may disappear under the alpha approximation",
+    "No runtime collision, Unity import or gameplay claim for extracted references",
+    "Four skinned goose prefabs excluded until bone poses are recovered"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "sourceSha256": "4e30910710068a9307b16429d9f64168c529df9692b9c525635bbbcf1869a639",
+  "clips": [
+    {
+      "action": "duck_click",
+      "frames": 16,
+      "durationSeconds": 0.5666666666666667,
+      "renderedFromRoundtripGlb": true
+    },
+    {
+      "action": "duck_greet",
+      "frames": 24,
+      "durationSeconds": 1.3,
+      "renderedFromRoundtripGlb": true
+    },
+    {
+      "action": "duck_idle",
+      "frames": 24,
+      "durationSeconds": 2.0,
+      "renderedFromRoundtripGlb": true
+    }
+  ],
+  "canvas": [
+    320,
+    320
+  ],
+  "orthographicScale": 1.25
+}

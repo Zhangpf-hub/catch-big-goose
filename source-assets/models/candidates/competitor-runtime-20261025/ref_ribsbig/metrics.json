@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_ribsbig",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\RibsBig\\RibsBig.blend",
+  "sourceTriangles": 762,
+  "triangles": 762,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    3.170438289642334,
+    2.2476377487182617,
+    0.6301741600036621
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.7089359760284424,
+    0.19876563549041748
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,752 @@
+[
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/apple.glb",
+    "target": "SourceAssets/Models/apple.glb",
+    "sha256": "121ce9bf0a90b7ecb57909590a4acd59d1b91198caa23d49f3643894cab06819",
+    "targetSha256": "121ce9bf0a90b7ecb57909590a4acd59d1b91198caa23d49f3643894cab06819"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/banana.glb",
+    "target": "SourceAssets/Models/banana.glb",
+    "sha256": "bba114636662d31a5f825848cf08f5f5b7f1295544da3098434cdad2a39bc3bd",
+    "targetSha256": "bba114636662d31a5f825848cf08f5f5b7f1295544da3098434cdad2a39bc3bd"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/banzhi.glb",
+    "target": "SourceAssets/Models/banzhi.glb",
+    "sha256": "5a4cbd8586984710e027f9f4622d4e00daa42cce95d553417f570bb427d92502",
+    "targetSha256": "5a4cbd8586984710e027f9f4622d4e00daa42cce95d553417f570bb427d92502"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/baoshi.glb",
+    "target": "SourceAssets/Models/baoshi.glb",
+    "sha256": "1aa105eb02672275c01bc212d48e2710d7c2d24df9b69078cd68b77abf757073",
+    "targetSha256": "1aa105eb02672275c01bc212d48e2710d7c2d24df9b69078cd68b77abf757073"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/basket_farm.glb",
+    "target": "SourceAssets/Models/basket_farm.glb",
+    "sha256": "67daf1b06ed319555a77b28569c67590fcdfbd6180b58ff391f684bb050123b8",
+    "targetSha256": "67daf1b06ed319555a77b28569c67590fcdfbd6180b58ff391f684bb050123b8"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/basket_redwood.glb",
+    "target": "SourceAssets/Models/basket_redwood.glb",
+    "sha256": "0dcebce92b01f4b23e9cf521cdbaa581c3005bf9f111fa1b456dd5a72a157eed",
+    "targetSha256": "0dcebce92b01f4b23e9cf521cdbaa581c3005bf9f111fa1b456dd5a72a157eed"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/bowl_jade.glb",
+    "target": "SourceAssets/Models/bowl_jade.glb",
+    "sha256": "8a10ac9d80fa8ac55059937b75be43bf59365c76d454fefb51368116492c911e",
+    "targetSha256": "8a10ac9d80fa8ac55059937b75be43bf59365c76d454fefb51368116492c911e"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/bracelet.glb",
+    "target": "SourceAssets/Models/bracelet.glb",
+    "sha256": "adbe1e856ec22e9ab4fa00e91584903edd04c01b3b68c559667493106a3d2168",
+    "targetSha256": "adbe1e856ec22e9ab4fa00e91584903edd04c01b3b68c559667493106a3d2168"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/cake_slice.glb",
+    "target": "SourceAssets/Models/cake_slice.glb",
+    "sha256": "c0c1778c58c7240fc3e97fbf5757fd74060763bc0823e3f24c24fe07b7219cab",
+    "targetSha256": "c0c1778c58c7240fc3e97fbf5757fd74060763bc0823e3f24c24fe07b7219cab"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/camera.glb",
+    "target": "SourceAssets/Models/camera.glb",
+    "sha256": "15683aeb3ab54d3a9f88b796e88a60ed95c288d613484458765502670c7174d1",
+    "targetSha256": "15683aeb3ab54d3a9f88b796e88a60ed95c288d613484458765502670c7174d1"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/candy.glb",
+    "target": "SourceAssets/Models/candy.glb",
+    "sha256": "1d4f45d6495e34bcfbcc82b9f271bc9d908d181dde426d9ce0182d3a2c9acb5e",
+    "targetSha256": "1d4f45d6495e34bcfbcc82b9f271bc9d908d181dde426d9ce0182d3a2c9acb5e"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/carrot.glb",
+    "target": "SourceAssets/Models/carrot.glb",
+    "sha256": "35c2097f6a1e8e9acd77f26819692158f4ed2565c01e85dfc8d8ae91e68d6b1d",
+    "targetSha256": "35c2097f6a1e8e9acd77f26819692158f4ed2565c01e85dfc8d8ae91e68d6b1d"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/cherry.glb",
+    "target": "SourceAssets/Models/cherry.glb",
+    "sha256": "67da84b8fa277c5103f5721f3f5fa7f9eae72ba0d2c51a4632d4afb900a89450",
+    "targetSha256": "67da84b8fa277c5103f5721f3f5fa7f9eae72ba0d2c51a4632d4afb900a89450"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/cookie.glb",
+    "target": "SourceAssets/Models/cookie.glb",
+    "sha256": "e563ec887813c04485dd196e1f0f99b0c28da1565947d5279ca0e4f6d91738c4",
+    "targetSha256": "e563ec887813c04485dd196e1f0f99b0c28da1565947d5279ca0e4f6d91738c4"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/corn.glb",
+    "target": "SourceAssets/Models/corn.glb",
+    "sha256": "a90f82732d28a79af5b10a5fe9f5d45f27fb2590edf4251897799413d2b1d289",
+    "targetSha256": "a90f82732d28a79af5b10a5fe9f5d45f27fb2590edf4251897799413d2b1d289"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/croissant.glb",
+    "target": "SourceAssets/Models/croissant.glb",
+    "sha256": "e35c25d6c3edf83e6a9e70d9cc99e4eb196b06267b892a333a78db7d9560eff1",
+    "targetSha256": "e35c25d6c3edf83e6a9e70d9cc99e4eb196b06267b892a333a78db7d9560eff1"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/cupcake.glb",
+    "target": "SourceAssets/Models/cupcake.glb",
+    "sha256": "a0d233ab56f65a19256f0baf371beffbe4ada6601f66920a648341e6104642fd",
+    "targetSha256": "a0d233ab56f65a19256f0baf371beffbe4ada6601f66920a648341e6104642fd"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/donut.glb",
+    "target": "SourceAssets/Models/donut.glb",
+    "sha256": "3840898c58e17be3a5221abc8736d1b6869beeed1535e54125e726dae746e627",
+    "targetSha256": "3840898c58e17be3a5221abc8736d1b6869beeed1535e54125e726dae746e627"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/duck.glb",
+    "target": "SourceAssets/Models/duck.glb",
+    "sha256": "1ce1b88991534d6e912c0c0214529119177297b4a06193f0d93ca82ee8949797",
+    "targetSha256": "1ce1b88991534d6e912c0c0214529119177297b4a06193f0d93ca82ee8949797"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/eggplant.glb",
+    "target": "SourceAssets/Models/eggplant.glb",
+    "sha256": "40e4dc6c4388f968def1085813203d6df3fb614064d87b63cf9e07e8c4620963",
+    "targetSha256": "40e4dc6c4388f968def1085813203d6df3fb614064d87b63cf9e07e8c4620963"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/frog.glb",
+    "target": "SourceAssets/Models/frog.glb",
+    "sha256": "602a1068a4aa589c0c59212e8dc74761cd5209e592f82a8584ff23da619ad29b",
+    "targetSha256": "602a1068a4aa589c0c59212e8dc74761cd5209e592f82a8584ff23da619ad29b"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/goose.glb",
+    "target": "SourceAssets/Models/goose.glb",
+    "sha256": "5016dd5d4e5660f5434d31bba2b5af15766c94b5783de70f07758fef7562b69d",
+    "targetSha256": "5016dd5d4e5660f5434d31bba2b5af15766c94b5783de70f07758fef7562b69d"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/grape.glb",
+    "target": "SourceAssets/Models/grape.glb",
+    "sha256": "e3fe7aa0738f61f099aca5ae7a3ffb20ad05f9399b1ffcf0f512c21691953813",
+    "targetSha256": "e3fe7aa0738f61f099aca5ae7a3ffb20ad05f9399b1ffcf0f512c21691953813"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/handheld.glb",
+    "target": "SourceAssets/Models/handheld.glb",
+    "sha256": "36ae23a569da928ef197768816a61923982b188dbd5b90c7804b5de94df4c1a7",
+    "targetSha256": "36ae23a569da928ef197768816a61923982b188dbd5b90c7804b5de94df4c1a7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/headphones.glb",
+    "target": "SourceAssets/Models/headphones.glb",
+    "sha256": "133f73ec0b78fd195369dd6e2da29d325f1dc3b6c9ffbb6ab460a7d5b37aa758",
+    "targetSha256": "133f73ec0b78fd195369dd6e2da29d325f1dc3b6c9ffbb6ab460a7d5b37aa758"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/hulu.glb",
+    "target": "SourceAssets/Models/hulu.glb",
+    "sha256": "1322e2553d3bf8b683e790a65c4f381a8664bd0fa70073b085550b96636a80e5",
+    "targetSha256": "1322e2553d3bf8b683e790a65c4f381a8664bd0fa70073b085550b96636a80e5"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/icecream.glb",
+    "target": "SourceAssets/Models/icecream.glb",
+    "sha256": "4d93c81d7831030eb26547d49707257e290ed46c05148c16ecacdfc346b6996b",
+    "targetSha256": "4d93c81d7831030eb26547d49707257e290ed46c05148c16ecacdfc346b6996b"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/koi.glb",
+    "target": "SourceAssets/Models/koi.glb",
+    "sha256": "88b26cf4bc909143b249be36c5b9dbf5006e75d8a05d09a1796ac73f2abde6aa",
+    "targetSha256": "88b26cf4bc909143b249be36c5b9dbf5006e75d8a05d09a1796ac73f2abde6aa"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/laptop.glb",
+    "target": "SourceAssets/Models/laptop.glb",
+    "sha256": "f23c906a935f691d42411527d8aa4cd21d4b2ea341fd3a9dc9762f4720953ef9",
+    "targetSha256": "f23c906a935f691d42411527d8aa4cd21d4b2ea341fd3a9dc9762f4720953ef9"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/lemon.glb",
+    "target": "SourceAssets/Models/lemon.glb",
+    "sha256": "a63b5c9d8b66137f8b950930c0b3d87e90d7c6d12f51d4b3bb14c25c60bbf212",
+    "targetSha256": "a63b5c9d8b66137f8b950930c0b3d87e90d7c6d12f51d4b3bb14c25c60bbf212"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/lotus.glb",
+    "target": "SourceAssets/Models/lotus.glb",
+    "sha256": "e33e0bf1fc54f7878abf5991be8a7c3e1100fd9cc3583f6eeaaa41baee74ed2a",
+    "targetSha256": "e33e0bf1fc54f7878abf5991be8a7c3e1100fd9cc3583f6eeaaa41baee74ed2a"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/macaron.glb",
+    "target": "SourceAssets/Models/macaron.glb",
+    "sha256": "cd569f109fe9f1b25d517e99dc533aded03cff6d79a967730fe1e24a59f8f5e8",
+    "targetSha256": "cd569f109fe9f1b25d517e99dc533aded03cff6d79a967730fe1e24a59f8f5e8"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/mouse.glb",
+    "target": "SourceAssets/Models/mouse.glb",
+    "sha256": "69a0b312a70352cd5a74475fc8330aaee9af2929e4825568f25ce0802226d17d",
+    "targetSha256": "69a0b312a70352cd5a74475fc8330aaee9af2929e4825568f25ce0802226d17d"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/mushroom.glb",
+    "target": "SourceAssets/Models/mushroom.glb",
+    "sha256": "fa2c260643e3f55c3e0ac6bbab842e8693c7ca173f814f11337a3d179c43868b",
+    "targetSha256": "fa2c260643e3f55c3e0ac6bbab842e8693c7ca173f814f11337a3d179c43868b"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/orange.glb",
+    "target": "SourceAssets/Models/orange.glb",
+    "sha256": "4f9c61fd47979d533c03b6b22f7ff0f8b0b3af304aaca2612fae913d61787a6f",
+    "targetSha256": "4f9c61fd47979d533c03b6b22f7ff0f8b0b3af304aaca2612fae913d61787a6f"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/pear.glb",
+    "target": "SourceAssets/Models/pear.glb",
+    "sha256": "04e41a2072c15173791c56c647f480d5cd9918e90bcabb1769d9784706aaf7c7",
+    "targetSha256": "04e41a2072c15173791c56c647f480d5cd9918e90bcabb1769d9784706aaf7c7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/phone.glb",
+    "target": "SourceAssets/Models/phone.glb",
+    "sha256": "258791c6f9a41cb3d4c7d8d779f3a7fe61dced936fbb136330e453f71e62b708",
+    "targetSha256": "258791c6f9a41cb3d4c7d8d779f3a7fe61dced936fbb136330e453f71e62b708"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/pudding.glb",
+    "target": "SourceAssets/Models/pudding.glb",
+    "sha256": "eb13c265930931bd7e49a63e9600260e663a3977e3eb5d12b5ed2c39529032a4",
+    "targetSha256": "eb13c265930931bd7e49a63e9600260e663a3977e3eb5d12b5ed2c39529032a4"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/pumpkin.glb",
+    "target": "SourceAssets/Models/pumpkin.glb",
+    "sha256": "5310da49ebcf4f3214abc021a14903814016c76857de1b43cd8ef88385078071",
+    "targetSha256": "5310da49ebcf4f3214abc021a14903814016c76857de1b43cd8ef88385078071"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/radio.glb",
+    "target": "SourceAssets/Models/radio.glb",
+    "sha256": "af5ff7b42675f50aafb0037b941b58b620a5e576bf5adb015839edcc11a67788",
+    "targetSha256": "af5ff7b42675f50aafb0037b941b58b620a5e576bf5adb015839edcc11a67788"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/rock.glb",
+    "target": "SourceAssets/Models/rock.glb",
+    "sha256": "a228c79b8f64c69e831d3e310656c28218f93c3e9528ae08ed5c69135d5fad6d",
+    "targetSha256": "a228c79b8f64c69e831d3e310656c28218f93c3e9528ae08ed5c69135d5fad6d"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/ruyi.glb",
+    "target": "SourceAssets/Models/ruyi.glb",
+    "sha256": "b7b4c7f272a2af861f5514554e395d2644d1f6d80ebd2cb1247794bf9e43e1f6",
+    "targetSha256": "b7b4c7f272a2af861f5514554e395d2644d1f6d80ebd2cb1247794bf9e43e1f6"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/smartwatch.glb",
+    "target": "SourceAssets/Models/smartwatch.glb",
+    "sha256": "1d12aa2f1a3b66621f7228b9bcf53d0c24e0c8fa173f970d1406a6da7c12bea8",
+    "targetSha256": "1d12aa2f1a3b66621f7228b9bcf53d0c24e0c8fa173f970d1406a6da7c12bea8"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/speaker.glb",
+    "target": "SourceAssets/Models/speaker.glb",
+    "sha256": "cffcf752dd65e2d842d05d8aed121004c026072fc097fd7410bdfc86f85dc959",
+    "targetSha256": "cffcf752dd65e2d842d05d8aed121004c026072fc097fd7410bdfc86f85dc959"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/strawberry.glb",
+    "target": "SourceAssets/Models/strawberry.glb",
+    "sha256": "d4596347d3231fa198fe7008e2e8f16136887c97affd1c4e68641b377b792bed",
+    "targetSha256": "d4596347d3231fa198fe7008e2e8f16136887c97affd1c4e68641b377b792bed"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/tongqian.glb",
+    "target": "SourceAssets/Models/tongqian.glb",
+    "sha256": "94aebf2353b1c0a704180df2ae513f9a037320b532db23729d3ae060e538a8ae",
+    "targetSha256": "94aebf2353b1c0a704180df2ae513f9a037320b532db23729d3ae060e538a8ae"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/tray_dessert.glb",
+    "target": "SourceAssets/Models/tray_dessert.glb",
+    "sha256": "b96a0ea0580a761318637daaa7e0d42d0f43916c2f236a5ff396a1e3bf8b080e",
+    "targetSha256": "b96a0ea0580a761318637daaa7e0d42d0f43916c2f236a5ff396a1e3bf8b080e"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/tray_electronics.glb",
+    "target": "SourceAssets/Models/tray_electronics.glb",
+    "sha256": "f49f09f9b482c825e37cacbb623cd07fbddb829db4b23fe7db2e0b611975af69",
+    "targetSha256": "f49f09f9b482c825e37cacbb623cd07fbddb829db4b23fe7db2e0b611975af69"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/yuxi.glb",
+    "target": "SourceAssets/Models/yuxi.glb",
+    "sha256": "0ef2bc4943f5c12adcca811c7b7abd9c68647ebe53524cba3335d0f19c0146d7",
+    "targetSha256": "0ef2bc4943f5c12adcca811c7b7abd9c68647ebe53524cba3335d0f19c0146d7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/models/yuzhuo.glb",
+    "target": "SourceAssets/Models/yuzhuo.glb",
+    "sha256": "35afa0ae3381d487a73df77eab3222a7ea91969412559355fa80e182a2c51e1c",
+    "targetSha256": "35afa0ae3381d487a73df77eab3222a7ea91969412559355fa80e182a2c51e1c"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/apple.png",
+    "target": "Assets/Resources/Icons/apple.png",
+    "sha256": "58867b7e5fd340d194c49e39eb15fba6fab1d6c349597c9437da047be021214a",
+    "targetSha256": "58867b7e5fd340d194c49e39eb15fba6fab1d6c349597c9437da047be021214a"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/banana.png",
+    "target": "Assets/Resources/Icons/banana.png",
+    "sha256": "1e5b6e3aa6719e0523adf971387a7130c149b412c28229b02313a1cca1b166f1",
+    "targetSha256": "1e5b6e3aa6719e0523adf971387a7130c149b412c28229b02313a1cca1b166f1"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/banzhi.png",
+    "target": "Assets/Resources/Icons/banzhi.png",
+    "sha256": "110144e1ba53052d911530b0e326912b8e48913573fab95918f24cdd841abef1",
+    "targetSha256": "110144e1ba53052d911530b0e326912b8e48913573fab95918f24cdd841abef1"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/baoshi.png",
+    "target": "Assets/Resources/Icons/baoshi.png",
+    "sha256": "bb6fced0f5673ba6ec292a5ac8c4d7ab80db3d6f8233932e6273cb92348ce0b9",
+    "targetSha256": "bb6fced0f5673ba6ec292a5ac8c4d7ab80db3d6f8233932e6273cb92348ce0b9"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/bracelet.png",
+    "target": "Assets/Resources/Icons/bracelet.png",
+    "sha256": "e918523b9ad94cf2d0fbe90c7d17a4cc5f168f20bfdf9a12eeb5bdb6fa71c114",
+    "targetSha256": "e918523b9ad94cf2d0fbe90c7d17a4cc5f168f20bfdf9a12eeb5bdb6fa71c114"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/cake_slice.png",
+    "target": "Assets/Resources/Icons/cake_slice.png",
+    "sha256": "8eb505ce47dc3ec9ba8fb0da8cbbf116a1b99611cbda6c3e6596bea57f241d61",
+    "targetSha256": "8eb505ce47dc3ec9ba8fb0da8cbbf116a1b99611cbda6c3e6596bea57f241d61"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/camera.png",
+    "target": "Assets/Resources/Icons/camera.png",
+    "sha256": "42798714bf5ca60eb51841cd8f4fe49e2c022e694bb1610621bc75c0c0098e75",
+    "targetSha256": "42798714bf5ca60eb51841cd8f4fe49e2c022e694bb1610621bc75c0c0098e75"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/candy.png",
+    "target": "Assets/Resources/Icons/candy.png",
+    "sha256": "e50a716b59feca440a9ee67bccf51f4148ee0495cfd85d234cb79029865698dd",
+    "targetSha256": "e50a716b59feca440a9ee67bccf51f4148ee0495cfd85d234cb79029865698dd"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/carrot.png",
+    "target": "Assets/Resources/Icons/carrot.png",
+    "sha256": "82789c1cb39eabc6ba1de7a106345be9702f154a4b94e4b027166d236ccf22f3",
+    "targetSha256": "82789c1cb39eabc6ba1de7a106345be9702f154a4b94e4b027166d236ccf22f3"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/cherry.png",
+    "target": "Assets/Resources/Icons/cherry.png",
+    "sha256": "b46127a2fa1f3de9a03fa510947d2ff3c5969617486ad19c5a1dfcd6d8826f3c",
+    "targetSha256": "b46127a2fa1f3de9a03fa510947d2ff3c5969617486ad19c5a1dfcd6d8826f3c"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/cookie.png",
+    "target": "Assets/Resources/Icons/cookie.png",
+    "sha256": "11914a590d7deede2546405d95be7f32e0963f3ad05dffe8345cb1c8cb1fe1cb",
+    "targetSha256": "11914a590d7deede2546405d95be7f32e0963f3ad05dffe8345cb1c8cb1fe1cb"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/corn.png",
+    "target": "Assets/Resources/Icons/corn.png",
+    "sha256": "b0b4dedc43b063ed3fb3be76eaebda69e962f51c98a7ccbe29f2e7fa192dc281",
+    "targetSha256": "b0b4dedc43b063ed3fb3be76eaebda69e962f51c98a7ccbe29f2e7fa192dc281"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/croissant.png",
+    "target": "Assets/Resources/Icons/croissant.png",
+    "sha256": "640ab6b9d2bedc6691355f8a174f6a9d5a9bddf53950a638bf35dafc3bf4e3b2",
+    "targetSha256": "640ab6b9d2bedc6691355f8a174f6a9d5a9bddf53950a638bf35dafc3bf4e3b2"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/cupcake.png",
+    "target": "Assets/Resources/Icons/cupcake.png",
+    "sha256": "a3e037c9ac9994e5f59703315921559bf889019af66512b98c6d8eecd6b9d43e",
+    "targetSha256": "a3e037c9ac9994e5f59703315921559bf889019af66512b98c6d8eecd6b9d43e"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/donut.png",
+    "target": "Assets/Resources/Icons/donut.png",
+    "sha256": "0f9ab0c76aafe83a6acf28f319b7d94e0c080bf57e1f0a51dcf9a016290adbe4",
+    "targetSha256": "0f9ab0c76aafe83a6acf28f319b7d94e0c080bf57e1f0a51dcf9a016290adbe4"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/duck.png",
+    "target": "Assets/Resources/Icons/duck.png",
+    "sha256": "5296dcf7754bbbea1772d0d6715286a47fbbbe757ab434cfe50332d98a5b87dc",
+    "targetSha256": "5296dcf7754bbbea1772d0d6715286a47fbbbe757ab434cfe50332d98a5b87dc"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/eggplant.png",
+    "target": "Assets/Resources/Icons/eggplant.png",
+    "sha256": "3178edb954fdbecaeb2ade24f4235de8839a4f261cbbb520058dd5fbf2aacd5f",
+    "targetSha256": "3178edb954fdbecaeb2ade24f4235de8839a4f261cbbb520058dd5fbf2aacd5f"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/frog.png",
+    "target": "Assets/Resources/Icons/frog.png",
+    "sha256": "acde572c8a0589be7f82e3575f1256bc6fb5600af7dfb393947ebeccfcfbe533",
+    "targetSha256": "acde572c8a0589be7f82e3575f1256bc6fb5600af7dfb393947ebeccfcfbe533"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/goose.png",
+    "target": "Assets/Resources/Icons/goose.png",
+    "sha256": "1651433c9cc67cd15e4a869b3a87819d683038ec776378a23e20a3b1bc645b4f",
+    "targetSha256": "1651433c9cc67cd15e4a869b3a87819d683038ec776378a23e20a3b1bc645b4f"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/grape.png",
+    "target": "Assets/Resources/Icons/grape.png",
+    "sha256": "070f8bfccc6dd0302c32dd9ef3bd510ed0ccfb026e01a7c676ba01b39e197de3",
+    "targetSha256": "070f8bfccc6dd0302c32dd9ef3bd510ed0ccfb026e01a7c676ba01b39e197de3"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/handheld.png",
+    "target": "Assets/Resources/Icons/handheld.png",
+    "sha256": "23ccebc6e7b55e0cc3f5648d8ad5d4a68c592343dff0b201781305fcf80a8ee7",
+    "targetSha256": "23ccebc6e7b55e0cc3f5648d8ad5d4a68c592343dff0b201781305fcf80a8ee7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/headphones.png",
+    "target": "Assets/Resources/Icons/headphones.png",
+    "sha256": "56ccf630d7029e535426ded48edbabd0354ea75229b1bfb874bbcf70b441971b",
+    "targetSha256": "56ccf630d7029e535426ded48edbabd0354ea75229b1bfb874bbcf70b441971b"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/hulu.png",
+    "target": "Assets/Resources/Icons/hulu.png",
+    "sha256": "798bb3aab56863e198de981f0f9c90db7d3fb9d8a942866b2c72520f61387ba6",
+    "targetSha256": "798bb3aab56863e198de981f0f9c90db7d3fb9d8a942866b2c72520f61387ba6"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/icecream.png",
+    "target": "Assets/Resources/Icons/icecream.png",
+    "sha256": "9c2b0eaa4481d7accbc0ec37eb1f4b77ff17d14369d25983572f63c210a2b405",
+    "targetSha256": "9c2b0eaa4481d7accbc0ec37eb1f4b77ff17d14369d25983572f63c210a2b405"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/koi.png",
+    "target": "Assets/Resources/Icons/koi.png",
+    "sha256": "d7a5bb12ad3912c8aad49e23f3c5cd994137a1b08f7386a28ef6d3f968a89cc7",
+    "targetSha256": "d7a5bb12ad3912c8aad49e23f3c5cd994137a1b08f7386a28ef6d3f968a89cc7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/laptop.png",
+    "target": "Assets/Resources/Icons/laptop.png",
+    "sha256": "203424a72a4d2280f387b2067b880dbdee8772d904d0e67db934c32ca487cbf8",
+    "targetSha256": "203424a72a4d2280f387b2067b880dbdee8772d904d0e67db934c32ca487cbf8"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/lemon.png",
+    "target": "Assets/Resources/Icons/lemon.png",
+    "sha256": "747fd8b829fe3049672f630f5f5615f2e90fc9f0a0a8990820f40b44fee7bf38",
+    "targetSha256": "747fd8b829fe3049672f630f5f5615f2e90fc9f0a0a8990820f40b44fee7bf38"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/lotus.png",
+    "target": "Assets/Resources/Icons/lotus.png",
+    "sha256": "8cfa256906bed398276c2a78950fa4b86a790792d91d74bafbbb792a631832b6",
+    "targetSha256": "8cfa256906bed398276c2a78950fa4b86a790792d91d74bafbbb792a631832b6"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/macaron.png",
+    "target": "Assets/Resources/Icons/macaron.png",
+    "sha256": "776c7aa737b766c5e0a1af89cadf3d272fd4f7dc4dc1e917fd931e8b4c1e0241",
+    "targetSha256": "776c7aa737b766c5e0a1af89cadf3d272fd4f7dc4dc1e917fd931e8b4c1e0241"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/mouse.png",
+    "target": "Assets/Resources/Icons/mouse.png",
+    "sha256": "388f3ac0fbed45345ee7fd36569595184309ec89349f654cd93395848aa734be",
+    "targetSha256": "388f3ac0fbed45345ee7fd36569595184309ec89349f654cd93395848aa734be"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/mushroom.png",
+    "target": "Assets/Resources/Icons/mushroom.png",
+    "sha256": "57e181aceda89922110db9192af0bf9d63de05b88f3426106b7891430fe08463",
+    "targetSha256": "57e181aceda89922110db9192af0bf9d63de05b88f3426106b7891430fe08463"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/orange.png",
+    "target": "Assets/Resources/Icons/orange.png",
+    "sha256": "0972cff6a13909f03a1542c4a591c29e1d6e05fdacd9161a2581fe1c1e8f2b50",
+    "targetSha256": "0972cff6a13909f03a1542c4a591c29e1d6e05fdacd9161a2581fe1c1e8f2b50"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/pear.png",
+    "target": "Assets/Resources/Icons/pear.png",
+    "sha256": "b2aa2d5d6c0a2cbccdf1671292082efc2c828aed9fa292d9a0571a2a67dcf94e",
+    "targetSha256": "b2aa2d5d6c0a2cbccdf1671292082efc2c828aed9fa292d9a0571a2a67dcf94e"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/phone.png",
+    "target": "Assets/Resources/Icons/phone.png",
+    "sha256": "dd8cd1edf354e08c87b957c2e59a6c716ced9dd8fd1b42fa7ad80988b69d1672",
+    "targetSha256": "dd8cd1edf354e08c87b957c2e59a6c716ced9dd8fd1b42fa7ad80988b69d1672"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/pudding.png",
+    "target": "Assets/Resources/Icons/pudding.png",
+    "sha256": "15f4578d5861b39e80af781cb1f373d6fcf0f52970bf61fab574e84740bc9c27",
+    "targetSha256": "15f4578d5861b39e80af781cb1f373d6fcf0f52970bf61fab574e84740bc9c27"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/pumpkin.png",
+    "target": "Assets/Resources/Icons/pumpkin.png",
+    "sha256": "6d7bca578790bfc0806f2ccc51121252f8832233f5c0534d4a109811c4caefc3",
+    "targetSha256": "6d7bca578790bfc0806f2ccc51121252f8832233f5c0534d4a109811c4caefc3"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/radio.png",
+    "target": "Assets/Resources/Icons/radio.png",
+    "sha256": "1461d967471657d4d6fae9ccfd80b95dcb8023766998473d5e7fc4689da452e7",
+    "targetSha256": "1461d967471657d4d6fae9ccfd80b95dcb8023766998473d5e7fc4689da452e7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/rock.png",
+    "target": "Assets/Resources/Icons/rock.png",
+    "sha256": "88c5311b88795e2328ad87eff797ee8a5dd30ca894b47184c1ee38cc8f7a20e5",
+    "targetSha256": "88c5311b88795e2328ad87eff797ee8a5dd30ca894b47184c1ee38cc8f7a20e5"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/ruyi.png",
+    "target": "Assets/Resources/Icons/ruyi.png",
+    "sha256": "631ed07ca945946c1a86762ed9d4a822915eb09462955756a5f2114cea5eeb78",
+    "targetSha256": "631ed07ca945946c1a86762ed9d4a822915eb09462955756a5f2114cea5eeb78"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/smartwatch.png",
+    "target": "Assets/Resources/Icons/smartwatch.png",
+    "sha256": "8a8e4a3ed01d571ccde89e2503cffd4cf4ad633b2b88f67474cade66f6ed4253",
+    "targetSha256": "8a8e4a3ed01d571ccde89e2503cffd4cf4ad633b2b88f67474cade66f6ed4253"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/speaker.png",
+    "target": "Assets/Resources/Icons/speaker.png",
+    "sha256": "7f364941287a5a83e00190b18ed078a729e6eb4c1d132baed54dd754201deeac",
+    "targetSha256": "7f364941287a5a83e00190b18ed078a729e6eb4c1d132baed54dd754201deeac"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/strawberry.png",
+    "target": "Assets/Resources/Icons/strawberry.png",
+    "sha256": "384d04f1172817b1aaf7f26c1f521a465ed88b8dbd4d6c9cc1df0495d3c1134b",
+    "targetSha256": "384d04f1172817b1aaf7f26c1f521a465ed88b8dbd4d6c9cc1df0495d3c1134b"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/tongqian.png",
+    "target": "Assets/Resources/Icons/tongqian.png",
+    "sha256": "7dab3397f24567bf2f21a99483addb63070aaaa0ed31a5cadc8360652654ebfb",
+    "targetSha256": "7dab3397f24567bf2f21a99483addb63070aaaa0ed31a5cadc8360652654ebfb"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/yuxi.png",
+    "target": "Assets/Resources/Icons/yuxi.png",
+    "sha256": "a33eeb6abd84e7d96f6eee6544b585b7b87ff41ed3b2cc19a72a554219a96eda",
+    "targetSha256": "a33eeb6abd84e7d96f6eee6544b585b7b87ff41ed3b2cc19a72a554219a96eda"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/icons/yuzhuo.png",
+    "target": "Assets/Resources/Icons/yuzhuo.png",
+    "sha256": "79651332ec9b8cd52c42905af9b6e5175f35919c1d94d188945f5f1c974fb988",
+    "targetSha256": "79651332ec9b8cd52c42905af9b6e5175f35919c1d94d188945f5f1c974fb988"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/bg_dessert.jpg",
+    "target": "Assets/Resources/Textures/bg_dessert.jpg",
+    "sha256": "17c02079cd16bea9608d50f576d442f662b63a7c09354a8fed10f821b62dba77",
+    "targetSha256": "17c02079cd16bea9608d50f576d442f662b63a7c09354a8fed10f821b62dba77"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/bg_electronics.jpg",
+    "target": "Assets/Resources/Textures/bg_electronics.jpg",
+    "sha256": "8e1493abbcef953ed9fab0e3847fdde45aaa2f28c1e50b4ce67b2a3972cacb60",
+    "targetSha256": "8e1493abbcef953ed9fab0e3847fdde45aaa2f28c1e50b4ce67b2a3972cacb60"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/bg_farm.jpg",
+    "target": "Assets/Resources/Textures/bg_farm.jpg",
+    "sha256": "6162ea92631ffdfcb81809f6690d81e8f2f630bd15e892557c74a2ef80ba23f8",
+    "targetSha256": "6162ea92631ffdfcb81809f6690d81e8f2f630bd15e892557c74a2ef80ba23f8"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/bg_jade.jpg",
+    "target": "Assets/Resources/Textures/bg_jade.jpg",
+    "sha256": "5a1e36e8416720cd85f51badda82924ad0ebc5200ed13fbf36d061423bdaae16",
+    "targetSha256": "5a1e36e8416720cd85f51badda82924ad0ebc5200ed13fbf36d061423bdaae16"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/bg_redwood.jpg",
+    "target": "Assets/Resources/Textures/bg_redwood.jpg",
+    "sha256": "646045505c30df460cb656839ee7653bba56d307469478ac6e652533a23e1e51",
+    "targetSha256": "646045505c30df460cb656839ee7653bba56d307469478ac6e652533a23e1e51"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-map-bg.jpg",
+    "target": "Assets/Resources/Textures/challenge-map-bg.jpg",
+    "sha256": "0315ee64a533ec64c024537766c7bbea0927e1bf4b75778811a71be1e95a2cae",
+    "targetSha256": "0315ee64a533ec64c024537766c7bbea0927e1bf4b75778811a71be1e95a2cae"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/control-deck-bg.jpg",
+    "target": "Assets/Resources/Textures/challenge-ui/control-deck-bg.jpg",
+    "sha256": "27aa6cd545a55a0aa6ee98b60626c3ae45f389739acd95b4d420df39fe481877",
+    "targetSha256": "27aa6cd545a55a0aa6ee98b60626c3ae45f389739acd95b4d420df39fe481877"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/cta-button-clean.png",
+    "target": "Assets/Resources/Textures/challenge-ui/cta-button-clean.png",
+    "sha256": "d459b8e74a7a920be3c519d5c6dda8bdc46b6c593bfbc878b04a685654f73dc3",
+    "targetSha256": "d459b8e74a7a920be3c519d5c6dda8bdc46b6c593bfbc878b04a685654f73dc3"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/difficulty-easy-clean.png",
+    "target": "Assets/Resources/Textures/challenge-ui/difficulty-easy-clean.png",
+    "sha256": "1cc21c36ba11abf31f24f7e5c7e9bd04c0eab480db77f4e081d761e768980979",
+    "targetSha256": "1cc21c36ba11abf31f24f7e5c7e9bd04c0eab480db77f4e081d761e768980979"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/difficulty-master-clean.png",
+    "target": "Assets/Resources/Textures/challenge-ui/difficulty-master-clean.png",
+    "sha256": "060ed0806506ff03fff0559d9b500064f70377d7ca1de8a996a34a293129be54",
+    "targetSha256": "060ed0806506ff03fff0559d9b500064f70377d7ca1de8a996a34a293129be54"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/difficulty-normal-clean.png",
+    "target": "Assets/Resources/Textures/challenge-ui/difficulty-normal-clean.png",
+    "sha256": "b6a16279572d6c7381dcf0d08cee9886bd8bf31cc79f486329f3da93805b8ae5",
+    "targetSha256": "b6a16279572d6c7381dcf0d08cee9886bd8bf31cc79f486329f3da93805b8ae5"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/header-reference.jpg",
+    "target": "Assets/Resources/Textures/challenge-ui/header-reference.jpg",
+    "sha256": "17f4c81b330ff10c7c07bc34324bdd6f45e9627025e80d6f2a18b0b7124f36ec",
+    "targetSha256": "17f4c81b330ff10c7c07bc34324bdd6f45e9627025e80d6f2a18b0b7124f36ec"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/map-continuous-v2.jpg",
+    "target": "Assets/Resources/Textures/challenge-ui/map-continuous-v2.jpg",
+    "sha256": "d959f1118439339be717ebae6fafa8def26628809a3c4f487fc925e083571fef",
+    "targetSha256": "d959f1118439339be717ebae6fafa8def26628809a3c4f487fc925e083571fef"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/station-medallion-antique-v4.png",
+    "target": "Assets/Resources/Textures/challenge-ui/station-medallion-antique-v4.png",
+    "sha256": "97e96b8ddc1d993fa258f6b83effb4532239396509504ba5c0c4d8bb8058f082",
+    "targetSha256": "97e96b8ddc1d993fa258f6b83effb4532239396509504ba5c0c4d8bb8058f082"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/station-medallion-dessert-v4.png",
+    "target": "Assets/Resources/Textures/challenge-ui/station-medallion-dessert-v4.png",
+    "sha256": "ff93ff2c4d8af275d06ed67b8ca3b2c5f069875d14228cd848b89bef362b2e50",
+    "targetSha256": "ff93ff2c4d8af275d06ed67b8ca3b2c5f069875d14228cd848b89bef362b2e50"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/station-medallion-electronics.png",
+    "target": "Assets/Resources/Textures/challenge-ui/station-medallion-electronics.png",
+    "sha256": "15c2933986819fe866de2d5201529066c0cb1b4ccf89fae37fe4d3e9bfc03b0a",
+    "targetSha256": "15c2933986819fe866de2d5201529066c0cb1b4ccf89fae37fe4d3e9bfc03b0a"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/station-medallion-farm-v4.png",
+    "target": "Assets/Resources/Textures/challenge-ui/station-medallion-farm-v4.png",
+    "sha256": "32da8e2e97dbe5bebaae01162676cf6728f06a8b78a37b879af3b114f396c7be",
+    "targetSha256": "32da8e2e97dbe5bebaae01162676cf6728f06a8b78a37b879af3b114f396c7be"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/station-medallion-fruit-v4.png",
+    "target": "Assets/Resources/Textures/challenge-ui/station-medallion-fruit-v4.png",
+    "sha256": "5682fcc37f7a20e50ee2416e68442a7ab8ac6c76e51c208c4d83d43cd23438d4",
+    "targetSha256": "5682fcc37f7a20e50ee2416e68442a7ab8ac6c76e51c208c4d83d43cd23438d4"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/summary-frame-blank.png",
+    "target": "Assets/Resources/Textures/challenge-ui/summary-frame-blank.png",
+    "sha256": "e96e53d7195796ac580d90b3de5882358d7fffcaadfcba5931859d34af5fc9d0",
+    "targetSha256": "e96e53d7195796ac580d90b3de5882358d7fffcaadfcba5931859d34af5fc9d0"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/fallback/selection-badge.png",
+    "target": "Assets/Resources/Textures/challenge-ui/fallback/selection-badge.png",
+    "sha256": "5f3ef25c597a2236d37da581e69106e3c29cb7f709de7590dc4c3e7766c3b4b5",
+    "targetSha256": "5f3ef25c597a2236d37da581e69106e3c29cb7f709de7590dc4c3e7766c3b4b5"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/textures/challenge-ui/fallback/station-frame.png",
+    "target": "Assets/Resources/Textures/challenge-ui/fallback/station-frame.png",
+    "sha256": "9865c33624c03a3fa2a5eeec9eee2c48d21eabb710f93e1a353c15192e3f67c7",
+    "targetSha256": "9865c33624c03a3fa2a5eeec9eee2c48d21eabb710f93e1a353c15192e3f67c7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/bgm.m4a",
+    "target": "Assets/Resources/Audio/bgm.ogg",
+    "sha256": "f3d7179bdfdc49b0bd2310b06b0c4488cf762986714e20c1b02f5488f34dd209",
+    "targetSha256": "26f7fc1e546d68740b3d8ccdf86e984e3c21d674faa05cdb013f636af6c76fda"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/drop.wav",
+    "target": "Assets/Resources/Audio/drop.wav",
+    "sha256": "0d87b16a176ae629da63c17f08679594debb524366709e584893c034912ad15e",
+    "targetSha256": "0d87b16a176ae629da63c17f08679594debb524366709e584893c034912ad15e"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/honk.wav",
+    "target": "Assets/Resources/Audio/honk.wav",
+    "sha256": "8e00579ce5242bf6d0c143ce93dd0a3648e4ffbd1c39c87b584b49348e586448",
+    "targetSha256": "8e00579ce5242bf6d0c143ce93dd0a3648e4ffbd1c39c87b584b49348e586448"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/lose.wav",
+    "target": "Assets/Resources/Audio/lose.wav",
+    "sha256": "612d88dc2af58e7fbcd6c86a0b533d88ac64b210968c69cc103ff7c6a0009251",
+    "targetSha256": "612d88dc2af58e7fbcd6c86a0b533d88ac64b210968c69cc103ff7c6a0009251"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/match.wav",
+    "target": "Assets/Resources/Audio/match.wav",
+    "sha256": "f908dc04bf3714847180caef6b8e5f68393404c3b18140df5f22ee09671a12e7",
+    "targetSha256": "f908dc04bf3714847180caef6b8e5f68393404c3b18140df5f22ee09671a12e7"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/pick.wav",
+    "target": "Assets/Resources/Audio/pick.wav",
+    "sha256": "6affd460240b869db7b71df3aa7590b368a5b690ee7511aaf85cc9da75586c48",
+    "targetSha256": "6affd460240b869db7b71df3aa7590b368a5b690ee7511aaf85cc9da75586c48"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/prop.wav",
+    "target": "Assets/Resources/Audio/prop.wav",
+    "sha256": "cd92aaa50162a0f25122022f26df726cff659864767da3890b992ee530e6714b",
+    "targetSha256": "cd92aaa50162a0f25122022f26df726cff659864767da3890b992ee530e6714b"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/shuffle.wav",
+    "target": "Assets/Resources/Audio/shuffle.wav",
+    "sha256": "11f75d1f06d6670750be3848950ffb837801a4174dac22b08b04e89df18a0864",
+    "targetSha256": "11f75d1f06d6670750be3848950ffb837801a4174dac22b08b04e89df18a0864"
+  },
+  {
+    "source": "reference-projects/catch-big-goose-cocos/assets/resources/audio/win.wav",
+    "target": "Assets/Resources/Audio/win.wav",
+    "sha256": "2e74313fa5b10e285b488f7d11410b03c37e8251562a08bbaf49fea4e1678b4f",
+    "targetSha256": "2e74313fa5b10e285b488f7d11410b03c37e8251562a08bbaf49fea4e1678b4f"
+  }
+]

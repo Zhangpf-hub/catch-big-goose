@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "banzhi",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banzhi\\banzhi.fbx",
+  "sourceTriangles": 1472,
+  "triangles": 1472,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.995526909828186,
+    1.0000001192092896,
+    0.7614694833755493
+  ],
+  "normalizedDimensions": [
+    0.995526909828186,
+    1.0,
+    0.7614693641662598
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

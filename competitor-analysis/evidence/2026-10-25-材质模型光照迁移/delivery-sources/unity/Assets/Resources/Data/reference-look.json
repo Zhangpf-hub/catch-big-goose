@@ -1,0 +1,7 @@
+{
+  "sunIntensity": 0.8,
+  "shadowStrength": 0.45,
+  "shadowDistance": 32,
+  "shadows": true,
+  "evidence": "Project adaptation: one neutral directional light, 1024-class hard shadow map, source MatCap textures and source material groups. Not original shader reconstruction."
+}

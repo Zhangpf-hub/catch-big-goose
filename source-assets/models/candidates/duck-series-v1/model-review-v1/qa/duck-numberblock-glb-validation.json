@@ -1,0 +1,28 @@
+{
+  "id": "duck-numberblock",
+  "passed": true,
+  "checks": {
+    "oneMesh": true,
+    "onePrimitive": true,
+    "oneMaterial": true,
+    "triangles": true,
+    "bytes": true,
+    "noAnimation": true,
+    "noSkin": true,
+    "uv": true,
+    "noErrors": true,
+    "noWarnings": true,
+    "roundtripGeometry": true
+  },
+  "triangles": 3328,
+  "bytes": 77332,
+  "sha256": "94e17fba8288fe5e56fd6ae73dbf8752ad1296351bbadee1f43c40d005a812f9",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  }
+}

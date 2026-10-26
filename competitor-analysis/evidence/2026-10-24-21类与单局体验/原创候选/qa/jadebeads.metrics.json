@@ -1,0 +1,28 @@
+{
+  "id": "jadebeads",
+  "theme": "antique",
+  "triangles": 2624,
+  "vertices": 1338,
+  "blenderBounds": [
+    0.8435138463973999,
+    1.0,
+    0.26581934094429016
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 60684,
+  "sha256": "1cc3b1212eb687fe2fbd1ef2c9a8751f0c46149e0e641078fe4b4820240ec40d",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlasterDeer\\tex_-8799056970662656634.png",
+      "uvMin": [
+        0.01397793646901846,
+        0.005050642415881157
+      ],
+      "uvMax": [
+        0.9920408129692078,
+        0.9920020699501038
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_gtplasterdeer\\albedo.png"
+}

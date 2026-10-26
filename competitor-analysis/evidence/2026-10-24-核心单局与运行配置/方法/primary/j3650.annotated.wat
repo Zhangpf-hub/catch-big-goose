@@ -1,0 +1,121 @@
+  (func $j3650 (type $t3) (param $p0 i32) (result i32)
+    (local $l1 i32) (local $l2 i32) (local $l3 i32)
+    i32.const 5139797
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      call $j922
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 3959304 ;; NetInitManager_TypeInfo
+      call $j922
+      i32.const 3964096 ;; UIDebugPop_TypeInfo
+      call $j922
+      i32.const 4108976 ;; invite
+      call $j922
+      i32.const 4063796 ;; 
+      call $j922
+      i32.const 4084644 ;; LibraryScoreInvite
+      call $j922
+      i32.const 5139797
+      i32.const 1
+      i32.store8
+    end
+    block $B1
+      i32.const 3964096 ;; UIDebugPop_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.load8_u offset=1
+      if $I2
+        i32.const 3964096 ;; UIDebugPop_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.const 4
+        i32.add
+        local.set $p0
+        br $B1
+      end
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      i32.load offset=92
+      i32.const 92
+      i32.add
+      local.set $p0
+    end
+    local.get $p0
+    i32.load
+    local.set $p0
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 5142651
+    i32.load8_u
+    i32.eqz
+    if $I3
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 5142651
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=32
+    local.set $l2
+    block $B4
+      local.get $l2
+      i32.eqz
+      br_if $B4
+      local.get $l2
+      i32.load offset=36
+      local.set $l1
+      local.get $l1
+      i32.eqz
+      br_if $B4
+      local.get $l1
+      i32.load offset=44
+      local.set $l1
+      local.get $l1
+      local.get $p0
+      i32.ge_s
+      br_if $B4
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 4084644 ;; LibraryScoreInvite
+      i32.load
+      i32.const 0
+      call $j1731 ;; ConfigManager$$GetCommonInt
+      local.set $l3
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      call $j923
+      local.get $l3
+      local.get $p0
+      local.get $l1
+      i32.sub
+      i32.mul
+      i32.const 4108976 ;; invite
+      i32.load
+      i32.const 2
+      i32.const 4063796 ;; 
+      i32.load
+      local.get $p0
+      call $j8812 ;; NetDataManager$$UploadLibraryChiForestOrderInfo
+      local.get $l2
+      i32.load offset=36
+      local.get $p0
+      i32.store offset=44
+      local.get $p0
+      call $j1769 ;; NetDataManager$$UploadPlayerSelfArchives
+    end
+    local.get $p0
+    return)

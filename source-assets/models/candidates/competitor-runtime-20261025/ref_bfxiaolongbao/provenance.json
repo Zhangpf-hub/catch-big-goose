@@ -1,0 +1,9 @@
+{
+  "id": "ref_bfxiaolongbao",
+  "sourceId": "BFXiaoLongBao",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFXiaoLongBao\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFXiaoLongBao.prefab",
+  "bundle": "levelbreakfastobjprefab_assets_part1_3cdb7bf9e295314f501ccfc21ef41cbf.bundle",
+  "sourceSha256": "58519147f9013a258a866fc890b969723b25d113385dfbaa06f5fe9ad16daf8f"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ref_grilledcorn",
+  "sourceId": "GrilledCorn",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GrilledCorn\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/GrilledCorn.prefab",
+  "bundle": "levelbarbecueobjprefab_assets__72a69c35c772575b0456de55b9990197.bundle",
+  "sourceSha256": "3a02e23f4341d21cf25e37bcd0f7bdd8d8337d4c4be2422975662ee30033f627"
+}

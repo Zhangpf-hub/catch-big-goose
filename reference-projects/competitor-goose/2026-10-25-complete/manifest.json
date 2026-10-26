@@ -1,0 +1,289 @@
+{
+  "appId": "wxb98ac240fd74b0e3",
+  "date": "2026-10-25",
+  "purpose": "Read-only recovered source evidence for user-requested Unity runtime derivation; source prefab poses retained or baked, original shader program not recovered.",
+  "unityPyVersion": "1.25.4",
+  "sources": [
+    {
+      "file": "goosefirst_assets_goose_bfsteamedbread_e7ba3b82dfff0a3c1f2ba374af26676e.bundle",
+      "bytes": 139384,
+      "sha256": "1546ba5aa43746c6dfe1dfcfdbacb74042ddfce79768c38ac267a7415d1fc0f1"
+    },
+    {
+      "file": "goosefirst_assets_goose_chilisauce_5f0de97865dbdfcd4339cb5439310b64.bundle",
+      "bytes": 243990,
+      "sha256": "a026c8b6b8253eede72d6c454442c37f6bd1d28d28ae59f2e158db0af909f744"
+    },
+    {
+      "file": "goosefirst_assets_goose_tomato_c465088924d13efb69cc14d26d361bba.bundle",
+      "bytes": 155245,
+      "sha256": "5654c0d39d3dad025fa221aa1a6a83da4e90fc74411bb783810e9fac5130818d"
+    },
+    {
+      "file": "gooseitem2_assets_part7_c1ee474b35f67eafd74f3a09b329cb0c.bundle",
+      "bytes": 439091,
+      "sha256": "5dd45c6b5de2e37f1297009dc33544662612717a0200609f7798198250e4f9b4"
+    },
+    {
+      "file": "gooseitem_assets_part1_c2f3ca5dbcb468774457e4ac1e71defc.bundle",
+      "bytes": 400798,
+      "sha256": "78792437aaef1eaa841e37394d5e881e93e5564e7e911ff98dd46fdd2a82f25d"
+    },
+    {
+      "file": "gooseitem_assets_part4_fa5404e2611a2fb3c0f427b663b19f85.bundle",
+      "bytes": 365857,
+      "sha256": "fe2a78b3d0d775f155f1f74a30b84bd591a2851532943f64cd5b1d0e9eedf4be"
+    },
+    {
+      "file": "gooseitem_assets_part5_3ba76614e76ee75e18f713d1726502bf.bundle",
+      "bytes": 330577,
+      "sha256": "d08bcbc6695ae8cdfcda30bf5204f8317ecdcae50b25f80b55846d9715982712"
+    },
+    {
+      "file": "levelgrocerystoreobjprefab_assets__4e17dc77a3f0d340dffb1931415538ea.bundle",
+      "bytes": 278795,
+      "sha256": "9d5a32f3d2db1c7ef306ce3d14a0a891fd587e9cf909cbc9c71b334f10596662"
+    },
+    {
+      "file": "levelgrocerystoreobjprefab_assets_part2_96e1c3d76bd426b3b24bb5ecb5a6b9cb.bundle",
+      "bytes": 577449,
+      "sha256": "41a41ff561cc438ec4c140c732accf62aa7d10a8ed9f62c33e1316e94491556b"
+    }
+  ],
+  "models": [
+    {
+      "id": "Banana",
+      "triangles": 288,
+      "source": "models/Banana/source.json",
+      "sourceSha256": "27436939605117aa50b7093b9f820623179d276608eefed9aaa8f41d4e1afc64"
+    },
+    {
+      "id": "BeanPaste",
+      "triangles": 1506,
+      "source": "models/BeanPaste/source.json",
+      "sourceSha256": "afc6aba121549034a7f606554efa03d716a241a7a61384ee4fbdcf1044a80e93"
+    },
+    {
+      "id": "CookingWine",
+      "triangles": 1498,
+      "source": "models/CookingWine/source.json",
+      "sourceSha256": "ddf094b8ea84690b3509ba5fabc8cd5ebca665518a5741ab17ff5eba1c3833d3"
+    },
+    {
+      "id": "DishSoap",
+      "triangles": 742,
+      "source": "models/DishSoap/source.json",
+      "sourceSha256": "9583c1574dbcbadd406cb161e6466d2b67ddeedc93cf800f6fde8a23796a3b36"
+    },
+    {
+      "id": "Egg2",
+      "triangles": 180,
+      "source": "models/Egg2/source.json",
+      "sourceSha256": "ad5f5b5fedc2ecdbf4c5102b063149006afd69617a1994e97acf96a198fd1708"
+    },
+    {
+      "id": "GlassCola",
+      "triangles": 1318,
+      "source": "models/GlassCola/source.json",
+      "sourceSha256": "54bfe844463eecbf9a94225b743afcbfe2182752bd65fee709c4d95a0f27a07d"
+    },
+    {
+      "id": "GlassOrgan",
+      "triangles": 1318,
+      "source": "models/GlassOrgan/source.json",
+      "sourceSha256": "34fa3d62c14fbb1c1050e4077f4c59afae1d47aeda762ae999af53536c0694f2"
+    },
+    {
+      "id": "Goose_BFSteamedBread",
+      "triangles": 2208,
+      "source": "models/Goose_BFSteamedBread/source.json",
+      "sourceSha256": "b89b58201c7d3f5ae9fc9f1d47b74b00868635e23028039f43a43cddb93ef241"
+    },
+    {
+      "id": "Goose_ChiliSauce",
+      "triangles": 3412,
+      "source": "models/Goose_ChiliSauce/source.json",
+      "sourceSha256": "9ffd4b707e4218dbbf21195a39cbf6cea2e49580bceb6364dd475d9c61527e03"
+    },
+    {
+      "id": "Goose_ColaCup",
+      "triangles": 2574,
+      "source": "models/Goose_ColaCup/source.json",
+      "sourceSha256": "26b4e27e936b3b7023f27840349e5b2e923b0498b0ca4c21f31a443266cf778e"
+    },
+    {
+      "id": "Goose_Egg",
+      "triangles": 1724,
+      "source": "models/Goose_Egg/source.json",
+      "sourceSha256": "a161ad550c8a22572226cdaa8fb3990b085e1f45e302b50c2ac93a5ca9a9d563"
+    },
+    {
+      "id": "Goose_EggPancake",
+      "triangles": 2174,
+      "source": "models/Goose_EggPancake/source.json",
+      "sourceSha256": "dc230edbc0a25ac87e402e1a11876d15f0b297deb5de03640fd8e96aaa46483c"
+    },
+    {
+      "id": "Goose_Eggplant",
+      "triangles": 2398,
+      "source": "models/Goose_Eggplant/source.json",
+      "sourceSha256": "285ad8cd64378dda68b85eff7000cef4f1d58ad5521882ab40c276f0d2c6c892"
+    },
+    {
+      "id": "Goose_EggTart",
+      "triangles": 2636,
+      "source": "models/Goose_EggTart/source.json",
+      "sourceSha256": "58e42b49d2e9888cd33f51864c5dc730f5fe9e44759e48001e5e2633a70aa3be"
+    },
+    {
+      "id": "Goose_Farmer",
+      "triangles": 2336,
+      "source": "models/Goose_Farmer/source.json",
+      "sourceSha256": "dc07a28774403386d6ba81690c351088c9dd47960f8289f2306e5e8840bf2441"
+    },
+    {
+      "id": "Goose_GreenPepper",
+      "triangles": 2690,
+      "source": "models/Goose_GreenPepper/source.json",
+      "sourceSha256": "698877dc0baf27ba5256aa462f2a62a08394b9dbef0db97628907b6ace26fc8e"
+    },
+    {
+      "id": "Goose_MilletCake",
+      "triangles": 1816,
+      "source": "models/Goose_MilletCake/source.json",
+      "sourceSha256": "9e24f210f0f893503aa1368670accb076a7cd8b0b22ef0e978f02816c52657c0"
+    },
+    {
+      "id": "Goose_Noodles",
+      "triangles": 2247,
+      "source": "models/Goose_Noodles/source.json",
+      "sourceSha256": "cfdb56db39d36e07bbb3c1a17225cf9559c0e2d3257330943322c244fdec1340"
+    },
+    {
+      "id": "Goose_Potato",
+      "triangles": 1928,
+      "source": "models/Goose_Potato/source.json",
+      "sourceSha256": "10217ce067205dae4c53762a130643337b5954804be980f2c6dfb885251ef05e"
+    },
+    {
+      "id": "Goose_SteelCup",
+      "triangles": 2562,
+      "source": "models/Goose_SteelCup/source.json",
+      "sourceSha256": "b49514f0763c8b4f49b48798ddce10ce835639cb1a892e8fffc67f299e40ae53"
+    },
+    {
+      "id": "Goose_Tomato",
+      "triangles": 2248,
+      "source": "models/Goose_Tomato/source.json",
+      "sourceSha256": "e75b17c5c31fa619154b3256c0494ed48582268d822510859eca72c95351867e"
+    },
+    {
+      "id": "Goose_Watermelon",
+      "triangles": 2723,
+      "source": "models/Goose_Watermelon/source.json",
+      "sourceSha256": "3f6c8245186db4559c28db67fb18ea85a912fe00b19bd17594097c14e6f5b123"
+    },
+    {
+      "id": "InstantNoodles2",
+      "triangles": 703,
+      "source": "models/InstantNoodles2/source.json",
+      "sourceSha256": "ab936d78d60919bae6ccc6bfc29231bbfc54ea3e4fd0ff28ebcf5ebb6fe78cc1"
+    },
+    {
+      "id": "MosquitoCoil",
+      "triangles": 982,
+      "source": "models/MosquitoCoil/source.json",
+      "sourceSha256": "83879a72b3437e80fd85c5c7acf69c740a147240d09e93cb36a2525067e23dd8"
+    },
+    {
+      "id": "SpicyStrips",
+      "triangles": 1200,
+      "source": "models/SpicyStrips/source.json",
+      "sourceSha256": "4edc0310176a973729c52993d25eebcd62dc194cdb791078cf730619e7d3cb00"
+    },
+    {
+      "id": "WahahaMilk",
+      "triangles": 1326,
+      "source": "models/WahahaMilk/source.json",
+      "sourceSha256": "02e25a7788042ac3aea80cfec93e848cd8946372f4bbe8607fbfc1b9de7e7011"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "Goose_BFSteamedBread",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Breakfast/Goose_BFSteamedBread.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_ChiliSauce",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/GroceryStore/Goose_ChiliSauce.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_Tomato",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Countryside/Goose_Tomato.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_EggPancake",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Breakfast/Goose_EggPancake.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_EggTart",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Breakfast/Goose_EggTart.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_MilletCake",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Breakfast/Goose_MilletCake.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_Farmer",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Countryside/Goose_Farmer.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_SteelCup",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Countryside/Goose_SteelCup.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_Watermelon",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Countryside/Goose_Watermelon.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_ColaCup",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/GroceryStore/Goose_ColaCup.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_Egg",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/GroceryStore/Goose_Egg.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_Noodles",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/GroceryStore/Goose_Noodles.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_Eggplant",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Barbecue/Goose_Eggplant.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_GreenPepper",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Barbecue/Goose_GreenPepper.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_Potato",
+      "prefab": "Assets/Prefabs/TargetObjPrefabs/Barbecue/Goose_Potato.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    }
+  ],
+  "priorBatch": null
+}

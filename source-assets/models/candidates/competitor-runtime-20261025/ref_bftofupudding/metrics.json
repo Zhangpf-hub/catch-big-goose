@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bftofupudding",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFTofuPudding\\BFTofuPudding.blend",
+  "sourceTriangles": 720,
+  "triangles": 720,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.635488510131836,
+    1.3402795791625977,
+    1.4045852422714233
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.8194980025291443,
+    0.858816921710968
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

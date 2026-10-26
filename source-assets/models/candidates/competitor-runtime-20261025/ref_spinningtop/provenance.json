@@ -1,0 +1,9 @@
+{
+  "id": "ref_spinningtop",
+  "sourceId": "SpinningTop",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\SpinningTop\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/SpinningTop.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "1d80b0f013d560bab19a0190111d1666f071bd6a26c6dea715070a6ca80cc372"
+}

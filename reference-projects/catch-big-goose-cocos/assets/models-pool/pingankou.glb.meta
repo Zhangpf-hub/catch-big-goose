@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "881785d5-2ec1-4f38-9c6b-e8c668ace3a0",
+  "files": [],
+  "subMetas": {
+    "12b8b": {
+      "importer": "gltf-mesh",
+      "uuid": "881785d5-2ec1-4f38-9c6b-e8c668ace3a0@12b8b",
+      "displayName": "",
+      "id": "12b8b",
+      "name": "Torus.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2304
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "54f97": {
+      "importer": "gltf-material",
+      "uuid": "881785d5-2ec1-4f38-9c6b-e8c668ace3a0@54f97",
+      "displayName": "",
+      "id": "54f97",
+      "name": "JadeWhite.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16ff8": {
+      "importer": "gltf-scene",
+      "uuid": "881785d5-2ec1-4f38-9c6b-e8c668ace3a0@16ff8",
+      "displayName": "",
+      "id": "16ff8",
+      "name": "pingankou.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "881785d5-2ec1-4f38-9c6b-e8c668ace3a0@12b8b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "881785d5-2ec1-4f38-9c6b-e8c668ace3a0@54f97"
+      ],
+      "scenes": [
+        "881785d5-2ec1-4f38-9c6b-e8c668ace3a0@16ff8"
+      ]
+    }
+  }
+}

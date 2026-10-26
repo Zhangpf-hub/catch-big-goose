@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_pepperfresh",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\PepperFresh\\PepperFresh.blend",
+  "sourceTriangles": 238,
+  "triangles": 238,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.4753551483154297,
+    0.8445712924003601,
+    0.35348182916641235
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.34119197726249695,
+    0.1428004503250122
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

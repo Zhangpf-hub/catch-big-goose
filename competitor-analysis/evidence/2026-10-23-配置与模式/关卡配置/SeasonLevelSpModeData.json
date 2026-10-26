@@ -1,0 +1,66 @@
+{
+  "SheetName": "Assets/Res/ForEditor/SeasonLevelData.xlsx",
+  "WorksheetName": "SeasonLevelSpModeData",
+  "dataArray": [
+    {
+      "_seasonid": 310001,
+      "_unlocklevel": 20,
+      "_spmodetype": "HighPot",
+      "_spmodelevelid": 1001001,
+      "_spmodelevelname": "\u7cd6\u679c\u76d2",
+      "_spmodelevelicon": "",
+      "_resid": "30001",
+      "_rescount": 10
+    },
+    {
+      "_seasonid": 310001,
+      "_unlocklevel": 40,
+      "_spmodetype": "HighPot",
+      "_spmodelevelid": 1001002,
+      "_spmodelevelname": "\u7076\u53f0",
+      "_spmodelevelicon": "",
+      "_resid": "30001",
+      "_rescount": 10
+    },
+    {
+      "_seasonid": 310001,
+      "_unlocklevel": 60,
+      "_spmodetype": "LongTable",
+      "_spmodelevelid": 1001003,
+      "_spmodelevelname": "\u6ee1\u6c49\u5168\u5e2d",
+      "_spmodelevelicon": "",
+      "_resid": "30001",
+      "_rescount": 10
+    },
+    {
+      "_seasonid": 310001,
+      "_unlocklevel": 70,
+      "_spmodetype": "LongTable",
+      "_spmodelevelid": 1001004,
+      "_spmodelevelname": "\u996d\u540e\u751c\u70b9",
+      "_spmodelevelicon": "",
+      "_resid": "30001",
+      "_rescount": 10
+    },
+    {
+      "_seasonid": 310001,
+      "_unlocklevel": 80,
+      "_spmodetype": "3DRoom",
+      "_spmodelevelid": 1001005,
+      "_spmodelevelname": "\u540e\u9662\u805a\u9910",
+      "_spmodelevelicon": "",
+      "_resid": "30001",
+      "_rescount": 10
+    },
+    {
+      "_seasonid": 310001,
+      "_unlocklevel": 90,
+      "_spmodetype": "3DRoom",
+      "_spmodelevelid": 1001006,
+      "_spmodelevelname": "\u540e\u9662\u8336\u4f1a",
+      "_spmodelevelicon": "",
+      "_resid": "30001",
+      "_rescount": 10
+    }
+  ]
+}

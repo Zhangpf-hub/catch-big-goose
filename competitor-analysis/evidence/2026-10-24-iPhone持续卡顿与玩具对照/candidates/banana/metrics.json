@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "banana",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banana\\banana.fbx",
+  "sourceTriangles": 1568,
+  "triangles": 1568,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9999999403953552,
+    0.4441509544849396,
+    0.1783411204814911
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.44415098428726196,
+    0.1783410757780075
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

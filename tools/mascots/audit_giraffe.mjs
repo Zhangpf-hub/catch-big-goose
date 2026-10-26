@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+import {createHash} from 'node:crypto';
+const root=path.resolve('source-assets/models/candidates/giraffe-b-20261024-v1');
+const validator=createRequire(import.meta.url)('D:/开发/tools/gltf-audit/node_modules/gltf-validator');
+const raw=fs.readFileSync(path.join(root,'model/giraffe.glb'));
+const g=JSON.parse(raw.subarray(20,20+raw.readUInt32LE(12)).toString());
+const primitives=g.meshes.flatMap(m=>m.primitives),triangles=primitives.reduce((n,p)=>n+g.accessors[p.indices].count/3,0);
+const validation=await validator.validateBytes(new Uint8Array(raw),{uri:'giraffe.glb',maxIssues:100});
+const checks={oneMesh:g.meshes.length===1,onePrimitive:primitives.length===1,oneMaterial:g.materials.length===1,triangles:triangles<=6000,bytes:raw.length<=256*1024,noAnimation:!g.animations,noErrors:validation.issues.numErrors===0,noWarnings:validation.issues.numWarnings===0};
+const report={passed:Object.values(checks).every(Boolean),checks,triangles,bytes:raw.length,sha256:createHash('sha256').update(raw).digest('hex'),issues:validation.issues};
+fs.writeFileSync(path.join(root,'qa/glb-validation.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));if(!report.passed)process.exitCode=1;

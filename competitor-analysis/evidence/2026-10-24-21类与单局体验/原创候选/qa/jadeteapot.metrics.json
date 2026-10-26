@@ -1,0 +1,28 @@
+{
+  "id": "jadeteapot",
+  "theme": "antique",
+  "triangles": 1752,
+  "vertices": 900,
+  "blenderBounds": [
+    1.0,
+    0.4667360484600067,
+    0.5682005286216736
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 41252,
+  "sha256": "6b80db97cec36fcb4eab0d1315f14ae6a5a11e45c768994d34716f948051c116",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

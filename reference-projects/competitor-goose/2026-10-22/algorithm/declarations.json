@@ -1,0 +1,4682 @@
+[
+  {
+    "name": "LevelABDataData",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "_id",
+        "typeIndex": 18256,
+        "token": "0x04000548"
+      },
+      {
+        "name": "_reducegroup",
+        "typeIndex": 12290,
+        "token": "0x04000549"
+      },
+      {
+        "name": "_reducetype",
+        "typeIndex": 12290,
+        "token": "0x0400054a"
+      },
+      {
+        "name": "_des",
+        "typeIndex": 22817,
+        "token": "0x0400054b"
+      }
+    ],
+    "methods": [
+      {
+        "name": "get_ID",
+        "declaringType": 251,
+        "returnTypeIndex": 18255,
+        "token": "0x06000604",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_ID",
+        "declaringType": 251,
+        "returnTypeIndex": 25796,
+        "token": "0x06000605",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_ReduceGroup",
+        "declaringType": 251,
+        "returnTypeIndex": 12289,
+        "token": "0x06000606",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_ReduceGroup",
+        "declaringType": 251,
+        "returnTypeIndex": 25796,
+        "token": "0x06000607",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_ReduceType",
+        "declaringType": 251,
+        "returnTypeIndex": 12289,
+        "token": "0x06000608",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_ReduceType",
+        "declaringType": 251,
+        "returnTypeIndex": 25796,
+        "token": "0x06000609",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_Des",
+        "declaringType": 251,
+        "returnTypeIndex": 22816,
+        "token": "0x0600060a",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_Des",
+        "declaringType": 251,
+        "returnTypeIndex": 25796,
+        "token": "0x0600060b",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 251,
+        "returnTypeIndex": 25796,
+        "token": "0x0600060c",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "LevelDataData",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "_level",
+        "typeIndex": 18256,
+        "token": "0x04000558"
+      },
+      {
+        "name": "_index",
+        "typeIndex": 18256,
+        "token": "0x04000559"
+      },
+      {
+        "name": "_gametype",
+        "typeIndex": 22817,
+        "token": "0x0400055a"
+      },
+      {
+        "name": "_height",
+        "typeIndex": 22342,
+        "token": "0x0400055b"
+      },
+      {
+        "name": "_namelist",
+        "typeIndex": 12598,
+        "token": "0x0400055c"
+      },
+      {
+        "name": "_wintype",
+        "typeIndex": 12290,
+        "token": "0x0400055d"
+      },
+      {
+        "name": "_wincount",
+        "typeIndex": 12290,
+        "token": "0x0400055e"
+      },
+      {
+        "name": "_wintypeweight",
+        "typeIndex": 12553,
+        "token": "0x0400055f"
+      },
+      {
+        "name": "_othertypeweight",
+        "typeIndex": 12553,
+        "token": "0x04000560"
+      },
+      {
+        "name": "_sumcount",
+        "typeIndex": 18256,
+        "token": "0x04000561"
+      },
+      {
+        "name": "_cancreatetype",
+        "typeIndex": 12290,
+        "token": "0x04000562"
+      },
+      {
+        "name": "_typecount",
+        "typeIndex": 18256,
+        "token": "0x04000563"
+      },
+      {
+        "name": "_limittime",
+        "typeIndex": 12290,
+        "token": "0x04000564"
+      },
+      {
+        "name": "_limitheight",
+        "typeIndex": 22342,
+        "token": "0x04000565"
+      },
+      {
+        "name": "_sceneobj",
+        "typeIndex": 22817,
+        "token": "0x04000566"
+      },
+      {
+        "name": "_scenesize",
+        "typeIndex": 22342,
+        "token": "0x04000567"
+      },
+      {
+        "name": "_resumetime",
+        "typeIndex": 18256,
+        "token": "0x04000568"
+      },
+      {
+        "name": "_nethardname",
+        "typeIndex": 22817,
+        "token": "0x04000569"
+      }
+    ],
+    "methods": [
+      {
+        "name": "get_Level",
+        "declaringType": 255,
+        "returnTypeIndex": 18255,
+        "token": "0x0600061e",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_Level",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x0600061f",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_Index",
+        "declaringType": 255,
+        "returnTypeIndex": 18255,
+        "token": "0x06000620",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_Index",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000621",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_GameType",
+        "declaringType": 255,
+        "returnTypeIndex": 22816,
+        "token": "0x06000622",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_GameType",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000623",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_Height",
+        "declaringType": 255,
+        "returnTypeIndex": 22341,
+        "token": "0x06000624",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_Height",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000625",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_NameList",
+        "declaringType": 255,
+        "returnTypeIndex": 12597,
+        "token": "0x06000626",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_NameList",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000627",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_WinType",
+        "declaringType": 255,
+        "returnTypeIndex": 12289,
+        "token": "0x06000628",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_WinType",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000629",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_WinCount",
+        "declaringType": 255,
+        "returnTypeIndex": 12289,
+        "token": "0x0600062a",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_WinCount",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x0600062b",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_WinTypeWeight",
+        "declaringType": 255,
+        "returnTypeIndex": 12552,
+        "token": "0x0600062c",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_WinTypeWeight",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x0600062d",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_OtherTypeWeight",
+        "declaringType": 255,
+        "returnTypeIndex": 12552,
+        "token": "0x0600062e",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_OtherTypeWeight",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x0600062f",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_SumCount",
+        "declaringType": 255,
+        "returnTypeIndex": 18255,
+        "token": "0x06000630",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_SumCount",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000631",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_CanCreateType",
+        "declaringType": 255,
+        "returnTypeIndex": 12289,
+        "token": "0x06000632",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_CanCreateType",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000633",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_TypeCount",
+        "declaringType": 255,
+        "returnTypeIndex": 18255,
+        "token": "0x06000634",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_TypeCount",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000635",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_LimitTime",
+        "declaringType": 255,
+        "returnTypeIndex": 12289,
+        "token": "0x06000636",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_LimitTime",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000637",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_LimitHeight",
+        "declaringType": 255,
+        "returnTypeIndex": 22341,
+        "token": "0x06000638",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_LimitHeight",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000639",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_SceneObj",
+        "declaringType": 255,
+        "returnTypeIndex": 22816,
+        "token": "0x0600063a",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_SceneObj",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x0600063b",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_SceneSize",
+        "declaringType": 255,
+        "returnTypeIndex": 22341,
+        "token": "0x0600063c",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_SceneSize",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x0600063d",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_ResumeTime",
+        "declaringType": 255,
+        "returnTypeIndex": 18255,
+        "token": "0x0600063e",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_ResumeTime",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x0600063f",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_NetHardName",
+        "declaringType": 255,
+        "returnTypeIndex": 22816,
+        "token": "0x06000640",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_NetHardName",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000641",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 255,
+        "returnTypeIndex": 25796,
+        "token": "0x06000642",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "ObjectPoolMa",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "objContentTrans",
+        "typeIndex": 23862,
+        "token": "0x040009ef"
+      },
+      {
+        "name": "_ObjContentTrans",
+        "typeIndex": 23865,
+        "token": "0x040009f0"
+      },
+      {
+        "name": "_unActiveObjList",
+        "typeIndex": 4351,
+        "token": "0x040009f1"
+      },
+      {
+        "name": "_activeObjList",
+        "typeIndex": 4351,
+        "token": "0x040009f2"
+      },
+      {
+        "name": "_prefabList",
+        "typeIndex": 4432,
+        "token": "0x040009f3"
+      },
+      {
+        "name": "_tempObj",
+        "typeIndex": 16798,
+        "token": "0x040009f4"
+      }
+    ],
+    "methods": [
+      {
+        "name": "Awake",
+        "declaringType": 512,
+        "returnTypeIndex": 25796,
+        "token": "0x06000d76",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetObjByName",
+        "declaringType": 512,
+        "returnTypeIndex": 16794,
+        "token": "0x06000d77",
+        "flags": 150,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetObj",
+        "declaringType": 512,
+        "returnTypeIndex": 16794,
+        "token": "0x06000d78",
+        "flags": 150,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RemoveObj",
+        "declaringType": 512,
+        "returnTypeIndex": 25796,
+        "token": "0x06000d79",
+        "flags": 150,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CleanUnActiveObjList",
+        "declaringType": 512,
+        "returnTypeIndex": 25796,
+        "token": "0x06000d7a",
+        "flags": 150,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 512,
+        "returnTypeIndex": 25796,
+        "token": "0x06000d7b",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".cctor",
+        "declaringType": 512,
+        "returnTypeIndex": 25796,
+        "token": "0x06000d7c",
+        "flags": 6289,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "LevelConfig",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "levelDataList",
+        "typeIndex": 12653,
+        "token": "0x04000f51"
+      }
+    ],
+    "methods": [
+      {
+        "name": ".ctor",
+        "declaringType": 706,
+        "returnTypeIndex": 25796,
+        "token": "0x06001303",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "LevelDataHelper",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "_allLevelSet",
+        "typeIndex": 5736,
+        "token": "0x04000f97"
+      },
+      {
+        "name": "_allLevelDictByIndex",
+        "typeIndex": 4082,
+        "token": "0x04000f98"
+      },
+      {
+        "name": "_allEndlessLevelDataDict",
+        "typeIndex": 4080,
+        "token": "0x04000f99"
+      }
+    ],
+    "methods": [
+      {
+        "name": "get_AllLevelSet",
+        "declaringType": 726,
+        "returnTypeIndex": 5735,
+        "token": "0x06001389",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_AllLevelDictByIndex",
+        "declaringType": 726,
+        "returnTypeIndex": 4081,
+        "token": "0x0600138a",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetLevelData",
+        "declaringType": 726,
+        "returnTypeIndex": 8658,
+        "token": "0x0600138b",
+        "flags": 150,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "AddLevelObjNameListToSet",
+        "declaringType": 726,
+        "returnTypeIndex": 25796,
+        "token": "0x0600138c",
+        "flags": 150,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetBaseLevelIndex",
+        "declaringType": 726,
+        "returnTypeIndex": 18255,
+        "token": "0x0600138d",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".cctor",
+        "declaringType": 726,
+        "returnTypeIndex": 25796,
+        "token": "0x0600138e",
+        "flags": 6289,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "LevelLoader",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "IndexType",
+        "typeIndex": 18697,
+        "token": "0x04000f9c"
+      },
+      {
+        "name": "_loading",
+        "typeIndex": 14043,
+        "token": "0x04000f9d"
+      },
+      {
+        "name": "OnLoadComplete",
+        "typeIndex": 2937,
+        "token": "0x04000f9e"
+      },
+      {
+        "name": "<HasLoadComplete>k__BackingField",
+        "typeIndex": 14043,
+        "token": "0x04000f9f"
+      },
+      {
+        "name": "<LoadingProgress>k__BackingField",
+        "typeIndex": 22342,
+        "token": "0x04000fa0"
+      }
+    ],
+    "methods": [
+      {
+        "name": "get_LevelIndex",
+        "declaringType": 728,
+        "returnTypeIndex": 18255,
+        "token": "0x0600139d",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_LevelType",
+        "declaringType": 728,
+        "returnTypeIndex": 22816,
+        "token": "0x0600139e",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "add_OnLoadComplete",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x0600139f",
+        "flags": 2177,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "remove_OnLoadComplete",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a0",
+        "flags": 2177,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_HasLoadComplete",
+        "declaringType": 728,
+        "returnTypeIndex": 14042,
+        "token": "0x060013a1",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_HasLoadComplete",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a2",
+        "flags": 2177,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_LoadingProgress",
+        "declaringType": 728,
+        "returnTypeIndex": 22341,
+        "token": "0x060013a3",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_LoadingProgress",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a4",
+        "flags": 2177,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a5",
+        "flags": 6278,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a6",
+        "flags": 6278,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RegisterOnComplete",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a7",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "UnregisterOnComplete",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a8",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LevelLoadComplete",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013a9",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LevelLoadUpdate",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013aa",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Load",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013ab",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CleanNoUseObj",
+        "declaringType": 728,
+        "returnTypeIndex": 25796,
+        "token": "0x060013ac",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "LevelManager",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "Instance",
+        "typeIndex": 18709,
+        "token": "0x04000fa8"
+      },
+      {
+        "name": "IsMoreVisible",
+        "typeIndex": 14051,
+        "token": "0x04000fa9"
+      },
+      {
+        "name": "_rigidDepth",
+        "typeIndex": 22342,
+        "token": "0x04000faa"
+      },
+      {
+        "name": "_instanceLevelBG",
+        "typeIndex": 18674,
+        "token": "0x04000fab"
+      },
+      {
+        "name": "_p1p2InstanceLevelBG",
+        "typeIndex": 12330,
+        "token": "0x04000fac"
+      },
+      {
+        "name": "_IsBlockTimeCtrl",
+        "typeIndex": 14043,
+        "token": "0x04000fad"
+      },
+      {
+        "name": "_IsOnlinePause",
+        "typeIndex": 14051,
+        "token": "0x04000fae"
+      },
+      {
+        "name": "_hasWinToday",
+        "typeIndex": 14051,
+        "token": "0x04000faf"
+      },
+      {
+        "name": "objectPickOffset",
+        "typeIndex": 22345,
+        "token": "0x04000fb0"
+      },
+      {
+        "name": "objectPickAnimTime",
+        "typeIndex": 22345,
+        "token": "0x04000fb1"
+      },
+      {
+        "name": "_isMoveTouchChangeObj",
+        "typeIndex": 14043,
+        "token": "0x04000fb2"
+      },
+      {
+        "name": "_highLight",
+        "typeIndex": 12256,
+        "token": "0x04000fb3"
+      },
+      {
+        "name": "_combieParticle",
+        "typeIndex": 20517,
+        "token": "0x04000fb4"
+      },
+      {
+        "name": "_levelToolMa",
+        "typeIndex": 18741,
+        "token": "0x04000fb5"
+      },
+      {
+        "name": "_rotaTrans",
+        "typeIndex": 23862,
+        "token": "0x04000fb6"
+      },
+      {
+        "name": "boxTrans",
+        "typeIndex": 23864,
+        "token": "0x04000fb7"
+      },
+      {
+        "name": "_mainContentTrans",
+        "typeIndex": 23862,
+        "token": "0x04000fb8"
+      },
+      {
+        "name": "_levelBGTrans",
+        "typeIndex": 23862,
+        "token": "0x04000fb9"
+      },
+      {
+        "name": "_contentSizeTrans",
+        "typeIndex": 23864,
+        "token": "0x04000fba"
+      },
+      {
+        "name": "_mainLevelCameras",
+        "typeIndex": 14297,
+        "token": "0x04000fbb"
+      },
+      {
+        "name": "_p1ContentTrans",
+        "typeIndex": 23864,
+        "token": "0x04000fbc"
+      },
+      {
+        "name": "_p2ContentTrans",
+        "typeIndex": 23862,
+        "token": "0x04000fbd"
+      },
+      {
+        "name": "_p2boxTrans",
+        "typeIndex": 23864,
+        "token": "0x04000fbe"
+      },
+      {
+        "name": "_p1p2LevelBGTrans",
+        "typeIndex": 12673,
+        "token": "0x04000fbf"
+      },
+      {
+        "name": "_p1p2Cameras",
+        "typeIndex": 12052,
+        "token": "0x04000fc0"
+      },
+      {
+        "name": "_cameraTopTrans",
+        "typeIndex": 23862,
+        "token": "0x04000fc1"
+      },
+      {
+        "name": "_cameraLimitZ",
+        "typeIndex": 22342,
+        "token": "0x04000fc2"
+      },
+      {
+        "name": "_levelType",
+        "typeIndex": 18679,
+        "token": "0x04000fc3"
+      },
+      {
+        "name": "LevelControlType",
+        "typeIndex": 18680,
+        "token": "0x04000fc4"
+      },
+      {
+        "name": "CurGameType",
+        "typeIndex": 16833,
+        "token": "0x04000fc5"
+      },
+      {
+        "name": "CurBattleRelationType",
+        "typeIndex": 18264,
+        "token": "0x04000fc6"
+      },
+      {
+        "name": "CustomBattleRelationType",
+        "typeIndex": 18264,
+        "token": "0x04000fc7"
+      },
+      {
+        "name": "LevelWinBoxCount",
+        "typeIndex": 18264,
+        "token": "0x04000fc8"
+      },
+      {
+        "name": "CurLevel",
+        "typeIndex": 18264,
+        "token": "0x04000fc9"
+      },
+      {
+        "name": "BattleEndResult",
+        "typeIndex": 13881,
+        "token": "0x04000fca"
+      },
+      {
+        "name": "IsPrepareLose",
+        "typeIndex": 14051,
+        "token": "0x04000fcb"
+      },
+      {
+        "name": "_instanceObjList",
+        "typeIndex": 8750,
+        "token": "0x04000fcc"
+      },
+      {
+        "name": "_contentPointList",
+        "typeIndex": 8992,
+        "token": "0x04000fcd"
+      },
+      {
+        "name": "_contentUnitList",
+        "typeIndex": 8750,
+        "token": "0x04000fce"
+      },
+      {
+        "name": "_boxObjList",
+        "typeIndex": 8750,
+        "token": "0x04000fcf"
+      },
+      {
+        "name": "_p2InstanceObjList",
+        "typeIndex": 8750,
+        "token": "0x04000fd0"
+      },
+      {
+        "name": "_p2ContentPointList",
+        "typeIndex": 8992,
+        "token": "0x04000fd1"
+      },
+      {
+        "name": "_p2ContentUnitList",
+        "typeIndex": 8750,
+        "token": "0x04000fd2"
+      },
+      {
+        "name": "_p2BoxObjList",
+        "typeIndex": 8750,
+        "token": "0x04000fd3"
+      },
+      {
+        "name": "_lastTouchPos",
+        "typeIndex": 25596,
+        "token": "0x04000fd4"
+      },
+      {
+        "name": "_newTouchPos",
+        "typeIndex": 25596,
+        "token": "0x04000fd5"
+      },
+      {
+        "name": "_touchOffset",
+        "typeIndex": 22342,
+        "token": "0x04000fd6"
+      },
+      {
+        "name": "_hasRotaCamera",
+        "typeIndex": 14043,
+        "token": "0x04000fd7"
+      },
+      {
+        "name": "_maxLevelTime",
+        "typeIndex": 18256,
+        "token": "0x04000fd8"
+      },
+      {
+        "name": "_levelLeftTimer",
+        "typeIndex": 18256,
+        "token": "0x04000fd9"
+      },
+      {
+        "name": "LevelRecord",
+        "typeIndex": 19100,
+        "token": "0x04000fda"
+      },
+      {
+        "name": "_matchCount",
+        "typeIndex": 18256,
+        "token": "0x04000fdb"
+      },
+      {
+        "name": "_playTimeSec",
+        "typeIndex": 18256,
+        "token": "0x04000fdc"
+      },
+      {
+        "name": "_curSelectUnit",
+        "typeIndex": 20130,
+        "token": "0x04000fdd"
+      },
+      {
+        "name": "_rayHit",
+        "typeIndex": 21124,
+        "token": "0x04000fde"
+      },
+      {
+        "name": "_maxHeight",
+        "typeIndex": 22342,
+        "token": "0x04000fdf"
+      },
+      {
+        "name": "_minTouchHeight",
+        "typeIndex": 22342,
+        "token": "0x04000fe0"
+      },
+      {
+        "name": "_curLevelMaxCount",
+        "typeIndex": 18256,
+        "token": "0x04000fe1"
+      },
+      {
+        "name": "_curLevelProgress",
+        "typeIndex": 22342,
+        "token": "0x04000fe2"
+      },
+      {
+        "name": "_p2CurSelectUnit",
+        "typeIndex": 20130,
+        "token": "0x04000fe3"
+      },
+      {
+        "name": "_p2RayHit",
+        "typeIndex": 21124,
+        "token": "0x04000fe4"
+      },
+      {
+        "name": "_p2MaxHeight",
+        "typeIndex": 22342,
+        "token": "0x04000fe5"
+      },
+      {
+        "name": "_p2MinTouchHeight",
+        "typeIndex": 22342,
+        "token": "0x04000fe6"
+      },
+      {
+        "name": "_p2CurLevelMaxCount",
+        "typeIndex": 18256,
+        "token": "0x04000fe7"
+      },
+      {
+        "name": "_p2CurLevelProgress",
+        "typeIndex": 22342,
+        "token": "0x04000fe8"
+      },
+      {
+        "name": "_visibleMinHeight",
+        "typeIndex": 22345,
+        "token": "0x04000fe9"
+      },
+      {
+        "name": "_visibleMaxHeight",
+        "typeIndex": 22345,
+        "token": "0x04000fea"
+      },
+      {
+        "name": "_minVisibleY",
+        "typeIndex": 22345,
+        "token": "0x04000feb"
+      },
+      {
+        "name": "_lastLevelText",
+        "typeIndex": 22817,
+        "token": "0x04000fec"
+      },
+      {
+        "name": "submitServerType",
+        "typeIndex": 22997,
+        "token": "0x04000fed"
+      },
+      {
+        "name": "submitID",
+        "typeIndex": 22821,
+        "token": "0x04000fee"
+      },
+      {
+        "name": "_submitTime",
+        "typeIndex": 18260,
+        "token": "0x04000fef"
+      },
+      {
+        "name": "_sendSubmitTime",
+        "typeIndex": 18260,
+        "token": "0x04000ff0"
+      },
+      {
+        "name": "_newYearHardCount",
+        "typeIndex": 18256,
+        "token": "0x04000ff1"
+      },
+      {
+        "name": "_hasGetShake",
+        "typeIndex": 14043,
+        "token": "0x04000ff2"
+      },
+      {
+        "name": "levelDataPanel",
+        "typeIndex": 18685,
+        "token": "0x04000ff3"
+      },
+      {
+        "name": "IGameModeCtrl",
+        "typeIndex": 17637,
+        "token": "0x04000ff4"
+      },
+      {
+        "name": "IGameModeToolCtrl",
+        "typeIndex": 17639,
+        "token": "0x04000ff5"
+      },
+      {
+        "name": "toolAnimConfig",
+        "typeIndex": 18739,
+        "token": "0x04000ff6"
+      },
+      {
+        "name": "_isInitNet",
+        "typeIndex": 14043,
+        "token": "0x04000ff7"
+      },
+      {
+        "name": "IsSceneLoadCompelet",
+        "typeIndex": 14051,
+        "token": "0x04000ff8"
+      },
+      {
+        "name": "IsLevel1LoadCompelet",
+        "typeIndex": 14051,
+        "token": "0x04000ff9"
+      },
+      {
+        "name": "IsLevel2LoadCompelet",
+        "typeIndex": 14051,
+        "token": "0x04000ffa"
+      },
+      {
+        "name": "SpGameTypeLoadCompelet",
+        "typeIndex": 4390,
+        "token": "0x04000ffb"
+      },
+      {
+        "name": "_assetLoader",
+        "typeIndex": 13508,
+        "token": "0x04000ffc"
+      },
+      {
+        "name": "_sceneLoadHandle",
+        "typeIndex": 13574,
+        "token": "0x04000ffd"
+      },
+      {
+        "name": "ScenePrograss",
+        "typeIndex": 22349,
+        "token": "0x04000ffe"
+      },
+      {
+        "name": "_isLoadingScene",
+        "typeIndex": 14043,
+        "token": "0x04000fff"
+      },
+      {
+        "name": "Level1Prograss",
+        "typeIndex": 22346,
+        "token": "0x04001000"
+      },
+      {
+        "name": "Level2Prograss",
+        "typeIndex": 22346,
+        "token": "0x04001001"
+      },
+      {
+        "name": "_isLoading",
+        "typeIndex": 14043,
+        "token": "0x04001002"
+      },
+      {
+        "name": "_PreMainGameStart",
+        "typeIndex": 14043,
+        "token": "0x04001003"
+      },
+      {
+        "name": "_isGifInit",
+        "typeIndex": 14043,
+        "token": "0x04001004"
+      },
+      {
+        "name": "_LoseSp",
+        "typeIndex": 22640,
+        "token": "0x04001005"
+      },
+      {
+        "name": "_WinSp",
+        "typeIndex": 22640,
+        "token": "0x04001006"
+      },
+      {
+        "name": "_LoseString",
+        "typeIndex": 22825,
+        "token": "0x04001007"
+      },
+      {
+        "name": "_WinString",
+        "typeIndex": 22825,
+        "token": "0x04001008"
+      },
+      {
+        "name": "_p1TouchFlag",
+        "typeIndex": 14043,
+        "token": "0x04001009"
+      },
+      {
+        "name": "_p2TouchFlag",
+        "typeIndex": 14043,
+        "token": "0x0400100a"
+      },
+      {
+        "name": "_p1TouchPos",
+        "typeIndex": 25596,
+        "token": "0x0400100b"
+      },
+      {
+        "name": "_p2TouchPos",
+        "typeIndex": 25596,
+        "token": "0x0400100c"
+      },
+      {
+        "name": "_maxOnceTouchHeight",
+        "typeIndex": 22345,
+        "token": "0x0400100d"
+      },
+      {
+        "name": "_IsInForceTeach",
+        "typeIndex": 14051,
+        "token": "0x0400100e"
+      },
+      {
+        "name": "_isInTeach",
+        "typeIndex": 14043,
+        "token": "0x0400100f"
+      },
+      {
+        "name": "_dailySimpleABData",
+        "typeIndex": 18670,
+        "token": "0x04001010"
+      },
+      {
+        "name": "_level2CreateCompeletTime",
+        "typeIndex": 22342,
+        "token": "0x04001011"
+      },
+      {
+        "name": "_maxCreateInterval",
+        "typeIndex": 22342,
+        "token": "0x04001012"
+      },
+      {
+        "name": "_frameMaxCreateCount",
+        "typeIndex": 18256,
+        "token": "0x04001013"
+      },
+      {
+        "name": "_createGrowSpeed",
+        "typeIndex": 22342,
+        "token": "0x04001014"
+      },
+      {
+        "name": "_physicCreateTime",
+        "typeIndex": 22342,
+        "token": "0x04001015"
+      },
+      {
+        "name": "_physicMaxCreateInterval",
+        "typeIndex": 22342,
+        "token": "0x04001016"
+      },
+      {
+        "name": "_physicFrameCreateCount",
+        "typeIndex": 18256,
+        "token": "0x04001017"
+      },
+      {
+        "name": "_physicCreateGrowSpeed",
+        "typeIndex": 22342,
+        "token": "0x04001018"
+      },
+      {
+        "name": "_isUseRealPhysicSpace",
+        "typeIndex": 14047,
+        "token": "0x04001019"
+      },
+      {
+        "name": "_maxPhysicObjCount",
+        "typeIndex": 18256,
+        "token": "0x0400101a"
+      },
+      {
+        "name": "_physicOverlapSpeed",
+        "typeIndex": 25596,
+        "token": "0x0400101b"
+      },
+      {
+        "name": "_gravitySpeed",
+        "typeIndex": 25596,
+        "token": "0x0400101c"
+      },
+      {
+        "name": "_layerMinDistance",
+        "typeIndex": 22342,
+        "token": "0x0400101d"
+      },
+      {
+        "name": "_testLoadingSlow",
+        "typeIndex": 14043,
+        "token": "0x0400101e"
+      },
+      {
+        "name": "_loadingTime",
+        "typeIndex": 22342,
+        "token": "0x0400101f"
+      },
+      {
+        "name": "_isLoadingTipShow",
+        "typeIndex": 14043,
+        "token": "0x04001020"
+      },
+      {
+        "name": "_fakeBarSpeed",
+        "typeIndex": 22342,
+        "token": "0x04001021"
+      },
+      {
+        "name": "_fakeBarLimite",
+        "typeIndex": 22342,
+        "token": "0x04001022"
+      },
+      {
+        "name": "_curFakeBarFill",
+        "typeIndex": 22342,
+        "token": "0x04001023"
+      },
+      {
+        "name": "_growUpInCreate",
+        "typeIndex": 14043,
+        "token": "0x04001024"
+      },
+      {
+        "name": "_getLoseHeight",
+        "typeIndex": 22342,
+        "token": "0x04001025"
+      },
+      {
+        "name": "_levelBoardLimit",
+        "typeIndex": 10600,
+        "token": "0x04001026"
+      },
+      {
+        "name": "_pickAnimTime",
+        "typeIndex": 22342,
+        "token": "0x04001027"
+      },
+      {
+        "name": "_pickMoveXZCurve",
+        "typeIndex": 15857,
+        "token": "0x04001028"
+      },
+      {
+        "name": "_pickMoveYCurve",
+        "typeIndex": 15857,
+        "token": "0x04001029"
+      },
+      {
+        "name": "_pickRotaCurve",
+        "typeIndex": 15857,
+        "token": "0x0400102a"
+      },
+      {
+        "name": "UseTwoScaleCurve",
+        "typeIndex": 14047,
+        "token": "0x0400102b"
+      },
+      {
+        "name": "_pickScaleCurve1",
+        "typeIndex": 15860,
+        "token": "0x0400102c"
+      },
+      {
+        "name": "_pickScaleCurve2",
+        "typeIndex": 15860,
+        "token": "0x0400102d"
+      },
+      {
+        "name": "_pickScaleMaxTime",
+        "typeIndex": 22345,
+        "token": "0x0400102e"
+      },
+      {
+        "name": "_pickMaxScale",
+        "typeIndex": 22345,
+        "token": "0x0400102f"
+      },
+      {
+        "name": "_pickEndPunchScale",
+        "typeIndex": 22345,
+        "token": "0x04001030"
+      },
+      {
+        "name": "_pickEndPunchTime",
+        "typeIndex": 22345,
+        "token": "0x04001031"
+      },
+      {
+        "name": "_newAnimManager",
+        "typeIndex": 18713,
+        "token": "0x04001032"
+      },
+      {
+        "name": "IsUseNewAnimManager",
+        "typeIndex": 14051,
+        "token": "0x04001033"
+      },
+      {
+        "name": "_storeObjectTrans",
+        "typeIndex": 23862,
+        "token": "0x04001034"
+      },
+      {
+        "name": "_storePointList",
+        "typeIndex": 8992,
+        "token": "0x04001035"
+      },
+      {
+        "name": "_storeObjList",
+        "typeIndex": 8339,
+        "token": "0x04001036"
+      },
+      {
+        "name": "_curStoreIndex",
+        "typeIndex": 18256,
+        "token": "0x04001037"
+      },
+      {
+        "name": "_storeObjPosYOffset",
+        "typeIndex": 22342,
+        "token": "0x04001038"
+      },
+      {
+        "name": "_storeObjPosXOffset",
+        "typeIndex": 22342,
+        "token": "0x04001039"
+      },
+      {
+        "name": "_storeObjIndexOffset",
+        "typeIndex": 22342,
+        "token": "0x0400103a"
+      },
+      {
+        "name": "_UseObjStore",
+        "typeIndex": 14043,
+        "token": "0x0400103b"
+      },
+      {
+        "name": "_storeContentTrans",
+        "typeIndex": 23862,
+        "token": "0x0400103c"
+      },
+      {
+        "name": "_storeContentHideZ",
+        "typeIndex": 22342,
+        "token": "0x0400103d"
+      },
+      {
+        "name": "_storeContentShowZ",
+        "typeIndex": 22342,
+        "token": "0x0400103e"
+      },
+      {
+        "name": "_toolHighlights",
+        "typeIndex": 12256,
+        "token": "0x0400103f"
+      },
+      {
+        "name": "_throwMoveXCurve",
+        "typeIndex": 15857,
+        "token": "0x04001040"
+      },
+      {
+        "name": "_throwMoveZCurve",
+        "typeIndex": 15857,
+        "token": "0x04001041"
+      },
+      {
+        "name": "_throwMoveYCurve",
+        "typeIndex": 15857,
+        "token": "0x04001042"
+      },
+      {
+        "name": "_throwScaleCurve1",
+        "typeIndex": 15857,
+        "token": "0x04001043"
+      },
+      {
+        "name": "_throwScaleCurve2",
+        "typeIndex": 15857,
+        "token": "0x04001044"
+      },
+      {
+        "name": "_throwMaxScale",
+        "typeIndex": 22342,
+        "token": "0x04001045"
+      },
+      {
+        "name": "_storeAnimTime",
+        "typeIndex": 22342,
+        "token": "0x04001046"
+      },
+      {
+        "name": "_screenVFXPoint",
+        "typeIndex": 4736,
+        "token": "0x04001047"
+      },
+      {
+        "name": "_toolParticleNameList",
+        "typeIndex": 4735,
+        "token": "0x04001048"
+      },
+      {
+        "name": "_toolParticleObj",
+        "typeIndex": 4732,
+        "token": "0x04001049"
+      },
+      {
+        "name": "_clamObj",
+        "typeIndex": 16795,
+        "token": "0x0400104a"
+      },
+      {
+        "name": "_baceForce",
+        "typeIndex": 22345,
+        "token": "0x0400104b"
+      },
+      {
+        "name": "_heighForce",
+        "typeIndex": 22345,
+        "token": "0x0400104c"
+      },
+      {
+        "name": "_messHeight",
+        "typeIndex": 22345,
+        "token": "0x0400104d"
+      },
+      {
+        "name": "_shakeOnceDepth",
+        "typeIndex": 22342,
+        "token": "0x0400104e"
+      },
+      {
+        "name": "_shakeMaxDepthCount",
+        "typeIndex": 18256,
+        "token": "0x0400104f"
+      },
+      {
+        "name": "_curShakeCount",
+        "typeIndex": 18256,
+        "token": "0x04001050"
+      },
+      {
+        "name": "_curShakeY",
+        "typeIndex": 22342,
+        "token": "0x04001051"
+      },
+      {
+        "name": "_messObjPosHeight",
+        "typeIndex": 22342,
+        "token": "0x04001052"
+      },
+      {
+        "name": "_messRotaTime",
+        "typeIndex": 22342,
+        "token": "0x04001053"
+      },
+      {
+        "name": "_messRotaSpeed",
+        "typeIndex": 25596,
+        "token": "0x04001054"
+      },
+      {
+        "name": "_messRotaDisSpeedMul",
+        "typeIndex": 25596,
+        "token": "0x04001055"
+      },
+      {
+        "name": "HasAccessShake",
+        "typeIndex": 14051,
+        "token": "0x04001056"
+      },
+      {
+        "name": "_shakeTimeMulti",
+        "typeIndex": 22359,
+        "token": "0x04001057"
+      },
+      {
+        "name": "_shakeMinMulti",
+        "typeIndex": 22359,
+        "token": "0x04001058"
+      },
+      {
+        "name": "_shakeMaxMulti",
+        "typeIndex": 22359,
+        "token": "0x04001059"
+      },
+      {
+        "name": "_shakeForceWXBaseTimeFix",
+        "typeIndex": 22359,
+        "token": "0x0400105a"
+      },
+      {
+        "name": "_shakeDeltaTimeFix",
+        "typeIndex": 22359,
+        "token": "0x0400105b"
+      },
+      {
+        "name": "_modeFixShakeForceMul",
+        "typeIndex": 22342,
+        "token": "0x0400105c"
+      },
+      {
+        "name": "_modeFixShakeMaxMul",
+        "typeIndex": 22342,
+        "token": "0x0400105d"
+      },
+      {
+        "name": "_lastShakeTime",
+        "typeIndex": 22342,
+        "token": "0x0400105e"
+      },
+      {
+        "name": "_shakeInterval",
+        "typeIndex": 22342,
+        "token": "0x0400105f"
+      },
+      {
+        "name": "_shakeRealFixMul",
+        "typeIndex": 22342,
+        "token": "0x04001060"
+      },
+      {
+        "name": "_logShakeCount",
+        "typeIndex": 18256,
+        "token": "0x04001061"
+      },
+      {
+        "name": "_curLogShakeCount",
+        "typeIndex": 18256,
+        "token": "0x04001062"
+      },
+      {
+        "name": "_sharePowerLimit",
+        "typeIndex": 22342,
+        "token": "0x04001063"
+      },
+      {
+        "name": "_sharePowerMax",
+        "typeIndex": 22342,
+        "token": "0x04001064"
+      },
+      {
+        "name": "_sharePowerToForce",
+        "typeIndex": 22342,
+        "token": "0x04001065"
+      },
+      {
+        "name": "_sharePowerToForceInIos",
+        "typeIndex": 22342,
+        "token": "0x04001066"
+      },
+      {
+        "name": "_stopControlInterval",
+        "typeIndex": 18256,
+        "token": "0x04001067"
+      },
+      {
+        "name": "_lastShowShakeTipTime",
+        "typeIndex": 18256,
+        "token": "0x04001068"
+      },
+      {
+        "name": "_isFirstCombie",
+        "typeIndex": 14043,
+        "token": "0x04001069"
+      },
+      {
+        "name": "_guideHighlight",
+        "typeIndex": 17278,
+        "token": "0x0400106a"
+      },
+      {
+        "name": "_winWord1Time",
+        "typeIndex": 22342,
+        "token": "0x0400106b"
+      },
+      {
+        "name": "_winWord2Time",
+        "typeIndex": 22342,
+        "token": "0x0400106c"
+      },
+      {
+        "name": "_playGuideMusicScale",
+        "typeIndex": 22342,
+        "token": "0x0400106d"
+      },
+      {
+        "name": "_newGuideCurIndex",
+        "typeIndex": 18256,
+        "token": "0x0400106e"
+      },
+      {
+        "name": "_isOnlineUpload",
+        "typeIndex": 14043,
+        "token": "0x0400106f"
+      },
+      {
+        "name": "_onlineBaseDataList",
+        "typeIndex": 12459,
+        "token": "0x04001070"
+      },
+      {
+        "name": "_onlineUploadTimer",
+        "typeIndex": 18256,
+        "token": "0x04001071"
+      },
+      {
+        "name": "_onlineGetTimer",
+        "typeIndex": 18256,
+        "token": "0x04001072"
+      },
+      {
+        "name": "_hasProgressNotUpload",
+        "typeIndex": 14043,
+        "token": "0x04001073"
+      },
+      {
+        "name": "_newYearLevelData",
+        "typeIndex": 12430,
+        "token": "0x04001074"
+      },
+      {
+        "name": "_newYearGetCount",
+        "typeIndex": 18256,
+        "token": "0x04001075"
+      },
+      {
+        "name": "_lastNewYearLevel",
+        "typeIndex": 18256,
+        "token": "0x04001076"
+      },
+      {
+        "name": "CurLevelLastNewYearLevel",
+        "typeIndex": 18264,
+        "token": "0x04001077"
+      },
+      {
+        "name": "api",
+        "typeIndex": 28618,
+        "token": "0x04001078"
+      },
+      {
+        "name": "_mainCameraCenterTrans",
+        "typeIndex": 23862,
+        "token": "0x04001079"
+      }
+    ],
+    "methods": [
+      {
+        "name": "Awake",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013b4",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "OnDestroy",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013b5",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetNetworkInfo",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013b6",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Start",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013b7",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckSubmit",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013b8",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Update",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013b9",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CanTouch",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x060013ba",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "StartLoadMainBaseLevel1",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013bb",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "StartLoadMainBaseLevel2",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013bc",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "StartLoadAllMainLevelWithoutBase",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013bd",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SceneCompelet",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013be",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PreCreateMainGameScene",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013bf",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PreStartMainGame",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013c0",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "DelayToShowHand",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x060013c1",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateSceneBg",
+        "declaringType": 759,
+        "returnTypeIndex": 18673,
+        "token": "0x060013c2",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateMainSceneBg",
+        "declaringType": 759,
+        "returnTypeIndex": 18673,
+        "token": "0x060013c3",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateSceneBG",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013c4",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetCurLevelData",
+        "declaringType": 759,
+        "returnTypeIndex": 8658,
+        "token": "0x060013c5",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoadCompelet1",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013c6",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoadCompelet2",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013c7",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoadComplete3",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013c8",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "StartLoadAllSpLevel",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013c9",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoadSpLevelObj",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013ca",
+        "flags": 134,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ChangeLevelScene",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013cb",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "HasLevelLoadEnd",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x060013cc",
+        "flags": 150,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoadOtherGameGIF",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013cd",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ResetEndAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013ce",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CompeletLoadEndAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013cf",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "OnChangeState",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d0",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetContentList",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d1",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "HasTwoPlayer",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x060013d2",
+        "flags": 150,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LevelTouch",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d3",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetTouchButton",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x060013d4",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckClickRay",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d5",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LostTarget",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d6",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LosePVPToolObj",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d7",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetTarget",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d8",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "OtherControlType",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013d9",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetTouchPos",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013da",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "HasTouchMove",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x060013db",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetMaxHeight",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013dc",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetMaxHeight",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x060013dd",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckObjMaxHeight",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013de",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CaculateMaxHeight",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013df",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "getRealMax",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x060013e0",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetMinTouchHeight",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013e1",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetMinTouchHeight",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x060013e2",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetLevelMaxAndLeftTime",
+        "declaringType": 759,
+        "returnTypeIndex": 10569,
+        "token": "0x060013e3",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "StartGame",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013e4",
+        "flags": 134,
+        "parameterCount": 4,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CleanMainLevelMemory",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013e5",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CleanAllSpLevelMemory",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013e6",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CleanLastMainLevelMemory",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013e7",
+        "flags": 150,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ReadyBattle",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013e8",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitLevelCol",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013e9",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitLevelData",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013ea",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetCurSpLevelGooseCount",
+        "declaringType": 759,
+        "returnTypeIndex": 18255,
+        "token": "0x060013eb",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetTimeABIndex",
+        "declaringType": 759,
+        "returnTypeIndex": 18255,
+        "token": "0x060013ec",
+        "flags": 150,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateLevel",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013ed",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetTargetCard",
+        "declaringType": 759,
+        "returnTypeIndex": 12339,
+        "token": "0x060013ee",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetMainLevelABData",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013ef",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetMainLevelABOffsetTypeCount",
+        "declaringType": 759,
+        "returnTypeIndex": 18255,
+        "token": "0x060013f0",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetMainLevelABOffsetGroupCount",
+        "declaringType": 759,
+        "returnTypeIndex": 18255,
+        "token": "0x060013f1",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ShowLoading",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013f2",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoopCreateObj",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x060013f3",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetObjSize",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x060013f4",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateUnitObj",
+        "declaringType": 759,
+        "returnTypeIndex": 20129,
+        "token": "0x060013f5",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetObjBoxTrans",
+        "declaringType": 759,
+        "returnTypeIndex": 23861,
+        "token": "0x060013f6",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoopCrowObjSize",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x060013f7",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckRigid",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013f8",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckVisible",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013f9",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetDynamicVisibleHeight",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x060013fa",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoopOptimization",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x060013fb",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckAllRigidAndVisible",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x060013fc",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoopCheckLoseObj",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x060013fd",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "HasObjLose",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x060013fe",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CountDownTime",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x060013ff",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "EndlessTime",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001400",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetPos",
+        "declaringType": 759,
+        "returnTypeIndex": 25619,
+        "token": "0x06001401",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetBorder",
+        "declaringType": 759,
+        "returnTypeIndex": 23861,
+        "token": "0x06001402",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CleanAll",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001403",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "EndLevel",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001404",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetEditorEnd",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001405",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CanPlayLevel",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x06001406",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CanUseNewAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x06001407",
+        "flags": 150,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetUnit",
+        "declaringType": 759,
+        "returnTypeIndex": 25619,
+        "token": "0x06001408",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RefreshContentDisplay",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001409",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "DelayToCheckContent",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x0600140a",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "DestroyAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x0600140b",
+        "flags": 129,
+        "parameterCount": 4,
+        "bodyAvailable": false
+      },
+      {
+        "name": "EndCombineObjAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600140c",
+        "flags": 134,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PlayCombineParticle",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600140d",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetTriple",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600140e",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RefreshTargetCount",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600140f",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckLevelState",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001410",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetContentCount",
+        "declaringType": 759,
+        "returnTypeIndex": 18255,
+        "token": "0x06001411",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetLevelProgress",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x06001412",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetPrograss",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001413",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetMainLevelRecord",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001414",
+        "flags": 134,
+        "parameterCount": 4,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetSBattleLevelRecord",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001415",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetNewYearLevelRecord",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001416",
+        "flags": 134,
+        "parameterCount": 4,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetSpLevelRecord",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001417",
+        "flags": 134,
+        "parameterCount": 5,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitStoreList",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001418",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LevelRefreshStoreList",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001419",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetObjIntoStore",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600141a",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetObjOutStore",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600141b",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetStoreCount",
+        "declaringType": 759,
+        "returnTypeIndex": 18255,
+        "token": "0x0600141c",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetStoreContentPos",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600141d",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PlayStoreAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600141e",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PrepareLose",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600141f",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "BattleLose",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001420",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "DelayToLose",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001421",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CanUseTool",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x06001422",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "UseTool",
+        "declaringType": 759,
+        "returnTypeIndex": 14042,
+        "token": "0x06001423",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ResetShakeData",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001424",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ShakeObj",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001425",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "WindObj",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001426",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "VideoShake",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001427",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ThrowPos",
+        "declaringType": 759,
+        "returnTypeIndex": 25619,
+        "token": "0x06001428",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetDownPoint",
+        "declaringType": 759,
+        "returnTypeIndex": 25619,
+        "token": "0x06001429",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ClawObj",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x0600142a",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ClawTargetObj",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x0600142b",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateClaw",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600142c",
+        "flags": 129,
+        "parameterCount": 4,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateAutoFindLighting",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600142d",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "FingHighlight",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x0600142e",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CreateThrowLight",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600142f",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetAllShowType",
+        "declaringType": 759,
+        "returnTypeIndex": 8912,
+        "token": "0x06001430",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetObjHasThree",
+        "declaringType": 759,
+        "returnTypeIndex": 8912,
+        "token": "0x06001431",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "MessObjPosAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001432",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "MessObjRotaAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001433",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PlayToolPartcle",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001434",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetPointToLineDis",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x06001435",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitShake",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001436",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CompeletAcc",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001437",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetShareData",
+        "declaringType": 759,
+        "returnTypeIndex": 10593,
+        "token": "0x06001438",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetShakeData",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001439",
+        "flags": 134,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetShakeForceMul",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600143a",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ShakePhone",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600143b",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CusShake",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600143c",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "OnStartGameReset",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600143d",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LoopCheckTip",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x0600143e",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ShowShakeTip",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600143f",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "FirstTeachShow",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001440",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "TeachClickObj",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001441",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "FirstTeachEnd",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001442",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "NewGuideState",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001443",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "NewGuide",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001444",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "NewGuideClickObj",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001445",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "NewGuideLevel1EndAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001446",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "WaitTimeAndClick",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001447",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetNextSameObj",
+        "declaringType": 759,
+        "returnTypeIndex": 23861,
+        "token": "0x06001448",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitOnlineLevelData",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001449",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CheckOnlineUploadData",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600144a",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetCheckTimeInterval",
+        "declaringType": 759,
+        "returnTypeIndex": 22341,
+        "token": "0x0600144b",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "LevelPause",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600144c",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "OnlineGameLose",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600144d",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitNewYearLevelData",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600144e",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "AddNewYearProgress",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600144f",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "AddObj",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001450",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "AddObjAnim",
+        "declaringType": 759,
+        "returnTypeIndex": 17581,
+        "token": "0x06001451",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_ForStates",
+        "declaringType": 759,
+        "returnTypeIndex": 28617,
+        "token": "0x06001452",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitCameraMove",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001453",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "MoveCamera",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001454",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetSPLevelABOffsetCount",
+        "declaringType": 759,
+        "returnTypeIndex": 18255,
+        "token": "0x06001455",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001456",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".cctor",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001457",
+        "flags": 6289,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "<Start>b__83_0",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001458",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "<LoadCompelet1>b__110_0",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x06001459",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "<LoadCompelet1>b__110_1",
+        "declaringType": 759,
+        "returnTypeIndex": 25796,
+        "token": "0x0600145a",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "MainLevelRecordData",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "isWin",
+        "typeIndex": 14047,
+        "token": "0x04001112"
+      },
+      {
+        "name": "loseType",
+        "typeIndex": 18260,
+        "token": "0x04001113"
+      },
+      {
+        "name": "gameSumLevelCount",
+        "typeIndex": 18260,
+        "token": "0x04001114"
+      },
+      {
+        "name": "todaySumLevelCount",
+        "typeIndex": 18260,
+        "token": "0x04001115"
+      },
+      {
+        "name": "toolUseCount",
+        "typeIndex": 12295,
+        "token": "0x04001116"
+      },
+      {
+        "name": "ResumeUseCount1",
+        "typeIndex": 18260,
+        "token": "0x04001117"
+      },
+      {
+        "name": "ResumeUseCount2",
+        "typeIndex": 18260,
+        "token": "0x04001118"
+      },
+      {
+        "name": "levelTime",
+        "typeIndex": 18260,
+        "token": "0x04001119"
+      },
+      {
+        "name": "levelIndex",
+        "typeIndex": 18260,
+        "token": "0x0400111a"
+      },
+      {
+        "name": "levelProgress",
+        "typeIndex": 18260,
+        "token": "0x0400111b"
+      },
+      {
+        "name": "p1Progress",
+        "typeIndex": 18260,
+        "token": "0x0400111c"
+      },
+      {
+        "name": "p2Progress",
+        "typeIndex": 18260,
+        "token": "0x0400111d"
+      },
+      {
+        "name": "winPlayerIndex",
+        "typeIndex": 18260,
+        "token": "0x0400111e"
+      },
+      {
+        "name": "winType",
+        "typeIndex": 18260,
+        "token": "0x0400111f"
+      },
+      {
+        "name": "rivalRelation",
+        "typeIndex": 18260,
+        "token": "0x04001120"
+      }
+    ],
+    "methods": [
+      {
+        "name": ".ctor",
+        "declaringType": 766,
+        "returnTypeIndex": 25796,
+        "token": "0x060014f4",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "LevelObjectPool",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "_objectUnitPool",
+        "typeIndex": 8024,
+        "token": "0x0400114b"
+      },
+      {
+        "name": "_tempObjSet",
+        "typeIndex": 5747,
+        "token": "0x0400114c"
+      }
+    ],
+    "methods": [
+      {
+        "name": "OnInit",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x06001524",
+        "flags": 196,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Get",
+        "declaringType": 772,
+        "returnTypeIndex": 20129,
+        "token": "0x06001525",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Recycle",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x06001526",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Clear",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x06001527",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Clear",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x06001528",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ClearByList",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x06001529",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ClearByLevel",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x0600152a",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ClearByExclusion",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x0600152b",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ClearWithoutLevel",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x0600152c",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 772,
+        "returnTypeIndex": 25796,
+        "token": "0x0600152d",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "MainLevelManager",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "FirstDirectPayId",
+        "typeIndex": 22841,
+        "token": "0x0400115c"
+      },
+      {
+        "name": "ThirdDirectPayId",
+        "typeIndex": 22841,
+        "token": "0x0400115d"
+      },
+      {
+        "name": "<SelectedStar>k__BackingField",
+        "typeIndex": 18261,
+        "token": "0x0400115e"
+      },
+      {
+        "name": "<CurStar>k__BackingField",
+        "typeIndex": 18261,
+        "token": "0x0400115f"
+      },
+      {
+        "name": "<CurIndexType>k__BackingField",
+        "typeIndex": 18696,
+        "token": "0x04001160"
+      },
+      {
+        "name": "_curMaxStar",
+        "typeIndex": 18261,
+        "token": "0x04001161"
+      },
+      {
+        "name": "EarlyOpenThirdLevelNeedGooseCount",
+        "typeIndex": 18283,
+        "token": "0x04001162"
+      }
+    ],
+    "methods": [
+      {
+        "name": "get_SelectedStar",
+        "declaringType": 776,
+        "returnTypeIndex": 18255,
+        "token": "0x06001542",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_SelectedStar",
+        "declaringType": 776,
+        "returnTypeIndex": 25796,
+        "token": "0x06001543",
+        "flags": 2193,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_CurStar",
+        "declaringType": 776,
+        "returnTypeIndex": 18255,
+        "token": "0x06001544",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_CurStar",
+        "declaringType": 776,
+        "returnTypeIndex": 25796,
+        "token": "0x06001545",
+        "flags": 2193,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_CurIndexType",
+        "declaringType": 776,
+        "returnTypeIndex": 18694,
+        "token": "0x06001546",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_CurIndexType",
+        "declaringType": 776,
+        "returnTypeIndex": 25796,
+        "token": "0x06001547",
+        "flags": 2193,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_StartAdSharePosition",
+        "declaringType": 776,
+        "returnTypeIndex": 13026,
+        "token": "0x06001548",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetFunctionIdByStar",
+        "declaringType": 776,
+        "returnTypeIndex": 18255,
+        "token": "0x06001549",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_FunctionId",
+        "declaringType": 776,
+        "returnTypeIndex": 18255,
+        "token": "0x0600154a",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_IsUseEarlyOpenThirdLevelAB",
+        "declaringType": 776,
+        "returnTypeIndex": 14042,
+        "token": "0x0600154b",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "get_FirstUnlockNextLevel",
+        "declaringType": 776,
+        "returnTypeIndex": 14042,
+        "token": "0x0600154c",
+        "flags": 2198,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetMainLevelIndex",
+        "declaringType": 776,
+        "returnTypeIndex": 18255,
+        "token": "0x0600154d",
+        "flags": 150,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetAllBaseLevelGooseCount",
+        "declaringType": 776,
+        "returnTypeIndex": 18255,
+        "token": "0x0600154e",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetMaxUnlockStar",
+        "declaringType": 776,
+        "returnTypeIndex": 18255,
+        "token": "0x0600154f",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetUnlockProgress",
+        "declaringType": 776,
+        "returnTypeIndex": 10569,
+        "token": "0x06001550",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "StartGame",
+        "declaringType": 776,
+        "returnTypeIndex": 25796,
+        "token": "0x06001551",
+        "flags": 150,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "IsUseAdStart",
+        "declaringType": 776,
+        "returnTypeIndex": 14042,
+        "token": "0x06001552",
+        "flags": 150,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "TryStartGame",
+        "declaringType": 776,
+        "returnTypeIndex": 25796,
+        "token": "0x06001553",
+        "flags": 150,
+        "parameterCount": 4,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".cctor",
+        "declaringType": 776,
+        "returnTypeIndex": 25796,
+        "token": "0x06001554",
+        "flags": 6289,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "ObjectUnit",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "type",
+        "typeIndex": 22821,
+        "token": "0x0400119d"
+      },
+      {
+        "name": "notBeCatch",
+        "typeIndex": 14047,
+        "token": "0x0400119e"
+      },
+      {
+        "name": "isHiding",
+        "typeIndex": 14047,
+        "token": "0x0400119f"
+      },
+      {
+        "name": "isStore",
+        "typeIndex": 14047,
+        "token": "0x040011a0"
+      },
+      {
+        "name": "_isSelect",
+        "typeIndex": 14047,
+        "token": "0x040011a1"
+      },
+      {
+        "name": "_rigid",
+        "typeIndex": 21618,
+        "token": "0x040011a2"
+      },
+      {
+        "name": "col",
+        "typeIndex": 16795,
+        "token": "0x040011a3"
+      },
+      {
+        "name": "realCol",
+        "typeIndex": 16795,
+        "token": "0x040011a4"
+      },
+      {
+        "name": "_render",
+        "typeIndex": 19391,
+        "token": "0x040011a5"
+      },
+      {
+        "name": "_skinRender",
+        "typeIndex": 22441,
+        "token": "0x040011a6"
+      },
+      {
+        "name": "_otherRenders",
+        "typeIndex": 12400,
+        "token": "0x040011a7"
+      },
+      {
+        "name": "_anim",
+        "typeIndex": 13220,
+        "token": "0x040011a8"
+      },
+      {
+        "name": "_effectSoundType",
+        "typeIndex": 22544,
+        "token": "0x040011a9"
+      },
+      {
+        "name": "_soundUsePitch",
+        "typeIndex": 14043,
+        "token": "0x040011aa"
+      },
+      {
+        "name": "_endSoundType",
+        "typeIndex": 22546,
+        "token": "0x040011ab"
+      },
+      {
+        "name": "_endSoundCombie",
+        "typeIndex": 14047,
+        "token": "0x040011ac"
+      },
+      {
+        "name": "_isGoose",
+        "typeIndex": 14043,
+        "token": "0x040011ad"
+      },
+      {
+        "name": "_pickScale",
+        "typeIndex": 22345,
+        "token": "0x040011ae"
+      },
+      {
+        "name": "_startPickScale",
+        "typeIndex": 22342,
+        "token": "0x040011af"
+      },
+      {
+        "name": "_targetPos",
+        "typeIndex": 25620,
+        "token": "0x040011b0"
+      },
+      {
+        "name": "_pickOffset",
+        "typeIndex": 22342,
+        "token": "0x040011b1"
+      },
+      {
+        "name": "_pickAnimTime",
+        "typeIndex": 22342,
+        "token": "0x040011b2"
+      },
+      {
+        "name": "_isFinishCreate",
+        "typeIndex": 14043,
+        "token": "0x040011b3"
+      },
+      {
+        "name": "_isInObjectPanel",
+        "typeIndex": 14043,
+        "token": "0x040011b4"
+      },
+      {
+        "name": "isUseCustomParticle",
+        "typeIndex": 14047,
+        "token": "0x040011b5"
+      },
+      {
+        "name": "customPartName",
+        "typeIndex": 22821,
+        "token": "0x040011b6"
+      },
+      {
+        "name": "isUseCustomPartColor",
+        "typeIndex": 14047,
+        "token": "0x040011b7"
+      },
+      {
+        "name": "customPartColor",
+        "typeIndex": 14680,
+        "token": "0x040011b8"
+      },
+      {
+        "name": "_objectAnim",
+        "typeIndex": 20069,
+        "token": "0x040011b9"
+      },
+      {
+        "name": "_ObjectCustomMod",
+        "typeIndex": 20028,
+        "token": "0x040011ba"
+      },
+      {
+        "name": "<customScale>k__BackingField",
+        "typeIndex": 22342,
+        "token": "0x040011bb"
+      },
+      {
+        "name": "_changeObjScale",
+        "typeIndex": 14043,
+        "token": "0x040011bc"
+      },
+      {
+        "name": "_throwCoro",
+        "typeIndex": 15048,
+        "token": "0x040011bd"
+      },
+      {
+        "name": "_rotaCenterUpTrans",
+        "typeIndex": 23862,
+        "token": "0x040011be"
+      },
+      {
+        "name": "_rotaEndPos",
+        "typeIndex": 25620,
+        "token": "0x040011bf"
+      },
+      {
+        "name": "_rotaSpeed",
+        "typeIndex": 22342,
+        "token": "0x040011c0"
+      },
+      {
+        "name": "_curPos",
+        "typeIndex": 25620,
+        "token": "0x040011c1"
+      },
+      {
+        "name": "_startOffsetY",
+        "typeIndex": 22342,
+        "token": "0x040011c2"
+      },
+      {
+        "name": "_targetOffsetY",
+        "typeIndex": 22342,
+        "token": "0x040011c3"
+      }
+    ],
+    "methods": [
+      {
+        "name": "get_customScale",
+        "declaringType": 783,
+        "returnTypeIndex": 22341,
+        "token": "0x0600155d",
+        "flags": 2182,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "set_customScale",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600155e",
+        "flags": 2182,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Init",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600155f",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PlaySound",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001560",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PlayAnim",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001561",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RandomAnim",
+        "declaringType": 783,
+        "returnTypeIndex": 17581,
+        "token": "0x06001562",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "PlayAnimClip",
+        "declaringType": 783,
+        "returnTypeIndex": 22341,
+        "token": "0x06001563",
+        "flags": 129,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "WinAnim",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001564",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "FinishCreate",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001565",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetRigid",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001566",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "DeletVel",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001567",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "HideRigid",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001568",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "DelayToGrowScale",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001569",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "BeSelect",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600156a",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "IsLockGuidePhysic",
+        "declaringType": 783,
+        "returnTypeIndex": 14042,
+        "token": "0x0600156b",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "BeClick",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600156c",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetPickScale",
+        "declaringType": 783,
+        "returnTypeIndex": 22341,
+        "token": "0x0600156d",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "BeCatchAnim",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600156e",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "DelayToHideCol",
+        "declaringType": 783,
+        "returnTypeIndex": 17581,
+        "token": "0x0600156f",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "StoreObj",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001570",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ThrowBack",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001571",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ThrowAnim",
+        "declaringType": 783,
+        "returnTypeIndex": 17581,
+        "token": "0x06001572",
+        "flags": 129,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "MessForce",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001573",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "AddForce",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001574",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CanShake",
+        "declaringType": 783,
+        "returnTypeIndex": 14042,
+        "token": "0x06001575",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetVisible",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001576",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CanBeSelect",
+        "declaringType": 783,
+        "returnTypeIndex": 14042,
+        "token": "0x06001577",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "OnCombine",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001578",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "InitRota",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001579",
+        "flags": 134,
+        "parameterCount": 3,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RotaAnim",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600157a",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RotaToPos",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600157b",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "MoveToTargetPos",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600157c",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetRigid",
+        "declaringType": 783,
+        "returnTypeIndex": 21617,
+        "token": "0x0600157d",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "SetBaseValue",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600157e",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x0600157f",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "<DelayToGrowScale>b__45_0",
+        "declaringType": 783,
+        "returnTypeIndex": 25796,
+        "token": "0x06001580",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "LevelColControl",
+    "namespace": "",
+    "fields": [
+      {
+        "name": "_parPoint",
+        "typeIndex": 16795,
+        "token": "0x04001663"
+      },
+      {
+        "name": "_meshList",
+        "typeIndex": 12400,
+        "token": "0x04001664"
+      },
+      {
+        "name": "_pos",
+        "typeIndex": 25620,
+        "token": "0x04001665"
+      },
+      {
+        "name": "_rota",
+        "typeIndex": 25620,
+        "token": "0x04001666"
+      },
+      {
+        "name": "_scale",
+        "typeIndex": 25620,
+        "token": "0x04001667"
+      }
+    ],
+    "methods": [
+      {
+        "name": "InitMesh",
+        "declaringType": 1054,
+        "returnTypeIndex": 25796,
+        "token": "0x06001ac4",
+        "flags": 129,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ForceInitMesh",
+        "declaringType": 1054,
+        "returnTypeIndex": 25796,
+        "token": "0x06001ac5",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ShowMesh",
+        "declaringType": 1054,
+        "returnTypeIndex": 25796,
+        "token": "0x06001ac6",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "HideMesh",
+        "declaringType": 1054,
+        "returnTypeIndex": 25796,
+        "token": "0x06001ac7",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetTrans",
+        "declaringType": 1054,
+        "returnTypeIndex": 25796,
+        "token": "0x06001ac8",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "ChangePos",
+        "declaringType": 1054,
+        "returnTypeIndex": 25796,
+        "token": "0x06001ac9",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 1054,
+        "returnTypeIndex": 25796,
+        "token": "0x06001aca",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  },
+  {
+    "name": "KFakeRandom`1",
+    "namespace": "Kunpo",
+    "fields": [
+      {
+        "name": "_dataList",
+        "typeIndex": 8330,
+        "token": "0x04003b81"
+      },
+      {
+        "name": "_sumlist",
+        "typeIndex": 8878,
+        "token": "0x04003b82"
+      },
+      {
+        "name": "_dic",
+        "typeIndex": 3964,
+        "token": "0x04003b83"
+      },
+      {
+        "name": "_rollCount",
+        "typeIndex": 18256,
+        "token": "0x04003b84"
+      },
+      {
+        "name": "_proToAlloc",
+        "typeIndex": 22342,
+        "token": "0x04003b85"
+      },
+      {
+        "name": "_sum",
+        "typeIndex": 22342,
+        "token": "0x04003b86"
+      },
+      {
+        "name": "_index",
+        "typeIndex": 18256,
+        "token": "0x04003b87"
+      },
+      {
+        "name": "_list",
+        "typeIndex": 8283,
+        "token": "0x04003b88"
+      }
+    ],
+    "methods": [
+      {
+        "name": "AddItem",
+        "declaringType": 2641,
+        "returnTypeIndex": 25796,
+        "token": "0x06003dce",
+        "flags": 134,
+        "parameterCount": 2,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Check",
+        "declaringType": 2641,
+        "returnTypeIndex": 25796,
+        "token": "0x06003dcf",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Contains",
+        "declaringType": 2641,
+        "returnTypeIndex": 14042,
+        "token": "0x06003dd0",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "GetItemCount",
+        "declaringType": 2641,
+        "returnTypeIndex": 18255,
+        "token": "0x06003dd1",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RemoveItem",
+        "declaringType": 2641,
+        "returnTypeIndex": 25796,
+        "token": "0x06003dd2",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RollIndex",
+        "declaringType": 2641,
+        "returnTypeIndex": 18255,
+        "token": "0x06003dd3",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RealRollMultiple",
+        "declaringType": 2641,
+        "returnTypeIndex": 8282,
+        "token": "0x06003dd4",
+        "flags": 134,
+        "parameterCount": 1,
+        "bodyAvailable": false
+      },
+      {
+        "name": "Roll",
+        "declaringType": 2641,
+        "returnTypeIndex": 1480,
+        "token": "0x06003dd5",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RealRandomRollIndex",
+        "declaringType": 2641,
+        "returnTypeIndex": 18255,
+        "token": "0x06003dd6",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "RealRandomRoll",
+        "declaringType": 2641,
+        "returnTypeIndex": 1480,
+        "token": "0x06003dd7",
+        "flags": 134,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "AllocPro",
+        "declaringType": 2641,
+        "returnTypeIndex": 25796,
+        "token": "0x06003dd8",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": "CalProToAlloc",
+        "declaringType": 2641,
+        "returnTypeIndex": 25796,
+        "token": "0x06003dd9",
+        "flags": 129,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      },
+      {
+        "name": ".ctor",
+        "declaringType": 2641,
+        "returnTypeIndex": 25796,
+        "token": "0x06003dda",
+        "flags": 6278,
+        "parameterCount": 0,
+        "bodyAvailable": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,509 @@
+{
+  "items": [
+    {
+      "id": "goose",
+      "scale": 1.25,
+      "evidence": "Project adaptation: semantic relative sizes; not recovered competitor sizes"
+    },
+    {
+      "id": "ref_gtcrocodile",
+      "scale": 1.3289,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtdinosaur",
+      "scale": 1.0,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtdrawingboard",
+      "scale": 1.2305,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtfruiteraser",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtgoosestamp",
+      "scale": 0.6554,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtkaleidoscope",
+      "scale": 1.4349,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtlaserpen",
+      "scale": 0.8255,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtmagiccubel",
+      "scale": 0.8677,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtpaperboat",
+      "scale": 1.2903,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtpaperfortune",
+      "scale": 0.6908,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtpaperstar",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtpapertree",
+      "scale": 0.9306,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtplanepen",
+      "scale": 1.2241,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtplasterdeer",
+      "scale": 1.5078,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtplaydough",
+      "scale": 1.1604,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtracecar",
+      "scale": 1.3093,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtringcandy",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtsandbag",
+      "scale": 0.9315,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtsmiledoll",
+      "scale": 0.6836,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtstickerbook",
+      "scale": 1.4372,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_gtwatergame",
+      "scale": 1.55,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bffrieddoughstick",
+      "scale": 1.55,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfshrimpshaomai",
+      "scale": 0.7334,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfsoymilk",
+      "scale": 1.2033,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfegghalf",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bffagao",
+      "scale": 1.3914,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bffriedsteamedbun",
+      "scale": 0.7855,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfpumpkinpie",
+      "scale": 0.8026,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfsesameball",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfxiaolongbao",
+      "scale": 1.55,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfcornjuice",
+      "scale": 1.3741,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfflowerroll",
+      "scale": 1.209,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfshaomai",
+      "scale": 0.7646,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfsoupdumpling",
+      "scale": 0.8253,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfspringroll",
+      "scale": 1.0,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfsweetcorn",
+      "scale": 1.4298,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bftofupudding",
+      "scale": 1.1975,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bfwowotou",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bbqskewers2",
+      "scale": 1.04,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_grilledcorn",
+      "scale": 1.0008,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bbqhotdog",
+      "scale": 0.8153,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_frieddumpling",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_grilledfish2",
+      "scale": 1.55,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_potatoskewers",
+      "scale": 1.243,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_redshrimp",
+      "scale": 0.9242,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_ribsbig",
+      "scale": 1.3259,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_scallop",
+      "scale": 0.7481,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_shrimp",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bbqmushroom",
+      "scale": 1.2044,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bbqpotato",
+      "scale": 0.8767,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bbqsausage",
+      "scale": 0.7748,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bbqskewers1",
+      "scale": 1.2123,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bbqtoast",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_chickenleg",
+      "scale": 1.0,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_roastchicken",
+      "scale": 1.23,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_orange",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_potato",
+      "scale": 1.3207,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_saltedegg",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_pepperfresh",
+      "scale": 1.3855,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_sausage",
+      "scale": 0.919,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_watermelonhalf",
+      "scale": 1.0248,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_watermelonslice",
+      "scale": 0.7356,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_woodhand",
+      "scale": 1.55,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_apple",
+      "scale": 0.6872,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_carrot",
+      "scale": 1.0226,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_chinabowl",
+      "scale": 0.9774,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_corn",
+      "scale": 1.1937,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_fan",
+      "scale": 1.55,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_flashlight2",
+      "scale": 1.1071,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_spinningtop",
+      "scale": 0.9155,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_thermosbottle",
+      "scale": 1.55,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_windoilbottle",
+      "scale": 0.8427,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_cs_garlic",
+      "scale": 0.6691,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_bananas",
+      "scale": 1.0804,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_chewinggum",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_garlic",
+      "scale": 0.65,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_hamsausage1",
+      "scale": 0.9915,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_hamsausage2",
+      "scale": 1.0,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_soysauce",
+      "scale": 1.5013,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "ref_toycar",
+      "scale": 1.2048,
+      "evidence": "Source authored extent / scene median; clamped for project board"
+    },
+    {
+      "id": "duck-eggpancake",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_eggpancake"
+    },
+    {
+      "id": "duck-eggtart",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_eggtart"
+    },
+    {
+      "id": "duck-milletcake",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_milletcake"
+    },
+    {
+      "id": "duck-steamedbread",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_bfsteamedbread"
+    },
+    {
+      "id": "duck-eggplant",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_eggplant"
+    },
+    {
+      "id": "duck-greenpepper",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_greenpepper"
+    },
+    {
+      "id": "duck-pancake",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_pancake"
+    },
+    {
+      "id": "duck-potato",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_potato"
+    },
+    {
+      "id": "duck-tomato",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_tomato"
+    },
+    {
+      "id": "duck-steelcup",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_steelcup"
+    },
+    {
+      "id": "duck-farmer",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_farmer"
+    },
+    {
+      "id": "duck-watermelon",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_watermelon"
+    },
+    {
+      "id": "duck-numberblock",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtnumberblock"
+    },
+    {
+      "id": "duck-yoyo",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtyoyo"
+    },
+    {
+      "id": "duck-craftpunch",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtcraftpunch"
+    },
+    {
+      "id": "duck-capsulepen",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_gtcapsulepen"
+    },
+    {
+      "id": "duck-chilisauce",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_chilisauce"
+    },
+    {
+      "id": "duck-colacup",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_colacup"
+    },
+    {
+      "id": "duck-egg",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_egg"
+    },
+    {
+      "id": "duck-noodles",
+      "scale": 1,
+      "evidence": "B2 normalized extent; same presentation scale as ref_goose_noodles"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-24",
+  "scope": "Frozen competitor 402 static bodies/resources; own Unity runtime tests and local Release export",
+  "interactionChecks": 60,
+  "algorithmChecks": 132,
+  "editMode": {
+    "id": "2",
+    "testcasecount": "18",
+    "result": "Passed",
+    "total": "18",
+    "passed": "18",
+    "failed": "0",
+    "inconclusive": "0",
+    "skipped": "0",
+    "asserts": "0",
+    "engine-version": "3.5.0.0",
+    "clr-version": "4.0.30319.42000",
+    "start-time": "2026-10-24 04:08:26Z",
+    "end-time": "2026-10-24 04:08:27Z",
+    "duration": "0.8807839"
+  },
+  "experienceRounds": 20,
+  "experienceWins": 20,
+  "failedClicks": 0,
+  "outOfBounds": 0,
+  "performanceScope": "Windows headless, forced mobile profile, isolated from other QA players/builds; not phone FPS",
+  "performanceSamples": 10,
+  "coldSpawnSecondsMean": 10.482241821289062,
+  "warmSpawnSecondsMean": 7.937727165222168,
+  "largestFrameMs": 49.97979736328125,
+  "package": {
+    "localPackagePassed": true,
+    "appId": "wx60b50db2472c4782",
+    "ownAppIdConfigured": true,
+    "rawBytes": 29256037,
+    "rawMiB": 27.9,
+    "javascriptFiles": 61,
+    "checks": [
+      "WeChat mini-game project type",
+      "ES module transpilation enabled for WeChat runtime",
+      "Project AppID matches Unity runtime manager configuration",
+      "Portrait screen configuration",
+      "Wasm, first data and on-demand media subpackages",
+      "Compiled compressed Wasm exists",
+      "First game resources bundled without CDN",
+      "Raw project file total within conservative 30 MiB budget",
+      "Both full mobile clips included",
+      "Video package integrity: Darkchaser-Battletide.mp4",
+      "Source video preserved: Darkchaser-Battletide.mp4",
+      "Video package integrity: Skycore-Reboot.f5800.mp4",
+      "Source video preserved: Skycore-Reboot.f5800.mp4",
+      "Exported JavaScript syntax checked (61 files)",
+      "Subset UI font integrity"
+    ],
+    "errors": [],
+    "accountTypeVerifiedByThisAudit": false,
+    "developerToolsRuntimePassed": null,
+    "iPhoneAcceptancePassed": null,
+    "scope": "local_exported_files_only",
+    "runtimeEvidence": "work/wechat-integration/simulator-acceptance.json",
+    "pending": [
+      "Verify registered mini-game account type and UnityPlugin permissions",
+      "Run actual mini-game simulator acceptance",
+      "Scan real preview QR with iPhone and finish device checks"
+    ]
+  },
+  "intermediateEvidence": "visual first run failed layer order and pause; corrected second run passed; final adds hidden settling and exact weighted timing. Concurrent performance retained, excluded from isolated timing.",
+  "wechatDeveloperToolsRuntimePassed": null,
+  "phonePerformancePassed": null,
+  "wechatHashes": {
+    "DATA_FILE_MD5": "b674ec46d790d255",
+    "CODE_FILE_MD5": "1520b27cce23899c"
+  },
+  "frozenInputHashes": {
+    "work/competitor-config-trace/main-402.wat": "4103eefb9fabb617c6b4a8fd0cbfacf41c453dd9a23d69b5efba48f28fbf37db",
+    "work/competitor-config-trace/secondary-402.wat": "efcdf87028d9c049a3cb789fdba5a4b30ea143a8bcba96d88ef14d5bfadd9e77",
+    "work/competitor-config-trace/dumper/script.json": "14c7e28346f2d3dfac7466417ca059ccefbf37dcb75f3090906658ce431a2fde",
+    "work/competitor-config-trace/dumper/dump.cs": "4eccd2e3b287341f7af47c7e9f16359859295aa9fe7db29bf03874b4e1bcf92f",
+    "work/competitor-config-trace/source/6f7a2014e3c0092b.webgl.data.unityweb.bin": "b7cad460af0d7aaf86bdec945f9b4d69a4e494a07b1343007f3cc7254c208b42"
+  }
+}

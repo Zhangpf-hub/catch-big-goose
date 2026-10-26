@@ -1,0 +1,143 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "4fe95db9-67f8-4206-8356-150abd74ab6e",
+  "files": [],
+  "subMetas": {
+    "22207": {
+      "importer": "gltf-scene",
+      "uuid": "4fe95db9-67f8-4206-8356-150abd74ab6e@22207",
+      "displayName": "",
+      "id": "22207",
+      "name": "tray_electronics.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "29440": {
+      "importer": "gltf-embeded-image",
+      "uuid": "4fe95db9-67f8-4206-8356-150abd74ab6e@29440",
+      "displayName": "",
+      "id": "29440",
+      "name": "tray_electronics_palette.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "26dc0": {
+      "importer": "gltf-mesh",
+      "uuid": "4fe95db9-67f8-4206-8356-150abd74ab6e@26dc0",
+      "displayName": "",
+      "id": "26dc0",
+      "name": "tray_electronics.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1520
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "4fe95db9-67f8-4206-8356-150abd74ab6e@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4fe95db9-67f8-4206-8356-150abd74ab6e@29440"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "12a40": {
+      "importer": "gltf-material",
+      "uuid": "4fe95db9-67f8-4206-8356-150abd74ab6e@12a40",
+      "displayName": "",
+      "id": "12a40",
+      "name": "tray_electronics_material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "tray_electronics_palette",
+        "uri": "4fe95db9-67f8-4206-8356-150abd74ab6e@29440"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "4fe95db9-67f8-4206-8356-150abd74ab6e@26dc0"
+      ],
+      "skeletons": [],
+      "textures": [
+        "4fe95db9-67f8-4206-8356-150abd74ab6e@e39f7"
+      ],
+      "materials": [
+        "4fe95db9-67f8-4206-8356-150abd74ab6e@12a40"
+      ],
+      "scenes": [
+        "4fe95db9-67f8-4206-8356-150abd74ab6e@22207"
+      ]
+    }
+  }
+}

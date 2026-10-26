@@ -1,0 +1,23 @@
+{
+  "materialName": "duck-eggtart-mobile",
+  "baseColor": {
+    "file": "albedo.png",
+    "sRGB": true
+  },
+  "gltfMetalRough": {
+    "file": "metalrough.png",
+    "sRGB": false,
+    "metallic": "B",
+    "roughness": "G"
+  },
+  "unityStandardMetallic": {
+    "file": "unity-metallic.png",
+    "sRGB": false,
+    "metallic": "R",
+    "smoothness": "A",
+    "conversion": "R=B, A=1-G from metalrough.png"
+  },
+  "unityImportVerified": true,
+  "unityImportScope": "Isolated Unity 2022.3.62f3 QA project",
+  "productionProjectImported": false
+}

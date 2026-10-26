@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "ziDanBiFeiJi",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_8619417652736380838.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

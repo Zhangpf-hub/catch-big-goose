@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtpaperstar",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperStar\\GTPaperStar.blend",
+  "sourceTriangles": 126,
+  "triangles": 126,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.6973447799682617,
+    0.6662572622299194,
+    0.3814559876918793
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.9554201364517212,
+    0.5470120310783386
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

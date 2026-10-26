@@ -1,0 +1,59 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.886274516582489,
+        0.8331734538078308,
+        0.772831380367279,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.013489609584212303,
+        0.1693079024553299
+      ],
+      "uvMax": [
+        0.9917250275611877,
+        0.889319121837616
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.008513353765010834,
+        0.009591594338417053
+      ],
+      "uvMax": [
+        0.7838200926780701,
+        0.9936311841011047
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFSoyMilk\\tex_-7999585079489659502.png",
+      "uvMin": [
+        -0.020919978618621826,
+        -0.029256582260131836
+      ],
+      "uvMax": [
+        1.0281577110290527,
+        1.0198218822479248
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_bfsoymilk\\albedo.png"
+}

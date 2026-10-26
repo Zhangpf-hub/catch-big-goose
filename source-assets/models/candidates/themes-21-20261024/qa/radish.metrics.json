@@ -1,0 +1,28 @@
+{
+  "id": "radish",
+  "theme": "farm",
+  "triangles": 928,
+  "vertices": 478,
+  "blenderBounds": [
+    0.5931320190429688,
+    0.5641021132469177,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 22832,
+  "sha256": "cc13ac6015fc37abf1a81412568aa6d75f2a3d50c8f9862b47e2ee4fcc43cce2",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

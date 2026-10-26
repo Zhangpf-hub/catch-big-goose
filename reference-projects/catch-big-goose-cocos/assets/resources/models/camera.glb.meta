@@ -1,0 +1,143 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696",
+  "files": [],
+  "subMetas": {
+    "2bc94": {
+      "importer": "gltf-mesh",
+      "uuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@2bc94",
+      "displayName": "",
+      "id": "2bc94",
+      "name": "camera.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2200
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba44f": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@ba44f",
+      "displayName": "",
+      "id": "ba44f",
+      "name": "camera_palette.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@ba44f"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "38c51": {
+      "importer": "gltf-material",
+      "uuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@38c51",
+      "displayName": "",
+      "id": "38c51",
+      "name": "camera_material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f7495": {
+      "importer": "gltf-scene",
+      "uuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@f7495",
+      "displayName": "",
+      "id": "f7495",
+      "name": "camera.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "camera_palette",
+        "uri": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@ba44f"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8c796c9c-8b8a-460a-ac8b-ce78d0666696@2bc94"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8c796c9c-8b8a-460a-ac8b-ce78d0666696@e39f7"
+      ],
+      "materials": [
+        "8c796c9c-8b8a-460a-ac8b-ce78d0666696@38c51"
+      ],
+      "scenes": [
+        "8c796c9c-8b8a-460a-ac8b-ce78d0666696@f7495"
+      ]
+    }
+  }
+}

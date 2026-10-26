@@ -1,0 +1,22 @@
+{
+  "id": "corn",
+  "triangles": 792,
+  "materials": 1,
+  "meshes": 1,
+  "texture": [
+    512,
+    512
+  ],
+  "glbRoundtrip": true,
+  "closedGeometry": true,
+  "normalizedMaxSide": 1.0,
+  "source": "Original procedural geometry and texture; no competitor asset data used",
+  "status": "Candidate only; not installed in Cocos/Unity; collision and in-game appearance pending",
+  "gltfValidator": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "bytes": 223372,
+  "physicsValidated": false,
+  "unityImported": false
+}

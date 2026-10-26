@@ -1,0 +1,12 @@
+{
+  "id": "ref_egg2",
+  "triangles": 180,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.7710908055305481,
+    1.0,
+    0.8214040398597717
+  ],
+  "glbRoundtrip": true
+}

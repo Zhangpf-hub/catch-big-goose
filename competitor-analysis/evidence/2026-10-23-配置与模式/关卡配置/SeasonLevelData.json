@@ -1,0 +1,4286 @@
+{
+  "SheetName": "Assets/Res/ForEditor/SeasonLevelData.xlsx",
+  "WorksheetName": "SeasonLevelData",
+  "dataArray": [
+    {
+      "_seasonid": 310001,
+      "_levelindex": 1,
+      "_chapter": 1,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u8d2d\u4e70\u5e74\u8d27",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10001,
+      "_levelabid": [],
+      "_abpassrate": 99,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u8be5\u4e70\u5e74\u8d27\u5566\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 2,
+      "_chapter": 1,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u8d2d\u4e70\u5e74\u8d27",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10002,
+      "_levelabid": [],
+      "_abpassrate": 90,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e70\u70b9\u8c03\u6599",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 3,
+      "_chapter": 1,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u8d2d\u4e70\u5e74\u8d27",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10003,
+      "_levelabid": [],
+      "_abpassrate": 91,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e70\u70b9\u88c5\u9970",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 4,
+      "_chapter": 1,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u8d2d\u4e70\u5e74\u8d27",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10004,
+      "_levelabid": [],
+      "_abpassrate": 71,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e70\u70b9\u5927\u4ef6\u8d27",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 5,
+      "_chapter": 1,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u8d2d\u4e70\u5e74\u8d27",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10005,
+      "_levelabid": [],
+      "_abpassrate": 71,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5168\u90e8\u4e1c\u897f\u6253\u5305\u5e26\u8d70\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 6,
+      "_chapter": 2,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u5230\u5bb6",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10006,
+      "_levelabid": [],
+      "_abpassrate": 73,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u56de\u6751\u5e26\u70b9\u6c34\u679c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 7,
+      "_chapter": 2,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u5230\u5bb6",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10007,
+      "_levelabid": [],
+      "_abpassrate": 74,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5927\u5305\u5c0f\u5305\u8fd8\u6709\u793c\u5305",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 8,
+      "_chapter": 2,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u5230\u5bb6",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10008,
+      "_levelabid": [],
+      "_abpassrate": 58,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u67f4\u7c73\u6cb9\u76d0\u9171\u918b\u90fd\u5e26\u70b9",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 9,
+      "_chapter": 2,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u5230\u5bb6",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10009,
+      "_levelabid": [],
+      "_abpassrate": 60,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6309\u989c\u8272\u5206\u7c7b\u8fdb\u884c\u88c5\u8f66",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 10,
+      "_chapter": 2,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u5230\u5bb6",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10010,
+      "_levelabid": [],
+      "_abpassrate": 61,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4210,
+      "_leveltip": "\u793c\u91cd\u60c5\u4e49\u66f4\u91cd\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 11,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10011,
+      "_levelabid": [],
+      "_abpassrate": 52,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u51c6\u5907\u70b9\u65b0\u5e74\u96f6\u5634",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 12,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10012,
+      "_levelabid": [],
+      "_abpassrate": 51,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u505a\u4e86\u5f88\u591a\u79cd\u7c7b\uff0c\u653e\u5f00\u5403\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 13,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10013,
+      "_levelabid": [],
+      "_abpassrate": 39,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u8fd8\u505a\u4e86\u70b9\u7cd5\u70b9",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 14,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10014,
+      "_levelabid": [],
+      "_abpassrate": 46,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u65b0\u5e74\u67ff\u5b50\u4e0d\u80fd\u9519\u8fc7",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 15,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10015,
+      "_levelabid": [],
+      "_abpassrate": 53,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5403\u70b9\u6c34\u679c\u66f4\u5065\u5eb7",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 16,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10016,
+      "_levelabid": [],
+      "_abpassrate": 38,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5207\u597d\u7684\u6c34\u679c\u662f\u6700\u597d\u7684\u5403\u7684",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 17,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10017,
+      "_levelabid": [],
+      "_abpassrate": 48,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u65b0\u5e74\u600e\u4e48\u80fd\u5c11\u4e86\u997c\u5e72\u7cd6\u679c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 18,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10018,
+      "_levelabid": [],
+      "_abpassrate": 47,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5546\u5e97\u7684\u96f6\u98df\u597d\u50cf\u66f4\u53d7\u6b22\u8fce",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 19,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10019,
+      "_levelabid": [],
+      "_abpassrate": 40,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u9700\u8981\u6765\u70b9\u575a\u679c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 20,
+      "_chapter": 3,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u8fc7\u8282\u51c6\u5907",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10020,
+      "_levelabid": [],
+      "_abpassrate": 43,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u679c\u76d8\u5fc5\u987b\u88c5\u6ee1\uff0c\u4e0d\u80fd\u998b\u7740\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 21,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10021,
+      "_levelabid": [],
+      "_abpassrate": 55,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6d17\u4e00\u4e0b\u7eff\u6cb9\u6cb9\u7684\u83dc",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 22,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10022,
+      "_levelabid": [],
+      "_abpassrate": 52,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u9700\u8981\u5f88\u591a\u83dc\u6765\u505a\u5e74\u591c\u996d",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 23,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10023,
+      "_levelabid": [],
+      "_abpassrate": 61,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u600e\u4e48\u80fd\u5c11\u4e86\u8089\u5462",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 24,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10024,
+      "_levelabid": [],
+      "_abpassrate": 61,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6211\u9700\u8981\u4e00\u4e2a\u5927\u70b9\u7684\u76c6",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 25,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10025,
+      "_levelabid": [],
+      "_abpassrate": 45,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u522b\u5fd8\u4e86\u6d17\u8c03\u5473\u83dc",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 26,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10026,
+      "_levelabid": [],
+      "_abpassrate": 50,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u7ea2\u7ea2\u706b\u706b",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 27,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10027,
+      "_levelabid": [],
+      "_abpassrate": 55,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u4e00\u9505\u6d77\u9c9c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 28,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10028,
+      "_levelabid": [],
+      "_abpassrate": 55,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6d77\u9c9c\u7096\u83dc\u66f4\u6709\u8425\u517b",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 29,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10029,
+      "_levelabid": [],
+      "_abpassrate": 48,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6a59\u8272\u8ba9\u4eba\u66f4\u6709\u98df\u6b32",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 30,
+      "_chapter": 4,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u5907\u83dc",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10030,
+      "_levelabid": [],
+      "_abpassrate": 36,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4211,
+      "_leveltip": "\u4e0b\u9505\u4e4b\u524d\u518d\u6d17\u4e00\u904d\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 31,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10031,
+      "_levelabid": [],
+      "_abpassrate": 50,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u7096\u83dc\u5f69\u8272\u5f88\u91cd\u8981",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 32,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10032,
+      "_levelabid": [],
+      "_abpassrate": 46,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u52a0\u70b9\u9ec4\u8272\u7684\u8c03\u8272",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 33,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10033,
+      "_levelabid": [],
+      "_abpassrate": 37,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u518d\u52a0\u70b9\u767d\u8272\u5b8c\u6210\u94c1\u9505\u7096",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 34,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10034,
+      "_levelabid": [],
+      "_abpassrate": 46,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u9700\u8981\u5f88\u591a\u7684\u8089",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 35,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10035,
+      "_levelabid": [],
+      "_abpassrate": 50,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u52a0\u70b9\u9752\u83dc\u89e3\u817b",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 36,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10036,
+      "_levelabid": [],
+      "_abpassrate": 36,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e0d\u8981\u5fd8\u4e86\u8c03\u5473",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 37,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10037,
+      "_levelabid": [],
+      "_abpassrate": 45,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u716e\u4e2a\u5927\u8783\u87f9",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 38,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10038,
+      "_levelabid": [],
+      "_abpassrate": 50,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5e74\u591c\u996d\u4e0d\u80fd\u5c11\u4e86\u867e",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 39,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10039,
+      "_levelabid": [],
+      "_abpassrate": 48,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5e74\u5e74\u6709\u9c7c\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 40,
+      "_chapter": 5,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u505a\u996d",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10040,
+      "_levelabid": [],
+      "_abpassrate": 27,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u8d85\u5927\u6d77\u9c9c\u9505\u6765\u4e86\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 41,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10041,
+      "_levelabid": [],
+      "_abpassrate": 30,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5148\u4e0a\u70b9\u4e3b\u98df",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 42,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10042,
+      "_levelabid": [],
+      "_abpassrate": 28,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e0a\u83dc\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 43,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10043,
+      "_levelabid": [],
+      "_abpassrate": 22,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u9700\u8981\u52a0\u70b9\u996e\u6599",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 44,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10044,
+      "_levelabid": [],
+      "_abpassrate": 27,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u91d1\u9ec4\u7684\u83dc\u770b\u8d77\u6765\u8d22\u8fd0\u8db3",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 45,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10045,
+      "_levelabid": [],
+      "_abpassrate": 28,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u70b9\u5c0f\u7b3c\u84b8\u70b9",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 46,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10046,
+      "_levelabid": [],
+      "_abpassrate": 22,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5927\u5bb6\u56e2\u56e2\u5706\u5706\uff0c\u98df\u7269\u5706\u5706\u6eda\u6eda",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 47,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10047,
+      "_levelabid": [],
+      "_abpassrate": 25,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5927\u53e3\u5403\u8089",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 48,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10048,
+      "_levelabid": [],
+      "_abpassrate": 26,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5fc5\u987b\u6709\u9c7c\uff0c\u5f88\u591a\u9c7c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 49,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10049,
+      "_levelabid": [],
+      "_abpassrate": 26,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u53ef\u4ee5\u518d\u4e0a\u4e00\u684c\u6d77\u9c9c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 50,
+      "_chapter": 6,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u4e0a\u83dc",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10050,
+      "_levelabid": [],
+      "_abpassrate": 14,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4212,
+      "_leveltip": "\u4eca\u5929\u5fc5\u987b\u5403\u5403\u6491\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 51,
+      "_chapter": 7,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u83dc\u5f0f",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10051,
+      "_levelabid": [],
+      "_abpassrate": 26,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5148\u4e0a\u4e00\u789f\u9c7f\u9c7c\u7092\u4e09\u9c9c\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 52,
+      "_chapter": 7,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u83dc\u5f0f",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10052,
+      "_levelabid": [],
+      "_abpassrate": 22,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u518d\u6765\u4e00\u789f\u7092\u814a\u80a0",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 53,
+      "_chapter": 7,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u83dc\u5f0f",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10053,
+      "_levelabid": [],
+      "_abpassrate": 24,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4eca\u5929\u8981\u653e\u5f00\u4e86\u5403\u8089\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 54,
+      "_chapter": 7,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u83dc\u5f0f",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10054,
+      "_levelabid": [],
+      "_abpassrate": 24,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u4e00\u9505\u7096\u83b2\u85d5",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 55,
+      "_chapter": 7,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u83dc\u5f0f",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10055,
+      "_levelabid": [],
+      "_abpassrate": 18,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u8c6a\u534e\u6d77\u9c9c\u7172\u6765\u5566\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 56,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10056,
+      "_levelabid": [],
+      "_abpassrate": 25,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5403\u9e21\u817f\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 57,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10057,
+      "_levelabid": [],
+      "_abpassrate": 25,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u522b\u5fd8\u4e86\u5403\u83dc",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 58,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10058,
+      "_levelabid": [],
+      "_abpassrate": 20,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4f60\u8fd9\u592a\u7626\u4e86\uff0c\u5f97\u591a\u5403\u8089\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 59,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10059,
+      "_levelabid": [],
+      "_abpassrate": 25,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u7ea2\u8272\u7684\u98df\u7269\u559c\u5e86",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 60,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10060,
+      "_levelabid": [],
+      "_abpassrate": 20,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5706\u5706\u7684\u98df\u7269\u56e2\u5706",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 61,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10061,
+      "_levelabid": [],
+      "_abpassrate": 20,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u91d1\u9ec4\u7684\u98df\u7269\u53d1\u8d22",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 62,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10062,
+      "_levelabid": [],
+      "_abpassrate": 15,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5403\u70b9\u9e21\u86cb\uff0c\u8865\u8eab\u4f53",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 63,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10063,
+      "_levelabid": [],
+      "_abpassrate": 13,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u591a\u5403\u70b9\u9c7c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 64,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10064,
+      "_levelabid": [],
+      "_abpassrate": 12,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e0d\u80fd\u6311\u98df",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 65,
+      "_chapter": 8,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u5e74\u591c\u996d",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10065,
+      "_levelabid": [],
+      "_abpassrate": 7,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4213,
+      "_leveltip": "\u4eca\u5929\u60f3\u5403\u4ec0\u4e48\u5403\u4ec0\u4e48",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 66,
+      "_chapter": 9,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u70df\u82b1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10066,
+      "_levelabid": [],
+      "_abpassrate": 12,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u4e00\u8d77\u653e\u70df\u82b1",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 67,
+      "_chapter": 9,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u70df\u82b1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10067,
+      "_levelabid": [],
+      "_abpassrate": 12,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6ca1\u6709\u97ad\u70ae\u58f0\u600e\u4e48\u884c",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 68,
+      "_chapter": 9,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u70df\u82b1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10068,
+      "_levelabid": [],
+      "_abpassrate": 11,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u600e\u4e48\u80fd\u5c11\u4e86\u5c0f\u7130\u82b1",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 69,
+      "_chapter": 9,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u70df\u82b1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10069,
+      "_levelabid": [],
+      "_abpassrate": 11,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u706f\u7b3c\u6389\u70df\u82b1\u91cc\u4e86\uff01\u5feb\u627e\u51fa\u6765",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 70,
+      "_chapter": 9,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u70df\u82b1",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10070,
+      "_levelabid": [],
+      "_abpassrate": 9,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u628a\u8fd9\u4e00\u7bb1\u70df\u82b1\u5168\u90e8\u653e\u5b8c\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 71,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10071,
+      "_levelabid": [],
+      "_abpassrate": 10,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e0d\u70e4\u70b9\u7ea2\u85af\u6d6a\u8d39\u4e86\u706b\u7089",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 72,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10072,
+      "_levelabid": [],
+      "_abpassrate": 11,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u9762\u70b9\u70e4\u4e00\u70e4\u66f4\u677e\u8f6f",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 73,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10073,
+      "_levelabid": [],
+      "_abpassrate": 9,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u70b8\u8d27\u70e4\u7740\u5403\u66f4\u9999\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 74,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10074,
+      "_levelabid": [],
+      "_abpassrate": 11,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u70e7\u6c34\u716e\u8336",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 75,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10075,
+      "_levelabid": [],
+      "_abpassrate": 9,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u8336\u91cc\u52a0\u70b9\u8c03\u6599\u5473\u9053\u66f4\u9999",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 76,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10076,
+      "_levelabid": [],
+      "_abpassrate": 7,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u559d\u8336\u600e\u4e48\u80fd\u4e0d\u914d\u4e0a\u7cd5\u70b9",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 77,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10077,
+      "_levelabid": [],
+      "_abpassrate": 11,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6709\u706b\u90a3\u5fc5\u987b\u5f97\u70e4\u8089\u4e86",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 78,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10078,
+      "_levelabid": [],
+      "_abpassrate": 9,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6ca1\u6709\u70e4\u9c7c\u7684\u70e7\u70e4\u662f\u4e0d\u5b8c\u6574\u7684",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 79,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10079,
+      "_levelabid": [],
+      "_abpassrate": 10,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u9e45\u751f\u4e00\u4e32",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 80,
+      "_chapter": 10,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u706b\u7089",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10080,
+      "_levelabid": [],
+      "_abpassrate": 4,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4214,
+      "_leveltip": "\u706b\u7089\u6696\u624b\u8fd8\u6696\u80c3",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 81,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10081,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u6413\u9ebb\uff01\u4e09\u7f3a\u4e00\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 82,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10082,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e0b\u68cb\u4e0b\u4e2a\u901a\u5bb5",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 83,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10083,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u518d\u6765\u70b9\u5c0f\u6e38\u620f",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 84,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10084,
+      "_levelabid": [],
+      "_abpassrate": 4,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u73a9\u6e38\u620f\u600e\u4e48\u5c11\u7684\u4e86\u96f6\u98df",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 85,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10085,
+      "_levelabid": [],
+      "_abpassrate": 4,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u73a9\u7d2f\u4e86\u5403\u70b9\u6c34\u679c\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 86,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10086,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u996e\u6599\u559d\u5230\u9189\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 87,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10087,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6084\u6084\u5730\u70ab\u5bcc",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 88,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10088,
+      "_levelabid": [],
+      "_abpassrate": 4,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u6478\u6478\u8f6c\u8fd0\u5c0f\u9053\u5177",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 89,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10089,
+      "_levelabid": [],
+      "_abpassrate": 4,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u4e00\u5e74\u90fd\u8981\u91d1\u5149\u95ea\u95ea",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 90,
+      "_chapter": 11,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u996d\u540e\u5a31\u4e50",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10090,
+      "_levelabid": [],
+      "_abpassrate": 2,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 120,
+      "_gooseid": 4215,
+      "_leveltip": "\u4eca\u5929\u653e\u5f00\u4e86\u73a9",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 91,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10091,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5927\u9e45\u9001\u793c\u4e0a\u95e8\u5566",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 92,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10092,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5e26\u4e86\u4e9b\u5916\u5730\u7684\u7279\u4ea7",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 93,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10093,
+      "_levelabid": [],
+      "_abpassrate": 2,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u505a\u4e86\u5f88\u591a\u8089\uff0c\u5fc5\u987b\u5206\u4eab\u4e00\u4e0b",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 94,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10094,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u5403\u7802\u7cd6\u6a58\u5403\u5230\u53d8\u9ec4",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 95,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10095,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u8981\u559d\u70b9\u4ec0\u4e48\u996e\u6599\uff1f",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 96,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 1,
+      "_leveltype": "Endless",
+      "_levelid": 10096,
+      "_levelabid": [],
+      "_abpassrate": 2,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u70b9\u6cb9\u70b8\u5c0f\u96f6\u98df",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 97,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10097,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6c34\u679c\u5207\u597d\u4e86\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 98,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10098,
+      "_levelabid": [],
+      "_abpassrate": 2,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u6765\u70b9\u5c0f\u5403\u89e3\u89e3\u998b",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 99,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 10099,
+      "_levelabid": [],
+      "_abpassrate": 3,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "\u996e\u8336\u65f6\u95f4\u5230\uff01",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310001,
+      "_levelindex": 100,
+      "_chapter": 12,
+      "_gametype": 0,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u8336\u684c",
+      "_hardtype": 2,
+      "_leveltype": "Endless",
+      "_levelid": 10100,
+      "_levelabid": [],
+      "_abpassrate": 2,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 120,
+      "_gooseid": 4216,
+      "_leveltip": "\u4eca\u5929\u6709\u7684\u662f\u65f6\u95f4",
+      "_maxlevel": 100,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 1,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20001,
+      "_levelabid": [
+        1120001,
+        1220001,
+        1320001
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 2,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20002,
+      "_levelabid": [
+        1120002,
+        1220002,
+        1320002
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 3,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20003,
+      "_levelabid": [
+        1120003,
+        1220003,
+        1320003
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 4,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20004,
+      "_levelabid": [
+        1120004,
+        1220004,
+        1320004
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 5,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20005,
+      "_levelabid": [
+        1120005,
+        1220005,
+        1320005
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 6,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20006,
+      "_levelabid": [
+        1120006,
+        1220006,
+        1320006
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 7,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20007,
+      "_levelabid": [
+        1120007,
+        1220007,
+        1320007
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 8,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20008,
+      "_levelabid": [
+        1120008,
+        1220008,
+        1320008
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 9,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20009,
+      "_levelabid": [
+        1120009,
+        1220009,
+        1320009
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 10,
+      "_chapter": 1,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u6c34\u679c\u5403\u5403\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20010,
+      "_levelabid": [
+        1120010,
+        1220010,
+        1320010
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4250,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 11,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20011,
+      "_levelabid": [
+        1120011,
+        1220011,
+        1320011
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 12,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20012,
+      "_levelabid": [
+        1120012,
+        1220012,
+        1320012
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 13,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20013,
+      "_levelabid": [
+        1120013,
+        1220013,
+        1320013
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 14,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20014,
+      "_levelabid": [
+        1120014,
+        1220014,
+        1320014
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 15,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20015,
+      "_levelabid": [
+        1120015,
+        1220015,
+        1320015
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 16,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20016,
+      "_levelabid": [
+        1120016,
+        1220016,
+        1320016
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 17,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20017,
+      "_levelabid": [
+        1120017,
+        1220017,
+        1320017
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 18,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20018,
+      "_levelabid": [
+        1120018,
+        1220018,
+        1320018
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 19,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20019,
+      "_levelabid": [
+        1120019,
+        1220019,
+        1320019
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 20,
+      "_chapter": 2,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u5c0f\u5403\u8857",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20020,
+      "_levelabid": [
+        1120020,
+        1220020,
+        1320020
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4251,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 21,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20021,
+      "_levelabid": [
+        1120021,
+        1220021,
+        1320021
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 22,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20022,
+      "_levelabid": [
+        1120022,
+        1220022,
+        1320022
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 23,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20023,
+      "_levelabid": [
+        1120023,
+        1220023,
+        1320023
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 24,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20024,
+      "_levelabid": [
+        1120024,
+        1220024,
+        1320024
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 25,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20025,
+      "_levelabid": [
+        1120025,
+        1220025,
+        1320025
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 26,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20026,
+      "_levelabid": [
+        1120026,
+        1220026,
+        1320026
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 27,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20027,
+      "_levelabid": [
+        1120027,
+        1220027,
+        1320027
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 28,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20028,
+      "_levelabid": [
+        1120028,
+        1220028,
+        1320028
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 29,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20029,
+      "_levelabid": [
+        1120029,
+        1220029,
+        1320029
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 30,
+      "_chapter": 3,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u73a9\u5230\u5929\u4eae",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20030,
+      "_levelabid": [
+        1120030,
+        1220030,
+        1320030
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 31,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20031,
+      "_levelabid": [
+        1120031,
+        1220031,
+        1320031
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 32,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20032,
+      "_levelabid": [
+        1120032,
+        1220032,
+        1320032
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 33,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20033,
+      "_levelabid": [
+        1120033,
+        1220033,
+        1320033
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 34,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20034,
+      "_levelabid": [
+        1120034,
+        1220034,
+        1320034
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 35,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20035,
+      "_levelabid": [
+        1120035,
+        1220035,
+        1320035
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 36,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20036,
+      "_levelabid": [
+        1120036,
+        1220036,
+        1320036
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 37,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20037,
+      "_levelabid": [
+        1120037,
+        1220037,
+        1320037
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 38,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20038,
+      "_levelabid": [
+        1120038,
+        1220038,
+        1320038
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 39,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20039,
+      "_levelabid": [
+        1120039,
+        1220039,
+        1320039
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 40,
+      "_chapter": 4,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u751c\u70b9\u653e\u5f00\u5403",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20040,
+      "_levelabid": [
+        1120040,
+        1220040,
+        1320040
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4252,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 41,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20041,
+      "_levelabid": [
+        1120041,
+        1220041,
+        1320041
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 42,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20042,
+      "_levelabid": [
+        1120042,
+        1220042,
+        1320042
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 43,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20043,
+      "_levelabid": [
+        1120043,
+        1220043,
+        1320043
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 44,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20044,
+      "_levelabid": [
+        1120044,
+        1220044,
+        1320044
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 45,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20045,
+      "_levelabid": [
+        1120045,
+        1220045,
+        1320045
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 46,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20046,
+      "_levelabid": [
+        1120046,
+        1220046,
+        1320046
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 47,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20047,
+      "_levelabid": [
+        1120047,
+        1220047,
+        1320047
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 48,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20048,
+      "_levelabid": [
+        1120048,
+        1220048,
+        1320048
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 49,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20049,
+      "_levelabid": [
+        1120049,
+        1220049,
+        1320049
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 50,
+      "_chapter": 5,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u5403\u904d\u7f8e\u98df",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20050,
+      "_levelabid": [
+        1120050,
+        1220050,
+        1320050
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 51,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20051,
+      "_levelabid": [
+        1120051,
+        1220051,
+        1320051
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 52,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20052,
+      "_levelabid": [
+        1120052,
+        1220052,
+        1320052
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 53,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20053,
+      "_levelabid": [
+        1120053,
+        1220053,
+        1320053
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 54,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20054,
+      "_levelabid": [
+        1120054,
+        1220054,
+        1320054
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 55,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20055,
+      "_levelabid": [
+        1120055,
+        1220055,
+        1320055
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 56,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20056,
+      "_levelabid": [
+        1120056,
+        1220056,
+        1320056
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 57,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20057,
+      "_levelabid": [
+        1120057,
+        1220057,
+        1320057
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 58,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20058,
+      "_levelabid": [
+        1120058,
+        1220058,
+        1320058
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 59,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20059,
+      "_levelabid": [
+        1120059,
+        1220059,
+        1320059
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 60,
+      "_chapter": 6,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u51fa\u6e38\u4e70\u4e70\u4e70",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20060,
+      "_levelabid": [
+        1120060,
+        1220060,
+        1320060
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4253,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 61,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20061,
+      "_levelabid": [
+        1120061,
+        1220061,
+        1320061
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 62,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20062,
+      "_levelabid": [
+        1120062,
+        1220062,
+        1320062
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 63,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20063,
+      "_levelabid": [
+        1120063,
+        1220063,
+        1320063
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 64,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20064,
+      "_levelabid": [
+        1120064,
+        1220064,
+        1320064
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 65,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20065,
+      "_levelabid": [
+        1120065,
+        1220065,
+        1320065
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 66,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20066,
+      "_levelabid": [
+        1120066,
+        1220066,
+        1320066
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 67,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20067,
+      "_levelabid": [
+        1120067,
+        1220067,
+        1320067
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 68,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20068,
+      "_levelabid": [
+        1120068,
+        1220068,
+        1320068
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 69,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20069,
+      "_levelabid": [
+        1120069,
+        1220069,
+        1320069
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 70,
+      "_chapter": 7,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u65c5\u6e38\u7eaa\u5ff5\u54c1",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20070,
+      "_levelabid": [
+        1120070,
+        1220070,
+        1320070
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 71,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 1,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20071,
+      "_levelabid": [
+        1120071,
+        1220071,
+        1320071
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 72,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 2,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20072,
+      "_levelabid": [
+        1120072,
+        1220072,
+        1320072
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 73,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 3,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20073,
+      "_levelabid": [
+        1120073,
+        1220073,
+        1320073
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 74,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 4,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20074,
+      "_levelabid": [
+        1120074,
+        1220074,
+        1320074
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 75,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 5,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20075,
+      "_levelabid": [
+        1120075,
+        1220075,
+        1320075
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 76,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 6,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20076,
+      "_levelabid": [
+        1120076,
+        1220076,
+        1320076
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 77,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 7,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20077,
+      "_levelabid": [
+        1120077,
+        1220077,
+        1320077
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 78,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 8,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20078,
+      "_levelabid": [
+        1120078,
+        1220078,
+        1320078
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 79,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 9,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20079,
+      "_levelabid": [
+        1120079,
+        1220079,
+        1320079
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 0,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    },
+    {
+      "_seasonid": 310002,
+      "_levelindex": 80,
+      "_chapter": 8,
+      "_gametype": 1,
+      "_chaptersubnum": 10,
+      "_chaptername": "\u5e02\u573a\u6dd8\u4e00\u6dd8",
+      "_hardtype": 0,
+      "_leveltype": "Endless",
+      "_levelid": 20080,
+      "_levelabid": [
+        1120080,
+        1220080,
+        1320080
+      ],
+      "_abpassrate": 0,
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_resumetime": 60,
+      "_gooseid": 4254,
+      "_leveltip": "",
+      "_maxlevel": 80,
+      "_leveltipab": []
+    }
+  ]
+}

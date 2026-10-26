@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "grape",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\grape\\grape.fbx",
+  "sourceTriangles": 1740,
+  "triangles": 1740,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.5331078171730042,
+    0.5181224346160889,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.5331078171730042,
+    0.5181221961975098,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

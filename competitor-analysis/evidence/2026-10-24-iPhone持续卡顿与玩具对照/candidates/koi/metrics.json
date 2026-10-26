@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "koi",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\koi\\koi.fbx",
+  "sourceTriangles": 2024,
+  "triangles": 2024,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.4767042100429535,
+    0.385049432516098
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.4767041504383087,
+    0.38504934310913086
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

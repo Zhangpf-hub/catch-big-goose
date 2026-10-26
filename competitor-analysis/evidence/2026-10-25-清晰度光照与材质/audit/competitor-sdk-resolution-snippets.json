@@ -1,0 +1,95 @@
+{
+  "source": "work\\competitor-package-analysis\\__WITHOUT_MULTI_PLUGINCODE__\\15-game.js",
+  "scope": "Extracted version 401 startup JS; not 402 account runtime values",
+  "snippets": [
+    {
+      "term": "devicePixelRatio",
+      "offset": 8959,
+      "snippet": "!S&&console.error(\"此AppID未开通高性能模式\\n请前往mp后台-能力地图-开发提效包-高性能模式开通\\n可大幅提升游戏运行性能\"),p)try{window.devicePixelRatio<2&&(window.devicePixelRatio=2)}catch(n){console.warn(n)}var N=function(){return new Promise(function(n){if(!m&&(j||H||L||T()||B)){var e=!0,t=\"当前微信版本过低\\n请更新微信后进"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 8987,
+      "snippet": "高性能模式\\n请前往mp后台-能力地图-开发提效包-高性能模式开通\\n可大幅提升游戏运行性能\"),p)try{window.devicePixelRatio<2&&(window.devicePixelRatio=2)}catch(n){console.warn(n)}var N=function(){return new Promise(function(n){if(!m&&(j||H||L||T()||B)){var e=!0,t=\"当前微信版本过低\\n请更新微信后进行游戏\";return l&&(!b||T()&&l)&"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 96549,
+      "snippet": "._ScaleRate=1,N&&\"20193\">N.split(\".\").slice(0,2).join(\"\")){var z=window.innerWidth*window.devicePixelRatio,C=window.innerHeight*window.devicePixelRatio;canvas.width=z,canvas.height=C,window._ScaleRate=window.devicePixelRatio}Object.defineProperty(canvas,\"clientHeigh"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 96594,
+      "snippet": ",2).join(\"\")){var z=window.innerWidth*window.devicePixelRatio,C=window.innerHeight*window.devicePixelRatio;canvas.width=z,canvas.height=C,window._ScaleRate=window.devicePixelRatio}Object.defineProperty(canvas,\"clientHeight\",{get:function(){return window.innerHeight*"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 96667,
+      "snippet": "nerHeight*window.devicePixelRatio;canvas.width=z,canvas.height=C,window._ScaleRate=window.devicePixelRatio}Object.defineProperty(canvas,\"clientHeight\",{get:function(){return window.innerHeight*window._ScaleRate},configurable:!0}),Object.defineProperty(canvas,\"client"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 101872,
+      "snippet": "canvas;p.width=c,p.height=l,r===n.ScreenCanvas&&p.style&&(p.style.left=\"\".concat(a/window.devicePixelRatio,\"px\"),p.style.top=\"\".concat(s/window.devicePixelRatio,\"px\"),p.style.width=\"\".concat(c/window.devicePixelRatio,\"px\"),p.style.height=\"\".concat(l/window.devicePix"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 101926,
+      "snippet": "e&&(p.style.left=\"\".concat(a/window.devicePixelRatio,\"px\"),p.style.top=\"\".concat(s/window.devicePixelRatio,\"px\"),p.style.width=\"\".concat(c/window.devicePixelRatio,\"px\"),p.style.height=\"\".concat(l/window.devicePixelRatio,\"px\")),u.postMessage({type:\"WXRender\",x:a,y:s,"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 101982,
+      "snippet": "\"),p.style.top=\"\".concat(s/window.devicePixelRatio,\"px\"),p.style.width=\"\".concat(c/window.devicePixelRatio,\"px\"),p.style.height=\"\".concat(l/window.devicePixelRatio,\"px\")),u.postMessage({type:\"WXRender\",x:a,y:s,width:c,height:l,devicePixelRatio:window.devicePixelRati"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 102039,
+      "snippet": "p.style.width=\"\".concat(c/window.devicePixelRatio,\"px\"),p.style.height=\"\".concat(l/window.devicePixelRatio,\"px\")),u.postMessage({type:\"WXRender\",x:a,y:s,width:c,height:l,devicePixelRatio:window.devicePixelRatio}),r===n.OffScreenCanvas&&(i=e,h(),function e(){if(i){va"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 102119,
+      "snippet": "(l/window.devicePixelRatio,\"px\")),u.postMessage({type:\"WXRender\",x:a,y:s,width:c,height:l,devicePixelRatio:window.devicePixelRatio}),r===n.OffScreenCanvas&&(i=e,h(),function e(){if(i){var t=GameGlobal.manager.gameInstance.Module,a=t.GL,n=a.currentContext.GLctx,r=\"Li"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 102143,
+      "snippet": "io,\"px\")),u.postMessage({type:\"WXRender\",x:a,y:s,width:c,height:l,devicePixelRatio:window.devicePixelRatio}),r===n.OffScreenCanvas&&(i=e,h(),function e(){if(i){var t=GameGlobal.manager.gameInstance.Module,a=t.GL,n=a.currentContext.GLctx,r=\"Linear\"===GameGlobal.unity"
+    },
+    {
+      "term": "devicePixelRatio",
+      "offset": 148432,
+      "snippet": "x.createUserInfoButton({type:\"text\",text:\"\",withCredentials:u,lang:a,style:{left:e/window.devicePixelRatio,top:n/window.devicePixelRatio,width:o/window.devicePixelRatio,height:i/window.devicePixelRatio,backgroundColor:\"rgba(0, 0, 0, 0)\",color:\"rgba(0, 0, 0, 0)\",text"
+    },
+    {
+      "term": "antialias",
+      "offset": 301742,
+      "snippet": "}},createContext:function(n,e,i,r){if(e&&t.ctx&&n==t.canvas)return t.ctx;if(e){var o,a,l={antialias:!1,alpha:!1,majorVersion:\"undefined\"!=typeof WebGL2RenderingContext?2:1};if(r)for(var u in r)l[u]=r[u];void 0!==tk&&(a=tk.createContext(n,l),WXWASMSDK.canvasCo"
+    },
+    {
+      "term": "antialias",
+      "offset": 468603,
+      "snippet": "eturn function(n,e){var i=e>>2,r=g[i+6],o={alpha:!!g[i+0],depth:!!g[i+1],stencil:!!g[i+2],antialias:!!g[i+3],premultipliedAlpha:!!g[i+4],preserveDrawingBuffer:!!g[i+5],powerPreference:tW[r],failIfMajorPerformanceCaveat:!!g[i+7],majorVersion:g[i+8],minorVersio"
+    }
+  ],
+  "sourceSha256": "390f013e2d0585092cf9685d791859c44c79edc83467a473f54dbd114e898244",
+  "allDirectAssignments": [
+    {
+      "offset": 8987,
+      "snippet": "能\"),p)try{window.devicePixelRatio<2&&(window.devicePixelRatio=2)}catch(n){console.warn(n)}var N=function(){return new Promise(function(n)"
+    },
+    {
+      "offset": 194280,
+      "snippet": "hend=t.ontouchmove=t.ontouchstart=t.screen=t.devicePixelRatio=t.innerHeight=t.innerWidth=void 0;var o,r=(o=n(3))&&o.__esModule?o:{default"
+    },
+    {
+      "offset": 194522,
+      "snippet": "elRatio,l=t.innerWidth=a,s=t.innerHeight=u;t.devicePixelRatio=c,t.screen={availWidth:l,availHeight:s},t.ontouchstart=null,t.ontouchmove=n"
+    },
+    {
+      "offset": 435426,
+      "snippet": "tOnMessageCallback(n)},Dc:function(n){window.devicePixelRatio=n},Cc:function(n){window.WXWASMSDK.WX_SetPreferredFramesPerSecond(n)},Sj:fu"
+    }
+  ]
+}

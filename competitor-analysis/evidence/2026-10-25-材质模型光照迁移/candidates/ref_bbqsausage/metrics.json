@@ -1,0 +1,12 @@
+{
+  "id": "ref_bbqsausage",
+  "triangles": 490,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.298662930727005,
+    1.0,
+    0.27011817693710327
+  ],
+  "glbRoundtrip": true
+}

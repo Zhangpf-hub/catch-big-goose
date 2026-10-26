@@ -1,0 +1,45 @@
+  (func $j94045 (type $t3) (param $p0 i32) (param $p1 i32)
+    (local $l2 i64)
+    i32.const 5127143
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3958464 ;; MainLevelManager_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5127143
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load
+    i64.extend_i32_u
+    local.get $p0
+    i32.load offset=4
+    i64.extend_i32_u
+    i64.const 32
+    i64.shl
+    i64.or
+    local.set $l2
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    i32.const 735
+    call_indirect $primary.table (type $t0)
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.set $p0
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=8
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=12
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop)

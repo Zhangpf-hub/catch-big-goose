@@ -1,0 +1,27 @@
+{
+  "id": "handheld",
+  "triangles": 2464,
+  "vertices": 1272,
+  "blenderBounds": [
+    1.0,
+    0.5150485634803772,
+    0.21165049076080322
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "bytes": 57736,
+  "materials": 1,
+  "textures": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "gltfAxes": "Y-up, front +Z",
+  "blenderVersion": "4.5.14 LTS",
+  "roundtripPassed": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tomato",
+  "theme": "farm",
+  "triangles": 1220,
+  "vertices": 624,
+  "blenderBounds": [
+    0.9350646734237671,
+    0.9090908169746399,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 29256,
+  "sha256": "b6031e9ef3081ae3f39210012091666da21e3a68174a78352f296a6dff139f61",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

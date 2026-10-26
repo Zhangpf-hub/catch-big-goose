@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "numericCases": 606,
+  "weightDraws": 2048,
+  "directHelperOutOfRangeStates": 218,
+  "caveat": "RollIndex is invoked directly. This probe does not model Roll/Check/RemoveItem call lifecycle and does not prove a defect in the shipped game.",
+  "moduleSha256": "bc3fc1b5caddfdde994143cdb7caf097153408bbf088fe40f9f7321c1b724a0e",
+  "scope": "Five original WASM bodies; Unity RNG, IL2CPP field descriptors and list access are host test adapters. Not full-game execution."
+}

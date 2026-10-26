@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import createWabt from '../../work/competitor-tools/wabt/index.js';
+const [source, target] = process.argv.slice(2);
+if (!source || !target) throw new Error('Usage: wasm_to_wat.mjs INPUT.wasm OUTPUT.wat');
+const wabt = await createWabt();
+const module = wabt.readWasm(fs.readFileSync(source), { readDebugNames: true });
+module.generateNames();
+module.applyNames();
+fs.writeFileSync(target, module.toText({ foldExprs: false, inlineExport: false }));
+module.destroy();
+console.log('WAT written:', target);

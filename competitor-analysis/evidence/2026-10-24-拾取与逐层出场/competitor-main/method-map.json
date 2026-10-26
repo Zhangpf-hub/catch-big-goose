@@ -1,0 +1,614 @@
+[
+  {
+    "Address": 17950,
+    "Name": "LevelManager.<>c$$<LoopCreateObj>b__187_0",
+    "Signature": "int32_t LevelManager___c___LoopCreateObj_b__187_0 (LevelManager___c_o* __this, CreateInfo_o* a, CreateInfo_o* b, const MethodInfo* method);",
+    "TypeSignature": "iiiii",
+    "wasmSymbol": "$j13265",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17951,
+    "Name": "LevelManager.<>c$$<LoopCreateObj>b__187_1",
+    "Signature": "int32_t LevelManager___c___LoopCreateObj_b__187_1 (LevelManager___c_o* __this, CreateInfo_o* a, CreateInfo_o* b, const MethodInfo* method);",
+    "TypeSignature": "iiiii",
+    "wasmSymbol": "$j13265",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17952,
+    "Name": "LevelManager.<>c$$<LoopCreateObj>b__187_2",
+    "Signature": "System_String_o* LevelManager___c___LoopCreateObj_b__187_2 (LevelManager___c_o* __this, CreateInfo_o* data, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j3777",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17975,
+    "Name": "LevelManager.<LoopCreateObj>d__187$$MoveNext",
+    "Signature": "bool LevelManager__LoopCreateObj_d__187__MoveNext (LevelManager__LoopCreateObj_d__187_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74024",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17987,
+    "Name": "LevelManager.<LoopOptimization>d__196$$MoveNext",
+    "Signature": "bool LevelManager__LoopOptimization_d__196__MoveNext (LevelManager__LoopOptimization_d__196_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74002",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17827,
+    "Name": "LevelManager$$GetTimeABIndex",
+    "Signature": "int32_t LevelManager__GetTimeABIndex (const MethodInfo* method);",
+    "TypeSignature": "ii",
+    "wasmSymbol": "$j43532",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17828,
+    "Name": "LevelManager$$CreateLevel",
+    "Signature": "void LevelManager__CreateLevel (LevelManager_o* __this, int32_t level, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j43549",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17831,
+    "Name": "LevelManager$$GetMainLevelABOffsetTypeCount",
+    "Signature": "int32_t LevelManager__GetMainLevelABOffsetTypeCount (LevelManager_o* __this, int32_t layer, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j43538",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17832,
+    "Name": "LevelManager$$GetMainLevelABOffsetGroupCount",
+    "Signature": "int32_t LevelManager__GetMainLevelABOffsetGroupCount (LevelManager_o* __this, int32_t layer, const MethodInfo* method);",
+    "TypeSignature": "iiii",
+    "wasmSymbol": "$j22248",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17835,
+    "Name": "LevelManager$$GetObjSize",
+    "Signature": "float LevelManager__GetObjSize (LevelManager_o* __this, System_String_o* objectName, const MethodInfo* method);",
+    "TypeSignature": "fiii",
+    "wasmSymbol": "$j43536",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17836,
+    "Name": "LevelManager$$CreateUnitObj",
+    "Signature": "ObjectUnit_o* LevelManager__CreateUnitObj (LevelManager_o* __this, CreateInfo_o* info, int32_t playerIndex, const MethodInfo* method);",
+    "TypeSignature": "iiiii",
+    "wasmSymbol": "$j7378",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17839,
+    "Name": "LevelManager$$CheckRigid",
+    "Signature": "void LevelManager__CheckRigid (LevelManager_o* __this, ObjectUnit_o* unit, int32_t index, float checkMul, const MethodInfo* method);",
+    "TypeSignature": "viiifi",
+    "wasmSymbol": "$j6450",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17840,
+    "Name": "LevelManager$$CheckVisible",
+    "Signature": "void LevelManager__CheckVisible (LevelManager_o* __this, ObjectUnit_o* unit, int32_t index, const MethodInfo* method);",
+    "TypeSignature": "viiii",
+    "wasmSymbol": "$j10885",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17841,
+    "Name": "LevelManager$$GetDynamicVisibleHeight",
+    "Signature": "float LevelManager__GetDynamicVisibleHeight (LevelManager_o* __this, int32_t index, float multi, const MethodInfo* method);",
+    "TypeSignature": "fiifi",
+    "wasmSymbol": "$j22249",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 17861,
+    "Name": "LevelManager$$GetTriple",
+    "Signature": "void LevelManager__GetTriple (LevelManager_o* __this, System_String_o* type, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j43531",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18105,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$.ctor",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ctor (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j940",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18106,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__0",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__0 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j72802",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18107,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__1",
+    "Signature": "float LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__1 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "fii",
+    "wasmSymbol": "$j2130",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18109,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__3",
+    "Signature": "float LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__3 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "fii",
+    "wasmSymbol": "$j2130",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18111,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__5",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__5 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j72799",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18113,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__7",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__7 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, UnityEngine_Vector3_o x, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j34702",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18115,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__9",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__9 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, UnityEngine_Vector3_o x, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j34702",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18122,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__16",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__16 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j72801",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18123,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__17",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__17 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j72800",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18124,
+    "Name": "LevelObjAnimManager.<>c$$.cctor",
+    "Signature": "void LevelObjAnimManager___c___cctor (const MethodInfo* method);",
+    "TypeSignature": "vi",
+    "wasmSymbol": "$j71976",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18125,
+    "Name": "LevelObjAnimManager.<>c$$.ctor",
+    "Signature": "void LevelObjAnimManager___c___ctor (LevelObjAnimManager___c_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j940",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18126,
+    "Name": "LevelObjAnimManager.<>c$$<ClickObj>b__15_18",
+    "Signature": "void LevelObjAnimManager___c___ClickObj_b__15_18 (LevelObjAnimManager___c_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j940",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18127,
+    "Name": "LevelObjAnimManager.<CombieAnim>d__21$$.ctor",
+    "Signature": "void LevelObjAnimManager__CombieAnim_d__21___ctor (LevelObjAnimManager__CombieAnim_d__21_o* __this, int32_t __1__state, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j981",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18128,
+    "Name": "LevelObjAnimManager.<CombieAnim>d__21$$System.IDisposable.Dispose",
+    "Signature": "void LevelObjAnimManager__CombieAnim_d__21__System_IDisposable_Dispose (LevelObjAnimManager__CombieAnim_d__21_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j940",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18129,
+    "Name": "LevelObjAnimManager.<CombieAnim>d__21$$MoveNext",
+    "Signature": "bool LevelObjAnimManager__CombieAnim_d__21__MoveNext (LevelObjAnimManager__CombieAnim_d__21_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74405",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18130,
+    "Name": "LevelObjAnimManager.<CombieAnim>d__21$$System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "Signature": "Il2CppObject* LevelObjAnimManager__CombieAnim_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current (LevelObjAnimManager__CombieAnim_d__21_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j960",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18132,
+    "Name": "LevelObjAnimManager.<CombieAnim>d__21$$System.Collections.IEnumerator.get_Current",
+    "Signature": "Il2CppObject* LevelObjAnimManager__CombieAnim_d__21__System_Collections_IEnumerator_get_Current (LevelObjAnimManager__CombieAnim_d__21_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j960",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18133,
+    "Name": "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$.ctor",
+    "Signature": "void LevelObjAnimManager__DelayToMoveOtherObj_d__22___ctor (LevelObjAnimManager__DelayToMoveOtherObj_d__22_o* __this, int32_t __1__state, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j981",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18134,
+    "Name": "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$System.IDisposable.Dispose",
+    "Signature": "void LevelObjAnimManager__DelayToMoveOtherObj_d__22__System_IDisposable_Dispose (LevelObjAnimManager__DelayToMoveOtherObj_d__22_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j940",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18135,
+    "Name": "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$MoveNext",
+    "Signature": "bool LevelObjAnimManager__DelayToMoveOtherObj_d__22__MoveNext (LevelObjAnimManager__DelayToMoveOtherObj_d__22_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j74292",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18136,
+    "Name": "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "Signature": "Il2CppObject* LevelObjAnimManager__DelayToMoveOtherObj_d__22__System_Collections_Generic_IEnumerator_System_Object__get_Current (LevelObjAnimManager__DelayToMoveOtherObj_d__22_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j960",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18138,
+    "Name": "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$System.Collections.IEnumerator.get_Current",
+    "Signature": "Il2CppObject* LevelObjAnimManager__DelayToMoveOtherObj_d__22__System_Collections_IEnumerator_get_Current (LevelObjAnimManager__DelayToMoveOtherObj_d__22_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j960",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18092,
+    "Name": "LevelObjAnimManager$$Start",
+    "Signature": "void LevelObjAnimManager__Start (LevelObjAnimManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94999",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18093,
+    "Name": "LevelObjAnimManager$$InitAnim",
+    "Signature": "void LevelObjAnimManager__InitAnim (LevelObjAnimManager_o* __this, System_Collections_Generic_List_Transform__o* targetList, System_Collections_Generic_List_Transform__o* p2TargetList, System_Collections_Generic_List_ObjectUnit__o* contentUnitList, System_Collections_Generic_List_ObjectUnit__o* p2UnitList, const MethodInfo* method);",
+    "TypeSignature": "viiiiii",
+    "wasmSymbol": "$j43495",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18094,
+    "Name": "LevelObjAnimManager$$GetDistance",
+    "Signature": "float LevelObjAnimManager__GetDistance (LevelObjAnimManager_o* __this, UnityEngine_Vector3_o worldPos1, UnityEngine_Vector3_o worldPos2, const MethodInfo* method);",
+    "TypeSignature": "fiiii",
+    "wasmSymbol": "$j43496",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18095,
+    "Name": "LevelObjAnimManager$$ClickObj",
+    "Signature": "float LevelObjAnimManager__ClickObj (LevelObjAnimManager_o* __this, ObjectUnit_o* obj, int32_t playerIndex, bool isStoreObj, const MethodInfo* method);",
+    "TypeSignature": "fiiiii",
+    "wasmSymbol": "$j43500",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18096,
+    "Name": "LevelObjAnimManager$$SortContentObj",
+    "Signature": "void LevelObjAnimManager__SortContentObj (LevelObjAnimManager_o* __this, int32_t playerIndex, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j10875",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18097,
+    "Name": "LevelObjAnimManager$$ThrowObj",
+    "Signature": "void LevelObjAnimManager__ThrowObj (LevelObjAnimManager_o* __this, System_Collections_Generic_List_ObjectUnit__o* objList, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j1058",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18098,
+    "Name": "LevelObjAnimManager$$CombieObj",
+    "Signature": "void LevelObjAnimManager__CombieObj (LevelObjAnimManager_o* __this, System_Collections_Generic_List_ObjectUnit__o* objList, float pickTime, int32_t playerIndex, const MethodInfo* method);",
+    "TypeSignature": "viifii",
+    "wasmSymbol": "$j43498",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18100,
+    "Name": "LevelObjAnimManager$$CombieAnim",
+    "Signature": "System_Collections_IEnumerator_o* LevelObjAnimManager__CombieAnim (LevelObjAnimManager_o* __this, System_Collections_Generic_List_ObjectUnit__o* objList, float pickTime, const MethodInfo* method);",
+    "TypeSignature": "iiifi",
+    "wasmSymbol": "$j43499",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18101,
+    "Name": "LevelObjAnimManager$$DelayToMoveOtherObj",
+    "Signature": "System_Collections_IEnumerator_o* LevelObjAnimManager__DelayToMoveOtherObj (LevelObjAnimManager_o* __this, float delayTime, int32_t playerIndex, const MethodInfo* method);",
+    "TypeSignature": "iifii",
+    "wasmSymbol": "$j43497",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18102,
+    "Name": "LevelObjAnimManager$$RemoveDelayCoro",
+    "Signature": "void LevelObjAnimManager__RemoveDelayCoro (LevelObjAnimManager_o* __this, int32_t playerIndex, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j14614",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18103,
+    "Name": "LevelObjAnimManager$$AddDelayCoro",
+    "Signature": "void LevelObjAnimManager__AddDelayCoro (LevelObjAnimManager_o* __this, int32_t playerIndex, UnityEngine_Coroutine_o* coro, const MethodInfo* method);",
+    "TypeSignature": "viiii",
+    "wasmSymbol": "$j43501",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18104,
+    "Name": "LevelObjAnimManager$$.ctor",
+    "Signature": "void LevelObjAnimManager___ctor (LevelObjAnimManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j94998",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18189,
+    "Name": "ObjAnimConfig$$.ctor",
+    "Signature": "void ObjAnimConfig___ctor (ObjAnimConfig_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j91240",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18201,
+    "Name": "ObjectUnit$$FinishCreate",
+    "Signature": "void ObjectUnit__FinishCreate (ObjectUnit_o* __this, bool forceSize, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j6377",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18205,
+    "Name": "ObjectUnit$$DelayToGrowScale",
+    "Signature": "void ObjectUnit__DelayToGrowScale (ObjectUnit_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j21512",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18208,
+    "Name": "ObjectUnit$$BeClick",
+    "Signature": "void ObjectUnit__BeClick (ObjectUnit_o* __this, bool changeScale, float animTime, const MethodInfo* method);",
+    "TypeSignature": "viifi",
+    "wasmSymbol": "$j6378",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18210,
+    "Name": "ObjectUnit$$BeCatchAnim",
+    "Signature": "void ObjectUnit__BeCatchAnim (ObjectUnit_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j91095",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21154,
+    "Name": "ShowCreateAnimMod.<ShowAnim>d__9$$.ctor",
+    "Signature": "void ShowCreateAnimMod__ShowAnim_d__9___ctor (ShowCreateAnimMod__ShowAnim_d__9_o* __this, int32_t __1__state, const MethodInfo* method);",
+    "TypeSignature": "viii",
+    "wasmSymbol": "$j981",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21155,
+    "Name": "ShowCreateAnimMod.<ShowAnim>d__9$$System.IDisposable.Dispose",
+    "Signature": "void ShowCreateAnimMod__ShowAnim_d__9__System_IDisposable_Dispose (ShowCreateAnimMod__ShowAnim_d__9_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j940",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21156,
+    "Name": "ShowCreateAnimMod.<ShowAnim>d__9$$MoveNext",
+    "Signature": "bool ShowCreateAnimMod__ShowAnim_d__9__MoveNext (ShowCreateAnimMod__ShowAnim_d__9_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j73745",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21157,
+    "Name": "ShowCreateAnimMod.<ShowAnim>d__9$$System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+    "Signature": "Il2CppObject* ShowCreateAnimMod__ShowAnim_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current (ShowCreateAnimMod__ShowAnim_d__9_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j960",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21159,
+    "Name": "ShowCreateAnimMod.<ShowAnim>d__9$$System.Collections.IEnumerator.get_Current",
+    "Signature": "Il2CppObject* ShowCreateAnimMod__ShowAnim_d__9__System_Collections_IEnumerator_get_Current (ShowCreateAnimMod__ShowAnim_d__9_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j960",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21151,
+    "Name": "ShowCreateAnimMod$$OnEnable",
+    "Signature": "void ShowCreateAnimMod__OnEnable (ShowCreateAnimMod_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80164",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21152,
+    "Name": "ShowCreateAnimMod$$ShowAnim",
+    "Signature": "System_Collections_IEnumerator_o* ShowCreateAnimMod__ShowAnim (ShowCreateAnimMod_o* __this, const MethodInfo* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j37976",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21153,
+    "Name": "ShowCreateAnimMod$$.ctor",
+    "Signature": "void ShowCreateAnimMod___ctor (ShowCreateAnimMod_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j80163",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 26412,
+    "Name": "ValueManager$$GetWeightRandom",
+    "Signature": "float ValueManager__GetWeightRandom (float min, float max, float minWeight, float maxWeight, const MethodInfo* method);",
+    "TypeSignature": "fffffi",
+    "wasmSymbol": "$j18335",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 26413,
+    "Name": "ValueManager$$GetWeightMultiPart",
+    "Signature": "float ValueManager__GetWeightMultiPart (System_Single_array* min, System_Single_array* max, UnityEngine_Vector3_array* weightList, const MethodInfo* method);",
+    "TypeSignature": "fiiii",
+    "wasmSymbol": "$j32690",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101444,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$RollIndex",
+    "Signature": "int32_t Kunpo_KFakeRandom___Il2CppFullySharedGenericType___RollIndex (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C44* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j95576",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101440,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$RealRandomRollIndex",
+    "Signature": "int32_t Kunpo_KFakeRandom___Il2CppFullySharedGenericType___RealRandomRollIndex (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C40* method);",
+    "TypeSignature": "iii",
+    "wasmSymbol": "$j95578",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101434,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$AllocPro",
+    "Signature": "void Kunpo_KFakeRandom___Il2CppFullySharedGenericType___AllocPro (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C3A* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95582",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 101435,
+    "Name": "Kunpo.KFakeRandom<__Il2CppFullySharedGenericType>$$CalProToAlloc",
+    "Signature": "void Kunpo_KFakeRandom___Il2CppFullySharedGenericType___CalProToAlloc (Kunpo_KFakeRandom_T__o* __this, const MethodInfo_18C3B* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j95581",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  }
+]

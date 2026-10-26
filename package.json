@@ -1,0 +1,32 @@
+{
+  "name": "catch-big-goose",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync:videos": "node tools/sync-promo-videos.mjs",
+    "dev": "powershell.exe -NoLogo -NoProfile -File tools/unity/open-project.ps1",
+    "check": "powershell.exe -NoLogo -NoProfile -File tools/unity/open-project.ps1 -Tests",
+    "unity:network:fix": "powershell.exe -NoLogo -NoProfile -File tools/unity/fix-player-network.ps1",
+    "qa": "powershell.exe -NoLogo -NoProfile -File tools/unity/run-story-acceptance.ps1",
+    "wechat:build": "powershell.exe -NoLogo -NoProfile -File tools/unity/build-wechat.ps1",
+    "wechat:open": "powershell.exe -NoLogo -NoProfile -File tools/unity/open-wechat.ps1",
+    "wechat:check": "node tools/unity/check-wechat-media.mjs && node tools/unity/check-wechat-native-video.mjs",
+    "build": "powershell.exe -NoLogo -NoProfile -File tools/unity/open-project.ps1 -Build",
+    "preview": "cmd.exe /c 开始游戏.cmd",
+    "cocos:dev": "node tools/sync-promo-videos.mjs && python tools/serve.py",
+    "cocos:build": "node tools/build-web.mjs",
+    "cocos:check": "node tools/check.mjs",
+    "check:web": "tsc --noEmit -p reference-projects/catch-big-goose-web/tsconfig.json",
+    "structure:check": "python tools/workspace/verify-layout.py"
+  },
+  "dependencies": {
+    "cannon-es": "0.20.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.183.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0"
+  }
+}

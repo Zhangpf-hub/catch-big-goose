@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "orange",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\orange\\orange.fbx",
+  "sourceTriangles": 1300,
+  "triangles": 1300,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9934398531913757,
+    0.9737626314163208,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.9934398531913757,
+    0.9737625122070312,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

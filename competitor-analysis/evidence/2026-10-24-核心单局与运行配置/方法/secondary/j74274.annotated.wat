@@ -1,0 +1,53 @@
+  (func $j74274 (type $t2) (param $p0 i32) (param $p1 i32) (result i32)
+    i32.const 5127068
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3965456 ;; UnityEngine.WaitForSecondsRealtime_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5127068
+      i32.const 1
+      i32.store8
+    end
+    block $B1
+      block $B2
+        block $B3
+          local.get $p0
+          i32.load offset=8
+          br_table $B3 $B2 $B1
+        end
+        local.get $p0
+        i32.const -1
+        i32.store offset=8
+        i32.const 3965456 ;; UnityEngine.WaitForSecondsRealtime_TypeInfo
+        i32.load
+        i32.const 137618
+        call_indirect $primary.table (type $t1)
+        local.set $p1
+        local.get $p1
+        i32.const -1082130432
+        i32.store offset=12
+        local.get $p1
+        f32.const 0x1p-1 (;=0.5;)
+        f32.store offset=8
+        local.get $p0
+        local.get $p1
+        i32.store offset=12
+        local.get $p0
+        i32.const 1
+        i32.store offset=8
+        i32.const 1
+        return
+      end
+      local.get $p0
+      i32.const -1
+      i32.store offset=8
+      i32.const 4
+      i32.const 0
+      i32.const 0
+      i32.const 16492
+      call_indirect $primary.table (type $t4)
+    end
+    i32.const 0
+    return)

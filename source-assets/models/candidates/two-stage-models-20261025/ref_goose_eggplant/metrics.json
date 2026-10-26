@@ -1,0 +1,12 @@
+{
+  "id": "ref_goose_eggplant",
+  "triangles": 2398,
+  "parts": 3,
+  "materials": 3,
+  "dimensions": [
+    0.9999999403953552,
+    0.8827840089797974,
+    0.5217811465263367
+  ],
+  "glbRoundtrip": true
+}

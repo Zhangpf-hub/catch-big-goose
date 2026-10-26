@@ -1,0 +1,316 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb",
+  "files": [],
+  "subMetas": {
+    "60034": {
+      "importer": "gltf-material",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@60034",
+      "displayName": "",
+      "id": "60034",
+      "name": "basket-light-weave.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f73a2": {
+      "importer": "gltf-mesh",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@f73a2",
+      "displayName": "",
+      "id": "f73a2",
+      "name": "pin-mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 288
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b95f": {
+      "importer": "gltf-mesh",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@5b95f",
+      "displayName": "",
+      "id": "5b95f",
+      "name": "rolled-rim-mesh.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 576
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "32ae1": {
+      "importer": "gltf-mesh",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@32ae1",
+      "displayName": "",
+      "id": "32ae1",
+      "name": "ribbon-mesh.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 7008
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe428": {
+      "importer": "gltf-mesh",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@fe428",
+      "displayName": "",
+      "id": "fe428",
+      "name": "wall-mesh.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 476
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "42f5c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@42f5c",
+      "displayName": "",
+      "id": "42f5c",
+      "name": "basket-rim-grain.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "0e028": {
+      "importer": "gltf-embeded-image",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@0e028",
+      "displayName": "",
+      "id": "0e028",
+      "name": "basket-wood-grain.image",
+      "userData": {
+        "gltfIndex": 1,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "82b77047-d7d0-493d-a4d2-c2944e3baddb@42f5c"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "82b77047-d7d0-493d-a4d2-c2944e3baddb@0e028"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "15b78": {
+      "importer": "gltf-material",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@15b78",
+      "displayName": "",
+      "id": "15b78",
+      "name": "basket-brass-pins.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f443": {
+      "importer": "gltf-material",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@5f443",
+      "displayName": "",
+      "id": "5f443",
+      "name": "basket-polished-rim.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "63ddd": {
+      "importer": "gltf-material",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@63ddd",
+      "displayName": "",
+      "id": "63ddd",
+      "name": "basket-honey-weave.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b3bc2": {
+      "importer": "gltf-material",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@b3bc2",
+      "displayName": "",
+      "id": "b3bc2",
+      "name": "basket-chestnut-wood.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "170e6": {
+      "importer": "gltf-scene",
+      "uuid": "82b77047-d7d0-493d-a4d2-c2944e3baddb@170e6",
+      "displayName": "",
+      "id": "170e6",
+      "name": "basket_redwood.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "basket-rim-grain",
+        "uri": "82b77047-d7d0-493d-a4d2-c2944e3baddb@42f5c"
+      },
+      {
+        "name": "basket-wood-grain",
+        "uri": "82b77047-d7d0-493d-a4d2-c2944e3baddb@0e028"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@f73a2",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@5b95f",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@32ae1",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@fe428"
+      ],
+      "skeletons": [],
+      "textures": [
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@3effa",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@221a5"
+      ],
+      "materials": [
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@15b78",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@5f443",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@63ddd",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@60034",
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@b3bc2"
+      ],
+      "scenes": [
+        "82b77047-d7d0-493d-a4d2-c2944e3baddb@170e6"
+      ]
+    }
+  }
+}

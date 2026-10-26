@@ -1,0 +1,188 @@
+[
+  {
+    "symbol": "$j43493",
+    "methodAliases": [
+      "LevelObjectPool$$ClearByLevel"
+    ],
+    "directCalls": [],
+    "indirectCalls": 12,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j49957",
+    "methodAliases": [
+      "Kunpo.AssetManager$$Release"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$fimport$0",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$1",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$10",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$12",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$2",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$3",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$4",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$6",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$7",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$9",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 19,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j24624",
+    "methodAliases": [
+      "Kunpo.AssetManager$$Release"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$fimport$0",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$1",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$10",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$18",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$2",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$3",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$4",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$5",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$6",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$7",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$fimport$9",
+        "methodAliases": []
+      },
+      {
+        "symbol": "$j28607",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 30,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j49959",
+    "methodAliases": [
+      "Kunpo.AssetManager$$Release<__Il2CppFullySharedGenericType>"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j24624",
+        "methodAliases": [
+          "Kunpo.AssetManager$$Release"
+        ]
+      }
+    ],
+    "indirectCalls": 4,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j108299",
+    "methodAliases": [
+      "Kunpo.AssetManager$$LoadAssetBundle"
+    ],
+    "directCalls": [],
+    "indirectCalls": 2,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j108295",
+    "methodAliases": [
+      "Kunpo.AssetManager$$ReleaseAssetBundle"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j24624",
+        "methodAliases": [
+          "Kunpo.AssetManager$$Release"
+        ]
+      }
+    ],
+    "indirectCalls": 4,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j108293",
+    "methodAliases": [
+      "Kunpo.AssetManager$$ReleaseScene"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j49958",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 10,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j108294",
+    "methodAliases": [
+      "Kunpo.AssetManager$$ReleasePrefab"
+    ],
+    "directCalls": [
+      {
+        "symbol": "$j49958",
+        "methodAliases": []
+      }
+    ],
+    "indirectCalls": 1,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  }
+]

@@ -1,0 +1,743 @@
+{
+  "stage": "three-model-review",
+  "status": "rejected-shape-rework-required",
+  "conceptApproved": true,
+  "approvedCandidate": "b",
+  "modelReviewApproved": false,
+  "models": [
+    {
+      "id": "duck-eggtart",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangles": true,
+        "bytes": true,
+        "noAnimation": true,
+        "noSkin": true,
+        "uv": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "roundtripGeometry": true
+      },
+      "triangles": 3672,
+      "bytes": 86028,
+      "sha256": "62990f147ebb7cf5ec8738b4feae95e87e561d405b488f8403e357be9238dfdf",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-steelcup",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangles": true,
+        "bytes": true,
+        "noAnimation": true,
+        "noSkin": true,
+        "uv": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "roundtripGeometry": true
+      },
+      "triangles": 3706,
+      "bytes": 88100,
+      "sha256": "cddab8af0ec8519e4dd7716ca1535f726c1517914aa648ff3f317ae871076e51",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-numberblock",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangles": true,
+        "bytes": true,
+        "noAnimation": true,
+        "noSkin": true,
+        "uv": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "roundtripGeometry": true
+      },
+      "triangles": 3328,
+      "bytes": 77332,
+      "sha256": "94e17fba8288fe5e56fd6ae73dbf8752ad1296351bbadee1f43c40d005a812f9",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ],
+  "comparison": "Max extent 1, uniform scale, same cameras and lighting, no per-image crop/refitting",
+  "sourceReferences": [
+    {
+      "id": "duck-eggtart",
+      "kind": "reference",
+      "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_EggTart/Goose_EggTart.glb",
+      "sourceSha256": "6da007ffb96c0d5a5ae8a3dc0f5ccb1bd5f2be8270847d03a01a194de5adcf70",
+      "originalWorldDimensions": [
+        1.3312076330184937,
+        1.4408202171325684,
+        1.2397971153259277
+      ],
+      "uniformScale": 0.6940491173771411,
+      "normalizedWorldDimensions": [
+        0.9239234924316406,
+        1.0,
+        0.8604800701141357
+      ],
+      "normalizedCenter": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orthographicScale": 1.48,
+      "cameras": {
+        "front": [
+          0,
+          -3,
+          0.015
+        ],
+        "side": [
+          3,
+          0,
+          0.015
+        ],
+        "back": [
+          0,
+          3,
+          0.015
+        ],
+        "hero": [
+          2.2,
+          -3,
+          1.5
+        ],
+        "gameplay": [
+          1.4,
+          -2.3,
+          3.3
+        ]
+      },
+      "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+      "shader": "Recovered base-colour/PBR approximation",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "duck-steelcup",
+      "kind": "reference",
+      "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_SteelCup/Goose_SteelCup.glb",
+      "sourceSha256": "af9e6d4d99c4a7c16f2775fe4e8a348dc883f53b930435a8ff34d2c4f95f7882",
+      "originalWorldDimensions": [
+        1.7720379829406738,
+        1.9766364097595215,
+        1.5194019079208374
+      ],
+      "uniformScale": 0.5059099362242652,
+      "normalizedWorldDimensions": [
+        0.8964915871620178,
+        0.9999999403953552,
+        0.7686805129051208
+      ],
+      "normalizedCenter": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orthographicScale": 1.48,
+      "cameras": {
+        "front": [
+          0,
+          -3,
+          0.015
+        ],
+        "side": [
+          3,
+          0,
+          0.015
+        ],
+        "back": [
+          0,
+          3,
+          0.015
+        ],
+        "hero": [
+          2.2,
+          -3,
+          1.5
+        ],
+        "gameplay": [
+          1.4,
+          -2.3,
+          3.3
+        ]
+      },
+      "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+      "shader": "Recovered base-colour/PBR approximation",
+      "sourceUnchanged": true
+    },
+    {
+      "id": "duck-numberblock",
+      "kind": "reference",
+      "input": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTNumberBlock/Goose_GTNumberBlock.glb",
+      "sourceSha256": "4eb85834047cbe09ca106d2788cdc7a3136670ddd380c6c2de97c5f1959608fd",
+      "originalWorldDimensions": [
+        1.6034743785858154,
+        1.8411798477172852,
+        1.5075262784957886
+      ],
+      "uniformScale": 0.5431299941935661,
+      "normalizedWorldDimensions": [
+        0.8708950281143188,
+        1.0,
+        0.8187827467918396
+      ],
+      "normalizedCenter": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orthographicScale": 1.48,
+      "cameras": {
+        "front": [
+          0,
+          -3,
+          0.015
+        ],
+        "side": [
+          3,
+          0,
+          0.015
+        ],
+        "back": [
+          0,
+          3,
+          0.015
+        ],
+        "hero": [
+          2.2,
+          -3,
+          1.5
+        ],
+        "gameplay": [
+          1.4,
+          -2.3,
+          3.3
+        ]
+      },
+      "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+      "shader": "Recovered base-colour/PBR approximation",
+      "sourceUnchanged": true
+    }
+  ],
+  "excludedFromArchive": [
+    "source/*-reference-review.blend (raw competitor scene duplicates remain in workspace)"
+  ],
+  "physicsRuntimeVerified": false,
+  "unityImportVerified": false,
+  "files": [
+    {
+      "path": "design-spec.json",
+      "bytes": 3102,
+      "sha256": "749d5352cc7b132725c208b98765febb8014af2e2eebac2ec8ae9acbb1cb5c95"
+    },
+    {
+      "path": "model-review.html",
+      "bytes": 4564,
+      "sha256": "b0bc281bb42d77250e0af519047279d9b48999b9a350cb9b7ab6f06a18dc9b91"
+    },
+    {
+      "path": "models/duck-eggtart/albedo.png",
+      "bytes": 3061,
+      "sha256": "2f2981519cbfdab530b21ee010142f7e2688143e645422c492676b5d6bb13020"
+    },
+    {
+      "path": "models/duck-eggtart/convex-hull.obj",
+      "bytes": 3210,
+      "sha256": "c5286101ad91855118d080057bbfb97f238818cbf97626b29982eea8b48edb7b"
+    },
+    {
+      "path": "models/duck-eggtart/duck-eggtart.fbx",
+      "bytes": 91564,
+      "sha256": "4063a345af31dc69522032fa4015a4a71619c361ebfc063f7df1c7ac0279f169"
+    },
+    {
+      "path": "models/duck-eggtart/duck-eggtart.glb",
+      "bytes": 86028,
+      "sha256": "62990f147ebb7cf5ec8738b4feae95e87e561d405b488f8403e357be9238dfdf"
+    },
+    {
+      "path": "models/duck-eggtart/materials.json",
+      "bytes": 160,
+      "sha256": "76720c5541ff867dca1207ff0827faf999263c2a8d245eff9762d5d5db6c403e"
+    },
+    {
+      "path": "models/duck-numberblock/albedo.png",
+      "bytes": 1886,
+      "sha256": "b32b1b7546b06ef2682dc65f9e074294a8ec73afbe571429ce669782dc3f12d1"
+    },
+    {
+      "path": "models/duck-numberblock/convex-hull.obj",
+      "bytes": 3271,
+      "sha256": "1eeb8e652c0e07e1899feb9c48aa3b8766cbade751495af77741033188d7fda0"
+    },
+    {
+      "path": "models/duck-numberblock/duck-numberblock.fbx",
+      "bytes": 99196,
+      "sha256": "6d395de1a0230bbee8cd0c878d46c4b71326044e75e5727128a8c1605c90503d"
+    },
+    {
+      "path": "models/duck-numberblock/duck-numberblock.glb",
+      "bytes": 77332,
+      "sha256": "94e17fba8288fe5e56fd6ae73dbf8752ad1296351bbadee1f43c40d005a812f9"
+    },
+    {
+      "path": "models/duck-numberblock/materials.json",
+      "bytes": 164,
+      "sha256": "41e90300126d336c611ee7a948d066a23ec248c300a33721b99bf15518397450"
+    },
+    {
+      "path": "models/duck-steelcup/albedo.png",
+      "bytes": 1886,
+      "sha256": "b32b1b7546b06ef2682dc65f9e074294a8ec73afbe571429ce669782dc3f12d1"
+    },
+    {
+      "path": "models/duck-steelcup/convex-hull.obj",
+      "bytes": 3386,
+      "sha256": "b0554318fc63a94f474f0c40afbf39dee94cb41837ca3cd40422f0453ba8f424"
+    },
+    {
+      "path": "models/duck-steelcup/duck-steelcup.fbx",
+      "bytes": 92572,
+      "sha256": "8b5cb90ee4bf2a3463d3ecc8c887418b62e3d35e99ab25050be145914f7e6de0"
+    },
+    {
+      "path": "models/duck-steelcup/duck-steelcup.glb",
+      "bytes": 88100,
+      "sha256": "cddab8af0ec8519e4dd7716ca1535f726c1517914aa648ff3f317ae871076e51"
+    },
+    {
+      "path": "models/duck-steelcup/materials.json",
+      "bytes": 161,
+      "sha256": "ae24508a202a806a7c9c61eb91288aef31f3266bab5e4c4585145baf38a39673"
+    },
+    {
+      "path": "qa/comparison-verification.json",
+      "bytes": 14305,
+      "sha256": "835a086ec1f50f0994ffa57ac76215e1220893f2fdc342a1949671fb5281b338"
+    },
+    {
+      "path": "qa/delivery-checks.json",
+      "bytes": 671,
+      "sha256": "653886def9e070877083f843b2f84f110671eee613d8782927cbd4172a99b6d8"
+    },
+    {
+      "path": "qa/duck-eggtart-collision.json",
+      "bytes": 10424,
+      "sha256": "b5567a547949ae8e6ad7cfe5affec9ea1d2b0223eb9f6bf0129dcb991ab7a02d"
+    },
+    {
+      "path": "qa/duck-eggtart-duck-comparison.json",
+      "bytes": 1018,
+      "sha256": "c20a0f6d6530d31240d64e0e8b1ea22393f3dbbf8ed258413f9c303f6270330b"
+    },
+    {
+      "path": "qa/duck-eggtart-geometry.json",
+      "bytes": 277,
+      "sha256": "655f7c088efd9fcc91a08a4f8d7d17082ac0fbf4d6d2ecd1c67971b81381be4c"
+    },
+    {
+      "path": "qa/duck-eggtart-glb-validation.json",
+      "bytes": 575,
+      "sha256": "0683a431089918e68c2dafcce697d49b1a3b2357356670901cad5584f78af52c"
+    },
+    {
+      "path": "qa/duck-eggtart-metrics.json",
+      "bytes": 371,
+      "sha256": "95a8fed63f17445b730253026de674343ba6cbb0bb9eef60a55e896d8e39d120"
+    },
+    {
+      "path": "qa/duck-eggtart-reference-comparison.json",
+      "bytes": 1069,
+      "sha256": "536f09f024b91703a02c6e9942ab67389b41f2499c10635dd532f87adedd9c91"
+    },
+    {
+      "path": "qa/duck-numberblock-collision.json",
+      "bytes": 10570,
+      "sha256": "e264f5a8d298d66f5fbc87c2460c08bece37455dc3ed5737049e7c4ba473c48e"
+    },
+    {
+      "path": "qa/duck-numberblock-duck-comparison.json",
+      "bytes": 1028,
+      "sha256": "7a150c8a67ddb6c122c96160eb07717456e568d33cb54e713270aa59b84c7c45"
+    },
+    {
+      "path": "qa/duck-numberblock-geometry.json",
+      "bytes": 280,
+      "sha256": "2f18bef54deed412a8303b64396724b52888b546603ab64050ad85d7401697d8"
+    },
+    {
+      "path": "qa/duck-numberblock-glb-validation.json",
+      "bytes": 579,
+      "sha256": "e83a91386f251dd08a5d834665a924ea9980c1c75e0a42e700c09d1b10ed13f3"
+    },
+    {
+      "path": "qa/duck-numberblock-metrics.json",
+      "bytes": 390,
+      "sha256": "2f2fcf90b283c0ba6ae339b16fcfc5d0562d18ae415721cc022b07cd46b61335"
+    },
+    {
+      "path": "qa/duck-numberblock-reference-comparison.json",
+      "bytes": 1076,
+      "sha256": "1cee8a2cebe7e87632f25a5420624dc5cad2f4d7cbe7b730a9285da895eada82"
+    },
+    {
+      "path": "qa/duck-steelcup-collision.json",
+      "bytes": 10900,
+      "sha256": "c92553aa4cc234f52f537d1ed3366c00ad49822f8e06898086838cb3abeaeeab"
+    },
+    {
+      "path": "qa/duck-steelcup-duck-comparison.json",
+      "bytes": 1019,
+      "sha256": "468d7e8f6258070df985eb2a52a976ce112a8b34999a3b405d28d12bbf948fea"
+    },
+    {
+      "path": "qa/duck-steelcup-geometry.json",
+      "bytes": 297,
+      "sha256": "864e70d03ae77564422070906d5db58641e92b9966c4321605f53c9e5cbe8c07"
+    },
+    {
+      "path": "qa/duck-steelcup-glb-validation.json",
+      "bytes": 576,
+      "sha256": "38be61d8a49914266d53451b7cc1b263ff67e6aa3988215b17e07a98da6c35d2"
+    },
+    {
+      "path": "qa/duck-steelcup-metrics.json",
+      "bytes": 390,
+      "sha256": "be3a81f69ff6ca2950344b16c9dc790d9bfa478ce0634032e898cedf6af70f63"
+    },
+    {
+      "path": "qa/duck-steelcup-reference-comparison.json",
+      "bytes": 1087,
+      "sha256": "3c11b1933332bb3e682308a0bc7ed58deb6204863d5fdffc84590402cfbab66b"
+    },
+    {
+      "path": "qa/glb-validation.json",
+      "bytes": 2110,
+      "sha256": "5d41c13891307a2aa7b2fddea44a6fa59a70f5c71aac3387159812e1f4d99211"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3896,
+      "sha256": "f191ff222d9b2171ccb65d360cbb8d2675b2f68f3062aa047eff70d4554e6153"
+    },
+    {
+      "path": "renders/comparison-back.png",
+      "bytes": 470494,
+      "sha256": "f2640dbd8aff8db9b717e99c9021d9b25b1b0688d2524f233c494fe9b83b1493"
+    },
+    {
+      "path": "renders/comparison-front.png",
+      "bytes": 475642,
+      "sha256": "15ebc3b6f5851ad7a89da5a50249ec4524b7f8fb61bd101a76504ac8e17bb7fd"
+    },
+    {
+      "path": "renders/comparison-gameplay.png",
+      "bytes": 652343,
+      "sha256": "e63008054155982b6b94c0c35903f03d771410d3a8337221b302f040a8653415"
+    },
+    {
+      "path": "renders/comparison-hero.png",
+      "bytes": 676277,
+      "sha256": "3f60c86f2b1fcc05bc377585b864025282e8a1b3131d3012fd0d9e6fe72e0e6d"
+    },
+    {
+      "path": "renders/comparison-side.png",
+      "bytes": 385310,
+      "sha256": "c3c4c4dc1714da13ca4a145cd9d5adeac491221447731c04fae5349b901bc371"
+    },
+    {
+      "path": "renders/duck-eggtart/duck/back.png",
+      "bytes": 157980,
+      "sha256": "7d7062b43fe043c82c2051c74ede8d1c8c604de8aa5b622e038d30df49fee09c"
+    },
+    {
+      "path": "renders/duck-eggtart/duck/front.png",
+      "bytes": 161298,
+      "sha256": "6706881d756d2bc38f138b71a9f60f991ed9997e0bedae331a633b6e122ba986"
+    },
+    {
+      "path": "renders/duck-eggtart/duck/gameplay.png",
+      "bytes": 195937,
+      "sha256": "302e3f7638ce58c0760fad1529b5b73029dec81f0aa10c92c2e4b284bd7edbde"
+    },
+    {
+      "path": "renders/duck-eggtart/duck/hero.png",
+      "bytes": 220196,
+      "sha256": "833664df1c77fae71c8862debf83396e92fb3aa0408f873f00f54f11a6b06830"
+    },
+    {
+      "path": "renders/duck-eggtart/duck/icon-192.png",
+      "bytes": 27675,
+      "sha256": "de5ecdea4612cd0271ade2e616f8d5eef6d442b934c54a58ef9b259ffd44a951"
+    },
+    {
+      "path": "renders/duck-eggtart/duck/icon-64.png",
+      "bytes": 4784,
+      "sha256": "af2e7e13c09571510999a2c534c40f9ca7d07b08643c00c55c18452419b6160d"
+    },
+    {
+      "path": "renders/duck-eggtart/duck/side.png",
+      "bytes": 120368,
+      "sha256": "a687edbd2c7d6a7552a12e42b6e681e5ee01930fab8bfeda364b5926dc26ec7c"
+    },
+    {
+      "path": "renders/duck-eggtart/reference/back.png",
+      "bytes": 157662,
+      "sha256": "02d32f743620c7f81880bd527b6528da5c0ff1a463333bae6dab526c4922152f"
+    },
+    {
+      "path": "renders/duck-eggtart/reference/front.png",
+      "bytes": 172405,
+      "sha256": "fa673fe214d6418e7cb6ffecfd339dab7a62f119d703955f40b699874f2fbe06"
+    },
+    {
+      "path": "renders/duck-eggtart/reference/gameplay.png",
+      "bytes": 251020,
+      "sha256": "49f1628ea2032a2dd87cbf6f63f4e05ed1e3a9d78cdbce4b8ed355ccd8f33f69"
+    },
+    {
+      "path": "renders/duck-eggtart/reference/hero.png",
+      "bytes": 256573,
+      "sha256": "ea69cd6dd0237763601d19f0c0fdc0c824b155b6979d8f94c06b2b107cd44da7"
+    },
+    {
+      "path": "renders/duck-eggtart/reference/icon-192.png",
+      "bytes": 32293,
+      "sha256": "47553b9edf5affcb904c43dd1942bd005d3c721267e20511279a1ff51d80f78e"
+    },
+    {
+      "path": "renders/duck-eggtart/reference/icon-64.png",
+      "bytes": 5267,
+      "sha256": "f51cbef0ff9dc3019fd055aa3148ac493c446eb5b193bed6400fb3398747a93a"
+    },
+    {
+      "path": "renders/duck-eggtart/reference/side.png",
+      "bytes": 149878,
+      "sha256": "52e4cc5ba5ab02a2866216b87364a6f68a7ba41f60f9424f7f2be0dd76e59b0f"
+    },
+    {
+      "path": "renders/duck-numberblock/duck/back.png",
+      "bytes": 137122,
+      "sha256": "d5cf155315e556b321a0f9d93b197fa1618797a7f9e04e7eecc3e417899888c7"
+    },
+    {
+      "path": "renders/duck-numberblock/duck/front.png",
+      "bytes": 144905,
+      "sha256": "1ce9440c0d3f3279635512f76b34bf57a797ca93f9a2279b29a5c476970eccda"
+    },
+    {
+      "path": "renders/duck-numberblock/duck/gameplay.png",
+      "bytes": 203167,
+      "sha256": "c8089bfb6d54326d4939294d38468667333eb404d2e3bee982916160ca4ba461"
+    },
+    {
+      "path": "renders/duck-numberblock/duck/hero.png",
+      "bytes": 219614,
+      "sha256": "31523d848a402b32759215baf2852811da83711a7a721411ddd92cdcaf61c283"
+    },
+    {
+      "path": "renders/duck-numberblock/duck/icon-192.png",
+      "bytes": 26946,
+      "sha256": "994eb7146f5047df0e6b77d025d42087c737300581bd984673d3c66abc72ab10"
+    },
+    {
+      "path": "renders/duck-numberblock/duck/icon-64.png",
+      "bytes": 4678,
+      "sha256": "8252d78b404fc39d927b4656cf06bc13470623106e1fcc349ee01c7ca757e772"
+    },
+    {
+      "path": "renders/duck-numberblock/duck/side.png",
+      "bytes": 123871,
+      "sha256": "5332a56349b7d15e55ba3859f6f5024db1a06c97780af4688798e88ce15b0b74"
+    },
+    {
+      "path": "renders/duck-numberblock/reference/back.png",
+      "bytes": 144424,
+      "sha256": "e88627affd11e83935f40515c868210130890a8dbc21236b614aa4b4a2b9b802"
+    },
+    {
+      "path": "renders/duck-numberblock/reference/front.png",
+      "bytes": 139628,
+      "sha256": "40eb0d89dfa3106142282065679aad2c725f1d4091dbd3e81e7ed4132ff3fc1d"
+    },
+    {
+      "path": "renders/duck-numberblock/reference/gameplay.png",
+      "bytes": 215202,
+      "sha256": "b85d956147772b802c08cd3f2b568237e9e66d84a9b450f853f06f807bc277ba"
+    },
+    {
+      "path": "renders/duck-numberblock/reference/hero.png",
+      "bytes": 209104,
+      "sha256": "b1206379ef02dda98f84764aa582150dd9c8c52bc39170b347eae3ba45a710c3"
+    },
+    {
+      "path": "renders/duck-numberblock/reference/icon-192.png",
+      "bytes": 26320,
+      "sha256": "3906139c141e302bb83fc636212764901f9982d89d2f68d14f4c10d77a2a9993"
+    },
+    {
+      "path": "renders/duck-numberblock/reference/icon-64.png",
+      "bytes": 4412,
+      "sha256": "392cae5de3fed171a3fc5ca9a6a3f8b1f58d545655bb4ff125c985526402884a"
+    },
+    {
+      "path": "renders/duck-numberblock/reference/side.png",
+      "bytes": 151264,
+      "sha256": "dc5193102ac40a1ce8a5c3697b6f81dc1ab2c6f52288741a7752369007e98f6d"
+    },
+    {
+      "path": "renders/duck-steelcup/duck/back.png",
+      "bytes": 135148,
+      "sha256": "6e646cde25905385fceba903d5755ca42ca74d01e8994a639fe4b6680da683fb"
+    },
+    {
+      "path": "renders/duck-steelcup/duck/front.png",
+      "bytes": 139160,
+      "sha256": "fe4a1c88ba0d2bf0b9aba4d30030b7ca1bf4e25909293f3a348a20eeb2631d49"
+    },
+    {
+      "path": "renders/duck-steelcup/duck/gameplay.png",
+      "bytes": 188654,
+      "sha256": "4fe4f72037f84201012c90d74419d6df0c1e40f178a6f23c35213fd7e633c6c9"
+    },
+    {
+      "path": "renders/duck-steelcup/duck/hero.png",
+      "bytes": 206085,
+      "sha256": "beac84768774e0031959e0210d90cb8738846d86890ca7de8af3af07f9ed6790"
+    },
+    {
+      "path": "renders/duck-steelcup/duck/icon-192.png",
+      "bytes": 26190,
+      "sha256": "d08701521376596f8eedb31055d3e6236600fcf1e2e3fb5d91d48d77eb3592dd"
+    },
+    {
+      "path": "renders/duck-steelcup/duck/icon-64.png",
+      "bytes": 4650,
+      "sha256": "fdf4f444b7f6de79106c7d24a1804c8413d2e3d5f70b467ea09887e5c6cc9457"
+    },
+    {
+      "path": "renders/duck-steelcup/duck/side.png",
+      "bytes": 120968,
+      "sha256": "fa62543b7f1107e8ad60753c1780b5d0e364995b1472b10b5a78bc5fd4bc266f"
+    },
+    {
+      "path": "renders/duck-steelcup/reference/back.png",
+      "bytes": 151433,
+      "sha256": "a3f3ca8d82e48c59616217948e2aabb06a7675d4c55ea7ef8303851e5963ac2f"
+    },
+    {
+      "path": "renders/duck-steelcup/reference/front.png",
+      "bytes": 141637,
+      "sha256": "6908f8b8afea602998625f0d39a0648ec66fc3d8e9422446b164d2a2ffc5d0fe"
+    },
+    {
+      "path": "renders/duck-steelcup/reference/gameplay.png",
+      "bytes": 221358,
+      "sha256": "17ceef7d5d77548a3e1c8d06e41e436ed329ee517c683fba758ae22d4aa2bdab"
+    },
+    {
+      "path": "renders/duck-steelcup/reference/hero.png",
+      "bytes": 213220,
+      "sha256": "a151d78c32fc6dfc0daf3d91db3ad6bad76458d23f6623bd2f199fdc06a2a77d"
+    },
+    {
+      "path": "renders/duck-steelcup/reference/icon-192.png",
+      "bytes": 26453,
+      "sha256": "d17d89b7fd1126bfd0624c6509b11da26ac31b333b1e1118afc2190e84511f46"
+    },
+    {
+      "path": "renders/duck-steelcup/reference/icon-64.png",
+      "bytes": 4433,
+      "sha256": "233cd0507ceeb656b017dcc1fc5122a75041471ea0869fdaeee4e9c839b2bf33"
+    },
+    {
+      "path": "renders/duck-steelcup/reference/side.png",
+      "bytes": 134604,
+      "sha256": "a86e92c229c31da87cc6794d0d0748947c991be1f7e0bfe8c41528053228eaa2"
+    },
+    {
+      "path": "renders/thumbnail-comparison.png",
+      "bytes": 149303,
+      "sha256": "959ae6d0bd5ecbc6f369b1d2f30523e9c0804577553341604951926a5766bdd1"
+    },
+    {
+      "path": "source/duck-eggtart-authored.blend",
+      "bytes": 754925,
+      "sha256": "aef0b61877ff1c7ac3fe1cae7c9cbf6d89fa175fbce93fd4568d16a3cb1a50dc"
+    },
+    {
+      "path": "source/duck-eggtart-duck-review.blend",
+      "bytes": 759512,
+      "sha256": "a14a7b724b56e52926d7e116756ef459cb638c1b8b6723576bdbebee986612b4"
+    },
+    {
+      "path": "source/duck-eggtart-static.blend",
+      "bytes": 772062,
+      "sha256": "d8d8eb298a6f568593f85c3b21f1f6e7a740c0068a19493da99cd3a5a5cfea60"
+    },
+    {
+      "path": "source/duck-numberblock-authored.blend",
+      "bytes": 741378,
+      "sha256": "0ea7991bcfd2afa05911c17272d3bc4c21d3805ae2f70b331f8531f57cad9df6"
+    },
+    {
+      "path": "source/duck-numberblock-duck-review.blend",
+      "bytes": 727403,
+      "sha256": "46f98a234311f8f389904ba6e26b43c8deb9df57a49216e3b464f63825cda3bc"
+    },
+    {
+      "path": "source/duck-numberblock-static.blend",
+      "bytes": 794367,
+      "sha256": "916900d64eebf5c9f952d6bfb033cca312769b71c58fa0d6fd6aca4d43580ebe"
+    },
+    {
+      "path": "source/duck-steelcup-authored.blend",
+      "bytes": 738865,
+      "sha256": "6a4e0d639561d18cb6f35d09e1358682fa60a173126b749541e448a0873cb497"
+    },
+    {
+      "path": "source/duck-steelcup-duck-review.blend",
+      "bytes": 763131,
+      "sha256": "03355f23f993c8a2f33c80bae8bfad0e12d98ea2e0f2fa291bb4e5a2edf3e37e"
+    },
+    {
+      "path": "source/duck-steelcup-static.blend",
+      "bytes": 750010,
+      "sha256": "34b4ea5026d24736f10cf861e9b95cac5233c36f2f6483b58b792aafc79fea06"
+    }
+  ],
+  "userFeedback": "你自己看你这模型做的对么？问题太大了，鸭子的形体都改变了，看下有什么方案能提高模型产出质量的"
+}

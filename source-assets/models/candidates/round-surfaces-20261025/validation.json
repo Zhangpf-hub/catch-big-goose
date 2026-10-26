@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "round_breakfast_r4",
+      "triangles": 7296,
+      "materials": 2,
+      "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_breakfast/source.json",
+      "unchangedVertices": true,
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "files": {
+        "materials.json": "e616115ac576922de88c004708326830270fb96aaa957467b4d6e72626468f17",
+        "round_breakfast_r4.blend": "211163f76c91900b2b1dbc9ee573cded7b5a24d7d6863590807e912f919925bb",
+        "round_breakfast_r4.fbx": "3752fd35f0efb1f37695017f0981e58bc0c80159b5c5f6a802011d16cd1f2eca",
+        "round_breakfast_r4.glb": "85bb23ce7817a7d915d663c570b827a949ef0061fbd8a40bee695e4f4b246bf2"
+      }
+    },
+    {
+      "id": "round_barbecue_r4",
+      "triangles": 5568,
+      "materials": 2,
+      "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_barbecue/source.json",
+      "unchangedVertices": true,
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "files": {
+        "materials.json": "c569cccd57da9e0a0504093d838ace9016f6674f0f6fb885ee5e21ac8a3dbd01",
+        "round_barbecue_r4.blend": "c8a3e1deb2ab6283a8ab10d49796c710a3426191d38885f1becfaf019afd4ea1",
+        "round_barbecue_r4.fbx": "3f130355b5e79aabfb18d83078afb19f332009220915e9a80076b760372fdda7",
+        "round_barbecue_r4.glb": "64ef114f016824f3f2d24a967b0653109fe11fe442423ca4692cfbf7682c4838"
+      }
+    },
+    {
+      "id": "round_countryside_r4",
+      "triangles": 7296,
+      "materials": 2,
+      "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_countryside/source.json",
+      "unchangedVertices": true,
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "files": {
+        "grain0.png": "014e96a71871e0e34f93605a2ee0448312dbf92af0fe1d45c05c7e73021403a6",
+        "grain1.png": "014e96a71871e0e34f93605a2ee0448312dbf92af0fe1d45c05c7e73021403a6",
+        "materials.json": "846a1e42d517c286de122b340315178ad4290c8f829a228e4991d7c9cdf8acfd",
+        "round_countryside_r4.blend": "22f2c73c043a1f791fd16d9ab00b6b972ea23a2ed51e1afe9760166f9801629b",
+        "round_countryside_r4.fbx": "9d1b2e06f4329862baf3887a1ab72bd8bd6c6276cf3ba59781095a04b068b6c9",
+        "round_countryside_r4.glb": "70bf2d2d922af90d510cbdb97a04336bf951e958b75b0aee0324fed77519cf6c"
+      }
+    },
+    {
+      "id": "round_toys_r4",
+      "triangles": 3264,
+      "materials": 2,
+      "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_toys/source.json",
+      "unchangedVertices": true,
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "files": {
+        "materials.json": "2606898aa8a5ae815cff733457f6d2749766529a7443e2928270c0c46bd94243",
+        "round_toys_r4.blend": "918ad742173579ccd0c2bdfedfd711cda750b875cd688f41429af6819fb01334",
+        "round_toys_r4.fbx": "289315892b2a742613c2b9018b10faba51e4cc0b141db276caf7771e12aff0e5",
+        "round_toys_r4.glb": "163f9f509e088c8a917138cd6b5b79a0dda54547efa154610986aa3f1b25cf06"
+      }
+    },
+    {
+      "id": "round_grocery_r4",
+      "triangles": 7296,
+      "materials": 2,
+      "source": "reference-projects/competitor-goose/2026-10-25-containers/models/scene_grocery/source.json",
+      "unchangedVertices": true,
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "files": {
+        "grain0.png": "014e96a71871e0e34f93605a2ee0448312dbf92af0fe1d45c05c7e73021403a6",
+        "grain1.png": "014e96a71871e0e34f93605a2ee0448312dbf92af0fe1d45c05c7e73021403a6",
+        "materials.json": "0f585840cbf12ef6340f9776e8fd04230c0898294315b222d8d83687c36c10c4",
+        "round_grocery_r4.blend": "d44bc28ac361c01e73ab7c7528839a2023f27b10a7de001b8d6f2a1349b70fe8",
+        "round_grocery_r4.fbx": "07f93cc317c6232809ab4befd1732c5a26b712321e2aede61fdc31138a478c49",
+        "round_grocery_r4.glb": "b5e6506d802a4885a721ccc27ead9ad68ea94f84ef23e511fd5ac5ded7adcd68"
+      }
+    }
+  ]
+}

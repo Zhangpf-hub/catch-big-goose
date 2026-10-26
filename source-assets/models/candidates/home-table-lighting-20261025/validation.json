@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "validator": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [],
+    "truncated": false
+  },
+  "files": {
+    "back.png": "15318c574e8ae97938bdcf8db0bcdefdfa7cd0647f115c70d99476da054fb30e",
+    "cream.png": "7ec440f4fe11a67ba62d13caaecfd2c602b5d0a66973d6feb0ecc7b7aae66409",
+    "front.png": "5b1eb62a369b490da23d4e24de4ec147f48825fd672fd7e77d59987a25fbcace",
+    "home-table.blend": "d7c2fa17c5ba4bc06132aa316f600e268ef4c7a34ade54b055faf01d17b41c75",
+    "home-table.fbx": "0623b10f6c001f440a86be71f90319ee8515041612577ce5c8962c86a73806f2",
+    "home-table.glb": "958fffedbab908994d6e6917e89814aca84347f9f83d55d0202ba06df32e0ca7",
+    "icon-192.png": "792fad914e35025d140d5fe781f190b36392813c3a10693058ae928704d5bbeb",
+    "icon-64.png": "2a61f689b05a8ee4cd64faa44b8c945d2793e1dd34fab6b98c3c3d4331c768a2",
+    "matcap.png": "e548f87a350488dc8081bf372f1f11bc7d018063d36b5263a2f1355d8ed580a6",
+    "materials.json": "b4b843907c8287fca90b6b70fdf2e160c8cb4d0490a61546087ce7398a957345",
+    "metrics.json": "0c5dfbcad1e4f71316621b04b697815a8732feaaf39baf7986a59e2c2f8d8061",
+    "side.png": "0b85d33f3fd92150f4a3a7daa8fe39977c0685cb187133b23d1fb510bfcd0c3e",
+    "three-quarter.png": "7dccad0b9dc6a53a3cd97af1293e0d7edf0be95cb02516214ba9a5bf2fc5d549",
+    "wood.png": "3c8f580853eed4ca3f58f3ba2accd7db4e74520972fa118d6fdac5765c2058ad"
+  }
+}

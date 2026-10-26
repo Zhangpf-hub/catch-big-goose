@@ -1,0 +1,5 @@
+{
+  "fixtures": 580,
+  "sourceTableRows": 1129,
+  "scope": "Interpreted WAT quota formula with real serialized weights; fixed first-N selected types, zero AB/hotfix offsets; not the actual random type selection or full CreateLevel execution."
+}

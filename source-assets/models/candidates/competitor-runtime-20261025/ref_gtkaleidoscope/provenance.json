@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtkaleidoscope",
+  "sourceId": "GTKaleidoscope",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTKaleidoscope\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTKaleidoscope.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "85c2d749b23ad784fb572e08402bdcde757a13f0d0173355b12c21652de6d7f5"
+}

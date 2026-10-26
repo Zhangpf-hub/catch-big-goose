@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_potatoskewers",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\PotatoSkewers\\PotatoSkewers.blend",
+  "sourceTriangles": 224,
+  "triangles": 224,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.057597041130066,
+    2.972379207611084,
+    0.17241346836090088
+  ],
+  "normalizedDimensions": [
+    0.35580822825431824,
+    0.9999999403953552,
+    0.0580052025616169
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

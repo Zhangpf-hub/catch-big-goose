@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtsandbag",
+  "sourceId": "GTSandbag",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTSandbag\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTSandbag.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "276d5e6e952df66c9cfb47a6d481da40f7a037862da4231452aaa338e575269f"
+}

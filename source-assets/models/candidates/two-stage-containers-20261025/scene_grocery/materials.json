@@ -1,0 +1,148 @@
+{
+  "materials": [
+    {
+      "name": "scene_grocery_m0",
+      "sourceName": "StoreBoxMa",
+      "sourceShader": "ToonLite2",
+      "referenceMaterial": true,
+      "texture": null,
+      "color": [
+        0.0,
+        0.5566037893295288,
+        0.0,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.65,
+      "glass": false,
+      "opacity": 1,
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcap1": null,
+      "matcap2": null,
+      "mask": null,
+      "matcapScale": 0.3100000023841858,
+      "matcapScale1": 0,
+      "matcapScale2": 0,
+      "matcapColor": [
+        0.20754718780517578,
+        0.20754718780517578,
+        0.20754718780517578,
+        0.0
+      ],
+      "matcapColor1": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "matcapColor2": [
+        0.277,
+        0.277,
+        0.277,
+        0
+      ],
+      "lightColor": [
+        0.3962264060974121,
+        0.3962264060974121,
+        0.3962264060974121,
+        0.0
+      ],
+      "aoMap": null,
+      "aoScale": 1.0,
+      "sourceFloats": {
+        "_AOScale": 1.0,
+        "_BaseCellOffset": 0.0,
+        "_BaseCellSharpness": 0.009999999776482582,
+        "_BumpScale": 1.0,
+        "_Cutoff": 0.5,
+        "_DetailNormalMapScale": 1.0,
+        "_DstBlend": 0.0,
+        "_GlossMapScale": 1.0,
+        "_Glossiness": 0.5,
+        "_GlossyReflections": 1.0,
+        "_HighLightOffset": 0.0,
+        "_HighLightPing": 0.0,
+        "_HighLightShadowMask": 0.0,
+        "_HighLightSmooth": 0.0,
+        "_IsSingleColor": 0.0,
+        "_IsUseWorldMatcap": 0.0,
+        "_MatcapScale": 0.3100000023841858,
+        "_Metallic": 0.0,
+        "_MetcapShadowMask": 0.5099999904632568,
+        "_Mode": 0.0,
+        "_NormalScale": 1.8899999856948853,
+        "_OcclusionStrength": 1.0,
+        "_Parallax": 0.019999999552965164,
+        "_ReflectScale": 1.0,
+        "_RoughnessScale": 0.0,
+        "_SmoothnessTextureChannel": 0.0,
+        "_SpecularHighlights": 1.0,
+        "_SrcBlend": 1.0,
+        "_UVSec": 0.0,
+        "_ZWrite": 1.0,
+        "__dirty": 1.0,
+        "_ground1": 0.0,
+        "_ground2": 0.0,
+        "_ground6": 0.0,
+        "_ground7": 0.0
+      },
+      "sourceColors": {
+        "_BaseTint": [
+          0.0,
+          0.5566037893295288,
+          0.0,
+          0.0
+        ],
+        "_Color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_EmissionColor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "_HighLightColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IndirectColor": [
+          0.24528300762176514,
+          0.22098611295223236,
+          0.22098611295223236,
+          0.0
+        ],
+        "_LightColor": [
+          0.3962264060974121,
+          0.3962264060974121,
+          0.3962264060974121,
+          0.0
+        ],
+        "_MatcapColor": [
+          0.20754718780517578,
+          0.20754718780517578,
+          0.20754718780517578,
+          0.0
+        ],
+        "_ReflectOffset": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_ShadowAddColor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "adaptation": "Own lightweight pixel lighting/MatCap and glass blend; source shader program not recovered."
+    }
+  ]
+}

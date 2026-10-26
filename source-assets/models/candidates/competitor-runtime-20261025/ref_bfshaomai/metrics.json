@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfshaomai",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFShaoMai\\BFShaoMai.blend",
+  "sourceTriangles": 1544,
+  "triangles": 1544,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8655827045440674,
+    1.0394532680511475,
+    1.0443146228790283
+  ],
+  "normalizedDimensions": [
+    0.8288524150848389,
+    0.9953449368476868,
+    1.0
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

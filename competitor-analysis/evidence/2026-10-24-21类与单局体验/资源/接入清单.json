@@ -1,0 +1,842 @@
+[
+  {
+    "id": "watermelon",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/watermelon.glb",
+    "target": "unity/SourceAssets/Models/watermelon.glb",
+    "sha256": "8aba2f9947807e7e72fb32ec0a5068337eaf59aa70e96b38135ae4dac6e09aab"
+  },
+  {
+    "id": "watermelon",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/watermelon.png",
+    "target": "unity/Assets/Resources/Icons/watermelon.png",
+    "sha256": "eae0d7a1a47bff4297907985fd3ea9b993e70e0577a1dc7cd1fce5aef7ab704c"
+  },
+  {
+    "id": "pineapple",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/pineapple.glb",
+    "target": "unity/SourceAssets/Models/pineapple.glb",
+    "sha256": "b6431cc2891493001d648d387d48359eeeb53872f2cf22e112421cef601ac63d"
+  },
+  {
+    "id": "pineapple",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/pineapple.png",
+    "target": "unity/Assets/Resources/Icons/pineapple.png",
+    "sha256": "28658cb7f3f9207590aef090ecd38488526547ee733b743cab4a73579350d551"
+  },
+  {
+    "id": "peach",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/peach.glb",
+    "target": "unity/SourceAssets/Models/peach.glb",
+    "sha256": "c8c1d3898ebcca7cb596fc8f0a2abe5b195d1910fead07b72dc4989e9f4b41a0"
+  },
+  {
+    "id": "peach",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/peach.png",
+    "target": "unity/Assets/Resources/Icons/peach.png",
+    "sha256": "d66975d0224344e0ea0ab866122aba89d83ce14f60f9621864fab6b9def5e8da"
+  },
+  {
+    "id": "kiwi",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/kiwi.glb",
+    "target": "unity/SourceAssets/Models/kiwi.glb",
+    "sha256": "97a2e1e657d280634ca8e5dfdedf6da3112796f95e019fe7cbb7483cb689f013"
+  },
+  {
+    "id": "kiwi",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/kiwi.png",
+    "target": "unity/Assets/Resources/Icons/kiwi.png",
+    "sha256": "7197e689eefb492ab2d8371eea0fb8e642a96d2d0ba6ab36660d16f371f99635"
+  },
+  {
+    "id": "mango",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/mango.glb",
+    "target": "unity/SourceAssets/Models/mango.glb",
+    "sha256": "d0f58488e82ef64da62cc89fb00e9c978a385ec0c8aab525b8f261ff2a502ee3"
+  },
+  {
+    "id": "mango",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/mango.png",
+    "target": "unity/Assets/Resources/Icons/mango.png",
+    "sha256": "f16f488188866086ae0adfc804e3865d877aea89b9000eae86030ae56df2d5f0"
+  },
+  {
+    "id": "coconut",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/coconut.glb",
+    "target": "unity/SourceAssets/Models/coconut.glb",
+    "sha256": "c3b6e7301c9889e8f54bdd08f802606c8393226a8f6c797eb0f92dfbff1fc366"
+  },
+  {
+    "id": "coconut",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/coconut.png",
+    "target": "unity/Assets/Resources/Icons/coconut.png",
+    "sha256": "7bb75cb3596de37da650a54e3e4f87269daec93441de1cbd374304c4a1918b68"
+  },
+  {
+    "id": "blueberry",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/blueberry.glb",
+    "target": "unity/SourceAssets/Models/blueberry.glb",
+    "sha256": "aaefb4e952aa7b2cc5dbdadaac64ddda09b4eaf71d37149558d270f32fec5aa8"
+  },
+  {
+    "id": "blueberry",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/blueberry.png",
+    "target": "unity/Assets/Resources/Icons/blueberry.png",
+    "sha256": "8b94687bceded8d0278d179a795c48585e1ad8a9e6fd256891fa67b49b53d9de"
+  },
+  {
+    "id": "dragonfruit",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/dragonfruit.glb",
+    "target": "unity/SourceAssets/Models/dragonfruit.glb",
+    "sha256": "e46b9e28eff2be7d0fbb11f9fa9e8c71c6130623b4c1afafa1c73770430607f5"
+  },
+  {
+    "id": "dragonfruit",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/dragonfruit.png",
+    "target": "unity/Assets/Resources/Icons/dragonfruit.png",
+    "sha256": "c5d28513f9a372f7dc681d5a00b2bad7cbef3f672d2022b21bab3917d4b88be1"
+  },
+  {
+    "id": "avocado",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/avocado.glb",
+    "target": "unity/SourceAssets/Models/avocado.glb",
+    "sha256": "94db277ad4d068b0d5b3d23caf3b9c0eddf30bddafee65f81997584357431435"
+  },
+  {
+    "id": "avocado",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/avocado.png",
+    "target": "unity/Assets/Resources/Icons/avocado.png",
+    "sha256": "4ac9b96953cfd164fc2e2ca5193fa48ccfd8ceb212b70ea6e312f2bdf26938a9"
+  },
+  {
+    "id": "pomegranate",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/pomegranate.glb",
+    "target": "unity/SourceAssets/Models/pomegranate.glb",
+    "sha256": "f3c19480523ab2ea79c380d7b45b8efddcdb720dd30d61ab91d8818b37ab4949"
+  },
+  {
+    "id": "pomegranate",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/pomegranate.png",
+    "target": "unity/Assets/Resources/Icons/pomegranate.png",
+    "sha256": "d68decbf1bef2176c38303a241592d6cb793fbf345e8b413d698f77b4500c0ef"
+  },
+  {
+    "id": "persimmon",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/persimmon.glb",
+    "target": "unity/SourceAssets/Models/persimmon.glb",
+    "sha256": "2d6a3c9bed76a28c09131b8e3a9d629a519f66411614637375b23b874543f937"
+  },
+  {
+    "id": "persimmon",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/persimmon.png",
+    "target": "unity/Assets/Resources/Icons/persimmon.png",
+    "sha256": "16325ec81e6612616d302eefcb308676a829244046b1eb24d6b18dcb5d6e573b"
+  },
+  {
+    "id": "starfruit",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/models/starfruit.glb",
+    "target": "unity/SourceAssets/Models/starfruit.glb",
+    "sha256": "e734c9b3a1355ed1ce4a98ea8a8aba57e64f3714bf0064c05eaec6d25f366e89"
+  },
+  {
+    "id": "starfruit",
+    "theme": "fruit",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/starfruit.png",
+    "target": "unity/Assets/Resources/Icons/starfruit.png",
+    "sha256": "fc319c7ab4f90ac99139bfe6923243f8abe74b34a0ff4eb04af56e71eaf96839"
+  },
+  {
+    "id": "jadevase",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadevase.glb",
+    "target": "unity/SourceAssets/Models/jadevase.glb",
+    "sha256": "0de4791dbea16a4691f1573059f37e86143e51cd7f60f737f5514acfe33c764f"
+  },
+  {
+    "id": "jadevase",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadevase.png",
+    "target": "unity/Assets/Resources/Icons/jadevase.png",
+    "sha256": "86a59e979bcbf414b426e132e68ba363bffcb249bc2a7421a3351c917916d8e8"
+  },
+  {
+    "id": "jadepeanut",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadepeanut.glb",
+    "target": "unity/SourceAssets/Models/jadepeanut.glb",
+    "sha256": "6da4e46af87c9ea6d31afb721d5858bf06638fe714e6e0665032c98eefe1274c"
+  },
+  {
+    "id": "jadepeanut",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadepeanut.png",
+    "target": "unity/Assets/Resources/Icons/jadepeanut.png",
+    "sha256": "b38ef2898ca4b5bf668d88d4460189907159cffce6acf78b985817197142cfff"
+  },
+  {
+    "id": "jadecarp",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadecarp.glb",
+    "target": "unity/SourceAssets/Models/jadecarp.glb",
+    "sha256": "1b497ed87c298743a86e647490e516775af6a55bfee338a084dfca0b16fdac82"
+  },
+  {
+    "id": "jadecarp",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadecarp.png",
+    "target": "unity/Assets/Resources/Icons/jadecarp.png",
+    "sha256": "e5d4de393757fd978cbf7d97b30632eac8257678c51874bbb5f9f93fc6029aac"
+  },
+  {
+    "id": "jadetiger",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadetiger.glb",
+    "target": "unity/SourceAssets/Models/jadetiger.glb",
+    "sha256": "45f251887ec8f81ad7e2a1f1b35c27b6606d2e6dbca4df476f1b04d96864c25f"
+  },
+  {
+    "id": "jadetiger",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadetiger.png",
+    "target": "unity/Assets/Resources/Icons/jadetiger.png",
+    "sha256": "ad3d3f4a253abaf7ea8171ecb94bcf4556d7603974de2b9f3499f1f1adcc5414"
+  },
+  {
+    "id": "jadetalisman",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadetalisman.glb",
+    "target": "unity/SourceAssets/Models/jadetalisman.glb",
+    "sha256": "37a2be12f63cffaae55777af8b931b1562149887514cc6e8da1c9f39830fdb78"
+  },
+  {
+    "id": "jadetalisman",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadetalisman.png",
+    "target": "unity/Assets/Resources/Icons/jadetalisman.png",
+    "sha256": "7e360c0c244f96c8cdc3eea857ca2a3cf6c73f652a7ff51e899a641ecc7ab7bf"
+  },
+  {
+    "id": "goldring",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/goldring.glb",
+    "target": "unity/SourceAssets/Models/goldring.glb",
+    "sha256": "af4135c2a6c3d4466b0ff86c3e847796b69d540664aab266a178f6554e4f8b86"
+  },
+  {
+    "id": "goldring",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/goldring.png",
+    "target": "unity/Assets/Resources/Icons/goldring.png",
+    "sha256": "d5ba81d0694de66536f425a01e07dee4c4047a72c80d3cc86a7201c3628ab039"
+  },
+  {
+    "id": "goldchime",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/goldchime.glb",
+    "target": "unity/SourceAssets/Models/goldchime.glb",
+    "sha256": "b42f90a783c2e5cd72706ced8ed303d6f90c5377ee5d30c722d477508f771d30"
+  },
+  {
+    "id": "goldchime",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/goldchime.png",
+    "target": "unity/Assets/Resources/Icons/goldchime.png",
+    "sha256": "72bcb7e0e5a7e5b22a577bdeacded9e6bf4a2bf7dfc2b3ea31f778be6e6b49af"
+  },
+  {
+    "id": "jadechime",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadechime.glb",
+    "target": "unity/SourceAssets/Models/jadechime.glb",
+    "sha256": "6d40a379136bd84f5bf13b1ee0ca50a8156c770f0adc2f6a2b3d80b75db69513"
+  },
+  {
+    "id": "jadechime",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadechime.png",
+    "target": "unity/Assets/Resources/Icons/jadechime.png",
+    "sha256": "d8fdfce895e87b14df795da1ef2d507a8ac35cace0f3002fa4203cd2ace9d43d"
+  },
+  {
+    "id": "jadeleaf",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadeleaf.glb",
+    "target": "unity/SourceAssets/Models/jadeleaf.glb",
+    "sha256": "260d36732310dc2ba4908e69e948e51455aa74aca518ea0f37b03663162a4bf2"
+  },
+  {
+    "id": "jadeleaf",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadeleaf.png",
+    "target": "unity/Assets/Resources/Icons/jadeleaf.png",
+    "sha256": "a14217eec2f6e62aab313bf139391c38963e07f711bdbeb0a78c5dff7d670023"
+  },
+  {
+    "id": "jadelock",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadelock.glb",
+    "target": "unity/SourceAssets/Models/jadelock.glb",
+    "sha256": "0dc0e6ef47c1fc247468f8366d929b3d4970e8fab6044496bf41f643c9a63ca9"
+  },
+  {
+    "id": "jadelock",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadelock.png",
+    "target": "unity/Assets/Resources/Icons/jadelock.png",
+    "sha256": "e2e70ebd451d0e68a28f06143e80a5ffd4446e16e1b224989939276df97c5349"
+  },
+  {
+    "id": "jadeteapot",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadeteapot.glb",
+    "target": "unity/SourceAssets/Models/jadeteapot.glb",
+    "sha256": "6b80db97cec36fcb4eab0d1315f14ae6a5a11e45c768994d34716f948051c116"
+  },
+  {
+    "id": "jadeteapot",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadeteapot.png",
+    "target": "unity/Assets/Resources/Icons/jadeteapot.png",
+    "sha256": "2f51e7f0e0f59901e2f51b4e66c89a08401b9574363d18d090a116da57622fac"
+  },
+  {
+    "id": "jadebeads",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/models/jadebeads.glb",
+    "target": "unity/SourceAssets/Models/jadebeads.glb",
+    "sha256": "1cc3b1212eb687fe2fbd1ef2c9a8751f0c46149e0e641078fe4b4820240ec40d"
+  },
+  {
+    "id": "jadebeads",
+    "theme": "antique",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/jadebeads.png",
+    "target": "unity/Assets/Resources/Icons/jadebeads.png",
+    "sha256": "8ff6bdc5e371fba9a5bce7cd536ae96f1b3f1af93d12dd2e6243b2ab511e65d7"
+  },
+  {
+    "id": "tomato",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/tomato.glb",
+    "target": "unity/SourceAssets/Models/tomato.glb",
+    "sha256": "b6031e9ef3081ae3f39210012091666da21e3a68174a78352f296a6dff139f61"
+  },
+  {
+    "id": "tomato",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/tomato.png",
+    "target": "unity/Assets/Resources/Icons/tomato.png",
+    "sha256": "b492ac5b10ba1060ff169c77381eb0686586f6c405330e3477d453efa36937f9"
+  },
+  {
+    "id": "potato",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/potato.glb",
+    "target": "unity/SourceAssets/Models/potato.glb",
+    "sha256": "2170430b3a9ddbe6f0f03dbea89e67312835865e6eed1b6b4641561258e86bc1"
+  },
+  {
+    "id": "potato",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/potato.png",
+    "target": "unity/Assets/Resources/Icons/potato.png",
+    "sha256": "4349594403c4a791333127a294a28b78c629216e2095d217c1b35b99704269ff"
+  },
+  {
+    "id": "cabbage",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/cabbage.glb",
+    "target": "unity/SourceAssets/Models/cabbage.glb",
+    "sha256": "d6b9037f4837b91e1598a6b702a957e515e3f08fcc28f9ad28e0f974def456c6"
+  },
+  {
+    "id": "cabbage",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/cabbage.png",
+    "target": "unity/Assets/Resources/Icons/cabbage.png",
+    "sha256": "601aea96251cdfbc0c975bb99db26525f3970627b7fe715d4f3a844048d7d33c"
+  },
+  {
+    "id": "broccoli",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/broccoli.glb",
+    "target": "unity/SourceAssets/Models/broccoli.glb",
+    "sha256": "ef618f9d5bb374653da8e7ed2bd36f1c1521f7409fd5da207f856f6f4b7708d7"
+  },
+  {
+    "id": "broccoli",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/broccoli.png",
+    "target": "unity/Assets/Resources/Icons/broccoli.png",
+    "sha256": "379475905e0a4d616c3adc71576ee560fce2e442dc3a3c6d0086334bf302112f"
+  },
+  {
+    "id": "bellpepper",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/bellpepper.glb",
+    "target": "unity/SourceAssets/Models/bellpepper.glb",
+    "sha256": "715f2f45fba1119748b55628479163098013826d33b240f47ca8ef949549564d"
+  },
+  {
+    "id": "bellpepper",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/bellpepper.png",
+    "target": "unity/Assets/Resources/Icons/bellpepper.png",
+    "sha256": "c0f5a53ea5322345bdc62616b65243fe060b060a519f7d00e56e90946cf181a7"
+  },
+  {
+    "id": "cucumber",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/cucumber.glb",
+    "target": "unity/SourceAssets/Models/cucumber.glb",
+    "sha256": "da0076e5427452790890e767b87142d61c00f172b9a12f565f8c7d87312a3112"
+  },
+  {
+    "id": "cucumber",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/cucumber.png",
+    "target": "unity/Assets/Resources/Icons/cucumber.png",
+    "sha256": "dc175338815c3e43724ac5c539a67fcff03bf87f159f5fbd718c8def8dd91025"
+  },
+  {
+    "id": "onion",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/onion.glb",
+    "target": "unity/SourceAssets/Models/onion.glb",
+    "sha256": "58b083adc16ca59d8c3d008b041ebaf8026d0f60b785096b1671eb07db749221"
+  },
+  {
+    "id": "onion",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/onion.png",
+    "target": "unity/Assets/Resources/Icons/onion.png",
+    "sha256": "c544bfb5c96b2277cd7fa44936f2b39c76c5e5f50795970e159549ecbe552d89"
+  },
+  {
+    "id": "radish",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/radish.glb",
+    "target": "unity/SourceAssets/Models/radish.glb",
+    "sha256": "cc13ac6015fc37abf1a81412568aa6d75f2a3d50c8f9862b47e2ee4fcc43cce2"
+  },
+  {
+    "id": "radish",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/radish.png",
+    "target": "unity/Assets/Resources/Icons/radish.png",
+    "sha256": "1a3f41d1ec6a77f86bb35001a341b86248820d933efb1daac015ab89aba35864"
+  },
+  {
+    "id": "garlic",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/garlic.glb",
+    "target": "unity/SourceAssets/Models/garlic.glb",
+    "sha256": "6260585de4b90bbf1d23f7e747518f8285c471a029abc80189cbd018201a7fe3"
+  },
+  {
+    "id": "garlic",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/garlic.png",
+    "target": "unity/Assets/Resources/Icons/garlic.png",
+    "sha256": "7365f88ca33a2fca523732b5a7d2e2cd9295f733f328b5de45a7e2da958e2216"
+  },
+  {
+    "id": "wateringcan",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/wateringcan.glb",
+    "target": "unity/SourceAssets/Models/wateringcan.glb",
+    "sha256": "9e2e54e9a680cebf29c672ed5245a05babbddd7cc2d922b961751825eb3c4bc7"
+  },
+  {
+    "id": "wateringcan",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/wateringcan.png",
+    "target": "unity/Assets/Resources/Icons/wateringcan.png",
+    "sha256": "9ff59fab1d46f04b212290f78b0d0126d7527f9f08ff1b56d13f4f07acde40de"
+  },
+  {
+    "id": "egg",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/egg.glb",
+    "target": "unity/SourceAssets/Models/egg.glb",
+    "sha256": "952f2713f9d49dcdedaa91123360f0b9559417f97020df0257685a04ad7adfb3"
+  },
+  {
+    "id": "egg",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/egg.png",
+    "target": "unity/Assets/Resources/Icons/egg.png",
+    "sha256": "9efbe6836a826f0ea9532a0a4f3c5c173ac62b41368e78d1c31b6b3d562ae78b"
+  },
+  {
+    "id": "shovel",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/models/shovel.glb",
+    "target": "unity/SourceAssets/Models/shovel.glb",
+    "sha256": "e6886fb70d1224ce3a58167173f99560f64f8a6ff8d81493050223d4436f6681"
+  },
+  {
+    "id": "shovel",
+    "theme": "farm",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/shovel.png",
+    "target": "unity/Assets/Resources/Icons/shovel.png",
+    "sha256": "0cb00544779ca862cee364eaaddb862b73df3bc9babd9f235f2fa330a6b8bdd3"
+  },
+  {
+    "id": "chocolate",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/chocolate.glb",
+    "target": "unity/SourceAssets/Models/chocolate.glb",
+    "sha256": "61dcd11c0df76fff3a1374f657dfdeec87a8db9550487f9468baf5910a5d2335"
+  },
+  {
+    "id": "chocolate",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/chocolate.png",
+    "target": "unity/Assets/Resources/Icons/chocolate.png",
+    "sha256": "6e616f3f7a2a0c21629e57c45af1f4965e33baa15f08d13d111ad4eb69c1cf33"
+  },
+  {
+    "id": "lollipop",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/lollipop.glb",
+    "target": "unity/SourceAssets/Models/lollipop.glb",
+    "sha256": "6ed8535fbdab7eb8e38766956bb31aa844c731e66c53ec52c250efd05e56fe7b"
+  },
+  {
+    "id": "lollipop",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/lollipop.png",
+    "target": "unity/Assets/Resources/Icons/lollipop.png",
+    "sha256": "2a827d17634eb2ea151549b64b9653e554535cb6a8de71bd383d345b2511a599"
+  },
+  {
+    "id": "popsicle",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/popsicle.glb",
+    "target": "unity/SourceAssets/Models/popsicle.glb",
+    "sha256": "aa8bcd14fb16152177edca5be576a3247bb1bee9449a06729ea13fa3c59434eb"
+  },
+  {
+    "id": "popsicle",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/popsicle.png",
+    "target": "unity/Assets/Resources/Icons/popsicle.png",
+    "sha256": "74d28bc7ebda534dc6ff62532d1077e62c684f80c4b17f5e1d5a63bd8a3f63eb"
+  },
+  {
+    "id": "wafer",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/wafer.glb",
+    "target": "unity/SourceAssets/Models/wafer.glb",
+    "sha256": "dcd11e692a80f67167bee28a414a4ce8ae4b353f60d626dec9e5307db945592f"
+  },
+  {
+    "id": "wafer",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/wafer.png",
+    "target": "unity/Assets/Resources/Icons/wafer.png",
+    "sha256": "b858b40faee0ed720b767b69b22d2c054a00187b67d72076440e98159663b368"
+  },
+  {
+    "id": "swissroll",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/swissroll.glb",
+    "target": "unity/SourceAssets/Models/swissroll.glb",
+    "sha256": "c5133d6c0979b397b61d16d6192afcd711da53aaca2808df6d5bbc22701a047b"
+  },
+  {
+    "id": "swissroll",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/swissroll.png",
+    "target": "unity/Assets/Resources/Icons/swissroll.png",
+    "sha256": "19e73ee32616872d84143a59d54707494848f0ec2bdf881fcd7c574588b5c44e"
+  },
+  {
+    "id": "eggtart",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/eggtart.glb",
+    "target": "unity/SourceAssets/Models/eggtart.glb",
+    "sha256": "8735912ea21a942951f5511f0278c6d12b481bcb57a04a00f12d429b34754152"
+  },
+  {
+    "id": "eggtart",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/eggtart.png",
+    "target": "unity/Assets/Resources/Icons/eggtart.png",
+    "sha256": "3e53254ddc717935f41772fda2b286faf516063c7b918c3f2e74aa71f58da793"
+  },
+  {
+    "id": "pancake",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/pancake.glb",
+    "target": "unity/SourceAssets/Models/pancake.glb",
+    "sha256": "b6e05007aeb67685c65ea1e07bd6d6a296f7a313c2a22b623b77b243843a10c8"
+  },
+  {
+    "id": "pancake",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/pancake.png",
+    "target": "unity/Assets/Resources/Icons/pancake.png",
+    "sha256": "e9681e922240c503d8e057441fb6eb8f1cfc7eb5a936481da95069587bb5536d"
+  },
+  {
+    "id": "pretzel",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/pretzel.glb",
+    "target": "unity/SourceAssets/Models/pretzel.glb",
+    "sha256": "deb7bf3c2fd725c67d461e3643c00f614cfc992ea0778a11a7866a0d5cc6f858"
+  },
+  {
+    "id": "pretzel",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/pretzel.png",
+    "target": "unity/Assets/Resources/Icons/pretzel.png",
+    "sha256": "c729ac8d3f9c954a76fe83112e6cd961f24c00c7712467dca686000cef29f05f"
+  },
+  {
+    "id": "toast",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/toast.glb",
+    "target": "unity/SourceAssets/Models/toast.glb",
+    "sha256": "70bf1e2d665c17f0801eefdbbe4bed61c35007ae6ea39542e59bb9c460d3cda4"
+  },
+  {
+    "id": "toast",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/toast.png",
+    "target": "unity/Assets/Resources/Icons/toast.png",
+    "sha256": "0b6b468e7c205b839324f57a54c89b54539dbd87a6926500b55c8d59b9dd0c61"
+  },
+  {
+    "id": "dumpling",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/dumpling.glb",
+    "target": "unity/SourceAssets/Models/dumpling.glb",
+    "sha256": "9cdacb424d675542116553f32ede0c01f29b5fce009489edaa006416d44b397c"
+  },
+  {
+    "id": "dumpling",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/dumpling.png",
+    "target": "unity/Assets/Resources/Icons/dumpling.png",
+    "sha256": "314db538034f876798127ab591a62eff64a81152aea571ea0528f86f92d0c2e1"
+  },
+  {
+    "id": "mooncake",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/mooncake.glb",
+    "target": "unity/SourceAssets/Models/mooncake.glb",
+    "sha256": "9d45f80087ae1308ec3c1ebf141764fdbcaec610b139ad435435c85000316173"
+  },
+  {
+    "id": "mooncake",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/mooncake.png",
+    "target": "unity/Assets/Resources/Icons/mooncake.png",
+    "sha256": "e558a293c444b5a3e47acbf09cf77f4dedc518ec231dd019f30cdc659c811829"
+  },
+  {
+    "id": "teacup",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/models/teacup.glb",
+    "target": "unity/SourceAssets/Models/teacup.glb",
+    "sha256": "630cfcdd8d8cfe1338eaf831e3bd4761f62fc33abe44e98639ae098d5387dd45"
+  },
+  {
+    "id": "teacup",
+    "theme": "dessert",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/teacup.png",
+    "target": "unity/Assets/Resources/Icons/teacup.png",
+    "sha256": "f35525c399f58ab55b539863276ce54ce3e5cd6c9dc3bbcfcba040e0bbaeff6a"
+  },
+  {
+    "id": "tablet",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/tablet.glb",
+    "target": "unity/SourceAssets/Models/tablet.glb",
+    "sha256": "679cdbc92554318611d95571144615bed06fcaa33ca22ad3a76560e802398bd2"
+  },
+  {
+    "id": "tablet",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/tablet.png",
+    "target": "unity/Assets/Resources/Icons/tablet.png",
+    "sha256": "f219fb9729b5ba12056a3f5aee3da2e3880ec5c3b3ffa653107e39cf711bd6a4"
+  },
+  {
+    "id": "keyboard",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/keyboard.glb",
+    "target": "unity/SourceAssets/Models/keyboard.glb",
+    "sha256": "c67530de6d1c52b8e80db8b4a12cb2b5e9882e07ae3d167c9f6c2788be982030"
+  },
+  {
+    "id": "keyboard",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/keyboard.png",
+    "target": "unity/Assets/Resources/Icons/keyboard.png",
+    "sha256": "8b344717dbff3c5370476380b08d314081232cb794284aededb03ca555e05d08"
+  },
+  {
+    "id": "monitor",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/monitor.glb",
+    "target": "unity/SourceAssets/Models/monitor.glb",
+    "sha256": "d160094dd782b21f4baafc2ca4d03b9cb27f00fc3db17e8b20eb353509bd0267"
+  },
+  {
+    "id": "monitor",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/monitor.png",
+    "target": "unity/Assets/Resources/Icons/monitor.png",
+    "sha256": "1fc1c7e3b7c0a84491fe897fd5388c8d4011607f7adf63d8fd205c53e29ff6d6"
+  },
+  {
+    "id": "television",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/television.glb",
+    "target": "unity/SourceAssets/Models/television.glb",
+    "sha256": "ac09f2743554be99585e537935641802319d74975114083f8d1d6e67dadc8732"
+  },
+  {
+    "id": "television",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/television.png",
+    "target": "unity/Assets/Resources/Icons/television.png",
+    "sha256": "13e2ce718ea36d0bf3f610c301770f6760cfc6af84adac210371dfc498cb69b0"
+  },
+  {
+    "id": "printer",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/printer.glb",
+    "target": "unity/SourceAssets/Models/printer.glb",
+    "sha256": "2cbbd50052cd9cbcc62041aea09cdd8a930bd98a3f81c2d498fe53819431b1e4"
+  },
+  {
+    "id": "printer",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/printer.png",
+    "target": "unity/Assets/Resources/Icons/printer.png",
+    "sha256": "d44e7634e7965b0ebd3b7ca7b8d203459f2ccbe54be7bfc370a3baad7213b710"
+  },
+  {
+    "id": "router",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/router.glb",
+    "target": "unity/SourceAssets/Models/router.glb",
+    "sha256": "50104923a1dc6b00ff22cf4c4bb21024478a2f240e3f1f7e0262e3ca53769aa3"
+  },
+  {
+    "id": "router",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/router.png",
+    "target": "unity/Assets/Resources/Icons/router.png",
+    "sha256": "657f61ade8807b7940d075554ac13674ac9d32a967ad91f7150440dc9aec20f9"
+  },
+  {
+    "id": "usbdrive",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/usbdrive.glb",
+    "target": "unity/SourceAssets/Models/usbdrive.glb",
+    "sha256": "6b7503266ffea85dc5d315636b2aba51c51f5a595669a47ea97630151732838d"
+  },
+  {
+    "id": "usbdrive",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/usbdrive.png",
+    "target": "unity/Assets/Resources/Icons/usbdrive.png",
+    "sha256": "d3a467901fc4eedf2c63417695b6463e7cc088275004df36cac03c81d7de3f6f"
+  },
+  {
+    "id": "powerbank",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/powerbank.glb",
+    "target": "unity/SourceAssets/Models/powerbank.glb",
+    "sha256": "4ff95fb2e6ca1fb8af421d1e241df4cc94f3e87f239998d8f9a2f1f4ded25362"
+  },
+  {
+    "id": "powerbank",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/powerbank.png",
+    "target": "unity/Assets/Resources/Icons/powerbank.png",
+    "sha256": "9d37d3b508c8a2414c1c709f67392e2cbd0bbb073d239cd749480a56705cf446"
+  },
+  {
+    "id": "microphone",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/microphone.glb",
+    "target": "unity/SourceAssets/Models/microphone.glb",
+    "sha256": "3fb873c08d31177bda035d90c233e407dee78e8754ef259425dc069e7049d2e0"
+  },
+  {
+    "id": "microphone",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/microphone.png",
+    "target": "unity/Assets/Resources/Icons/microphone.png",
+    "sha256": "e2b6d4484b7a2d2122cf365b5dff1d73e2728d8686d0ce4fe1480ed6a95b9b5c"
+  },
+  {
+    "id": "gamepad",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/gamepad.glb",
+    "target": "unity/SourceAssets/Models/gamepad.glb",
+    "sha256": "6539b01e6b61ca536ae5e5ddda50bc93cd658823904b2eb086f569aea8dc16c1"
+  },
+  {
+    "id": "gamepad",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/gamepad.png",
+    "target": "unity/Assets/Resources/Icons/gamepad.png",
+    "sha256": "43a9f03fed40d7be482df21d32ba9d7c2ffcc14dbcff33ca3232cd4ebe7b001d"
+  },
+  {
+    "id": "flashlight",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/flashlight.glb",
+    "target": "unity/SourceAssets/Models/flashlight.glb",
+    "sha256": "233b665642046280df80f6845b59a3edf35e0a2e27307cf7c1ca118b2c72a529"
+  },
+  {
+    "id": "flashlight",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/flashlight.png",
+    "target": "unity/Assets/Resources/Icons/flashlight.png",
+    "sha256": "98f6bdd0eb57b2f4b9014662217c5ca3cdff245dde48546ef312b75463496f39"
+  },
+  {
+    "id": "alarmclock",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/models/alarmclock.glb",
+    "target": "unity/SourceAssets/Models/alarmclock.glb",
+    "sha256": "40bd1177ced6d48fe86be113b37c85749967e6628ccdf009310472dbb5abbe9a"
+  },
+  {
+    "id": "alarmclock",
+    "theme": "electronics",
+    "source": "assets-3d/candidates/themes-21-20261024/icons/alarmclock.png",
+    "target": "unity/Assets/Resources/Icons/alarmclock.png",
+    "sha256": "dfd1d08b4307235f8c61ac5aaa2eeed78f99312471bb7d073dcd39d7a915c909"
+  }
+]

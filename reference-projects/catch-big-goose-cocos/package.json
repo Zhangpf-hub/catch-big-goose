@@ -1,0 +1,6 @@
+{
+  "name": "catch-the-goose",
+  "uuid": "a6ec9ad5-5e48-49f0-b642-45cc697ef652",
+  "creator": { "version": "3.8.8" },
+  "dependencies": { "jolt-physics": "^1.1.0" }
+}

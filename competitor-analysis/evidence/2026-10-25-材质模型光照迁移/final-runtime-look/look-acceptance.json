@@ -1,0 +1,14 @@
+{
+    "build": "20261025-R3",
+    "scope": "Actual native mobile-profile shader rendering; no connected phone FPS or exact source shader equivalence claimed.",
+    "passed": true,
+    "models": 80,
+    "fourViews": 320,
+    "icons": 160,
+    "sourceMaterials": 102,
+    "glassMaterials": 9,
+    "colorOnlyMaterials": 11,
+    "materialDifference": 0.014436551369726658,
+    "shadowDifference": 0.0024434125516563656,
+    "errors": []
+}

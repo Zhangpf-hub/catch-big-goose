@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtpapertree",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperTree\\GTPaperTree.blend",
+  "sourceTriangles": 1728,
+  "triangles": 1728,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.2753212451934814,
+    1.7333378791809082,
+    1.4395699501037598
+  ],
+  "normalizedDimensions": [
+    0.7357603311538696,
+    1.0,
+    0.8305189609527588
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

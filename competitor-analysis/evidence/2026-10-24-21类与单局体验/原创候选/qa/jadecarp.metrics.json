@@ -1,0 +1,28 @@
+{
+  "id": "jadecarp",
+  "theme": "antique",
+  "triangles": 1224,
+  "vertices": 624,
+  "blenderBounds": [
+    1.0,
+    0.38640081882476807,
+    0.6338889598846436
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 29244,
+  "sha256": "1b497ed87c298743a86e647490e516775af6a55bfee338a084dfca0b16fdac82",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

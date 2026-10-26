@@ -1,0 +1,39 @@
+{
+  "models": [
+    {
+      "id": "scene_barbecue",
+      "materials": 4,
+      "triangles": 3316,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 1
+    },
+    {
+      "id": "scene_breakfast",
+      "materials": 2,
+      "triangles": 1152,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 0
+    },
+    {
+      "id": "scene_countryside",
+      "materials": 2,
+      "triangles": 1658,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 1
+    },
+    {
+      "id": "scene_grocery",
+      "materials": 1,
+      "triangles": 3754,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 1
+    },
+    {
+      "id": "scene_toys",
+      "materials": 2,
+      "triangles": 612,
+      "glassMaterials": 0,
+      "colorOnlyMaterials": 2
+    }
+  ]
+}

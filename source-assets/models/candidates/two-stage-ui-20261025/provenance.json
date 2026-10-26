@@ -1,0 +1,44 @@
+{
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\123\\.codex\\generated_images\\01a16bd0-8fc1-74a1-ac57-1e45c185e153\\exec-5ded1d16-b523-40f3-ac89-fb3cdb47feb9.png",
+  "purpose": "Production UI sprites; no generated gameplay screenshots",
+  "regions": {
+    "remove": [
+      0,
+      0,
+      535,
+      628
+    ],
+    "match": [
+      540,
+      0,
+      1020,
+      628
+    ],
+    "shuffle": [
+      1024,
+      0,
+      1536,
+      628
+    ],
+    "yellow-button": [
+      0,
+      637,
+      512,
+      938
+    ],
+    "blue-button": [
+      512,
+      637,
+      1024,
+      938
+    ],
+    "ivory-panel": [
+      1024,
+      637,
+      1536,
+      938
+    ]
+  },
+  "prompt": "Single transparent six-cell sprite sheet: remove/storage box, magnet/match, shuffle arrows, yellow button, blue button, ivory inset panel; chunky plastic casual-game stickers, warm brown outline and white rim; no text."
+}

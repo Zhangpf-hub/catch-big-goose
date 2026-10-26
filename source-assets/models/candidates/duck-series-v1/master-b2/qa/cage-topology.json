@@ -1,0 +1,8 @@
+{
+  "skinVertices": 422,
+  "skinFaces": 440,
+  "skinQuads": 400,
+  "separateHeadPrimitive": false,
+  "skinComponents": 1,
+  "note": "Head, neck, torso and tail are one authored cage. Bill/eyes/wings/feet are separate closed attached surfaces."
+}

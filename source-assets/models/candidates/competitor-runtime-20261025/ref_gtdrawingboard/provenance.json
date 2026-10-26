@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtdrawingboard",
+  "sourceId": "GTDrawingBoard",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTDrawingBoard\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTDrawingBoard.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "a1f1a67e7fc5e0a85d60a479adbc7aeddb584486616fa12b5e38a2bb85aa06cc"
+}

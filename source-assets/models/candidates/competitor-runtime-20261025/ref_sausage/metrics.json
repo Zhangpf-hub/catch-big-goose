@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_sausage",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Sausage\\Sausage.blend",
+  "sourceTriangles": 612,
+  "triangles": 612,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.6418766975402832,
+    0.8148781061172485,
+    0.38773390650749207
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.49630898237228394,
+    0.23615288734436035
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

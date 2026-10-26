@@ -1,0 +1,23 @@
+{
+  "id": "duck-yoyo",
+  "triangles": 3508,
+  "dimensions": [
+    0.7470215559005737,
+    0.5796435475349426,
+    0.9999999403953552
+  ],
+  "sourceCenter": [
+    -0.013963595032691956,
+    -0.07197768986225128,
+    0.4066464900970459
+  ],
+  "sourceExtent": 0.8004149198532104,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 82872,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

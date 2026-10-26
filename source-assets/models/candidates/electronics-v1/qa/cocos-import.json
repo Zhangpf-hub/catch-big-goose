@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "creatorVersion": "3.8.8",
+  "scope": "actual Creator metadata, mesh/prefab/material library output and icon import; no in-game candidate UI test",
+  "models": [
+    {
+      "id": "camera",
+      "modelUuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696",
+      "prefabUuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@f7495",
+      "materialUuid": "8c796c9c-8b8a-460a-ac8b-ce78d0666696@38c51",
+      "iconUuid": "447a4ff0-7f49-4f43-bea4-89a2a157dedf",
+      "triangles": 3496,
+      "meshRendererCount": 1,
+      "albedoTexture": true,
+      "normalsAndUV": true,
+      "alphaIcon": true,
+      "status": "passed"
+    },
+    {
+      "id": "handheld",
+      "modelUuid": "29f512ea-aede-47d7-875d-052c63865251",
+      "prefabUuid": "29f512ea-aede-47d7-875d-052c63865251@ab4d2",
+      "materialUuid": "29f512ea-aede-47d7-875d-052c63865251@3d307",
+      "iconUuid": "fdc391cc-1a2b-4f48-a2c3-6810d6c1dd05",
+      "triangles": 4048,
+      "meshRendererCount": 1,
+      "albedoTexture": true,
+      "normalsAndUV": true,
+      "alphaIcon": true,
+      "status": "passed"
+    },
+    {
+      "id": "headphones",
+      "modelUuid": "7add8f6f-de28-465e-81cd-be15fc5b4890",
+      "prefabUuid": "7add8f6f-de28-465e-81cd-be15fc5b4890@3480d",
+      "materialUuid": "7add8f6f-de28-465e-81cd-be15fc5b4890@0da80",
+      "iconUuid": "983bdc71-016f-4905-bed4-e7188c602bd4",
+      "triangles": 2388,
+      "meshRendererCount": 1,
+      "albedoTexture": true,
+      "normalsAndUV": true,
+      "alphaIcon": true,
+      "status": "passed"
+    },
+    {
+      "id": "laptop",
+      "modelUuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c",
+      "prefabUuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@fd296",
+      "materialUuid": "d37b41ec-81d3-4fdb-923b-4ed0939cf17c@26c4b",
+      "iconUuid": "9da1f352-f5d5-4894-afc4-0b40e0e209fc",
+      "triangles": 3316,
+      "meshRendererCount": 1,
+      "albedoTexture": true,
+      "normalsAndUV": true,
+      "alphaIcon": true,
+      "status": "passed"
+    },
+    {
+      "id": "phone",
+      "modelUuid": "e8abc44a-225e-4d81-a35c-6bdb9fabf48e",
+      "prefabUuid": "e8abc44a-225e-4d81-a35c-6bdb9fabf48e@480a6",
+      "materialUuid": "e8abc44a-225e-4d81-a35c-6bdb9fabf48e@ba5c5",
+      "iconUuid": "83a275bc-9ac2-489d-b34f-be4a13338326",
+      "triangles": 2636,
+      "meshRendererCount": 1,
+      "albedoTexture": true,
+      "normalsAndUV": true,
+      "alphaIcon": true,
+      "status": "passed"
+    }
+  ]
+}

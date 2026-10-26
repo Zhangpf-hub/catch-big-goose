@@ -1,0 +1,153 @@
+{
+    "unityVersion": "2022.3.62f3",
+    "scope": "Isolated Unity editor: imported FBX/materials, baked skin vertices and manual PhysX simulation. Not production game/tray/match or homepage acceptance.",
+    "passed": true,
+    "productionGameVerified": false,
+    "homepageReplaced": false,
+    "bodyCount": 45,
+    "sleepingAfter15Seconds": 45,
+    "sleepingAfterRemoval": 44,
+    "maximumSpeedAfter15Seconds": 0.0,
+    "maxSpeedAfterRemoval": 0.0,
+    "models": [
+        {
+            "id": "duck-eggtart",
+            "shader": "Standard",
+            "visualHash": "a6414d1a2ff5998645fb69b10fd67588c2d8653c6213fd43257c4a50053ac37d",
+            "collisionHash": "e9fb706d8e02e45d18778b88ac67d57d223f881f7df89f5c5b405359dce8a27a",
+            "triangles": 3752,
+            "renderers": 1,
+            "subMeshes": 1,
+            "materials": 1,
+            "collisionTriangles": 106,
+            "size": {
+                "x": 0.8843943476676941,
+                "y": 0.9999999403953552,
+                "z": 0.560350775718689
+            },
+            "center": {
+                "x": 0.0,
+                "y": -2.3283062589030125e-8,
+                "z": 2.7755575615628915e-15
+            },
+            "hullVertexDistance": 0.0,
+            "baseColorSrgb": true,
+            "metallicLinear": true,
+            "metallicEnabled": true,
+            "convexRaycast": true
+        },
+        {
+            "id": "duck-steelcup",
+            "shader": "Standard",
+            "visualHash": "aed6507aa210efd1d389720a5ff58f50e5915f8bfbe73ee49eb953b6ccb466d7",
+            "collisionHash": "fc4cc2878afd49ed224614612f14d270164737f6229fa749c7c70964c4dac3fe",
+            "triangles": 3940,
+            "renderers": 1,
+            "subMeshes": 1,
+            "materials": 1,
+            "collisionTriangles": 106,
+            "size": {
+                "x": 1.0,
+                "y": 0.7619637250900269,
+                "z": 0.5726429224014282
+            },
+            "center": {
+                "x": 0.0,
+                "y": 1.1641531294515062e-8,
+                "z": -1.3877787807814457e-15
+            },
+            "hullVertexDistance": 0.0,
+            "baseColorSrgb": true,
+            "metallicLinear": true,
+            "metallicEnabled": true,
+            "convexRaycast": true
+        },
+        {
+            "id": "duck-numberblock",
+            "shader": "Standard",
+            "visualHash": "c8ff63554cfad6f1bd1c14491578b3b0f2208eadc09a42a8c99dd524deffa6ca",
+            "collisionHash": "9561d95be7abffc01780d1e9a1dadbfc33e02d494d6e11e2098913a844d9a4bd",
+            "triangles": 3820,
+            "renderers": 1,
+            "subMeshes": 1,
+            "materials": 1,
+            "collisionTriangles": 104,
+            "size": {
+                "x": 1.0,
+                "y": 0.8691062927246094,
+                "z": 0.4598658084869385
+            },
+            "center": {
+                "x": 0.0,
+                "y": 2.3283062589030125e-8,
+                "z": -2.7755575615628915e-15
+            },
+            "hullVertexDistance": 0.0,
+            "baseColorSrgb": true,
+            "metallicLinear": true,
+            "metallicEnabled": true,
+            "convexRaycast": true
+        }
+    ],
+    "clips": [
+        {
+            "name": "duck-b2-rig|duck_click",
+            "seconds": 0.5666667222976685,
+            "maximumVertexMotion": 0.12262745201587677,
+            "returnToRestError": 0.0,
+            "movingVertices": 2722
+        },
+        {
+            "name": "duck-b2-rig|duck_idle",
+            "seconds": 2.0,
+            "maximumVertexMotion": 0.012214233167469502,
+            "returnToRestError": 0.0,
+            "movingVertices": 1391
+        },
+        {
+            "name": "duck-b2-rig|duck_greet",
+            "seconds": 1.3000000715255738,
+            "maximumVertexMotion": 0.23446062207221986,
+            "returnToRestError": 0.0,
+            "movingVertices": 1131
+        }
+    ],
+    "checks": [
+        "Required Unity editor version",
+        "duck-eggtart imported triangle budget",
+        "duck-eggtart FBX triangle count matches validated GLB",
+        "duck-eggtart one mesh renderer/submesh/material",
+        "duck-eggtart unit extent and centered import",
+        "duck-eggtart actual texture color spaces and material remap",
+        "duck-eggtart collision hull aligned with actual imported geometry",
+        "duck-eggtart PhysX convex cooking and direct raycast",
+        "duck-steelcup imported triangle budget",
+        "duck-steelcup FBX triangle count matches validated GLB",
+        "duck-steelcup one mesh renderer/submesh/material",
+        "duck-steelcup unit extent and centered import",
+        "duck-steelcup actual texture color spaces and material remap",
+        "duck-steelcup collision hull aligned with actual imported geometry",
+        "duck-steelcup PhysX convex cooking and direct raycast",
+        "duck-numberblock imported triangle budget",
+        "duck-numberblock FBX triangle count matches validated GLB",
+        "duck-numberblock one mesh renderer/submesh/material",
+        "duck-numberblock unit extent and centered import",
+        "duck-numberblock actual texture color spaces and material remap",
+        "duck-numberblock collision hull aligned with actual imported geometry",
+        "duck-numberblock PhysX convex cooking and direct raycast",
+        "Mother imports an actual skinned mesh",
+        "All three original actions imported",
+        "duck-b2-rig|duck_click changes actual Unity baked mesh vertices",
+        "duck-b2-rig|duck_click returns to rest",
+        "duck-b2-rig|duck_idle changes actual Unity baked mesh vertices",
+        "duck-b2-rig|duck_idle returns to rest",
+        "duck-b2-rig|duck_greet changes actual Unity baked mesh vertices",
+        "duck-b2-rig|duck_greet returns to rest",
+        "All 45 mixed props remain in arena after 15 seconds",
+        "At least 40/45 props naturally sleep after 15 seconds; maximum speed below .15 m/s",
+        "Dense pile ray reaches an actual rigidbody",
+        "Support removal leaves all remaining props inside arena",
+        "Remaining props naturally settle after support removal"
+    ],
+    "errors": []
+}

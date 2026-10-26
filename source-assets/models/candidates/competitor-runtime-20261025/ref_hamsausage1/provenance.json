@@ -1,0 +1,9 @@
+{
+  "id": "ref_hamsausage1",
+  "sourceId": "HamSausage1",
+  "scene": "GroceryStore",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\HamSausage1\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/GroceryStore/HamSausage1.prefab",
+  "bundle": "levelgrocerystoreobjprefab_assets_part1_c5ae02dc8706f065a89b9c5e485787bc.bundle",
+  "sourceSha256": "bdb322e257b66007d283ecb542b76df98c4262a8e8c0499c0cc8ea993cd5b79e"
+}

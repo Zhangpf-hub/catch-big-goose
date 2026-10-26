@@ -1,0 +1,79 @@
+  (func $j5670 (type $t3) (param $p0 i32) (result i32)
+    i32.const 5139751
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951296 ;; ABPackManager_TypeInfo
+      call $j922
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 3963584 ;; TimerManager_TypeInfo
+      call $j922
+      i32.const 5139751
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3951296 ;; ABPackManager_TypeInfo
+    i32.load
+    call $j923
+    block $B1
+      i32.const 0
+      call $j3370 ;; ABPackManager$$IsUseEnergyRes
+      i32.eqz
+      if $I2
+        i32.const 3963584 ;; TimerManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 1
+        local.set $p0
+        i32.const 3963584 ;; TimerManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=64
+        i32.const 0
+        i32.gt_s
+        br_if $B1
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 1
+        call $j14377 ;; NetDataManager$$get_FirstFree
+        br_if $B1
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 5142651
+        i32.load8_u
+        i32.eqz
+        if $I3
+          i32.const 3959288 ;; NetDataManager_TypeInfo
+          call $j922
+          i32.const 5142651
+          i32.const 1
+          i32.store8
+        end
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        i32.load
+        call $j923
+        i32.const 3959288 ;; NetDataManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=32
+        i32.load offset=136
+        i32.const 1
+        call $j14376 ;; NetDataManager$$get_RealFreeLevelMaxCount
+        i32.lt_s
+        return
+      end
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 20103
+      i32.const 0
+      call $j41843 ;; NetDataManager$$GetResource
+      i32.const 0
+      i32.gt_s
+      local.set $p0
+    end
+    local.get $p0
+    return)

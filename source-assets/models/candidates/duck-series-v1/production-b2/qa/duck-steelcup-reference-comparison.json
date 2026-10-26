@@ -1,0 +1,53 @@
+{
+  "id": "duck-steelcup",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_SteelCup/Goose_SteelCup.glb",
+  "sourceSha256": "af9e6d4d99c4a7c16f2775fe4e8a348dc883f53b930435a8ff34d2c4f95f7882",
+  "originalWorldDimensions": [
+    1.7720379829406738,
+    1.9766364097595215,
+    1.5194019079208374
+  ],
+  "uniformScale": 0.5059099362242652,
+  "normalizedWorldDimensions": [
+    0.8964915871620178,
+    0.9999999403953552,
+    0.7686805129051208
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

@@ -1,0 +1,43 @@
+{
+  "anatomyTriangles": 2272,
+  "propRatio": 1,
+  "headNeckReduced": false,
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1678
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Cracked egg shell",
+      "triangles": 380
+    },
+    {
+      "name": "Visible warm egg interior",
+      "triangles": 392
+    }
+  ]
+}

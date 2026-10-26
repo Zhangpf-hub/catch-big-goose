@@ -1,0 +1,41 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BBQMushroom\\tex_6713141871699598120.png",
+      "uvMin": [
+        0.0422259122133255,
+        0.030402975156903267
+      ],
+      "uvMax": [
+        0.9566842317581177,
+        0.9743667840957642
+      ],
+      "alphaOverTint": true
+    },
+    {
+      "color": [
+        0.8396226167678833,
+        0.6392220854759216,
+        0.4475346803665161,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.125,
+        0.0
+      ],
+      "uvMax": [
+        0.8546178340911865,
+        1.0
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_bbqmushroom\\albedo.png"
+}

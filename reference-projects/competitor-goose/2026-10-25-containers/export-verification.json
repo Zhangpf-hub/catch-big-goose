@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "scene_barbecue",
+      "sourceTriangles": 3316,
+      "exportedTriangles": 3316,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 5,
+      "uvPreserved": true
+    },
+    {
+      "id": "scene_breakfast",
+      "sourceTriangles": 1152,
+      "exportedTriangles": 1152,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "scene_countryside",
+      "sourceTriangles": 1658,
+      "exportedTriangles": 1658,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "scene_toys",
+      "sourceTriangles": 612,
+      "exportedTriangles": 612,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "scene_grocery",
+      "sourceTriangles": 3754,
+      "exportedTriangles": 3754,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    }
+  ]
+}

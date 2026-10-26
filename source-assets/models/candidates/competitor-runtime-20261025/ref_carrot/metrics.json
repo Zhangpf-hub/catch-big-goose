@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_carrot",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Carrot\\Carrot.blend",
+  "sourceTriangles": 432,
+  "triangles": 432,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7181692123413086,
+    1.8271207809448242,
+    0.49874070286750793
+  ],
+  "normalizedDimensions": [
+    0.3930606245994568,
+    1.0,
+    0.27296537160873413
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

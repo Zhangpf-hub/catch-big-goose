@@ -1,0 +1,18 @@
+{
+  "id": "duck-numberblock",
+  "triangles": 3328,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    1.0,
+    0.462200403213501,
+    0.9463675022125244
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "passed": true
+}

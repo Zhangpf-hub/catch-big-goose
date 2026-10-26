@@ -1,0 +1,53 @@
+{
+  "id": "duck-eggtart",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/model-review-v1/models/duck-eggtart/duck-eggtart.glb",
+  "sourceSha256": "62990f147ebb7cf5ec8738b4feae95e87e561d405b488f8403e357be9238dfdf",
+  "originalWorldDimensions": [
+    0.8084796071052551,
+    0.6029964089393616,
+    1.0
+  ],
+  "uniformScale": 1.0,
+  "normalizedWorldDimensions": [
+    0.8084796071052551,
+    0.6029964089393616,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

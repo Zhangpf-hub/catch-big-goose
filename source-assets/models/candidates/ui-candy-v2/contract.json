@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "source": "Code-authored SVG; high-density rasterization and Lanczos downsample",
+  "width": 256,
+  "height": 192,
+  "pixelsPerUnit": 100,
+  "pixelsPerUnitMultiplier": 2,
+  "borders": {
+    "yellow-button": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "blue-button": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "ivory-panel": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "coral-button": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "mint-button": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "lavender-button": [
+      64,
+      64,
+      64,
+      64
+    ]
+  },
+  "uiCompression": "RGBA32 lossless",
+  "filter": "Trilinear with mipmaps",
+  "note": "Corners and white/brown rims never enter the stretched center. Labels and prop illustrations remain separate."
+}

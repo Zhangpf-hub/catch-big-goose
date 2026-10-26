@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtcrocodile",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTCrocodile\\GTCrocodile.blend",
+  "sourceTriangles": 1986,
+  "triangles": 1986,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.2671422958374023,
+    1.851438045501709,
+    2.4753522872924805
+  ],
+  "normalizedDimensions": [
+    0.9158867597579956,
+    0.7479493021965027,
+    1.0
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

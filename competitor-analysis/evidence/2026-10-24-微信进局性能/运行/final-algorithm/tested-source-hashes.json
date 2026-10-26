@@ -1,0 +1,21 @@
+{
+  "GooseGame.cs": "18b6bf4edde9c107cb59682e549a848937e25234a03bf25c2b7d536467076d24",
+  "GooseColliderProfile.cs": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79",
+  "GooseLevelPolicy.cs": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2",
+  "GooseDepthPolicy.cs": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d",
+  "GooseRules.cs": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee",
+  "GooseRuntimePerformance.cs": "ef92e5e970d541323e4469a88ff825352461a2d514dc2c33a078f7391e14e55d",
+  "GoosePerformanceCounters.cs": "41c1657697cad11c2352bef63b08ea6b8a2568633758923332373f1c9a75ef87",
+  "GooseHud.cs": "6b092536622a2a612e86dc9b201eb76ae079381a88603bd635f51ac81731105c",
+  "GooseAcceptance.cs": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920",
+  "GooseGeneration.cs": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0",
+  "GoosePileDepth.cs": "89a95d352cba6c4c88ecff82695b2f4e2585c113632ea075ffded2335ee8508e",
+  "GooseVideo.cs": "1482830805c7d04f68c349269d09e5abeb7c5318665288a0b30b60f2bfdd0619",
+  "GooseWeChatPlatform.cs": "7ba36e2b124faae42192ace73149b04c83a2cddc8555cf04c8cea122e0c87891",
+  "GooseAlgorithmAcceptance.cs": "5fabef4cd91783d5a20cc19fd26ceba69cff07ab20f57a1eb24ff3cb9517cfc6",
+  "GooseItem.cs": "b8535357addb58411026b3979107e6ca45353d7083b7c248026d83aa8aede78d",
+  "GooseExperienceAcceptance.cs": "c51cf85d47b593b5603aa531937e63344206c4e57f4e16e9d5e011f5856b38dd",
+  "GooseRoundProfiler.cs": "547f8de28dc982d13d145a44dfc80bda6b2b63454306af5b8c8532ec8c4d2acf",
+  "GoosePerformanceAcceptance.cs": "65c047bbd94abb8063b7129dc5aec76039dc0011cf36e6c3826ee982ed545c9b",
+  "GooseAssetCache.cs": "8179dff7380c20219a9f4cc0be295ca0b9dc698c2e07c75237a66e54d2dce144"
+}

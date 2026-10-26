@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtstickerbook",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTStickerBook\\GTStickerBook.blend",
+  "sourceTriangles": 1932,
+  "triangles": 1932,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.7148172855377197,
+    2.6769585609436035,
+    0.8195301294326782
+  ],
+  "normalizedDimensions": [
+    0.6405841708183289,
+    0.9999999403953552,
+    0.30614224076271057
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

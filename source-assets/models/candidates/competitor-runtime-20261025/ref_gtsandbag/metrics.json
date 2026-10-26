@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtsandbag",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTSandbag\\GTSandbag.blend",
+  "sourceTriangles": 1256,
+  "triangles": 1256,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.502643346786499,
+    1.6482231616973877,
+    1.7350808382034302
+  ],
+  "normalizedDimensions": [
+    0.8660365343093872,
+    0.9499403238296509,
+    1.0
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

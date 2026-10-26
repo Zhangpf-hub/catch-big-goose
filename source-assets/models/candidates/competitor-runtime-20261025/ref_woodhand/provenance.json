@@ -1,0 +1,9 @@
+{
+  "id": "ref_woodhand",
+  "sourceId": "WoodHand",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\WoodHand\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/WoodHand.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part1_5181798df32f95196365c0e9e6ad2c5e.bundle",
+  "sourceSha256": "864439c89ed1f4aa0f442147b7372af593bab541ef2a035d184ac7d8a8d072e3"
+}

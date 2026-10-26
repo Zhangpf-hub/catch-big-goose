@@ -1,0 +1,776 @@
+{
+  "appId": "wxb98ac240fd74b0e3",
+  "date": "2026-10-25",
+  "purpose": "User-requested local project replacement; original competitor source and hashes retained.",
+  "unityPyVersion": "1.25.4",
+  "sources": [
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbarbecueobjprefab_assets__72a69c35c772575b0456de55b9990197.bundle",
+      "bytes": 272917,
+      "sha256": "daad20c1c91f7203ff33e906e4f2017eb3dc623b5089682c6398daec34c4b54b"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbarbecueobjprefab_assets_part1_87321b017438e0acbbda80d993e64809.bundle",
+      "bytes": 623348,
+      "sha256": "696b835c559744fd789fea371d76505a1b67350aed784238cace5df9ccfca25f"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+      "bytes": 626897,
+      "sha256": "baf4525c98eb238830675bee2990908278dc255b398fb6eef8eafdca512cb51d"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbreakfastobjprefab_assets__835b65343c480715b13b20401bc8491d.bundle",
+      "bytes": 239839,
+      "sha256": "237b1a0643ab39c0e14f7213d4cb3d2bfa173acc403de4cf1f35612a360b430f"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbreakfastobjprefab_assets_part1_3cdb7bf9e295314f501ccfc21ef41cbf.bundle",
+      "bytes": 339681,
+      "sha256": "c8ad6b2153cdba84b10658a4fc3f4b7ebc9158abe39c1d90a267403e34275d04"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelbreakfastobjprefab_assets_part2_2598409845f1ae47bdaccd4705da9ac7.bundle",
+      "bytes": 548016,
+      "sha256": "5e83e07a53a9e45d10b614144ff516645efcd6a80a9519eeb84879a39b61a89a"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelcountrysideobjprefab_assets__37a8cd1871982c8b9e9b516ad6caa820.bundle",
+      "bytes": 191902,
+      "sha256": "b0721c58472e61bfc4e8c38f6c11e37ab22c80707c3adafaa6b084b68e474a91"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelcountrysideobjprefab_assets_part1_5181798df32f95196365c0e9e6ad2c5e.bundle",
+      "bytes": 328782,
+      "sha256": "92cbbbad679a958aee07387d4cd2dd093988c4377e437a04e970b6c079171df0"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+      "bytes": 927987,
+      "sha256": "5ed6557c8b91f6d4bf523e5be1db1c8c1a1948cb057289c7cf77c1c1926c9e12"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+      "bytes": 2758894,
+      "sha256": "eac9260cfd063b12f7f5895c2196ee37a283517002da513374ce00ecb2decace"
+    },
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelgrocerystoreobjprefab_assets_part1_c5ae02dc8706f065a89b9c5e485787bc.bundle",
+      "bytes": 546018,
+      "sha256": "16438edf85f5dce138924db576dc779e2fc4080e1f9309391e9c8f65cd74e8ea"
+    }
+  ],
+  "models": [
+    {
+      "id": "BBQSkewers2",
+      "triangles": 760,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQSkewers2/source.json",
+      "sourceSha256": "6fdc753e73c680a1147e66cda9d5d907099caf7371044e406b010731a96a7661"
+    },
+    {
+      "id": "GrilledCorn",
+      "triangles": 514,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GrilledCorn/source.json",
+      "sourceSha256": "3a02e23f4341d21cf25e37bcd0f7bdd8d8337d4c4be2422975662ee30033f627"
+    },
+    {
+      "id": "BBQHotdog",
+      "triangles": 832,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQHotdog/source.json",
+      "sourceSha256": "a5fda7a3d83abd63056611c52d7bccb4ecf1dda07ec9c169000111b79aa3c3e8"
+    },
+    {
+      "id": "FriedDumpling",
+      "triangles": 570,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/FriedDumpling/source.json",
+      "sourceSha256": "e030830076d705075b45b803b70339cb3f1c937f066eb0d944c2d4cc5c7357de"
+    },
+    {
+      "id": "GrilledFish2",
+      "triangles": 560,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GrilledFish2/source.json",
+      "sourceSha256": "1405993e715f5b70f304bc487d934d930069705573ec849ae09bb3a1e7a9984f"
+    },
+    {
+      "id": "PotatoSkewers",
+      "triangles": 224,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/PotatoSkewers/source.json",
+      "sourceSha256": "7c581dd7cf8e3b4aacccb3e1a02d3ad8aabbf4ec2146d5b94801761536d37140"
+    },
+    {
+      "id": "RedShrimp",
+      "triangles": 1295,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/RedShrimp/source.json",
+      "sourceSha256": "a658984a640c7fecc062b95060cd4ead5b8009f00cfed94228c72f53c0645c56"
+    },
+    {
+      "id": "RibsBig",
+      "triangles": 762,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/RibsBig/source.json",
+      "sourceSha256": "b7c5a303f6215cfee20c2d07681293248b80d42ad8e8528a2b7407aa5e6f1520"
+    },
+    {
+      "id": "Scallop",
+      "triangles": 1029,
+      "meshes": 2,
+      "materials": 2,
+      "source": "models/Scallop/source.json",
+      "sourceSha256": "a20bf1a0938f310723c9b43bc02778ea7bbd5d89f7878ef83a363dba1211ead0"
+    },
+    {
+      "id": "Shrimp",
+      "triangles": 604,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Shrimp/source.json",
+      "sourceSha256": "2b83042d5b2d89d71592ef2cd324858901cc369d1fad6b264c07288de2cac924"
+    },
+    {
+      "id": "BBQMushroom",
+      "triangles": 660,
+      "meshes": 3,
+      "materials": 2,
+      "source": "models/BBQMushroom/source.json",
+      "sourceSha256": "b02e48b6461962505d9dd1d21590593d2c31f7923c2c2aa7e24b43adb3b3804f"
+    },
+    {
+      "id": "BBQPotato",
+      "triangles": 1382,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQPotato/source.json",
+      "sourceSha256": "b076b834c0675e092be8320c64648b64343514769bf323b3ba729ca92a78c3c9"
+    },
+    {
+      "id": "BBQSausage",
+      "triangles": 490,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQSausage/source.json",
+      "sourceSha256": "2dddfc54d658593c8c9c7274100806b5c85831acec8165b9eacbe972086ffa3b"
+    },
+    {
+      "id": "BBQSkewers1",
+      "triangles": 904,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQSkewers1/source.json",
+      "sourceSha256": "1e00e5ab835d601edf427a999d18cc5c1662b78ecfc2dec1d935cc8c27284d5a"
+    },
+    {
+      "id": "BBQToast",
+      "triangles": 220,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BBQToast/source.json",
+      "sourceSha256": "6c0f12b245a7fee62641dc756a8cac8dfca03c30cd3d72a73ebd9bbc7fb7baec"
+    },
+    {
+      "id": "ChickenLeg",
+      "triangles": 1008,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/ChickenLeg/source.json",
+      "sourceSha256": "77ff6765f40f101830de484b5385926f8e502f14350bb351fceee22a415b540a"
+    },
+    {
+      "id": "RoastChicken",
+      "triangles": 932,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/RoastChicken/source.json",
+      "sourceSha256": "e1353a2fa16448fef93d8f91fd43349c91cf2a25e41f294cc9d3c9d214f12d4a"
+    },
+    {
+      "id": "BFFriedDoughStick",
+      "triangles": 576,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFFriedDoughStick/source.json",
+      "sourceSha256": "abb66c8238975dc665aeb53207f755474906b441db9b5302e3bf12c89290bd49"
+    },
+    {
+      "id": "BFShrimpShaoMai",
+      "triangles": 984,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFShrimpShaoMai/source.json",
+      "sourceSha256": "9ae19f75a03c973c51c3972ee86514fa98e46a4dee47da48582f86a80a2d986b"
+    },
+    {
+      "id": "BFSoyMilk",
+      "triangles": 1380,
+      "meshes": 3,
+      "materials": 3,
+      "source": "models/BFSoyMilk/source.json",
+      "sourceSha256": "896a1ee5300b1cedf1a2bf5bcdfbe0f1ff89123cc6441232fc4568f76e3017d7"
+    },
+    {
+      "id": "BFEggHalf",
+      "triangles": 398,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFEggHalf/source.json",
+      "sourceSha256": "97ebed08fa9e2744b7989436d65c78fc8bded3384695586a927a503dbc4e9621"
+    },
+    {
+      "id": "BFFaGao",
+      "triangles": 578,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFFaGao/source.json",
+      "sourceSha256": "e14c0af0d0c4b8be788c2d26c96c1ac31d9a32bcf634b7d55de5b12c429b6ab4"
+    },
+    {
+      "id": "BFFriedSteamedBun",
+      "triangles": 444,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFFriedSteamedBun/source.json",
+      "sourceSha256": "f977acbea97489a6bad24875dffef46c65b4ef629ec326bac70d382569c868db"
+    },
+    {
+      "id": "BFPumpkinPie",
+      "triangles": 528,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFPumpkinPie/source.json",
+      "sourceSha256": "87ed3c7817a6de628ef2992de3f023adb84b576d79ef570fff92f6e67f2b1504"
+    },
+    {
+      "id": "BFSesameBall",
+      "triangles": 528,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFSesameBall/source.json",
+      "sourceSha256": "542ddf0df16eaa8cb14e1b567b2790d931cbb08f12348e6a0aa73f7da0578798"
+    },
+    {
+      "id": "BFXiaoLongBao",
+      "triangles": 2006,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/BFXiaoLongBao/source.json",
+      "sourceSha256": "58519147f9013a258a866fc890b969723b25d113385dfbaa06f5fe9ad16daf8f"
+    },
+    {
+      "id": "BFCornJuice",
+      "triangles": 904,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/BFCornJuice/source.json",
+      "sourceSha256": "91291eff1b6367f09c3b7679dc7b18ff4e8f3447ccbdab8f5b359f5ad0fedf5b"
+    },
+    {
+      "id": "BFFlowerRoll",
+      "triangles": 690,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFFlowerRoll/source.json",
+      "sourceSha256": "36e46054aeab48f8d394a06e01dbcc39e960e212992baebf4d76dc53ff8195a7"
+    },
+    {
+      "id": "BFShaoMai",
+      "triangles": 1544,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFShaoMai/source.json",
+      "sourceSha256": "d6f48968118a1901a2908dd0231a21126187843abe219247af4e84d41115896a"
+    },
+    {
+      "id": "BFSoupDumpling",
+      "triangles": 1104,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFSoupDumpling/source.json",
+      "sourceSha256": "6164b29e4b18b78de291e50fbf9ebf7cce4afdc5946b356fdedf3e15533a2d25"
+    },
+    {
+      "id": "BFSpringRoll",
+      "triangles": 588,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFSpringRoll/source.json",
+      "sourceSha256": "840914eff70a415e964ad4d9c5fd78de8711a7bcdfbcc76424aa562284ad57d2"
+    },
+    {
+      "id": "BFSweetCorn",
+      "triangles": 926,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFSweetCorn/source.json",
+      "sourceSha256": "5467e8be9cf53f74d30a92f0deff7715a29f70652c84a05a4e03c96c756c918f"
+    },
+    {
+      "id": "BFTofuPudding",
+      "triangles": 720,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/BFTofuPudding/source.json",
+      "sourceSha256": "9d27df5d2eef0bacf9cf672fb03115a6c28dd38b0d4adac50baf60d566f64dcd"
+    },
+    {
+      "id": "BFWoWoTou",
+      "triangles": 800,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/BFWoWoTou/source.json",
+      "sourceSha256": "a9b7799f7aea4ee4f87a8c687ccd120cb9fa7d616300cf6d2dac8e802a0f08ef"
+    },
+    {
+      "id": "Orange",
+      "triangles": 480,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Orange/source.json",
+      "sourceSha256": "6198736b693d5bcf3dc9dcbeb3ea88e51857839002c51d5e982713fb4ea7c280"
+    },
+    {
+      "id": "Potato",
+      "triangles": 524,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Potato/source.json",
+      "sourceSha256": "63c9dc413c53d37d98b9a05f14794a0ef5b497df504a2608327fc03d2cb45e90"
+    },
+    {
+      "id": "SaltedEgg",
+      "triangles": 180,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/SaltedEgg/source.json",
+      "sourceSha256": "50d7fa99d20a5242cae4edf1dafb80575e051b4dab48681424793632843a7018"
+    },
+    {
+      "id": "PepperFresh",
+      "triangles": 238,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/PepperFresh/source.json",
+      "sourceSha256": "f2a9b2c2a92fa54807697c28feb3b226c9a373b36eb333b146e1118c25eeeb17"
+    },
+    {
+      "id": "Sausage",
+      "triangles": 612,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Sausage/source.json",
+      "sourceSha256": "ad150047d755582fc4a778e820c63d8c2964acece018e9c45fdf662db3c9b7de"
+    },
+    {
+      "id": "WatermelonHalf",
+      "triangles": 540,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/WatermelonHalf/source.json",
+      "sourceSha256": "d3155b89315c8bd87ccc0204ed40974e4a7542fd0a92a412654e2916ec9c2507"
+    },
+    {
+      "id": "WatermelonSlice",
+      "triangles": 900,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/WatermelonSlice/source.json",
+      "sourceSha256": "e560e9886bae585fcb2ff7d143b23b940396d50df765ef70398fbf9d626a0b17"
+    },
+    {
+      "id": "WoodHand",
+      "triangles": 1156,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/WoodHand/source.json",
+      "sourceSha256": "864439c89ed1f4aa0f442147b7372af593bab541ef2a035d184ac7d8a8d072e3"
+    },
+    {
+      "id": "Apple",
+      "triangles": 510,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Apple/source.json",
+      "sourceSha256": "fd75e8647336b99bd9a8ce0a9188a2abc2e6b6742673f80b3e1d0b69c4119848"
+    },
+    {
+      "id": "Carrot",
+      "triangles": 432,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Carrot/source.json",
+      "sourceSha256": "0c06668b9259d973d2789411c964908bc1b010c133c4ff3e27a5ea6d25588f36"
+    },
+    {
+      "id": "ChinaBowl",
+      "triangles": 1000,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/ChinaBowl/source.json",
+      "sourceSha256": "b39f96282a9a3e190d269e2db00530e4e1de5e292e51dfded5b5626990b7cd3b"
+    },
+    {
+      "id": "Corn",
+      "triangles": 1043,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Corn/source.json",
+      "sourceSha256": "c7978ffd03c5346775e6ecdcb955f34586d0d3ced79fd1a2df9fb86e07ac4ae3"
+    },
+    {
+      "id": "Fan",
+      "triangles": 840,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Fan/source.json",
+      "sourceSha256": "4a1c6ac761e97383cd90853d13775dd09d296116851d5136f6b4183a89281710"
+    },
+    {
+      "id": "Flashlight2",
+      "triangles": 1356,
+      "meshes": 2,
+      "materials": 2,
+      "source": "models/Flashlight2/source.json",
+      "sourceSha256": "2e8ad31b9ef0d833d975d29afec17e92adfd6baf7d1b2d8fa09c9873b1445d95"
+    },
+    {
+      "id": "SpinningTop",
+      "triangles": 888,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/SpinningTop/source.json",
+      "sourceSha256": "1d80b0f013d560bab19a0190111d1666f071bd6a26c6dea715070a6ca80cc372"
+    },
+    {
+      "id": "ThermosBottle",
+      "triangles": 1526,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/ThermosBottle/source.json",
+      "sourceSha256": "9234403110f63b1b6853b316d34049b9caa562d2de4c25353dc9691628ebd263"
+    },
+    {
+      "id": "WindOilBottle",
+      "triangles": 1608,
+      "meshes": 2,
+      "materials": 4,
+      "source": "models/WindOilBottle/source.json",
+      "sourceSha256": "c618e5df89831067c9df3894120bd85f7c223d29041ee67e34a54b71e41bf454"
+    },
+    {
+      "id": "GTBottleCandy",
+      "triangles": 1936,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTBottleCandy/source.json",
+      "sourceSha256": "0f764a090ae85c14d119f46fabc880bde261ced50270afce82b1f1b72612e66a"
+    },
+    {
+      "id": "GTBubbleGlue",
+      "triangles": 1664,
+      "meshes": 1,
+      "materials": 3,
+      "source": "models/GTBubbleGlue/source.json",
+      "sourceSha256": "abb0afbc4bb28708fe9e56daf8b0f7b570ca5524a62bf27d3892d71f20b76d67"
+    },
+    {
+      "id": "GTBubbleWater",
+      "triangles": 2172,
+      "meshes": 3,
+      "materials": 4,
+      "source": "models/GTBubbleWater/source.json",
+      "sourceSha256": "b98dd50bc790c39e8e9fad1e170fde9017b31feab43d841129745351a657d855"
+    },
+    {
+      "id": "GTCrocodile",
+      "triangles": 1986,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTCrocodile/source.json",
+      "sourceSha256": "f62e25c49cd9d738f8b1d76dceeb3176e71e5dd07b4f49d37c053163c5d2eb5d"
+    },
+    {
+      "id": "GTDinosaur",
+      "triangles": 1996,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTDinosaur/source.json",
+      "sourceSha256": "a4878e9a5e02efda4f7f693bb4cd2389b31f961206465dde7418acc38d86c43f"
+    },
+    {
+      "id": "GTDrawingBoard",
+      "triangles": 712,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTDrawingBoard/source.json",
+      "sourceSha256": "a1f1a67e7fc5e0a85d60a479adbc7aeddb584486616fa12b5e38a2bb85aa06cc"
+    },
+    {
+      "id": "GTFruitEraser",
+      "triangles": 348,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTFruitEraser/source.json",
+      "sourceSha256": "6cc207adb892e1ba1d30be6e6a4c6c07190c8a4885942988b904f55c772e8900"
+    },
+    {
+      "id": "GTGooseStamp",
+      "triangles": 1024,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTGooseStamp/source.json",
+      "sourceSha256": "79e6c9a551653e670153bbeba7c5afd6378f1c8e102022deef9b20ac70929b0a"
+    },
+    {
+      "id": "GTKaleidoscope",
+      "triangles": 920,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTKaleidoscope/source.json",
+      "sourceSha256": "85c2d749b23ad784fb572e08402bdcde757a13f0d0173355b12c21652de6d7f5"
+    },
+    {
+      "id": "GTLaserPen",
+      "triangles": 904,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTLaserPen/source.json",
+      "sourceSha256": "64f257cf58cf3151eafd5147a64c3bda0a6cf6e6446d6be9c395c857a86e1f02"
+    },
+    {
+      "id": "GTMagicCubeL",
+      "triangles": 1196,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTMagicCubeL/source.json",
+      "sourceSha256": "ace52b1f0c29e168a47c3d153c90761d85e0ab9da62858d85c464db1392e1a29"
+    },
+    {
+      "id": "GTPaperBoat",
+      "triangles": 380,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperBoat/source.json",
+      "sourceSha256": "4912f3d55d8f17dd9d1381ea0ce0904fc6033e3fb7d3ecb00cfaa0665aac43eb"
+    },
+    {
+      "id": "GTPaperFortune",
+      "triangles": 280,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperFortune/source.json",
+      "sourceSha256": "ea3813e83a17097166c638d70cca56e2b03bf55fc37782bcd61925f9e40afaa1"
+    },
+    {
+      "id": "GTPaperStar",
+      "triangles": 126,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperStar/source.json",
+      "sourceSha256": "549d2bba7b2122db720563884afc9106455cd6fe30dc0d04a6bcc2c560de4c9d"
+    },
+    {
+      "id": "GTPaperTree",
+      "triangles": 1728,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperTree/source.json",
+      "sourceSha256": "c66a6741a48c9723e653468368ac19a58a32d306b4b08b9fdeb94245c890f386"
+    },
+    {
+      "id": "GTPlanePen",
+      "triangles": 2336,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPlanePen/source.json",
+      "sourceSha256": "239969bc2b540d64bc44fcd8e65831447c165e996c2cbeeaadf356894846debd"
+    },
+    {
+      "id": "GTPlasterDeer",
+      "triangles": 1990,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPlasterDeer/source.json",
+      "sourceSha256": "b0d0de39efcb5548047909413848d9b7ec7eb4cbfd35354625684a3e6db11f75"
+    },
+    {
+      "id": "GTPlaydough",
+      "triangles": 2472,
+      "meshes": 2,
+      "materials": 3,
+      "source": "models/GTPlaydough/source.json",
+      "sourceSha256": "c220a8ddaf5627536d5e07838534d314b93024447835029b5ed470ee5b6f5ef9"
+    },
+    {
+      "id": "GTRaceCar",
+      "triangles": 1988,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTRaceCar/source.json",
+      "sourceSha256": "2ba22c7e828f8b284da64564fdb4a1a0c7a9d8d1cc4865a6ed41a58f818db713"
+    },
+    {
+      "id": "GTRingCandy",
+      "triangles": 948,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTRingCandy/source.json",
+      "sourceSha256": "b637037b4adf87a95d8fb3b87e6725867f611af7f11868b93543cf3b1d4db399"
+    },
+    {
+      "id": "GTSandbag",
+      "triangles": 1256,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTSandbag/source.json",
+      "sourceSha256": "276d5e6e952df66c9cfb47a6d481da40f7a037862da4231452aaa338e575269f"
+    },
+    {
+      "id": "GTSmileDoll",
+      "triangles": 1680,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTSmileDoll/source.json",
+      "sourceSha256": "99d7b58d85aa9372a9313f4e458bf9c97a321d283d806b76d15c606a58bf03a3"
+    },
+    {
+      "id": "GTStickerBook",
+      "triangles": 1932,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTStickerBook/source.json",
+      "sourceSha256": "3c6e81267ff68c6e12614e550ec75ade73e6ba960e3253e20f55c63897f296a6"
+    },
+    {
+      "id": "GTUmbrella",
+      "triangles": 1512,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTUmbrella/source.json",
+      "sourceSha256": "f8eac4de7f80d50825354a9c4f0913cf260f5c412bab29ddb3b072eeffb73b34"
+    },
+    {
+      "id": "GTWallClimber",
+      "triangles": 1404,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTWallClimber/source.json",
+      "sourceSha256": "1241403aaa27a3ff02835f9a1b0285e684e840ab138f2cc5bc6157b5591826ec"
+    },
+    {
+      "id": "GTWaterGame",
+      "triangles": 1918,
+      "meshes": 1,
+      "materials": 3,
+      "source": "models/GTWaterGame/source.json",
+      "sourceSha256": "ba6dcfe5ae236f93565b593b3ec2b1849fc945118599624d34c8d5e5d161497a"
+    },
+    {
+      "id": "GTWaterGun",
+      "triangles": 3104,
+      "meshes": 3,
+      "materials": 4,
+      "source": "models/GTWaterGun/source.json",
+      "sourceSha256": "f39bbab90b3e5d1ed41868e4d78b7b682a6107e6ff6ee473fed2aea17a8a2735"
+    },
+    {
+      "id": "CS_Garlic",
+      "triangles": 932,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/CS_Garlic/source.json",
+      "sourceSha256": "3c9ccc311df87f95cff186440130b5919d885757d68b30e5f35b0dff805c10b8"
+    },
+    {
+      "id": "Bananas",
+      "triangles": 1106,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Bananas/source.json",
+      "sourceSha256": "a82cd296cd03032144257e72d2796e2c1636795846edcd36fc27e6ab9af29b36"
+    },
+    {
+      "id": "ChewingGum",
+      "triangles": 140,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/ChewingGum/source.json",
+      "sourceSha256": "3dfcd8f6e10b830a7bef5d06ff76ade5ee7271fe6beda8b1a00ca5bd370582d1"
+    },
+    {
+      "id": "Garlic",
+      "triangles": 932,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/Garlic/source.json",
+      "sourceSha256": "e3875a3999bc5cff9548f61424c76e1caa5f480b1565395e0f4e44b8a6cad043"
+    },
+    {
+      "id": "HamSausage1",
+      "triangles": 669,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/HamSausage1/source.json",
+      "sourceSha256": "bdb322e257b66007d283ecb542b76df98c4262a8e8c0499c0cc8ea993cd5b79e"
+    },
+    {
+      "id": "HamSausage2",
+      "triangles": 1073,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/HamSausage2/source.json",
+      "sourceSha256": "71640bcd371a8d3d0e97bdbfdd63d4472bbce6b058c1c551c99ea3d5f54f6786"
+    },
+    {
+      "id": "SoySauce",
+      "triangles": 792,
+      "meshes": 2,
+      "materials": 3,
+      "source": "models/SoySauce/source.json",
+      "sourceSha256": "ca9fa6b9752ca02505a78b0c4ba97de1434d40c2dadb604f7599dd34e8810040"
+    },
+    {
+      "id": "ToyCar",
+      "triangles": 1818,
+      "meshes": 1,
+      "materials": 3,
+      "source": "models/ToyCar/source.json",
+      "sourceSha256": "80f5cde80f0758cc1a3a78d9a3a0e94dd92f738126a777632a9a8e37cf5c7ab6"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "Goose_GTCapsulePen",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTCapsulePen.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_GTCraftPunch",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTCraftPunch.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_GTNumberBlock",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTNumberBlock.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_GTYoYo",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTYoYo.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    }
+  ],
+  "priorBatch": null
+}

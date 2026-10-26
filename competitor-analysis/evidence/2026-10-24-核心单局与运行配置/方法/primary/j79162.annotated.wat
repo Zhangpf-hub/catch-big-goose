@@ -1,0 +1,83 @@
+  (func $j79162 (type $t4) (param $p0 i32)
+    i32.const 5139661
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3993992 ;; Method$System.Collections.Generic.HashSet<ValueTuple<string, int>>..ctor()
+      call $j922
+      i32.const 3944976 ;; System.Collections.Generic.HashSet<ValueTuple<string, int>>_TypeInfo
+      call $j922
+      i32.const 3962304 ;; SpLevelManager_TypeInfo
+      call $j922
+      i32.const 4063796 ;; 
+      call $j922
+      i32.const 5139661
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 4063796 ;; 
+    i32.load
+    i32.store offset=4
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 4063796 ;; 
+    i32.load
+    drop
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store offset=8
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store offset=12
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store offset=16
+    i32.const 3944976 ;; System.Collections.Generic.HashSet<ValueTuple<string, int>>_TypeInfo
+    i32.load
+    call $j924
+    local.set $p0
+    local.get $p0
+    i32.const 3993992 ;; Method$System.Collections.Generic.HashSet<ValueTuple<string, int>>..ctor()
+    i32.load
+    call $j1214
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.get $p0
+    i32.store offset=32
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3944976 ;; System.Collections.Generic.HashSet<ValueTuple<string, int>>_TypeInfo
+    i32.load
+    call $j924
+    local.set $p0
+    local.get $p0
+    i32.const 3993992 ;; Method$System.Collections.Generic.HashSet<ValueTuple<string, int>>..ctor()
+    i32.load
+    call $j1214
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.get $p0
+    i32.store offset=36
+    i32.const 3962304 ;; SpLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop)

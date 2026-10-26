@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtsmiledoll",
+  "sourceId": "GTSmileDoll",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTSmileDoll\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTSmileDoll.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "99d7b58d85aa9372a9313f4e458bf9c97a321d283d806b76d15c606a58bf03a3"
+}

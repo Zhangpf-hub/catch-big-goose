@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "bracelet",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bracelet\\bracelet.fbx",
+  "sourceTriangles": 2940,
+  "triangles": 2940,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7816616296768188,
+    1.0,
+    0.17559868097305298
+  ],
+  "normalizedDimensions": [
+    0.7816616296768188,
+    1.0,
+    0.17559856176376343
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

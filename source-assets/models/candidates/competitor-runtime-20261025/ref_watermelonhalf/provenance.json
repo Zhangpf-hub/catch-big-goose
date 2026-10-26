@@ -1,0 +1,9 @@
+{
+  "id": "ref_watermelonhalf",
+  "sourceId": "WatermelonHalf",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\WatermelonHalf\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/WatermelonHalf.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part1_5181798df32f95196365c0e9e6ad2c5e.bundle",
+  "sourceSha256": "d3155b89315c8bd87ccc0204ed40974e4a7542fd0a92a412654e2916ec9c2507"
+}

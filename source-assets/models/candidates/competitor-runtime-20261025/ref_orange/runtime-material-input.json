@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "OrangeMa",
+      "color": [
+        1.0,
+        0.9292452931404114,
+        0.9292452931404114,
+        1
+      ],
+      "texture": "tex_4854335026670375988.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

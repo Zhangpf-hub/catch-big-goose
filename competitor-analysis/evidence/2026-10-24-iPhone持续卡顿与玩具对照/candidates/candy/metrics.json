@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "candy",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\candy\\candy.fbx",
+  "sourceTriangles": 416,
+  "triangles": 416,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.4531250596046448,
+    0.447916716337204
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.453125,
+    0.4479166567325592
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ref_saltedegg",
+  "sourceId": "SaltedEgg",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\SaltedEgg\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/SaltedEgg.prefab",
+  "bundle": "levelcountrysideobjprefab_assets__37a8cd1871982c8b9e9b516ad6caa820.bundle",
+  "sourceSha256": "50d7fa99d20a5242cae4edf1dafb80575e051b4dab48681424793632843a7018"
+}

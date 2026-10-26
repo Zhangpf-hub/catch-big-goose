@@ -1,0 +1,53 @@
+{
+  "id": "duck-capsulepen",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTCapsulePen/Goose_GTCapsulePen.glb",
+  "sourceSha256": "ed64668c4f33c437fc358f512a17d3655dca42a64f0e06f00e8a91f207f7be6c",
+  "originalWorldDimensions": [
+    1.3330717086791992,
+    1.1305524110794067,
+    0.9157001972198486
+  ],
+  "uniformScale": 0.7501471927498896,
+  "normalizedWorldDimensions": [
+    0.9999999403953552,
+    0.8480806946754456,
+    0.6869099140167236
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

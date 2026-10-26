@@ -1,0 +1,9 @@
+{
+  "id": "ref_chewinggum",
+  "sourceId": "ChewingGum",
+  "scene": "GroceryStore",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\ChewingGum\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/GroceryStore/ChewingGum.prefab",
+  "bundle": "levelgrocerystoreobjprefab_assets_part1_c5ae02dc8706f065a89b9c5e485787bc.bundle",
+  "sourceSha256": "3dfcd8f6e10b830a7bef5d06ff76ade5ee7271fe6beda8b1a00ca5bd370582d1"
+}

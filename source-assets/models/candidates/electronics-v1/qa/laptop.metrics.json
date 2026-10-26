@@ -1,0 +1,27 @@
+{
+  "id": "laptop",
+  "triangles": 3316,
+  "vertices": 1728,
+  "blenderBounds": [
+    1.0,
+    0.7211952209472656,
+    0.7087869048118591
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "bytes": 77540,
+  "materials": 1,
+  "textures": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "gltfAxes": "Y-up, front +Z",
+  "blenderVersion": "4.5.14 LTS",
+  "roundtripPassed": true
+}

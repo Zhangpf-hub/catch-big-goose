@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "cupcake",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cupcake\\cupcake.fbx",
+  "sourceTriangles": 5951,
+  "triangles": 3999,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.20758900046348572,
+    0.19244709610939026,
+    0.2865380644798279
+  ],
+  "normalizedDimensions": [
+    0.7206906080245972,
+    0.6711074113845825,
+    0.9999999403953552
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

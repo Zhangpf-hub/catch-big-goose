@@ -1,0 +1,135 @@
+[
+  {
+    "id": 398,
+    "name": "Content",
+    "children": [
+      {
+        "id": 451,
+        "name": "ContentBG"
+      },
+      {
+        "id": 468,
+        "name": "NewContentBGPanel"
+      },
+      {
+        "id": 407,
+        "name": "ContentPointList"
+      },
+      {
+        "id": 526,
+        "name": "StoreContentBG"
+      },
+      {
+        "id": 497,
+        "name": "StorePointList"
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "name": "ContentPointList",
+    "children": [
+      {
+        "id": 456,
+        "name": "Point"
+      },
+      {
+        "id": 381,
+        "name": "Point (1)"
+      },
+      {
+        "id": 421,
+        "name": "Point (2)"
+      },
+      {
+        "id": 366,
+        "name": "Point (3)"
+      },
+      {
+        "id": 443,
+        "name": "Point (4)"
+      },
+      {
+        "id": 417,
+        "name": "Point (5)"
+      },
+      {
+        "id": 426,
+        "name": "Point (6)"
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "name": "ContentPointList",
+    "children": [
+      {
+        "id": 360,
+        "name": "Point"
+      },
+      {
+        "id": 404,
+        "name": "Point (1)"
+      },
+      {
+        "id": 393,
+        "name": "Point (2)"
+      },
+      {
+        "id": 361,
+        "name": "Point (3)"
+      },
+      {
+        "id": 433,
+        "name": "Point (4)"
+      },
+      {
+        "id": 457,
+        "name": "Point (5)"
+      },
+      {
+        "id": 452,
+        "name": "Point (6)"
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "name": "ContentPointList",
+    "children": [
+      {
+        "id": 446,
+        "name": "Point"
+      },
+      {
+        "id": 375,
+        "name": "Point (1)"
+      },
+      {
+        "id": 410,
+        "name": "Point (2)"
+      },
+      {
+        "id": 390,
+        "name": "Point (3)"
+      },
+      {
+        "id": 395,
+        "name": "Point (4)"
+      },
+      {
+        "id": 428,
+        "name": "Point (5)"
+      },
+      {
+        "id": 455,
+        "name": "Point (6)"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "name": "StoreContentBG",
+    "children": []
+  }
+]

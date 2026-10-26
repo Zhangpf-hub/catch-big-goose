@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfsesameball",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFSesameBall\\BFSesameBall.blend",
+  "sourceTriangles": 528,
+  "triangles": 528,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7145918607711792,
+    0.7121188640594482,
+    0.7126787304878235
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.996539294719696,
+    0.9973227977752686
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "LevelManager$$GetUnit",
+    "expected": "iiiiii",
+    "actual": "viiiiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__2",
+    "expected": "vifi",
+    "actual": "vifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__4",
+    "expected": "vifi",
+    "actual": "vifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__6",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__8",
+    "expected": "iii",
+    "actual": "viii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__10",
+    "expected": "fii",
+    "actual": "fii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__11",
+    "expected": "vifi",
+    "actual": "vifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__12",
+    "expected": "fii",
+    "actual": "fii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__13",
+    "expected": "vifi",
+    "actual": "vifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__14",
+    "expected": "fii",
+    "actual": "fii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__15",
+    "expected": "vifi",
+    "actual": "vifi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<CombieAnim>d__21$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelObjAnimManager$$GetCheckWinTimeAfterCombine",
+    "expected": "fii",
+    "actual": "fii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "ShowCreateAnimMod.<ShowAnim>d__9$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  }
+]

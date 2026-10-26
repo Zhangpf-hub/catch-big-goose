@@ -1,0 +1,62 @@
+[
+  {
+    "id": "scene_barbecue",
+    "triangles": 3316,
+    "parts": 4,
+    "materials": 4,
+    "dimensions": [
+      0.6416606307029724,
+      0.9999999403953552,
+      0.8948611617088318
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "scene_breakfast",
+    "triangles": 1152,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.9999998807907104,
+      1.0,
+      0.4835270941257477
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "scene_countryside",
+    "triangles": 1658,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.27133575081825256,
+      1.0,
+      0.24643748998641968
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "scene_grocery",
+    "triangles": 3754,
+    "parts": 1,
+    "materials": 1,
+    "dimensions": [
+      1.0,
+      0.9876447916030884,
+      0.4776843786239624
+    ],
+    "glbRoundtrip": true
+  },
+  {
+    "id": "scene_toys",
+    "triangles": 612,
+    "parts": 2,
+    "materials": 2,
+    "dimensions": [
+      0.9999998807907104,
+      0.9999999403953552,
+      0.31273153424263
+    ],
+    "glbRoundtrip": true
+  }
+]

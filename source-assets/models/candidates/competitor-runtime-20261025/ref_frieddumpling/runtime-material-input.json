@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "FriedDumplingMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_1247583589888344263.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

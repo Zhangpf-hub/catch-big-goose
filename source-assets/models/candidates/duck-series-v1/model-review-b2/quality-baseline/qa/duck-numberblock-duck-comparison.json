@@ -1,0 +1,53 @@
+{
+  "id": "duck-numberblock",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/model-review-b2/quality-baseline/models/duck-numberblock/duck-numberblock.glb",
+  "sourceSha256": "95f39ce70a950e580dd52c55c7e2924e31e8b217045630a03ae988c7c543f216",
+  "originalWorldDimensions": [
+    1.0,
+    0.45945432782173157,
+    0.8695063591003418
+  ],
+  "uniformScale": 1.0,
+  "normalizedWorldDimensions": [
+    1.0,
+    0.45945432782173157,
+    0.8695063591003418
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

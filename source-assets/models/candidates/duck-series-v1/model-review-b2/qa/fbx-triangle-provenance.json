@@ -1,0 +1,23 @@
+{
+  "method": "FBX exported from existing roundtrip GLB explicit triangles; original GLB and authored blends unchanged.",
+  "models": [
+    {
+      "id": "duck-eggtart",
+      "glbSha256": "b657c83435da8b0606c61794e0bc79bfa57bca5fe9ac95fe39180c5cd5bd2fd1",
+      "fbxSha256": "a6414d1a2ff5998645fb69b10fd67588c2d8653c6213fd43257c4a50053ac37d",
+      "triangles": 3752
+    },
+    {
+      "id": "duck-steelcup",
+      "glbSha256": "b3dc84c5384936a59c98e2b2e126c1b1397e89c245d8eca33df0a1c44864c325",
+      "fbxSha256": "aed6507aa210efd1d389720a5ff58f50e5915f8bfbe73ee49eb953b6ccb466d7",
+      "triangles": 3940
+    },
+    {
+      "id": "duck-numberblock",
+      "glbSha256": "e3908538fc7f9e02d6117babea29959fd3d3871c556a4730979f47e5e9a23409",
+      "fbxSha256": "c8ff63554cfad6f1bd1c14491578b3b0f2208eadc09a42a8c99dd524deffa6ca",
+      "triangles": 3820
+    }
+  ]
+}

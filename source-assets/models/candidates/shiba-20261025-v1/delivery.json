@@ -1,0 +1,26 @@
+{
+  "mascot": "shiba",
+  "date": "2026-10-25",
+  "status": "implemented_model_ready_for_visual_acceptance",
+  "engine": "Unity 2022.3.62f3",
+  "authoring": "Blender 4.5.14 LTS, original geometry",
+  "style": "clean red-tan and ivory painted plastic, no mottled coat",
+  "glbSha256": "0ef7755d7aa6649f57be582d9402468d1fe373653617a79c5bee21ea0927757b",
+  "glbBytes": 227228,
+  "trianglesGLB": 5000,
+  "trianglesUnity": 4998,
+  "gameplayChecks": 15,
+  "physicsSleepingBodies": 45,
+  "gameplayReport": "qa/run-20261025-003255/acceptance.json",
+  "hero": "renders/model-review.png",
+  "animation": "renders/animation-review.mp4",
+  "pile": "qa/run-20261025-003255/in-game-pile.png",
+  "tray": "qa/run-20261025-003255/in-game-tray.png",
+  "prefab": "unity/Assets/Mascots/Shiba/ShibaHome.prefab",
+  "scope": "Model, animations, reusable Unity prefab, collider, icon, scale and real gameplay QA. Main home scene and permanent theme catalogs unchanged.",
+  "allRequiredModelChecksPassed": true,
+  "notMeasured": [
+    "physical phone frame rate",
+    "homepage scene/music integration"
+  ]
+}

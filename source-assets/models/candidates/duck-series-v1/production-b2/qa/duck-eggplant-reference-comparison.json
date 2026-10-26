@@ -1,0 +1,53 @@
+{
+  "id": "duck-eggplant",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Eggplant/Goose_Eggplant.glb",
+  "sourceSha256": "9561b3486f59b741cccda36a4a5bd8822a6484c2a0465e42288c4a2c79a34b41",
+  "originalWorldDimensions": [
+    2.843363046646118,
+    2.510075569152832,
+    1.48361337184906
+  ],
+  "uniformScale": 0.35169620748203345,
+  "normalizedWorldDimensions": [
+    0.9999999403953552,
+    0.8827840089797974,
+    0.5217811465263367
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

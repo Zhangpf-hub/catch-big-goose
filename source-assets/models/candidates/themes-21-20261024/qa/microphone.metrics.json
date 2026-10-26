@@ -1,0 +1,28 @@
+{
+  "id": "microphone",
+  "theme": "electronics",
+  "triangles": 2092,
+  "vertices": 1054,
+  "blenderBounds": [
+    0.4596205949783325,
+    0.4596205949783325,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 48264,
+  "sha256": "3fb873c08d31177bda035d90c233e407dee78e8754ef259425dc069e7049d2e0",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

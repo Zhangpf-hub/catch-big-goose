@@ -1,0 +1,526 @@
+  (func $j74391 (type $t1) (param $p0 i32) (param $p1 i32) (result i32)
+    (local $l2 i32) (local $l3 i32) (local $l4 i32)
+    i32.const 5127077
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951304 ;; ADShareManager_TypeInfo
+      call $j922
+      i32.const 3951356 ;; ActionManager_TypeInfo
+      call $j922
+      i32.const 3955472 ;; GameManager_TypeInfo
+      call $j922
+      i32.const 3956632 ;; IGameModeLevelCtrl_TypeInfo
+      call $j922
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      call $j922
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      call $j922
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 3959324 ;; NetworkConfig_TypeInfo
+      call $j922
+      i32.const 3959696 ;; OnlineLevelManager_TypeInfo
+      call $j922
+      i32.const 3959844 ;; PVPManager_TypeInfo
+      call $j922
+      i32.const 3963584 ;; TimerManager_TypeInfo
+      call $j922
+      i32.const 5127077
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load offset=16
+    local.set $p1
+    block $B1
+      block $B2
+        block $B3
+          block $B4
+            block $B5
+              block $B6
+                block $B7
+                  local.get $p0
+                  i32.load offset=8
+                  br_table $B7 $B6 $B5 $B1
+                end
+                local.get $p0
+                i32.const -1
+                i32.store offset=8
+                i32.const 3951356 ;; ActionManager_TypeInfo
+                i32.load
+                call $j923
+                i32.const 3951356 ;; ActionManager_TypeInfo
+                i32.load
+                i32.load offset=92
+                i32.load offset=8
+                local.set $l2
+                local.get $l2
+                i32.eqz
+                br_if $B3
+                local.get $l2
+                local.get $p1
+                i32.load offset=200
+                i32.const 0
+                call $j1561
+                br $B3
+              end
+              local.get $p0
+              i32.const -1
+              i32.store offset=8
+              local.get $p1
+              i32.load8_u offset=56
+              i32.eqz
+              br_if $B4
+              i32.const 3963584 ;; TimerManager_TypeInfo
+              i32.load
+              call $j923
+              local.get $p0
+              i32.const 3963584 ;; TimerManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              i32.load offset=8
+              i32.store offset=12
+              i32.const 2
+              local.set $p1
+              br $B2
+            end
+            local.get $p0
+            i32.const -1
+            i32.store offset=8
+            br $B3
+          end
+          i32.const 3955472 ;; GameManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load8_u offset=4
+          i32.eqz
+          br_if $B3
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load8_u offset=36
+          br_if $B3
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          block $B8
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load offset=12
+            i32.const 3
+            i32.eq
+            if $I9
+              local.get $p1
+              i32.load offset=196
+              local.set $l2
+              i32.const 3959324 ;; NetworkConfig_TypeInfo
+              i32.load
+              call $j923
+              i32.const 0
+              call $j1521 ;; NetworkConfig$$get_TimeStamp
+              local.set $l3
+              i32.const 3959696 ;; OnlineLevelManager_TypeInfo
+              i32.load
+              call $j923
+              local.get $p1
+              i32.load offset=196
+              local.set $l4
+              local.get $l2
+              local.get $l3
+              i32.const 3959696 ;; OnlineLevelManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              i32.load offset=76
+              i32.sub
+              i32.sub
+              local.set $l2
+              local.get $p1
+              i32.const 0
+              local.get $l4
+              local.get $l2
+              local.get $l2
+              local.get $l4
+              i32.gt_s
+              select
+              local.get $l2
+              i32.const 0
+              i32.lt_s
+              select
+              i32.store offset=200
+              br $B8
+            end
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            call $j923
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load offset=12
+            i32.const 7
+            i32.eq
+            if $I10
+              local.get $p1
+              i32.load offset=196
+              local.set $l2
+              i32.const 3959324 ;; NetworkConfig_TypeInfo
+              i32.load
+              call $j923
+              i32.const 0
+              call $j1521 ;; NetworkConfig$$get_TimeStamp
+              local.set $l3
+              i32.const 3959844 ;; PVPManager_TypeInfo
+              i32.load
+              call $j923
+              local.get $p1
+              i32.load offset=196
+              local.set $l4
+              local.get $l2
+              local.get $l3
+              i32.const 3959844 ;; PVPManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              i32.load offset=52
+              i32.sub
+              i32.sub
+              local.set $l2
+              local.get $p1
+              i32.const 0
+              local.get $l4
+              local.get $l2
+              local.get $l2
+              local.get $l4
+              i32.gt_s
+              select
+              local.get $l2
+              i32.const 0
+              i32.lt_s
+              select
+              i32.store offset=200
+              br $B8
+            end
+            local.get $p1
+            local.get $p1
+            i32.load offset=200
+            i32.const 1
+            i32.sub
+            i32.store offset=200
+          end
+          i32.const 3951356 ;; ActionManager_TypeInfo
+          i32.load
+          call $j923
+          i32.const 3951356 ;; ActionManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load offset=8
+          local.set $l2
+          local.get $l2
+          if $I11
+            local.get $l2
+            local.get $p1
+            i32.load offset=200
+            i32.const 0
+            call $j1561
+          end
+          local.get $p1
+          i32.load offset=200
+          local.set $l2
+          local.get $l2
+          i32.const 0
+          i32.le_s
+          if $I12
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            call $j923
+            block $B13
+              i32.const 0
+              call $j2087 ;; LevelManager$$HasTwoPlayer
+              if $I14
+                local.get $p1
+                i32.const 1
+                i32.const 1
+                i32.const 0
+                call $j14627 ;; LevelManager$$BattleLose
+                br $B13
+              end
+              i32.const 3958052 ;; LevelManager_TypeInfo
+              i32.load
+              call $j923
+              i32.const 3958052 ;; LevelManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              i32.load offset=12
+              i32.const 3
+              i32.eq
+              if $I15
+                i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+                i32.load
+                drop
+                local.get $p1
+                i32.load offset=152
+                i32.load offset=12
+                i32.const 1
+                i32.lt_s
+                br_if $B13
+                i32.const 0
+                i32.const 0
+                i32.const 0
+                call $j6516 ;; GameManager$$GameLose
+                local.get $p1
+                i32.const 1
+                i32.const 0
+                call $j14618 ;; LevelManager$$PrepareLose
+                br $B13
+              end
+              i32.const 3958052 ;; LevelManager_TypeInfo
+              i32.load
+              call $j923
+              i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+              i32.load
+              drop
+              local.get $p1
+              i32.load offset=152
+              i32.load offset=12
+              local.set $l2
+              i32.const 3958052 ;; LevelManager_TypeInfo
+              i32.load
+              i32.load offset=92
+              i32.load offset=12
+              i32.const 7
+              i32.eq
+              if $I16
+                local.get $l2
+                i32.const 1
+                i32.lt_s
+                br_if $B13
+                i32.const 0
+                i32.const 0
+                i32.const 0
+                call $j6516 ;; GameManager$$GameLose
+                br $B13
+              end
+              local.get $l2
+              i32.const 1
+              i32.lt_s
+              br_if $B13
+              local.get $p1
+              i32.const 1
+              i32.const 0
+              call $j14618 ;; LevelManager$$PrepareLose
+            end
+            local.get $p1
+            i32.const 0
+            i32.store offset=200
+            i32.const 0
+            local.set $l2
+          end
+          i32.const 23
+          i32.const 3956632 ;; IGameModeLevelCtrl_TypeInfo
+          i32.load
+          local.get $p1
+          i32.load offset=384
+          local.get $l2
+          call $j1076
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          block $B17
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load8_u offset=36
+            br_if $B17
+            i32.const 3955472 ;; GameManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load8_u offset=4
+            i32.eqz
+            br_if $B17
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            call $j923
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load offset=12
+            br_if $B17
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            call $j923
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load offset=28
+            i32.const 2
+            i32.ne
+            br_if $B17
+            local.get $p1
+            i32.load offset=200
+            local.set $l2
+            local.get $p1
+            i32.load offset=196
+            local.set $l3
+            i32.const 3951304 ;; ADShareManager_TypeInfo
+            i32.load
+            call $j923
+            i32.const 1
+            local.get $l3
+            local.get $l2
+            i32.sub
+            i32.const 0
+            call $j50921 ;; ADShareManager$$CheckToolPackShow
+          end
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          block $B18
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load offset=12
+            br_if $B18
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            call $j923
+            i32.const 3958052 ;; LevelManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load offset=28
+            i32.const 2
+            i32.ne
+            br_if $B18
+            i32.const 3959288 ;; NetDataManager_TypeInfo
+            i32.load
+            call $j923
+            i32.const 5142651
+            i32.load8_u
+            i32.eqz
+            if $I19
+              i32.const 3959288 ;; NetDataManager_TypeInfo
+              call $j922
+              i32.const 5142651
+              i32.const 1
+              i32.store8
+            end
+            i32.const 3959288 ;; NetDataManager_TypeInfo
+            i32.load
+            call $j923
+            i32.const 3959288 ;; NetDataManager_TypeInfo
+            i32.load
+            i32.load offset=92
+            i32.load offset=32
+            i32.load offset=36
+            i32.load offset=8
+            i32.const 0
+            i32.gt_s
+            br_if $B18
+            local.get $p1
+            i32.load offset=208
+            local.set $l2
+            block $B20
+              block $B21
+                local.get $l2
+                i32.const 30
+                i32.le_s
+                if $I22
+                  local.get $l2
+                  i32.const 10
+                  i32.le_s
+                  if $I23
+                    local.get $l2
+                    i32.eqz
+                    br_if $B21
+                    local.get $l2
+                    i32.const 10
+                    i32.eq
+                    br_if $B21
+                    br $B20
+                  end
+                  local.get $l2
+                  i32.const 20
+                  i32.eq
+                  br_if $B21
+                  local.get $l2
+                  i32.const 30
+                  i32.eq
+                  br_if $B21
+                  br $B20
+                end
+                local.get $l2
+                i32.const 120
+                i32.le_s
+                if $I24
+                  local.get $l2
+                  i32.const 60
+                  i32.eq
+                  br_if $B21
+                  local.get $l2
+                  i32.const 120
+                  i32.eq
+                  br_if $B21
+                  br $B20
+                end
+                local.get $l2
+                i32.const 240
+                i32.eq
+                br_if $B21
+                local.get $l2
+                i32.const 480
+                i32.eq
+                br_if $B21
+                local.get $l2
+                i32.const 360
+                i32.ne
+                br_if $B20
+              end
+              local.get $l2
+              i32.const 0
+              call $j13413 ;; ThinkingManager$$LosePlayerTime
+              local.get $p1
+              i32.load offset=208
+              local.set $l2
+            end
+            local.get $p1
+            local.get $l2
+            i32.const 1
+            i32.add
+            i32.store offset=208
+          end
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          call $j923
+          i32.const 3958052 ;; LevelManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load offset=12
+          i32.const 3
+          i32.ne
+          br_if $B3
+          local.get $p1
+          i32.const 0
+          call $j43554 ;; LevelManager$$CheckOnlineUploadData
+        end
+        i32.const 3963584 ;; TimerManager_TypeInfo
+        i32.load
+        call $j923
+        local.get $p0
+        i32.const 3963584 ;; TimerManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=8
+        i32.store offset=12
+        i32.const 1
+        local.set $p1
+      end
+      local.get $p0
+      local.get $p1
+      i32.store offset=8
+      i32.const 1
+      local.set $l2
+    end
+    local.get $l2
+    return)

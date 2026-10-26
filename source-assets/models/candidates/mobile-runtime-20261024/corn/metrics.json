@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "corn",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\corn\\corn.fbx",
+  "sourceTriangles": 6576,
+  "triangles": 2994,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.6061517000198364,
+    0.616122841835022,
+    1.0
+  ],
+  "normalizedDimensions": [
+    0.6043074727058411,
+    0.6154220104217529,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

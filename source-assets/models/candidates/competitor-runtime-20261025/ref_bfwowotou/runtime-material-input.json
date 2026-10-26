@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "woWoTou",
+      "color": [
+        1.0,
+        0.962480902671814,
+        0.7882353067398071,
+        1
+      ],
+      "texture": "tex_-1259338174050132931.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

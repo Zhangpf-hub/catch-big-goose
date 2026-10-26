@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>鸭子 B 三款模型 · 同尺寸验收</title>
+<style>body{margin:0;background:#f4f2eb;color:#26393a;font:16px/1.8 'Microsoft YaHei',sans-serif}main{max-width:1120px;margin:auto;padding:30px 20px}h1{line-height:1.3}nav{display:flex;flex-wrap:wrap;gap:14px;margin:20px 0}a{color:#28604f}section{margin:32px 0}img{display:block;width:100%;height:auto;border-radius:12px}.status{display:inline-block;background:#e4eee2;padding:6px 14px;border-radius:7px}table{width:100%;border-collapse:collapse;background:#fff}td,th{text-align:left;padding:12px;border-bottom:1px solid #ddd}.note{border-left:3px solid #edb05d;padding:8px 15px;background:#fffaf0}summary{cursor:pointer;font-weight:600;margin:18px 0}small{color:#667575}</style>
+<main><small>实际模型评审 / 2026-10-25 / B 母版已获确认</small><h1>蛋挞鸭、钢杯鸭、积木鸭<br>与竞品同类模型，按同尺寸比较。</h1>
+<span class="status">造型验收未通过 · 仅保留问题对照</span>
+<p>每组左侧为竞品提取模型，右侧为原创鸭子 B。全部从实际 GLB 回读渲染，最长边统一为 1，包围盒居中，保持原比例；同视角使用相同正交镜头、灯光和分辨率，未按各自轮廓单独放大。</p>
+<nav><a href="#hero">三分之四</a><a href="#gameplay">游戏俯视</a><a href="#icons">小图对照</a><a href="#views">其他视角</a><a href="#files">模型文件</a></nav>
+<p class="note">竞品保留源模型保存姿态，基础色/PBR 材质为提取近似，未还原原游戏 Shader。此处验收的是模型效果与占形；尚未完成 Unity 导入、运行时碰撞、三消或手机性能验收。</p>
+<section id="hero"><h2>三分之四同尺寸对照</h2><a href="renders/comparison-hero.png"><img src="renders/comparison-hero.png" alt="三款同尺寸三分之四对照，左竞品右鸭子B"></a></section>
+<section id="gameplay"><h2>游戏俯视角同尺寸对照</h2><a href="renders/comparison-gameplay.png"><img src="renders/comparison-gameplay.png" alt="三款同尺寸游戏俯视对照"></a></section>
+<section id="icons"><h2>192 / 64px 图标对照</h2><p>点击原图可按原始像素查看。图标来自实际模型，均含透明通道。</p><a href="renders/thumbnail-comparison.png"><img src="renders/thumbnail-comparison.png" alt="实际模型192及64像素图标比较"></a></section>
+<section id="views"><h2>其他视角</h2><details><summary>正面</summary><img src="renders/comparison-front.png" alt="正面同尺寸对照"></details><details><summary>侧面</summary><img src="renders/comparison-side.png" alt="侧面同尺寸对照"></details><details><summary>背面</summary><img src="renders/comparison-back.png" alt="背面同尺寸对照"></details></section>
+<section id="files"><h2>模型交付</h2><table><thead><tr><th>模型</th><th>三角面</th><th>GLB</th><th>FBX</th><th>Blender 源文件</th></tr></thead><tbody>
+<tr><td>蛋挞鸭</td><td>3,672</td><td><a href="models/duck-eggtart/duck-eggtart.glb">GLB</a></td><td><a href="models/duck-eggtart/duck-eggtart.fbx">FBX</a></td><td><a href="source/duck-eggtart-authored.blend">可编辑源件</a> / <a href="source/duck-eggtart-static.blend">归一化模型</a></td></tr>
+<tr><td>钢杯鸭</td><td>3,706</td><td><a href="models/duck-steelcup/duck-steelcup.glb">GLB</a></td><td><a href="models/duck-steelcup/duck-steelcup.fbx">FBX</a></td><td><a href="source/duck-steelcup-authored.blend">可编辑源件</a> / <a href="source/duck-steelcup-static.blend">归一化模型</a></td></tr>
+<tr><td>积木鸭</td><td>3,328</td><td><a href="models/duck-numberblock/duck-numberblock.glb">GLB</a></td><td><a href="models/duck-numberblock/duck-numberblock.fbx">FBX</a></td><td><a href="source/duck-numberblock-authored.blend">可编辑源件</a> / <a href="source/duck-numberblock-static.blend">归一化模型</a></td></tr>
+</tbody></table><p>三款均为单网格、单材质、单 primitive、256px 配色图集，GLB 均小于 90 KiB。另含离线凸包代理及报告；这不代表运行时物理验证通过。</p></section>
+<section><h2>这轮请验收</h2><p>鸭子头嘴与细长颈部是否符合 B；三种外壳的融合、比例、同尺寸占宽和俯视辨识是否合适。请在聊天里直接给出逐件意见，本轮先停在这三款模型验收。</p></section>
+<small>未改正式首页、主题或历史竞品资料。其余17款未制作。</small></main></html>

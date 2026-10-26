@@ -1,0 +1,254 @@
+{
+  "appId": "wxb98ac240fd74b0e3",
+  "date": "2026-10-23",
+  "purpose": "Local generation/style reference only; not runtime assets",
+  "unityPyVersion": "1.25.4",
+  "sources": [
+    {
+      "file": "StreamingAssets\\aa\\WebGL\\levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+      "bytes": 2758894,
+      "sha256": "eac9260cfd063b12f7f5895c2196ee37a283517002da513374ce00ecb2decace"
+    }
+  ],
+  "models": [
+    {
+      "id": "GTBottleCandy",
+      "triangles": 1936,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTBottleCandy/source.json",
+      "sourceSha256": "0f764a090ae85c14d119f46fabc880bde261ced50270afce82b1f1b72612e66a"
+    },
+    {
+      "id": "GTBubbleGlue",
+      "triangles": 1664,
+      "meshes": 1,
+      "materials": 3,
+      "source": "models/GTBubbleGlue/source.json",
+      "sourceSha256": "abb0afbc4bb28708fe9e56daf8b0f7b570ca5524a62bf27d3892d71f20b76d67"
+    },
+    {
+      "id": "GTBubbleWater",
+      "triangles": 2172,
+      "meshes": 3,
+      "materials": 4,
+      "source": "models/GTBubbleWater/source.json",
+      "sourceSha256": "b98dd50bc790c39e8e9fad1e170fde9017b31feab43d841129745351a657d855"
+    },
+    {
+      "id": "GTCrocodile",
+      "triangles": 1986,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTCrocodile/source.json",
+      "sourceSha256": "f62e25c49cd9d738f8b1d76dceeb3176e71e5dd07b4f49d37c053163c5d2eb5d"
+    },
+    {
+      "id": "GTDinosaur",
+      "triangles": 1996,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTDinosaur/source.json",
+      "sourceSha256": "a4878e9a5e02efda4f7f693bb4cd2389b31f961206465dde7418acc38d86c43f"
+    },
+    {
+      "id": "GTDrawingBoard",
+      "triangles": 712,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTDrawingBoard/source.json",
+      "sourceSha256": "a1f1a67e7fc5e0a85d60a479adbc7aeddb584486616fa12b5e38a2bb85aa06cc"
+    },
+    {
+      "id": "GTFruitEraser",
+      "triangles": 348,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTFruitEraser/source.json",
+      "sourceSha256": "6cc207adb892e1ba1d30be6e6a4c6c07190c8a4885942988b904f55c772e8900"
+    },
+    {
+      "id": "GTGooseStamp",
+      "triangles": 1024,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTGooseStamp/source.json",
+      "sourceSha256": "79e6c9a551653e670153bbeba7c5afd6378f1c8e102022deef9b20ac70929b0a"
+    },
+    {
+      "id": "GTKaleidoscope",
+      "triangles": 920,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTKaleidoscope/source.json",
+      "sourceSha256": "85c2d749b23ad784fb572e08402bdcde757a13f0d0173355b12c21652de6d7f5"
+    },
+    {
+      "id": "GTLaserPen",
+      "triangles": 904,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTLaserPen/source.json",
+      "sourceSha256": "64f257cf58cf3151eafd5147a64c3bda0a6cf6e6446d6be9c395c857a86e1f02"
+    },
+    {
+      "id": "GTMagicCubeL",
+      "triangles": 1196,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTMagicCubeL/source.json",
+      "sourceSha256": "ace52b1f0c29e168a47c3d153c90761d85e0ab9da62858d85c464db1392e1a29"
+    },
+    {
+      "id": "GTPaperBoat",
+      "triangles": 380,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperBoat/source.json",
+      "sourceSha256": "4912f3d55d8f17dd9d1381ea0ce0904fc6033e3fb7d3ecb00cfaa0665aac43eb"
+    },
+    {
+      "id": "GTPaperFortune",
+      "triangles": 280,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperFortune/source.json",
+      "sourceSha256": "ea3813e83a17097166c638d70cca56e2b03bf55fc37782bcd61925f9e40afaa1"
+    },
+    {
+      "id": "GTPaperStar",
+      "triangles": 126,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperStar/source.json",
+      "sourceSha256": "549d2bba7b2122db720563884afc9106455cd6fe30dc0d04a6bcc2c560de4c9d"
+    },
+    {
+      "id": "GTPaperTree",
+      "triangles": 1728,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPaperTree/source.json",
+      "sourceSha256": "c66a6741a48c9723e653468368ac19a58a32d306b4b08b9fdeb94245c890f386"
+    },
+    {
+      "id": "GTPlanePen",
+      "triangles": 2336,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPlanePen/source.json",
+      "sourceSha256": "239969bc2b540d64bc44fcd8e65831447c165e996c2cbeeaadf356894846debd"
+    },
+    {
+      "id": "GTPlasterDeer",
+      "triangles": 1990,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTPlasterDeer/source.json",
+      "sourceSha256": "b0d0de39efcb5548047909413848d9b7ec7eb4cbfd35354625684a3e6db11f75"
+    },
+    {
+      "id": "GTPlaydough",
+      "triangles": 2472,
+      "meshes": 2,
+      "materials": 3,
+      "source": "models/GTPlaydough/source.json",
+      "sourceSha256": "c220a8ddaf5627536d5e07838534d314b93024447835029b5ed470ee5b6f5ef9"
+    },
+    {
+      "id": "GTRaceCar",
+      "triangles": 1988,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTRaceCar/source.json",
+      "sourceSha256": "2ba22c7e828f8b284da64564fdb4a1a0c7a9d8d1cc4865a6ed41a58f818db713"
+    },
+    {
+      "id": "GTRingCandy",
+      "triangles": 948,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTRingCandy/source.json",
+      "sourceSha256": "b637037b4adf87a95d8fb3b87e6725867f611af7f11868b93543cf3b1d4db399"
+    },
+    {
+      "id": "GTSandbag",
+      "triangles": 1256,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTSandbag/source.json",
+      "sourceSha256": "276d5e6e952df66c9cfb47a6d481da40f7a037862da4231452aaa338e575269f"
+    },
+    {
+      "id": "GTSmileDoll",
+      "triangles": 1680,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTSmileDoll/source.json",
+      "sourceSha256": "99d7b58d85aa9372a9313f4e458bf9c97a321d283d806b76d15c606a58bf03a3"
+    },
+    {
+      "id": "GTStickerBook",
+      "triangles": 1932,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTStickerBook/source.json",
+      "sourceSha256": "3c6e81267ff68c6e12614e550ec75ade73e6ba960e3253e20f55c63897f296a6"
+    },
+    {
+      "id": "GTUmbrella",
+      "triangles": 1512,
+      "meshes": 1,
+      "materials": 1,
+      "source": "models/GTUmbrella/source.json",
+      "sourceSha256": "f8eac4de7f80d50825354a9c4f0913cf260f5c412bab29ddb3b072eeffb73b34"
+    },
+    {
+      "id": "GTWallClimber",
+      "triangles": 1404,
+      "meshes": 1,
+      "materials": 2,
+      "source": "models/GTWallClimber/source.json",
+      "sourceSha256": "1241403aaa27a3ff02835f9a1b0285e684e840ab138f2cc5bc6157b5591826ec"
+    },
+    {
+      "id": "GTWaterGame",
+      "triangles": 1918,
+      "meshes": 1,
+      "materials": 3,
+      "source": "models/GTWaterGame/source.json",
+      "sourceSha256": "ba6dcfe5ae236f93565b593b3ec2b1849fc945118599624d34c8d5e5d161497a"
+    },
+    {
+      "id": "GTWaterGun",
+      "triangles": 3104,
+      "meshes": 3,
+      "materials": 4,
+      "source": "models/GTWaterGun/source.json",
+      "sourceSha256": "f39bbab90b3e5d1ed41868e4d78b7b682a6107e6ff6ee473fed2aea17a8a2735"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "Goose_GTCapsulePen",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTCapsulePen.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_GTCraftPunch",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTCraftPunch.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_GTNumberBlock",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTNumberBlock.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    },
+    {
+      "id": "Goose_GTYoYo",
+      "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/Goose_GTYoYo.prefab",
+      "reason": "Skinned renderer; authored bone pose not reconstructed"
+    }
+  ],
+  "priorBatch": "references\\competitor-goose\\2026-10-22\\manifest.json"
+}

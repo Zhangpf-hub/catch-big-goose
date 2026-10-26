@@ -1,0 +1,162 @@
+[
+  {
+    "path": "23-清晰度光照与材质差距.md",
+    "sha256": "16c747272977157e2528284b0b2656debfe2fc19b8cd2e1db64dbcefb4282a6d",
+    "bytes": 13842
+  },
+  {
+    "path": "audit/audit-console.txt",
+    "sha256": "5067b02e5755a091655308d31571283b9a047439a5b4b155525e23c7767916cc",
+    "bytes": 3929
+  },
+  {
+    "path": "audit/competitor-lighting.json",
+    "sha256": "e576b12663e3ee02e9a73f9f7454d341c3c4953366adc92b20a5e56d9ab67828",
+    "bytes": 16454
+  },
+  {
+    "path": "audit/competitor-materials.json",
+    "sha256": "71fb29b16f3563162bc6dac7d295d7356757ec585978aad52520a2335d16d49c",
+    "bytes": 294985
+  },
+  {
+    "path": "audit/competitor-sdk-resolution-snippets.json",
+    "sha256": "0eef18396dbef726852d88a0518ca7949d7f17dbd224b3c83ed350e40b4a7f4c",
+    "bytes": 6470
+  },
+  {
+    "path": "audit/compiled-shaders/ToonLite1.txt",
+    "sha256": "b66b80bdae8998ea38f244aa12f4c718bc33eda9d8fc8e519be103d692b7eb6a",
+    "bytes": 3796
+  },
+  {
+    "path": "audit/current-atlas-audit.json",
+    "sha256": "c7a5a5648f5ec878631a7133b9a2b3cbb6c8892c7b3585ada10d96bb6edadf1a",
+    "bytes": 18685
+  },
+  {
+    "path": "audit/r2-workspace-correspondence.json",
+    "sha256": "1652153a6f5e730dd74eb5658958186315ba8d9df72e745aa0dd6b473306ce62",
+    "bytes": 769
+  },
+  {
+    "path": "audit/shader-export-errors.json",
+    "sha256": "7129c28ab782b5fc84fffb28b80f85daf02bb4741507a42880e3a0ae621005d2",
+    "bytes": 723
+  },
+  {
+    "path": "audit/summary.json",
+    "sha256": "a20542d102b986d601731a1b17fcedd96d60524a1f26140b2bbb1b59d1ce1a40",
+    "bytes": 982
+  },
+  {
+    "path": "competitor-401-startup.js",
+    "sha256": "390f013e2d0585092cf9685d791859c44c79edc83467a473f54dbd114e898244",
+    "bytes": 584398
+  },
+  {
+    "path": "competitor-crocodile-matcap.png",
+    "sha256": "030befe39250692b43d7ab0f772debf12d211818ad3320f9d4f0b8ee500afc65",
+    "bytes": 41319
+  },
+  {
+    "path": "competitor-user-screenshot.png",
+    "sha256": "f6a21269a835c62e6b2491ff48704fd0dfc8df427ea4fbe3ac9f3136a0e55d86",
+    "bytes": 824387
+  },
+  {
+    "path": "R2-farm-300.png",
+    "sha256": "e3c2d723cb99d1e6977f3eff47bf76cd8ef7e137b2edc6d7b9f6f62070f5c272",
+    "bytes": 629362
+  },
+  {
+    "path": "R2-reference-toys-126.png",
+    "sha256": "563672298f5109c45c6d8cb3ca5be9cea65634a87ded342f5023286860c68ab4",
+    "bytes": 738193
+  },
+  {
+    "path": "source-map.json",
+    "sha256": "10ba9bd1645b708ce630ea52fd2681968e952803ba6a6fd30e006ba0033738ea",
+    "bytes": 3451
+  },
+  {
+    "path": "sources/references/competitor-goose/2026-10-23/models/GTCrocodile/source.json",
+    "sha256": "f62e25c49cd9d738f8b1d76dceeb3176e71e5dd07b4f49d37c053163c5d2eb5d",
+    "bytes": 663110
+  },
+  {
+    "path": "sources/references/competitor-goose/2026-10-23/models/GTWaterGame/source.json",
+    "sha256": "ba6dcfe5ae236f93565b593b3ec2b1849fc945118599624d34c8d5e5d161497a",
+    "bytes": 652888
+  },
+  {
+    "path": "sources/tools/competitor/archive_appearance.py",
+    "sha256": "ee0355d0a26f0cabcc55d47aba4b3cb30533d40a2d77604192374af0bb7584da",
+    "bytes": 3969
+  },
+  {
+    "path": "sources/tools/competitor/audit_render_appearance.py",
+    "sha256": "1104484701801bab4dd3c3e3b2c1d24f94169efe9f7f5d2da109fdd9e2744f6f",
+    "bytes": 4823
+  },
+  {
+    "path": "sources/tools/unity/bake_mobile_models.py",
+    "sha256": "9e8fb6d8712045b7cd97e49bb9b2cfb09cd99537e3e6785d5725e659373be729",
+    "bytes": 11308
+  },
+  {
+    "path": "sources/tools/unity/build_material_atlas.py",
+    "sha256": "e172badc40183d20628376b46adf02b0959a94a852aa3c6bae91cff629c97556",
+    "bytes": 1876
+  },
+  {
+    "path": "sources/unity/Assets/Editor/GooseAssetImporter.cs",
+    "sha256": "4060af3d301b7893f9876df3da1210b3a4f15712787beabc17b1e9795b4b6211",
+    "bytes": 2335
+  },
+  {
+    "path": "sources/unity/Assets/Editor/GooseProjectSetup.cs",
+    "sha256": "8835449cc383aadd1453f5074fa04d0f074791236774934cbc78620e8187554b",
+    "bytes": 8387
+  },
+  {
+    "path": "sources/unity/Assets/Editor/GooseWeChatBuild.cs",
+    "sha256": "1dfc39cde23ca5ca8548d07d794308bb0446f4b3c1a165b395a25005eb73b338",
+    "bytes": 8531
+  },
+  {
+    "path": "sources/unity/Assets/Resources/GooseItemMobile.shader",
+    "sha256": "05cdcc52aaf2394fc2267fd3f2a7b58bfc3b3b30b2813ff1b99e7a51e70c0fd2",
+    "bytes": 1235
+  },
+  {
+    "path": "sources/unity/Assets/Scripts/GooseAssetCache.cs",
+    "sha256": "99f65a96e7df28aacad33cbfc9c9c0d53da0e0fcc2bfa58c9807449472c2aa8c",
+    "bytes": 4897
+  },
+  {
+    "path": "sources/unity/Assets/Scripts/GooseGame.cs",
+    "sha256": "21dde6536414c4ecb1383d9cba371a039c62f69d131fbed29f6cdc9144c74d85",
+    "bytes": 49307
+  },
+  {
+    "path": "sources/unity/Assets/Scripts/GooseRuntimePerformance.cs",
+    "sha256": "f1f5504647a2590ac904bd8060a267dd0c3d538c4c5d6510d3d65a7ea8c2dc59",
+    "bytes": 1058
+  },
+  {
+    "path": "sources/unity/Builds/WeChat/minigame/check-version.js",
+    "sha256": "bf04cc7c09a598115dfc71bf6b90ded17c7ecdc1ea783299f08ac47902c39bba",
+    "bytes": 8300
+  },
+  {
+    "path": "sources/unity/ProjectSettings/QualitySettings.asset",
+    "sha256": "18c0f0b4b76f3e6b68bb2e25a675a5d3ebaaed43f3c95dc59c1c8585a8bae3ac",
+    "bytes": 9182
+  },
+  {
+    "path": "验证汇总.json",
+    "sha256": "9f453c1a837a07444da17584c8625e2a057ddb86d700674d1ddf92eb4b5d6ba3",
+    "bytes": 1486
+  }
+]

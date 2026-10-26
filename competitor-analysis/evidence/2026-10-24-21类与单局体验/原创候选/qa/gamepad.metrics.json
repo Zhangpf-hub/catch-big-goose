@@ -1,0 +1,28 @@
+{
+  "id": "gamepad",
+  "theme": "electronics",
+  "triangles": 1916,
+  "vertices": 980,
+  "blenderBounds": [
+    1.0,
+    0.27912038564682007,
+    0.4889828562736511
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 44904,
+  "sha256": "6539b01e6b61ca536ae5e5ddda50bc93cd658823904b2eb086f569aea8dc16c1",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

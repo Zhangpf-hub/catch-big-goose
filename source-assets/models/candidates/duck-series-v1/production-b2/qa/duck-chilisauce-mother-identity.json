@@ -1,0 +1,106 @@
+{
+  "source": "source-assets\\models\\candidates\\duck-series-v1\\master-b2\\source\\duck-b2-master-rig.blend",
+  "sourceSha256": "61871a3b432da740cf7466cb623a607621afb94760a0d5f56bd6622b3785b15b",
+  "rule": {
+    "neckCut": 0.7,
+    "neckPose": [
+      0.18,
+      0.1,
+      -0.28
+    ],
+    "yaw": 0,
+    "lean": 0,
+    "root": [
+      0.16,
+      -0.03,
+      0.57
+    ],
+    "feet": [
+      [
+        -0.11,
+        0,
+        0
+      ],
+      [
+        0.11,
+        0,
+        0
+      ]
+    ],
+    "footYaw": 0,
+    "tailBase": [
+      0,
+      0.25,
+      0.3
+    ],
+    "tailYaw": 0
+  },
+  "neckCapCenter": [
+    5.704350880542108e-10,
+    -0.07660724222660065,
+    0.6898998022079468
+  ],
+  "rigidPlacement": {
+    "rotation": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation": [
+      0.1599999964237213,
+      0.04660724103450775,
+      -0.11989980936050415
+    ]
+  },
+  "headRegenerated": false,
+  "uniformScaleBeforeFinalNormalization": 1,
+  "faceRigidShapeChecksBeforeAccessoryLod": [
+    {
+      "part": "head-core",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 6.432867806493991e-08
+    },
+    {
+      "part": "bill",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 7.905445690084556e-08
+    },
+    {
+      "part": "eye",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 6.037494755875561e-08
+    },
+    {
+      "part": "eye",
+      "sampledVertices": 12,
+      "maximumPairwiseDistanceChange": 5.916382230485018e-08
+    }
+  ],
+  "exposedSkinFurtherDecimated": false,
+  "hiddenTorsoRemoved": true,
+  "singleContinuousTorsoKept": false,
+  "hiddenWingsRemoved": true,
+  "tailCopiedFromMother": true,
+  "artAccepted": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ref_bbqtoast",
+  "sourceId": "BBQToast",
+  "scene": "Barbecue",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BBQToast\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Barbecue/BBQToast.prefab",
+  "bundle": "levelbarbecueobjprefab_assets_part2_2624c7d2c540ace8f6eb776caf137bc4.bundle",
+  "sourceSha256": "6c0f12b245a7fee62641dc756a8cac8dfca03c30cd3d72a73ebd9bbc7fb7baec"
+}

@@ -1,0 +1,366 @@
+{
+  "models": [
+    {
+      "id": "apple",
+      "triangles": 2516,
+      "sourceTriangles": 2516,
+      "reference": false
+    },
+    {
+      "id": "banana",
+      "triangles": 1568,
+      "sourceTriangles": 1568,
+      "reference": false
+    },
+    {
+      "id": "grape",
+      "triangles": 1740,
+      "sourceTriangles": 1740,
+      "reference": false
+    },
+    {
+      "id": "orange",
+      "triangles": 1300,
+      "sourceTriangles": 1300,
+      "reference": false
+    },
+    {
+      "id": "strawberry",
+      "triangles": 1384,
+      "sourceTriangles": 1384,
+      "reference": false
+    },
+    {
+      "id": "lemon",
+      "triangles": 900,
+      "sourceTriangles": 900,
+      "reference": false
+    },
+    {
+      "id": "pear",
+      "triangles": 1308,
+      "sourceTriangles": 1308,
+      "reference": false
+    },
+    {
+      "id": "cherry",
+      "triangles": 1264,
+      "sourceTriangles": 1264,
+      "reference": false
+    },
+    {
+      "id": "basket_redwood",
+      "triangles": 8348,
+      "sourceTriangles": 8348,
+      "reference": false
+    },
+    {
+      "id": "tongqian",
+      "triangles": 3636,
+      "sourceTriangles": 3636,
+      "reference": false
+    },
+    {
+      "id": "bracelet",
+      "triangles": 2940,
+      "sourceTriangles": 2940,
+      "reference": false
+    },
+    {
+      "id": "baoshi",
+      "triangles": 1292,
+      "sourceTriangles": 1292,
+      "reference": false
+    },
+    {
+      "id": "hulu",
+      "triangles": 3776,
+      "sourceTriangles": 3776,
+      "reference": false
+    },
+    {
+      "id": "yuzhuo",
+      "triangles": 2784,
+      "sourceTriangles": 2784,
+      "reference": false
+    },
+    {
+      "id": "banzhi",
+      "triangles": 1472,
+      "sourceTriangles": 1472,
+      "reference": false
+    },
+    {
+      "id": "yuxi",
+      "triangles": 3144,
+      "sourceTriangles": 19904,
+      "reference": false
+    },
+    {
+      "id": "ruyi",
+      "triangles": 3989,
+      "sourceTriangles": 5428,
+      "reference": false
+    },
+    {
+      "id": "bowl_jade",
+      "triangles": 3498,
+      "sourceTriangles": 3498,
+      "reference": false
+    },
+    {
+      "id": "carrot",
+      "triangles": 3688,
+      "sourceTriangles": 3688,
+      "reference": false
+    },
+    {
+      "id": "corn",
+      "triangles": 2994,
+      "sourceTriangles": 6576,
+      "reference": false
+    },
+    {
+      "id": "eggplant",
+      "triangles": 1016,
+      "sourceTriangles": 1016,
+      "reference": false
+    },
+    {
+      "id": "frog",
+      "triangles": 3000,
+      "sourceTriangles": 8128,
+      "reference": false
+    },
+    {
+      "id": "pumpkin",
+      "triangles": 3196,
+      "sourceTriangles": 3196,
+      "reference": false
+    },
+    {
+      "id": "mushroom",
+      "triangles": 1516,
+      "sourceTriangles": 1516,
+      "reference": false
+    },
+    {
+      "id": "koi",
+      "triangles": 2024,
+      "sourceTriangles": 2024,
+      "reference": false
+    },
+    {
+      "id": "lotus",
+      "triangles": 3892,
+      "sourceTriangles": 3892,
+      "reference": false
+    },
+    {
+      "id": "duck",
+      "triangles": 3999,
+      "sourceTriangles": 5860,
+      "reference": false
+    },
+    {
+      "id": "basket_farm",
+      "triangles": 25000,
+      "sourceTriangles": 25000,
+      "reference": false
+    },
+    {
+      "id": "cupcake",
+      "triangles": 3999,
+      "sourceTriangles": 5951,
+      "reference": false
+    },
+    {
+      "id": "donut",
+      "triangles": 1200,
+      "sourceTriangles": 1200,
+      "reference": false
+    },
+    {
+      "id": "icecream",
+      "triangles": 4000,
+      "sourceTriangles": 4016,
+      "reference": false
+    },
+    {
+      "id": "macaron",
+      "triangles": 2652,
+      "sourceTriangles": 2652,
+      "reference": false
+    },
+    {
+      "id": "cookie",
+      "triangles": 1388,
+      "sourceTriangles": 1388,
+      "reference": false
+    },
+    {
+      "id": "cake_slice",
+      "triangles": 1772,
+      "sourceTriangles": 1772,
+      "reference": false
+    },
+    {
+      "id": "candy",
+      "triangles": 416,
+      "sourceTriangles": 416,
+      "reference": false
+    },
+    {
+      "id": "pudding",
+      "triangles": 1780,
+      "sourceTriangles": 1780,
+      "reference": false
+    },
+    {
+      "id": "croissant",
+      "triangles": 4000,
+      "sourceTriangles": 4068,
+      "reference": false
+    },
+    {
+      "id": "tray_dessert",
+      "triangles": 4000,
+      "sourceTriangles": 4000,
+      "reference": false
+    },
+    {
+      "id": "tray_electronics",
+      "triangles": 1520,
+      "sourceTriangles": 1520,
+      "reference": false
+    },
+    {
+      "id": "ref_gtcrocodile",
+      "triangles": 1986,
+      "sourceTriangles": 1986,
+      "reference": true
+    },
+    {
+      "id": "ref_gtdinosaur",
+      "triangles": 1996,
+      "sourceTriangles": 1996,
+      "reference": true
+    },
+    {
+      "id": "ref_gtdrawingboard",
+      "triangles": 712,
+      "sourceTriangles": 712,
+      "reference": true
+    },
+    {
+      "id": "ref_gtfruiteraser",
+      "triangles": 348,
+      "sourceTriangles": 348,
+      "reference": true
+    },
+    {
+      "id": "ref_gtgoosestamp",
+      "triangles": 1024,
+      "sourceTriangles": 1024,
+      "reference": true
+    },
+    {
+      "id": "ref_gtkaleidoscope",
+      "triangles": 920,
+      "sourceTriangles": 920,
+      "reference": true
+    },
+    {
+      "id": "ref_gtlaserpen",
+      "triangles": 904,
+      "sourceTriangles": 904,
+      "reference": true
+    },
+    {
+      "id": "ref_gtmagiccubel",
+      "triangles": 1196,
+      "sourceTriangles": 1196,
+      "reference": true
+    },
+    {
+      "id": "ref_gtpaperboat",
+      "triangles": 380,
+      "sourceTriangles": 380,
+      "reference": true
+    },
+    {
+      "id": "ref_gtpaperfortune",
+      "triangles": 280,
+      "sourceTriangles": 280,
+      "reference": true
+    },
+    {
+      "id": "ref_gtpaperstar",
+      "triangles": 126,
+      "sourceTriangles": 126,
+      "reference": true
+    },
+    {
+      "id": "ref_gtpapertree",
+      "triangles": 1728,
+      "sourceTriangles": 1728,
+      "reference": true
+    },
+    {
+      "id": "ref_gtplanepen",
+      "triangles": 2336,
+      "sourceTriangles": 2336,
+      "reference": true
+    },
+    {
+      "id": "ref_gtplasterdeer",
+      "triangles": 1990,
+      "sourceTriangles": 1990,
+      "reference": true
+    },
+    {
+      "id": "ref_gtplaydough",
+      "triangles": 2472,
+      "sourceTriangles": 2472,
+      "reference": true
+    },
+    {
+      "id": "ref_gtracecar",
+      "triangles": 1988,
+      "sourceTriangles": 1988,
+      "reference": true
+    },
+    {
+      "id": "ref_gtringcandy",
+      "triangles": 948,
+      "sourceTriangles": 948,
+      "reference": true
+    },
+    {
+      "id": "ref_gtsandbag",
+      "triangles": 1256,
+      "sourceTriangles": 1256,
+      "reference": true
+    },
+    {
+      "id": "ref_gtsmiledoll",
+      "triangles": 1680,
+      "sourceTriangles": 1680,
+      "reference": true
+    },
+    {
+      "id": "ref_gtstickerbook",
+      "triangles": 1932,
+      "sourceTriangles": 1932,
+      "reference": true
+    },
+    {
+      "id": "ref_gtwatergame",
+      "triangles": 1918,
+      "sourceTriangles": 1918,
+      "reference": true
+    }
+  ],
+  "originalArchive": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024",
+  "referenceMedianExtent": 1.8626827001571655
+}

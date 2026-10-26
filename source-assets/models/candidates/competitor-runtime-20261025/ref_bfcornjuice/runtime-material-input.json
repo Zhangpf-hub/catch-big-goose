@@ -1,0 +1,30 @@
+{
+  "materials": [
+    {
+      "name": "yumizhi",
+      "color": [
+        1.0,
+        0.7926317453384399,
+        0.0,
+        1
+      ],
+      "texture": null,
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    },
+    {
+      "name": "yumizhi_Alpha",
+      "color": [
+        1.0,
+        0.7926317453384399,
+        0.0,
+        1
+      ],
+      "texture": "tex_2196100583132731175.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonGlassCus",
+      "glassFlattened": true
+    }
+  ]
+}

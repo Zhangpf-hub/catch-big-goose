@@ -1,0 +1,68 @@
+  (func $j72115 (type $t6) (param $p0 i32) (param $p1 i32) (param $p2 i32) (param $p3 i32)
+    i32.const 5140343
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3983352 ;; Method$System.Collections.Generic.Dictionary<string, List<string>>.Add()
+      call $j922
+      i32.const 4024732 ;; Method$System.Linq.Enumerable.ToList<string>()
+      call $j922
+      i32.const 5140343
+      i32.const 1
+      i32.store8
+    end
+    block $B1
+      local.get $p1
+      if $I2
+        local.get $p2
+        i32.const 124
+        i32.const 0
+        i32.const 0
+        call $j1545 ;; System.String$$Split
+        i32.const 4024732 ;; Method$System.Linq.Enumerable.ToList<string>()
+        i32.load
+        call $j1396
+        local.set $p1
+        local.get $p0
+        i32.load offset=8
+        i32.load offset=128
+        local.get $p0
+        i32.load offset=12
+        local.get $p1
+        i32.const 3983352 ;; Method$System.Collections.Generic.Dictionary<string, List<string>>.Add()
+        i32.load
+        call $j953
+        local.get $p0
+        i32.load offset=16
+        local.set $p0
+        local.get $p0
+        i32.eqz
+        br_if $B1
+        local.get $p0
+        i32.load offset=32
+        local.get $p1
+        local.get $p0
+        i32.load offset=20
+        local.get $p0
+        i32.load offset=12
+        global.set $__wasm_split_waitTableId
+        global.get $__wasm_split_waitTableId
+        call_indirect $primary.table (type $t2)
+        return
+      end
+      local.get $p0
+      i32.load offset=20
+      local.set $p0
+      local.get $p0
+      i32.eqz
+      br_if $B1
+      local.get $p0
+      i32.load offset=32
+      local.get $p0
+      i32.load offset=20
+      local.get $p0
+      i32.load offset=12
+      global.set $__wasm_split_waitTableId
+      global.get $__wasm_split_waitTableId
+      call_indirect $primary.table (type $t0)
+    end)

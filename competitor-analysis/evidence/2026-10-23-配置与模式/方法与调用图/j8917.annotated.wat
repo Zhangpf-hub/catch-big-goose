@@ -1,0 +1,191 @@
+  (func $j8917 (type $t11) (param $p0 i32) (param $p1 i32) (param $p2 i32) (param $p3 i32) (param $p4 i32) (param $p5 i32)
+    i32.const 5140122
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3951356 ;; ActionManager_TypeInfo
+      call $j922
+      i32.const 3958052 ;; LevelManager_TypeInfo
+      call $j922
+      i32.const 3958464 ;; MainLevelManager_TypeInfo
+      call $j922
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 5140122
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 5142651
+    i32.load8_u
+    i32.eqz
+    if $I1
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 5142651
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 3959288 ;; NetDataManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=32
+    local.set $p5
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    local.get $p1
+    i32.store8 offset=8
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    local.get $p4
+    i32.store offset=12
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    local.get $p2
+    i32.store offset=40
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    local.get $p3
+    i32.store offset=44
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 5140203
+    i32.load8_u
+    i32.eqz
+    if $I2
+      i32.const 3958464 ;; MainLevelManager_TypeInfo
+      call $j922
+      i32.const 5140203
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=4
+    local.set $p1
+    i32.const 5140204
+    i32.load8_u
+    i32.eqz
+    if $I3
+      i32.const 3958464 ;; MainLevelManager_TypeInfo
+      call $j922
+      i32.const 5140204
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 3958464 ;; MainLevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=8
+    local.set $p3
+    i32.const 0
+    call $j14562 ;; MainLevelManager$$get_FunctionId
+    local.set $p4
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load8_u offset=8
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=12
+    local.get $p5
+    i32.load offset=36
+    i32.load offset=8
+    local.get $p5
+    i32.load offset=96
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=24
+    i32.load offset=16
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=24
+    i32.load offset=20
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=24
+    i32.load offset=24
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=28
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=32
+    local.get $p0
+    i32.load offset=196
+    local.get $p0
+    i32.load offset=200
+    i32.sub
+    f32.convert_i32_s
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=40
+    i32.const 3958052 ;; LevelManager_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=40
+    i32.load offset=44
+    f32.convert_i32_s
+    local.get $p3
+    local.get $p1
+    local.get $p4
+    i32.const 0
+    call $j35802 ;; ThinkingManager$$MainLevelEnd
+    i32.const 3951356 ;; ActionManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const 26
+    i32.const 0
+    i32.const 0
+    call $j1940 ;; ActionManager$$TriggerEvent
+    block $B4
+      local.get $p2
+      i32.const 1
+      i32.ne
+      br_if $B4
+      i32.const 0
+      call $j5758 ;; GameManager$$IsStartGameDirection
+      i32.eqz
+      br_if $B4
+      i32.const 0
+      call $j46949 ;; DnSdkHelper$$OnTutorialFinish
+    end)

@@ -1,0 +1,56 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.23000000417232513,
+        0.057999998331069946,
+        0.003000000026077032,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuzhuo\\yuzhuo_albedo_1.png",
+      "uvMin": [
+        0.0,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "color": [
+        0.46000000834465027,
+        0.17000000178813934,
+        0.009999999776482582,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        0.4723820090293884
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\yuzhuo\\albedo.png"
+}

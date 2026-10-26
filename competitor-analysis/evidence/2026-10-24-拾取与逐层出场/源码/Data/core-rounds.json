@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "spawnInterval": 0.03,
+  "spawnDuration": 2.0,
+  "spawnBatch": 3,
+  "profiles": [
+    {
+      "id": "intro",
+      "source": "402 LevelData Index=5 MainLevel Level=1; source height units retained as evidence",
+      "seconds": 0,
+      "targetCount": 3,
+      "layers": 1.2,
+      "pileLayers": [{ "normalCount": 12, "kinds": 2, "sourceHeight": 6 }]
+    },
+    {
+      "id": "short",
+      "source": "402 LevelData Index=5 OneScreenBattle Level=1; own single-player adaptation",
+      "seconds": 120,
+      "targetCount": 0,
+      "layers": 3.1,
+      "pileLayers": [
+        { "normalCount": 30, "kinds": 6, "sourceHeight": 10 },
+        { "normalCount": 30, "kinds": 3, "sourceHeight": 15 }
+      ]
+    },
+    {
+      "id": "deep-main",
+      "source": "402 LevelData Index=5 MainLevel Level=2; no AB reductions, type counts bounded by own assets",
+      "seconds": 600,
+      "targetCount": 0,
+      "layers": 5.0,
+      "pileLayers": [
+        { "normalCount": 150, "kinds": 21, "sourceHeight": 14 },
+        { "normalCount": 60, "kinds": 10, "sourceHeight": 18 },
+        { "normalCount": 45, "kinds": 8, "sourceHeight": 20 },
+        { "normalCount": 45, "kinds": 7, "sourceHeight": 22 }
+      ]
+    }
+  ]
+}

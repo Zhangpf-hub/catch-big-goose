@@ -1,0 +1,53 @@
+{
+  "id": "duck-potato",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-potato/duck-potato.glb",
+  "sourceSha256": "45d8f46025ea092f9e59b39883a4ddd07d5c74052b4f209f07f7b54dacea7f65",
+  "originalWorldDimensions": [
+    0.7173487544059753,
+    0.6868627667427063,
+    0.9999998807907104
+  ],
+  "uniformScale": 1.0000001192093038,
+  "normalizedWorldDimensions": [
+    0.7173488140106201,
+    0.6868628263473511,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

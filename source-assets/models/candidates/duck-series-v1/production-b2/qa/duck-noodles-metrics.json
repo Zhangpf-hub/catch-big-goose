@@ -1,0 +1,23 @@
+{
+  "id": "duck-noodles",
+  "triangles": 3940,
+  "dimensions": [
+    0.6325883269309998,
+    0.6536483764648438,
+    1.0
+  ],
+  "sourceCenter": [
+    0.0,
+    0.006163105368614197,
+    0.5028124451637268
+  ],
+  "sourceExtent": 0.9927468299865723,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 92860,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

@@ -1,0 +1,53 @@
+{
+  "id": "duck-colacup",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-colacup/duck-colacup.glb",
+  "sourceSha256": "d4cacd3dade67b10f93dd9a09f5adbd131962dc2ca6c3a00a6b09617bc6752b8",
+  "originalWorldDimensions": [
+    0.6539026498794556,
+    0.7090417146682739,
+    1.0
+  ],
+  "uniformScale": 1.0,
+  "normalizedWorldDimensions": [
+    0.6539026498794556,
+    0.7090417146682739,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

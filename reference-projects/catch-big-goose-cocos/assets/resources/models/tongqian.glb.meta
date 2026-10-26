@@ -1,0 +1,220 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36",
+  "files": [],
+  "subMetas": {
+    "92793": {
+      "importer": "gltf-material",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@92793",
+      "displayName": "",
+      "id": "92793",
+      "name": "tongqian_patina.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b3ed8": {
+      "importer": "gltf-mesh",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@b3ed8",
+      "displayName": "",
+      "id": "b3ed8",
+      "name": "glyph-stroke-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 288
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c244a": {
+      "importer": "gltf-mesh",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@c244a",
+      "displayName": "",
+      "id": "c244a",
+      "name": "Cylinder.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 1092
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "12b8b": {
+      "importer": "gltf-mesh",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@12b8b",
+      "displayName": "",
+      "id": "12b8b",
+      "name": "Torus.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 1024
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41ac8": {
+      "importer": "gltf-mesh",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@41ac8",
+      "displayName": "",
+      "id": "41ac8",
+      "name": "Cube.001.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 752
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "825ed": {
+      "importer": "gltf-mesh",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@825ed",
+      "displayName": "",
+      "id": "825ed",
+      "name": "Sphere.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 480
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "da50e": {
+      "importer": "gltf-material",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@da50e",
+      "displayName": "",
+      "id": "da50e",
+      "name": "tongqian_bronze.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "471e6": {
+      "importer": "gltf-material",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@471e6",
+      "displayName": "",
+      "id": "471e6",
+      "name": "tongqian_recess.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c5ac1": {
+      "importer": "gltf-material",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@c5ac1",
+      "displayName": "",
+      "id": "c5ac1",
+      "name": "tongqian_worn_edges.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7e87c": {
+      "importer": "gltf-scene",
+      "uuid": "f92603ee-7571-477c-95bb-70f79e9d4a36@7e87c",
+      "displayName": "",
+      "id": "7e87c",
+      "name": "tongqian.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@b3ed8",
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@c244a",
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@12b8b",
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@41ac8",
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@825ed"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@da50e",
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@471e6",
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@c5ac1",
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@92793"
+      ],
+      "scenes": [
+        "f92603ee-7571-477c-95bb-70f79e9d4a36@7e87c"
+      ]
+    }
+  }
+}

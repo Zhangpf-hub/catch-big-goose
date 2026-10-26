@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>抓住大鹅</title>
+  <meta name="description" content="抓住大鹅是一款轻量 3D 物理堆叠三消 H5 游戏。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22><text y=%22.9em%22 font-size=%2290%22>🦢</text></svg>">
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true,viewport-fit=cover"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#271b17">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+  <!--
+    首屏加载页：样式内联在 <head>，随 HTML 首个数据包就绪，不等 style.css 往返。
+    H5 没有小游戏那种预下载兜底，引擎包传输期间原本是纯白屏——白屏几秒就是流失。
+  -->
+  <style>
+    #bootScreen {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      background: radial-gradient(ellipse at 50% 38%, #4a3226 0%, #271b17 72%);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+                   "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      transition: opacity .45s ease;
+    }
+    #bootScreen.done { opacity: 0; pointer-events: none; }
+    #bootGoose {
+      font-size: 68px; line-height: 1;
+      animation: bootBob 1.5s ease-in-out infinite;
+    }
+    @keyframes bootBob {
+      0%, 100% { transform: translateY(0) rotate(-4deg); }
+      50%      { transform: translateY(-11px) rotate(4deg); }
+    }
+    #bootTitle {
+      margin-top: 18px;
+      font-size: 30px; font-weight: 700; letter-spacing: 5px;
+      color: #ffca30; text-shadow: 0 2px 0 #8a5a1e, 0 4px 10px rgba(0,0,0,.45);
+    }
+    #bootBarWrap {
+      margin-top: 30px; width: 208px; height: 12px;
+      background: rgba(0,0,0,.36); border-radius: 6px;
+      border: 1px solid rgba(255,202,48,.28); overflow: hidden;
+    }
+    #bootBar {
+      width: 0%; height: 100%; border-radius: 5px;
+      background: linear-gradient(180deg, #ffe07a 0%, #ffca30 52%, #e0a213 100%);
+      transition: width .22s ease-out;
+    }
+    #bootHint {
+      margin-top: 13px; font-size: 13px; letter-spacing: 1px;
+      color: rgba(255,236,200,.62);
+    }
+    #bootRetry {
+      display: none; margin-top: 20px; padding: 10px 24px;
+      border: 1px solid #ffca30; border-radius: 18px;
+      background: #6f4228; color: #fff0cd; font-size: 15px;
+    }
+    /* 降级：用户开了「减少动态效果」就别晃鹅 */
+    @media (prefers-reduced-motion: reduce) {
+      #bootGoose { animation: none; }
+    }
+  </style>
+
+</head>
+<body>
+  <div id="GameDiv" cc_exact_fit_screen="true">
+      <div id="Cocos3dGameContainer">
+        <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
+      </div>
+    </div>
+
+  <div id="bootScreen">
+    <div id="bootGoose">🦢</div>
+    <div id="bootTitle">抓住大鹅</div>
+    <div id="bootBarWrap"><div id="bootBar"></div></div>
+    <div id="bootHint">正在准备…</div>
+    <button id="bootRetry" type="button">重新加载</button>
+  </div>
+
+<script>
+// 部署环境可在本脚本前覆盖这份配置；默认不发送埋点，只保留本地调试队列。
+window.__GOOSE_CONFIG = window.__GOOSE_CONFIG || {
+  buildVersion: 'dev',
+  telemetryEndpoint: ''
+};
+/*
+ * 加载进度总线。里程碑都是真实状态（引擎就绪 / 场景就绪 / 首页就绪），
+ * 里程碑之间做插值只是为了让进度条别一格一格地跳——每个数字背后都有事发生。
+ * 游戏侧通过 window.__gooseBoot 汇报，见 Bootstrap.ts 与 GameManager.start()。
+ */
+(function () {
+  var bar = document.getElementById('bootBar');
+  var hint = document.getElementById('bootHint');
+  var screen = document.getElementById('bootScreen');
+  var retry = document.getElementById('bootRetry');
+  var shown = 0, target = 0, finished = false, raf = 0;
+
+  function paint() {
+    raf = 0;
+    // 每帧吃掉剩余差值的 12%，接近目标时自然减速；差距极小直接贴合
+    var d = target - shown;
+    shown += Math.abs(d) < 0.4 ? d : d * 0.12;
+    bar.style.width = shown.toFixed(1) + '%';
+    if (Math.abs(target - shown) > 0.2) raf = requestAnimationFrame(paint);
+  }
+
+  function to(pct, text) {
+    if (finished) return;
+    if (pct > target) target = Math.min(pct, 100);
+    if (text) hint.textContent = text;
+    if (!raf) raf = requestAnimationFrame(paint);
+  }
+
+  window.__gooseBoot = {
+    to: to,
+    done: function () {
+      if (finished) return;
+      finished = true;
+      target = 100; shown = 100;
+      bar.style.width = '100%';
+      hint.textContent = '开始游戏';
+      screen.classList.add('done');
+      // 等淡出动画结束再摘除，避免透明遮罩继续吃触摸事件
+      setTimeout(function () {
+        if (screen.parentNode) screen.parentNode.removeChild(screen);
+      }, 500);
+    },
+    fail: function (msg) {
+      finished = true;
+      hint.textContent = msg || '加载失败，请刷新重试';
+      hint.style.color = '#ff9a8a';
+      retry.style.display = 'block';
+    }
+  };
+
+  // 物理/场景初始化失败时不能让玩家进入残缺对局；整页重载会同时重置引擎和 WASM。
+  retry.addEventListener('click', function () { window.location.reload(); });
+
+  to(8, '正在加载引擎…');
+
+  // 引擎主包（gzip 后 ~500K）是首屏最长的一段，没有原生进度事件可用：
+  // 轮询 window.cc 判断它到位，期间让进度条缓慢爬到 42% 以示仍在进行。
+  var creep = 8;
+  var crawl = setInterval(function () {
+    if (finished) { clearInterval(crawl); return; }
+    if (window.cc) {
+      clearInterval(crawl);
+      to(48, '正在初始化场景…');
+    } else if (creep < 42) {
+      creep += 1.4;
+      to(creep);
+    }
+  }, 110);
+
+  // 兜底：引擎或场景卡死时不能让玩家对着一条不动的进度条干等
+  setTimeout(function () {
+    if (!finished) hint.textContent = '网络较慢，正在继续加载…';
+  }, 12000);
+})();
+</script>
+
+<!-- Polyfills bundle. -->
+
+<script src="src/polyfills.bundle.js" charset="utf-8"> </script>
+
+
+<!-- SystemJS support. -->
+<script src="src/system.bundle.js" charset="utf-8"> </script>
+
+<!-- Import map -->
+<script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
+
+<script>
+    System.import('./index.js').catch(function(err) {
+        console.error(err);
+        if (window.__gooseBoot) window.__gooseBoot.fail('加载失败，请刷新重试');
+    })
+</script>
+
+</body>
+</html>

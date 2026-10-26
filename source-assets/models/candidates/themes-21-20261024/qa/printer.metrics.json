@@ -1,0 +1,28 @@
+{
+  "id": "printer",
+  "theme": "electronics",
+  "triangles": 724,
+  "vertices": 376,
+  "blenderBounds": [
+    0.8628263473510742,
+    1.0,
+    0.5895724296569824
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 18348,
+  "sha256": "2cbbd50052cd9cbcc62041aea09cdd8a930bd98a3f81c2d498fe53819431b1e4",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

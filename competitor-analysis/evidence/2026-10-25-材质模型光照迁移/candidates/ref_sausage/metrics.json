@@ -1,0 +1,12 @@
+{
+  "id": "ref_sausage",
+  "triangles": 612,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    1.0,
+    0.49630898237228394,
+    0.23615287989377975
+  ],
+  "glbRoundtrip": true
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "Address": 18108,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__2",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__2 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, float x, const MethodInfo* method);",
+    "TypeSignature": "vifi",
+    "wasmSymbol": "$j2586",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18110,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__4",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__4 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, float x, const MethodInfo* method);",
+    "TypeSignature": "vifi",
+    "wasmSymbol": "$j2586",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18116,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__10",
+    "Signature": "float LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__10 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "fii",
+    "wasmSymbol": "$j5589",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18117,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__11",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__11 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, float x, const MethodInfo* method);",
+    "TypeSignature": "vifi",
+    "wasmSymbol": "$j9222",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18118,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__12",
+    "Signature": "float LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__12 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "fii",
+    "wasmSymbol": "$j5589",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18119,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__13",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__13 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, float x, const MethodInfo* method);",
+    "TypeSignature": "vifi",
+    "wasmSymbol": "$j9222",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18120,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__14",
+    "Signature": "float LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__14 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, const MethodInfo* method);",
+    "TypeSignature": "fii",
+    "wasmSymbol": "$j5589",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18121,
+    "Name": "LevelObjAnimManager.<>c__DisplayClass15_0$$<ClickObj>b__15",
+    "Signature": "void LevelObjAnimManager___c__DisplayClass15_0___ClickObj_b__15 (LevelObjAnimManager___c__DisplayClass15_0_o* __this, float x, const MethodInfo* method);",
+    "TypeSignature": "vifi",
+    "wasmSymbol": "$j9222",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18131,
+    "Name": "LevelObjAnimManager.<CombieAnim>d__21$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelObjAnimManager__CombieAnim_d__21__System_Collections_IEnumerator_Reset (LevelObjAnimManager__CombieAnim_d__21_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74404",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18137,
+    "Name": "LevelObjAnimManager.<DelayToMoveOtherObj>d__22$$System.Collections.IEnumerator.Reset",
+    "Signature": "void LevelObjAnimManager__DelayToMoveOtherObj_d__22__System_Collections_IEnumerator_Reset (LevelObjAnimManager__DelayToMoveOtherObj_d__22_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j74291",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 18099,
+    "Name": "LevelObjAnimManager$$GetCheckWinTimeAfterCombine",
+    "Signature": "float LevelObjAnimManager__GetCheckWinTimeAfterCombine (LevelObjAnimManager_o* __this, const MethodInfo* method);",
+    "TypeSignature": "fii",
+    "wasmSymbol": "$j95000",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  },
+  {
+    "Address": 21158,
+    "Name": "ShowCreateAnimMod.<ShowAnim>d__9$$System.Collections.IEnumerator.Reset",
+    "Signature": "void ShowCreateAnimMod__ShowAnim_d__9__System_Collections_IEnumerator_Reset (ShowCreateAnimMod__ShowAnim_d__9_o* __this, const MethodInfo* method);",
+    "TypeSignature": "vii",
+    "wasmSymbol": "$j73744",
+    "signatureVerified": true,
+    "bodyRecovered": true
+  }
+]

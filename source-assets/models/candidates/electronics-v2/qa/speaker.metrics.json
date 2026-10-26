@@ -1,0 +1,27 @@
+{
+  "id": "speaker",
+  "triangles": 1868,
+  "vertices": 960,
+  "blenderBounds": [
+    0.509761393070221,
+    0.49132320284843445,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "bytes": 44044,
+  "materials": 1,
+  "textures": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "gltfAxes": "Y-up, front +Z",
+  "blenderVersion": "4.5.14 LTS",
+  "roundtripPassed": true
+}

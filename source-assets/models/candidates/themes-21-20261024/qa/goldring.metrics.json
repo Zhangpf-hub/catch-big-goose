@@ -1,0 +1,28 @@
+{
+  "id": "goldring",
+  "theme": "antique",
+  "triangles": 612,
+  "vertices": 310,
+  "blenderBounds": [
+    0.8496732115745544,
+    0.2352941334247589,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 15492,
+  "sha256": "af4135c2a6c3d4466b0ff86c3e847796b69d540664aab266a178f6554e4f8b86",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

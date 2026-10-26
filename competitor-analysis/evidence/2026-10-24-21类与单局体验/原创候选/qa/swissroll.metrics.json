@@ -1,0 +1,28 @@
+{
+  "id": "swissroll",
+  "theme": "dessert",
+  "triangles": 1732,
+  "vertices": 888,
+  "blenderBounds": [
+    0.9797297120094299,
+    1.0,
+    0.9797297120094299
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 40728,
+  "sha256": "c5133d6c0979b397b61d16d6192afcd711da53aaca2808df6d5bbc22701a047b",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

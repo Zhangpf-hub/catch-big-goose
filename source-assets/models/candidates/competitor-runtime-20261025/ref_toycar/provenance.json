@@ -1,0 +1,9 @@
+{
+  "id": "ref_toycar",
+  "sourceId": "ToyCar",
+  "scene": "GroceryStore",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\ToyCar\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/GroceryStore/ToyCar.prefab",
+  "bundle": "levelgrocerystoreobjprefab_assets_part1_c5ae02dc8706f065a89b9c5e485787bc.bundle",
+  "sourceSha256": "80f5cde80f0758cc1a3a78d9a3a0e94dd92f738126a777632a9a8e37cf5c7ab6"
+}

@@ -1,0 +1,63 @@
+{
+  "anatomyTriangles": 2192,
+  "propRatio": 0.9302832244008714,
+  "headNeckReduced": false,
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1598
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Folded golden egg pancake",
+      "triangles": 534
+    },
+    {
+      "name": "Folded crepe seam",
+      "triangles": 80
+    },
+    {
+      "name": "Cooked egg white",
+      "triangles": 312
+    },
+    {
+      "name": "Rounded egg yolk",
+      "triangles": 260
+    },
+    {
+      "name": "Scallion fleck",
+      "triangles": 174
+    },
+    {
+      "name": "Scallion fleck.001",
+      "triangles": 174
+    },
+    {
+      "name": "Scallion fleck.002",
+      "triangles": 174
+    }
+  ]
+}

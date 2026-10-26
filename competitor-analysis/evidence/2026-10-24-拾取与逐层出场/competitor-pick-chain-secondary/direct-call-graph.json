@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "$j74019",
+    "methodAliases": [
+      "LevelManager.<LoopCrowObjSize>d__192$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74325",
+    "methodAliases": [
+      "LevelManager.<DelayToCheckContent>d__226$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j74251",
+    "methodAliases": [
+      "LevelManager.<DestroyAnim>d__227$$System.Collections.IEnumerator.Reset"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  },
+  {
+    "symbol": "$j99367",
+    "methodAliases": [
+      "GMLevelManager$$.cctor"
+    ],
+    "directCalls": [],
+    "indirectCalls": 5,
+    "scope": "Syntactic call edges. Branch conditions and virtual dispatch require separate interpretation."
+  }
+]

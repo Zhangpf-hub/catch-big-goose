@@ -1,0 +1,9 @@
+{
+  "id": "ref_bfsoymilk",
+  "sourceId": "BFSoyMilk",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFSoyMilk\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFSoyMilk.prefab",
+  "bundle": "levelbreakfastobjprefab_assets__835b65343c480715b13b20401bc8491d.bundle",
+  "sourceSha256": "896a1ee5300b1cedf1a2bf5bcdfbe0f1ff89123cc6441232fc4568f76e3017d7"
+}

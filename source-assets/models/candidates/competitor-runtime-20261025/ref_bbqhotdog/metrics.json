@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bbqhotdog",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BBQHotdog\\BBQHotdog.blend",
+  "sourceTriangles": 832,
+  "triangles": 832,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8804733753204346,
+    1.9495766162872314,
+    0.43962496519088745
+  ],
+  "normalizedDimensions": [
+    0.451622873544693,
+    1.0,
+    0.22549766302108765
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

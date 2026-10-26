@@ -1,0 +1,18 @@
+{
+  "id": "duck-craftpunch",
+  "triangles": 3472,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.7414854168891907,
+    0.6871456503868103,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "passed": true
+}

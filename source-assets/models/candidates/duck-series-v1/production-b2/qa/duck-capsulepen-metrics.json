@@ -1,0 +1,23 @@
+{
+  "id": "duck-capsulepen",
+  "triangles": 3028,
+  "dimensions": [
+    1.0,
+    0.44986435770988464,
+    0.7357929348945618
+  ],
+  "sourceCenter": [
+    0.01000000536441803,
+    -0.07443893700838089,
+    0.33754584193229675
+  ],
+  "sourceExtent": 0.8999999761581421,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 72356,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

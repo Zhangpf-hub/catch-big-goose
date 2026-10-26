@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "croissant",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\croissant\\croissant.fbx",
+  "sourceTriangles": 4068,
+  "triangles": 4000,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.6318615078926086,
+    0.3943491280078888
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.6318614482879639,
+    0.39434903860092163
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

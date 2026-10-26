@@ -1,0 +1,104 @@
+{
+  "themes": [
+    {
+      "id": "fruit",
+      "name": "水果摊",
+      "items": [
+        "apple",
+        "banana",
+        "grape",
+        "orange",
+        "strawberry",
+        "lemon",
+        "pear",
+        "cherry",
+        "goose"
+      ],
+      "background": "bg_redwood",
+      "container": "basket_redwood",
+      "circular": false,
+      "halfX": 1.35,
+      "halfZ": 1.42
+    },
+    {
+      "id": "antique",
+      "name": "古玩铺",
+      "items": [
+        "tongqian",
+        "bracelet",
+        "baoshi",
+        "hulu",
+        "yuzhuo",
+        "banzhi",
+        "yuxi",
+        "ruyi",
+        "goose"
+      ],
+      "background": "bg_jade",
+      "container": "bowl_jade",
+      "circular": true,
+      "halfX": 1.65,
+      "halfZ": 1.65
+    },
+    {
+      "id": "farm",
+      "name": "池塘农场",
+      "items": [
+        "carrot",
+        "corn",
+        "eggplant",
+        "frog",
+        "pumpkin",
+        "mushroom",
+        "koi",
+        "lotus",
+        "duck"
+      ],
+      "background": "bg_farm",
+      "container": "basket_farm",
+      "circular": false,
+      "halfX": 1.35,
+      "halfZ": 1.42
+    },
+    {
+      "id": "dessert",
+      "name": "甜品小镇",
+      "items": [
+        "cupcake",
+        "donut",
+        "icecream",
+        "macaron",
+        "cookie",
+        "cake_slice",
+        "candy",
+        "pudding",
+        "croissant"
+      ],
+      "background": "bg_dessert",
+      "container": "tray_dessert",
+      "circular": false,
+      "halfX": 1.35,
+      "halfZ": 1.42
+    },
+    {
+      "id": "electronics",
+      "name": "数码工坊",
+      "items": [
+        "phone",
+        "laptop",
+        "camera",
+        "headphones",
+        "handheld",
+        "speaker",
+        "mouse",
+        "smartwatch",
+        "radio"
+      ],
+      "background": "bg_electronics",
+      "container": "tray_electronics",
+      "circular": false,
+      "halfX": 1.63,
+      "halfZ": 1.63
+    }
+  ]
+}

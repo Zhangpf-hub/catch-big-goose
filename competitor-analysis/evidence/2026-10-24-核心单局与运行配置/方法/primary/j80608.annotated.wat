@@ -1,0 +1,126 @@
+  (func $j80608 (type $t4) (param $p0 i32)
+    i32.const 5140326
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3983892 ;; Method$System.Collections.Generic.Dictionary<string, CommonActiveDate>..ctor()
+      call $j922
+      i32.const 3983232 ;; Method$System.Collections.Generic.Dictionary<string, List<HotFixData>>..ctor()
+      call $j922
+      i32.const 3941804 ;; System.Collections.Generic.Dictionary<string, CommonActiveDate>_TypeInfo
+      call $j922
+      i32.const 3941628 ;; System.Collections.Generic.Dictionary<string, List<HotFixData>>_TypeInfo
+      call $j922
+      i32.const 3998156 ;; Method$System.Collections.Generic.List<Action>..ctor()
+      call $j922
+      i32.const 3946352 ;; System.Collections.Generic.List<Action>_TypeInfo
+      call $j922
+      i32.const 3961880 ;; ServerFileCreate_TypeInfo
+      call $j922
+      i32.const 5140326
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store offset=4
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store offset=8
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store offset=12
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3941804 ;; System.Collections.Generic.Dictionary<string, CommonActiveDate>_TypeInfo
+    i32.load
+    call $j924
+    local.set $p0
+    local.get $p0
+    i32.const 3983892 ;; Method$System.Collections.Generic.Dictionary<string, CommonActiveDate>..ctor()
+    i32.load
+    call $j967
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.get $p0
+    i32.store offset=16
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store8 offset=20
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store8 offset=21
+    i32.const 3946352 ;; System.Collections.Generic.List<Action>_TypeInfo
+    i32.load
+    call $j924
+    local.set $p0
+    local.get $p0
+    i32.const 3998156 ;; Method$System.Collections.Generic.List<Action>..ctor()
+    i32.load
+    call $j965
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.get $p0
+    i32.store offset=24
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store8 offset=28
+    i32.const 3941628 ;; System.Collections.Generic.Dictionary<string, List<HotFixData>>_TypeInfo
+    i32.load
+    call $j924
+    local.set $p0
+    local.get $p0
+    i32.const 3983232 ;; Method$System.Collections.Generic.Dictionary<string, List<HotFixData>>..ctor()
+    i32.load
+    call $j967
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.get $p0
+    i32.store offset=32
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    drop
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store8 offset=40
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store8 offset=41)

@@ -1,0 +1,9 @@
+{
+  "id": "ref_bfcornjuice",
+  "sourceId": "BFCornJuice",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFCornJuice\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFCornJuice.prefab",
+  "bundle": "levelbreakfastobjprefab_assets_part2_2598409845f1ae47bdaccd4705da9ac7.bundle",
+  "sourceSha256": "91291eff1b6367f09c3b7679dc7b18ff4e8f3447ccbdab8f5b359f5ad0fedf5b"
+}

@@ -1,0 +1,150 @@
+  (func $j43526 (type $t0) (param $p0 i32) (param $p1 i32)
+    (local $l2 f32) (local $l3 f32) (local $l4 f32) (local $l5 f32) (local $l6 f32) (local $l7 f32) (local $l8 i32) (local $l9 i32) (local $l10 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $p1
+    local.get $p1
+    global.set $primary.global$0
+    i32.const 5140126
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3997928 ;; Method$System.Collections.Generic.List<List<ObjectUnit>>.Add()
+      call $j922
+      i32.const 4003028 ;; Method$System.Collections.Generic.List<ObjectUnit>..ctor()
+      call $j922
+      i32.const 4005768 ;; Method$System.Collections.Generic.List<Transform>.get_Count()
+      call $j922
+      i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+      call $j922
+      i32.const 3947284 ;; System.Collections.Generic.List<ObjectUnit>_TypeInfo
+      call $j922
+      i32.const 5140126
+      i32.const 1
+      i32.store8
+    end
+    i32.const 0
+    local.get $p0
+    i32.load offset=620
+    local.get $p0
+    i32.load offset=616
+    i32.const 0
+    call $j14617 ;; LevelManager$$SetContentList
+    loop $L1
+      i32.const 4005768 ;; Method$System.Collections.Generic.List<Transform>.get_Count()
+      i32.load
+      drop
+      local.get $l8
+      local.get $p0
+      i32.load offset=620
+      i32.load offset=12
+      i32.lt_s
+      if $I2
+        local.get $p0
+        i32.load offset=624
+        local.set $l10
+        i32.const 3947284 ;; System.Collections.Generic.List<ObjectUnit>_TypeInfo
+        i32.load
+        call $j924
+        local.set $l9
+        local.get $l9
+        i32.const 4003028 ;; Method$System.Collections.Generic.List<ObjectUnit>..ctor()
+        i32.load
+        call $j965
+        local.get $l10
+        local.get $l9
+        i32.const 3997928 ;; Method$System.Collections.Generic.List<List<ObjectUnit>>.Add()
+        i32.load
+        call $j955 ;; System.Collections.Generic.List<__Il2CppFullySharedGenericType>$$Add
+        local.get $l8
+        i32.const 1
+        i32.add
+        local.set $l8
+        br $L1
+      end
+    end
+    local.get $p1
+    local.get $p0
+    i32.load offset=620
+    i32.const 0
+    i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+    i32.load
+    call $j947
+    i32.const 0
+    call $j1062 ;; UnityEngine.Transform$$get_position
+    local.get $p1
+    f32.load offset=8
+    local.set $l2
+    local.get $p1
+    f32.load offset=4
+    local.set $l3
+    local.get $p1
+    f32.load
+    local.set $l4
+    local.get $p1
+    local.get $p0
+    i32.load offset=620
+    i32.const 1
+    i32.const 4005772 ;; Method$System.Collections.Generic.List<Transform>.get_Item()
+    i32.load
+    call $j947
+    i32.const 0
+    call $j1062 ;; UnityEngine.Transform$$get_position
+    local.get $p1
+    f32.load offset=8
+    local.set $l5
+    local.get $p1
+    f32.load offset=4
+    local.set $l6
+    local.get $p1
+    f32.load
+    local.set $l7
+    i32.const 5140222
+    i32.load8_u
+    i32.eqz
+    if $I3
+      i32.const 3958620 ;; System.Math_TypeInfo
+      call $j922
+      i32.const 5140222
+      i32.const 1
+      i32.store8
+    end
+    local.get $l4
+    local.get $l7
+    f32.sub
+    local.set $l4
+    local.get $l3
+    local.get $l6
+    f32.sub
+    local.set $l3
+    local.get $l2
+    local.get $l5
+    f32.sub
+    local.set $l2
+    i32.const 3958620 ;; System.Math_TypeInfo
+    i32.load
+    call $j923
+    local.get $p0
+    local.get $l4
+    local.get $l4
+    f32.mul
+    local.get $l3
+    local.get $l3
+    f32.mul
+    f32.add
+    local.get $l2
+    local.get $l2
+    f32.mul
+    f32.add
+    f32.sqrt
+    f32.store offset=636
+    local.get $p0
+    i32.const 0
+    i32.const 0
+    local.get $l8
+    call $j10877 ;; LevelManager$$SetStoreContentPos
+    local.get $p1
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

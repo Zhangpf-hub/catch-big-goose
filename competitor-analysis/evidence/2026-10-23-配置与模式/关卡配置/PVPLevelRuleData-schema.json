@@ -1,0 +1,25 @@
+{
+  "rowClass": "PVPLevelRuleDataData",
+  "fields": [
+    [
+      "_id",
+      "int"
+    ],
+    [
+      "_pvptoolid",
+      "int[]"
+    ],
+    [
+      "_pvpbasetoolid",
+      "int[]"
+    ],
+    [
+      "_toolpoolcount",
+      "int"
+    ],
+    [
+      "_toolproid",
+      "int"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfcornjuice",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFCornJuice\\BFCornJuice.blend",
+  "sourceTriangles": 904,
+  "triangles": 904,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.2209399938583374,
+    1.8767786026000977,
+    1.6741340160369873
+  ],
+  "normalizedDimensions": [
+    0.650550901889801,
+    1.0,
+    0.892025351524353
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

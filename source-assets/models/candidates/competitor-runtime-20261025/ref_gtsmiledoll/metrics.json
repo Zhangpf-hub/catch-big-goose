@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtsmiledoll",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTSmileDoll\\GTSmileDoll.blend",
+  "sourceTriangles": 1680,
+  "triangles": 1680,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0939593315124512,
+    1.273275375366211,
+    0.5909023880958557
+  ],
+  "normalizedDimensions": [
+    0.8591694831848145,
+    1.0,
+    0.4640806019306183
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "pathId": 17,
+    "assetsFile": "unity_default_resources",
+    "error": "read___int64 out of bounds"
+  },
+  {
+    "pathId": 68,
+    "assetsFile": "unity_default_resources",
+    "error": "read___int64 out of bounds"
+  },
+  {
+    "pathId": 69,
+    "assetsFile": "unity_default_resources",
+    "error": "read___int64 out of bounds"
+  },
+  {
+    "pathId": 70,
+    "assetsFile": "unity_default_resources",
+    "error": "read___int64 out of bounds"
+  },
+  {
+    "pathId": 10101,
+    "assetsFile": "unity_default_resources",
+    "error": "read___int64 out of bounds"
+  },
+  {
+    "pathId": 10755,
+    "assetsFile": "unity_default_resources",
+    "error": "read___int64 out of bounds"
+  }
+]

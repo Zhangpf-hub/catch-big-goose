@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "xiaoLianMianRen",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-6674667076202348853.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1MulMatcap",
+      "glassFlattened": false
+    }
+  ]
+}

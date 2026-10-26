@@ -1,0 +1,53 @@
+{
+  "id": "duck-watermelon",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_Watermelon/Goose_Watermelon.glb",
+  "sourceSha256": "ebe75bbcd8f86faca883fd0983f8371a0a93c9bf008cd2b3d74cf579fa0b82ca",
+  "originalWorldDimensions": [
+    2.681178569793701,
+    3.397681713104248,
+    1.9615037441253662
+  ],
+  "uniformScale": 0.29431832774187755,
+  "normalizedWorldDimensions": [
+    0.7891199588775635,
+    0.9999999403953552,
+    0.5773065090179443
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_grilledcorn",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\GrilledCorn\\GrilledCorn.blend",
+  "sourceTriangles": 513,
+  "triangles": 513,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7597100734710693,
+    2.3931312561035156,
+    1.0490009784698486
+  ],
+  "normalizedDimensions": [
+    0.31745442748069763,
+    1.0,
+    0.4383382797241211
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "jadechime",
+  "theme": "antique",
+  "triangles": 644,
+  "vertices": 344,
+  "blenderBounds": [
+    1.0,
+    0.22306093573570251,
+    0.6031709909439087
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 16796,
+  "sha256": "6d40a379136bd84f5bf13b1ee0ca50a8156c770f0adc2f6a2b3d80b75db69513",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

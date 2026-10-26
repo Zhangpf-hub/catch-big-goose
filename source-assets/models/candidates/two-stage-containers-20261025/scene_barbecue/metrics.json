@@ -1,0 +1,12 @@
+{
+  "id": "scene_barbecue",
+  "triangles": 3316,
+  "parts": 4,
+  "materials": 4,
+  "dimensions": [
+    0.6416606307029724,
+    0.9999999403953552,
+    0.8948611617088318
+  ],
+  "glbRoundtrip": true
+}

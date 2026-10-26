@@ -1,0 +1,17 @@
+{
+  "reviewedAtLocal": "2026-10-24",
+  "passed": true,
+  "images": ["core-home.png", "core-0.png", "core-1.png", "core-2.png"],
+  "capture": "Explicit offscreen rendering of actual scene cameras and actual HUD in the Windows development player at 450x844; hidden swapchain screenshots were black and rejected",
+  "observed": [
+    "Home shows 15 pieces and unlimited time for the entry profile",
+    "Entry scene contains the three target geese and shows 0/15 and unlimited time",
+    "Short profile shows 0/60 and a countdown, seven empty tray positions and three stored item icons",
+    "Deep profile shows 0/300 with the 600-second countdown and a densely layered pile"
+  ],
+  "limits": [
+    "Still images, not human pointer or touch interaction tests",
+    "Offscreen camera capture is not a target-phone or WeChat performance test",
+    "Existing art, camera placement and UI differ from the competitor; not a pixel-identical recreation"
+  ]
+}

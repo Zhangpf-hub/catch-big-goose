@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "basket_farm",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_farm\\basket_farm.fbx",
+  "sourceTriangles": 25000,
+  "triangles": 25000,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    0.9887726306915283,
+    0.18833211064338684
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.9887726306915283,
+    0.18833202123641968
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

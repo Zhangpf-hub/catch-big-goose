@@ -1,0 +1,461 @@
+[
+  {
+    "id": "apple",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\apple\\apple.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\apple\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "banana",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banana\\banana.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banana\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "grape",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\grape\\grape.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\grape\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "orange",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\orange\\orange.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\orange\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "strawberry",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\strawberry\\strawberry.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\strawberry\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "lemon",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lemon\\lemon.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lemon\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "pear",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pear\\pear.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pear\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "cherry",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cherry\\cherry.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cherry\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "basket_redwood",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_redwood\\basket_redwood.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_redwood\\materials.json",
+    "target": 100000,
+    "container": true,
+    "textureSize": 512
+  },
+  {
+    "id": "tongqian",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tongqian\\tongqian.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tongqian\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "bracelet",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bracelet\\bracelet.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bracelet\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "baoshi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\baoshi\\baoshi.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\baoshi\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "hulu",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\hulu\\hulu.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\hulu\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "yuzhuo",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuzhuo\\yuzhuo.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuzhuo\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "banzhi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banzhi\\banzhi.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\banzhi\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "yuxi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuxi\\yuxi.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuxi\\materials.json",
+    "target": 3000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "ruyi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\ruyi\\ruyi.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\ruyi\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "bowl_jade",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bowl_jade\\bowl_jade.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\bowl_jade\\materials.json",
+    "target": 100000,
+    "container": true,
+    "textureSize": 512
+  },
+  {
+    "id": "carrot",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\carrot\\carrot.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\carrot\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "corn",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\corn\\corn.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\corn\\materials.json",
+    "target": 3000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "eggplant",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\eggplant\\eggplant.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\eggplant\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "frog",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\frog\\frog.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\frog\\materials.json",
+    "target": 3000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "pumpkin",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pumpkin\\pumpkin.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pumpkin\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "mushroom",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\mushroom\\mushroom.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\mushroom\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "koi",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\koi\\koi.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\koi\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "lotus",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lotus\\lotus.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\lotus\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "duck",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\duck\\duck.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\duck\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "basket_farm",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_farm\\basket_farm.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_farm\\materials.json",
+    "target": 100000,
+    "container": true,
+    "textureSize": 512
+  },
+  {
+    "id": "cupcake",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cupcake\\cupcake.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cupcake\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "donut",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\donut\\donut.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\donut\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "icecream",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\icecream\\icecream.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\icecream\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "macaron",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\macaron\\macaron.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\macaron\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "cookie",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cookie\\cookie.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cookie\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "cake_slice",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cake_slice\\cake_slice.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cake_slice\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "candy",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\candy\\candy.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\candy\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "pudding",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pudding\\pudding.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pudding\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "croissant",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\croissant\\croissant.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\croissant\\materials.json",
+    "target": 4000,
+    "container": false,
+    "textureSize": 512
+  },
+  {
+    "id": "tray_dessert",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_dessert\\tray_dessert.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_dessert\\materials.json",
+    "target": 100000,
+    "container": true,
+    "textureSize": 512
+  },
+  {
+    "id": "tray_electronics",
+    "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_electronics\\tray_electronics.fbx",
+    "materialFile": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tray_electronics\\materials.json",
+    "target": 100000,
+    "container": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtcrocodile",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTCrocodile\\GTCrocodile.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtdinosaur",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTDinosaur\\GTDinosaur.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtdrawingboard",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTDrawingBoard\\GTDrawingBoard.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtfruiteraser",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTFruitEraser\\GTFruitEraser.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtgoosestamp",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTGooseStamp\\GTGooseStamp.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtkaleidoscope",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTKaleidoscope\\GTKaleidoscope.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtlaserpen",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTLaserPen\\GTLaserPen.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtmagiccubel",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTMagicCubeL\\GTMagicCubeL.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtpaperboat",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperBoat\\GTPaperBoat.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtpaperfortune",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperFortune\\GTPaperFortune.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtpaperstar",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperStar\\GTPaperStar.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtpapertree",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperTree\\GTPaperTree.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtplanepen",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlanePen\\GTPlanePen.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtplasterdeer",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlasterDeer\\GTPlasterDeer.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtplaydough",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPlaydough\\GTPlaydough.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtracecar",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRaceCar\\GTRaceCar.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtringcandy",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRingCandy\\GTRingCandy.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtsandbag",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTSandbag\\GTSandbag.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtsmiledoll",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTSmileDoll\\GTSmileDoll.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtstickerbook",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTStickerBook\\GTStickerBook.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  },
+  {
+    "id": "ref_gtwatergame",
+    "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTWaterGame\\GTWaterGame.blend",
+    "target": 4000,
+    "reference": true,
+    "textureSize": 512
+  }
+]

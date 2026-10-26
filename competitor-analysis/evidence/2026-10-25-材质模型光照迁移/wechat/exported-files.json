@@ -1,0 +1,357 @@
+[
+  {
+    "path": "check-version.js",
+    "bytes": 8300,
+    "sha256": "bf04cc7c09a598115dfc71bf6b90ded17c7ecdc1ea783299f08ac47902c39bba"
+  },
+  {
+    "path": "data-package/7e8eab8381d84fb3.webgl.data.unityweb.bin.br",
+    "bytes": 14146083,
+    "sha256": "63af17ae6925dd698bc258a720f53bc220382dd87f7da0e1403f72c87371b345"
+  },
+  {
+    "path": "data-package/game.js",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "events.js",
+    "bytes": 1603,
+    "sha256": "b040773760fe21c179d31774050bbecdf5b507ca6ea9502ff9a9189c30386d78"
+  },
+  {
+    "path": "game.js",
+    "bytes": 8189,
+    "sha256": "e07486066e24ae6aeb2ab553cd584ac1851d6c61a7cb234cb3e977329bcb09bd"
+  },
+  {
+    "path": "game.json",
+    "bytes": 703,
+    "sha256": "d8ac716ec5d0dd49948369591b8fbdaae7b443e79341e2beed872d521d71babb"
+  },
+  {
+    "path": "images/challenge-map-bg.jpg",
+    "bytes": 538229,
+    "sha256": "0315ee64a533ec64c024537766c7bbea0927e1bf4b75778811a71be1e95a2cae"
+  },
+  {
+    "path": "images/unity_logo.png",
+    "bytes": 1216,
+    "sha256": "34799ce1b7a341e39c6c6ea7fa439f170989f3ecc5d0cd3681573569b4b6d239"
+  },
+  {
+    "path": "media/Darkchaser-Battletide.mp4",
+    "bytes": 3871281,
+    "sha256": "2179ac07c12c769ddf7db09e2e18baa2b959c0adb6bcc20322d40ee2cfc28ca3"
+  },
+  {
+    "path": "media/game.js",
+    "bytes": 34,
+    "sha256": "0f8cba2ec360a8462addcaaf2ce4bd73cba094ed1e105291e7805256bb1d8342"
+  },
+  {
+    "path": "media/manifest.json",
+    "bytes": 562,
+    "sha256": "25f49158d2cee2c425f51771ea5df3e76a43e63e340d851688bc2096b4c58900"
+  },
+  {
+    "path": "media/Skycore-Reboot.f5800.mp4",
+    "bytes": 1293382,
+    "sha256": "1f4089eb1a3f37f655a7a86fa7db914635ac494f75a7a2e2320effa110410594"
+  },
+  {
+    "path": "plugin-config.js",
+    "bytes": 506,
+    "sha256": "4cde1dc76bbd76fda77060b30e48d78f2c82bb8411b09af0fc3a7f3f94bf2773"
+  },
+  {
+    "path": "project.config.json",
+    "bytes": 1741,
+    "sha256": "64f5ad3ed2882536fc465abf50943b9d9e5db0a3724d4414408f44919b548bbe"
+  },
+  {
+    "path": "texture-config.js",
+    "bytes": 125,
+    "sha256": "747f107b820fab04666d6e00a01e124cee51aab7892011bd7506ed9fa4a9a455"
+  },
+  {
+    "path": "unity-namespace.js",
+    "bytes": 9011,
+    "sha256": "6590fa2b4c96e9cfaca6146238a4bf5e3b69f296d5a936df7c5146ce65500053"
+  },
+  {
+    "path": "unity-sdk/ad.js",
+    "bytes": 9184,
+    "sha256": "57299dc48c137dfe484fbe49fbec06c66810bc783ac9a1cde3881b1d8e089057"
+  },
+  {
+    "path": "unity-sdk/audio/common.js",
+    "bytes": 2301,
+    "sha256": "2cb325f790a783d055980c58b23bdf0ce0990b6db032c58d5c7f29f6967b8e6d"
+  },
+  {
+    "path": "unity-sdk/audio/const.js",
+    "bytes": 234,
+    "sha256": "29eb91c715c36542ec43783688b5a39d2809b6da77c99920e1e3fc1b12a0e237"
+  },
+  {
+    "path": "unity-sdk/audio/index.js",
+    "bytes": 192,
+    "sha256": "e6b24fec45d4537d4bb9be479266c0b69a42b20efd8dcf51c4400c62f2edbfa5"
+  },
+  {
+    "path": "unity-sdk/audio/inner-audio.js",
+    "bytes": 12629,
+    "sha256": "9e5fe09d1935a466a5d9487eae3b787c2de4b6f52c58df6d24fe4ed0c3dca1ae"
+  },
+  {
+    "path": "unity-sdk/audio/store.js",
+    "bytes": 692,
+    "sha256": "9d18d0e3e4c160bbd808aa80cb91098fd85730e4526cb54a796259c5c45760c3"
+  },
+  {
+    "path": "unity-sdk/audio/unity-audio.js",
+    "bytes": 48378,
+    "sha256": "b91336ff1dac1184c2f556202f5859c51f334557e832944cacdd98a9108c90ad"
+  },
+  {
+    "path": "unity-sdk/audio/utils.js",
+    "bytes": 2138,
+    "sha256": "9988b68c53ac1ea6f49a44d1edfed2a7701c4ff517c24151c24cdb50eca8992b"
+  },
+  {
+    "path": "unity-sdk/authorize.js",
+    "bytes": 758,
+    "sha256": "2e97f46ee0a73b1539d113ccf368406305085dc0c50554585aeff5eae2d383b0"
+  },
+  {
+    "path": "unity-sdk/bluetooth/index.js",
+    "bytes": 1316,
+    "sha256": "17644ef87629da1985371f26fdfd7ed934c1c01353396f26237c5924b7c35f12"
+  },
+  {
+    "path": "unity-sdk/camera.js",
+    "bytes": 3058,
+    "sha256": "4fde26e81b23342f753c91945bbb42bc1204ceba75e97031bc6dfb011706bf59"
+  },
+  {
+    "path": "unity-sdk/canvas-context.js",
+    "bytes": 346,
+    "sha256": "e942f4f9130cbeb12bf27a336e5c3b93dc54d565305103eac23476e72f3fd014"
+  },
+  {
+    "path": "unity-sdk/canvas.js",
+    "bytes": 853,
+    "sha256": "24ec91fb33716b68603a03f66b0bdc7987b097449f37c23e218cb8c831462258"
+  },
+  {
+    "path": "unity-sdk/chat.js",
+    "bytes": 5229,
+    "sha256": "ec801faf206d2572afaf51efb659e21ce2a8800ec1a4578823220c4758a34122"
+  },
+  {
+    "path": "unity-sdk/cloud.js",
+    "bytes": 9225,
+    "sha256": "daac546691551a941b7676c7e9d1231040855225a2d80b4776870ef4d404a4f9"
+  },
+  {
+    "path": "unity-sdk/conf.js",
+    "bytes": 51,
+    "sha256": "a900dd0795f655c3f3958aa949071e762cb301d4548f66e30e1c4b6f9bb9d10e"
+  },
+  {
+    "path": "unity-sdk/file-info.js",
+    "bytes": 1621,
+    "sha256": "5e8900c9285d62b25b7e3d404990072f8ef00304738c56ca015d32faf1c1c35d"
+  },
+  {
+    "path": "unity-sdk/fix.js",
+    "bytes": 2865,
+    "sha256": "0f50eead697dbcc8df6de8b22d5c4050b46e03e2429633f4c1c8a9aece361c25"
+  },
+  {
+    "path": "unity-sdk/font/fix-cmap.js",
+    "bytes": 2305,
+    "sha256": "d9bb1e27cc03eb1dfb88c9efec9e38886029e90c6cfef9ba792b0dcda116cfda"
+  },
+  {
+    "path": "unity-sdk/font/index.js",
+    "bytes": 6910,
+    "sha256": "3030ddbbd6c5f950e675d3468e4f0cdf5fec1f7b61667f503029af64690c86e0"
+  },
+  {
+    "path": "unity-sdk/font/read-metrics.js",
+    "bytes": 1393,
+    "sha256": "853991b99532d73793f1bfb79416ceae8313d4c1777134c9ca9ea6554c224a80"
+  },
+  {
+    "path": "unity-sdk/font/split-sc.js",
+    "bytes": 4755,
+    "sha256": "00df8c6ca287fa8028b0d04297e37ec0545f395e8a749dcbd86fb40e05dd8f01"
+  },
+  {
+    "path": "unity-sdk/font/util.js",
+    "bytes": 479,
+    "sha256": "109eaa34eeb36476f3387aa72b5e6f54eb2b249147f17bfacf5abddc5a0e8110"
+  },
+  {
+    "path": "unity-sdk/fs.js",
+    "bytes": 16691,
+    "sha256": "8d6969f4112d2369035c577072f06b5d9091ea7729afda6f7a01c40c5ede1e13"
+  },
+  {
+    "path": "unity-sdk/game-club.js",
+    "bytes": 2606,
+    "sha256": "5aaec00ef0551e0e8864e6a917eab2fe2d39de58743b15c8d483b4fcae3be56f"
+  },
+  {
+    "path": "unity-sdk/game-recorder.js",
+    "bytes": 3278,
+    "sha256": "4846a1a381ae17bdeb3d7c310be0d2e33bf19bf07b29dfb5338eab3f30398db4"
+  },
+  {
+    "path": "unity-sdk/gyroscope/index.js",
+    "bytes": 2626,
+    "sha256": "d4076914b6b8bdce7b32b1dfb896e1e2cae7189aeaba1c189f1b204f07fa9650"
+  },
+  {
+    "path": "unity-sdk/index.js",
+    "bytes": 3130,
+    "sha256": "3b722358ce9641161428eb96ea091c4cbd644fce86faab1b0c4269b408317b34"
+  },
+  {
+    "path": "unity-sdk/logger.js",
+    "bytes": 647,
+    "sha256": "68acc1be024a5bbe99efe4bd1cbb2b9d5abaa850222d355032f28f04cbd25fd7"
+  },
+  {
+    "path": "unity-sdk/mobileKeyboard/index.js",
+    "bytes": 4410,
+    "sha256": "4ab0aba997bab4acf7d5054a1ff7a35d9736db3494317b8009737419d33ea41d"
+  },
+  {
+    "path": "unity-sdk/module-helper.js",
+    "bytes": 370,
+    "sha256": "74942d02be0bc53241dee02785446a1d8b11bd8d0e188b0711d618c77a0fcbb8"
+  },
+  {
+    "path": "unity-sdk/open-data.js",
+    "bytes": 7875,
+    "sha256": "0e849405275a42f450b49879b1a431e3eb2db1fa12114179ee40a1ae2e9c4cff"
+  },
+  {
+    "path": "unity-sdk/recorder.js",
+    "bytes": 4625,
+    "sha256": "01b39f691e6838eade0b9e67ef044ce1424b975767bba6733909d93db328f2ed"
+  },
+  {
+    "path": "unity-sdk/response.js",
+    "bytes": 1965,
+    "sha256": "8cd27555e11feb719d80fb0d85cd7305ef4da34b91d3e26caeae9d309a0dbc72"
+  },
+  {
+    "path": "unity-sdk/resType.js",
+    "bytes": 31280,
+    "sha256": "efb540ed1dc1930cbf2f88fc56830555d7e2be250cc7f8df883cacacbcf8a94b"
+  },
+  {
+    "path": "unity-sdk/resTypeOther.js",
+    "bytes": 2390,
+    "sha256": "69f973d890e3263f3f93da035efe1c9db72ccb9b1403be28f468fd3de6630df5"
+  },
+  {
+    "path": "unity-sdk/sdk.js",
+    "bytes": 17674,
+    "sha256": "d7288452cae5ac5c6d6b8b36878386dda03aed3b7a3834f04f999592b38fc708"
+  },
+  {
+    "path": "unity-sdk/share.js",
+    "bytes": 837,
+    "sha256": "1fba77a20c73df4f12931c93c02957bf214d888414c2fe171e82db397aa4f10c"
+  },
+  {
+    "path": "unity-sdk/storage.js",
+    "bytes": 4432,
+    "sha256": "02b63202110160b4e190ce44173b67d1d94f5d8e2572e4bfeb07a48960d095de"
+  },
+  {
+    "path": "unity-sdk/TCPSocket/index.js",
+    "bytes": 5548,
+    "sha256": "d9bbe9357f925ad4ed5204a60c22ddcc7dd138073b9b634e85b6eadc00ac103f"
+  },
+  {
+    "path": "unity-sdk/texture.js",
+    "bytes": 11345,
+    "sha256": "088318cc54fe59dfb6afdd33055546be07b1e9c80eac36d05882abbdd9aba119"
+  },
+  {
+    "path": "unity-sdk/touch/index.js",
+    "bytes": 2378,
+    "sha256": "b110180e56d65bd059c37cd8ac6fe835cf8e3cc344380ea6a1b7dc6ffef54220"
+  },
+  {
+    "path": "unity-sdk/UDPSocket/index.js",
+    "bytes": 6467,
+    "sha256": "98edef499351a98b51bc5e64e54cc51b5a8eee12fd68033dc02c25df3936d071"
+  },
+  {
+    "path": "unity-sdk/upload-file.js",
+    "bytes": 2739,
+    "sha256": "2f504cc44070e3c6b506e7e848c452cf451ea1903a4f29af6dd0e1caa8884ee9"
+  },
+  {
+    "path": "unity-sdk/userinfo.js",
+    "bytes": 3012,
+    "sha256": "fa8ff11ebb1a0ea091bf32431a871de5ddd40adb19f229415673165f04dd9232"
+  },
+  {
+    "path": "unity-sdk/util.js",
+    "bytes": 6589,
+    "sha256": "e162f10a43dbc8318ba9b868f394531ed37c1bc952cbade11c2d6591d63234f7"
+  },
+  {
+    "path": "unity-sdk/utils.js",
+    "bytes": 13687,
+    "sha256": "138cce4f770745ee943cd4a8b97d22c03e3fdf94b1537b1d7823be44ffc0f158"
+  },
+  {
+    "path": "unity-sdk/video/index.js",
+    "bytes": 24252,
+    "sha256": "00cf6813ce44c218348aca013c5cec563a9e58ce9789ebd80322f4d2ba95dc61"
+  },
+  {
+    "path": "unity-sdk/video.js",
+    "bytes": 2628,
+    "sha256": "fb7785b2d2cc34474546bed81106bae14043838ea10c4e2c7efcc6d02eb7c117"
+  },
+  {
+    "path": "wasmcode/6cf7856b21db2c38.webgl.wasm.code.unityweb.wasm.br",
+    "bytes": 4409289,
+    "sha256": "7d8c96fc2c5479e594de78258dc788da10932d9fba8ff049d589044ad0cdf43b"
+  },
+  {
+    "path": "wasmcode/game.js",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "weapp-adapter.js",
+    "bytes": 76398,
+    "sha256": "233bece29813e3cc0b884477732027f51747221e3ea5157614eaa7569686d699"
+  },
+  {
+    "path": "webgl.wasm.framework.unityweb.js",
+    "bytes": 482993,
+    "sha256": "d707cbcf02a035702583d69885328c9f4d92d8138e1ef38e93b90ba78252846d"
+  },
+  {
+    "path": "webgl.wasm.symbols.unityweb.br",
+    "bytes": 923319,
+    "sha256": "d381e53981f183cccdb58706925bf58416e0b9cedbf8f5e098767db1bbd93f84"
+  },
+  {
+    "path": "workers/response/index.js",
+    "bytes": 2273,
+    "sha256": "b0781ac1b05eca2a753a7ef0200a51a2e3dfcbf3de86c5b77d265d4cfdb5f633"
+  }
+]

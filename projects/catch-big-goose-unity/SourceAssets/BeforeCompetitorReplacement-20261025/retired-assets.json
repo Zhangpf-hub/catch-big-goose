@@ -1,0 +1,2474 @@
+[
+  {
+    "from": "unity\\Assets\\Resources\\Models\\alarmclock",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\alarmclock"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\alarmclock.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\alarmclock.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\alarmclock.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\alarmclock.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\alarmclock.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\alarmclock.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\alarmclock.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\alarmclock.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\alarmclock.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\alarmclock.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\apple",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\apple"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\apple.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\apple.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\apple.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\apple.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\apple.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\apple.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\apple.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\apple.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\apple.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\apple.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\avocado",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\avocado"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\avocado.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\avocado.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\avocado.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\avocado.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\avocado.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\avocado.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\avocado.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\avocado.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\avocado.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\avocado.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\banana",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\banana"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\banana.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\banana.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\banana.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\banana.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\banana.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\banana.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\banana.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\banana.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\banana.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\banana.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\banzhi",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\banzhi"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\banzhi.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\banzhi.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\banzhi.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\banzhi.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\banzhi.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\banzhi.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\banzhi.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\banzhi.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\banzhi.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\banzhi.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\baoshi",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\baoshi"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\baoshi.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\baoshi.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\baoshi.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\baoshi.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\baoshi.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\baoshi.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\baoshi.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\baoshi.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\baoshi.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\baoshi.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\bellpepper",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\bellpepper"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\bellpepper.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\bellpepper.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\bellpepper.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\bellpepper.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\bellpepper.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\bellpepper.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\bellpepper.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\bellpepper.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\bellpepper.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\bellpepper.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\blueberry",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\blueberry"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\blueberry.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\blueberry.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\blueberry.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\blueberry.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\blueberry.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\blueberry.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\blueberry.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\blueberry.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\blueberry.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\blueberry.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\bracelet",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\bracelet"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\bracelet.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\bracelet.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\bracelet.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\bracelet.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\bracelet.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\bracelet.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\bracelet.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\bracelet.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\bracelet.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\bracelet.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\broccoli",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\broccoli"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\broccoli.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\broccoli.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\broccoli.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\broccoli.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\broccoli.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\broccoli.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\broccoli.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\broccoli.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\broccoli.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\broccoli.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cabbage",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cabbage"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cabbage.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cabbage.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cabbage.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cabbage.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cabbage.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cabbage.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cabbage.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cabbage.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cabbage.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cabbage.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cake_slice",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cake_slice"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cake_slice.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cake_slice.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cake_slice.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cake_slice.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cake_slice.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cake_slice.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cake_slice.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cake_slice.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cake_slice.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cake_slice.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\camera",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\camera"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\camera.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\camera.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\camera.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\camera.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\camera.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\camera.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\camera.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\camera.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\camera.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\camera.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\candy",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\candy"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\candy.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\candy.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\candy.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\candy.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\candy.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\candy.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\candy.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\candy.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\candy.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\candy.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\carrot",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\carrot"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\carrot.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\carrot.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\carrot.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\carrot.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\carrot.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\carrot.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\carrot.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\carrot.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\carrot.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\carrot.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cherry",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cherry"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cherry.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cherry.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cherry.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cherry.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cherry.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cherry.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cherry.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cherry.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cherry.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cherry.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\chocolate",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\chocolate"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\chocolate.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\chocolate.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\chocolate.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\chocolate.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\chocolate.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\chocolate.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\chocolate.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\chocolate.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\chocolate.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\chocolate.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\coconut",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\coconut"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\coconut.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\coconut.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\coconut.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\coconut.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\coconut.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\coconut.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\coconut.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\coconut.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\coconut.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\coconut.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cookie",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cookie"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cookie.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cookie.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cookie.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cookie.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cookie.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cookie.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cookie.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cookie.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cookie.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cookie.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\corn",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\corn"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\corn.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\corn.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\corn.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\corn.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\corn.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\corn.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\corn.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\corn.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\corn.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\corn.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\croissant",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\croissant"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\croissant.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\croissant.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\croissant.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\croissant.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\croissant.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\croissant.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\croissant.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\croissant.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\croissant.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\croissant.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cucumber",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cucumber"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cucumber.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cucumber.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cucumber.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cucumber.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cucumber.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cucumber.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cucumber.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cucumber.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cucumber.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cucumber.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cupcake",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cupcake"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\cupcake.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\cupcake.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cupcake.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cupcake.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\cupcake.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\cupcake.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cupcake.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cupcake.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\cupcake.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\cupcake.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\donut",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\donut"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\donut.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\donut.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\donut.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\donut.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\donut.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\donut.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\donut.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\donut.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\donut.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\donut.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\dragonfruit",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\dragonfruit"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\dragonfruit.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\dragonfruit.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\dragonfruit.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\dragonfruit.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\dragonfruit.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\dragonfruit.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\dragonfruit.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\dragonfruit.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\dragonfruit.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\dragonfruit.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\duck",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\duck"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\duck.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\duck.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\duck.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\duck.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\duck.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\duck.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\duck.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\duck.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\duck.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\duck.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\dumpling",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\dumpling"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\dumpling.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\dumpling.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\dumpling.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\dumpling.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\dumpling.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\dumpling.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\dumpling.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\dumpling.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\dumpling.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\dumpling.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\egg",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\egg"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\egg.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\egg.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\egg.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\egg.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\egg.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\egg.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\egg.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\egg.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\egg.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\egg.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\eggplant",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\eggplant"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\eggplant.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\eggplant.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\eggplant.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\eggplant.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\eggplant.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\eggplant.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\eggplant.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\eggplant.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\eggplant.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\eggplant.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\eggtart",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\eggtart"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\eggtart.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\eggtart.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\eggtart.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\eggtart.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\eggtart.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\eggtart.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\eggtart.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\eggtart.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\eggtart.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\eggtart.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\flashlight",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\flashlight"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\flashlight.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\flashlight.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\flashlight.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\flashlight.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\flashlight.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\flashlight.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\flashlight.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\flashlight.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\flashlight.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\flashlight.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\frog",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\frog"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\frog.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\frog.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\frog.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\frog.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\frog.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\frog.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\frog.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\frog.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\frog.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\frog.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\gamepad",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\gamepad"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\gamepad.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\gamepad.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\gamepad.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\gamepad.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\gamepad.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\gamepad.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\gamepad.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\gamepad.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\gamepad.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\gamepad.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\garlic",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\garlic"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\garlic.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\garlic.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\garlic.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\garlic.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\garlic.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\garlic.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\garlic.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\garlic.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\garlic.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\garlic.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\goldchime",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\goldchime"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\goldchime.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\goldchime.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\goldchime.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\goldchime.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\goldchime.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\goldchime.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\goldchime.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\goldchime.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\goldchime.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\goldchime.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\goldring",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\goldring"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\goldring.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\goldring.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\goldring.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\goldring.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\goldring.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\goldring.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\goldring.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\goldring.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\goldring.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\goldring.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\grape",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\grape"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\grape.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\grape.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\grape.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\grape.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\grape.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\grape.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\grape.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\grape.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\grape.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\grape.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\handheld",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\handheld"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\handheld.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\handheld.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\handheld.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\handheld.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\handheld.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\handheld.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\handheld.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\handheld.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\handheld.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\handheld.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\headphones",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\headphones"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\headphones.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\headphones.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\headphones.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\headphones.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\headphones.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\headphones.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\headphones.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\headphones.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\headphones.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\headphones.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\hulu",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\hulu"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\hulu.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\hulu.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\hulu.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\hulu.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\hulu.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\hulu.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\hulu.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\hulu.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\hulu.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\hulu.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\icecream",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\icecream"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\icecream.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\icecream.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\icecream.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\icecream.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\icecream.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\icecream.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\icecream.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\icecream.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\icecream.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\icecream.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadebeads",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadebeads"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadebeads.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadebeads.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadebeads.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadebeads.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadebeads.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadebeads.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadebeads.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadebeads.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadebeads.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadebeads.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadecarp",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadecarp"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadecarp.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadecarp.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadecarp.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadecarp.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadecarp.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadecarp.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadecarp.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadecarp.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadecarp.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadecarp.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadechime",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadechime"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadechime.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadechime.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadechime.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadechime.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadechime.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadechime.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadechime.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadechime.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadechime.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadechime.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadeleaf",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadeleaf"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadeleaf.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadeleaf.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadeleaf.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadeleaf.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadeleaf.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadeleaf.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadeleaf.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadeleaf.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadeleaf.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadeleaf.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadelock",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadelock"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadelock.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadelock.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadelock.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadelock.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadelock.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadelock.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadelock.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadelock.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadelock.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadelock.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadepeanut",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadepeanut"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadepeanut.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadepeanut.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadepeanut.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadepeanut.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadepeanut.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadepeanut.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadepeanut.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadepeanut.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadepeanut.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadepeanut.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadetalisman",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadetalisman"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadetalisman.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadetalisman.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadetalisman.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadetalisman.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadetalisman.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadetalisman.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadetalisman.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadetalisman.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadetalisman.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadetalisman.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadeteapot",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadeteapot"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadeteapot.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadeteapot.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadeteapot.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadeteapot.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadeteapot.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadeteapot.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadeteapot.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadeteapot.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadeteapot.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadeteapot.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadetiger",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadetiger"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadetiger.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadetiger.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadetiger.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadetiger.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadetiger.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadetiger.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadetiger.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadetiger.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadetiger.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadetiger.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadevase",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadevase"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\jadevase.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\jadevase.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadevase.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadevase.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\jadevase.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\jadevase.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadevase.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadevase.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\jadevase.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\jadevase.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\keyboard",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\keyboard"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\keyboard.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\keyboard.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\keyboard.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\keyboard.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\keyboard.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\keyboard.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\keyboard.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\keyboard.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\keyboard.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\keyboard.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\kiwi",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\kiwi"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\kiwi.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\kiwi.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\kiwi.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\kiwi.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\kiwi.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\kiwi.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\kiwi.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\kiwi.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\kiwi.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\kiwi.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\koi",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\koi"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\koi.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\koi.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\koi.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\koi.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\koi.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\koi.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\koi.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\koi.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\koi.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\koi.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\laptop",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\laptop"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\laptop.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\laptop.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\laptop.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\laptop.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\laptop.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\laptop.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\laptop.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\laptop.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\laptop.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\laptop.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\lemon",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\lemon"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\lemon.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\lemon.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\lemon.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\lemon.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\lemon.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\lemon.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\lemon.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\lemon.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\lemon.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\lemon.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\lollipop",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\lollipop"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\lollipop.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\lollipop.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\lollipop.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\lollipop.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\lollipop.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\lollipop.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\lollipop.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\lollipop.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\lollipop.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\lollipop.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\lotus",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\lotus"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\lotus.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\lotus.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\lotus.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\lotus.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\lotus.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\lotus.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\lotus.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\lotus.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\lotus.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\lotus.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\macaron",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\macaron"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\macaron.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\macaron.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\macaron.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\macaron.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\macaron.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\macaron.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\macaron.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\macaron.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\macaron.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\macaron.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mango",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mango"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mango.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mango.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mango.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mango.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mango.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mango.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mango.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mango.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mango.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mango.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\microphone",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\microphone"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\microphone.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\microphone.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\microphone.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\microphone.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\microphone.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\microphone.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\microphone.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\microphone.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\microphone.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\microphone.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\monitor",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\monitor"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\monitor.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\monitor.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\monitor.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\monitor.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\monitor.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\monitor.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\monitor.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\monitor.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\monitor.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\monitor.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mooncake",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mooncake"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mooncake.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mooncake.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mooncake.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mooncake.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mooncake.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mooncake.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mooncake.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mooncake.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mooncake.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mooncake.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mouse",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mouse"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mouse.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mouse.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mouse.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mouse.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mouse.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mouse.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mouse.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mouse.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mouse.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mouse.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mushroom",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mushroom"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\mushroom.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\mushroom.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mushroom.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mushroom.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\mushroom.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\mushroom.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mushroom.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mushroom.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\mushroom.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\mushroom.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\onion",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\onion"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\onion.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\onion.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\onion.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\onion.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\onion.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\onion.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\onion.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\onion.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\onion.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\onion.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\orange",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\orange"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\orange.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\orange.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\orange.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\orange.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\orange.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\orange.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\orange.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\orange.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\orange.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\orange.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pancake",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pancake"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pancake.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pancake.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pancake.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pancake.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pancake.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pancake.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pancake.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pancake.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pancake.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pancake.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\peach",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\peach"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\peach.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\peach.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\peach.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\peach.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\peach.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\peach.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\peach.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\peach.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\peach.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\peach.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pear",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pear"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pear.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pear.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pear.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pear.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pear.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pear.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pear.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pear.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pear.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pear.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\persimmon",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\persimmon"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\persimmon.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\persimmon.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\persimmon.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\persimmon.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\persimmon.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\persimmon.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\persimmon.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\persimmon.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\persimmon.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\persimmon.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\phone",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\phone"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\phone.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\phone.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\phone.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\phone.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\phone.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\phone.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\phone.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\phone.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\phone.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\phone.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pineapple",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pineapple"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pineapple.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pineapple.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pineapple.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pineapple.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pineapple.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pineapple.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pineapple.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pineapple.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pineapple.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pineapple.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pomegranate",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pomegranate"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pomegranate.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pomegranate.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pomegranate.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pomegranate.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pomegranate.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pomegranate.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pomegranate.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pomegranate.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pomegranate.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pomegranate.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\popsicle",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\popsicle"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\popsicle.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\popsicle.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\popsicle.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\popsicle.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\popsicle.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\popsicle.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\popsicle.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\popsicle.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\popsicle.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\popsicle.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\potato",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\potato"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\potato.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\potato.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\potato.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\potato.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\potato.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\potato.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\potato.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\potato.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\potato.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\potato.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\powerbank",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\powerbank"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\powerbank.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\powerbank.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\powerbank.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\powerbank.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\powerbank.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\powerbank.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\powerbank.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\powerbank.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\powerbank.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\powerbank.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pretzel",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pretzel"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pretzel.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pretzel.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pretzel.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pretzel.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pretzel.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pretzel.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pretzel.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pretzel.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pretzel.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pretzel.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\printer",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\printer"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\printer.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\printer.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\printer.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\printer.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\printer.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\printer.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\printer.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\printer.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\printer.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\printer.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pudding",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pudding"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pudding.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pudding.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pudding.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pudding.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pudding.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pudding.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pudding.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pudding.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pudding.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pudding.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pumpkin",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pumpkin"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\pumpkin.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\pumpkin.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pumpkin.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pumpkin.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\pumpkin.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\pumpkin.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pumpkin.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pumpkin.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\pumpkin.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\pumpkin.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\radio",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\radio"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\radio.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\radio.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\radio.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\radio.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\radio.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\radio.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\radio.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\radio.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\radio.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\radio.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\radish",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\radish"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\radish.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\radish.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\radish.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\radish.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\radish.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\radish.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\radish.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\radish.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\radish.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\radish.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\router",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\router"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\router.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\router.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\router.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\router.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\router.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\router.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\router.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\router.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\router.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\router.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\ruyi",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\ruyi"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\ruyi.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\ruyi.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\ruyi.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\ruyi.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\ruyi.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\ruyi.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\ruyi.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\ruyi.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\ruyi.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\ruyi.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\shovel",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\shovel"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\shovel.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\shovel.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\shovel.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\shovel.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\shovel.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\shovel.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\shovel.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\shovel.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\shovel.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\shovel.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\smartwatch",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\smartwatch"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\smartwatch.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\smartwatch.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\smartwatch.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\smartwatch.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\smartwatch.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\smartwatch.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\smartwatch.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\smartwatch.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\smartwatch.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\smartwatch.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\speaker",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\speaker"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\speaker.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\speaker.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\speaker.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\speaker.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\speaker.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\speaker.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\speaker.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\speaker.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\speaker.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\speaker.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\starfruit",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\starfruit"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\starfruit.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\starfruit.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\starfruit.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\starfruit.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\starfruit.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\starfruit.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\starfruit.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\starfruit.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\starfruit.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\starfruit.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\strawberry",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\strawberry"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\strawberry.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\strawberry.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\strawberry.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\strawberry.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\strawberry.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\strawberry.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\strawberry.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\strawberry.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\strawberry.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\strawberry.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\swissroll",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\swissroll"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\swissroll.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\swissroll.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\swissroll.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\swissroll.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\swissroll.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\swissroll.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\swissroll.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\swissroll.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\swissroll.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\swissroll.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\tablet",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\tablet"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\tablet.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\tablet.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\tablet.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\tablet.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\tablet.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\tablet.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\tablet.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\tablet.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\tablet.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\tablet.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\teacup",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\teacup"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\teacup.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\teacup.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\teacup.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\teacup.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\teacup.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\teacup.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\teacup.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\teacup.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\teacup.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\teacup.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\television",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\television"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\television.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\television.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\television.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\television.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\television.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\television.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\television.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\television.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\television.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\television.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\toast",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\toast"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\toast.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\toast.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\toast.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\toast.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\toast.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\toast.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\toast.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\toast.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\toast.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\toast.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\tomato",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\tomato"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\tomato.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\tomato.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\tomato.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\tomato.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\tomato.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\tomato.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\tomato.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\tomato.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\tomato.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\tomato.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\tongqian",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\tongqian"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\tongqian.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\tongqian.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\tongqian.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\tongqian.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\tongqian.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\tongqian.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\tongqian.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\tongqian.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\tongqian.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\tongqian.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\usbdrive",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\usbdrive"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\usbdrive.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\usbdrive.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\usbdrive.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\usbdrive.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\usbdrive.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\usbdrive.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\usbdrive.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\usbdrive.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\usbdrive.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\usbdrive.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\wafer",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\wafer"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\wafer.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\wafer.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\wafer.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\wafer.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\wafer.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\wafer.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\wafer.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\wafer.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\wafer.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\wafer.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\wateringcan",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\wateringcan"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\wateringcan.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\wateringcan.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\wateringcan.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\wateringcan.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\wateringcan.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\wateringcan.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\wateringcan.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\wateringcan.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\wateringcan.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\wateringcan.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\watermelon",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\watermelon"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\watermelon.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\watermelon.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\watermelon.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\watermelon.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\watermelon.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\watermelon.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\watermelon.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\watermelon.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\watermelon.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\watermelon.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\yuxi",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\yuxi"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\yuxi.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\yuxi.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\yuxi.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\yuxi.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\yuxi.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\yuxi.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\yuxi.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\yuxi.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\yuxi.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\yuxi.asset.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\yuzhuo",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\yuzhuo"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Models\\yuzhuo.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Models\\yuzhuo.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\yuzhuo.png",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\yuzhuo.png"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Icons\\yuzhuo.png.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Icons\\yuzhuo.png.meta"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\yuzhuo.asset",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\yuzhuo.asset"
+  },
+  {
+    "from": "unity\\Assets\\Resources\\Physics\\yuzhuo.asset.meta",
+    "to": "unity\\SourceAssets\\BeforeCompetitorReplacement-20261025\\retired-runtime\\Physics\\yuzhuo.asset.meta"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "scope": "Read-only material/light/atlas/source and export audit. Stored settings are not competitor runtime values. No phone capture or rendering correction claimed.",
+  "materials": 63,
+  "toySampleMaterials": 28,
+  "toyShaderCounts": {
+    "ToonLite1": 14,
+    "ToonLite1_ShiftHue": 2,
+    "ToonLite1MulMatcap": 8,
+    "ToonGlassCus": 2,
+    "CustomCrystal": 1,
+    "ToonGlass": 1
+  },
+  "toyTextureSlots": {
+    "_BaseColor": 26,
+    "_Matcap": 19,
+    "_NormalMap": 26,
+    "_Matcap1": 8,
+    "_Matcap2": 8,
+    "_MatcapAreaSplit": 8,
+    "_RoughnessMap1": 1,
+    "_AlphaTex": 2,
+    "_RoughnessMap2": 1,
+    "_InsideCeilTex": 1,
+    "_InsideMatcapTex": 1,
+    "_SurfaceCellTex": 1,
+    "_SurfaceMatcap": 1
+  },
+  "toyNormalMapToggleCounts": {
+    "0.0": 27,
+    "None": 1
+  },
+  "toyBaseTextureSizes": {
+    "[256, 256]": 8,
+    "[512, 512]": 12,
+    "[128, 128]": 5,
+    "[64, 64]": 1
+  },
+  "currentShader": "05cdcc52aaf2394fc2267fd3f2a7b58bfc3b3b30b2813ff1b99e7a51e70c0fd2",
+  "analysisDate": "2026-10-25",
+  "runtimeBuild": "20261024-R2",
+  "productionRenderingChanged": false,
+  "iPhoneMeasured": false,
+  "shaderFormulaFullyRecovered": false,
+  "shaderReadErrors": 6,
+  "atlasModels": 60,
+  "currentIOSDevicePixelRatio": 1.5,
+  "currentMobileAA": 0,
+  "currentMobileShadows": false,
+  "currentShaderFeatures": [
+    "base texture",
+    "tint",
+    "vertex diffuse",
+    "fixed fill",
+    "alpha forced to one"
+  ]
+}

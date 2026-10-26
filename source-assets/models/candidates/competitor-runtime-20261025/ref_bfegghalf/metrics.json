@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bfegghalf",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFEggHalf\\BFEggHalf.blend",
+  "sourceTriangles": 398,
+  "triangles": 398,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.6810786724090576,
+    0.8706063032150269,
+    0.566840410232544
+  ],
+  "normalizedDimensions": [
+    0.7823038101196289,
+    1.0,
+    0.6510869264602661
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

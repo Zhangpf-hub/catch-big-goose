@@ -1,0 +1,28 @@
+{
+  "id": "router",
+  "theme": "electronics",
+  "triangles": 996,
+  "vertices": 518,
+  "blenderBounds": [
+    0.9302328824996948,
+    0.663724958896637,
+    1.0000000596046448
+  ],
+  "center": [
+    0.0,
+    0.0,
+    -2.9802322387695312e-08
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 24600,
+  "sha256": "50104923a1dc6b00ff22cf4c4bb21024478a2f240e3f1f7e0262e3ca53769aa3",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

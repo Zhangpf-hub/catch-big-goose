@@ -1,0 +1,256 @@
+  (func $j71632 (type $t2) (param $p0 i32) (param $p1 i32) (result i32)
+    (local $l2 i32) (local $l3 i32) (local $l4 i32) (local $l5 i32) (local $l6 i32) (local $l7 f32) (local $l8 f32)
+    global.get $primary.global$0
+    i32.const 48
+    i32.sub
+    local.set $p1
+    local.get $p1
+    global.set $primary.global$0
+    i32.const 5127082
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3964256 ;; UIManager_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3965452 ;; UnityEngine.WaitForSeconds_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5127082
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load offset=16
+    local.set $l2
+    block $B1
+      block $B2
+        block $B3
+          block $B4
+            local.get $p0
+            i32.load offset=8
+            br_table $B4 $B3 $B1
+          end
+          local.get $p0
+          i32.const 0
+          i32.store offset=20
+          local.get $p0
+          i32.const -1
+          i32.store offset=8
+          local.get $l2
+          i32.const 1
+          i32.store8 offset=56
+          i32.const 3964256 ;; UIManager_TypeInfo
+          i32.load
+          i32.const 735
+          call_indirect $primary.table (type $t0)
+          i32.const 3964256 ;; UIManager_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load
+          i32.const 0
+          i32.const 0
+          i32.const 24989
+          call_indirect $primary.table (type $t4)
+          local.get $p0
+          f32.load offset=20
+          local.set $l7
+          br $B2
+        end
+        local.get $p0
+        i32.const -1
+        i32.store offset=8
+        local.get $p0
+        f32.load offset=20
+        local.get $l2
+        i32.load offset=392
+        f32.load offset=20
+        f32.add
+        local.set $l7
+        local.get $p0
+        local.get $l7
+        f32.store offset=20
+      end
+      local.get $l2
+      i32.load offset=392
+      f32.load offset=16
+      local.get $l7
+      f32.gt
+      i32.eqz
+      if $I5
+        local.get $l2
+        i32.const 0
+        i32.store8 offset=56
+        i32.const 3964256 ;; UIManager_TypeInfo
+        i32.load
+        i32.const 735
+        call_indirect $primary.table (type $t0)
+        i32.const 3964256 ;; UIManager_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load
+        i32.const 1
+        i32.const 0
+        i32.const 24989
+        call_indirect $primary.table (type $t4)
+        br $B1
+      end
+      loop $L6
+        i32.const 4003060 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Count()
+        i32.load
+        drop
+        local.get $l3
+        local.get $l2
+        i32.load offset=152
+        i32.load offset=12
+        i32.lt_s
+        if $I7
+          local.get $p1
+          i32.const 32
+          i32.add
+          local.get $l2
+          i32.load offset=152
+          local.get $l3
+          i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+          i32.load
+          i32.const 10930
+          call_indirect $primary.table (type $t5)
+          i32.const 0
+          i32.const 5185
+          call_indirect $primary.table (type $t2)
+          i32.const 0
+          i32.const 5186
+          call_indirect $primary.table (type $t4)
+          local.get $p1
+          f32.load offset=36
+          local.get $l2
+          i32.load offset=392
+          f32.load offset=12
+          f32.lt
+          if $I8
+            local.get $l2
+            i32.load offset=152
+            local.get $l3
+            i32.const 4003064 ;; Method$System.Collections.Generic.List<ObjectUnit>.get_Item()
+            i32.load
+            i32.const 10930
+            call_indirect $primary.table (type $t5)
+            local.set $l6
+            local.get $l2
+            i32.load offset=392
+            local.set $l5
+            local.get $l5
+            f32.load offset=24
+            local.get $l5
+            f32.load offset=28
+            i32.const 0
+            i32.const 52615
+            call_indirect $primary.table (type $t47)
+            local.set $l7
+            i32.const -1
+            i32.const 1
+            i32.const 0
+            i32.const 52616
+            call_indirect $primary.table (type $t5)
+            local.set $l5
+            local.get $l2
+            i32.load offset=392
+            local.set $l4
+            local.get $l4
+            f32.load offset=40
+            local.get $l4
+            f32.load offset=44
+            i32.const 0
+            i32.const 52615
+            call_indirect $primary.table (type $t47)
+            local.set $l8
+            local.get $l2
+            i32.load offset=392
+            local.set $l4
+            local.get $p1
+            local.get $l4
+            f32.load offset=32
+            local.get $l4
+            f32.load offset=36
+            i32.const 0
+            i32.const 52615
+            call_indirect $primary.table (type $t47)
+            f32.const 0x1p+0 (;=1;)
+            f32.const -0x1p+0 (;=-1;)
+            i32.const -1
+            i32.const 1
+            i32.const 0
+            i32.const 52616
+            call_indirect $primary.table (type $t5)
+            i32.const -1
+            i32.gt_s
+            select
+            f32.mul
+            f32.store offset=24
+            local.get $p1
+            local.get $p1
+            i32.load offset=24
+            i32.store offset=8
+            local.get $p1
+            local.get $l8
+            f32.store offset=20
+            local.get $p1
+            local.get $l7
+            f32.const 0x1p+0 (;=1;)
+            f32.const -0x1p+0 (;=-1;)
+            local.get $l5
+            i32.const -1
+            i32.gt_s
+            select
+            f32.mul
+            f32.store offset=16
+            local.get $p1
+            local.get $p1
+            i64.load offset=16
+            i64.store
+            local.get $l6
+            local.get $p1
+            local.get $p1
+            i32.const 18216
+            call_indirect $primary.table (type $t4)
+          end
+          local.get $l3
+          i32.const 1
+          i32.add
+          local.set $l3
+          br $L6
+        end
+      end
+      local.get $l2
+      i32.load offset=392
+      f32.load offset=20
+      local.set $l7
+      i32.const 3965452 ;; UnityEngine.WaitForSeconds_TypeInfo
+      i32.load
+      i32.const 137618
+      call_indirect $primary.table (type $t1)
+      local.set $l2
+      local.get $l2
+      local.get $l7
+      f32.store offset=8
+      local.get $p0
+      local.get $l2
+      i32.store offset=12
+      i32.const 1
+      local.set $l3
+      local.get $p0
+      i32.const 1
+      i32.store offset=8
+    end
+    local.get $p1
+    i32.const 48
+    i32.add
+    global.set $primary.global$0
+    local.get $l3
+    return)

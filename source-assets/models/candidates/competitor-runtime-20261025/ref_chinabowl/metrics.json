@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_chinabowl",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\ChinaBowl\\ChinaBowl.blend",
+  "sourceTriangles": 1000,
+  "triangles": 1000,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.7462339401245117,
+    1.2156087160110474,
+    1.685425043106079
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.696131706237793,
+    0.9651771783828735
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

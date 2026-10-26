@@ -1,0 +1,85 @@
+  (func $j43789 (type $t0) (param $p0 i32) (param $p1 i32)
+    (local $l2 i32) (local $l3 i32)
+    i32.const 5150180
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4004504 ;; Method$System.Collections.Generic.List<float>..ctor()
+      call $j922
+      i32.const 3947604 ;; System.Collections.Generic.List<float>_TypeInfo
+      call $j922
+      i32.const 5150180
+      i32.const 1
+      i32.store8
+    end
+    local.get $p1
+    i32.load offset=16
+    i32.load offset=96
+    i32.const 4
+    call $j926
+    call $j924
+    local.set $l2
+    local.get $p1
+    i32.load offset=16
+    i32.load offset=96
+    i32.load offset=120
+    local.set $l3
+    local.get $p1
+    i32.load offset=16
+    i32.load offset=96
+    i32.load offset=120
+    i32.load
+    local.get $l3
+    local.get $l2
+    i32.const 0
+    i32.const 0
+    local.get $l3
+    i32.load offset=8
+    global.set $__wasm_split_waitTableId
+    global.get $__wasm_split_waitTableId
+    call_indirect $primary.table (type $t8)
+    local.get $p0
+    local.get $l2
+    i32.store offset=8
+    i32.const 3947604 ;; System.Collections.Generic.List<float>_TypeInfo
+    i32.load
+    call $j924
+    local.set $l2
+    local.get $l2
+    i32.const 4004504 ;; Method$System.Collections.Generic.List<float>..ctor()
+    i32.load
+    call $j965
+    local.get $p0
+    local.get $l2
+    i32.store offset=12
+    local.get $p1
+    i32.load offset=16
+    i32.load offset=96
+    i32.const 1
+    call $j926
+    call $j924
+    local.set $l2
+    local.get $p1
+    i32.load offset=16
+    i32.load offset=96
+    i32.load offset=124
+    i32.load
+    local.set $l3
+    local.get $p1
+    i32.load offset=16
+    i32.load offset=96
+    i32.load offset=124
+    local.set $p1
+    local.get $l3
+    local.get $p1
+    local.get $l2
+    i32.const 0
+    i32.const 0
+    local.get $p1
+    i32.load offset=8
+    global.set $__wasm_split_waitTableId
+    global.get $__wasm_split_waitTableId
+    call_indirect $primary.table (type $t8)
+    local.get $p0
+    local.get $l2
+    i32.store offset=16)

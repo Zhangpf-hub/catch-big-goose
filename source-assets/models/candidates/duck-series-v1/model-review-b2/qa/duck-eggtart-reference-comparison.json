@@ -1,0 +1,53 @@
+{
+  "id": "duck-eggtart",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-25-complete-skinned/models/Goose_EggTart/Goose_EggTart.glb",
+  "sourceSha256": "6da007ffb96c0d5a5ae8a3dc0f5ccb1bd5f2be8270847d03a01a194de5adcf70",
+  "originalWorldDimensions": [
+    1.3312076330184937,
+    1.4408202171325684,
+    1.2397971153259277
+  ],
+  "uniformScale": 0.6940491173771411,
+  "normalizedWorldDimensions": [
+    0.9239234924316406,
+    1.0,
+    0.8604800701141357
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

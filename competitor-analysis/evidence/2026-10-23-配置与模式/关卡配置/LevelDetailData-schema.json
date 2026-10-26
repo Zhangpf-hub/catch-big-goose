@@ -1,0 +1,13 @@
+{
+  "rowClass": "LevelDetailDataData",
+  "fields": [
+    [
+      "_scenename",
+      "string"
+    ],
+    [
+      "_name",
+      "string"
+    ]
+  ]
+}

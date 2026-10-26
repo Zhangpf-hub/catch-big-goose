@@ -1,0 +1,41 @@
+{
+  "rowClass": "ActivityLevelDataData",
+  "fields": [
+    [
+      "_levelindex",
+      "int"
+    ],
+    [
+      "_leveltype",
+      "string"
+    ],
+    [
+      "_iconkey",
+      "string"
+    ],
+    [
+      "_gooselist",
+      "int[]"
+    ],
+    [
+      "_toolresumecount",
+      "int[]"
+    ],
+    [
+      "_isusespgoosekey",
+      "int"
+    ],
+    [
+      "_name",
+      "string"
+    ],
+    [
+      "_des",
+      "string"
+    ],
+    [
+      "_resumetime",
+      "int"
+    ]
+  ]
+}

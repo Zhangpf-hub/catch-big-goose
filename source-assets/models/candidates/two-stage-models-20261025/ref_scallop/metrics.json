@@ -1,0 +1,12 @@
+{
+  "id": "ref_scallop",
+  "triangles": 1029,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.5677088499069214,
+    1.0,
+    0.17698346078395844
+  ],
+  "glbRoundtrip": true
+}

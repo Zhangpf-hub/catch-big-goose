@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 2844
+  },
+  "m_Name": "HotFixLevelHard",
+  "data": [
+    {
+      "key": "80YearSpLevel1",
+      "value": "-1"
+    },
+    {
+      "key": "80YearSpLevel2",
+      "value": "-1"
+    },
+    {
+      "key": "FriedChickenSpLevel1",
+      "value": "-1"
+    },
+    {
+      "key": "FriedChickenSpLevel2",
+      "value": "-1"
+    },
+    {
+      "key": "NewYear25SpLevel1",
+      "value": "1"
+    },
+    {
+      "key": "NewYear25SpLevel2",
+      "value": "1"
+    },
+    {
+      "key": "ClassRoomSpLevel1",
+      "value": "-3"
+    },
+    {
+      "key": "ClassRoomSpLevel2",
+      "value": "-3"
+    },
+    {
+      "key": "BagDiarySpLevel1",
+      "value": "-2"
+    },
+    {
+      "key": "BagDiarySpLevel2",
+      "value": "-2"
+    },
+    {
+      "key": "MiniKitchenSpLevel1",
+      "value": "-2"
+    },
+    {
+      "key": "MiniKitchenSpLevel2",
+      "value": "-2"
+    },
+    {
+      "key": "GoToMountainSpLevel1",
+      "value": "-2"
+    },
+    {
+      "key": "GoToMountainSpLevel2",
+      "value": "-2"
+    }
+  ]
+}

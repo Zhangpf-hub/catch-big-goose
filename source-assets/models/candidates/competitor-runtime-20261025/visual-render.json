@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ref_bbqskewers2",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_grilledcorn",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bbqhotdog",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_frieddumpling",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_grilledfish2",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_potatoskewers",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_redshrimp",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_ribsbig",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_scallop",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_shrimp",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bbqmushroom",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bbqpotato",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bbqsausage",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bbqskewers1",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bbqtoast",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_chickenleg",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_roastchicken",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bffrieddoughstick",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfshrimpshaomai",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfsoymilk",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfegghalf",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bffagao",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bffriedsteamedbun",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfpumpkinpie",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfsesameball",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfxiaolongbao",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfcornjuice",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfflowerroll",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfshaomai",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfsoupdumpling",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfspringroll",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfsweetcorn",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bftofupudding",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bfwowotou",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_orange",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_potato",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_saltedegg",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_pepperfresh",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_sausage",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_watermelonhalf",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_watermelonslice",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_woodhand",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_apple",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_carrot",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_chinabowl",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_corn",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_fan",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_flashlight2",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_spinningtop",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_thermosbottle",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_windoilbottle",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtcrocodile",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtdinosaur",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtdrawingboard",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtfruiteraser",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtgoosestamp",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtkaleidoscope",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtlaserpen",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtmagiccubel",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpaperboat",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpaperfortune",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpaperstar",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtpapertree",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtplanepen",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtplasterdeer",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtplaydough",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtracecar",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtringcandy",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtsandbag",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtsmiledoll",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtstickerbook",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_gtwatergame",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_cs_garlic",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_bananas",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_chewinggum",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_garlic",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_hamsausage1",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_hamsausage2",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_soysauce",
+    "views": 4,
+    "glbRoundTrip": true
+  },
+  {
+    "id": "ref_toycar",
+    "views": 4,
+    "glbRoundTrip": true
+  }
+]

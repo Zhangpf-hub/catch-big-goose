@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bffriedsteamedbun",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BFFriedSteamedBun\\BFFriedSteamedBun.blend",
+  "sourceTriangles": 444,
+  "triangles": 444,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0728704929351807,
+    0.8640906810760498,
+    1.004840612411499
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.8054007291793823,
+    0.9365907907485962
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

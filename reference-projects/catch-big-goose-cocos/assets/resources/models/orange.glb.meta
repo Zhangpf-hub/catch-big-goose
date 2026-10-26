@@ -1,0 +1,144 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "b64105e7-629d-4b28-9671-a6f73806dee4",
+  "files": [],
+  "subMetas": {
+    "825ed": {
+      "importer": "gltf-mesh",
+      "uuid": "b64105e7-629d-4b28-9671-a6f73806dee4@825ed",
+      "displayName": "",
+      "id": "825ed",
+      "name": "Sphere.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1300
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "07910": {
+      "importer": "gltf-material",
+      "uuid": "b64105e7-629d-4b28-9671-a6f73806dee4@07910",
+      "displayName": "",
+      "id": "07910",
+      "name": "orange.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e3a38": {
+      "importer": "gltf-material",
+      "uuid": "b64105e7-629d-4b28-9671-a6f73806dee4@e3a38",
+      "displayName": "",
+      "id": "e3a38",
+      "name": "ostem.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "32a92": {
+      "importer": "gltf-material",
+      "uuid": "b64105e7-629d-4b28-9671-a6f73806dee4@32a92",
+      "displayName": "",
+      "id": "32a92",
+      "name": "oleaf.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dea0a": {
+      "importer": "gltf-material",
+      "uuid": "b64105e7-629d-4b28-9671-a6f73806dee4@dea0a",
+      "displayName": "",
+      "id": "dea0a",
+      "name": "orange_pore.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09d3f": {
+      "importer": "gltf-scene",
+      "uuid": "b64105e7-629d-4b28-9671-a6f73806dee4@09d3f",
+      "displayName": "",
+      "id": "09d3f",
+      "name": "orange.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b64105e7-629d-4b28-9671-a6f73806dee4@825ed"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b64105e7-629d-4b28-9671-a6f73806dee4@07910",
+        "b64105e7-629d-4b28-9671-a6f73806dee4@e3a38",
+        "b64105e7-629d-4b28-9671-a6f73806dee4@32a92",
+        "b64105e7-629d-4b28-9671-a6f73806dee4@dea0a"
+      ],
+      "scenes": [
+        "b64105e7-629d-4b28-9671-a6f73806dee4@09d3f"
+      ]
+    }
+  }
+}

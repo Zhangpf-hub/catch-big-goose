@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtlaserpen",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTLaserPen\\GTLaserPen.blend",
+  "sourceTriangles": 904,
+  "triangles": 904,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.3083149194717407,
+    1.537700891494751,
+    0.3625029921531677
+  ],
+  "normalizedDimensions": [
+    0.20050384104251862,
+    1.0,
+    0.23574350774288177
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

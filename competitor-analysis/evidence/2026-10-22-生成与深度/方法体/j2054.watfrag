@@ -1,0 +1,23 @@
+  (func $j2054 (type $t1) (param $p0 i32) (param $p1 i32) (result i32)
+    (local $l2 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $l2
+    local.get $l2
+    global.set $primary.global$0
+    local.get $p0
+    local.get $l2
+    i32.const 12
+    i32.add
+    local.get $p1
+    call $j43790
+    local.get $l2
+    i32.load offset=12
+    local.set $p0
+    local.get $l2
+    i32.const 16
+    i32.add
+    global.set $primary.global$0
+    local.get $p0
+    return)

@@ -1,0 +1,12 @@
+{
+  "id": "ref_gtsandbag",
+  "triangles": 1256,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.8660365343093872,
+    0.9499403238296509,
+    1.0
+  ],
+  "glbRoundtrip": true
+}

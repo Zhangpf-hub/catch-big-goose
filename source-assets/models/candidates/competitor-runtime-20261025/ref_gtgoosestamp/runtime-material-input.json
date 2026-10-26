@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "daeyinzhang",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-9091478964649060643.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

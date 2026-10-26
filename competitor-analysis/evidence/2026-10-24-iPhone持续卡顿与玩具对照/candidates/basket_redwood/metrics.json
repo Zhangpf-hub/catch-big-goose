@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "basket_redwood",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\basket_redwood\\basket_redwood.fbx",
+  "sourceTriangles": 8348,
+  "triangles": 8348,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    1.0,
+    0.33850014209747314
+  ],
+  "normalizedDimensions": [
+    1.0,
+    1.0,
+    0.33850014209747314
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

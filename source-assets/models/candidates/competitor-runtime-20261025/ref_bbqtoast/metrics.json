@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bbqtoast",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BBQToast\\BBQToast.blend",
+  "sourceTriangles": 220,
+  "triangles": 220,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.5018476247787476,
+    1.546107530593872,
+    0.18775859475135803
+  ],
+  "normalizedDimensions": [
+    0.9713733792304993,
+    1.0,
+    0.12143954634666443
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

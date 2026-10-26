@@ -1,0 +1,22 @@
+{
+  "packageVersion": "402",
+  "snapshotFile": "6f7a2014e3c0092b.webgl.data.unityweb.bin",
+  "snapshotBytes": 14921917,
+  "snapshotSha256": "b7cad460af0d7aaf86bdec945f9b4d69a4e494a07b1343007f3cc7254c208b42",
+  "metadataSha256": "2961e1d51bcd176226efb51485dc68e19b7b0d56717ee5616d328d4345e74374",
+  "wasm": [
+    {
+      "bytes": 22837027,
+      "sha256": "43d7294551be417ba288ac2b9af38aaf7c4be992afa65b86024b474937b4ba8f",
+      "file": "_wasmcode1_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.decoded.wasm"
+    },
+    {
+      "bytes": 18133720,
+      "sha256": "7929b740172087b30ef4649e971360bca845a0c55c1efe8137cb1d01780e5cdd",
+      "file": "_wasmcode_/0-0f4df8b34fe6d420.webgl.wasm.code.unityweb.wasm.br.decoded.wasm"
+    }
+  ],
+  "previousPackageVersion": "401",
+  "relation": "Metadata hash unchanged; code/data package hashes differ. This round uses a fresh 402 WAT and pointer mapping.",
+  "localSourceSnapshot": "work\\competitor-config-trace\\source\\6f7a2014e3c0092b.webgl.data.unityweb.bin"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "mapSelection": "real wheel scroll and mouse click from fruit to electronics",
+  "final": {
+    "playing": false,
+    "removed": 48,
+    "total": 48,
+    "levelIndex": 1,
+    "best": {
+      "fruit": {
+        "0": {
+          "stars": 2,
+          "progress": 100,
+          "score": 1234
+        }
+      },
+      "electronics": {
+        "0": {
+          "stars": 3,
+          "progress": 100,
+          "score": 7456
+        }
+      }
+    },
+    "score": 7456
+  },
+  "errors": []
+}

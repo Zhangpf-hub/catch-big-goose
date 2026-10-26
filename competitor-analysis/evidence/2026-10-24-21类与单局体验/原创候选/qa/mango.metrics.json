@@ -1,0 +1,28 @@
+{
+  "id": "mango",
+  "theme": "fruit",
+  "triangles": 740,
+  "vertices": 376,
+  "blenderBounds": [
+    0.6041665077209473,
+    0.4999999403953552,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 18360,
+  "sha256": "d0f58488e82ef64da62cc89fb00e9c978a385ec0c8aab525b8f261ff2a502ee3",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

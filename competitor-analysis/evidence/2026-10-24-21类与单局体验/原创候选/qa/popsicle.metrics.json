@@ -1,0 +1,28 @@
+{
+  "id": "popsicle",
+  "theme": "dessert",
+  "triangles": 648,
+  "vertices": 336,
+  "blenderBounds": [
+    0.4475138187408447,
+    0.2215469479560852,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 16640,
+  "sha256": "aa8bcd14fb16152177edca5be576a3247bb1bee9449a06729ea13fa3c59434eb",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

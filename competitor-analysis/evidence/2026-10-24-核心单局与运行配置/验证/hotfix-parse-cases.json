@@ -1,0 +1,72 @@
+[
+  {
+    "value": null,
+    "fallback": 0,
+    "hotfix": 0
+  },
+  {
+    "value": null,
+    "fallback": 17,
+    "hotfix": 17
+  },
+  {
+    "value": "",
+    "fallback": 0,
+    "hotfix": 0
+  },
+  {
+    "value": "",
+    "fallback": 17,
+    "hotfix": 17
+  },
+  {
+    "value": "-3",
+    "fallback": 0,
+    "hotfix": -3
+  },
+  {
+    "value": "-3",
+    "fallback": 17,
+    "hotfix": -3
+  },
+  {
+    "value": "+4",
+    "fallback": 0,
+    "hotfix": 4
+  },
+  {
+    "value": "+4",
+    "fallback": 17,
+    "hotfix": 4
+  },
+  {
+    "value": " 5 ",
+    "fallback": 0,
+    "hotfix": 5
+  },
+  {
+    "value": " 5 ",
+    "fallback": 17,
+    "hotfix": 5
+  },
+  {
+    "value": "bad",
+    "fallback": 0,
+    "hotfix": 0
+  },
+  {
+    "value": "bad",
+    "fallback": 17,
+    "hotfix": 0
+  },
+  {
+    "value": "2147483648",
+    "fallback": 0,
+    "hotfix": 0
+  },
+  {
+    "value": "2147483648",
+    "fallback": 17,
+    "hotfix": 0
+  }
+]

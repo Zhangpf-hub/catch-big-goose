@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bbqskewers1",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BBQSkewers1\\BBQSkewers1.blend",
+  "sourceTriangles": 904,
+  "triangles": 904,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7233231067657471,
+    2.89875864982605,
+    0.5007868409156799
+  ],
+  "normalizedDimensions": [
+    0.24952857196331024,
+    1.0,
+    0.1727590709924698
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

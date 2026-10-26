@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_bbqpotato",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\BBQPotato\\BBQPotato.blend",
+  "sourceTriangles": 1382,
+  "triangles": 1382,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9551528096199036,
+    2.096318244934082,
+    0.899196982383728
+  ],
+  "normalizedDimensions": [
+    0.4556335210800171,
+    1.0,
+    0.4289410710334778
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

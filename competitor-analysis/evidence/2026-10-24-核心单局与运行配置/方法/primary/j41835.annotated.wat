@@ -1,0 +1,67 @@
+  (func $j41835 (type $t4) (param $p0 i32)
+    (local $l1 i32)
+    i32.const 5139755
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      call $j922
+      i32.const 3961192 ;; RewardData_TypeInfo
+      call $j922
+      i32.const 3961880 ;; ServerFileCreate_TypeInfo
+      call $j922
+      i32.const 4063796 ;; 
+      call $j922
+      i32.const 5139755
+      i32.const 1
+      i32.store8
+    end
+    i32.const 20104
+    i32.const 0
+    call $j1624 ;; RewardManager$$GetResource
+    local.set $p0
+    i32.const 3961880 ;; ServerFileCreate_TypeInfo
+    i32.load
+    call $j923
+    i32.const 0
+    call $j8554 ;; ServerFileCreate$$GetOnlineBaseFreeCount
+    local.set $l1
+    local.get $p0
+    local.get $l1
+    local.get $p0
+    local.get $l1
+    i32.gt_s
+    select
+    local.get $p0
+    i32.sub
+    local.set $l1
+    local.get $l1
+    i32.const 1
+    i32.ge_s
+    if $I1
+      i32.const 3959288 ;; NetDataManager_TypeInfo
+      i32.load
+      call $j923
+      i32.const 20104
+      local.get $p0
+      local.get $p0
+      call $j41825 ;; NetDataManager$$SetResource
+      i32.const 3961192 ;; RewardData_TypeInfo
+      i32.load
+      call $j924
+      local.set $p0
+      local.get $p0
+      i32.const 20104
+      local.get $l1
+      i32.const 11
+      i32.const 1
+      i32.const 1
+      i32.const 0
+      call $j2275 ;; RewardData$$.ctor
+      local.get $p0
+      i32.const 4063796 ;; 
+      i32.load
+      i32.const 0
+      i32.const 0
+      call $j1518 ;; RewardManager$$GetRewardArchiveSave
+    end)

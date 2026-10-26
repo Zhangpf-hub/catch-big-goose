@@ -1,0 +1,32 @@
+[
+  {
+    "name": "LevelManager.<LoopCrowObjSize>d__192$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<DelayToCheckContent>d__226$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager.<DestroyAnim>d__227$$System.Collections.IEnumerator.Reset",
+    "expected": "vii",
+    "actual": "vii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "LevelManager$$GetUnit",
+    "expected": "iiiiii",
+    "actual": "viiiiii",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  },
+  {
+    "name": "GMLevelManager$$.cctor",
+    "expected": "vi",
+    "actual": "vi",
+    "reason": "Signature mismatch or unresolved split stub; not interpreted"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "ZZXX",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-4413058295757840012.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

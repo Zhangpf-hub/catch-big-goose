@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "referenceModels": 17,
+  "sourceBundleHashesUnchanged": true,
+  "gltfValidated": 18,
+  "gltfErrors": 0,
+  "gltfWarnings": 0,
+  "compiledBodiesMapped": 18,
+  "selectedWasmTypeChecked": true,
+  "csharpSemanticCompilation": true,
+  "csharpWarnings": "6 CS0649 serialization fields in existing importer",
+  "unityEditModeTestsRun": false,
+  "unityRuntimeAcceptance": false,
+  "unityBlocker": "Editor license not activated",
+  "candidateInstalled": false,
+  "pythonScriptsParsed": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "duck-watermelon",
+  "triangles": 2864,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    1.0,
+    0.6152029633522034,
+    0.9438754916191101
+  ],
+  "center": [
+    0.0,
+    0.0,
+    2.9802322387695312e-08
+  ],
+  "passed": true
+}

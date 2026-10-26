@@ -1,0 +1,15 @@
+{
+    "passed": true,
+    "unityVersion": "2022.3.62f3",
+    "checks": [
+        "Rendered core stock 0",
+        "Screenshot written 0",
+        "Rendered core stock 1",
+        "Rendered temporary storage",
+        "Screenshot written 1",
+        "Rendered core stock 2",
+        "Screenshot written 2"
+    ],
+    "errors": [],
+    "snapshots": []
+}

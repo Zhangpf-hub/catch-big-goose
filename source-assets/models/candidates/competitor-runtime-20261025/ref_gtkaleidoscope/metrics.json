@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtkaleidoscope",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTKaleidoscope\\GTKaleidoscope.blend",
+  "sourceTriangles": 920,
+  "triangles": 920,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.7791422605514526,
+    2.672835350036621,
+    2.177313804626465
+  ],
+  "normalizedDimensions": [
+    0.29150402545928955,
+    1.0,
+    0.8146082758903503
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

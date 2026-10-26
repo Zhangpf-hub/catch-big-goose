@@ -1,0 +1,28 @@
+{
+  "id": "wateringcan",
+  "theme": "farm",
+  "triangles": 992,
+  "vertices": 520,
+  "blenderBounds": [
+    1.0,
+    0.4842246174812317,
+    0.6870980262756348
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 24524,
+  "sha256": "9e2e54e9a680cebf29c672ed5245a05babbddd7cc2d922b961751825eb3c4bc7",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

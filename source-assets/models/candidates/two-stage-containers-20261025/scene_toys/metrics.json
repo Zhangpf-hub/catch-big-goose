@@ -1,0 +1,12 @@
+{
+  "id": "scene_toys",
+  "triangles": 612,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.9999998807907104,
+    0.9999999403953552,
+    0.31273153424263
+  ],
+  "glbRoundtrip": true
+}

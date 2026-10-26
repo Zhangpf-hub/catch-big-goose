@@ -1,0 +1,28 @@
+{
+  "stage": "concept-review",
+  "sourceImagesVisuallyInspected": true,
+  "imageCount": 6,
+  "eggTartRevision": "Shallow upright disc replaces deep bowl",
+  "pngHeaderAndDimensionChecksPassed": true,
+  "staticHtmlImageLinks": 6,
+  "staticHtmlFullSizeLinks": 6,
+  "viewControlValues": [
+    0,
+    1,
+    2
+  ],
+  "staticHtmlChecksPassed": true,
+  "structureCheck": {
+    "passed": true,
+    "checks": 43,
+    "documentLinks": 319,
+    "newBrokenLinks": []
+  },
+  "browserVisualChecksPassed": false,
+  "browserVisualChecksStatus": "not-verified",
+  "browserBlocker": "browser-client bridge unavailable; file-protocol navigation rejected by browser security policy; no workaround attempted",
+  "thumbnailVisualCheckStatus": "not-verified-in-browser",
+  "approvalRequiredBy": "explicit-user-instruction",
+  "userApproved": false,
+  "modelingStarted": false
+}

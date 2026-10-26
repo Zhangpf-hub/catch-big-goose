@@ -1,0 +1,53 @@
+{
+  "id": "duck-pancake",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-pancake/duck-pancake.glb",
+  "sourceSha256": "55467ee3e91059e0234efbe44cc5b021779a42f39b6df9e11e383bc7537c5729",
+  "originalWorldDimensions": [
+    0.8546855449676514,
+    0.7607927918434143,
+    0.9999998807907104
+  ],
+  "uniformScale": 1.0000001192093038,
+  "normalizedWorldDimensions": [
+    0.8546856641769409,
+    0.7607929110527039,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

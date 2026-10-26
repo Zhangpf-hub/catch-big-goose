@@ -1,0 +1,75 @@
+{
+  "appId": "wxb98ac240fd74b0e3",
+  "date": "2026-10-23",
+  "purpose": "Pose and generation reference only; not runtime models",
+  "unityPyVersion": "1.25.4",
+  "sources": [
+    {
+      "file": "goosefirst_assets_goose_pancake_05a5fc8aec9aa36f99f801e5fb100f3c.bundle",
+      "bytes": 170319,
+      "sha256": "929433fbfa3f1ccf04608fc47a817499928ea912a871e59f04d0ccb184450efd"
+    },
+    {
+      "file": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+      "bytes": 2758894,
+      "sha256": "eac9260cfd063b12f7f5895c2196ee37a283517002da513374ce00ecb2decace"
+    }
+  ],
+  "models": [
+    {
+      "id": "Goose_Pancake",
+      "triangles": 2402,
+      "meshes": 2,
+      "materials": 2,
+      "skinRenderers": 1,
+      "bones": 21,
+      "source": "models/Goose_Pancake/source.json",
+      "sourceSha256": "0c18db9686aa2d272abfb1b20ae6d89f79cb2449f93c9c68b785854d8dfaf6c8",
+      "pose": "Serialized prefab pose baked into a static reference; full skin inputs retained separately"
+    },
+    {
+      "id": "Goose_GTCapsulePen",
+      "triangles": 2952,
+      "meshes": 2,
+      "materials": 2,
+      "skinRenderers": 1,
+      "bones": 21,
+      "source": "models/Goose_GTCapsulePen/source.json",
+      "sourceSha256": "3f6f5cba1b29a67666fb508ddae8ddcfcf1b995594bb5072704add7c4575dbea",
+      "pose": "Serialized prefab pose baked into a static reference; full skin inputs retained separately"
+    },
+    {
+      "id": "Goose_GTCraftPunch",
+      "triangles": 2502,
+      "meshes": 2,
+      "materials": 2,
+      "skinRenderers": 1,
+      "bones": 21,
+      "source": "models/Goose_GTCraftPunch/source.json",
+      "sourceSha256": "767126cc759227f8fffe75e074bebdd95793399875f345bc224a23f3fce83c49",
+      "pose": "Serialized prefab pose baked into a static reference; full skin inputs retained separately"
+    },
+    {
+      "id": "Goose_GTNumberBlock",
+      "triangles": 3440,
+      "meshes": 2,
+      "materials": 2,
+      "skinRenderers": 1,
+      "bones": 21,
+      "source": "models/Goose_GTNumberBlock/source.json",
+      "sourceSha256": "6557b6c12d388add32b9870c6b49e5233fd7ae895191e6e83e4b6abedcdf4860",
+      "pose": "Serialized prefab pose baked into a static reference; full skin inputs retained separately"
+    },
+    {
+      "id": "Goose_GTYoYo",
+      "triangles": 3320,
+      "meshes": 2,
+      "materials": 2,
+      "skinRenderers": 1,
+      "bones": 21,
+      "source": "models/Goose_GTYoYo/source.json",
+      "sourceSha256": "0bcd0e0c13e54310df36c43b929bf6d71df9ad8b1db4e4243f70f76c114efb0b",
+      "pose": "Serialized prefab pose baked into a static reference; full skin inputs retained separately"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ref_pepperfresh",
+  "sourceId": "PepperFresh",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\PepperFresh\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/PepperFresh.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part1_5181798df32f95196365c0e9e6ad2c5e.bundle",
+  "sourceSha256": "f2a9b2c2a92fa54807697c28feb3b226c9a373b36eb333b146e1118c25eeeb17"
+}

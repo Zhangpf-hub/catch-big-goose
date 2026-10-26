@@ -1,0 +1,54 @@
+  (func $j43088 (type $t5) (param $p0 i32) (param $p1 i32) (param $p2 i32) (result i32)
+    i32.const 5127147
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 4017564 ;; Method$ArrayHelper.GetValueOrDefault<MainLevelUpgradedDataData>()
+      call $j922
+      i32.const 3953096 ;; ConfigManager_TypeInfo
+      call $j922
+      i32.const 3945912 ;; System.Collections.Generic.IReadOnlyCollection<MainLevelUpgradedDataData>_TypeInfo
+      call $j922
+      i32.const 5127147
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3953096 ;; ConfigManager_TypeInfo
+    i32.load
+    call $j923
+    i32.const -1
+    local.set $p2
+    local.get $p0
+    i32.const 0
+    call $j4153 ;; ConfigManager$$GetMainLevelUpgradedDataList
+    local.set $p0
+    block $B1
+      local.get $p0
+      i32.eqz
+      br_if $B1
+      i32.const 0
+      i32.const 3945912 ;; System.Collections.Generic.IReadOnlyCollection<MainLevelUpgradedDataData>_TypeInfo
+      i32.load
+      local.get $p0
+      call $j951
+      i32.const 1
+      i32.lt_s
+      br_if $B1
+      local.get $p0
+      local.get $p1
+      i32.const 1
+      i32.sub
+      i32.const 0
+      i32.const 4017564 ;; Method$ArrayHelper.GetValueOrDefault<MainLevelUpgradedDataData>()
+      i32.load
+      call $j3364
+      local.set $p0
+      local.get $p0
+      i32.eqz
+      br_if $B1
+      local.get $p0
+      i32.load offset=16
+      local.set $p2
+    end
+    local.get $p2
+    return)

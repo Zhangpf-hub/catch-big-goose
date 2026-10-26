@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_corn",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Corn\\Corn.blend",
+  "sourceTriangles": 1043,
+  "triangles": 1043,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.6603724956512451,
+    2.132767677307129,
+    0.631023645401001
+  ],
+  "normalizedDimensions": [
+    0.7785060405731201,
+    1.0,
+    0.2958707809448242
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

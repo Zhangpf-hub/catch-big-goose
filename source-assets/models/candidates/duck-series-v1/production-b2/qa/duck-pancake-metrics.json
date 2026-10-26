@@ -1,0 +1,23 @@
+{
+  "id": "duck-pancake",
+  "triangles": 3664,
+  "dimensions": [
+    0.8546855449676514,
+    0.7607927918434143,
+    0.9999999403953552
+  ],
+  "sourceCenter": [
+    4.470348358154297e-08,
+    0.0168694406747818,
+    0.3925458490848541
+  ],
+  "sourceExtent": 0.7722136378288269,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 86436,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

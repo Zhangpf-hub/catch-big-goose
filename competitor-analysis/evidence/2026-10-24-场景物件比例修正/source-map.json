@@ -1,0 +1,242 @@
+[
+  {
+    "current": "unity/Assets/Scripts/GooseAcceptance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseAcceptance.cs",
+    "sha256": "4e6caf78c8aea16bbbc83ff0d261b2ed688535db1857bc62a1e2cc008c613920"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseAlgorithmAcceptance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseAlgorithmAcceptance.cs",
+    "sha256": "d6847ba3f7ac3e4d177d8d635dc5500ab67c9c2a6f7bd7fd05eb79d37e792ca7"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseAssetCache.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseAssetCache.cs",
+    "sha256": "99f65a96e7df28aacad33cbfc9c9c0d53da0e0fcc2bfa58c9807449472c2aa8c"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseColliderProfile.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseColliderProfile.cs",
+    "sha256": "1b18e7a82c4c056b20c4290ef4153db1b8c5830ae44e500f89c7ffa871987d79"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseDepthPolicy.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseDepthPolicy.cs",
+    "sha256": "e8cf6c7e60283d02d5b14cb8de496d61d1809ecf6ec0f32cf8f77dbecc27849d"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseDeviceBenchmark.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseDeviceBenchmark.cs",
+    "sha256": "891b6518e5847851463700326a5f356cc65dc05ea4d2ff687b8473c469d350c3"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseDeviceMonitor.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseDeviceMonitor.cs",
+    "sha256": "af9862c9981107983e3355d1bc3fdfbb9e9ee87766c6ae1938422f3c20c29c89"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseExperienceAcceptance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseExperienceAcceptance.cs",
+    "sha256": "35225e751303c9e70761d92b6ca6ddcfe9d7db49cc82e4bd8213a88dee45a30d"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseFrameCapture.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseFrameCapture.cs",
+    "sha256": "990153b3af0b627332b7f86d3bed92528571599b067ddb9c2cd81973dafdfdc9"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseGame.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseGame.cs",
+    "sha256": "21dde6536414c4ecb1383d9cba371a039c62f69d131fbed29f6cdc9144c74d85"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseGeneration.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseGeneration.cs",
+    "sha256": "e968cd1696777a2ae7889cd53716c4eb542f8ad4e71c914743e8cbe3fef0b1d0"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseHud.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseHud.cs",
+    "sha256": "9e34030f40ca3ad7082c1e466bfa237a911e1d21eced082c5462ad645762d05e"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseInteractionAcceptance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseInteractionAcceptance.cs",
+    "sha256": "ea4828d66049de85e0a2cc0430a6a6b57ce30a90098db8b838500c4013ae50b1"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseItem.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseItem.cs",
+    "sha256": "1d7092a22cf8968ce720cfad25616550f6ab41615f5145fd60748efa7481fec9"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseLevelPolicy.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseLevelPolicy.cs",
+    "sha256": "d39f4397aa538fb1b3c7f6c2ebc71e8cd72bf275b4cb0ea31289aac80db3e0f2"
+  },
+  {
+    "current": "unity/Assets/Scripts/GoosePerformanceAcceptance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GoosePerformanceAcceptance.cs",
+    "sha256": "65c047bbd94abb8063b7129dc5aec76039dc0011cf36e6c3826ee982ed545c9b"
+  },
+  {
+    "current": "unity/Assets/Scripts/GoosePerformanceCounters.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GoosePerformanceCounters.cs",
+    "sha256": "41c1657697cad11c2352bef63b08ea6b8a2568633758923332373f1c9a75ef87"
+  },
+  {
+    "current": "unity/Assets/Scripts/GoosePhoneLayout.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GoosePhoneLayout.cs",
+    "sha256": "f77a79dc3c86a414539fe83af83c8bf6b112099a978e86dbe82caaaf34e58f23"
+  },
+  {
+    "current": "unity/Assets/Scripts/GoosePileDepth.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GoosePileDepth.cs",
+    "sha256": "acb6ff2d4be1818e97e1eace2cb88c66745eb2c83e4c09448bd97547f9a36604"
+  },
+  {
+    "current": "unity/Assets/Scripts/GoosePresentationProfile.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GoosePresentationProfile.cs",
+    "sha256": "1c330f72c1a3f637cf8e60fc7963a7a5235470d9a9094cc393c15f4ae3af35b0"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseRoundProfiler.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseRoundProfiler.cs",
+    "sha256": "547f8de28dc982d13d145a44dfc80bda6b2b63454306af5b8c8532ec8c4d2acf"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseRules.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseRules.cs",
+    "sha256": "0d883b709a7e0f2ad04ed6efaa388f93a31db40eb371b27402a0a2c8487505ee"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseRuntimePerformance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseRuntimePerformance.cs",
+    "sha256": "f1f5504647a2590ac904bd8060a267dd0c3d538c4c5d6510d3d65a7ea8c2dc59"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseScaleAcceptance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseScaleAcceptance.cs",
+    "sha256": "1ba4f206d722a98c24019a108fffc3e242e96f9bd6fca5024667cee44c91e490"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseToolIcon.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseToolIcon.cs",
+    "sha256": "930ece573f6693586c33f6cfd58008680f7ae8fc2bdd5b14e5c01a9af7d8fe07"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseTrayPresentation.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseTrayPresentation.cs",
+    "sha256": "e4e06cf662751bb87537980fcd0a640f47723610bc64039dde42c6999a3ccd67"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseUiAcceptance.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseUiAcceptance.cs",
+    "sha256": "6a574480dd95fc245f28e0e051a33ba8a83b70229e79b3ebca076834bad73a77"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseVideo.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseVideo.cs",
+    "sha256": "d8bfb223d6bdca4f8acc9234ddf62fefb60ffe00ce0687b3874ae4bdc73f5eec"
+  },
+  {
+    "current": "unity/Assets/Scripts/GooseWeChatPlatform.cs",
+    "snapshot": "delivery-sources/Assets/Scripts/GooseWeChatPlatform.cs",
+    "sha256": "dab9c3848262ad40755661a552e0cc98bc11702872a2d147f4d6aaa41d919c45"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseAlgorithmBuild.cs",
+    "snapshot": "delivery-sources/Assets/Editor/GooseAlgorithmBuild.cs",
+    "sha256": "5a7e18d82e50dfc9c35b365a193f6c3b78b638d565cb79e3c6e2827f6ce88de4"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseAssetImporter.cs",
+    "snapshot": "delivery-sources/Assets/Editor/GooseAssetImporter.cs",
+    "sha256": "4060af3d301b7893f9876df3da1210b3a4f15712787beabc17b1e9795b4b6211"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseDeviceAudit.cs",
+    "snapshot": "delivery-sources/Assets/Editor/GooseDeviceAudit.cs",
+    "sha256": "8d1d8adeccbbe5d97acc763eaad12364747fde81f50bddc4344efdb34896bbd0"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseDeviceBuild.cs",
+    "snapshot": "delivery-sources/Assets/Editor/GooseDeviceBuild.cs",
+    "sha256": "c94ba6dd1854b53405dce021b86e4f72b8ac22af287667eca19119e3fa0c219f"
+  },
+  {
+    "current": "unity/Assets/Editor/GoosePhysicsBake.cs",
+    "snapshot": "delivery-sources/Assets/Editor/GoosePhysicsBake.cs",
+    "sha256": "f9396c0ae21ec53ec808118d38acc6fe30fc3d0ca544bc945ff5e7fdd6789f0c"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseProjectSetup.cs",
+    "snapshot": "delivery-sources/Assets/Editor/GooseProjectSetup.cs",
+    "sha256": "8835449cc383aadd1453f5074fa04d0f074791236774934cbc78620e8187554b"
+  },
+  {
+    "current": "unity/Assets/Editor/GooseWeChatBuild.cs",
+    "snapshot": "delivery-sources/Assets/Editor/GooseWeChatBuild.cs",
+    "sha256": "1dfc39cde23ca5ca8548d07d794308bb0446f4b3c1a165b395a25005eb73b338"
+  },
+  {
+    "current": "unity/Assets/Tests/Editor/GooseColliderProfileTests.cs",
+    "snapshot": "delivery-sources/Assets/Tests/Editor/GooseColliderProfileTests.cs",
+    "sha256": "c831224ae2e85014c75d97e6edb281b3c53dbfd1e76cf9ab85c87f5b87f666c9"
+  },
+  {
+    "current": "unity/Assets/Tests/Editor/GooseCoreRoundTests.cs",
+    "snapshot": "delivery-sources/Assets/Tests/Editor/GooseCoreRoundTests.cs",
+    "sha256": "6b42ceb2f9f54056b2da3fd5ec8d22151a539b102d50667ec75860fccc4e41c6"
+  },
+  {
+    "current": "unity/Assets/Tests/Editor/GooseDepthIntegrationTests.cs",
+    "snapshot": "delivery-sources/Assets/Tests/Editor/GooseDepthIntegrationTests.cs",
+    "sha256": "f900471ee19c3a07410525fd600ec690d324255471bc203f79fd849c67760a7f"
+  },
+  {
+    "current": "unity/Assets/Tests/Editor/GooseMobileBudgetTests.cs",
+    "snapshot": "delivery-sources/Assets/Tests/Editor/GooseMobileBudgetTests.cs",
+    "sha256": "894f7eb2af6ecd0016407ff31bda06122652befdc54304d7ea29cb06c6dbf537"
+  },
+  {
+    "current": "unity/Assets/Tests/Editor/GoosePerformanceTests.cs",
+    "snapshot": "delivery-sources/Assets/Tests/Editor/GoosePerformanceTests.cs",
+    "sha256": "8d7a587c08f73976844e592b527bc2c39fbf2156a29e0a0b86e98dfd28c79296"
+  },
+  {
+    "current": "unity/Assets/Tests/Editor/GooseRulesTests.cs",
+    "snapshot": "delivery-sources/Assets/Tests/Editor/GooseRulesTests.cs",
+    "sha256": "68e3d3ac1a2fd5969cb6b1fc734eb22b5c8fc7e619d3901973111e7473ec3b34"
+  },
+  {
+    "current": "unity/Assets/Resources/Data/core-rounds.json",
+    "snapshot": "delivery-sources/Assets/Resources/Data/core-rounds.json",
+    "sha256": "548ed90342b759a73a39d6a73c218e65c87d1dc8e95f9c0f6064e3d38fe6e800"
+  },
+  {
+    "current": "unity/Assets/Resources/Data/item-presentation.json",
+    "snapshot": "delivery-sources/Assets/Resources/Data/item-presentation.json",
+    "sha256": "588bc77ceb2ad118851ab58b236310a4139fec2bb4c1b78ba7e89237d296e5bf"
+  },
+  {
+    "current": "unity/Assets/Resources/Data/level-tuning.json",
+    "snapshot": "delivery-sources/Assets/Resources/Data/level-tuning.json",
+    "sha256": "82f002016f6dead0072e5ab826c641efbddd21bb85b2112624c9541f95eb667d"
+  },
+  {
+    "current": "unity/Assets/Resources/Data/pile-algorithms.json",
+    "snapshot": "delivery-sources/Assets/Resources/Data/pile-algorithms.json",
+    "sha256": "e9e0662a841249168f4466f8f16bf504964b77fe345d2e0112cca44be5474b44"
+  },
+  {
+    "current": "unity/Assets/Resources/Data/reference-lab.json",
+    "snapshot": "delivery-sources/Assets/Resources/Data/reference-lab.json",
+    "sha256": "680c9b4ce39e660ddce02f88b3aba85244443751bfe8b3c5c629649578ec08cc"
+  },
+  {
+    "current": "unity/Assets/Resources/Data/themes.json",
+    "snapshot": "delivery-sources/Assets/Resources/Data/themes.json",
+    "sha256": "3a95b3a235d2d399d5df7562b6767553df7f4180553242348ff5492b9c3c285e"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "minimumIou": 0.98,
+  "views": [
+    {
+      "view": "front",
+      "iou": 0.9968541647103014,
+      "differingPixels": 335,
+      "canvas": [
+        900,
+        900
+      ],
+      "passed": true
+    },
+    {
+      "view": "side",
+      "iou": 0.9975184794086589,
+      "differingPixels": 282,
+      "canvas": [
+        900,
+        900
+      ],
+      "passed": true
+    },
+    {
+      "view": "hero",
+      "iou": 0.9973611554570554,
+      "differingPixels": 281,
+      "canvas": [
+        900,
+        900
+      ],
+      "passed": true
+    }
+  ],
+  "comparison": "high surface versus mobile mesh, same normalization and camera",
+  "doesNotProveConceptMatch": true
+}

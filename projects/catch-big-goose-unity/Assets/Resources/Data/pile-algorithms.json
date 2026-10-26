@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "weightedGeneration": true,
+  "depthManagement": true,
+  "visibleDepthMin": 0.4,
+  "visibleDepthMax": 0.5,
+  "referenceHeight": 2.1,
+  "rigidDepthMultiplier": 0.5,
+  "frontierStep": 0.05,
+  "refreshInterval": 0.1,
+  "speedGuard": 0.2,
+  "angularSpeedGuard": 0.6,
+  "settledDuration": 0.35,
+  "hysteresis": 0.06,
+  "spawnProtection": 0.8,
+  "disturbanceProtection": 0.8,
+  "positionEdgeWeight": 0.4,
+  "maxDynamicBodies": 70
+}

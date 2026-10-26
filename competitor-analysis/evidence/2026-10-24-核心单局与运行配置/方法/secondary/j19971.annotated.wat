@@ -1,0 +1,218 @@
+  (func $j19971 (type $t23) (param $p0 i32) (param $p1 i32) (param $p2 f32) (param $p3 i32)
+    (local $l4 i32) (local $l5 f32) (local $l6 f32)
+    global.get $primary.global$0
+    i32.const 48
+    i32.sub
+    local.set $p3
+    local.get $p3
+    global.set $primary.global$0
+    i32.const 5139668
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3963844 ;; DG.Tweening.TweenCallback_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4039188 ;; Method$DG.Tweening.TweenSettingsExtensions.OnComplete<TweenerCore<Vector3, Vector3, VectorOptions>>()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4039312 ;; Method$DG.Tweening.TweenSettingsExtensions.SetEase<TweenerCore<Vector3, Vector3, VectorOptions>>()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4039444 ;; Method$DG.Tweening.TweenSettingsExtensions.SetUpdate<TweenerCore<Vector3, Vector3, VectorOptions>>()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 4058844 ;; Method$SpModeLongTableMa.<>c.<SetCameraPos>b__23_0()
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 3971580 ;; SpModeLongTableMa.<>c_TypeInfo
+      i32.const 810
+      call_indirect $primary.table (type $t0)
+      i32.const 5139668
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    f32.load
+    local.set $l5
+    i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+    i32.load
+    i32.const 735
+    call_indirect $primary.table (type $t0)
+    local.get $p3
+    i32.const 32
+    i32.add
+    i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.load offset=4
+    i32.const 0
+    i32.const 5186
+    call_indirect $primary.table (type $t4)
+    local.get $p3
+    f32.load offset=36
+    local.set $l6
+    i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.set $l4
+    local.get $l4
+    local.get $p0
+    f32.load offset=8
+    f32.store offset=60
+    local.get $l4
+    local.get $l6
+    f32.store offset=56
+    local.get $l4
+    local.get $l5
+    f32.store offset=52
+    i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+    i32.load
+    i32.load offset=92
+    i32.const 0
+    i32.store offset=64
+    i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+    i32.load
+    i32.const 735
+    call_indirect $primary.table (type $t0)
+    i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+    i32.load
+    i32.load offset=92
+    local.set $p0
+    block $B1
+      local.get $p1
+      if $I2
+        local.get $p0
+        i32.const 1
+        i32.store8 offset=24
+        i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=4
+        local.set $p0
+        i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+        i32.load
+        i32.load offset=92
+        local.set $p1
+        local.get $p3
+        local.get $p1
+        i32.load offset=60
+        i32.store offset=8
+        local.get $p3
+        local.get $p1
+        i32.load offset=52
+        i64.extend_i32_u
+        local.get $p1
+        i32.load offset=56
+        i64.extend_i32_u
+        i64.const 32
+        i64.shl
+        i64.or
+        i64.store
+        local.get $p0
+        local.get $p3
+        local.get $p2
+        i32.const 0
+        i32.const 0
+        i32.const 31285
+        call_indirect $primary.table (type $t48)
+        i32.const 1
+        i32.const 4039444 ;; Method$DG.Tweening.TweenSettingsExtensions.SetUpdate<TweenerCore<Vector3, Vector3, VectorOptions>>()
+        i32.load
+        i32.const 7789
+        call_indirect $primary.table (type $t5)
+        local.set $p1
+        i32.const 3971580 ;; SpModeLongTableMa.<>c_TypeInfo
+        i32.load
+        i32.const 735
+        call_indirect $primary.table (type $t0)
+        i32.const 3971580 ;; SpModeLongTableMa.<>c_TypeInfo
+        i32.load
+        i32.load offset=92
+        i32.load offset=4
+        local.set $p0
+        local.get $p0
+        i32.eqz
+        if $I3
+          i32.const 3971580 ;; SpModeLongTableMa.<>c_TypeInfo
+          i32.load
+          i32.const 735
+          call_indirect $primary.table (type $t0)
+          i32.const 3971580 ;; SpModeLongTableMa.<>c_TypeInfo
+          i32.load
+          i32.load offset=92
+          i32.load
+          local.set $l4
+          i32.const 3963844 ;; DG.Tweening.TweenCallback_TypeInfo
+          i32.load
+          i32.const 137618
+          call_indirect $primary.table (type $t1)
+          local.set $p0
+          local.get $p0
+          local.get $l4
+          i32.const 4058844 ;; Method$SpModeLongTableMa.<>c.<SetCameraPos>b__23_0()
+          i32.load
+          i32.const 0
+          i32.const 31102
+          call_indirect $primary.table (type $t6)
+          i32.const 3971580 ;; SpModeLongTableMa.<>c_TypeInfo
+          i32.load
+          i32.load offset=92
+          local.get $p0
+          i32.store offset=4
+          i32.const 3971580 ;; SpModeLongTableMa.<>c_TypeInfo
+          i32.load
+          i32.load offset=92
+          drop
+        end
+        local.get $p1
+        local.get $p0
+        i32.const 4039188 ;; Method$DG.Tweening.TweenSettingsExtensions.OnComplete<TweenerCore<Vector3, Vector3, VectorOptions>>()
+        i32.load
+        i32.const 137809
+        call_indirect $primary.table (type $t5)
+        i32.const 4
+        i32.const 4039312 ;; Method$DG.Tweening.TweenSettingsExtensions.SetEase<TweenerCore<Vector3, Vector3, VectorOptions>>()
+        i32.load
+        i32.const 137710
+        call_indirect $primary.table (type $t5)
+        drop
+        br $B1
+      end
+      local.get $p0
+      i32.load offset=4
+      local.set $p0
+      i32.const 3962324 ;; SpModeLongTableMa_TypeInfo
+      i32.load
+      i32.load offset=92
+      local.set $p1
+      local.get $p3
+      local.get $p1
+      i32.load offset=60
+      i32.store offset=24
+      local.get $p3
+      local.get $p1
+      i32.load offset=52
+      i64.extend_i32_u
+      local.get $p1
+      i32.load offset=56
+      i64.extend_i32_u
+      i64.const 32
+      i64.shl
+      i64.or
+      i64.store offset=16
+      local.get $p0
+      local.get $p3
+      i32.const 16
+      i32.add
+      i32.const 0
+      i32.const 53035
+      call_indirect $primary.table (type $t4)
+    end
+    local.get $p3
+    i32.const 48
+    i32.add
+    global.set $primary.global$0)

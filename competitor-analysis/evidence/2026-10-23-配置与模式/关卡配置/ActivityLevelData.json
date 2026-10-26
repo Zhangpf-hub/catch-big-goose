@@ -1,0 +1,1748 @@
+{
+  "SheetName": "Assets/Res/ForEditor/ActivityData.xlsx",
+  "WorksheetName": "ActivityLevelData",
+  "dataArray": [
+    {
+      "_levelindex": 1,
+      "_leveltype": "MainLevel",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 2,
+      "_leveltype": "MainLevel",
+      "_iconkey": "Cosmetic",
+      "_gooselist": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 3,
+      "_leveltype": "MainLevel",
+      "_iconkey": "JadeStore",
+      "_gooselist": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 4,
+      "_leveltype": "MainLevel",
+      "_iconkey": "GroceryStore",
+      "_gooselist": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 5,
+      "_leveltype": "MainLevel",
+      "_iconkey": "Barbecue",
+      "_gooselist": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 6,
+      "_leveltype": "MainLevel",
+      "_iconkey": "ToonFood",
+      "_gooselist": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 7,
+      "_leveltype": "MainLevel",
+      "_iconkey": "WetMarket",
+      "_gooselist": [
+        10701,
+        10702,
+        10703,
+        10704
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 8,
+      "_leveltype": "MainLevel",
+      "_iconkey": "Breakfast",
+      "_gooselist": [
+        10801,
+        10802,
+        10803,
+        10804
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 9,
+      "_leveltype": "MainLevel",
+      "_iconkey": "MainHotPot",
+      "_gooselist": [
+        10901,
+        10902,
+        10903,
+        10904
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 10,
+      "_leveltype": "MainLevel",
+      "_iconkey": "BigPot",
+      "_gooselist": [
+        11001,
+        11002,
+        11003,
+        11004
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1001,
+      "_leveltype": "NewYearLevel",
+      "_iconkey": "NewYearLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1101,
+      "_leveltype": "FruitSpLevel",
+      "_iconkey": "FruitSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1201,
+      "_leveltype": "BoardGameSpLevel",
+      "_iconkey": "BoardGameSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1301,
+      "_leveltype": "PlushToySpLevel",
+      "_iconkey": "PlushToySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1401,
+      "_leveltype": "SDGDCitySpLevel",
+      "_iconkey": "SDGDCitySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1501,
+      "_leveltype": "BeachSpLevel",
+      "_iconkey": "BeachSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1601,
+      "_leveltype": "IceCreamSpLevel",
+      "_iconkey": "IceCreamSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1701,
+      "_leveltype": "CandySpLevel",
+      "_iconkey": "CandySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1801,
+      "_leveltype": "ClassRoomSpLevel",
+      "_iconkey": "ClassRoomSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1901,
+      "_leveltype": "80YearSpLevel",
+      "_iconkey": "80YearSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1911,
+      "_leveltype": "MiniCakeSpLevel",
+      "_iconkey": "MiniCakeSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1921,
+      "_leveltype": "FriedChickenSpLevel",
+      "_iconkey": "FriedChickenSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1931,
+      "_leveltype": "NewYear25SpLevel",
+      "_iconkey": "NewYear25SpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1941,
+      "_leveltype": "DynastyTangSpLevel",
+      "_iconkey": "DynastyTangSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1951,
+      "_leveltype": "PorcelainSpLevel",
+      "_iconkey": "PorcelainSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1961,
+      "_leveltype": "BagDiarySpLevel",
+      "_iconkey": "BagDiarySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1971,
+      "_leveltype": "VillageMarketSpLevel",
+      "_iconkey": "VillageMarketSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1981,
+      "_leveltype": "SugarShopSpLevel",
+      "_iconkey": "SugarShopSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1991,
+      "_leveltype": "SingerSpLevel",
+      "_iconkey": "SingerSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19001,
+      "_leveltype": "SouthFruitSpLevel",
+      "_iconkey": "SouthFruitSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19011,
+      "_leveltype": "MiniKitchenSpLevel",
+      "_iconkey": "MiniKitchenSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19021,
+      "_leveltype": "PalacePastrySpLevel",
+      "_iconkey": "PalacePastrySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19031,
+      "_leveltype": "SourPickleSpLevel",
+      "_iconkey": "SourPickleSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19041,
+      "_leveltype": "AutumnStoveSpLevel",
+      "_iconkey": "AutumnStoveSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19051,
+      "_leveltype": "OceanTreasureSpLevel",
+      "_iconkey": "OceanTreasureSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19061,
+      "_leveltype": "SnackStreetSpLevel",
+      "_iconkey": "SnackStreetSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19071,
+      "_leveltype": "NewYearStreetSpLevel",
+      "_iconkey": "NewYearStreetSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19081,
+      "_leveltype": "GoToMountainSpLevel",
+      "_iconkey": "GoToMountainSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19091,
+      "_leveltype": "FlowerShopSpLevel",
+      "_iconkey": "FlowerShopSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1002,
+      "_leveltype": "NewYearLevel",
+      "_iconkey": "NewYearLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1102,
+      "_leveltype": "FruitSpLevel",
+      "_iconkey": "FruitSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1202,
+      "_leveltype": "BoardGameSpLevel",
+      "_iconkey": "BoardGameSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1302,
+      "_leveltype": "PlushToySpLevel",
+      "_iconkey": "PlushToySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1402,
+      "_leveltype": "SDGDCitySpLevel",
+      "_iconkey": "SDGDCitySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1502,
+      "_leveltype": "BeachSpLevel",
+      "_iconkey": "BeachSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1602,
+      "_leveltype": "IceCreamSpLevel",
+      "_iconkey": "IceCreamSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1702,
+      "_leveltype": "CandySpLevel",
+      "_iconkey": "CandySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1802,
+      "_leveltype": "ClassRoomSpLevel",
+      "_iconkey": "ClassRoomSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1902,
+      "_leveltype": "80YearSpLevel",
+      "_iconkey": "80YearSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1912,
+      "_leveltype": "MiniCakeSpLevel",
+      "_iconkey": "MiniCakeSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1922,
+      "_leveltype": "FriedChickenSpLevel",
+      "_iconkey": "FriedChickenSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1932,
+      "_leveltype": "NewYear25SpLevel",
+      "_iconkey": "NewYear25SpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1942,
+      "_leveltype": "DynastyTangSpLevel",
+      "_iconkey": "DynastyTangSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1952,
+      "_leveltype": "PorcelainSpLevel",
+      "_iconkey": "PorcelainSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1962,
+      "_leveltype": "BagDiarySpLevel",
+      "_iconkey": "BagDiarySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1972,
+      "_leveltype": "VillageMarketSpLevel",
+      "_iconkey": "VillageMarketSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1982,
+      "_leveltype": "SugarShopSpLevel",
+      "_iconkey": "SugarShopSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 1992,
+      "_leveltype": "SingerSpLevel",
+      "_iconkey": "SingerSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19002,
+      "_leveltype": "SouthFruitSpLevel",
+      "_iconkey": "SouthFruitSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19012,
+      "_leveltype": "MiniKitchenSpLevel",
+      "_iconkey": "MiniKitchenSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19022,
+      "_leveltype": "PalacePastrySpLevel",
+      "_iconkey": "PalacePastrySpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19032,
+      "_leveltype": "SourPickleSpLevel",
+      "_iconkey": "SourPickleSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19042,
+      "_leveltype": "AutumnStoveSpLevel",
+      "_iconkey": "AutumnStoveSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19052,
+      "_leveltype": "OceanTreasureSpLevel",
+      "_iconkey": "OceanTreasureSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19062,
+      "_leveltype": "SnackStreetSpLevel",
+      "_iconkey": "SnackStreetSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19072,
+      "_leveltype": "NewYearStreetSpLevel",
+      "_iconkey": "NewYearStreetSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19082,
+      "_leveltype": "GoToMountainSpLevel",
+      "_iconkey": "GoToMountainSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 19092,
+      "_leveltype": "FlowerShopSpLevel",
+      "_iconkey": "FlowerShopSpLevel",
+      "_gooselist": [],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 1,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 200215,
+      "_leveltype": "MoonCakeSlot",
+      "_iconkey": "MoonCakeSlot",
+      "_gooselist": [
+        8011,
+        8012,
+        8013
+      ],
+      "_toolresumecount": [
+        2,
+        2
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "",
+      "_des": "",
+      "_resumetime": 0
+    },
+    {
+      "_levelindex": 500101,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5364\u9e45\u5927\u9910",
+      "_des": "\u8d85\u89e3\u538b\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6e05\u7a7a\u5364\u9e45\u5927\u9910\u5427\uff01",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 500102,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u9ebb\u8fa3\u4e5d\u5bab\u683c",
+      "_des": "\u8d85\u89e3\u538b\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6e05\u7a7a\u9ebb\u8fa3\u706b\u9505\u5427\uff01",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 500103,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u9e33\u9e2f\u9505",
+      "_des": "\u8d85\u89e3\u538b\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6e05\u7a7a\u9e33\u9e2f\u706b\u9505\u5427\uff01",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 500104,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u7b80\u5355\u65e9\u9910",
+      "_des": "\u8d85\u89e3\u538b\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6e05\u7a7a\u84b8\u7b3c\u5427\uff01",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 500105,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5927\u9505",
+      "_des": "\u8d85\u89e3\u538b\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6e05\u7a7a\u5927\u9505\u5427\uff01",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 500106,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u7f8e\u5473\u65e9\u9910",
+      "_des": "\u8d85\u89e3\u538b\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6e05\u7a7a\u84b8\u7b3c\u5427\uff01",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 500107,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5065\u5eb7\u852c\u83dc",
+      "_des": "\u8d85\u89e3\u538b\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6e05\u7a7a\u852c\u83dc\u5427\uff01",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 500108,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "BeachSpLevel",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u6c99\u6ee9\u7684\u5b57",
+      "_des": "\u8d85\u5947\u8469\u5173\u5361\uff01\u9650\u65f63\u5206\u949f\uff0c\u5feb\u6765\u901a\u5173\u5427\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500109,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Barbecue",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u70e7\u70e4\u7684\u5b57",
+      "_des": "\u8d85\u5947\u8469\u5173\u5361\uff01\u9650\u65f63\u5206\u949f\uff0c\u5feb\u6765\u901a\u5173\u5427\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500110,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5927\u9505\u7684\u5b57",
+      "_des": "\u8d85\u5947\u8469\u5173\u5361\uff01\u9650\u65f63\u5206\u949f\uff0c\u5feb\u6765\u901a\u5173\u5427\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500111,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u666f\u9e45\u9547\u6311\u6218",
+      "_des": "\u5343\u5e74\u4f20\u627f\uff01\u9650\u65f63\u5206\u949f\uff0c\u6e38\u620f\u4e2d\u611f\u53d7\u74f7\u5668\u7684\u9b45\u529b\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500112,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u591a\u5f69\u74f7\u5668",
+      "_des": "\u74f7\u5668\u6311\u6218\uff01\u9650\u65f63\u5206\u949f\uff0c\u5feb\u6765\u6d88\u9664\u6240\u6709\u74f7\u5668\u5427\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500113,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u540d\u8d35\u74f7\u5668",
+      "_des": "\u74f7\u5668\u4e3b\u9898\uff01\u9650\u65f63\u5206\u949f\uff0c\u6311\u6218\u5173\u5361\u8bc1\u660e\u81ea\u5df1\u7684\u5b9e\u529b\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500114,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u74f7\u5668\u6d88\u9664",
+      "_des": "\u8d85\u723d\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6d88\u9664\u74f7\u5668\u5427\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500115,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u74f7\u5668\u6d88\u9664",
+      "_des": "\u8d85\u723d\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6d88\u9664\u74f7\u5668\u5427\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 500116,
+      "_leveltype": "DailyChallenge",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u74f7\u5668\u6d88\u9664",
+      "_des": "\u8d85\u723d\u5173\u5361\uff01\u9650\u65f62\u5206\u949f\uff0c\u5feb\u6765\u6d88\u9664\u74f7\u5668\u5427\uff01",
+      "_resumetime": 60
+    },
+    {
+      "_levelindex": 600101,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u7389\u77f3\u5206\u5e97",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600102,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u53e4\u88c5\u6444\u5f71",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600103,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u6bcf\u65e5\u65e9\u9910",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600104,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u6708\u997c\u793c\u76d2",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600105,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u96f6\u98df\u5e97",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600106,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5df7\u5c3e\u83dc\u5e02",
+      "_des": "",
+      "_resumetime": 45
+    },
+    {
+      "_levelindex": 600201,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u89e3\u8fa3\u5957\u9910",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600202,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u91cd\u5e86\u8fa3\u5ea6",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600203,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5fae\u8fa3",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600204,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5c71\u73cd",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600205,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u7eaa\u5ff5\u54c1\u5546\u5e97",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600206,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5ba4\u5185\u5a31\u4e50",
+      "_des": "",
+      "_resumetime": 45
+    },
+    {
+      "_levelindex": 600301,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5c0f\u5403\u8857",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600302,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u591c\u5e02\u70e4\u8089",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600303,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5fae\u8fa3\u706b\u9505",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600304,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u56de\u5fc6",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600305,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5403\u70b9\u6c34\u679c",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600306,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5927\u9505\u83dc",
+      "_des": "",
+      "_resumetime": 45
+    },
+    {
+      "_levelindex": 600401,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u5927\u8089\u7cbd\u6765\u5566",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600402,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u4e09\u89d2\u7cbd\u6765\u5566",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600403,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u7cbd\u5b50\u5957\u9910",
+      "_des": "",
+      "_resumetime": 30
+    },
+    {
+      "_levelindex": 600404,
+      "_leveltype": "Monopoly",
+      "_iconkey": "Countryside",
+      "_gooselist": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "_toolresumecount": [
+        1,
+        1
+      ],
+      "_isusespgoosekey": 0,
+      "_name": "\u8fc7\u7aef\u5348",
+      "_des": "",
+      "_resumetime": 45
+    }
+  ]
+}

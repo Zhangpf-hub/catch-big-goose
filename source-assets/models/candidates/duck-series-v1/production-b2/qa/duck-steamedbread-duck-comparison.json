@@ -1,0 +1,53 @@
+{
+  "id": "duck-steamedbread",
+  "kind": "duck",
+  "input": "source-assets/models/candidates/duck-series-v1/production-b2/models/duck-steamedbread/duck-steamedbread.glb",
+  "sourceSha256": "b4a24c0a2658000178aa582e83ef44173a87766d924451f2d160d311d6525d3f",
+  "originalWorldDimensions": [
+    0.7146337628364563,
+    0.6824114918708801,
+    0.9999998807907104
+  ],
+  "uniformScale": 1.0000001192093038,
+  "normalizedWorldDimensions": [
+    0.7146338224411011,
+    0.6824115514755249,
+    1.0
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Original 256px palette PBR",
+  "sourceUnchanged": true
+}

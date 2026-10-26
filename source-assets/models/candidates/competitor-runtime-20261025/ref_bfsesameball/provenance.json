@@ -1,0 +1,9 @@
+{
+  "id": "ref_bfsesameball",
+  "sourceId": "BFSesameBall",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFSesameBall\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFSesameBall.prefab",
+  "bundle": "levelbreakfastobjprefab_assets_part1_3cdb7bf9e295314f501ccfc21ef41cbf.bundle",
+  "sourceSha256": "542ddf0df16eaa8cb14e1b567b2790d931cbb08f12348e6a0aa73f7da0578798"
+}

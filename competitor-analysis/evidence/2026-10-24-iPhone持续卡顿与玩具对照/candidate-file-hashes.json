@@ -1,0 +1,3382 @@
+[
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/albedo.png",
+    "sha256": "a44723289c3dac9a3993dbbf11cc7bdc61d7aeb7c86cff0a961ebf9602b13ce2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/apple.blend",
+    "sha256": "c6dcbb336484345823900feeb610b9a441726f52913009dc1b363f376f6b0f04"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/apple.fbx",
+    "sha256": "22a9b03e5ccfafbbd86b56706ed989bae5c55e1f5d504de86a683c747fa372d4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/apple.glb",
+    "sha256": "deda0b54e1c8fb3a7a764685501ed758a0d07c4195a87470983e7b13f0e6f484"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/atlas-input.json",
+    "sha256": "f57191b9873562a231bbbe86cf1b6bf9521a7400885b051ac93b649685e43e08"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/atlas-input.rects.json",
+    "sha256": "c83f5e33336ddf996b5696586b132b5f2fe9227e583675513d4fe92b097e5b81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/back.png",
+    "sha256": "ed0eb63f18a0603afc6f367f79fc1f94448eb5381478cf9d42fbc9cf598a194f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/icon-192.png",
+    "sha256": "0ec79ca57cb661dc2c97d66aed52fb7b6c6eb68aec909e07fb1583014c7c5550"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/icon-64.png",
+    "sha256": "d5478c1474ed0aa9e8504272af5215f5c6c434a35ead2e5011f3c2b1725b7554"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/materials.json",
+    "sha256": "e38399a6cc6bef137530ea9c7e3998c459cce511fb5cc8ef0c33a71dd60ecb0a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/metrics.json",
+    "sha256": "47a38ecbf5532af46044f2c7f0fdab8c6c5f1b7196dc752b5d0905f7a5e37497"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/side.png",
+    "sha256": "abb7d92ccf193314ae865ce50ba2285f8c11b04ab4b7a909d2e6fd6ae74524eb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/three-quarter.png",
+    "sha256": "68ea8fce0572fc35c4ccc3e571e7e57e73818ac0cb91587bd21a1f7ea6b98d6d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/apple/top.png",
+    "sha256": "beb7d6753fee98c5c34a525ce82c90457250645b6e2ed9f82b9b1f9091fd4067"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/albedo.png",
+    "sha256": "4819ba72c7d1ab22c2e6d5d80e08410aa67e8449b65b312b18eb87ef190e73c2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/atlas-input.json",
+    "sha256": "8a6382b0cb2078e0d1390838a94431b0a52b4fdfc3eaba3be21b2106e0acceae"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/atlas-input.rects.json",
+    "sha256": "fcfc378f81c1314bad925da25ee861aee79cb31a80e62055c2babf60195dc839"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/back.png",
+    "sha256": "703fa65d974b0a3d7f8d44772587353e853986c57b6fc26a7db14c713ce76546"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/banana.blend",
+    "sha256": "0ac2e2fbcce0880e7c03de8596faa3dfa9cbfbbd5806c428ee6cff1b94525fb5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/banana.fbx",
+    "sha256": "c512df251045664e008cd6623d876d63fa585dc42a96e1a7c269dbd48f936b0f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/banana.glb",
+    "sha256": "1af757c8c795158e19e666821cfa4b190fea69b1bcea8a2504dd1fada8ba5f73"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/icon-192.png",
+    "sha256": "81c1977f7308723af3e9058fc22708cbf8e35761887f740c08a6620f76531cac"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/icon-64.png",
+    "sha256": "882eaade8c4f55c0a895bdc5eb47b2957db3754d687bb0c3451cc13d53fcd6d5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/materials.json",
+    "sha256": "f0fa7d80d25c4c1eac155287216e6044416d38193ea001886580c22b509f9d1f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/metrics.json",
+    "sha256": "4222d90cdf40bf90659de3740b979252e5a4d7cb8389a739af00297e175949be"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/side.png",
+    "sha256": "1a3c2d0826972d472ee2e0484ae69cfbb7b5f28f8f093b88a6d8a4f4b671ac0e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/three-quarter.png",
+    "sha256": "62d376c31333e3c79fdbe9ca1873873e955c264a0116edbf8dc413150f672276"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banana/top.png",
+    "sha256": "4b134b05f17c8be0158d47eb83fbf2ef4af06bade43dcaa8a4fff12773bbd652"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/albedo.png",
+    "sha256": "40b0e9a992f34ddcc259ca4078ac0d5ef03800d25c101c6cb7b489cc5963f252"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/atlas-input.json",
+    "sha256": "cf1d21d45381e93898ac55daccf70fc137e38a421d59c1ca75611b35657ccdcb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/back.png",
+    "sha256": "207ad247bc26cedc5bba5afd3dfdb376ea2686c742d0dec2a3aed5a97fc2808c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/grape.blend",
+    "sha256": "360b165513974cf53eb31c5dd2ef3b05727074d03d89f729b8c3d93700f4e6f2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/grape.fbx",
+    "sha256": "884dcd865408853b01894fe35d36ec058c1cb667cec100bc9c5e2447cea04736"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/grape.glb",
+    "sha256": "964397d7fcc7eeb09e3501595efadf70c0b8b4508e0c0870aec1cf5473d68a17"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/icon-192.png",
+    "sha256": "ec43ea11c0532d26bc815a70bc832eb3085749a029b03f58adef4ee4a481a886"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/icon-64.png",
+    "sha256": "cdb501153fe97d249d1ba52c4f9505ca09a3c9066f772aeaebee16937749afae"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/materials.json",
+    "sha256": "dd771556dfa0b4e3a6b085bae2d15d09f0c1dfdcee812a5a5b39b146fe414f99"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/metrics.json",
+    "sha256": "7b5cef3506734388e353b4f7fea6c38bd90de94807b291e0e74c1daa3eb6207e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/side.png",
+    "sha256": "f78ee7af4f7cfda508d3b44eeb35d570082e9cbc61c9ce604ba1bbcd4a621e52"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/three-quarter.png",
+    "sha256": "94c3adda7cfd17c7897d504d47eb8cd4df6b0cd2b5374bd818563048034dcd82"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/grape/top.png",
+    "sha256": "c690c066d8d5735c299c6615fa22fcc852791a5b3cb8574f6c01622781c8cf7d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/albedo.png",
+    "sha256": "80f889f1aa974ad0daaeb5fc214865748456a998c545c15a57bfbcbc9308d601"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/atlas-input.json",
+    "sha256": "ef652d991fc16660f948d270c6d2783c31d11efd986bd093fae06e366c5a7e34"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/atlas-input.rects.json",
+    "sha256": "b67a16750c3098776e87e5aec74b68bf438162e1e468c3fb23c705569765bc9d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/back.png",
+    "sha256": "4ef9cf3e1ef27a59c10f3aaaa4d296b188395a31def2c3010ee176d4ef21e929"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/icon-192.png",
+    "sha256": "4388d1f0f7e5d4e85fd58f7450d090a5e58a3bd34bd8e5fdcf10a362d3dea898"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/icon-64.png",
+    "sha256": "e9d3ee30baa4b2e783882dd3b023bcb7686d502814f46540b23863e24b6b31ac"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/materials.json",
+    "sha256": "00b6f1297a2d1a1ad874c92f076696394175b60a060b15757dcf0525c2c9dcd5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/metrics.json",
+    "sha256": "160b9ae8ff5d99f9b7819fe647d5060683e2c109721bcb6b049c3264c6c2a4aa"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/orange.blend",
+    "sha256": "f34ddf2a080235e6aa32f5dd88b1da99f83d5c528b58d39fb33b12374d4ddf78"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/orange.fbx",
+    "sha256": "98524a7fbacd6c141206c993ceeb1376aec7e49fed2ad676957700e02b9dea39"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/orange.glb",
+    "sha256": "cfc96d75b7deb667e618ea1bd582776826e90b212d9fa658ec60b2c2dbbff257"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/side.png",
+    "sha256": "fbd33b5815328857dc059dbbcb9d43de62b86d45563c4be1c9ea582ecc4b5e9b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/three-quarter.png",
+    "sha256": "de48589c440cb80cff4f68024f34da5fbe35e6cf4ff1645df3c8e1fd2c35e785"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/orange/top.png",
+    "sha256": "9e1ebe14e1d1236deb1ac3f29b33588f9988ed0cd1d8173f1dbb8a6ac3753d47"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/albedo.png",
+    "sha256": "36ad2e6b62b74402bd01f59de05e1ca652b6cf8cc909f7cc852ecfe450a1e4a0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/atlas-input.json",
+    "sha256": "438dbec4de3d3da5d739ea636c27adfda04de94ee26196be8ed0ada174ad584c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/back.png",
+    "sha256": "705c3c5be8f9c9b2307f568c8bb8c47b4279fba319ce0181bd32af637bd135f6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/icon-192.png",
+    "sha256": "7d9fb79b6d0b352e55d896f13828609208072cee670b5b1eb87b0fded1b9d826"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/icon-64.png",
+    "sha256": "6a8a8eb376dbbc6826421382614dc8b36d75f782d097fff2488d264a5d7b7106"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/materials.json",
+    "sha256": "676501e1a91539d35f9d231a8356107809e3d0d6eb7fb2dff32612a2fe28e99f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/metrics.json",
+    "sha256": "7bb166e10333e5f693bf5be24f5b997b9a5bfff4cf6441873099daff6f0f1bb0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/side.png",
+    "sha256": "e18a529f6a4d5cc1e1eaeb4ea85ef6a33f720a4b52fdc7741949e751d495cbbe"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/strawberry.blend",
+    "sha256": "28215e124425135029c3b8ee7b2958cc864871c88bf30c3088bf529e12925bc5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/strawberry.fbx",
+    "sha256": "392a5c923bba7f9f96dbf81e5a372a11181e0e6bf2f22eda22d9c6f1ebcdf4f3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/strawberry.glb",
+    "sha256": "1bae96e4e60856f53c38ccb6ccea453bd584c6934c77388ed102f2dfcfbcd185"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/three-quarter.png",
+    "sha256": "64cc45d5365da19523a590940c7a43eb0f6c1bde0acc1f10fcd3d3e46554dedf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/strawberry/top.png",
+    "sha256": "6e270e82696b0918b751fd3c764a7842486091c8c7175829c979cd41c5aa64b9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/albedo.png",
+    "sha256": "275a075a80d16f079f98a06485dfa807793c9ea2b3c140ff9ca8aba9df9498af"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/atlas-input.json",
+    "sha256": "6ab02104e757dac9c35d7e9c5ef35ecaa2da2079214eb25f79446f2f2869b546"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/back.png",
+    "sha256": "dad4f8cf763d40d7c0185151b99991e0e8820ace2419bef3688ab0139e0bf0d2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/icon-192.png",
+    "sha256": "a858854a54c9225b7998845bd96e40a3671de15a219450c0800ca74391882543"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/icon-64.png",
+    "sha256": "4911320f96123bfbcbe3fe276d1d00da7072bcf673955ee68d9c184b8b1a47ae"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/lemon.blend",
+    "sha256": "1879bb6c10b1af0ac9ff83c78dc4fa3354c3146a145fa009c56c2354037a80ee"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/lemon.fbx",
+    "sha256": "00a795c8d96285d87e58d55669a2e54327f806e78b2e8a269343f4b42ed084de"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/lemon.glb",
+    "sha256": "3d0743bc2693545b6a9b85f55509208716544776ba4c4293852f918cf7f8f96f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/materials.json",
+    "sha256": "c4b3d68bca8cbf63ce202815f869ca4e06d2ed717f425c27cabb8e9abc6e3879"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/metrics.json",
+    "sha256": "9842b32d12756e12b90d92d6ea852e76d045685be0b453762254390954b8b473"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/side.png",
+    "sha256": "f8d5458e09058bab982b5503a6eaf57bf00722fa295157eb3aadb730ddcdd66e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/three-quarter.png",
+    "sha256": "8f29b593cf5425a1e4fd93e1ed21c4de12e90202f04f94bd32291cfa15b19f86"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lemon/top.png",
+    "sha256": "62255cd7ad2217dd8526e6127467cc23abf0031045c021004061a75924c964a7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/albedo.png",
+    "sha256": "436edb7251d0f86b6c627842abfa79b4b227391f933ca4256427ee04209195d5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/atlas-input.json",
+    "sha256": "424832389415486a99ee9797daa8688b20d736906adff17c9d9f42a93ce1ff1a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/atlas-input.rects.json",
+    "sha256": "b67a16750c3098776e87e5aec74b68bf438162e1e468c3fb23c705569765bc9d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/back.png",
+    "sha256": "23e8324ce6c8440f049b2a6907776b2f50c73bdb96647621f0396fd2fe20ab86"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/icon-192.png",
+    "sha256": "c6a775456b315fdf74f86378d1779d5e721f19d9ffb3df36837d7f124dd0a37f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/icon-64.png",
+    "sha256": "705d10d3800e72174841795d05d0b987cf60a223b45b451761c9a737c0e3af0a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/materials.json",
+    "sha256": "2d8535027354202d55c495c8d629b855e97f41ac3a8c99763a92f1499116ee90"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/metrics.json",
+    "sha256": "f50523320babca2370296bc3813a7b89acffb8a4632465ca89c7b6ee18f424e1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/pear.blend",
+    "sha256": "5c6ee96ec9fef3336124c0111d9921a50425ce3ccccc8df4b4ebd837d3001e21"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/pear.fbx",
+    "sha256": "a7e546e648067e5ab1b5f86afa8b9dc7f784d486d5d5344a393a9ea5376949c4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/pear.glb",
+    "sha256": "144c8302a2a7716e25c1cdc156f3d17567370f2d7d08bed85b061ac5fd1e655c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/side.png",
+    "sha256": "578e29070e0e98f7b9e02c217706c65468eefce99eb14ecfa6274e431395ffdd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/three-quarter.png",
+    "sha256": "375d1727920a433a68e1fa9aa72bc35834226e1e58acb74e60b21fcea515bc01"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pear/top.png",
+    "sha256": "5778310d0a83327cbe2693c36d6062d94f5ddc4eb2aa5c97ff8ab762da3d47a3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/albedo.png",
+    "sha256": "ed25609e80031779c8c316d837c852dced7b2d1a0af623c5f91e91f59229fa6e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/atlas-input.json",
+    "sha256": "07295414fcb84290fa5ae7e4fb8ab2e59fc573dc8389e1729874d1b06b1e1974"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/atlas-input.rects.json",
+    "sha256": "850955b1e216bc5cdeef8fc95bd69c31c51f0b0a865409e29643eae287d9f9f9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/back.png",
+    "sha256": "4fa1d4ae0406792fdaacbbbe611afb0cc968bd0f6edc2fa197872b445c65ede4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/cherry.blend",
+    "sha256": "cc7d2b74ed204d4aeeb554ca5cbc3acfc6ee08bee231b858cd69d18967df1a47"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/cherry.fbx",
+    "sha256": "82095d5a01ef604bcf3ed80e23a07ef7c7ac3f6633f253a746dfdbbcbc28ee8e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/cherry.glb",
+    "sha256": "e930cea9649f52ddb5de59ace86640d581d24329a865788267eb3c1868e90ba0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/icon-192.png",
+    "sha256": "df0074ae8b644ca713abc1df745f2f0f8134cb0c4cacb9090ce8e9cba8047427"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/icon-64.png",
+    "sha256": "4fd13a9301f6272adc50180ad3ee85a7fa0076dac5ddbdbf1e18aefaf3b3ca13"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/materials.json",
+    "sha256": "39bb07d6fff54a4f81fe1b8330c6861b367c2f26ddafe7c66f57f39612e85c78"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/metrics.json",
+    "sha256": "188a07306aad079a2f75d7f07bc6b35ef8f8a2dc9d5395b1b584f2a78b25b01a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/side.png",
+    "sha256": "5601ad2da07d20d8a795030c092da68f179c4fc7bf9047e24e4c6e960cfa2ce6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/three-quarter.png",
+    "sha256": "8bc2915d79d4bfd1294a4cf2d441d30f151fb7929e66c1335e91e013a2a4f18c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cherry/top.png",
+    "sha256": "66dd81df823042b8c0b286d4d8e9884de3f01a61568f1c4eb85005e590cf38b7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/albedo.png",
+    "sha256": "f4317e0c6bbf754e1a7d1acabce2331da0209df925ebed23bffb267867b27372"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/atlas-input.json",
+    "sha256": "a93a12e0addbdff0056167ff189df45f2b9aedf201027890333478d72d6ee143"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/atlas-input.rects.json",
+    "sha256": "8dcc2021223a66e6e9d1ee177d9d06d4989810033b9cf0bc44ac93646d34e955"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/back.png",
+    "sha256": "63704a7b3a93611070eea5f6946a914a8517fb7c9be75dff46624d6504399df5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/basket_redwood.blend",
+    "sha256": "337af0383795a2b2351c353668e5b017de96784a65e611d9137787fd54551b4a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/basket_redwood.fbx",
+    "sha256": "0c7943e19a38b846105686ccdbb2de361e7a05f438a75d9a32d070ee9e7e1adc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/basket_redwood.glb",
+    "sha256": "c66307d84cfa1ca5daa1c3d295485f2165453de44fea55e32453052bb997d874"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/collision.fbx",
+    "sha256": "d6c931f05f768010a4c6ff8b53046a4e281fa18f913911f4f8dfefe201980493"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/icon-192.png",
+    "sha256": "f15d8fb767c96b7bd88827d0085a3f66addc37812f745b84c347bd16121e1572"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/icon-64.png",
+    "sha256": "4b9eda6196670f1a798c3e1a0f4759b66e44bf0e1923b5a28804d7d6681f5a3b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/materials.json",
+    "sha256": "3c0600c801661874cbc594dc1af33ad582941f3518f553b8b2042bc7a1bb9e73"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/metrics.json",
+    "sha256": "a31029d4482eb64379abd6ae69dbf1d0a2e7044b108e4c47fc9e869bb025e6a4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/side.png",
+    "sha256": "3aa06c627a78d7d639836e64b5ea80a0e6e93b4bf1e07f04786ba96ce23ea569"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/three-quarter.png",
+    "sha256": "002a7b05635ce8d4a0bf28547ff6db6e5a2db9c38e1728e9689fd11305e2f135"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_redwood/top.png",
+    "sha256": "84f64414afce2d9e4320544d2dad0de8ed281e274aaed2c5b1efb31a00fb5e16"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/albedo.png",
+    "sha256": "6d236c695e781c6bf61920506a51881d11486bed13dafbfd1e09e36bae13eabb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/atlas-input.json",
+    "sha256": "b31285750a6f989490d372a95960f24eca8561c223b36e567a78a77dbc9f4841"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/atlas-input.rects.json",
+    "sha256": "b67a16750c3098776e87e5aec74b68bf438162e1e468c3fb23c705569765bc9d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/back.png",
+    "sha256": "27aadc5d39f58bb342b426468ae0dc3c3f43ce5e2ccd255671663bae73ff38f7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/icon-192.png",
+    "sha256": "65d10908e8fac32886d8d2513fbc0676ce4af17780c8dc4b10e18718ef3b7814"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/icon-64.png",
+    "sha256": "08b0d920893001fce7e8cc65b5bb0df14fd6d2ff2d06ed85dabf5f5391b966e7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/materials.json",
+    "sha256": "e2977b7fdf13e7eb788cab752db473b1b1a5963f9f09939bde0d673e6f590628"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/metrics.json",
+    "sha256": "4fd09094bfe3adbcf25684e8cdc850637508e1f01e8f4fbf08e050d28b510556"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/side.png",
+    "sha256": "1c96e256ceba3c6dbe308b00fd8ae75e5cd4ac65e867188f29fc2e817f131680"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/three-quarter.png",
+    "sha256": "37ae41c9d7a5007592e33b7bbaf490f4b3b713812d2d1fa62eb40695b6864daf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/tongqian.blend",
+    "sha256": "187b39efb93fc3eb36f1fcda9ed19c572d4f867c1f4afa414ebcbd5689987611"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/tongqian.fbx",
+    "sha256": "68ff5a454ace0195b7bda4ba117b78c8c4344f2fe1b1b6d44f4fc9534c997422"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/tongqian.glb",
+    "sha256": "64b549fce1c102b4c86b7d55256890812afebc02fb5cebfa091a22269aae09a8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tongqian/top.png",
+    "sha256": "568734f7ca04a4d3dd614c3fe167568e4f492a464f30f557ec3442a76f83f46a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/albedo.png",
+    "sha256": "4c3b7839b4ed8c06d53db9742eb3cecabb20f0e728178467a3f8b822ede4fa62"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/atlas-input.json",
+    "sha256": "5f19feafa295dba842ed720210d0f06410afebfe84c71f58c09d33ff4af27517"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/atlas-input.rects.json",
+    "sha256": "c83f5e33336ddf996b5696586b132b5f2fe9227e583675513d4fe92b097e5b81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/back.png",
+    "sha256": "5b04a0dd725fba798f2d4f048d395ebb395ca3164750fac60b00d17af8a7cecc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/bracelet.blend",
+    "sha256": "512dcd57c4d02981ce805dcfe1570ac299ca8bc2e8ac32d89ed16b7906f46586"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/bracelet.fbx",
+    "sha256": "791e5ccbe78c5e0e5b84755a3b951b59f756491e4bf18d158f3a056fac8b5f8c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/bracelet.glb",
+    "sha256": "860b3ab57849246e9a2cd0678fd1cc6ba4982922b84e0e8b16381b59708a6073"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/icon-192.png",
+    "sha256": "309e766a8b496b26c58ff6e63b33bc8490ccea9172be0233ee00413a707c6665"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/icon-64.png",
+    "sha256": "e2ad090f2a06e26489b2504dcec09018ecd3a647c299309b0fe4a7b2303b0c75"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/materials.json",
+    "sha256": "d4a2ca7f3cfdf9e185908fc5e36f81c03ce0b4a9dd175cf3813ef88606c1f5ba"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/metrics.json",
+    "sha256": "1ba769f87ba9fc29bdff335935ed38f2b693617963038760062e6449c5f531c6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/side.png",
+    "sha256": "c6689b75937f39776989a5a9ce2c1c551f5deebd9d2030f1e22cb9dfb9a43eb5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/three-quarter.png",
+    "sha256": "5083f8a67164e6020387b9602e6d8f027bdae5af51c330061b432e54718e73d8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bracelet/top.png",
+    "sha256": "a76ca9da7ebacb45d6c79cdef47198a9d5639c4e926ee89c571f78ec0dca2e12"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/albedo.png",
+    "sha256": "f40153260784eadb82edca7e32138f122785fa680deac8752410ad1913315e37"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/atlas-input.json",
+    "sha256": "4b8ce6bdc2943a7366c4186f800dffdb11d111d019820f5877c95d01226f5f83"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/atlas-input.rects.json",
+    "sha256": "850955b1e216bc5cdeef8fc95bd69c31c51f0b0a865409e29643eae287d9f9f9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/back.png",
+    "sha256": "5051bb78ee749b28fa83ab995411e442e2c36cce3d9d5621ea4e074541c402d4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/baoshi.blend",
+    "sha256": "d1e16a0c495d4cda19d89c5a698e3a4ee0575f14f91a59069eb7a62d465cb100"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/baoshi.fbx",
+    "sha256": "02483040155b85a154755c69223217b1871de9c9cc85b53760ce41c5e8296470"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/baoshi.glb",
+    "sha256": "23e31dfe1da02dfc4b1088f257aedff8e6165c767c77ed3a687f018316d68477"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/icon-192.png",
+    "sha256": "4a90bf0f9e3779164a2778b012b561d0f9e4dd02a44aef580fc857335bef80db"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/icon-64.png",
+    "sha256": "ffd6e22dbf09ed637e20c2b12f01f1d7d82fe0fb9263377cd3e4fda8f390facb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/materials.json",
+    "sha256": "04ffe79c7403b91eb2d56884d8c486b309600ea9f6ccdc12a46aaa632056cb81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/metrics.json",
+    "sha256": "9b7812d61ed72d8d5b5afd48e9275cd638de3f54c214435b12bd3bfc7845fe3a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/side.png",
+    "sha256": "e8403ab48883a9904fddaf6974903679575bec7206817b98d0caf42aaa08b62f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/three-quarter.png",
+    "sha256": "59cf66c38afb327febcddb40d1fc36d518abae61aeddf742d9fe31737fca0079"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/baoshi/top.png",
+    "sha256": "d7e84d703bad8b6be08347956f487f60d837ddcc59b78de3f2f1f310a6ca3068"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/albedo.png",
+    "sha256": "524fe68d18440e2e814eb7dd1024598f26135717921ef90e7bcf61e7357b7595"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/atlas-input.json",
+    "sha256": "0e5f39da91fdc99dfd866fc09237acfd4b354346c4ee5043e530ad63a685eda4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/atlas-input.rects.json",
+    "sha256": "8dcc2021223a66e6e9d1ee177d9d06d4989810033b9cf0bc44ac93646d34e955"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/back.png",
+    "sha256": "54e16e63e4004bb25808494cfb48cbf36bfd1147ce0c8b68b237a7f5d3d2893c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/hulu.blend",
+    "sha256": "313d4cfdb850452041a71c1aab0d9a48397053b8bc736264dfa2b11c347a3b1c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/hulu.fbx",
+    "sha256": "c0986b06762cdc37c9d3d3cdac50b81baf7a0dd690cbffd9f3d33597207f783d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/hulu.glb",
+    "sha256": "76c2319a5a78709886a42b41c37657269382b1818d8aaa6a1638219f0bc271a8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/icon-192.png",
+    "sha256": "aa1fdb9aeb7756e474512ed224962062cba3386781dcb3be38c8bb13e81bce5a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/icon-64.png",
+    "sha256": "14b5aec926c436233b84b0c66d3fc7c80ceccec13681776078d113d241964171"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/materials.json",
+    "sha256": "30d23f3118e4bfd161bc14f27407e97d4ec26d0d743f4407627323cc18e0b8e2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/metrics.json",
+    "sha256": "5916389cb0fd2dc03b493290ebc1b4ea9202f0a7fd40989698f2f0172c1c1906"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/side.png",
+    "sha256": "f011aca1de16ce7c9432fa6b64aa230a2e502c5169943403d349f8edb4b2259b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/three-quarter.png",
+    "sha256": "3697bf1b1d69047870bc30b6cd0041ca7fd084a1e67c27673a298687345d4482"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/hulu/top.png",
+    "sha256": "b1d08f1235a07e019ad3c081bed77b6e1e2361c8a26cf34ab3c1c084c1f082a3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/albedo.png",
+    "sha256": "98226b88a0d2929939aab415531504cdcd9465294acfa7aeed3b8704410cc37b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/atlas-input.json",
+    "sha256": "9607960f98c0c9ea58d6c55f78674c85756c0ba767f0d4535c06f58c75cd378a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/atlas-input.rects.json",
+    "sha256": "fcfc378f81c1314bad925da25ee861aee79cb31a80e62055c2babf60195dc839"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/back.png",
+    "sha256": "c494b42ae2571675274b59729bcca3a7403223b47997e1a8c409a99ae19a7ea0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/icon-192.png",
+    "sha256": "990de6c571de9c09699a2b953a104601922599aea0836a2e91fbb5bebcbf0487"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/icon-64.png",
+    "sha256": "3da486d155cb48c2e7df1018e2e566b164060fe45bde7d1abaf28c9646becd66"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/materials.json",
+    "sha256": "f629b0f8baa83282c0a3b60a186d1f0241572f8a5a49888ea63dca192a64b883"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/metrics.json",
+    "sha256": "511d70f6f294b413111dac2c90753fc26eee8266c8f2fb6eee6e50564a310cd3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/side.png",
+    "sha256": "337e1554eeb1c29c981188954f370c2a91adc7b921bedc72f2ebd60a9bc7041a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/three-quarter.png",
+    "sha256": "d54c715542c8e82fe3546701b306bb2eb1a91270e22fec43b8483e3e0f0c443b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/top.png",
+    "sha256": "9efb2528ffd3f81b114bce8b1aeef1d0f825ddf7a87ae94d7e3c7cf5fa63b201"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/yuzhuo.blend",
+    "sha256": "709af9c84c2a185b5e61ceaf530a0553bf1ed619fb11918c5d842707d52ca6f8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/yuzhuo.fbx",
+    "sha256": "bf13ee0c0fc166106786f35c13333191d4ee46a7671091aa90d0713c6c362245"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuzhuo/yuzhuo.glb",
+    "sha256": "713de4c5b16ff46780b246e70a655a2e846558826c6fc82427e89b9bf3ddbe5d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/albedo.png",
+    "sha256": "a9373338708e29302deb96017477baaf7dd385f0265f5b662f1bc64a4cb6c73b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/atlas-input.json",
+    "sha256": "c0fb4201f6f5515520455d64422b3e88601f0506bfd4091446a3560eab3ad183"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/atlas-input.rects.json",
+    "sha256": "5dfbd5eb5e0ac86998a30135b25cdfc352184305a6811dab56ad3b02245edcfc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/back.png",
+    "sha256": "37c4d6294bb917c3930d6d3aa2895510a24160413957c737472b07feb28b5b98"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/banzhi.blend",
+    "sha256": "28a045fb18b2cd842aaa198504a48670a64c692793aa0165531905a9669ac3d8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/banzhi.fbx",
+    "sha256": "e6709dc482813ef1c4361901b01d84973052daffd441d05a46eee6614ea1c447"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/banzhi.glb",
+    "sha256": "b79582258f20d1120c683189e3c00fd6099c598012ad46e202e46e6c7d7d97fb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/icon-192.png",
+    "sha256": "45db908cf4415d91c62b40eb5d0968798cbd2283ded2877d321c35ed47190a39"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/icon-64.png",
+    "sha256": "5fb8319d766b4c8f917764f2ef18e655d755a351f990fd9b4259f2f173d456af"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/materials.json",
+    "sha256": "0b6c7666362f89b269faca2c02f22300226c7092e9d3546c4aaf4bd01f5dd020"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/metrics.json",
+    "sha256": "57b85f0e81dca1f4572f30e248e1ca8c967c7cd4d605ae047e9defb16cae1a71"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/side.png",
+    "sha256": "2862bbd1187fc35c84ab6e64b25035e454213803c483a7cfcb8f4b5ddb24c6ad"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/three-quarter.png",
+    "sha256": "ac10cc26682aca62d3a7a3fe69ddef1c3e6c3d80a3f5ab091860ae8ca8db4db9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/banzhi/top.png",
+    "sha256": "1236a54566ffd2bc86a1c254191ed79d7fc389090473230b98fdeb5fe8f9902c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/albedo.png",
+    "sha256": "bbd3f3016305901dd11cf978a3e36dc22a7d618d9293c94cedf3c6f0988bee94"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/atlas-input.json",
+    "sha256": "4e9628a0ac9c950dd5955530ff2222012220711bbf284f5aeec40ce123bf64ac"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/atlas-input.rects.json",
+    "sha256": "850955b1e216bc5cdeef8fc95bd69c31c51f0b0a865409e29643eae287d9f9f9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/back.png",
+    "sha256": "69587499c02d7ae9dcd3aa63e8542571d9489ef67ab33ecd76374927eac633cc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/icon-192.png",
+    "sha256": "476d861dc11b4e792eb4e76d81a78c94430abae41eb265305daf1818bc5030e4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/icon-64.png",
+    "sha256": "28616421b6579c51a9bd520e2cbfdf62dc6d968578b7c19bbdbb9d0fa834d19b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/materials.json",
+    "sha256": "df5e6cf4d21797154480cf135c21719898d3e70ec551701bffd3535ef952fcb1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/metrics.json",
+    "sha256": "12aeb816f9db597d6d42dd5b2409c2aa0c7706e31ee4f843a5bfd70e88d83e1e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/side.png",
+    "sha256": "7127f51245a59db3a916952623605ddc392cd64955e561c72faa69c4a3d282bf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/three-quarter.png",
+    "sha256": "7f1d2dca4e63d8a528cd567aa231e73b02d895091cb596ef6d7afef537e8b7e3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/top.png",
+    "sha256": "bc47f39aab3ebab4f8b80a2ea5791ca27bb2d5ba44b8a5d3613292ce81c28874"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/yuxi.blend",
+    "sha256": "b3140cf19d6dbc0652970499e10e432841f9f4e14e42a25d62f7c1236fe6fc0b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/yuxi.fbx",
+    "sha256": "71ce59158910fbe42519cb64b1e0ee179eca61cb1581719140b9c071268722dd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/yuxi/yuxi.glb",
+    "sha256": "a420cacbded1d16df43d8407a150bbf7f8d86f0dd58c79cb08fcf2a22310c582"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/albedo.png",
+    "sha256": "4e08b2d76f2af735d22eecfc075cb401e0b39339eaa9f2b073ab8ccddce6e7fe"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/atlas-input.json",
+    "sha256": "18125f02f00339d91f78ad7e2e8d5b1934c85ac9d9600624b8283c2f5150e172"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/atlas-input.rects.json",
+    "sha256": "8dcc2021223a66e6e9d1ee177d9d06d4989810033b9cf0bc44ac93646d34e955"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/back.png",
+    "sha256": "88032534d44770c2518c885556ea6ad905cd6f428aae82cedf954c06047b1f0d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/icon-192.png",
+    "sha256": "91d169995a16709767b7e8645a404e569345f69f384f5c81ac0f5a3157af433c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/icon-64.png",
+    "sha256": "e0d3efe305dc1d750bad78df94d3cc4d55a5dd4beaf02dede3237aad8b9318db"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/materials.json",
+    "sha256": "34d381fba99bfea7248ae012cf9d5df902d45b07e85da2fc37f5a7a8a4c91ab4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/metrics.json",
+    "sha256": "61138110406b37c186d293fa2582386a7ed6574bcbaf02d92f0ba0bdd5a9da09"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/ruyi.blend",
+    "sha256": "9391b23d4a38805cbbc15304939948c2cc440ec75bbfa385f282f5837b9fc09d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/ruyi.fbx",
+    "sha256": "823b60c8a862ab5807ed3305cfeab057021b280ac426d75b1b7443b636f6d480"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/ruyi.glb",
+    "sha256": "3fabe8694982702af9bf7e7681af82b14baabf0e3f6649bd1c6922772feb21c7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/side.png",
+    "sha256": "37714f4171e20535f0d00d82292769a244d95e83344dd594ff25bf246eb3a9f3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/three-quarter.png",
+    "sha256": "18b6e9ba36344493c280d27adad654a08af1c657a847b11314d3e9904b8d5f07"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ruyi/top.png",
+    "sha256": "e9936e09bb023e048e043f7b061fff18375c818dd46c6950cf44299eef478238"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/albedo.png",
+    "sha256": "c6b5d8ea45fa4e75c09dc386a4db59176b237d56dc727ee0e192566c45fe8b18"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/atlas-input.json",
+    "sha256": "ba4b7b0aea2d7f72fe5d413f9439856921068e1496281c7163f000e0137d76e3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/back.png",
+    "sha256": "d3c4391ef599ea937d8406a74f74d213f5b290be6c725ef324b6cba430667b55"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/bowl_jade.blend",
+    "sha256": "d202ab8b6fe986b93cab9619a5b6982c693bdb971429f365ca98c046831eeaf7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/bowl_jade.fbx",
+    "sha256": "e2467353df6c65b43043907e62dd01f490393db769ba2409b5fce032fc83e1f2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/bowl_jade.glb",
+    "sha256": "a65ea0d15670912d76392d557a4a2fb2ec36f30059b19fd6d940a9fda84bf244"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/collision.fbx",
+    "sha256": "b59c159d863d5616a9f86ee668d3bcd5e2c63beacb4c2925fcc7f3c0206030d4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/icon-192.png",
+    "sha256": "15aa403ab9db0bd6b8817f5efcd1d10f13847295cc1f05dfe6dd552cc7dc97b1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/icon-64.png",
+    "sha256": "d36d3d10befca4779aca41b5755feffd66557396e351326aac0f2bc9df125082"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/materials.json",
+    "sha256": "9a12b0e805c2c500a96f7c518842f6eba057d33138a07464a81015402252346a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/metrics.json",
+    "sha256": "bd24419de532f95bcd5f0b9b9de47d11abef04ee4f6aee44346084e1b6955c6d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/side.png",
+    "sha256": "0fb65892bb0bd16a577127289d8e03525f40c8fd74ebfd5ad37d5c525293db66"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/three-quarter.png",
+    "sha256": "556f418cd612c14fef7ec700188e735763234bdb656b571564cf015bc5ab6523"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/bowl_jade/top.png",
+    "sha256": "a6553497b2ac2e62167c9609341fd4fc54a8fd79e831ab5329378d512dd88c00"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/albedo.png",
+    "sha256": "d329f7610c14e889ddb514dcf4fe439621b3e934ca12e6e59d06927062cbbd13"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/atlas-input.json",
+    "sha256": "c9963751db7c7ccbdf3319f102effb293f1057dada4dbfb16aca9d29b42a0ec7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/atlas-input.rects.json",
+    "sha256": "8dcc2021223a66e6e9d1ee177d9d06d4989810033b9cf0bc44ac93646d34e955"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/back.png",
+    "sha256": "4aec58295f4251e843d736dbcd10c49167492ee66900365ab9de1bb864b6b9af"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/carrot.blend",
+    "sha256": "f8e902d2b81ad115d241ce98254854f3de6bfeecfa205637fd75a459fbe2b049"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/carrot.fbx",
+    "sha256": "d8740f53c9781edcb24cdb03d75fe38bb07f53c611d8b96d983905226e4be243"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/carrot.glb",
+    "sha256": "213e972dfc475fae96a0b10519736bac9551fbfcf9cc944fb30662da51d7856c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/icon-192.png",
+    "sha256": "e6f66b78b6ee84f60aeb7fde44f3ddc5b635e51dc242c5ca55159fc0855f9716"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/icon-64.png",
+    "sha256": "5c58f01e1ffca868e6d2fd9c8e158fc039cf9f073a40220c6d5b11c087992806"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/materials.json",
+    "sha256": "043d9a6b068f87841a5149c2db2a676baf3454f72e4c781e33b94c3c3ab9dad0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/metrics.json",
+    "sha256": "38368dca85f7d6e1c68a09614b94324715753308a53abd0bc464aa4c8dda5071"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/side.png",
+    "sha256": "1adffe83a7d22ce63ffca656cc6861197e708fa2df80bfb730da7c353459b445"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/three-quarter.png",
+    "sha256": "daede47a3ec6be71427954d628e87d3b628f6667e5aa5f26516614249b51b0c6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/carrot/top.png",
+    "sha256": "eda2525782fe05cf479f52de165f8a9c1259b151f25c0a300a140cbef0701183"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/albedo.png",
+    "sha256": "3c32272149b9eb252e080975a35ace3a092a02cebdb7129bfaffd5d21204d57c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/atlas-input.json",
+    "sha256": "b05105aa8493b492ad239a821e9fbb348a0b211a82162879a23be997f6a0d0f7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/atlas-input.rects.json",
+    "sha256": "c83f5e33336ddf996b5696586b132b5f2fe9227e583675513d4fe92b097e5b81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/back.png",
+    "sha256": "01ab477fe6fb031686862c7d9f2152b70f6143c16012df45a15246ad8ac009a2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/corn.blend",
+    "sha256": "07759eb7aadcbbe83a4d18ee29b875e56eb23150ecba0f1dbae253e708fd0c9b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/corn.fbx",
+    "sha256": "300acbbf491b116fe8802a7e6053ceecc0f2f53e4621f9188605967627577183"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/corn.glb",
+    "sha256": "e73ea3b83ad6b60c5f9486054db4fc34489025ef43a35307c462f35d11da540e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/icon-192.png",
+    "sha256": "9b6e3fb59e85de523611c7fe5a5c904832785c7c15eb492555dd7f732cbe1afd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/icon-64.png",
+    "sha256": "343e132681acf446ffe8635efb4469016897832cc6c3fa02b76eda1fc596c6f6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/materials.json",
+    "sha256": "f9e123f0c0184c983bb479b7e2a3ab1c48d3a5fe1f7a66bd234aedc9a41ff24c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/metrics.json",
+    "sha256": "44e6b1507c0b5a34d834ac0bc34acf19c4871461a003620f7b3c91051375f55b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/side.png",
+    "sha256": "24f0cd19c2f581751282bedd8161324a22be6cdb44f3b757bea944fa5134b722"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/three-quarter.png",
+    "sha256": "a5735e2d62f7c6b1f0b024718a5111bf2622d7e94998f59bb7d9807f29ed5b75"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/corn/top.png",
+    "sha256": "e79d4bd0add2972c30b1d2b50bd0708e2b68ef50351e4a974e582d5f53f4448c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/albedo.png",
+    "sha256": "f42951e43b2697b9bd56ee1400fe4703f6deeab30f42199b6565407ee9617920"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/atlas-input.json",
+    "sha256": "887868190dd3d0a038a63c6dbd598e38a0fedb182e9c18e095ef0e4520a36fc6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/back.png",
+    "sha256": "5b44981d6346ee1f6b2f9c0b536561bd2213890795419c7b31344149bd41d45d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/eggplant.blend",
+    "sha256": "b2b3174650248aba418303924de5b75d1c5fdec912155b9b707d860614b22803"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/eggplant.fbx",
+    "sha256": "d977eb4d07bea1e6de528b067ef8392cb95fd754a78c3ec6d76e95212f98d9bb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/eggplant.glb",
+    "sha256": "419d60ff6836d15097cd84b0ef5ec17945cb9d7ae08d49988081d7dd40ffa791"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/icon-192.png",
+    "sha256": "3c3b8b0382b5617b4c8b8b7d895be7d46c726f1335e149f7478d096f8abca22b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/icon-64.png",
+    "sha256": "1e44ff03e8c5afbfcd14eb033503359ecb873fc8aa8f11cfe981886a087db53f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/materials.json",
+    "sha256": "92dc9ed420265c628b0761c4bb40a085802a8ec9e097c64454de78ec1e524d68"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/metrics.json",
+    "sha256": "4f88bf7ea5ebb267ef4bb891bda86102085cfe47b5e46675952df590f3ec8731"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/side.png",
+    "sha256": "a2fef989b314d8874e42972681687d41abe49a169df5582c7897f06777b1bab7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/three-quarter.png",
+    "sha256": "32d004a88bdc1be6a3c617341c84ee2d842f0bc6b6da3c144ad079735a21a513"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/eggplant/top.png",
+    "sha256": "a3ca01813bc62ec26e8b11fb59d6b1ebfaf4ba286b781f44a92897c3f59ed851"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/albedo.png",
+    "sha256": "d7fd46c419d0632b51007e56d5ec6773b6dbc37f50bdf829ee1c9136ec9ea289"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/atlas-input.json",
+    "sha256": "f680bb13ac235139d96e0961acfc372ccde2174b4a9cfacbeddacfcd1e34c9d4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/atlas-input.rects.json",
+    "sha256": "80ad409def95134b463df606e564606b9303f51de9ec781b6b1c3185378b936b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/back.png",
+    "sha256": "d500b801e18540bbdf8f4d53df7d404c3c9ef957f78fb7b87a7a051ead741ccb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/frog.blend",
+    "sha256": "ad30c32bbfdc19eda07f9b0c9d820802b4dbfdaeab56492721e630aadc4a2b76"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/frog.fbx",
+    "sha256": "016cad13d1b46f48242367ecf74f1e8f1795dee912d51645a4f7b9a96ec9a3c5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/frog.glb",
+    "sha256": "b4b9854659e8317c7b8748d5b760e942690bea816aceec3678ded3a4c5f78cb8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/icon-192.png",
+    "sha256": "fe11b56aeee62ddcb514dc03ccc81bfee8fc94c7b0f32deda9d3ce81f6f5f424"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/icon-64.png",
+    "sha256": "ac771855dc4bf59bc1f3e8f36de6224858216779faad820de6800a7db812ca2e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/materials.json",
+    "sha256": "80632e74ba91bad8a2963f8325c59d78880b08ad281158fe67a4fb352f8a288b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/metrics.json",
+    "sha256": "b1e2fb2167cef717d8e25b28034e5e834bd1268682efee9d7ea09ec7fcb0e21f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/side.png",
+    "sha256": "d87efaa586be834fe30af12af2bb63bf14bbf3a431df5898a3dc261b45ec2ba7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/three-quarter.png",
+    "sha256": "25405290c40f85405b8f2e9369cc9dc7319047f4b2aaa3115b55400f5bc7c554"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/frog/top.png",
+    "sha256": "3755fbf1f096139308ef43e345b4106ad254cd2d2573a7021768c9c7a5ca3b47"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/albedo.png",
+    "sha256": "aca2c2e3851618ee34ee32ab9b7615b4982c240303b76c5d3030632e42972fca"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/atlas-input.json",
+    "sha256": "90e42c57efbea398428cf822435802d81d0f4d226d00d868cad874d851efbe9a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/back.png",
+    "sha256": "6f828c727cb42ef92e234ec7deab6dc6b46ce3eef710247182c2d16e58767602"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/icon-192.png",
+    "sha256": "e01d1551839017ae95684f03cd77a8c2364bedfb4ec7774496005f81c1e4a376"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/icon-64.png",
+    "sha256": "8874f1a1eed7adf1d413ef046cab808817b64f520fb3178b3a8bb9d6a3e88a53"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/materials.json",
+    "sha256": "b6423d01ab9d814b46ad6a73791f6afffce986b336d4bd3895a323986b3aa978"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/metrics.json",
+    "sha256": "01b6ef671bc4178a31cb09a6fdb0231328ef4048ce78a5da7487b9ba236e435d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/pumpkin.blend",
+    "sha256": "3555663c7464a2064fd2d51726d8863d24e23ad2f5df6945f05f00964eff7459"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/pumpkin.fbx",
+    "sha256": "4e7c3af168fb130f9fceae8e391d09bc6e235774f6d4c639f974c58a32984e8a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/pumpkin.glb",
+    "sha256": "b17c6db3c2b779f91a3f048c40babc5d4292eb8171a6ce06cb40a49a56fc7178"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/side.png",
+    "sha256": "36e9756a4ff4dcd7ffed9cdb6b5ade12011a8fac7669ee22ac09e420f74a2da7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/three-quarter.png",
+    "sha256": "be14ad7f180e694ed297b44e232770b86dad5eb87dad2d8343bd81950ed33847"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pumpkin/top.png",
+    "sha256": "e4d8308d82cf617ed8b91835cae08ef3ad0d35ed2ddf02801f9b512355e6a109"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/albedo.png",
+    "sha256": "fb8613927a3e6d493a6d36ac31decc6c98b870a7132141293ab78f7f8bd49d00"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/atlas-input.json",
+    "sha256": "adcbd745d4b570efd3845afeaf67566a2676b6ef4dacfd3d6dedb2eef3677d69"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/atlas-input.rects.json",
+    "sha256": "93a440d63c1defbea100e1eae60dadd140a397068accdf497b4cc082f692d14d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/back.png",
+    "sha256": "268ef07280327e1ed36c027f07557d341d30f31128676ae9158472b273008d56"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/icon-192.png",
+    "sha256": "3fea817d1fe9974cc669861f0be3beac01a5f66d7d7a0456faafcbfabb7d5d87"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/icon-64.png",
+    "sha256": "6f252891aa144e7b35c7ce7d99bd7cb26a08b25889f09df9971f57bcd89bd655"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/materials.json",
+    "sha256": "d9fa658b60cb6c6532930a7ccd6f4e1b4df4db60178abba9d3b8f398479e6a40"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/metrics.json",
+    "sha256": "ba423b467429cb436cd1dc0f3ccbec16045348faacb26e9153ed80bfce854d32"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/mushroom.blend",
+    "sha256": "34b8d7d9edf367b950e73dfcd6ee644e23509f4dd2523da2628d235fc14e7032"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/mushroom.fbx",
+    "sha256": "f725b23a82107144513240189a3972e9da9013ce57efeb5fb3ccec382a39f83a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/mushroom.glb",
+    "sha256": "e205f6b7260cec1d473a5a471cccf6b3fc568333480d56488e83e868adfa293d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/side.png",
+    "sha256": "221dcedc6424b062da80c7372c1d383a92e1b938e521c505ca85d5a88a7db42d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/three-quarter.png",
+    "sha256": "62d566a3ec72d21a0f5d3abc592b1d31598640d5dfa7bd130c4f1cd6b78df5cf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/mushroom/top.png",
+    "sha256": "b5d5210d16cb9926c031a9819d1e033f2e8c3389331b839d2f5c0d7db64471b6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/albedo.png",
+    "sha256": "db86b002747eacfbe23dbfad5c872efda70db9b671157588f4b984ea750be42e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/atlas-input.json",
+    "sha256": "4439c4aa9b08dec28a1b0f21ee877982e00cd4445f10152a5a4eb560d5662eaa"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/atlas-input.rects.json",
+    "sha256": "850955b1e216bc5cdeef8fc95bd69c31c51f0b0a865409e29643eae287d9f9f9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/back.png",
+    "sha256": "dfe658ebb872b2bce122174a9ea3de52792a547a755d489acac053424da2ec10"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/icon-192.png",
+    "sha256": "00d8b1485f8884e3595a48842f1bca86ef4051978f7e83d6d6939bb644df520b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/icon-64.png",
+    "sha256": "87b320c525c622c4183edef07e192107967aa0a7c07372e0d3afcb35057bc437"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/koi.blend",
+    "sha256": "d2bae770200178dd93701b321c8fc50578c63b4369a42f6260bf0d24d9951d0f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/koi.fbx",
+    "sha256": "04ab2061a87459d7022779d58f0d62375513ecb2ffc0ca12fee86fc33b86edc4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/koi.glb",
+    "sha256": "a7b985630a8c0dff9606523a199c35c5ac185da67ec330c8db230facfa604333"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/materials.json",
+    "sha256": "58940ad7456d9b59a29f7a5236444b30a6f9c7622eb9c85ea351097eb94df08b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/metrics.json",
+    "sha256": "a46202ae1243e80598661f75da0ca0ff76c75b538cccf41764fcdb2d409c6f19"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/side.png",
+    "sha256": "19fbbd64b40e6499d92d9a7849f87b7c60d601cb4e4fce6cc1aa8e8732992d82"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/three-quarter.png",
+    "sha256": "61bf61e28f39f2fd75e9e195e180bf97da0ce9bfcda63adf1d7df225eb138218"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/koi/top.png",
+    "sha256": "1154a0ef2e097f49c1d6538fba66bea82631b751fa91ee55f70c4d4e989fecfb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/albedo.png",
+    "sha256": "4f2fb0ada8e1b9cce9bd8254492fdeab7e6c2e04b204b2e65afb0241f1403710"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/atlas-input.json",
+    "sha256": "187ed900c948bb04024d860c34780308aac9ac4f432cde22e8594b6f4009a7ec"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/atlas-input.rects.json",
+    "sha256": "b834d2e38e3dd4e74f8b6915df19c3e842929a91cb872c1b7fd6c4f4a2dc0dbc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/back.png",
+    "sha256": "09a8db6bc829606575fc2af0bd29511e09f73311a83e51e1769a36bbde49b6fb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/icon-192.png",
+    "sha256": "018c2f5cac2b96dd93346fe0cd33d0731280ae50777a2701b276c6a5dfd5b700"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/icon-64.png",
+    "sha256": "9238e65b8d5ec8230edf3c1534cabad593d273e008191d2edc1fab7a52203435"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/lotus.blend",
+    "sha256": "6b95cd94edadcf8299a5f41fb3057ad2aa9b57f9e0d539ffc5c89f0f044f3ca7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/lotus.fbx",
+    "sha256": "e8b4c23e75448f04a641efa5b38392e2ef082a8eff2166873717f3289d4e3eae"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/lotus.glb",
+    "sha256": "2a3f301fa22790086566dccb7fabc0f05abbcd26f428acbd5e2de312a0e75775"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/materials.json",
+    "sha256": "a927920ab8f0c074394f2a3a35cb030ca9d52c2bc6aef21bd07bc42f88784614"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/metrics.json",
+    "sha256": "e121ffd75f7b9f0d423129744d934d8c4cb938ee08bc0467251a8bbaebbe2342"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/side.png",
+    "sha256": "3911fd2517d4ba8ff08dca38bae271f955b9c357bd549b41d20ec4bc4f47e5f8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/three-quarter.png",
+    "sha256": "27e8180a57add24cc2f0e99e710a4b2230edb25f6cb37482d6032765c3b88d19"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/lotus/top.png",
+    "sha256": "5090aa0063b8ed026f23b63a7a87ff2453d52e14ba0ff2e52889cdf6d184883b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/albedo.png",
+    "sha256": "c36ba482bd6f30ece83cc832e111a76bbd5d4437c3bb2ef0807ccfd0666eeb81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/atlas-input.json",
+    "sha256": "04314644e59ecdd6b06cb8a9c1306c2e2b8a41eb3f36a6e3246479fb464d2dc8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/atlas-input.rects.json",
+    "sha256": "4cee51626ba987cd0c66927dea923db1cb3071186ee2bfabfe94f4015d387f1b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/back.png",
+    "sha256": "c547f2808f437efabb8e029157ccd4765b754bc37c9ae19545845411e7772759"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/duck.blend",
+    "sha256": "c18f788b7a2954dde2a0d64f3357ceee68059fe885478555f9988b07cc391575"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/duck.fbx",
+    "sha256": "dd564304d67addd37da6134fd36232c8ef66aa91c7604c35556422e14532a291"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/duck.glb",
+    "sha256": "653cdd38a6c5bca292ac964e1b3b0a653d1100fd8fb301f4037141a62d9091bb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/icon-192.png",
+    "sha256": "7e7604ec4a8ee0aa47420734f518295c0dddcf48955fe199107638e1691a85e8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/icon-64.png",
+    "sha256": "b07790c89eb041a352b342bff214f25c7299ec32238002d0ac224b64aa905071"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/materials.json",
+    "sha256": "9913800ef07e32bbb59049b55c8cc4d1fa94ea36f54524e1cf97949b57830087"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/metrics.json",
+    "sha256": "da188e294494451743c50a4dc99a8a59872de5d36a6751273bf12597a1ec6571"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/side.png",
+    "sha256": "72a789a1f8672037218de7d54b5f1cd9ffbabd4c31effab4bacf8a889b958095"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/three-quarter.png",
+    "sha256": "3e8b81e7f56a3fa6910445badd53e6cb2ea6ef83d0f3c5d12e70b58e14d1dfc6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/duck/top.png",
+    "sha256": "479744d36f8f54f016453dc969ea190f114bd24c33c5c011e057d940dd7c9eae"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/albedo.png",
+    "sha256": "bb1937d2193399460b079630d728f4f466a095b8ff6a26bffa641a4585441a27"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/atlas-input.json",
+    "sha256": "b84dd4bb7bf3684aec0abbec2eb4a13283ba22c190212c919995640d87b17d01"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/back.png",
+    "sha256": "a49092fcff42f90b76ba2ad3b4612346390e3654c0b858dce7310d2c6c5958ca"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/basket_farm.blend",
+    "sha256": "9497f68b273173e84d71b23f39f1d146acff4977128ab53ea39c4de53d410f22"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/basket_farm.fbx",
+    "sha256": "7500630030914a45f2e86c87a587c8d79de8336b9f35a70042fb09d864820121"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/basket_farm.glb",
+    "sha256": "efbc9208c11c7719bed80e77403c2b3eb0e37ed17264d43172052ac41afecac6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/collision.fbx",
+    "sha256": "94597bd009e51b10379ea7a53c6a205c54eff9c940697a4310f0d325d94a1d22"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/icon-192.png",
+    "sha256": "ddf02d7821457f6ba5faba868dbeb66c5bf4c9c58335fc8b65cbfa33eefe45e8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/icon-64.png",
+    "sha256": "1e55c7a3caa3fc4d4fa03282cf3721dcf2a8860f4efdb66945cbd4a9d07de117"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/materials.json",
+    "sha256": "41242c086d8cd2c152e0261828a0c1413b14f84f1473033afcafcfc340f93a70"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/metrics.json",
+    "sha256": "cade70bbeb6cab0293e11f4cc6bb7420bd0520b2ad7cbafa78f1fdc24892c7c1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/side.png",
+    "sha256": "b9e8f8a096f5b49469bdeea5f63ca9b4c8cde55ddd16cea3656f7fbd7cc77fba"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/three-quarter.png",
+    "sha256": "e4be2582ecca97806c20ef0481b3017f8c4246cd622cf91e3df78504f184f288"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/basket_farm/top.png",
+    "sha256": "56861fb45a8540e2599cf781af21a0e5ea379aed22aadee506c69eb24330086e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/albedo.png",
+    "sha256": "98e80d78e47ac51a9fd106eb48c521f38f59481a232b5d2ba3e26026b848ce23"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/atlas-input.json",
+    "sha256": "22caeab4e792d9e3e00da7270833519c94f8f3525953c626ea0ffa38b5d602b4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/back.png",
+    "sha256": "8b75d29bab63a565f292b89277e983e0ad0cb91500ea095f0341f2d48dcaec81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/cupcake.blend",
+    "sha256": "d184c365ff1a7dffce4a2ed04715e1effdb27f5b03dd3faac5b70f0d29392474"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/cupcake.fbx",
+    "sha256": "7fd24b898bd26b614b8cdb8c256b681245db18077c1754e55d91fdfd59217e9b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/cupcake.glb",
+    "sha256": "3dc4bd774e95792964a0f36c31228f8d416fced98989f6a5cd7136b155393859"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/icon-192.png",
+    "sha256": "9c0a8743fafbab6cd6dc6c3f831823dc67573fa46001c0962c57a4eab699d4fa"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/icon-64.png",
+    "sha256": "a24a572c7b0562107df785177f7b9c8de9a7f8a99f4f838300d94a47becf45ea"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/materials.json",
+    "sha256": "767901674b069ba8abe0e223411613bcf69a9b39210e24b6d145494fd90e2bd8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/metrics.json",
+    "sha256": "b99bb76f3f1231da31e9b58fe0b49c746a63e71cbfef8e14ff6568180a3eb622"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/side.png",
+    "sha256": "718d2bbfc7ee8953480310b5dd745f473866423e524d36df313e39c0b3a622db"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/three-quarter.png",
+    "sha256": "813ca799c853f0a34397ce62fd81ba02e52dee0b4b4a6815073c63eeb05e5da5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cupcake/top.png",
+    "sha256": "876f784888d11d229e08a96cfef7cf2b3eacc31da6fc2af5b6890d6f41ed5555"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/albedo.png",
+    "sha256": "4fcaa1997f0f5699f8e123ddd98603ab56647b526e93c120c220b0a3c5e74024"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/atlas-input.json",
+    "sha256": "68507c134d149461bbc2845de03b90eb7a322038abb0513dab5fe25984d844ee"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/atlas-input.rects.json",
+    "sha256": "850955b1e216bc5cdeef8fc95bd69c31c51f0b0a865409e29643eae287d9f9f9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/back.png",
+    "sha256": "05d3b62079e78f031d13d7d72c2beafb9bea491889d62151b0f93a67a9bf2b83"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/donut.blend",
+    "sha256": "82bafbb6581d73ae307c8c69d966a991db00429d277f603c1ea0ef19edfc274f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/donut.fbx",
+    "sha256": "bcf64f63ee921c4accdf744652a5db518eb5e35354624b7fc5fe728320105596"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/donut.glb",
+    "sha256": "197f9117fc1d5e037cd85a8acb02b3043b1e22c34aa457fc69584edf6545ddc1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/icon-192.png",
+    "sha256": "f08d75dd44a8bf1d4ed5e0f11b87c231264f791bb63e46a3ea9965d1aad9ec23"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/icon-64.png",
+    "sha256": "b5c662fa20e3f7a45c1f60c49d590b615029e349d7b3ff28d689f3a167fcec63"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/materials.json",
+    "sha256": "41428a8ce7d3ee8acba9ae8e6f858a66c8e7195b7f0320df224859e2e0a77470"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/metrics.json",
+    "sha256": "09d58013f8e7049f1e4ef8a26f4c1b008cb3752f32116405b9dc99154d9bb533"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/side.png",
+    "sha256": "341cb407428d045d5e163aa7c60a57bfa8512d8af484d251e03937fc2291ac28"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/three-quarter.png",
+    "sha256": "666fb75a026e82784b842802ccd9e18367d4c66343bea9e9b93667ea9bf922b7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/donut/top.png",
+    "sha256": "e451e6a03ac3727b398f621903bd4d75a21c2142c0a9ec5e05c330f197345f74"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/albedo.png",
+    "sha256": "f2508b7727b49e6192b700c81edf14edf4e52caec467077a454d923a08dd15d2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/atlas-input.json",
+    "sha256": "4d5db6fbe1f18f321479ca4b10912a688060977bc96596b21ff602196897a69c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/atlas-input.rects.json",
+    "sha256": "b834d2e38e3dd4e74f8b6915df19c3e842929a91cb872c1b7fd6c4f4a2dc0dbc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/back.png",
+    "sha256": "426ebee2969951c642f0228224469e95a14e923dc2311a126754ea8bcace118b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/icecream.blend",
+    "sha256": "45ccc5971071e6cfddcc63e5cba771f5f0399b6619b8702f5e971755d1c0b0fe"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/icecream.fbx",
+    "sha256": "e025ce0bf235f051b0e43c9e8122114ad3a4efa3f4d06a402fd4cde3812faa90"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/icecream.glb",
+    "sha256": "7aa2d9013d0a1ff01e0c0eae368eba9035401dc0cec6d11bd2d58c243fb76fc6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/icon-192.png",
+    "sha256": "fb03dd59540d5c6cf9ab3b3d1e29923a4a6c9e7c837f92debc6806302c8042bb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/icon-64.png",
+    "sha256": "0f561e1b282e2cb3ceb433f528d1d363d0d523a1f307344810b0516c4cc08996"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/materials.json",
+    "sha256": "3dd9333cbc8c792f30b1755384950911a6b74b60d92378de395f2df66290b8c1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/metrics.json",
+    "sha256": "9bdb30499411de1d0068f736c312d5e18cdf0e73ce6ef5bb765f6359bba8b316"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/side.png",
+    "sha256": "b8c903eddd121f74d2960b990af679b41387415c95c0d88227b96a65ef904be2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/three-quarter.png",
+    "sha256": "70b0b182cc70c1167f06843adfca1f28317086f429886718d5b1677948c1b4b6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/icecream/top.png",
+    "sha256": "07882863f241103b03c0788469f9d689d8bd6b844eaa6e32d70ba5076ec41139"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/albedo.png",
+    "sha256": "82dc80bb90f92e4a22fd58fd4908cd39fad784744fcb6e49a316e1d85fadfa20"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/atlas-input.json",
+    "sha256": "766d44bc6270e879d5dd40d551fbb5bfc67e0d8b6795abf6baad905f37cd1941"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/atlas-input.rects.json",
+    "sha256": "850955b1e216bc5cdeef8fc95bd69c31c51f0b0a865409e29643eae287d9f9f9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/back.png",
+    "sha256": "cdce8d9e7daa840b3f01847f28cfdce16d3b6b1f3cbb7b52eb431b1cc6b2792c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/icon-192.png",
+    "sha256": "7a7eaec1dac73d852486a7d8b03af1e47be4e3cf4e4c40a33a5f5e805b3dfac9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/icon-64.png",
+    "sha256": "c8ece024e594caa62eec65ccca822ea94469dd8e8583c49a63a0ace8b31b2c72"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/macaron.blend",
+    "sha256": "dc17d2533ed715a009de5fc4cefa2a92e2984b7314e16a02d629858b20511bde"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/macaron.fbx",
+    "sha256": "62fe815e8f6b310b86db0782e5c7fd830e8e9fb9f980e317e8bb09b0136cca45"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/macaron.glb",
+    "sha256": "a881c80e442fa78f1c939154989813be2b2f5e562a7728e16fb0834f0c5827fa"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/materials.json",
+    "sha256": "dc36bbc0e71dcefdf6857b50419df1b72f0107926e923dd8adcf18bc09692e90"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/metrics.json",
+    "sha256": "3d1fee252b8ad653b5b7db67be1beaf6f42bc02797615983e0dcaedf21b82d33"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/side.png",
+    "sha256": "e8ebace9dd197baa1b9dd649b4b6697f6a020e5fe493070145edef65f2bc379a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/three-quarter.png",
+    "sha256": "546c8d28ef91c1f31839641ff1fecfc43fa8a08213cb825bc8c371b79d84d537"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/macaron/top.png",
+    "sha256": "c90f4fab44640340d4ca0f8cc7e472dd44bce139b1d30165fe7dabcf0cf63fca"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/albedo.png",
+    "sha256": "e0fbe3308afae43385be431e45a9a4f15a34b46427e7f9dcec8973666bc99c0e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/atlas-input.json",
+    "sha256": "0f59dbc9d7dca377e6a394985c721c030462564921f955836f2d10b73e3a96e4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/back.png",
+    "sha256": "ad591db62a69ac38b7e786ed603edd18cc57dfa984a608ada366b381548d04ec"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/cookie.blend",
+    "sha256": "b951f0a2ce51a506c721529bc7063653f078f59b57f8b22713de13520b219586"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/cookie.fbx",
+    "sha256": "177612e57354b5a3a7563fcdfb0d62930585fa7ab0ae202c8be03d884b3ad204"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/cookie.glb",
+    "sha256": "ffb49402f2ad8d04366b887c36d4f2c4b94f0aedbb5ff507aff45ca8ed50c696"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/icon-192.png",
+    "sha256": "93666611b2491ac518a278810ffa62b28568cd0af7ed94fa9a4d2e743ec4fb15"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/icon-64.png",
+    "sha256": "f825d1ac0f765b494577b80002750eee9f626a2028225e80ee61e66b1ee0fd5c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/materials.json",
+    "sha256": "833abf58b8b81f6eba61ce2e89dc2d0d9ab35284dd92029e427f94df3f7389be"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/metrics.json",
+    "sha256": "b72c3b219519bb0624fce3a2a404f21257cf9613b8c6d7e447010c64a158fda5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/side.png",
+    "sha256": "970d248854aa117bda9f54f021dded600c3509e3bdf817380520ef2cdcdabdf0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/three-quarter.png",
+    "sha256": "ef676df6811803ecff194bb40eed8510459c4ecf84eaf18539be3c4dca97a612"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cookie/top.png",
+    "sha256": "e82411983fd523b35a8806ff9857ebec3cd4d9f70381090b45c6c3f1a1f1e6dd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/albedo.png",
+    "sha256": "9cf1a68815dfa051b94113c212da4d168147a87aecf34eb4fe4f3225af5cdbef"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/atlas-input.json",
+    "sha256": "c9c470156183d1798e3e013fab276f70accb418fcafe11a3bb198c1e6ac56fe7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/atlas-input.rects.json",
+    "sha256": "c83f5e33336ddf996b5696586b132b5f2fe9227e583675513d4fe92b097e5b81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/back.png",
+    "sha256": "62e7fab31b7d1506c21e5b86bec9bba8859a729aa99ba6d20067d82c6301ac6c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/cake_slice.blend",
+    "sha256": "aa6649fa0b2396c5f78f45cea3cd141f445ed994eb81a03b9bebe9e9f28f4d5f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/cake_slice.fbx",
+    "sha256": "098827366e6975d3ddf75aec40f7394871a3da93f84290f15fc5c6c0df98c000"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/cake_slice.glb",
+    "sha256": "7144befadca3a2540a372d1bb975420e134a6fbde978951f68d9a52b87a337b6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/icon-192.png",
+    "sha256": "2e29b534780bee23a13ec7f16ddb6f953a52de9b2134a3e86e7081076c37241c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/icon-64.png",
+    "sha256": "a08f4f0a58aedec9c956f8347516cfa56de1a18d1dce9896470385db3420172d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/materials.json",
+    "sha256": "82a2c7d12e15aee827f7059ec580a6b390492550d2b826cde83eb3c70111be22"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/metrics.json",
+    "sha256": "01f8472cc2079b74bc562f4a9ac74a1b7a794e4464d26cf7078176396d82c476"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/side.png",
+    "sha256": "e6cf5819d6e1b412f515c8a0e5130a16ff626f7dacb84ded1f942c71afcb3c87"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/three-quarter.png",
+    "sha256": "28a539622d1a37c11a2f7f14bd3f6706dcddc6284f2f6333fc6cdd5f3567cd39"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/cake_slice/top.png",
+    "sha256": "0ba4407c37a571a071c86d1a30d7a80847417ac5ff70adc26d630fcb97dff169"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/albedo.png",
+    "sha256": "b63fc615a2c5caeef0b786c9ecaaa363dbe023a69f558b872debecfb19197a3b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/atlas-input.json",
+    "sha256": "94de52e4b866b8d6c482aff8830a76bd2780404066e5280eef9a7db2b3e8ee61"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/back.png",
+    "sha256": "a4b07d34722f1f538b419a3e54eef074fd08003046cebcc4b2a098151374bc82"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/candy.blend",
+    "sha256": "ce26dda164e4129c400fb60af5b3a96ffb602fa318cc44b6475fc50645401f25"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/candy.fbx",
+    "sha256": "715772c0db7e8c2d7551ac5372635fd1517b130822716f6c088bd1ed3e937525"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/candy.glb",
+    "sha256": "cdc7efab5118ac49c3c7ec0f85e93b6b8ccacd953f0c3d4c72f06795998a7a11"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/icon-192.png",
+    "sha256": "dbf4b0275a97b6a68bfbe27524499a653f8e5673e544b976fd7e035222ef6e69"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/icon-64.png",
+    "sha256": "573494b5018c6dfc532a942b149803491e89acd6f6cd749ad99065a65fdebf54"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/materials.json",
+    "sha256": "ee8e377bbc31ff2227700f9feb4b62e16419a64b934cd0be326eef505e979d65"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/metrics.json",
+    "sha256": "41f07e01342140022507e65230fddfdbb916ea76060a7d667805f9dacb3c9ab9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/side.png",
+    "sha256": "7711fcb018e9bb171ed8722d0b6d165510aa9d14b7c21b209a69eac68ddaf23e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/three-quarter.png",
+    "sha256": "fe99277cb2fdf9cf6384cb1628fa67490b140045061f7b2e5eb1ff263039187f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/candy/top.png",
+    "sha256": "739850b4a6c645c61383e35aa05a3bd44fdbebc9bf5a502ba0f043d017f66da9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/albedo.png",
+    "sha256": "e0eebd2f368de3dfcde1db7a4f562216539d6bcf34dcb72d0bfc1c0715bc8462"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/atlas-input.json",
+    "sha256": "a64350d77003198f93c30065877221f6bc20f7494d761d39b1a0daaaf6bd26ed"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/atlas-input.rects.json",
+    "sha256": "b67a16750c3098776e87e5aec74b68bf438162e1e468c3fb23c705569765bc9d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/back.png",
+    "sha256": "6e9b384ffa1758e434109dc3ab9025f89833077f0eaa62b626fd4c8060b64a30"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/icon-192.png",
+    "sha256": "ae8871b5482b31c78495ff46555adcffabba4fee3a20d9891c89261718dc6460"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/icon-64.png",
+    "sha256": "48c7e4a8bdb108cab1b6fc87434c5893894cc44312a8b5f6107979d4654d501b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/materials.json",
+    "sha256": "8e2c0d992aa2c37ff7c77fe995217ac5ef7d1d4b2ca51e1b491dc9fb50dfb642"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/metrics.json",
+    "sha256": "2267d16a579a5e123c0405e66057b419d3fb0e641b01b16f5d4df24f605e03c4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/pudding.blend",
+    "sha256": "ab5b314ebb64e0cbd85577d3683361a3907fd1ccda94ca6c0b13e6477cf93ca7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/pudding.fbx",
+    "sha256": "905df9544956e4f02437e4817e93826daf2d41b3bcacfe39bf0622e1ff69c08e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/pudding.glb",
+    "sha256": "13cb3ece7b842ce6c189f6c5b037de2b29ba88b3eb105fb71d6e454a2651ac7b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/side.png",
+    "sha256": "58bb4f3dc7b1095cf58dff94062e44ba5becb82e672642152476e7d7604fb86c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/three-quarter.png",
+    "sha256": "885c86db2ec982a834c5ecd612a288d85dba95f4405009b7c21cabf98b3a4745"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/pudding/top.png",
+    "sha256": "c011fa3d49fb7994d34e31cb9e716b2243e846fa45e93b87213daba19a49bb19"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/albedo.png",
+    "sha256": "b9cb5bf8ce1ab69dfafa4322de86e55df323dc62e217958f7684a04ffd6a0af8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/atlas-input.json",
+    "sha256": "0796527a69c37704576e1d5068725d6b5ab6460a6baa43ab4d64c72d8b614017"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/atlas-input.rects.json",
+    "sha256": "d67167f25e002715ef07eb24cf07bd1ad34b235a5b91963df5cf60810b1bdabf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/back.png",
+    "sha256": "5f4b4b77db4319ad18e218f1bb13bc47f16da36b8786849c64a74b34fe18214f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/croissant.blend",
+    "sha256": "4a8a14f993787c9475d0c4995d2dd228fdafce748c2c2e8bd590bb40f09508ae"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/croissant.fbx",
+    "sha256": "ea079862cabe126e4117c6ff4423425b6d2f28fbbe2ba1a33fefe01ef25cc9e0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/croissant.glb",
+    "sha256": "73421c83e3a4109b57d401f3c622c8f65f8b8400e3e8f6bdd461fb01a6de59ca"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/icon-192.png",
+    "sha256": "a5bf5db3673985d0aafd8adff55149decee96f1cc49c1b21b4901f4ee30dd1b8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/icon-64.png",
+    "sha256": "d4e7b5100b75932ed6fadf26ad559677683063d76c26f38f044ceb2b1964cfcd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/materials.json",
+    "sha256": "e9d3fb8c8bb002efee6848fa1af3d62a37371ef47eccff0339f4e20a2cd449be"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/metrics.json",
+    "sha256": "8a0f40b333b2c64bcfe4f7a7354b00d649a8419bfbdc9840970c3b24f7b4c5d4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/side.png",
+    "sha256": "8723466bce0217d45a375d307bcda0eb0f8242b2c492e5bf6fbca34c113be26e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/three-quarter.png",
+    "sha256": "5938e8ddb4b42a4f84cd6300aa257fc01900192ef3dbdc15124095cd4193543e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/croissant/top.png",
+    "sha256": "6db6ea114328985c21e1adfc22df0b688d2e2ac41100c792d5260173945cb538"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/albedo.png",
+    "sha256": "60cee00ad404f05bb9b5e37159174e43f6ee56ed53e48884da9cdfc3c56ae19e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/atlas-input.json",
+    "sha256": "e7f651b03dd9665ca7386803cf5df8765ea671b8d24bda788a7a8d74d133ab36"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/back.png",
+    "sha256": "6ed820c81fae1c803b3fb0a6767e7ef3c36d48294c01acb8b14811af46322e33"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/collision.fbx",
+    "sha256": "56031bdc71104369f36d45286310661dc7d2ce4792990cf4f06e0a98f3304acc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/icon-192.png",
+    "sha256": "b7f6a9f1c1ccfae3efa045b3d4bf60e1aa022e58bfb40a69df72ef2923bb5103"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/icon-64.png",
+    "sha256": "925eee2adbe2e9c6ac1559467b73633c986d83c295816b061af5b7dffd34652d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/materials.json",
+    "sha256": "dcbde9bb3ae92007388a34c5e19a2447d3ba543738841015644e504aef593f96"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/metrics.json",
+    "sha256": "85836a4ebfcdd5aa5236f82e758a1053495c463700ddfca7f783fb22b9292607"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/side.png",
+    "sha256": "9b56b69adff10d37d12deb73fd16e1606c22a273e649cc2106c07232e22179d4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/three-quarter.png",
+    "sha256": "bc73e753fd1d3e0930a5b317c43d3c12152cba92cc69141eee90e0fe6a57e25e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/top.png",
+    "sha256": "befb77770ea3858dbb91310b107b4f84c3952d4c9660db35683c36cd7854db6f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/tray_dessert.blend",
+    "sha256": "a16dffb6d18698b06a595f80b27be85e1b177234b73a9cd65549e4490455ede1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/tray_dessert.fbx",
+    "sha256": "f0d746fa7d7e6285e49c3248863d4c0d6cb3d8fa568feb36b724929834464ef3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_dessert/tray_dessert.glb",
+    "sha256": "d8b2a2d6b144fdd2562288d040f33ecbca474289f52ffcc27f85a20352e1c566"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/albedo.png",
+    "sha256": "8421c9f3c86a7dbaccfe7b4d52caacb69013b67feb2932faa96897a33e2197cc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/atlas-input.json",
+    "sha256": "01ee22edf74fa6831f02d4acda03980466e114f03c8dd4569d0bc03f23b7ef53"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/back.png",
+    "sha256": "a2d85737d6d7340ebcf966ad966b5c87b3ebfd83e7956102fa46c76aa9734634"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/collision.fbx",
+    "sha256": "4af01319b69ff3702d640ca0c91e77d3bf180f1e00557e46d1338e3e6c3cf426"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/icon-192.png",
+    "sha256": "32a375c6cffadb82f2daf0b6315577c49661fe5a5324757da47f4cdfddf53608"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/icon-64.png",
+    "sha256": "79f7b55b3dedd79ae81538916177402b52eeaa85923ed73d242ed09d8fc4a23d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/materials.json",
+    "sha256": "fca030ecd24cbe6aaaccb80f8e57457384a2f1a42216475e0fc65b17db260f3a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/metrics.json",
+    "sha256": "1d05a4828303fedd191bdf3506e14c2a849c9f42f2d1850de81aa5d4b372307c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/side.png",
+    "sha256": "8c94d0e9b9ddcdb029ec9266b6afa57164fcde810deefc2cf8c1130fdf05f660"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/three-quarter.png",
+    "sha256": "e5cc5c2416eb3d9867b714e309495dd2f7a4886f2f1880cdb4856ac77d0b91c1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/top.png",
+    "sha256": "e911a1448ec8e0d2b21ee08d05b6f8c2a9ea6151933e1f9ae5875d51bb3a746a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/tray_electronics.blend",
+    "sha256": "abe03c404d1113cb601a5beb53830e58cc9de884dce1b333515190af8b2d1677"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/tray_electronics.fbx",
+    "sha256": "9e967d0ce7edc8e7c2e6ed62b42d07b34ec53600c64f67caee22500ecadaa1cd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/tray_electronics/tray_electronics.glb",
+    "sha256": "0320e9eb82277d9e35b3a154d4c87b23dc8d6b4d63e4627a5efcfb2ef1b033e4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/albedo.png",
+    "sha256": "2f42f681cb53421aa8a37b662e98e6a9cb9706b610cd441673034ffb188aa424"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/atlas-input.json",
+    "sha256": "f961ceb002a76c1cf766fd048d4f06c5444b0437ea24d08387d2fc991979fafd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/back.png",
+    "sha256": "1a2398c3f28c20859ad9e1dd94455a1f581d0e8b24e39d39485f1ce093f71c32"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/icon-192.png",
+    "sha256": "9a3edd97de8a8e3576e4721668d00acce8446ed0528883764e8db13411b0fb0c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/icon-64.png",
+    "sha256": "9a4060f6e071cb54f106e4036a3905f2f55a6fd0005b2b158c17035312c89b71"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/materials.json",
+    "sha256": "1d4e7aa9c4b3de4bbe27e574d872bf8576add2bd61cb901f66784cb4e8e3fcb8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/metrics.json",
+    "sha256": "30bc4bd188e536969813f75f49a4bacc5e6f7128034eeb2c54c247d9c78bbdbe"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/ref_gtcrocodile.blend",
+    "sha256": "6587f49d5098f927b70cf9660ebfb6493a5060257ce15fe5c7825742a0f4860e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/ref_gtcrocodile.fbx",
+    "sha256": "120885fe4bf0e2624beaf5d03bcb5139ce34aef494ca2e16761f8f5e4e62f5e1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/ref_gtcrocodile.glb",
+    "sha256": "dc63e2d0a2987492c20394f8db203567857277a735f3204f382694fa08b773a7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/side.png",
+    "sha256": "3a4b8b08392cefa1ce3d14afdd37a8c6b3856a310814162b936d5d971594a82a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/three-quarter.png",
+    "sha256": "a89c876d8298010962a8811eaac9fc7ac7c78ffe07ff13d386c791f8300d5328"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtcrocodile/top.png",
+    "sha256": "1a7e323b679f6e61bb2269ef96c1cf101c94ef4d87405d8a25d50b76ac7bc3d8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/albedo.png",
+    "sha256": "dbc2f8e85bd6a63e007b67172b0745b9ba8d28f269c56f53d471b10c3e009876"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/atlas-input.json",
+    "sha256": "5f0aebf2ee1faa3e702a17734e5d9de41fa724a6fa009bb1ab702f80e48a563d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/back.png",
+    "sha256": "b722358d334137eca9d7badb70412de9b3a78508c249469762f1907df4886902"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/icon-192.png",
+    "sha256": "af52d9ad02b759cbbefe4e7e203fc5858c40d9a39d043fc672ddc340b5b042e1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/icon-64.png",
+    "sha256": "50e81844fcf40d92ddf15ea3ec1a13e6edd34990ac639dc0a607ec4329ed981c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/materials.json",
+    "sha256": "6f56100953c580e6e204878d0ed87fdc7952cfbec79caa05ec7c1c5447da0a7d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/metrics.json",
+    "sha256": "ce4784bfaa855ace261721ebd9272742770a8021dd4da9e543b1947098543a11"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/ref_gtdinosaur.blend",
+    "sha256": "e77694572382fc586c57bbf5ad0346296e45227d0a0095c8929d43e2b93d7d15"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/ref_gtdinosaur.fbx",
+    "sha256": "cdea7ed0de6e1a26f2688805ab19d2a4e1b990f5348961f5050e6082a2e103fa"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/ref_gtdinosaur.glb",
+    "sha256": "717c7cd6c7430a97c286f785370e9f924277be33db6cfc463041d175a9718f1d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/side.png",
+    "sha256": "27204d2efc9133ff41893524ce7226d8bedd412590e597d132c6bfaaea9fdecf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/three-quarter.png",
+    "sha256": "e27a2c1b027224d398e1abbc16f3bcb05a6c65ffd7d1d453a96188d5c72e2a91"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdinosaur/top.png",
+    "sha256": "eb899a436226e678b585a39f6df37ec0fec1bb188498f273711fef885fab2b47"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/albedo.png",
+    "sha256": "0a472a20189617eb33be6434cffcefd9e52aaaffdf98b5fc3bf07fb9c02a4e81"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/atlas-input.json",
+    "sha256": "a1007fc055da36975850e45ec1c9e37a950ba7031041764dd66c63c70e3a518b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/back.png",
+    "sha256": "aa4d4ec5f1d95d9bfc7cc6230a3ce8efb34f43b094304c1432af4251eb5e2c5d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/icon-192.png",
+    "sha256": "d705d4911d843d0bcd3b6311ec052375f99663354b5763d91ad4275731cdec72"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/icon-64.png",
+    "sha256": "794db28dc937054576fa07f9366fa507f183ffdb1f29f5ac5028e463c862cab4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/materials.json",
+    "sha256": "62d9c4805312c1774a6ecfc8fb224402cf610cb238b21bbc860da7b669c8e048"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/metrics.json",
+    "sha256": "c3fa10797a7db5dcef95138870f29f04864fab1ef0bf16cb6450ff7e6152262e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/ref_gtdrawingboard.blend",
+    "sha256": "a4abe68717cd0833a50d38608abe1670bc411cdf3394b6f1bda486a7f7345718"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/ref_gtdrawingboard.fbx",
+    "sha256": "6f3a937b88e5b833e7a57d7f7e72b2f15e2c2c0acf0493daa115c62a491087ec"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/ref_gtdrawingboard.glb",
+    "sha256": "fcf610b27fc8246ab7b23b3aadcb6f0074845673cf67fe9914a417903502c633"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/side.png",
+    "sha256": "9a2b2ea69080e3631409f34412763746142bbb6913f895bd7d81a8bf517c6efb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/three-quarter.png",
+    "sha256": "ccbc3ae32a5c419a50c62e549c8f115de43cd81deaec68d7b304a748922e3f70"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtdrawingboard/top.png",
+    "sha256": "574ebe796ea0b63e628e8f7571d0d7a1296d6075707fa6e9fbc8ae9c34038cdc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/albedo.png",
+    "sha256": "14143d3d0d8d667ec0f106aa9a32084cd33cb4866374a78bf3016e61564a33a9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/atlas-input.json",
+    "sha256": "b997b0efe17ba77700c641c985bdf7f3b22e9061ddf2cde4dbcaa99713e6180d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/back.png",
+    "sha256": "9431565af097eb07317bd3e574083a133e08f43603ae653b5647f98e4d7ecd2f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/icon-192.png",
+    "sha256": "b7d703fceea6b7db71b989623d23402d0f7112398e54822e0b5b20c63878e21b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/icon-64.png",
+    "sha256": "fba4d17e494044fe907883c5be8cdc0e799a3bbd687dcff56c4fcc8902890a4e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/materials.json",
+    "sha256": "89b21f3477c1fa7f302db0692234e07d7b1ed052f7620a8b12c2e9ed2f64e25b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/metrics.json",
+    "sha256": "43fa0253c3bd996c3b20c8d11d3ca8d4aacd1644a12e88eeadaf16342f2bba43"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/ref_gtfruiteraser.blend",
+    "sha256": "9b9f8bfd06e25ba6fccc8c82010bfeb6588c6ced17f2ecf4969b45f52e721aa2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/ref_gtfruiteraser.fbx",
+    "sha256": "ad91e48d8c41bc0294463d2e4fd3e795c5cc9652aaba762ab45bc955273afdd8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/ref_gtfruiteraser.glb",
+    "sha256": "10292a0d5c7d40547ce3f71d2d26441028e48aff329bde61bf803aa6601fcf24"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/side.png",
+    "sha256": "5737c87ad8665dd1ee8cec768487aee7a31ad012e0cd6bc1b0f20e11389595b4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/three-quarter.png",
+    "sha256": "03f9fefa144ae7a3491ae83eabacdebcc43b0abbbc32a5c8c600363c0ff2747f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtfruiteraser/top.png",
+    "sha256": "bd46fb6a9f643b15146b4694865a242c734ef106aa9259edad738c4e4192760c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/albedo.png",
+    "sha256": "492221ecb6ebebe4e42f57272c7d3d6c82e55e63df2cd4ec60cd310d9adcb952"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/atlas-input.json",
+    "sha256": "a97750bef0006575c6e581eac0a0eeaa3bdf016412a8cc14831e387769a3c702"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/back.png",
+    "sha256": "bd605acb1aceba8b816fb7c1e830991a0f545f2455b05f10a2c5d1b9f175d2b2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/icon-192.png",
+    "sha256": "70262a5467316f76133ea6c253d9d6e544a4ba67ed41dc5e47adbf8829a94007"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/icon-64.png",
+    "sha256": "104fa6b57790b64e0f0b207b9476a51dff0357cd6048a8b6b9350a40472ef01c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/materials.json",
+    "sha256": "cc392e86eb6f74c17156f419ebbfc2b2a3e345bbd261b256548d45d9102a53ff"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/metrics.json",
+    "sha256": "8bc0cd37a4ffa76aca9350feb4802d095817fa5c9efc7610f2861e04faf591ac"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/ref_gtgoosestamp.blend",
+    "sha256": "04caa650f991e78314588ddb55f4b11e0b3037f464939501248a3f315ab570df"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/ref_gtgoosestamp.fbx",
+    "sha256": "d94a43955cf2a804a78d1b98167925e1158dc19a77e2b9d6ddf2e1f2209dede7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/ref_gtgoosestamp.glb",
+    "sha256": "1b2f3a917c0d7f2fcf03fde17723cd21054917fbe54ee6596d27545146b654ec"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/side.png",
+    "sha256": "9916a51fc202ce08e2de8eccdbef39a224500fb23c8e52a9bcbac9e836dfc7dc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/three-quarter.png",
+    "sha256": "066485b6503721f8c64840e28d2b2b1edf19213e599614499bf9f1987d953ce4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtgoosestamp/top.png",
+    "sha256": "0648330570aaf6cff97d78d57e60c40482fbf70e4bc7baa8fa6fa01cfb81015c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/albedo.png",
+    "sha256": "a47cc8810bc9683e9ab6c0bc593dd28d637610a7ce5959bca2033e3daf148c65"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/atlas-input.json",
+    "sha256": "05aee0bbec2febfca404df71c2afe3689adadbec357a905bf30809430706402b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/atlas-input.rects.json",
+    "sha256": "7acf74cade0b26cbdb27da1a4c7859def9733d82db22e9c9bb1ebef479b82535"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/back.png",
+    "sha256": "5262208ab3da0de954f7fe7075b24f37425923269242a2212bc13c2c768b30c6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/icon-192.png",
+    "sha256": "c6d240300933c019848f067e456a0fb7dc662cecd733c428d01bc9c4b3f3cd1a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/icon-64.png",
+    "sha256": "43be9c6b773172d1e9eb0d12722629cc96c77ece7f541641ed3a137e174d1610"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/materials.json",
+    "sha256": "560771b00a91e17f2e9b6da3d52b82893b88b1bd78e150aaf7d22ad5b5329183"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/metrics.json",
+    "sha256": "c66166b2934de86ad8c3c901c1e5bb9ededdf3bb82a9d14422d40d770b439485"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/ref_gtkaleidoscope.blend",
+    "sha256": "a3989ddeddda2273bb0183349b291e8f38704e25053e5beb9a27ee33c5878205"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/ref_gtkaleidoscope.fbx",
+    "sha256": "a2fba031596b7b60c0adf02181104c37032fd967b918846160b5d222435c07a8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/ref_gtkaleidoscope.glb",
+    "sha256": "0b9216908fcba366f6baccf0c36347ccca99d9b550ef292f29b1f335f844edba"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/side.png",
+    "sha256": "539841c08aaa800f6089542c3b251ade822de6bd96070ad7c6fd3b3b326f26e8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/three-quarter.png",
+    "sha256": "1f435b4d9c413f5e08f29570cd3eda60eb256d9267ddece241594498c9347263"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtkaleidoscope/top.png",
+    "sha256": "0124daa6f540508e0335d5fc02a7d39235776343a59b550f6894023c1bb2a5d6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/albedo.png",
+    "sha256": "6eaa8c2843f2d0eec02b3c4a63dd4bd33f54114e6f03978f8684a1ef1d8a8fa2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/atlas-input.json",
+    "sha256": "65c3bf86521f951681112f03e69f0ce28ba43d87189c2503829382691e0521b9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/back.png",
+    "sha256": "c02cef2e36a3e934bc6e6c59d5fdc3166a487749df43f84fc88efd070a5ef1d4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/icon-192.png",
+    "sha256": "5a188f3f49ff511f74298bf435e1f513e1b35d1db0a5d8159630a29cbcc7fdc6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/icon-64.png",
+    "sha256": "4ff30d7ac45db76b2e62ad63549b0cd028a764662d03b28ef39ec7e1e0c01e0c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/materials.json",
+    "sha256": "02c5c409b0dc39f5d5be62b82f9df16860b6e5ff029d0e0c2b330d1bbcd1043e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/metrics.json",
+    "sha256": "b95a882206b6c3d3292af18650fb81e741db2dc921fcb90768bffdbd29402246"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/ref_gtlaserpen.blend",
+    "sha256": "040494aa0df39763526a7f56c827ca0b5967f92c5c7f91b1ace7c4c30b7bde66"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/ref_gtlaserpen.fbx",
+    "sha256": "eb2b63782b1f9f1748910b6bfc51fa0baff2986f84a9ad8cfb6d7ade2c3c94d7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/ref_gtlaserpen.glb",
+    "sha256": "f220a78da9109dd818414a543c8396d7ae1a85118d99d6644ecc3f1611a1f4d7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/side.png",
+    "sha256": "7ed2ef00ec62a20a1a89d827f3f5cb51866aa276246d95a9533d5eff649a0332"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/three-quarter.png",
+    "sha256": "b50c7d73ae4be5d9bab9281782a1e3cc1adc9950cd8e6f7bf73d670a0331012a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtlaserpen/top.png",
+    "sha256": "2806e15890a4151c41e94c63bbc30ddb5e0b57f7bcef09cff80aa8deedc0c350"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/albedo.png",
+    "sha256": "82be80fd381ecfe00ddf1759a47a3fe67bca8b5a8bda1d8538344d360fc11628"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/atlas-input.json",
+    "sha256": "f9dc9c93903b8d4733fe52665a9c6f8d559db90c0de18864b4597dcf26fb1379"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/back.png",
+    "sha256": "7cad2f27288361978dd0cfbc91e8347d84fe7fac232c3fb577c0c4e49b9fce38"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/icon-192.png",
+    "sha256": "9050abd76115e271a7089d8a2450909b264d4d3deb8f0cec465818141edbb285"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/icon-64.png",
+    "sha256": "db769a5dd8996fcaa97418d017e45f4e708ad34fb396de98e0aefd53b83c8d9a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/materials.json",
+    "sha256": "9221d8e9110be466084390e204c2618fd864410d289c39d925f92157b7ffe966"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/metrics.json",
+    "sha256": "4a73fcd6eff992cf9348b3916d274572fb9d43dbcbccd08f0b37adc433f56fbb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/ref_gtmagiccubel.blend",
+    "sha256": "1ff00e86ee0b84bc373b3a4dce09329b2f61a8f568b60909f62c6583885c212a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/ref_gtmagiccubel.fbx",
+    "sha256": "5f60dc02d3d3beb6ef10d1c0bcb6b439da7a50b329353f8a21391e2ff33bccc1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/ref_gtmagiccubel.glb",
+    "sha256": "7325280d1adee3ea3c331a222609e32925425df4665ca81adbfec63f95645871"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/side.png",
+    "sha256": "989c2df834d54a436dbbc7f0e961db61ab60a4c57702328b9f1adb00d91aaa5d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/three-quarter.png",
+    "sha256": "e1000ab9f5d132c8cf102656c94791281aebc2b423c0f269a789542ab882c221"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtmagiccubel/top.png",
+    "sha256": "3703f2dde6c2a0fb339b49ad07667aa42d4ce6e593d3eca735ec41f76a5f12d1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/albedo.png",
+    "sha256": "30841645e5f9993666a71dcd0aadde22459e41b48915e33c0e3f47ca5185c3d5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/atlas-input.json",
+    "sha256": "6239313ca81c1266ddf827cabfcee43d3dd5a917d0da7972fffc447d2cfc50af"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/back.png",
+    "sha256": "5e7bd66e7a585584ef1a77219278930cbe524d6fd3e072d7fa90ef03ab4e24c8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/icon-192.png",
+    "sha256": "59c1d9889e70e4e99f19ddb4c01e6da9e7ada616545e930006e0642b9641233d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/icon-64.png",
+    "sha256": "193aa021d37c2191b7219257acbae5bbbc8e546e090f914a3b54068a566a8cdf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/materials.json",
+    "sha256": "21c140190df128b6ed3ff5eca4caeedfcd3735dfd49d91843265743da5d89c39"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/metrics.json",
+    "sha256": "07dedc0ffd9443d3500fff107473e03c970ac8e0f3a778de23d68b1edcc7b3b7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/ref_gtpaperboat.blend",
+    "sha256": "d71530134cd01094d680c7b2f50d038a0a5c6602812828f47bbf617f7388d5d1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/ref_gtpaperboat.fbx",
+    "sha256": "3c1e928451e7514503d630322da7898aeee4e07c782d5ed18d152da69b701f8a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/ref_gtpaperboat.glb",
+    "sha256": "5ec37f7b718c0b6666e4a3dfc729593c504d748288dd37aa2d263272e2eacf23"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/side.png",
+    "sha256": "fee5afaa088a9e91fff2070ce8276a78198c56f8d63da36f612d18e7818ef7b5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/three-quarter.png",
+    "sha256": "aba81f565f87f92f79c0369b8acfb0695c4404a7c2353f7ef46de0e19abc4a4d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperboat/top.png",
+    "sha256": "c0c222c0b22ff65f70d506a9e446e377206360cd3c13307bfe8841a84a5e039c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/albedo.png",
+    "sha256": "c19413546ba6400a4c7d1f87192071e1687f38bed3ad24d8d9d113c17555a887"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/atlas-input.json",
+    "sha256": "a66eca45a4ab087aa2e30f004e5b07e552feb0d9ea006dbd8b146574e41f76e0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/back.png",
+    "sha256": "e884e3574861e37182e3a2cf3ee9b7c2b1b447fd561e6a11d2fd655d6e2c8ace"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/icon-192.png",
+    "sha256": "166e9a65c1be2520f277978dfc4de1676d9c188cdd1752e344fb9c4e7814ebe4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/icon-64.png",
+    "sha256": "7f7726013f38cfcddc350a55f87bf0957c5cb7e7831c95c56976294c895ebbbe"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/materials.json",
+    "sha256": "9b1a8249b96d79884f94937f07a89ca0143d54498047dc80ab98b65096b38d6d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/metrics.json",
+    "sha256": "f654a46a7fdc0c45d6d4a47f47a8b6ea35f0b688c1e2466da25d60da495c48df"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/ref_gtpaperfortune.blend",
+    "sha256": "7f7be362c73952d651b5063d221cc1bd933cf84fb83aad30ff280b9c5cc935ca"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/ref_gtpaperfortune.fbx",
+    "sha256": "ce1d72620cd17444e25a2d168f9e3a49dfa7f3b7534f36ddc4cbfacccf9cbdbe"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/ref_gtpaperfortune.glb",
+    "sha256": "802eb58d6d40754867d205efee1a2dd6ea470f25a16154e38ba928f1f32e6c02"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/side.png",
+    "sha256": "8a7112cd13c7c2d23df841e8d40f6be809ddcb35a8eafb1dae9aa4023672c351"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/three-quarter.png",
+    "sha256": "c6d1c3f2d5435b3a67851fffcb69058db54cccaf0997b991f5330e9280994d66"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperfortune/top.png",
+    "sha256": "e47fab1f8ae38b5b75e1f6dd79cbcf2c08f54ca5fb390c555252ef743030a4ea"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/albedo.png",
+    "sha256": "12e6d937754194065d0dc91d3316f92ffc727a31018a9ee8627d127198727b25"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/atlas-input.json",
+    "sha256": "7f7512a643d781dfeac2199493788317c9a66aef90d6b303de1de036aa8e7085"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/back.png",
+    "sha256": "71720378170f9a4267e6d43998d45ffe958182c9ab6e537dd89b5039a1bdbb30"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/icon-192.png",
+    "sha256": "9745da7d44ad3208b65d70c61c870051196fa12bf3a9e2b0206178310d2f5380"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/icon-64.png",
+    "sha256": "b5a4e86482bee2a8450a75bbe336036f2c6406ddf25af2273e8f7cce15ef1109"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/materials.json",
+    "sha256": "9de8200f5eede63ccd6354c6fe7681d87656e71583a8a92d37673df87c7cf1c2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/metrics.json",
+    "sha256": "ca1e148e08a0d99ea22f5024856a33e81d5d620a9a24b653b96a4abec31ad419"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/ref_gtpaperstar.blend",
+    "sha256": "8044517d68c996c0e3c8d2f15bc81a19dfccc8f90ee519379d2a90a7f361dfb7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/ref_gtpaperstar.fbx",
+    "sha256": "a9c6be1f351b7562509750f49d4dc44032e21c0c68ad5eee83bbda32837db28a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/ref_gtpaperstar.glb",
+    "sha256": "b332cfc54d8e4d95221b0850e9ce474f5760f9722d33e71d7552948e4607dacc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/side.png",
+    "sha256": "0327d244e3a13ecffe9b053c15f582bb46b078afb8e08526ab7b9fed3da8c327"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/three-quarter.png",
+    "sha256": "967cae8ff8a289e5226fa31bee996db393c7a62a8267ffe1dc054fe240b3575c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpaperstar/top.png",
+    "sha256": "b5b899ca50066abf33c4565b356c569950e99c9f43585596e5489a08fd2628f4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/albedo.png",
+    "sha256": "84d77ee5c6f02c480c24e7515c15a3c3aea1a9803b3e00139b316da45a2e32c1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/atlas-input.json",
+    "sha256": "6d4564c5712c2a0fe9e438fcc843bfa9809dbb20453d36b4faed783e8dfa5f82"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/back.png",
+    "sha256": "0647996b043949b665a3f2c30884703ef3637030c882f69ab098dd43bbb21ca1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/icon-192.png",
+    "sha256": "fe2b221b049cc46bc23d29dd3d0801f720d4f65bb7278eb00b06dc994a27263c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/icon-64.png",
+    "sha256": "187dd90af2fa3847398ce4736f5b83cfcd09dd6b6cc63a92c117128d13135d01"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/materials.json",
+    "sha256": "884e29214f24a089c6633c58d68c44608d1b20454b29bda59dbafa79d4d793f8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/metrics.json",
+    "sha256": "668e7d82abca974be3ffd68ad29a6264a1421ac24d64483b44b39688ba692d32"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/ref_gtpapertree.blend",
+    "sha256": "301af4e3b7c5078c6b53ad6e683a04861fe177db10363b628f95adecca462c64"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/ref_gtpapertree.fbx",
+    "sha256": "245ee236e1bbbbbf7c23e0b72872e44a062cb4ff8986e30aa7244ffb6c5f83f8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/ref_gtpapertree.glb",
+    "sha256": "07b87dc86a910c679a781051fceb8467132bf610de862d969a1208c90ad7d7f7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/side.png",
+    "sha256": "dafcd2d36ccee9e07e891de2eead2b207a7eea598a3766a239daaaa913e846e5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/three-quarter.png",
+    "sha256": "aee2e4e6962cd118b53474eb9d17ef61c3d94e1ded8c33958d3f9eb43f110201"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtpapertree/top.png",
+    "sha256": "2ffbb5c16ea5a9965a1c7c921535629c065cc7f2dd4abb85c5c919f36c6ad66d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/albedo.png",
+    "sha256": "ca12b5ab61958c0654c21e9aaa6aac8fb20cb3765bb936e67fc1f5b783ea25fd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/atlas-input.json",
+    "sha256": "7e8babe33e83c242f09e031df000a1230cd46de171a64c95120e79a2a122aa3a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/back.png",
+    "sha256": "42bdf7547728bc1a65b9bf2055d2b895923815982c41073e8feab0fbe042d980"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/icon-192.png",
+    "sha256": "ee9341bc420b86b27ea9730b8fbe325fb1c8b6890bdb456d257bf241d60bd76a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/icon-64.png",
+    "sha256": "1cc2e63da63ce603c883bb425a00bd415fe7decbd6546c85593660398281deb0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/materials.json",
+    "sha256": "2418a835869cf90f71374f6873e38952951acc69f2c0ea75341bdd20d9114cb8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/metrics.json",
+    "sha256": "a1600b18f3d7df99316ab8a9750df4fe8ccb671afc23a47320c9d655e91e378e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/ref_gtplanepen.blend",
+    "sha256": "8a2fcda88afbed0d9464600617eb72b2b2c0368a8fffb77c086e913debbaa598"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/ref_gtplanepen.fbx",
+    "sha256": "6d9c33bfb1fd0171cbbff5f96d40b263206bbc095a28fd3583818564f0dc6267"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/ref_gtplanepen.glb",
+    "sha256": "893ce19243f594d088becad29f20705ff421d4e15df9b87225e7deead3e3ad9d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/side.png",
+    "sha256": "1baaaf7f1979af0668ad555b189dab0849050b175410b7915b0d5a5dd1bf85a0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/three-quarter.png",
+    "sha256": "75f510bdac244c49c5361ea2dcd1e2ff4ab2e0fa7cd320606164de2918d316a2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplanepen/top.png",
+    "sha256": "4d303e5eafa24f81182601ebc81e2beea3873690880a2932edd9fecc6f09928b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/albedo.png",
+    "sha256": "5e6488278c1ce81ee37ae925f72601ccc48db21fe2e5761b63a65cffe6cc8402"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/atlas-input.json",
+    "sha256": "0e59a1df5b85b09508f5659543ded99c5855adfc7ef092528e15853a13f3d8b7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/back.png",
+    "sha256": "1352d49b6ed29132c29ffd9c65a442a79f9860ebec4d248ce8fc9a091950ac95"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/icon-192.png",
+    "sha256": "bbfb3fedd6baa15a11b85a6158cbfa138cbf6b31ff7a9324b7656b847d95e53f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/icon-64.png",
+    "sha256": "7d086aee1d1a76ff8841c6f4a11c5a6709e93f5c133af96a591736ed3a1a2bf9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/materials.json",
+    "sha256": "25e670d0a41ffa462bac86d2af18798864b4aa2ff43864ce16821c4b0e136e3c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/metrics.json",
+    "sha256": "a912a56f4b6893b76d53bcc8d97eccd2d2968984c998b20eacde9ec564ffeb7e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/ref_gtplasterdeer.blend",
+    "sha256": "d98773583714c9d10ccea79debae18af2d503a1f8cd20b68e3975c21ef3ef5ff"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/ref_gtplasterdeer.fbx",
+    "sha256": "ec38b00d599ae847290e6a3aba4444c667f1db839a81e7c8f8e517a7550083bc"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/ref_gtplasterdeer.glb",
+    "sha256": "dc4a39b60c72269efa64928eea8a628df799d3bee0dc83c342027e4375bba443"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/side.png",
+    "sha256": "f7ecf520dffc40d886d6fc589a24124c5edf570149233e6b58a46aca4bc9abe9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/three-quarter.png",
+    "sha256": "e96e5c8c6e9ec38c84cd250fd32b40d81e0cfe5230546980bc064d43e2972809"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplasterdeer/top.png",
+    "sha256": "9d39f65af3a116537ab20a8d72c9c0fd6ab1b7acd93cef9bb36cf876b5b225e5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/albedo.png",
+    "sha256": "fa9ad7bb8bdb8f0ed35d46e3639402ded35707183e0cb7fa4059616a0b1f0fd5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/atlas-input.json",
+    "sha256": "7a4c135cb91484f5aec4b6e1ab6cdea6ae68f68bd2933f73519d3e89c54678fb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/atlas-input.rects.json",
+    "sha256": "fcfc378f81c1314bad925da25ee861aee79cb31a80e62055c2babf60195dc839"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/back.png",
+    "sha256": "44582828fc9d20ff39257a96a359062984d154c47b3abb46da0d50323821627a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/icon-192.png",
+    "sha256": "e6ac65ab19d7614f0cb464c2c10bfa751cd095d52e462778dd64f77840c5dbaa"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/icon-64.png",
+    "sha256": "fb4d79d62171fc3023cd8265e5cfa2b7c9737d74a6f9811ff817498f9b5cca12"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/materials.json",
+    "sha256": "014f0b64ca7a4c78c2dad28a58077f5565d33c4bcb8d463347380d1d4193112b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/metrics.json",
+    "sha256": "bcfa567191336c35d1ec8fdb9358fbdfa3177a544bf1422e41a1d5e113fd57e9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/ref_gtplaydough.blend",
+    "sha256": "942df3940a62e23f1b4e4b099c3c237d21d3d973a8a0390a1c7623d8e18242ba"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/ref_gtplaydough.fbx",
+    "sha256": "4ec995cd897b4ff0767aa8980f29304a143dfe175b4879162a73baa1d0b1332a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/ref_gtplaydough.glb",
+    "sha256": "b7a950bb7f7b631680b4020dc539c920716f8f069a1e446cad53e0be208e603e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/side.png",
+    "sha256": "6d320a049fea38e08c25386769e4ec2d8e02ee43c2e715f64bb7b1394105c6ce"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/three-quarter.png",
+    "sha256": "3783e58232bfd3070b03c1e99597fd30476ec79b2682c16e07804f09dda4f008"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtplaydough/top.png",
+    "sha256": "5f9fdb307f9473b7564c762025e08bb087231269842bb8b6294a8a6b5faa3f78"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/albedo.png",
+    "sha256": "24e20c31a17ceccaec11de2abbbdd261b51bb2e15f6b2b6088f7f6ac15a1883a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/atlas-input.json",
+    "sha256": "57de0e5b3cf55044b2c3acda4f1499ca2f23a0a6b8217a33b61fa7266c755813"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/atlas-input.rects.json",
+    "sha256": "7acf74cade0b26cbdb27da1a4c7859def9733d82db22e9c9bb1ebef479b82535"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/back.png",
+    "sha256": "b52c98041c7cb14c7803fe43e5c1c141269f6c06491a0d49b932d3a8c72c429b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/icon-192.png",
+    "sha256": "9c9f5588833fb243d6a194795e375f25bd0c17f94c95ede82591aaf289ed6f42"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/icon-64.png",
+    "sha256": "20950f895b5a43827746faebb40e6ba1591365b0c8d665927eaf11bdfbac10c6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/materials.json",
+    "sha256": "fde03f0ff26e0cf7ccb02d7584b50f4689b2bf65b6d3a13a2dc6026d12eb7094"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/metrics.json",
+    "sha256": "268573679def092743cd57816d16a5b2a8a567a9b653b4a93c7adcfacd34a077"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/ref_gtracecar.blend",
+    "sha256": "af4a2cab5795d90f34e5b826397ad0d3060cc2567e89360d4a5f93f7046ed982"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/ref_gtracecar.fbx",
+    "sha256": "dffb4b8dd30643e7b61104fd36d578d455f05daa33a1c09ec86c3dcd93a4e8ba"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/ref_gtracecar.glb",
+    "sha256": "fc4c5c2ef9a99fab7fad00cce697f6cc3c53ec3d469c4cef0eac4e76896127cf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/side.png",
+    "sha256": "00023f5350781722ad5fb919c39a7f37abe86d9cd4aa21be738b840b2d532adb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/three-quarter.png",
+    "sha256": "b0d7d2f6f29c046f84d24a765a6a562c1c9faffb364fb094a7f58e66d9b70a99"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtracecar/top.png",
+    "sha256": "e3992cfd74e583c6fafb5a28ed607b918482c0a512d382e7ff080adf5e9d0cbb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/albedo.png",
+    "sha256": "1c3034110dee7682c371ba44df65c7dedb650a77b6a9dd2c8634bbfa23f6f557"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/atlas-input.json",
+    "sha256": "68232eff3f9850c3186eec1af35d2ddce92d8456aeaeccb93e796b5d9e1e98fd"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/atlas-input.rects.json",
+    "sha256": "7acf74cade0b26cbdb27da1a4c7859def9733d82db22e9c9bb1ebef479b82535"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/back.png",
+    "sha256": "6b221159fd705340a1f65ff37772f74b39adeb107fcfcaaa1cdd0e9ddb7c1fd9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/icon-192.png",
+    "sha256": "f8619e6aaafd2d4f8025b0e19d2d13dff3e96154be896d481622cbc0a4253107"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/icon-64.png",
+    "sha256": "4b9e65b814ab3e280951b0f3971c56e7bd42a40d74c3d040f8572664e65d55d9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/materials.json",
+    "sha256": "5b71f7ab6829f372c26f1a00f4e62105bdd76bbb3ba45c83ce3b7f72314ff7d1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/metrics.json",
+    "sha256": "229581e45aa5532b4a2ea06353d805dc8c730d90bea9694406980596d3f22194"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/ref_gtringcandy.blend",
+    "sha256": "4c4060aa3c2835e4c65df8a83ed8d8e3065622f74b2543c8baea9a686f2488a9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/ref_gtringcandy.fbx",
+    "sha256": "71063a2cec249891dd393059c174eb8b911fd9e19638489af88183f7bc85547c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/ref_gtringcandy.glb",
+    "sha256": "b991aa05a1d9519c0b0247c4ad899ea36e19bed7f540adcafb2da781d4ff05b9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/side.png",
+    "sha256": "04e636f2df4dc6b5019d5029793a8cb865ee390850487473fdcabd71b11a18a4"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/three-quarter.png",
+    "sha256": "be98833c239a0a2fee06f4081994008a0ea38758ee1d906c6aae7374e7fa5b27"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtringcandy/top.png",
+    "sha256": "98298ac0683a9cc54b1ff62e23e5454685e86c796bb5c91b8579d193bb62b984"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/albedo.png",
+    "sha256": "861713f236752687aaf4e573b92b41f07ad427a8c73886b12fc943a8aec9758e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/atlas-input.json",
+    "sha256": "4a15eaf63e17cb9e29ad4bc5bdf27033b0367a90f8057358e14de8577aacf0e6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/back.png",
+    "sha256": "9eea3538be03bdc2c480e3d0cda1359d24ae358b8e409491724ce8fef1170686"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/icon-192.png",
+    "sha256": "42de04ff99ca733e7c0846b82348da65cdf90c769efb88e34baeb41ae0ac6afe"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/icon-64.png",
+    "sha256": "cebc35a815a102908b72f9514a4b67730c3a4021d3c68e87a8abb0dd3342d3cf"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/materials.json",
+    "sha256": "7f761992256f79196bf0ee7d5e67953fdd8d4a1c3f8203a64d2bda40066a68a6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/metrics.json",
+    "sha256": "0b0b7f610aef54e851160a6a8116d21f3b5602a42dcb5ced28a97e3c4babb791"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/ref_gtsandbag.blend",
+    "sha256": "715cefbe23b0923d122e92c9c6ce8cccb5149ec16351feb080759a8e80789300"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/ref_gtsandbag.fbx",
+    "sha256": "3df041bb808373fed354923762dac330333840b1f06089245601e0eb0cb660f9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/ref_gtsandbag.glb",
+    "sha256": "7b79a3a7d61d10990c0ffeee811eefcd29562b2cc5feb4f3157ae0a5d25ac907"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/side.png",
+    "sha256": "057bbc916086b56bf8f0edc2fc84345a7d740d3e290b3323c0c1fea3f49a521e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/three-quarter.png",
+    "sha256": "5ddc010e8e7c6a9a4605c34edaccc1f52064b552222f808be2408dd18fb5b457"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsandbag/top.png",
+    "sha256": "b1c3b6ea8831fd40e533d9f69e29296649168d0223932d9cf2d8e2da306876ba"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/albedo.png",
+    "sha256": "16aebc0e51b615fda2b803e056022231c8dda95c051754514450dcfc6635bc3c"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/atlas-input.json",
+    "sha256": "1be6490a528fc29055d6302c0713cf5023d8eec0314a0f5d406996ab8a3dc1c1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/back.png",
+    "sha256": "1a7b73fcb4a4f966dd185ec7a4c04fd3b4a358e9394d1f466ba604271d497381"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/icon-192.png",
+    "sha256": "4887f7841cd026018e2adc7dac1ab273aaa083264cfdde4905b2d2d7a4906e35"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/icon-64.png",
+    "sha256": "8a4c5a29a9d05a1fa9b471ade8eeff1c0659e50a4579488ccb00dba46c2a4793"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/materials.json",
+    "sha256": "077562e32b9bebf0b5279307d69d4454ec86492b44773438c92fe10f1a5fd053"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/metrics.json",
+    "sha256": "25aa188a89985c65f30e4feb7d02dfe7c48b79c8b0846bdaa688adfaec5ba3b6"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/ref_gtsmiledoll.blend",
+    "sha256": "f1160c5673e5659ceb2272d358b59808fbcc2d18f5a75af4d90525a77cd47c7b"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/ref_gtsmiledoll.fbx",
+    "sha256": "0eeb4d3252f995d803deb5b421602699100dfadee788af4950757e059150b6d5"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/ref_gtsmiledoll.glb",
+    "sha256": "d05e6cfd1299fb9c05d1a6017a73e226faead51c022321efcc031a527bb9fdf2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/side.png",
+    "sha256": "dca18695ef22a8c9b3800dbeeb302009d88f33650a9b8a861f7bd3abdb9e6af9"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/three-quarter.png",
+    "sha256": "e1581c028544fd2a429d155cd1a16f48cd61f6b365c6a6e845dbec7c345c1660"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtsmiledoll/top.png",
+    "sha256": "b7da03b627892700f66bd50546ef59c5952d11749b3127124e5c0a566d17082a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/albedo.png",
+    "sha256": "9f6e9bbfcde464e2b964d4344305c286cd8178424a029c00c723c3d96e0582a3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/atlas-input.json",
+    "sha256": "a7411006bc8485b75142623ab974a2e03dfb2fefe1f38980569d6364589dcb4a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/atlas-input.rects.json",
+    "sha256": "2d0afc4423371fe07a80ecaa706965c7fe5d01e6f7ac411b94f05098e80b4873"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/back.png",
+    "sha256": "f49bdbd724f5a996f19ff69ee67da0f39af9642e1de10d967f3c8d59d8d0ae56"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/icon-192.png",
+    "sha256": "550297b59be89edf0c8314b1e7e11694f8c014531cf368268f03701774eef603"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/icon-64.png",
+    "sha256": "cbf6aab5b61beb789e5340e1b0b7f50a445afc33f6490bc589be87502c26584d"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/materials.json",
+    "sha256": "2fa656103932e8530de328d85c391bf1ecb300112896b32d66847f95cd60c2fb"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/metrics.json",
+    "sha256": "edb72a5270d562dd94dfc759a570d81905bfc166d429b6bed77a7a6031bcec63"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/ref_gtstickerbook.blend",
+    "sha256": "566d5696b942f3f33fa90568f3f645d2f9b97b18ee18771f0bfb4bed1c9c9742"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/ref_gtstickerbook.fbx",
+    "sha256": "87568de6c1fc9a294d3b88e72dde4d48daab040daf1534a46be21ce76036ee3f"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/ref_gtstickerbook.glb",
+    "sha256": "ea1ebdf9e0afa6d550813379b246672298b9c6f7e71f7271587297079adddd5a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/side.png",
+    "sha256": "12fe67d805dceda83be96e458fe87663ae23eb6df095a6df66180e7940a9ca9e"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/three-quarter.png",
+    "sha256": "ab949e385c44cf1b7ef578794a6f76b6771282c54e4465b07b38c9262f6edf32"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtstickerbook/top.png",
+    "sha256": "80e848fb0792dbc4fb849bf0ef81e10c65d05f39607a701e1898dcca1bbc83ce"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/albedo.png",
+    "sha256": "f431cc7afc892f475eda57e9a70dd7a5ee31785d6bbe9b78876ef626a3babce3"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/atlas-input.json",
+    "sha256": "5fbd5f05d5af1c03a683d2a6cf3dcc005071847f16a099374f0e4db5d9e694f0"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/atlas-input.rects.json",
+    "sha256": "fcfc378f81c1314bad925da25ee861aee79cb31a80e62055c2babf60195dc839"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/back.png",
+    "sha256": "0c0aa683ddcde81608cdae17c7382f2fc9b2386c627ead1523ef76d1cb445c47"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/icon-192.png",
+    "sha256": "83c86abc4a565cc65e8785a1655dd07aad584888265d0305a02282d22699d9e7"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/icon-64.png",
+    "sha256": "5d61af85ec964215177164b47d10dd196636187a6d79bb89c74851aa3a5f948a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/materials.json",
+    "sha256": "864024538047a7c8d9cb11b3e340fb45ab200d4e6597db18d1711f87407810b1"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/metrics.json",
+    "sha256": "06202264e34744757a2e35d45272305015ea31f810537471608d45c6dadb8a08"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/ref_gtwatergame.blend",
+    "sha256": "9df49dc14f67b3bfd73427ba80cc58ff67959576412b947056573148c79128d8"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/ref_gtwatergame.fbx",
+    "sha256": "1593f93409790086b532aef2992a10b84ad8f92e393ea148aacc12d33d9a8865"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/ref_gtwatergame.glb",
+    "sha256": "76b7b584197fdd4d1615e7a6ec255c88f5b59789ad5955a9e5df35c3ffc455d2"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/side.png",
+    "sha256": "d6887ffff1d71f9d569924e38b01a9b6b21fc5398db89826099af92b7db175da"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/three-quarter.png",
+    "sha256": "096585a2844e1f91c8000571b0eed923063ffd15da6836688ce45837a827f72a"
+  },
+  {
+    "path": "assets-3d/candidates/mobile-runtime-20261024/ref_gtwatergame/top.png",
+    "sha256": "6f8077ae394e7e099bfebf5442227144221d3d4531d2d711391897ed0f34b9c7"
+  }
+]

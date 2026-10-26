@@ -1,0 +1,1125 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "ref_bbqskewers2",
+      "passed": true,
+      "triangles": 760,
+      "sha256": "5af5613bd18fc728a517dcada973a0d24b01998640d01fab0d7d97aa6780c120",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_grilledcorn",
+      "passed": true,
+      "triangles": 513,
+      "sha256": "390ae0b7eff47ab68eb6ae911546ea3db4673e66f5d125cb4501e5d8a6cfa2a6",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqhotdog",
+      "passed": true,
+      "triangles": 832,
+      "sha256": "dbdd4a0b1f2948e595ac4b4945d449b016e79a920b828ee00f05654adb75021d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_frieddumpling",
+      "passed": true,
+      "triangles": 568,
+      "sha256": "a35f6f869d88c007a7a744be45f4ae5fe7edf84be79ef4bad50dae0e01c6240c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_grilledfish2",
+      "passed": true,
+      "triangles": 560,
+      "sha256": "730fccdca8ddb516a05f5287e542e8911129b671d6ff978550cd976b143e10b6",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_potatoskewers",
+      "passed": true,
+      "triangles": 224,
+      "sha256": "78e08bf5b5e438c2ae1cd3c15b0443eeb49ef3cff610e46ce579569ed9cb0211",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_redshrimp",
+      "passed": true,
+      "triangles": 1295,
+      "sha256": "5afc2d57de4c5b1e1b584db5c71202196e932962d637bf0b53705faefade4542",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_ribsbig",
+      "passed": true,
+      "triangles": 762,
+      "sha256": "13e30e9ba9155227333f82fe6e096c3b95cc3e2498f45451f457ef4814083ad8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_scallop",
+      "passed": true,
+      "triangles": 1029,
+      "sha256": "46bc51b803f992bcd4bbb5b7b85d6e23bc3c675d4a445b7da4a2d90d75aea6ef",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_shrimp",
+      "passed": true,
+      "triangles": 604,
+      "sha256": "89aed6e201bcb03d30b7fa3e85e196bfd95b21e20c1d1329710b682ef9ed4505",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqmushroom",
+      "passed": true,
+      "triangles": 660,
+      "sha256": "6d8f1015506d284e16798fcafd2f3c88fc331c6739b8529f6607cff86b015bd6",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqpotato",
+      "passed": true,
+      "triangles": 1382,
+      "sha256": "ec251f7b90e039df539ae5358e1391129da96f5403703e27e6ee877c07e21741",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqsausage",
+      "passed": true,
+      "triangles": 490,
+      "sha256": "e826f6188dd910a36058877593d979d5c245c73c34aade360a7a81d27d1392c8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqskewers1",
+      "passed": true,
+      "triangles": 904,
+      "sha256": "719bdc0cb91468c0fe1347222d201c3fc792549602582aecc690eb014b61c3bd",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bbqtoast",
+      "passed": true,
+      "triangles": 220,
+      "sha256": "cf7137808557d187d99d04fd9905659f2a2ac3c887d156fae4b1d32e3299da78",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_chickenleg",
+      "passed": true,
+      "triangles": 1007,
+      "sha256": "b6854aa6e1360891e648f43dde853e13e096b18b0e8e8465b8d4bc3877e54cda",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_roastchicken",
+      "passed": true,
+      "triangles": 932,
+      "sha256": "3c45ecd365eeef1b6b03e3c222bb6bc8a70bb20261a4c1f33d23a763f6a1f183",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bffrieddoughstick",
+      "passed": true,
+      "triangles": 576,
+      "sha256": "5a7c0a0689b2613985e5886c6a3fda75560cf0b546395ad9d44a751deb4ed485",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfshrimpshaomai",
+      "passed": true,
+      "triangles": 984,
+      "sha256": "a12a21c043bccad9e3b54113d90e63a2b5226333a122ba2af914bc0cc0b576d8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsoymilk",
+      "passed": true,
+      "triangles": 1380,
+      "sha256": "78460ea85b0e74f15680c89d1bf25802bde10807c7f76166be42e5747c934b33",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfegghalf",
+      "passed": true,
+      "triangles": 398,
+      "sha256": "623ac0a7393f01bb7fa936782e53d28aaa861f57beee13acd391c7421bfb1250",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bffagao",
+      "passed": true,
+      "triangles": 578,
+      "sha256": "59e78a0d069fbb46e781c7a80ce5b4ba18f39871021757cc5463abc98b6b85f0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bffriedsteamedbun",
+      "passed": true,
+      "triangles": 444,
+      "sha256": "55511a6f805c084869f76545ce8692ffcdd409389be9ac9f7566e7623812de9f",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfpumpkinpie",
+      "passed": true,
+      "triangles": 528,
+      "sha256": "b14041f3a0c34341a98facd84ab6525b6ade64193e2226b523a334399e026816",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsesameball",
+      "passed": true,
+      "triangles": 528,
+      "sha256": "85b0dd97e19c92d755c74b783979afcf1c6f4ea092a0af3b09c73a3665fde7c8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfxiaolongbao",
+      "passed": true,
+      "triangles": 2006,
+      "sha256": "32a34ae7b7152dce6aae461cb0e1101879ba051f19b00f38987fa1c3ecb18fa2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfcornjuice",
+      "passed": true,
+      "triangles": 904,
+      "sha256": "88ac33832907b5491669a185f079e4706f2abef6ef91f682509b39a3e50e9955",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfflowerroll",
+      "passed": true,
+      "triangles": 690,
+      "sha256": "5e92860c7027ff72c7032b0c0a1a82a28b7f6abff9d1d834c15dee06da9c928c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfshaomai",
+      "passed": true,
+      "triangles": 1544,
+      "sha256": "e7f342ae0d6e1f99f790fa7739c30d996d79393fc4a8063b02008c81c660b5e3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsoupdumpling",
+      "passed": true,
+      "triangles": 1104,
+      "sha256": "ee4d390a8c70eb79cac4134a060bb89248555faf36e0fb49a41a77ad111fb8b3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfspringroll",
+      "passed": true,
+      "triangles": 588,
+      "sha256": "e31d5eb8b648775e7ede6f5ecb1f49d168dabb08dedad12d0c462456141c36d5",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfsweetcorn",
+      "passed": true,
+      "triangles": 926,
+      "sha256": "9274355912d886d2cf8f7314e6798c10684752cd0e294dd45883cbff1814b6bf",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bftofupudding",
+      "passed": true,
+      "triangles": 720,
+      "sha256": "06de4882d95d7166688deb33a7b7fccd64ef37a5da51a1378f9ff00c8894a1c5",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bfwowotou",
+      "passed": true,
+      "triangles": 800,
+      "sha256": "b72a27f9b863767982b089716457c2d9108e9ea125369038065c4c3f80dd2917",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_orange",
+      "passed": true,
+      "triangles": 480,
+      "sha256": "a6c4caab4e495da10c33b5918f191965492b6ec639c697ad7e39f7585ca1927a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_potato",
+      "passed": true,
+      "triangles": 523,
+      "sha256": "5a9f1238ebefec22b17aeb44b98d2481ac6aeca6ccbff975cc65f6fad05ef70d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_saltedegg",
+      "passed": true,
+      "triangles": 180,
+      "sha256": "d27fd15b6c2496588bb06294772780cc5f71be9b074733679d9f5ec2a1458ec5",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_pepperfresh",
+      "passed": true,
+      "triangles": 238,
+      "sha256": "408841873104d48768f3bc22726f7d0cb3ec238fe6f5af762db63a8312776daa",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_sausage",
+      "passed": true,
+      "triangles": 612,
+      "sha256": "f606ef8c1d41158d60d345893783a25dd5450b4d570d03bc45803786063a13f4",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_watermelonhalf",
+      "passed": true,
+      "triangles": 540,
+      "sha256": "51f0b297a8ea917d980257e6fcd384d68c8021042e8fa49994b50bca2ca1a0a2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_watermelonslice",
+      "passed": true,
+      "triangles": 900,
+      "sha256": "da93a6d2af4068758d15f5d94b00d41d2eb00e04b8d4354e47c9388867f7de4a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_woodhand",
+      "passed": true,
+      "triangles": 1156,
+      "sha256": "948593fd4e8e32706726580459d795770eccee42fc3d8fd815f36c4757d2af36",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_apple",
+      "passed": true,
+      "triangles": 510,
+      "sha256": "cee7db23cff2ecf86032e343761f2539acff44849308f10b60389e552b13930c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_carrot",
+      "passed": true,
+      "triangles": 432,
+      "sha256": "9efe18acd705a235669c205970fdd2bd94f9413e482c6b31ca3941a09e58710c",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_chinabowl",
+      "passed": true,
+      "triangles": 1000,
+      "sha256": "d07e3acf6694fe7eec16c22f4251662cfc4f2503b412153cc8b218da62e13484",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_corn",
+      "passed": true,
+      "triangles": 1043,
+      "sha256": "e446a2d25dc6e876a31e788f78d23634fa2c2c67ea026c51bc24e792841a3120",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_fan",
+      "passed": true,
+      "triangles": 838,
+      "sha256": "5b624542efc53866ef7e1ec8388b501f5b9f86a13d8fd46cea8e6e1de31929c8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_flashlight2",
+      "passed": true,
+      "triangles": 1356,
+      "sha256": "e51390d06eccc7ebb984881ebb9a6bea61d92bdf992f8534c9442a97d2e0b368",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_spinningtop",
+      "passed": true,
+      "triangles": 888,
+      "sha256": "1feded9d314bb6ccb5ef0a139e6fd3e612bf4c24272c62c687c890cdb43d3519",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_thermosbottle",
+      "passed": true,
+      "triangles": 1526,
+      "sha256": "a2e6a6708ff034b7841e46d56a6608219d8bf4656846d3180f47d4cfaecfac2d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_windoilbottle",
+      "passed": true,
+      "triangles": 1608,
+      "sha256": "bb7a7f813b917208d352bf8862ce7b721285ec0dc5246a6100c4c7b146795a1a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtcrocodile",
+      "passed": true,
+      "triangles": 1986,
+      "sha256": "dc63e2d0a2987492c20394f8db203567857277a735f3204f382694fa08b773a7",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtdinosaur",
+      "passed": true,
+      "triangles": 1996,
+      "sha256": "717c7cd6c7430a97c286f785370e9f924277be33db6cfc463041d175a9718f1d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtdrawingboard",
+      "passed": true,
+      "triangles": 712,
+      "sha256": "fcf610b27fc8246ab7b23b3aadcb6f0074845673cf67fe9914a417903502c633",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtfruiteraser",
+      "passed": true,
+      "triangles": 348,
+      "sha256": "10292a0d5c7d40547ce3f71d2d26441028e48aff329bde61bf803aa6601fcf24",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtgoosestamp",
+      "passed": true,
+      "triangles": 1024,
+      "sha256": "1b2f3a917c0d7f2fcf03fde17723cd21054917fbe54ee6596d27545146b654ec",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtkaleidoscope",
+      "passed": true,
+      "triangles": 920,
+      "sha256": "99c843fdbd0d2b622cf6580af9d7d74e8bdfc08657cf53dde0d5b9d820862740",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtlaserpen",
+      "passed": true,
+      "triangles": 904,
+      "sha256": "f220a78da9109dd818414a543c8396d7ae1a85118d99d6644ecc3f1611a1f4d7",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtmagiccubel",
+      "passed": true,
+      "triangles": 1196,
+      "sha256": "7325280d1adee3ea3c331a222609e32925425df4665ca81adbfec63f95645871",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpaperboat",
+      "passed": true,
+      "triangles": 380,
+      "sha256": "5ec37f7b718c0b6666e4a3dfc729593c504d748288dd37aa2d263272e2eacf23",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpaperfortune",
+      "passed": true,
+      "triangles": 280,
+      "sha256": "802eb58d6d40754867d205efee1a2dd6ea470f25a16154e38ba928f1f32e6c02",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpaperstar",
+      "passed": true,
+      "triangles": 126,
+      "sha256": "b332cfc54d8e4d95221b0850e9ce474f5760f9722d33e71d7552948e4607dacc",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtpapertree",
+      "passed": true,
+      "triangles": 1728,
+      "sha256": "07b87dc86a910c679a781051fceb8467132bf610de862d969a1208c90ad7d7f7",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtplanepen",
+      "passed": true,
+      "triangles": 2336,
+      "sha256": "893ce19243f594d088becad29f20705ff421d4e15df9b87225e7deead3e3ad9d",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtplasterdeer",
+      "passed": true,
+      "triangles": 1990,
+      "sha256": "dc4a39b60c72269efa64928eea8a628df799d3bee0dc83c342027e4375bba443",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtplaydough",
+      "passed": true,
+      "triangles": 2472,
+      "sha256": "157ec156676253758bc62eb82fceae6946fcccac9a20e08bf661190692ae7eb3",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtracecar",
+      "passed": true,
+      "triangles": 1988,
+      "sha256": "fc4c5c2ef9a99fab7fad00cce697f6cc3c53ec3d469c4cef0eac4e76896127cf",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtringcandy",
+      "passed": true,
+      "triangles": 948,
+      "sha256": "b991aa05a1d9519c0b0247c4ad899ea36e19bed7f540adcafb2da781d4ff05b9",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtsandbag",
+      "passed": true,
+      "triangles": 1256,
+      "sha256": "7b79a3a7d61d10990c0ffeee811eefcd29562b2cc5feb4f3157ae0a5d25ac907",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtsmiledoll",
+      "passed": true,
+      "triangles": 1680,
+      "sha256": "d05e6cfd1299fb9c05d1a6017a73e226faead51c022321efcc031a527bb9fdf2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtstickerbook",
+      "passed": true,
+      "triangles": 1932,
+      "sha256": "ea1ebdf9e0afa6d550813379b246672298b9c6f7e71f7271587297079adddd5a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_gtwatergame",
+      "passed": true,
+      "triangles": 1918,
+      "sha256": "76b7b584197fdd4d1615e7a6ec255c88f5b59789ad5955a9e5df35c3ffc455d2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_cs_garlic",
+      "passed": true,
+      "triangles": 932,
+      "sha256": "829d0430d686084621bb9151607141d612ab43006dddd8aea04ffad821b98ef8",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_bananas",
+      "passed": true,
+      "triangles": 1105,
+      "sha256": "2c090bbcbd8b425b8e8698402bca4c038420288ba7f431bdfd6af2241d442404",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_chewinggum",
+      "passed": true,
+      "triangles": 140,
+      "sha256": "9dd29597ef24648e33c933a295a1dfdb3e19044b78b6945536db56640d19f7c0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_garlic",
+      "passed": true,
+      "triangles": 932,
+      "sha256": "e958ed47bd7f1df0d678b0ba4ac27cf6a21517f77fd1ff5ab187e17744c45674",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_hamsausage1",
+      "passed": true,
+      "triangles": 669,
+      "sha256": "48029159c33039236f4bbe86a0068a5ff96d765423f05fd331fe55f013b518a2",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_hamsausage2",
+      "passed": true,
+      "triangles": 1073,
+      "sha256": "06fb559d9ba737b07a5159a2b0633392f3f8d996c03215e4b45c400756af3624",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_soysauce",
+      "passed": true,
+      "triangles": 792,
+      "sha256": "2cf63d2582d6f14ec1aa861d88d04c9eab775fafc5e7e634a34e1d5b5f043593",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "ref_toycar",
+      "passed": true,
+      "triangles": 1818,
+      "sha256": "37968c054197dea42a50e43e8807f0b171940c4d7e986925cbacc233e3b5f83a",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ]
+}

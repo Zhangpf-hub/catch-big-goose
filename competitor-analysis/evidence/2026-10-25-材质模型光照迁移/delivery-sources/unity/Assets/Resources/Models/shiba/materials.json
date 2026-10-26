@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "name": "shiba_mobile",
+      "texture": "albedo.png",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.52,
+      "metallic": 0
+    }
+  ]
+}

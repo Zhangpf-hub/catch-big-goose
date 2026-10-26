@@ -1,0 +1,536 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "BBQSkewers2",
+      "sourceTriangles": 760,
+      "exportedTriangles": 760,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "GrilledCorn",
+      "sourceTriangles": 514,
+      "exportedTriangles": 513,
+      "duplicateFacesRemoved": 1,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BBQHotdog",
+      "sourceTriangles": 832,
+      "exportedTriangles": 832,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "FriedDumpling",
+      "sourceTriangles": 570,
+      "exportedTriangles": 568,
+      "duplicateFacesRemoved": 2,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "GrilledFish2",
+      "sourceTriangles": 560,
+      "exportedTriangles": 560,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "PotatoSkewers",
+      "sourceTriangles": 224,
+      "exportedTriangles": 224,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "RedShrimp",
+      "sourceTriangles": 1295,
+      "exportedTriangles": 1295,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "RibsBig",
+      "sourceTriangles": 762,
+      "exportedTriangles": 762,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Scallop",
+      "sourceTriangles": 1029,
+      "exportedTriangles": 1029,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "Shrimp",
+      "sourceTriangles": 604,
+      "exportedTriangles": 604,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BBQMushroom",
+      "sourceTriangles": 660,
+      "exportedTriangles": 660,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true
+    },
+    {
+      "id": "BBQPotato",
+      "sourceTriangles": 1382,
+      "exportedTriangles": 1382,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BBQSausage",
+      "sourceTriangles": 490,
+      "exportedTriangles": 490,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BBQSkewers1",
+      "sourceTriangles": 904,
+      "exportedTriangles": 904,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BBQToast",
+      "sourceTriangles": 220,
+      "exportedTriangles": 220,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "ChickenLeg",
+      "sourceTriangles": 1008,
+      "exportedTriangles": 1007,
+      "duplicateFacesRemoved": 1,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "RoastChicken",
+      "sourceTriangles": 932,
+      "exportedTriangles": 932,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFFriedDoughStick",
+      "sourceTriangles": 576,
+      "exportedTriangles": 576,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFShrimpShaoMai",
+      "sourceTriangles": 984,
+      "exportedTriangles": 984,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFSoyMilk",
+      "sourceTriangles": 1380,
+      "exportedTriangles": 1380,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 3,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFEggHalf",
+      "sourceTriangles": 398,
+      "exportedTriangles": 398,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFFaGao",
+      "sourceTriangles": 578,
+      "exportedTriangles": 578,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFFriedSteamedBun",
+      "sourceTriangles": 444,
+      "exportedTriangles": 444,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFPumpkinPie",
+      "sourceTriangles": 528,
+      "exportedTriangles": 528,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFSesameBall",
+      "sourceTriangles": 528,
+      "exportedTriangles": 528,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFXiaoLongBao",
+      "sourceTriangles": 2006,
+      "exportedTriangles": 2006,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFCornJuice",
+      "sourceTriangles": 904,
+      "exportedTriangles": 904,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFFlowerRoll",
+      "sourceTriangles": 690,
+      "exportedTriangles": 690,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFShaoMai",
+      "sourceTriangles": 1544,
+      "exportedTriangles": 1544,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFSoupDumpling",
+      "sourceTriangles": 1104,
+      "exportedTriangles": 1104,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFSpringRoll",
+      "sourceTriangles": 588,
+      "exportedTriangles": 588,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFSweetCorn",
+      "sourceTriangles": 926,
+      "exportedTriangles": 926,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFTofuPudding",
+      "sourceTriangles": 720,
+      "exportedTriangles": 720,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "BFWoWoTou",
+      "sourceTriangles": 800,
+      "exportedTriangles": 800,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Orange",
+      "sourceTriangles": 480,
+      "exportedTriangles": 480,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Potato",
+      "sourceTriangles": 524,
+      "exportedTriangles": 523,
+      "duplicateFacesRemoved": 1,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "SaltedEgg",
+      "sourceTriangles": 180,
+      "exportedTriangles": 180,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "PepperFresh",
+      "sourceTriangles": 238,
+      "exportedTriangles": 238,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Sausage",
+      "sourceTriangles": 612,
+      "exportedTriangles": 612,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "WatermelonHalf",
+      "sourceTriangles": 540,
+      "exportedTriangles": 540,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "WatermelonSlice",
+      "sourceTriangles": 900,
+      "exportedTriangles": 900,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "WoodHand",
+      "sourceTriangles": 1156,
+      "exportedTriangles": 1156,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Apple",
+      "sourceTriangles": 510,
+      "exportedTriangles": 510,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Carrot",
+      "sourceTriangles": 432,
+      "exportedTriangles": 432,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "ChinaBowl",
+      "sourceTriangles": 1000,
+      "exportedTriangles": 1000,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Corn",
+      "sourceTriangles": 1043,
+      "exportedTriangles": 1043,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Fan",
+      "sourceTriangles": 840,
+      "exportedTriangles": 838,
+      "duplicateFacesRemoved": 2,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Flashlight2",
+      "sourceTriangles": 1356,
+      "exportedTriangles": 1356,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "SpinningTop",
+      "sourceTriangles": 888,
+      "exportedTriangles": 888,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "ThermosBottle",
+      "sourceTriangles": 1526,
+      "exportedTriangles": 1526,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "WindOilBottle",
+      "sourceTriangles": 1608,
+      "exportedTriangles": 1608,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "CS_Garlic",
+      "sourceTriangles": 932,
+      "exportedTriangles": 932,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Bananas",
+      "sourceTriangles": 1106,
+      "exportedTriangles": 1105,
+      "duplicateFacesRemoved": 1,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "ChewingGum",
+      "sourceTriangles": 140,
+      "exportedTriangles": 140,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "Garlic",
+      "sourceTriangles": 932,
+      "exportedTriangles": 932,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "HamSausage1",
+      "sourceTriangles": 669,
+      "exportedTriangles": 669,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "HamSausage2",
+      "sourceTriangles": 1073,
+      "exportedTriangles": 1073,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    },
+    {
+      "id": "SoySauce",
+      "sourceTriangles": 792,
+      "exportedTriangles": 792,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 2,
+      "uvPreserved": true
+    },
+    {
+      "id": "ToyCar",
+      "sourceTriangles": 1818,
+      "exportedTriangles": 1818,
+      "duplicateFacesRemoved": 0,
+      "dimensionError": 0.0,
+      "meshes": 1,
+      "uvPreserved": true
+    }
+  ]
+}

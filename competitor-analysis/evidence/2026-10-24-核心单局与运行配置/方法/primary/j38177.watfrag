@@ -1,0 +1,101 @@
+  (func $j38177 (type $t5) (param $p0 i32) (param $p1 i32) (param $p2 i32) (result i32)
+    i32.const 5140318
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3959304
+      call $j922
+      i32.const 4089160
+      call $j922
+      i32.const 4091896
+      call $j922
+      i32.const 4077112
+      call $j922
+      i32.const 4089916
+      call $j922
+      i32.const 4068428
+      call $j922
+      i32.const 4113232
+      call $j922
+      i32.const 4105668
+      call $j922
+      i32.const 4063796
+      call $j922
+      i32.const 4073640
+      call $j922
+      i32.const 4089056
+      call $j922
+      i32.const 5140318
+      i32.const 1
+      i32.store8
+    end
+    i32.const 3959304
+    i32.load
+    call $j923
+    local.get $p0
+    i32.load offset=80
+    i32.const 4091896
+    i32.load
+    i32.const 4113232
+    i32.const 4105668
+    i32.const 3959304
+    i32.load
+    i32.load offset=92
+    i32.load
+    i32.load offset=112
+    i32.const 2
+    i32.eq
+    select
+    i32.load
+    i32.const 4068428
+    i32.load
+    i32.const 0
+    call $j1151
+    local.set $p0
+    block $B1
+      block $B2
+        block $B3
+          block $B4
+            block $B5
+              block $B6
+                local.get $p1
+                br_table $B6 $B5 $B4 $B3 $B2 $B1
+              end
+              local.get $p0
+              i32.const 4089916
+              i32.load
+              i32.const 0
+              call $j962
+              return
+            end
+            local.get $p0
+            i32.const 4077112
+            i32.load
+            i32.const 0
+            call $j962
+            return
+          end
+          local.get $p0
+          i32.const 4089160
+          i32.load
+          i32.const 0
+          call $j962
+          return
+        end
+        local.get $p0
+        i32.const 4073640
+        i32.load
+        i32.const 0
+        call $j962
+        return
+      end
+      local.get $p0
+      i32.const 4089056
+      i32.load
+      i32.const 0
+      call $j962
+      return
+    end
+    i32.const 4063796
+    i32.load
+    return)

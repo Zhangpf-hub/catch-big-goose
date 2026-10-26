@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtcrocodile",
+  "sourceId": "GTCrocodile",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTCrocodile\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTCrocodile.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "f62e25c49cd9d738f8b1d76dceeb3176e71e5dd07b4f49d37c053163c5d2eb5d"
+}

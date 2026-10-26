@@ -1,0 +1,28 @@
+{
+  "id": "jadeleaf",
+  "theme": "antique",
+  "triangles": 900,
+  "vertices": 542,
+  "blenderBounds": [
+    0.47904205322265625,
+    0.22514723241329193,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 24728,
+  "sha256": "260d36732310dc2ba4908e69e948e51455aa74aca518ea0f37b03663162a4bf2",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

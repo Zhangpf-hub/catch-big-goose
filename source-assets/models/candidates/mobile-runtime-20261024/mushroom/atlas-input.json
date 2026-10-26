@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.7200000286102295,
+        0.04500000178813934,
+        0.03500000014901161,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        0.0,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "color": [
+        0.9599999785423279,
+        0.9100000262260437,
+        0.7799999713897705,
+        1.0
+      ],
+      "texture": null,
+      "uvMin": [
+        -1.341104507446289e-07,
+        0.0
+      ],
+      "uvMax": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\mobile-runtime-20261024\\mushroom\\albedo.png"
+}

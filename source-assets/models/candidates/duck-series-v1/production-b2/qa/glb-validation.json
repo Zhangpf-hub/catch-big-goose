@@ -1,0 +1,851 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "duck-eggpancake",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3900,
+      "bytes": 91684,
+      "sha256": "4b12cab2585706d1834a66c0f68c0f245afe22532768c82032aee65f424762b9",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-eggtart",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true,
+        "approvedBytesUnchanged": true
+      },
+      "triangles": 3752,
+      "bytes": 89480,
+      "sha256": "b657c83435da8b0606c61794e0bc79bfa57bca5fe9ac95fe39180c5cd5bd2fd1",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-milletcake",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3552,
+      "bytes": 84348,
+      "sha256": "98e4b933794770f25ad556ccc62c4bad0adbbe1723e4efa006a4fbec7c8208dc",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-steamedbread",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3536,
+      "bytes": 83824,
+      "sha256": "b4a24c0a2658000178aa582e83ef44173a87766d924451f2d160d311d6525d3f",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-eggplant",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 2780,
+      "bytes": 66796,
+      "sha256": "16a501081eae14d506022440847dbdf8922eee943ad5c3cf05868340459edf73",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-greenpepper",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3632,
+      "bytes": 85660,
+      "sha256": "9b42b5a92de2e85f330d6c8e87f9637095f2eeded52fae20b143b2b9213139da",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-pancake",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3664,
+      "bytes": 86436,
+      "sha256": "55467ee3e91059e0234efbe44cc5b021779a42f39b6df9e11e383bc7537c5729",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-potato",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3196,
+      "bytes": 76140,
+      "sha256": "45d8f46025ea092f9e59b39883a4ddd07d5c74052b4f209f07f7b54dacea7f65",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-tomato",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3108,
+      "bytes": 73996,
+      "sha256": "5addf06eccbfce51d4c58caaa69510597c4fbe30b31d1bd0cf087020cc972809",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-steelcup",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true,
+        "approvedBytesUnchanged": true
+      },
+      "triangles": 3940,
+      "bytes": 96100,
+      "sha256": "b3dc84c5384936a59c98e2b2e126c1b1397e89c245d8eca33df0a1c44864c325",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-farmer",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3894,
+      "bytes": 91272,
+      "sha256": "20c60d936a32bb6270cd6e67ebe757b730a5c9c454f402636fae5dd92e80922f",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-watermelon",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 2864,
+      "bytes": 69132,
+      "sha256": "b2a8b8060dafa6b1029e5d99c6701ff139e9439ae54003c0441f569db7288044",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-numberblock",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true,
+        "approvedBytesUnchanged": true
+      },
+      "triangles": 3820,
+      "bytes": 91292,
+      "sha256": "e3908538fc7f9e02d6117babea29959fd3d3871c556a4730979f47e5e9a23409",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-yoyo",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3508,
+      "bytes": 82872,
+      "sha256": "36c43ef7d0df499ed4bc7fdff741ebb21c9c95899f69faa5d8443dd08a9ecd94",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-craftpunch",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3472,
+      "bytes": 82524,
+      "sha256": "f3353486747063ca4a0d39057eb901e932093ceac7ebe4c26313660ab7773e66",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-capsulepen",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3028,
+      "bytes": 72356,
+      "sha256": "8578e2da8f95d574aed44b4af902e0c61934ff64fed74b138efad5946c76a380",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-chilisauce",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 2980,
+      "bytes": 71316,
+      "sha256": "0493c2fbd569b7fc559242260fb1f8bdd0372535171deb4be6c79ef559165dda",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-colacup",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 2784,
+      "bytes": 66932,
+      "sha256": "d4cacd3dade67b10f93dd9a09f5adbd131962dc2ca6c3a00a6b09617bc6752b8",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-egg",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3044,
+      "bytes": 72516,
+      "sha256": "8362834b4b3b8328dbed4975f177202949b12dbba267d7b932df5b0327827b42",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "duck-noodles",
+      "passed": true,
+      "checks": {
+        "oneMesh": true,
+        "onePrimitive": true,
+        "oneMaterial": true,
+        "triangleTarget": true,
+        "bytes": true,
+        "noSkin": true,
+        "noAnimation": true,
+        "uv": true,
+        "atlas": true,
+        "noErrors": true,
+        "noWarnings": true,
+        "geometry": true,
+        "motherPreserved": true
+      },
+      "triangles": 3940,
+      "bytes": 92860,
+      "sha256": "07e97880bf7ed4d3396bfbace7cc69b15f33b3938fcf935648c7243b0004d6ce",
+      "images": [
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mime": "image/png"
+        }
+      ],
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ],
+  "approvedMotherAndFirstThree": true,
+  "remainingSeventeenArtIndividuallyApproved": false,
+  "unityImportVerified": false
+}

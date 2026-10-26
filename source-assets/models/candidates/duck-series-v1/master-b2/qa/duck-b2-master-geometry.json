@@ -1,0 +1,18 @@
+{
+  "id": "duck-b2-master",
+  "triangles": 5412,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.32688915729522705,
+    0.5259199738502502,
+    0.9999998807907104
+  ],
+  "center": [
+    0.0,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "passed": true
+}

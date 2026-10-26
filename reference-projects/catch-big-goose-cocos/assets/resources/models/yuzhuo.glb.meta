@@ -1,0 +1,234 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5",
+  "files": [],
+  "subMetas": {
+    "70773": {
+      "importer": "gltf-material",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@70773",
+      "displayName": "",
+      "id": "70773",
+      "name": "yuzhuo_antique_gold.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e446": {
+      "importer": "gltf-mesh",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@1e446",
+      "displayName": "",
+      "id": "1e446",
+      "name": "Icosphere.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 320
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "12b8b": {
+      "importer": "gltf-mesh",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@12b8b",
+      "displayName": "",
+      "id": "12b8b",
+      "name": "Torus.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 336
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af17e": {
+      "importer": "gltf-mesh",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@af17e",
+      "displayName": "",
+      "id": "af17e",
+      "name": "hand-polished-jade-bangle-mesh.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 2048
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b206": {
+      "importer": "gltf-mesh",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@6b206",
+      "displayName": "",
+      "id": "6b206",
+      "name": "Icosphere.001.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "869ce": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@869ce",
+      "displayName": "",
+      "id": "869ce",
+      "name": "yuzhuo_white_emerald_marbling.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@869ce"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed266": {
+      "importer": "gltf-material",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@ed266",
+      "displayName": "",
+      "id": "ed266",
+      "name": "yuzhuo_continuous_jade_marbling.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d97c2": {
+      "importer": "gltf-material",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@d97c2",
+      "displayName": "",
+      "id": "d97c2",
+      "name": "yuzhuo_worn_gold_edge.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "51ccb": {
+      "importer": "gltf-scene",
+      "uuid": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@51ccb",
+      "displayName": "",
+      "id": "51ccb",
+      "name": "yuzhuo.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "yuzhuo_white_emerald_marbling",
+        "uri": "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@869ce"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@1e446",
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@12b8b",
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@af17e",
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@6b206"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@e39f7"
+      ],
+      "materials": [
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@70773",
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@ed266",
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@d97c2"
+      ],
+      "scenes": [
+        "6e2e06ba-498c-40f0-a81d-e74e2dd7f8c5@51ccb"
+      ]
+    }
+  }
+}

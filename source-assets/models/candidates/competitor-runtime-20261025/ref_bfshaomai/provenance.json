@@ -1,0 +1,9 @@
+{
+  "id": "ref_bfshaomai",
+  "sourceId": "BFShaoMai",
+  "scene": "Breakfast",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\BFShaoMai\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Breakfast/BFShaoMai.prefab",
+  "bundle": "levelbreakfastobjprefab_assets_part2_2598409845f1ae47bdaccd4705da9ac7.bundle",
+  "sourceSha256": "d6f48968118a1901a2908dd0231a21126187843abe219247af4e84d41115896a"
+}

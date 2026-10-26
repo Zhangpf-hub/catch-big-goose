@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtringcandy",
+  "sourceId": "GTRingCandy",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTRingCandy\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTRingCandy.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "b637037b4adf87a95d8fb3b87e6725867f611af7f11868b93543cf3b1d4db399"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ref_gtsmiledoll",
+  "triangles": 1680,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.8591694831848145,
+    1.0,
+    0.4640806019306183
+  ],
+  "glbRoundtrip": true
+}

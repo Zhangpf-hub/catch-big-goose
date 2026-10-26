@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "scene_barbecue",
+      "passed": true,
+      "triangles": 3316,
+      "materials": 4,
+      "parts": 4,
+      "sha256": "5f2a55f53525d2eb9bc48ba06012e68fe2daae30f3cee17e5eecd2b2f08405f1",
+      "fbxSha256": "1c24ac6c2357289525086d5194c825e0ca42a11cbf3547d1849a558fcefe5b24",
+      "materialSha256": "cac6fc56e784bcd523605b8d2ef4ad85c0d4da7a66303cc8e5ee8c2c8c3892eb",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "scene_breakfast",
+      "passed": true,
+      "triangles": 1152,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "a9c2c38c43df13ef81848f7bb0db5c6c8010a964c663b6224c8c0b43b9dce654",
+      "fbxSha256": "923d83debecd9f45d43e0bf5898110adbc2f7310f8cb87a3da165c6b80aa4b57",
+      "materialSha256": "2996615303498234f9ed8a94c65681af6f2f4476e053d7f046657b918be251f0",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "id": "scene_countryside",
+      "passed": true,
+      "triangles": 1658,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "961c29bcb62aabeb80c7a4a9fd202e430599270a4f473359d3142729a0412472",
+      "fbxSha256": "978a37b11ccf25a849973645fde65eae71dc25d6c49f4bb535ce48cdf3cdbeb5",
+      "materialSha256": "95b8182d40ce7106ff6ab4158beb2f97a718542a3c059a8c4e734a37f775f724",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "scene_grocery",
+      "passed": true,
+      "triangles": 3754,
+      "materials": 1,
+      "parts": 1,
+      "sha256": "9c55c01ed6c1610ab57473369f27370cbe003b3d09bd7778b136534c9209c1f4",
+      "fbxSha256": "b8c3677ab3409c2c2064296aca59e96a7a41e485ebfb9104179972264c697c23",
+      "materialSha256": "d8e8d5a24d2d4de5801ba44691ec008f32c0a8d748df0ab7c15878a49c76b3fc",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "scene_toys",
+      "passed": true,
+      "triangles": 612,
+      "materials": 2,
+      "parts": 2,
+      "sha256": "9f0fd79c651eaba12b73069cb099af8812872aadfbe6f5f9cbd4ebea588c34e8",
+      "fbxSha256": "17527f98aeabf1acc0051745fa18c9e14b6be288b230c86a8537d6fa2b4f9e74",
+      "materialSha256": "f60815d164eea7bb79e3fcf9fb0ad328bc0447a3c3d547789a6108a2e8330fd7",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      }
+    }
+  ]
+}

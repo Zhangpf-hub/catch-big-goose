@@ -1,0 +1,137 @@
+[
+  {
+    "id": "phone",
+    "triangles": 2636,
+    "vertices": 1344,
+    "blenderBounds": [
+      0.5605000257492065,
+      1.0,
+      0.2175000011920929
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 60864,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "laptop",
+    "triangles": 3316,
+    "vertices": 1728,
+    "blenderBounds": [
+      1.0,
+      0.7211952209472656,
+      0.7087869048118591
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 77540,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "camera",
+    "triangles": 3496,
+    "vertices": 1776,
+    "blenderBounds": [
+      1.0,
+      0.7133333683013916,
+      0.7388888597488403
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 79880,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "headphones",
+    "triangles": 2388,
+    "vertices": 1248,
+    "blenderBounds": [
+      1.0,
+      0.26854461431503296,
+      0.8403756022453308
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 56312,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "handheld",
+    "triangles": 4048,
+    "vertices": 2064,
+    "blenderBounds": [
+      1.0,
+      0.5150485634803772,
+      0.21165049076080322
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 92584,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  }
+]

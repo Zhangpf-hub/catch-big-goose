@@ -1,0 +1,20 @@
+  (func $j80163 (type $t0) (param $p0 i32) (param $p1 i32)
+    (local $l2 i64)
+    i64.const 4510805389529107661
+    local.set $l2
+    local.get $p0
+    local.get $l2
+    i32.wrap_i64
+    i32.store offset=28
+    local.get $p0
+    local.get $l2
+    i64.const 32
+    i64.shr_u
+    i32.wrap_i64
+    i32.store offset=32
+    local.get $p0
+    i32.const 1050253722
+    i32.store offset=20
+    local.get $p0
+    i32.const 0
+    call $j1166) ;; UnityEngine.MonoBehaviour$$.ctor | UnityEngine.RectTransform$$.ctor

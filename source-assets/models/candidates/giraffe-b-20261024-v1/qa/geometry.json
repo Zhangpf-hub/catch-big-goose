@@ -1,0 +1,15 @@
+{
+  "closedShellEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.3102388381958008,
+    0.48581910133361816,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    1.4901161193847656e-08
+  ],
+  "passed": true
+}

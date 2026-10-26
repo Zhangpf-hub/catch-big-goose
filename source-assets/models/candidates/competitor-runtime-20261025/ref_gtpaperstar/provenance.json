@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtpaperstar",
+  "sourceId": "GTPaperStar",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTPaperStar\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTPaperStar.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "549d2bba7b2122db720563884afc9106455cd6fe30dc0d04a6bcc2c560de4c9d"
+}

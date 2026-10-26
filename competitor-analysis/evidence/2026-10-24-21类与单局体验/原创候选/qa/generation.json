@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "alarmclock",
+    "theme": "electronics",
+    "triangles": 2596,
+    "vertices": 1356,
+    "blenderBounds": [
+      0.8608618974685669,
+      0.31052520871162415,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 61196,
+    "sha256": "40bd1177ced6d48fe86be113b37c85749967e6628ccdf009310472dbb5abbe9a",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "avocado",
+    "theme": "fruit",
+    "triangles": 1396,
+    "vertices": 708,
+    "blenderBounds": [
+      0.6593408584594727,
+      0.5934064984321594,
+      0.9999999403953552
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 32988,
+    "sha256": "94db277ad4d068b0d5b3d23caf3b9c0eddf30bddafee65f81997584357431435",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "bellpepper",
+    "theme": "farm",
+    "triangles": 1124,
+    "vertices": 586,
+    "blenderBounds": [
+      0.7209638357162476,
+      0.6879356503486633,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 27436,
+    "sha256": "715f2f45fba1119748b55628479163098013826d33b240f47ca8ef949549564d",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "blueberry",
+    "theme": "fruit",
+    "triangles": 2516,
+    "vertices": 1312,
+    "blenderBounds": [
+      1.0,
+      0.7349397540092468,
+      0.7012048363685608
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 59232,
+    "sha256": "aaefb4e952aa7b2cc5dbdadaac64ddda09b4eaf71d37149558d270f32fec5aa8",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "broccoli",
+    "theme": "farm",
+    "triangles": 1828,
+    "vertices": 1038,
+    "blenderBounds": [
+      0.8446629643440247,
+      0.9069766998291016,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 46260,
+    "sha256": "ef618f9d5bb374653da8e7ed2bd36f1c1521f7409fd5da207f856f6f4b7708d7",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "cabbage",
+    "theme": "farm",
+    "triangles": 1692,
+    "vertices": 862,
+    "blenderBounds": [
+      0.7603652477264404,
+      0.810126543045044,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 39764,
+    "sha256": "d6b9037f4837b91e1598a6b702a957e515e3f08fcc28f9ad28e0f974def456c6",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "chocolate",
+    "theme": "dessert",
+    "triangles": 864,
+    "vertices": 448,
+    "blenderBounds": [
+      0.7720658779144287,
+      0.9999999403953552,
+      0.27203428745269775
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 21604,
+    "sha256": "61dcd11c0df76fff3a1374f657dfdeec87a8db9550487f9468baf5910a5d2335",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "coconut",
+    "theme": "fruit",
+    "triangles": 1908,
+    "vertices": 1052,
+    "blenderBounds": [
+      0.9279260635375977,
+      0.8596591353416443,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 47164,
+    "sha256": "c3b6e7301c9889e8f54bdd08f802606c8393226a8f6c797eb0f92dfbff1fc366",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "cucumber",
+    "theme": "farm",
+    "triangles": 1316,
+    "vertices": 798,
+    "blenderBounds": [
+      0.3510472774505615,
+      0.31666669249534607,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 35700,
+    "sha256": "da0076e5427452790890e767b87142d61c00f172b9a12f565f8c7d87312a3112",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "dragonfruit",
+    "theme": "fruit",
+    "triangles": 2420,
+    "vertices": 1244,
+    "blenderBounds": [
+      0.705660879611969,
+      0.709865927696228,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 56536,
+    "sha256": "e46b9e28eff2be7d0fbb11f9fa9e8c71c6130623b4c1afafa1c73770430607f5",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "dumpling",
+    "theme": "dessert",
+    "triangles": 1452,
+    "vertices": 874,
+    "blenderBounds": [
+      1.0,
+      0.9677421450614929,
+      0.8868334293365479
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 38708,
+    "sha256": "9cdacb424d675542116553f32ede0c01f29b5fce009489edaa006416d44b397c",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "egg",
+    "theme": "farm",
+    "triangles": 912,
+    "vertices": 458,
+    "blenderBounds": [
+      0.5875000357627869,
+      0.5875000357627869,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 21996,
+    "sha256": "952f2713f9d49dcdedaa91123360f0b9559417f97020df0257685a04ad7adfb3",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "eggtart",
+    "theme": "dessert",
+    "triangles": 1528,
+    "vertices": 798,
+    "blenderBounds": [
+      0.9938895106315613,
+      0.9999999403953552,
+      0.4011113941669464
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 36912,
+    "sha256": "8735912ea21a942951f5511f0278c6d12b481bcb57a04a00f12d429b34754152",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "flashlight",
+    "theme": "electronics",
+    "triangles": 1872,
+    "vertices": 944,
+    "blenderBounds": [
+      0.5647059082984924,
+      0.5647059082984924,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 43412,
+    "sha256": "233b665642046280df80f6845b59a3edf35e0a2e27307cf7c1ca118b2c72a529",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "gamepad",
+    "theme": "electronics",
+    "triangles": 1916,
+    "vertices": 980,
+    "blenderBounds": [
+      1.0,
+      0.27912038564682007,
+      0.4889828562736511
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 44904,
+    "sha256": "6539b01e6b61ca536ae5e5ddda50bc93cd658823904b2eb086f569aea8dc16c1",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "garlic",
+    "theme": "farm",
+    "triangles": 1592,
+    "vertices": 812,
+    "blenderBounds": [
+      0.7712467312812805,
+      0.8244274854660034,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 37532,
+    "sha256": "6260585de4b90bbf1d23f7e747518f8285c471a029abc80189cbd018201a7fe3",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "goldchime",
+    "theme": "antique",
+    "triangles": 1596,
+    "vertices": 816,
+    "blenderBounds": [
+      0.7831324338912964,
+      0.7831324338912964,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 37744,
+    "sha256": "b42f90a783c2e5cd72706ced8ed303d6f90c5377ee5d30c722d477508f771d30",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "goldring",
+    "theme": "antique",
+    "triangles": 612,
+    "vertices": 310,
+    "blenderBounds": [
+      0.8496732115745544,
+      0.2352941334247589,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 15492,
+    "sha256": "af4135c2a6c3d4466b0ff86c3e847796b69d540664aab266a178f6554e4f8b86",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadebeads",
+    "theme": "antique",
+    "triangles": 2624,
+    "vertices": 1338,
+    "blenderBounds": [
+      0.8435138463973999,
+      1.0,
+      0.26581934094429016
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 60684,
+    "sha256": "1cc3b1212eb687fe2fbd1ef2c9a8751f0c46149e0e641078fe4b4820240ec40d",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadecarp",
+    "theme": "antique",
+    "triangles": 1224,
+    "vertices": 624,
+    "blenderBounds": [
+      1.0,
+      0.38640081882476807,
+      0.6338889598846436
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 29244,
+    "sha256": "1b497ed87c298743a86e647490e516775af6a55bfee338a084dfca0b16fdac82",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadechime",
+    "theme": "antique",
+    "triangles": 644,
+    "vertices": 344,
+    "blenderBounds": [
+      1.0,
+      0.22306093573570251,
+      0.6031709909439087
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 16796,
+    "sha256": "6d40a379136bd84f5bf13b1ee0ca50a8156c770f0adc2f6a2b3d80b75db69513",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadeleaf",
+    "theme": "antique",
+    "triangles": 900,
+    "vertices": 542,
+    "blenderBounds": [
+      0.47904205322265625,
+      0.22514723241329193,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 24728,
+    "sha256": "260d36732310dc2ba4908e69e948e51455aa74aca518ea0f37b03663162a4bf2",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadelock",
+    "theme": "antique",
+    "triangles": 1128,
+    "vertices": 572,
+    "blenderBounds": [
+      1.0,
+      0.25723686814308167,
+      0.7631579041481018
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -2.9802322387695312e-08
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 27024,
+    "sha256": "0dc0e6ef47c1fc247468f8366d929b3d4970e8fab6044496bf41f643c9a63ca9",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadepeanut",
+    "theme": "antique",
+    "triangles": 1280,
+    "vertices": 716,
+    "blenderBounds": [
+      1.0,
+      0.4362850487232208,
+      0.47516193985939026
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 32588,
+    "sha256": "6da4e46af87c9ea6d31afb721d5858bf06638fe714e6e0665032c98eefe1274c",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadetalisman",
+    "theme": "antique",
+    "triangles": 816,
+    "vertices": 416,
+    "blenderBounds": [
+      0.5889570713043213,
+      0.20674848556518555,
+      0.9999999403953552
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 20204,
+    "sha256": "37a2be12f63cffaae55777af8b931b1562149887514cc6e8da1c9f39830fdb78",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadeteapot",
+    "theme": "antique",
+    "triangles": 1752,
+    "vertices": 900,
+    "blenderBounds": [
+      1.0,
+      0.4667360484600067,
+      0.5682005286216736
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 41252,
+    "sha256": "6b80db97cec36fcb4eab0d1315f14ae6a5a11e45c768994d34716f948051c116",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadetiger",
+    "theme": "antique",
+    "triangles": 2016,
+    "vertices": 1100,
+    "blenderBounds": [
+      1.0,
+      0.4160097539424896,
+      0.6689885854721069
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 49364,
+    "sha256": "45f251887ec8f81ad7e2a1f1b35c27b6606d2e6dbca4df476f1b04d96864c25f",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "jadevase",
+    "theme": "antique",
+    "triangles": 1240,
+    "vertices": 624,
+    "blenderBounds": [
+      0.6807511448860168,
+      0.6807511448860168,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 29308,
+    "sha256": "0de4791dbea16a4691f1573059f37e86143e51cd7f60f737f5514acfe33c764f",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "keyboard",
+    "theme": "electronics",
+    "triangles": 1272,
+    "vertices": 688,
+    "blenderBounds": [
+      1.0,
+      0.5319148898124695,
+      0.18617020547389984
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 31920,
+    "sha256": "c67530de6d1c52b8e80db8b4a12cb2b5e9882e07ae3d167c9f6c2788be982030",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "kiwi",
+    "theme": "fruit",
+    "triangles": 1172,
+    "vertices": 620,
+    "blenderBounds": [
+      1.0,
+      1.0,
+      0.37638887763023376
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 28920,
+    "sha256": "97a2e1e657d280634ca8e5dfdedf6da3112796f95e019fe7cbb7483cb689f013",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "lollipop",
+    "theme": "dessert",
+    "triangles": 1588,
+    "vertices": 816,
+    "blenderBounds": [
+      0.5714285969734192,
+      0.16224491596221924,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 37548,
+    "sha256": "6ed8535fbdab7eb8e38766956bb31aa844c731e66c53ec52c250efd05e56fe7b",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "mango",
+    "theme": "fruit",
+    "triangles": 740,
+    "vertices": 376,
+    "blenderBounds": [
+      0.6041665077209473,
+      0.4999999403953552,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 18360,
+    "sha256": "d0f58488e82ef64da62cc89fb00e9c978a385ec0c8aab525b8f261ff2a502ee3",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "microphone",
+    "theme": "electronics",
+    "triangles": 2092,
+    "vertices": 1054,
+    "blenderBounds": [
+      0.4596205949783325,
+      0.4596205949783325,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 48264,
+    "sha256": "3fb873c08d31177bda035d90c233e407dee78e8754ef259425dc069e7049d2e0",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "monitor",
+    "theme": "electronics",
+    "triangles": 648,
+    "vertices": 336,
+    "blenderBounds": [
+      1.0,
+      0.3636363446712494,
+      0.9204545617103577
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 16572,
+    "sha256": "d160094dd782b21f4baafc2ca4d03b9cb27f00fc3db17e8b20eb353509bd0267",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "mooncake",
+    "theme": "dessert",
+    "triangles": 1960,
+    "vertices": 1016,
+    "blenderBounds": [
+      0.9951117634773254,
+      1.0,
+      0.40955692529678345
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 46520,
+    "sha256": "9d45f80087ae1308ec3c1ebf141764fdbcaec610b139ad435435c85000316173",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "onion",
+    "theme": "farm",
+    "triangles": 1004,
+    "vertices": 632,
+    "blenderBounds": [
+      0.8734458088874817,
+      0.8824587464332581,
+      0.9999999403953552
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 28300,
+    "sha256": "58b083adc16ca59d8c3d008b041ebaf8026d0f60b785096b1671eb07db749221",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "pancake",
+    "theme": "dessert",
+    "triangles": 1056,
+    "vertices": 536,
+    "blenderBounds": [
+      1.0,
+      1.0,
+      0.6544117331504822
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 25384,
+    "sha256": "b6e05007aeb67685c65ea1e07bd6d6a296f7a313c2a22b623b77b243843a10c8",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "peach",
+    "theme": "fruit",
+    "triangles": 976,
+    "vertices": 514,
+    "blenderBounds": [
+      0.8974361419677734,
+      0.7935444116592407,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 24216,
+    "sha256": "c8c1d3898ebcca7cb596fc8f0a2abe5b195d1910fead07b72dc4989e9f4b41a0",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "persimmon",
+    "theme": "fruit",
+    "triangles": 1468,
+    "vertices": 752,
+    "blenderBounds": [
+      0.9999998807907104,
+      1.0,
+      0.9477611184120178
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 34868,
+    "sha256": "2d6a3c9bed76a28c09131b8e3a9d629a519f66411614637375b23b874543f937",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "pineapple",
+    "theme": "fruit",
+    "triangles": 3052,
+    "vertices": 1624,
+    "blenderBounds": [
+      0.6139498353004456,
+      0.6139498353004456,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 73152,
+    "sha256": "b6431cc2891493001d648d387d48359eeeb53872f2cf22e112421cef601ac63d",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "pomegranate",
+    "theme": "fruit",
+    "triangles": 932,
+    "vertices": 482,
+    "blenderBounds": [
+      0.7640446424484253,
+      0.7415729761123657,
+      0.9999999403953552
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 23056,
+    "sha256": "f3c19480523ab2ea79c380d7b45b8efddcdb720dd30d61ab91d8818b37ab4949",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "popsicle",
+    "theme": "dessert",
+    "triangles": 648,
+    "vertices": 336,
+    "blenderBounds": [
+      0.4475138187408447,
+      0.2215469479560852,
+      0.9999999403953552
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 16640,
+    "sha256": "aa8bcd14fb16152177edca5be576a3247bb1bee9449a06729ea13fa3c59434eb",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "potato",
+    "theme": "farm",
+    "triangles": 848,
+    "vertices": 434,
+    "blenderBounds": [
+      1.0,
+      0.6654370427131653,
+      0.6744188666343689
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 20896,
+    "sha256": "2170430b3a9ddbe6f0f03dbea89e67312835865e6eed1b6b4641561258e86bc1",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "powerbank",
+    "theme": "electronics",
+    "triangles": 864,
+    "vertices": 448,
+    "blenderBounds": [
+      0.5308641791343689,
+      0.2925925850868225,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 21524,
+    "sha256": "4ff95fb2e6ca1fb8af421d1e241df4cc94f3e87f239998d8f9a2f1f4ded25362",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "pretzel",
+    "theme": "dessert",
+    "triangles": 620,
+    "vertices": 336,
+    "blenderBounds": [
+      1.0,
+      0.29423782229423523,
+      0.927264928817749
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 16428,
+    "sha256": "deb7bf3c2fd725c67d461e3643c00f614cfc992ea0778a11a7866a0d5cc6f858",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "printer",
+    "theme": "electronics",
+    "triangles": 724,
+    "vertices": 376,
+    "blenderBounds": [
+      0.8628263473510742,
+      1.0,
+      0.5895724296569824
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 18348,
+    "sha256": "2cbbd50052cd9cbcc62041aea09cdd8a930bd98a3f81c2d498fe53819431b1e4",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "radish",
+    "theme": "farm",
+    "triangles": 928,
+    "vertices": 478,
+    "blenderBounds": [
+      0.5931320190429688,
+      0.5641021132469177,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 22832,
+    "sha256": "cc13ac6015fc37abf1a81412568aa6d75f2a3d50c8f9862b47e2ee4fcc43cce2",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "router",
+    "theme": "electronics",
+    "triangles": 996,
+    "vertices": 518,
+    "blenderBounds": [
+      0.9302328824996948,
+      0.663724958896637,
+      1.0000000596046448
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -2.9802322387695312e-08
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 24600,
+    "sha256": "50104923a1dc6b00ff22cf4c4bb21024478a2f240e3f1f7e0262e3ca53769aa3",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "shovel",
+    "theme": "farm",
+    "triangles": 724,
+    "vertices": 368,
+    "blenderBounds": [
+      0.41818180680274963,
+      0.11363635957241058,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 18024,
+    "sha256": "e6886fb70d1224ce3a58167173f99560f64f8a6ff8d81493050223d4436f6681",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "starfruit",
+    "theme": "fruit",
+    "triangles": 176,
+    "vertices": 180,
+    "blenderBounds": [
+      0.9533717632293701,
+      1.0,
+      0.8904215693473816
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 8788,
+    "sha256": "e734c9b3a1355ed1ce4a98ea8a8aba57e64f3714bf0064c05eaec6d25f366e89",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "swissroll",
+    "theme": "dessert",
+    "triangles": 1732,
+    "vertices": 888,
+    "blenderBounds": [
+      0.9797297120094299,
+      1.0,
+      0.9797297120094299
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 40728,
+    "sha256": "c5133d6c0979b397b61d16d6192afcd711da53aaca2808df6d5bbc22701a047b",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "tablet",
+    "theme": "electronics",
+    "triangles": 728,
+    "vertices": 376,
+    "blenderBounds": [
+      0.7819148898124695,
+      0.18936170637607574,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 18340,
+    "sha256": "679cdbc92554318611d95571144615bed06fcaa33ca22ad3a76560e802398bd2",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "teacup",
+    "theme": "dessert",
+    "triangles": 976,
+    "vertices": 496,
+    "blenderBounds": [
+      0.530964732170105,
+      0.530964732170105,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 23636,
+    "sha256": "630cfcdd8d8cfe1338eaf831e3bd4761f62fc33abe44e98639ae098d5387dd45",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "television",
+    "theme": "electronics",
+    "triangles": 916,
+    "vertices": 472,
+    "blenderBounds": [
+      0.9999999403953552,
+      0.3911764323711395,
+      0.8294116854667664
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 22592,
+    "sha256": "ac09f2743554be99585e537935641802319d74975114083f8d1d6e67dadc8732",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "toast",
+    "theme": "dessert",
+    "triangles": 664,
+    "vertices": 340,
+    "blenderBounds": [
+      0.8226949572563171,
+      0.304964542388916,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 16772,
+    "sha256": "70bf1e2d665c17f0801eefdbbe4bed61c35007ae6ea39542e59bb9c460d3cda4",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "tomato",
+    "theme": "farm",
+    "triangles": 1220,
+    "vertices": 624,
+    "blenderBounds": [
+      0.9350646734237671,
+      0.9090908169746399,
+      0.9999999403953552
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 29256,
+    "sha256": "b6031e9ef3081ae3f39210012091666da21e3a68174a78352f296a6dff139f61",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "usbdrive",
+    "theme": "electronics",
+    "triangles": 816,
+    "vertices": 416,
+    "blenderBounds": [
+      0.32608699798583984,
+      0.16304349899291992,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 20164,
+    "sha256": "6b7503266ffea85dc5d315636b2aba51c51f5a595669a47ea97630151732838d",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "wafer",
+    "theme": "dessert",
+    "triangles": 1296,
+    "vertices": 672,
+    "blenderBounds": [
+      1.0,
+      0.7538461685180664,
+      0.5084615349769592
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 31372,
+    "sha256": "dcd11e692a80f67167bee28a414a4ce8ae4b353f60d626dec9e5307db945592f",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "wateringcan",
+    "theme": "farm",
+    "triangles": 992,
+    "vertices": 520,
+    "blenderBounds": [
+      1.0,
+      0.4842246174812317,
+      0.6870980262756348
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 24524,
+    "sha256": "9e2e54e9a680cebf29c672ed5245a05babbddd7cc2d922b961751825eb3c4bc7",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  },
+  {
+    "id": "watermelon",
+    "theme": "fruit",
+    "triangles": 2272,
+    "vertices": 1266,
+    "blenderBounds": [
+      0.6942275762557983,
+      0.640101969242096,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "materials": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "bytes": 56180,
+    "sha256": "8aba2f9947807e7e72fb32ec0a5068337eaf59aa70e96b38135ae4dac6e09aab",
+    "roundtripPassed": true,
+    "blenderVersion": "4.5.14 LTS",
+    "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+  }
+]

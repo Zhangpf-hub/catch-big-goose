@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "pudding",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pudding\\pudding.fbx",
+  "sourceTriangles": 1780,
+  "triangles": 1780,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8250001072883606,
+    0.8250002861022949,
+    1.000000238418579
+  ],
+  "normalizedDimensions": [
+    0.824999988079071,
+    0.824999988079071,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

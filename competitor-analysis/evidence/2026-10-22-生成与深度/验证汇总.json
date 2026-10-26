@@ -1,0 +1,87 @@
+{
+  "archivedAtUtc": "2026-10-22T16:10:47.658507+00:00",
+  "sampleDate": "2026-10-22",
+  "appId": "wxb98ac240fd74b0e3",
+  "localPackageVersion": "401",
+  "compiledMethodCount": 34,
+  "methodModule": {
+    "passed": true,
+    "methodCount": 34,
+    "signatureMatched": true,
+    "bytes": 69929,
+    "sha256": "b6dd1c226dbcdc9f207f3d7ec8d7fcef66f18a1e818dbedec0aab66d229433ed",
+    "scope": "WABT names/types/control flow and JS engine validation only; dependency imports are unresolved and the module is not instantiated."
+  },
+  "originalWasmProbe": {
+    "passed": true,
+    "numericCases": 606,
+    "weightDraws": 2048,
+    "directHelperOutOfRangeStates": 218,
+    "caveat": "RollIndex is invoked directly. This probe does not model Roll/Check/RemoveItem call lifecycle and does not prove a defect in the shipped game.",
+    "moduleSha256": "bc3fc1b5caddfdde994143cdb7caf097153408bbf088fe40f9f7321c1b724a0e",
+    "scope": "Five original WASM bodies; Unity RNG, IL2CPP field descriptors and list access are host test adapters. Not full-game execution."
+  },
+  "policyTests": {
+    "passed": true,
+    "checks": 99936,
+    "originalNumericCases": 606,
+    "originalWeightedDraws": 2048,
+    "scope": "Actual production C# policies, without Unity native physics"
+  },
+  "unityEditMode": {
+    "result": "Passed",
+    "passed": 10,
+    "failed": 0,
+    "endTimeUtc": "2026-10-22 15:51:28Z"
+  },
+  "unityRuntime": {
+    "passed": true,
+    "checks": 71,
+    "errors": [],
+    "unityVersion": "2022.3.62f3"
+  },
+  "testedRuntimeSource": [
+    {
+      "file": "GooseGeneration.cs",
+      "sha256": "ba1237c00472bd786f697e49afa87add9afa1683288352c465f7970a563c28ab",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseDepthPolicy.cs",
+      "sha256": "06980409c4c23acedc8e86cd572e9665ec9945040443ecc374409f2be21b59a4",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GoosePileDepth.cs",
+      "sha256": "34c29d1d6136489f6aacee3f470d341907e0f8249ebae0a95afe9509d4f6d44d",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseItem.cs",
+      "sha256": "043ec1850700685ef22be0f15238f8c59e31f83ae7c7e7c5caf9b8cac3f94b4a",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseRules.cs",
+      "sha256": "5eab3095a6483ea8adf7a5d4e4fa531e03c2ad960094c40c14fd72754a1d611b",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseGame.cs",
+      "sha256": "45cf9f8bc883b12fa8c9da50ead30c81e7b698c4751ae2404e5f276e826788d3",
+      "matchesTestedBuild": true
+    },
+    {
+      "file": "GooseAlgorithmAcceptance.cs",
+      "sha256": "ec1fee66cb935b3dee7efb15d2d11ec142b4128037e0186b8d67db166e006d35",
+      "matchesTestedBuild": true
+    }
+  ],
+  "playerExeSha256": "76a4560e40ec43334f5300f52d45e74f55579709d5ea01eb838f24c7ac9e568b",
+  "limits": [
+    "Not original C# source",
+    "Five isolated original helper bodies are executed with host adapters",
+    "No complete competitor game execution or configuration equivalence",
+    "Headless Unity physics QA is not visual, mouse/touch or mobile performance acceptance"
+  ]
+}

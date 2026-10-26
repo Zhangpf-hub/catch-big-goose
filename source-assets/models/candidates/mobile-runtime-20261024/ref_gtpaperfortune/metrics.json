@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 6,
+  "id": "ref_gtpaperfortune",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTPaperFortune\\GTPaperFortune.blend",
+  "sourceTriangles": 280,
+  "triangles": 280,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.286669373512268,
+    1.1290040016174316,
+    0.9144158363342285
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.8774624466896057,
+    0.7106844186782837
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

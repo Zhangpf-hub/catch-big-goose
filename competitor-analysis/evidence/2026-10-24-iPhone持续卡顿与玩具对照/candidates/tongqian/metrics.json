@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "tongqian",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\tongqian\\tongqian.fbx",
+  "sourceTriangles": 3636,
+  "triangles": 3636,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    1.0,
+    0.12000015377998352
+  ],
+  "normalizedDimensions": [
+    1.0,
+    1.0,
+    0.12000013887882233
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

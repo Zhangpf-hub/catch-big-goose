@@ -1,0 +1,12 @@
+{
+  "id": "ref_saltedegg",
+  "triangles": 180,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.7864702343940735,
+    1.0,
+    0.819083571434021
+  ],
+  "glbRoundtrip": true
+}

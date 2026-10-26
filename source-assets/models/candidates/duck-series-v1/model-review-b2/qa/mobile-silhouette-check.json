@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "minimumIou": 0.98,
+  "rows": [
+    {
+      "id": "duck-eggtart",
+      "view": "front",
+      "iou": 0.9968030978432167,
+      "passed": true,
+      "imageHashes": [
+        "b25f86cc0aea41df9cd57cb80777538246a0c24d0b34292bd2bba1a243bac4fc",
+        "796953a46529660b7e08b6a1464c77244a0d8ff8d44b3ddcec8b090f4782a3d6"
+      ]
+    },
+    {
+      "id": "duck-eggtart",
+      "view": "side",
+      "iou": 0.9970484623440922,
+      "passed": true,
+      "imageHashes": [
+        "112ada02a420c84d6dee357bf15d4d7a37e677314722c3b334d3998cf13e72a3",
+        "059f26f902702a290f1eb4e96c6fecf7c7e663ffe274687464cf2327d38d2da7"
+      ]
+    },
+    {
+      "id": "duck-eggtart",
+      "view": "back",
+      "iou": 0.996639714375722,
+      "passed": true,
+      "imageHashes": [
+        "9552204a7cb72c6318ab1aaebc10680849c850a2709a73457a949290c6b33110",
+        "e27e98c5461c07234d1349e6d1f314aebfe1e3232b80eb7ab7e8df5c92facc23"
+      ]
+    },
+    {
+      "id": "duck-eggtart",
+      "view": "hero",
+      "iou": 0.9977168425883433,
+      "passed": true,
+      "imageHashes": [
+        "68a1f50c859f2f46418d4fedecdf621863589efa65a4ab8d512ed48e43b778fa",
+        "0355097c3382c541f4f8619063e5e68d8e847a1d78c44838b52f64aba85bd1e1"
+      ]
+    },
+    {
+      "id": "duck-eggtart",
+      "view": "gameplay",
+      "iou": 0.9983436564827058,
+      "passed": true,
+      "imageHashes": [
+        "41f8f8d589b2e39f0e472b157905e945ba28188078a91792f759d8f57f7a3557",
+        "3f628aef3c1b04c490a880729cadcb278540252f3040c4d6ba4b96d01175b70c"
+      ]
+    },
+    {
+      "id": "duck-steelcup",
+      "view": "front",
+      "iou": 0.9900498520650103,
+      "passed": true,
+      "imageHashes": [
+        "efca4567d3379a901dcc7927b68b75bfdcb7db4a6c2f0eca70b73f7274c5f32b",
+        "8ce120fd6b236acd0edfa66d2d39068e7d832ee7ef9d8241d265cd14f28080f9"
+      ]
+    },
+    {
+      "id": "duck-steelcup",
+      "view": "side",
+      "iou": 0.9949490311323353,
+      "passed": true,
+      "imageHashes": [
+        "c2149eef27828d9e5f5f65995bccd050d82e795ce803c8533e21264b37449977",
+        "06f8f492f13f41a8893dad1c99c0d5283afc8f63b67c1dd2a4d8ecb8c50b98a7"
+      ]
+    },
+    {
+      "id": "duck-steelcup",
+      "view": "back",
+      "iou": 0.9896012810897371,
+      "passed": true,
+      "imageHashes": [
+        "2102b245283ba4942a283faaa41b60b377ad79610c58042da5257d6e79d18f58",
+        "d3f3ba8e770a1b73ec7299b6f9d11931da53a0118f744dfcd3fc8660706a99d3"
+      ]
+    },
+    {
+      "id": "duck-steelcup",
+      "view": "hero",
+      "iou": 0.9940568978955573,
+      "passed": true,
+      "imageHashes": [
+        "3e94a449bf1a46f1d17f17871b816572e05a669d591931e5ba3d720e53286bfc",
+        "6a49184426021f78be229372ac49eed0fbbbbf378510e5b2573759fea4e5d728"
+      ]
+    },
+    {
+      "id": "duck-steelcup",
+      "view": "gameplay",
+      "iou": 0.9974198158145443,
+      "passed": true,
+      "imageHashes": [
+        "6646a66481286fe33d184bb06b083fc623fa2163eb501e7bd62d82b5cb89199c",
+        "e7182729d717317cca9e00f61ff448682ddf57ad5b613652498315086e1f2de7"
+      ]
+    },
+    {
+      "id": "duck-numberblock",
+      "view": "front",
+      "iou": 0.9988183281380518,
+      "passed": true,
+      "imageHashes": [
+        "400db5e10544c34d48a6ba4a4446decad5891512e034a9c0ec210ce8aa664774",
+        "7835632ea1078fabb988219bd7dd4fd8298acdc470c1ccadc5e8d2b92a9539fa"
+      ]
+    },
+    {
+      "id": "duck-numberblock",
+      "view": "side",
+      "iou": 0.9988853639715339,
+      "passed": true,
+      "imageHashes": [
+        "1cf8c1ee3cf125569fb2248cb58c54bcbde97f23c87844ec1d6adddd4b29c8a6",
+        "f0fedb4ae73a74df48c06d1f60f5f9bb5f592b6bda37c69f6b29ce91cd9abc8d"
+      ]
+    },
+    {
+      "id": "duck-numberblock",
+      "view": "back",
+      "iou": 0.9987360094595421,
+      "passed": true,
+      "imageHashes": [
+        "1c360a3c822214d68219ac815ce6d470d2f0a98f44cefa2b7acfc21bff064e25",
+        "5ddae30ead84c8f76c0ef4f3bd73764b62c0e167b3f240f798b96683915dd078"
+      ]
+    },
+    {
+      "id": "duck-numberblock",
+      "view": "hero",
+      "iou": 0.998813049540777,
+      "passed": true,
+      "imageHashes": [
+        "ce7d73381af7cf0a861e0778aaa7db5bf2c7d671b2d9fa34f3b79040fada0b28",
+        "b73668ffb1224bbeb24d66cdffe0c83bf8e19de0354dd8b35bd9ec6e373bfdc7"
+      ]
+    },
+    {
+      "id": "duck-numberblock",
+      "view": "gameplay",
+      "iou": 0.9992443652077405,
+      "passed": true,
+      "imageHashes": [
+        "fb2891b08d22a93b35733be9db1b14446dec83ed0bffa2b0286ee346c91a97d6",
+        "c2a83bc009827fe726e23253f8ab5a7f9c8be6495816fed7fb6e7b0c584f892e"
+      ]
+    }
+  ],
+  "method": "Detailed and mobile GLB roundtrip silhouettes, each maximum edge 1, same camera and canvas; includes tiny normalization differences.",
+  "doesNotProveArtApproval": true,
+  "exposedHeadNeckSkinFurtherDecimated": false
+}

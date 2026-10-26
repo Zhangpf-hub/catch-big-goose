@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "cookie",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\cookie\\cookie.fbx",
+  "sourceTriangles": 1388,
+  "triangles": 1388,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.9898214936256409,
+    0.21112369000911713,
+    1.0
+  ],
+  "normalizedDimensions": [
+    0.9898214936256409,
+    0.21112364530563354,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

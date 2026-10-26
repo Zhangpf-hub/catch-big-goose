@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "tiezhiben",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_7903415434387290677.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1MulMatcap",
+      "glassFlattened": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "avocado",
+  "theme": "fruit",
+  "triangles": 1396,
+  "vertices": 708,
+  "blenderBounds": [
+    0.6593408584594727,
+    0.5934064984321594,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 32988,
+  "sha256": "94db277ad4d068b0d5b3d23caf3b9c0eddf30bddafee65f81997584357431435",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

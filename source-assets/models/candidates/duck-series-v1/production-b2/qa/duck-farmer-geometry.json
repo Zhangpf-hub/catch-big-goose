@@ -1,0 +1,18 @@
+{
+  "id": "duck-farmer",
+  "triangles": 3894,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.9927344918251038,
+    1.0,
+    0.8044358491897583
+  ],
+  "center": [
+    0.0,
+    0.0,
+    -1.4901161193847656e-08
+  ],
+  "passed": true
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "basket_farm",
+    "entries": [
+      {
+        "name": "basket_farm.001",
+        "triangles": 621
+      }
+    ]
+  },
+  {
+    "id": "basket_redwood",
+    "entries": [
+      {
+        "name": "basket_redwood.001",
+        "triangles": 392
+      }
+    ]
+  },
+  {
+    "id": "bowl_jade",
+    "entries": [
+      {
+        "name": "bowl_jade.001",
+        "triangles": 399
+      }
+    ]
+  },
+  {
+    "id": "tray_dessert",
+    "entries": [
+      {
+        "name": "tray_dessert.001",
+        "triangles": 400
+      }
+    ]
+  },
+  {
+    "id": "tray_electronics",
+    "entries": [
+      {
+        "name": "tray_electronics.001",
+        "triangles": 390
+      }
+    ]
+  }
+]

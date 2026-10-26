@@ -1,0 +1,39 @@
+{
+  "source": "source-assets\\models\\candidates\\duck-series-v1\\master-b2\\models\\duck-b2-master\\duck-b2-master.glb",
+  "sha256": "8918b8c3b1645593c2a2f81b1b7106e2df61e6e28c5ac134579feac7d05a0936",
+  "views": {
+    "front": [
+      0,
+      -4,
+      0
+    ],
+    "side": [
+      4,
+      0,
+      0
+    ],
+    "back": [
+      0,
+      4,
+      0
+    ],
+    "hero": [
+      2.3,
+      -4,
+      0.45
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "orthographicScale": 1.18,
+  "canvas": [
+    900,
+    900
+  ],
+  "renderedFromRoundtripGlb": true,
+  "renderer": "4.5.14 LTS Cycles 32 samples",
+  "conceptUsedAsTexture": false
+}

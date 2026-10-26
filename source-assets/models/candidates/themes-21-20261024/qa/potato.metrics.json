@@ -1,0 +1,28 @@
+{
+  "id": "potato",
+  "theme": "farm",
+  "triangles": 848,
+  "vertices": 434,
+  "blenderBounds": [
+    1.0,
+    0.6654370427131653,
+    0.6744188666343689
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 20896,
+  "sha256": "2170430b3a9ddbe6f0f03dbea89e67312835865e6eed1b6b4641561258e86bc1",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

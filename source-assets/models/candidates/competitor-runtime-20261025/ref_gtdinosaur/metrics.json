@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtdinosaur",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTDinosaur\\GTDinosaur.blend",
+  "sourceTriangles": 1996,
+  "triangles": 1996,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.8626827001571655,
+    1.2132809162139893,
+    1.3736162185668945
+  ],
+  "normalizedDimensions": [
+    1.0,
+    0.6513621211051941,
+    0.737439751625061
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

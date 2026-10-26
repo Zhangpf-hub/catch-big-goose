@@ -1,0 +1,23 @@
+{
+  "SheetName": "Assets/Res/ForEditor/PVPData.xlsx",
+  "WorksheetName": "PVPLevelRuleData",
+  "dataArray": [
+    {
+      "_id": 2001,
+      "_pvptoolid": [
+        1000101,
+        2000101,
+        1000102,
+        1000103,
+        1000104,
+        1000105,
+        2000102
+      ],
+      "_pvpbasetoolid": [
+        3000101
+      ],
+      "_toolpoolcount": 3,
+      "_toolproid": 1001
+    }
+  ]
+}

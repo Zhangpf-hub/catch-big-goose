@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\HamSausage2\\tex_3019183771690455511.png",
+      "uvMin": [
+        0.0,
+        0.0
+      ],
+      "uvMax": [
+        0.6628092527389526,
+        0.9736754298210144
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_hamsausage2\\albedo.png"
+}

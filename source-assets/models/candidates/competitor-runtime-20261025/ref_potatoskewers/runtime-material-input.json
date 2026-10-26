@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "PotatoSkewersMa",
+      "color": [
+        1.0,
+        0.9536296129226685,
+        0.900943398475647,
+        1
+      ],
+      "texture": "tex_-1549869031239403890.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

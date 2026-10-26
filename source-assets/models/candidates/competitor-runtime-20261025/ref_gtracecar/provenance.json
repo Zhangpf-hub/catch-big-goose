@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtracecar",
+  "sourceId": "GTRaceCar",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTRaceCar\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTRaceCar.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "2ba22c7e828f8b284da64564fdb4a1a0c7a9d8d1cc4865a6ed41a58f818db713"
+}

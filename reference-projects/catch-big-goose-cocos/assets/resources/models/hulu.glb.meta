@@ -1,0 +1,325 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f",
+  "files": [],
+  "subMetas": {
+    "c6475": {
+      "importer": "gltf-mesh",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@c6475",
+      "displayName": "",
+      "id": "c6475",
+      "name": "amber-cloud-0-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 832
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "52ffd": {
+      "importer": "gltf-mesh",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@52ffd",
+      "displayName": "",
+      "id": "52ffd",
+      "name": "Torus.001.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 392
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e446": {
+      "importer": "gltf-mesh",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@1e446",
+      "displayName": "",
+      "id": "1e446",
+      "name": "Icosphere.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fbfc7": {
+      "importer": "gltf-mesh",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@fbfc7",
+      "displayName": "",
+      "id": "fbfc7",
+      "name": "continuous-plump-gourd-mesh.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 1152
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c244a": {
+      "importer": "gltf-mesh",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@c244a",
+      "displayName": "",
+      "id": "c244a",
+      "name": "Cylinder.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 380
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0b568": {
+      "importer": "gltf-mesh",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@0b568",
+      "displayName": "",
+      "id": "0b568",
+      "name": "Cylinder.001.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 508
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "12b8b": {
+      "importer": "gltf-mesh",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@12b8b",
+      "displayName": "",
+      "id": "12b8b",
+      "name": "Torus.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 432
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c4b99": {
+      "importer": "gltf-embeded-image",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@c4b99",
+      "displayName": "",
+      "id": "c4b99",
+      "name": "hulu_continuous_honey_wax.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2c80e844-c110-422e-8b97-50c13e042c0f@c4b99"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c4e3": {
+      "importer": "gltf-material",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@9c4e3",
+      "displayName": "",
+      "id": "9c4e3",
+      "name": "hulu_golden_cloud_relief.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf7f5": {
+      "importer": "gltf-material",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@cf7f5",
+      "displayName": "",
+      "id": "cf7f5",
+      "name": "hulu_vermilion_cord.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c4abb": {
+      "importer": "gltf-material",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@c4abb",
+      "displayName": "",
+      "id": "c4abb",
+      "name": "hulu_cord_shadow.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4ac4": {
+      "importer": "gltf-material",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@f4ac4",
+      "displayName": "",
+      "id": "f4ac4",
+      "name": "hulu_sunlit_honey_amber.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "807b9": {
+      "importer": "gltf-material",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@807b9",
+      "displayName": "",
+      "id": "807b9",
+      "name": "hulu_antique_gold.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8c7e8": {
+      "importer": "gltf-scene",
+      "uuid": "2c80e844-c110-422e-8b97-50c13e042c0f@8c7e8",
+      "displayName": "",
+      "id": "8c7e8",
+      "name": "hulu.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "hulu_continuous_honey_wax",
+        "uri": "2c80e844-c110-422e-8b97-50c13e042c0f@c4b99"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2c80e844-c110-422e-8b97-50c13e042c0f@c6475",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@52ffd",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@1e446",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@fbfc7",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@c244a",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@0b568",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@12b8b"
+      ],
+      "skeletons": [],
+      "textures": [
+        "2c80e844-c110-422e-8b97-50c13e042c0f@e39f7"
+      ],
+      "materials": [
+        "2c80e844-c110-422e-8b97-50c13e042c0f@9c4e3",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@cf7f5",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@c4abb",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@f4ac4",
+        "2c80e844-c110-422e-8b97-50c13e042c0f@807b9"
+      ],
+      "scenes": [
+        "2c80e844-c110-422e-8b97-50c13e042c0f@8c7e8"
+      ]
+    }
+  }
+}

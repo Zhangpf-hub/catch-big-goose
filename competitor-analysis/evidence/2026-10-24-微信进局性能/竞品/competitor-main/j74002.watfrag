@@ -1,0 +1,68 @@
+  (func $j74002 (type $t1) (param $p0 i32) (param $p1 i32) (result i32)
+    (local $l2 i32)
+    i32.const 5127075
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3963584
+      call $j922
+      i32.const 5127075
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.load offset=8
+    local.set $l2
+    local.get $l2
+    i32.const 2
+    i32.le_u
+    if $I1
+      local.get $p0
+      i32.load offset=16
+      local.set $p1
+      local.get $p0
+      i32.const -1
+      i32.store offset=8
+      block $B2
+        local.get $p1
+        i32.load8_u offset=56
+        if $I3
+          i32.const 3963584
+          i32.load
+          call $j923
+          local.get $p0
+          i32.const 3963584
+          i32.load
+          i32.load offset=92
+          i32.load offset=8
+          i32.store offset=12
+          i32.const 1
+          local.set $p1
+          br $B2
+        end
+        local.get $p1
+        i32.const 0
+        call $j4380
+        local.get $p1
+        i32.const 0
+        call $j22259
+        i32.const 3963584
+        i32.load
+        call $j923
+        local.get $p0
+        i32.const 3963584
+        i32.load
+        i32.load offset=92
+        i32.load offset=8
+        i32.store offset=12
+        i32.const 2
+        local.set $p1
+      end
+      local.get $p0
+      local.get $p1
+      i32.store offset=8
+    end
+    local.get $l2
+    i32.const 3
+    i32.lt_u
+    return)

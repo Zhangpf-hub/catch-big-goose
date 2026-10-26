@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtplanepen",
+  "sourceId": "GTPlanePen",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTPlanePen\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTPlanePen.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "239969bc2b540d64bc44fcd8e65831447c165e996c2cbeeaadf356894846debd"
+}

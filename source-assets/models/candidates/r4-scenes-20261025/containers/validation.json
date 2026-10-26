@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "scope": "Static circular containers, separate 8000-triangle/2-material budget; gameplay collisions are analytic primitives.",
+  "models": [
+    {
+      "id": "round_breakfast_r4",
+      "triangles": 7296,
+      "materials": 2,
+      "outerDiameter": 4,
+      "innerRadius": 1.74,
+      "floorY": 0,
+      "rimHeight": 0.305,
+      "sha256": "d74f7a89d63a91dacc440b9bb421f88dae2aaec2868f194fc689aa03f1bf10fb",
+      "bytes": 212940,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "passed": true
+    },
+    {
+      "id": "round_barbecue_r4",
+      "triangles": 5568,
+      "materials": 2,
+      "outerDiameter": 4,
+      "innerRadius": 1.74,
+      "floorY": 0,
+      "rimHeight": 0.305,
+      "sha256": "a11d786b1bf549da8f9c263cc30421820a9b231f27262b673c84be74f60fd730",
+      "bytes": 143964,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "passed": true
+    },
+    {
+      "id": "round_countryside_r4",
+      "triangles": 7296,
+      "materials": 2,
+      "outerDiameter": 4,
+      "innerRadius": 1.74,
+      "floorY": 0,
+      "rimHeight": 0.305,
+      "sha256": "0137ffa5fe987445eeffbf1d7bc462a03f89f1706c432ae5edaac961f79d6016",
+      "bytes": 212948,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "passed": true
+    },
+    {
+      "id": "round_toys_r4",
+      "triangles": 3264,
+      "materials": 2,
+      "outerDiameter": 4,
+      "innerRadius": 1.74,
+      "floorY": 0,
+      "rimHeight": 0.305,
+      "sha256": "5baff56076ebd162767fc793aeea7841c1f4ca0427d43ecfad5c7a74c7bc7ab7",
+      "bytes": 86684,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "passed": true
+    },
+    {
+      "id": "round_grocery_r4",
+      "triangles": 7296,
+      "materials": 2,
+      "outerDiameter": 4,
+      "innerRadius": 1.74,
+      "floorY": 0,
+      "rimHeight": 0.305,
+      "sha256": "19cd4bc2751237b705457e62997dfe632c28ab6e1cd65fb6d41eb7cc58c42a07",
+      "bytes": 212924,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8",
+  "files": [],
+  "subMetas": {
+    "c244a": {
+      "importer": "gltf-mesh",
+      "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@c244a",
+      "displayName": "",
+      "id": "c244a",
+      "name": "Cylinder.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2652
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "13caf": {
+      "importer": "gltf-material",
+      "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@13caf",
+      "displayName": "",
+      "id": "13caf",
+      "name": "macaron_shell.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fed98": {
+      "importer": "gltf-material",
+      "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@fed98",
+      "displayName": "",
+      "id": "fed98",
+      "name": "macaron_cream.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9076a": {
+      "importer": "gltf-material",
+      "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@9076a",
+      "displayName": "",
+      "id": "9076a",
+      "name": "macaron_foot.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf601": {
+      "importer": "gltf-material",
+      "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@cf601",
+      "displayName": "",
+      "id": "cf601",
+      "name": "macaron_highlight.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f5a98": {
+      "importer": "gltf-material",
+      "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@f5a98",
+      "displayName": "",
+      "id": "f5a98",
+      "name": "macaron_berry.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8e0f": {
+      "importer": "gltf-scene",
+      "uuid": "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@d8e0f",
+      "displayName": "",
+      "id": "d8e0f",
+      "name": "macaron.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@c244a"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@13caf",
+        "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@fed98",
+        "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@9076a",
+        "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@cf601",
+        "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@f5a98"
+      ],
+      "scenes": [
+        "c151573a-ae6f-4a9d-8afa-7ec2060b10d8@d8e0f"
+      ]
+    }
+  }
+}

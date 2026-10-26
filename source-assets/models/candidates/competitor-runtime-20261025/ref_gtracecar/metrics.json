@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_gtracecar",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-23\\models\\GTRaceCar\\GTRaceCar.blend",
+  "sourceTriangles": 1988,
+  "triangles": 1988,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.6946146488189697,
+    2.438849925994873,
+    1.0412075519561768
+  ],
+  "normalizedDimensions": [
+    0.6948416829109192,
+    1.0,
+    0.4269256293773651
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

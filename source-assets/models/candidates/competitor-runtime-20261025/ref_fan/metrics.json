@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 8,
+  "id": "ref_fan",
+  "source": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\Fan\\Fan.blend",
+  "sourceTriangles": 838,
+  "triangles": 838,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    2.4552462100982666,
+    3.2280046939849854,
+    0.2295202910900116
+  ],
+  "normalizedDimensions": [
+    0.7606079578399658,
+    0.9999999403953552,
+    0.07110283523797989
+  ],
+  "reference": true,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

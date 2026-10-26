@@ -1,0 +1,222 @@
+  (func $j73527 (type $t2) (param $p0 i32) (param $p1 i32) (param $p2 i32)
+    (local $l3 i32) (local $l4 i32)
+    global.get $primary.global$0
+    i32.const 16
+    i32.sub
+    local.set $p0
+    local.get $p0
+    global.set $primary.global$0
+    i32.const 5139821
+    i32.load8_u
+    i32.eqz
+    if $I0
+      i32.const 3953888
+      call $j922
+      i32.const 3982664
+      call $j922
+      i32.const 4028412
+      call $j922
+      i32.const 3957796
+      call $j922
+      i32.const 3959288
+      call $j922
+      i32.const 3959304
+      call $j922
+      i32.const 4124888
+      call $j922
+      i32.const 4080320
+      call $j922
+      i32.const 4113528
+      call $j922
+      i32.const 4108408
+      call $j922
+      i32.const 4124892
+      call $j922
+      i32.const 4113524
+      call $j922
+      i32.const 4080324
+      call $j922
+      i32.const 4063796
+      call $j922
+      i32.const 4125384
+      call $j922
+      i32.const 4122664
+      call $j922
+      i32.const 5139821
+      i32.const 1
+      i32.store8
+    end
+    local.get $p0
+    i32.const 0
+    i32.store offset=12
+    i32.const 3959304
+    i32.load
+    call $j923
+    i32.const 0
+    call $j1600
+    if $I1
+      i32.const 3957796
+      i32.load
+      call $j923
+      local.get $p1
+      i32.const 0
+      call $j1163
+      local.set $p2
+      i32.const 4080320
+      i32.load
+      local.get $p2
+      i32.const 0
+      call $j962
+      i32.const 0
+      i32.const 0
+      call $j1221
+    end
+    block $B2
+      local.get $p1
+      i32.const 4113528
+      i32.load
+      i32.const 0
+      call $j1273
+      if $I3
+        local.get $p1
+        i32.const 4113528
+        i32.load
+        i32.const 0
+        call $j1155
+        local.set $l4
+        i32.const 0
+        local.set $p1
+        loop $L4
+          local.get $l4
+          i32.const 0
+          call $j1421
+          local.get $p1
+          i32.le_s
+          br_if $B2
+          local.get $l4
+          local.get $p1
+          i32.const 0
+          call $j1512
+          local.set $l3
+          local.get $l3
+          i32.const 4113524
+          i32.load
+          i32.const 0
+          call $j1155
+          drop
+          local.get $l3
+          i32.const 4108408
+          i32.load
+          i32.const 0
+          i32.const 4028412
+          i32.load
+          call $j1267
+          local.set $p2
+          i32.const 3959288
+          i32.load
+          call $j923
+          i32.const 3959288
+          i32.load
+          i32.load offset=92
+          i32.load offset=88
+          local.get $p2
+          local.get $p0
+          i32.const 12
+          i32.add
+          i32.const 3982664
+          i32.load
+          call $j1052
+          drop
+          i32.const 3959304
+          i32.load
+          call $j923
+          block $B5
+            local.get $p2
+            local.get $l3
+            i32.const 0
+            call $j14370
+            if $I6
+              i32.const 3959304
+              i32.load
+              call $j923
+              i32.const 0
+              call $j1600
+              if $I7
+                local.get $p2
+                local.set $l3
+                i32.const 4063796
+                i32.load
+                local.set $p2
+                i32.const 4122664
+                i32.load
+                local.get $l3
+                i32.const 4124888
+                i32.load
+                local.get $p2
+                local.get $p2
+                local.get $p2
+                i32.const 0
+                call $j1120
+                i32.const 0
+                call $j1441
+              end
+              local.get $p0
+              i32.load offset=12
+              local.set $p2
+              local.get $p2
+              i32.eqz
+              br_if $B5
+              local.get $p2
+              i32.const 1
+              i32.const 0
+              call $j1184
+              br $B5
+            end
+            local.get $p2
+            local.set $l3
+            i32.const 4063796
+            i32.load
+            local.set $p2
+            i32.const 4125384
+            i32.load
+            local.get $l3
+            i32.const 4124892
+            i32.load
+            local.get $p2
+            local.get $p2
+            local.get $p2
+            i32.const 0
+            call $j1120
+            i32.const 0
+            call $j1441
+            local.get $p0
+            i32.load offset=12
+            local.set $p2
+            local.get $p2
+            i32.eqz
+            br_if $B5
+            local.get $p2
+            i32.const 0
+            i32.const 0
+            call $j1184
+          end
+          local.get $p1
+          i32.const 1
+          i32.add
+          local.set $p1
+          br $L4
+        end
+        unreachable
+      end
+      i32.const 3953888
+      i32.load
+      call $j923
+      i32.const 4080324
+      i32.load
+      i32.const 0
+      call $j1075
+    end
+    local.get $p0
+    i32.const 16
+    i32.add
+    global.set $primary.global$0)

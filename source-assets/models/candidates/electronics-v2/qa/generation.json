@@ -1,0 +1,245 @@
+[
+  {
+    "id": "phone",
+    "triangles": 1564,
+    "vertices": 808,
+    "blenderBounds": [
+      0.5605000257492065,
+      1.0,
+      0.2175000011920929
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 37272,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "laptop",
+    "triangles": 2404,
+    "vertices": 1272,
+    "blenderBounds": [
+      1.0,
+      0.7211952209472656,
+      0.7087869048118591
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 57476,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "camera",
+    "triangles": 2200,
+    "vertices": 1128,
+    "blenderBounds": [
+      1.0,
+      0.7133333683013916,
+      0.7388888597488403
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 51364,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "headphones",
+    "triangles": 1684,
+    "vertices": 896,
+    "blenderBounds": [
+      1.0,
+      0.26854461431503296,
+      0.8403756022453308
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 40820,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "handheld",
+    "triangles": 2464,
+    "vertices": 1272,
+    "blenderBounds": [
+      1.0,
+      0.5150485634803772,
+      0.21165049076080322
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 57736,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "speaker",
+    "triangles": 1868,
+    "vertices": 960,
+    "blenderBounds": [
+      0.509761393070221,
+      0.49132320284843445,
+      0.9999999403953552
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 44044,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "mouse",
+    "triangles": 1256,
+    "vertices": 642,
+    "blenderBounds": [
+      0.6255000233650208,
+      1.0,
+      0.5500000715255737
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 30052,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "smartwatch",
+    "triangles": 1516,
+    "vertices": 784,
+    "blenderBounds": [
+      0.4258928596973419,
+      1.0,
+      0.22053571045398712
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 36264,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  },
+  {
+    "id": "radio",
+    "triangles": 1696,
+    "vertices": 896,
+    "blenderBounds": [
+      0.9999999403953552,
+      0.4373626112937927,
+      0.757965624332428
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "openEdgesAfterWeld": 0,
+    "degenerateTriangles": 0,
+    "bytes": 41024,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": [
+      64,
+      64
+    ],
+    "gltfAxes": "Y-up, front +Z",
+    "blenderVersion": "4.5.14 LTS",
+    "roundtripPassed": true
+  }
+]

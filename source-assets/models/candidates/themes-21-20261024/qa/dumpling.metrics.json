@@ -1,0 +1,28 @@
+{
+  "id": "dumpling",
+  "theme": "dessert",
+  "triangles": 1452,
+  "vertices": 874,
+  "blenderBounds": [
+    1.0,
+    0.9677421450614929,
+    0.8868334293365479
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 38708,
+  "sha256": "9cdacb424d675542116553f32ede0c01f29b5fce009489edaa006416d44b397c",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

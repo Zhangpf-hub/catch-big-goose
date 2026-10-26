@@ -1,0 +1,138 @@
+{
+  "SheetName": "Assets/Res/ForEditor/GameToolData.xlsx",
+  "WorksheetName": "GameToolData",
+  "dataArray": [
+    {
+      "_id": 0,
+      "_key": "ToolReturnBack",
+      "_name": "\u79fb\u51fa",
+      "_description": "\u5c063\u4e2a\u7269\u4f53\u79fb\u51fa\u683c\u5b50\u5e76\u653e\u5728\u6682\u5b58\u680f",
+      "_limitcount": 1,
+      "_intvalue": 0,
+      "_price": 10,
+      "_boxweight": 0.800000011920929,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 1,
+      "_key": "ToolAutoFind",
+      "_name": "\u51d1\u9f50",
+      "_description": "\u81ea\u52a8\u51d1\u9f501\u6837\u653e\u7f6e\u680f\u7269\u4f53",
+      "_limitcount": 1,
+      "_intvalue": 0,
+      "_price": 10,
+      "_boxweight": 0.800000011920929,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 2,
+      "_key": "ToolMessUp",
+      "_name": "\u6253\u4e71",
+      "_description": "\u6253\u4e71\u7269\u54c1\u5806",
+      "_limitcount": 1,
+      "_intvalue": 0,
+      "_price": 10,
+      "_boxweight": 0.800000011920929,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 3,
+      "_key": "ResumeAddTime",
+      "_name": "\u590d\u6d3b",
+      "_description": "\u590d\u6d3b\u5e76\u5c06\u65f6\u95f4\u5ef6\u957f<size=80>{0}</size>\u5206\u949f",
+      "_limitcount": 1,
+      "_intvalue": 5,
+      "_price": 20,
+      "_boxweight": 0.0,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 4,
+      "_key": "ResumeCleanAll",
+      "_name": "\u590d\u6d3b",
+      "_description": "\u590d\u6d3b\u5e76\u79fb\u51fa\u6240\u6709\u7269\u4f53",
+      "_limitcount": 1,
+      "_intvalue": 0,
+      "_price": 20,
+      "_boxweight": 0.0,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 5,
+      "_key": "ToolCleanBoxObject",
+      "_name": "\u6d88\u9664",
+      "_description": "\u968f\u673a\u6d88\u9664\u7269\u54c1\u5806\u91cc6\u4ef6\u7269\u54c1",
+      "_limitcount": 1,
+      "_intvalue": 2,
+      "_price": 10,
+      "_boxweight": 0.0,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 6,
+      "_key": "ToolShake",
+      "_name": "\u51b2\u51fb",
+      "_description": "\u5c06\u7269\u54c1\u6380\u98de",
+      "_limitcount": 9,
+      "_intvalue": 3,
+      "_price": 20,
+      "_boxweight": 0.0,
+      "_freecount": 3,
+      "_buycount": 3
+    },
+    {
+      "_id": 10,
+      "_key": "ToolSLThrowBack",
+      "_name": "\u5f39\u677f",
+      "_description": "\u5c063\u4e2a\u7269\u54c1\u4e22\u56de\u7269\u54c1\u5806",
+      "_limitcount": 1,
+      "_intvalue": 3,
+      "_price": 10,
+      "_boxweight": 0.800000011920929,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 11,
+      "_key": "ToolSLFindTarget",
+      "_name": "\u6293\u9e45\u673a",
+      "_description": "\u6d88\u96643\u4e2a\u76ee\u6807\u7269",
+      "_limitcount": 1,
+      "_intvalue": 1,
+      "_price": 0,
+      "_boxweight": 0.800000011920929,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 12,
+      "_key": "ToolSLWind",
+      "_name": "\u5927\u98ce\u6247",
+      "_description": "\u5439\u8d77\u5168\u90e8\u7269\u54c1",
+      "_limitcount": 1,
+      "_intvalue": 0,
+      "_price": 0,
+      "_boxweight": 0.800000011920929,
+      "_freecount": 0,
+      "_buycount": 0
+    },
+    {
+      "_id": 15,
+      "_key": "ResumeSLThrowAll",
+      "_name": "\u8d85\u7ea7\u5f39\u677f",
+      "_description": "\u5c06\u5168\u90e8\u7269\u54c1\u4e22\u56de\u7269\u54c1\u5806",
+      "_limitcount": 1,
+      "_intvalue": 7,
+      "_price": 20,
+      "_boxweight": 0.0,
+      "_freecount": 0,
+      "_buycount": 0
+    }
+  ]
+}

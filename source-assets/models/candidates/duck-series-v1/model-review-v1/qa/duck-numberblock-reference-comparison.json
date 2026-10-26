@@ -1,0 +1,53 @@
+{
+  "id": "duck-numberblock",
+  "kind": "reference",
+  "input": "reference-projects/competitor-goose/2026-10-23-skinned/models/Goose_GTNumberBlock/Goose_GTNumberBlock.glb",
+  "sourceSha256": "4eb85834047cbe09ca106d2788cdc7a3136670ddd380c6c2de97c5f1959608fd",
+  "originalWorldDimensions": [
+    1.6034743785858154,
+    1.8411798477172852,
+    1.5075262784957886
+  ],
+  "uniformScale": 0.5431299941935661,
+  "normalizedWorldDimensions": [
+    0.8708950281143188,
+    1.0,
+    0.8187827467918396
+  ],
+  "normalizedCenter": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "orthographicScale": 1.48,
+  "cameras": {
+    "front": [
+      0,
+      -3,
+      0.015
+    ],
+    "side": [
+      3,
+      0,
+      0.015
+    ],
+    "back": [
+      0,
+      3,
+      0.015
+    ],
+    "hero": [
+      2.2,
+      -3,
+      1.5
+    ],
+    "gameplay": [
+      1.4,
+      -2.3,
+      3.3
+    ]
+  },
+  "lighting": "Identical neutral studio; Key180 Fill95 Rim120 world0.45",
+  "shader": "Recovered base-colour/PBR approximation",
+  "sourceUnchanged": true
+}

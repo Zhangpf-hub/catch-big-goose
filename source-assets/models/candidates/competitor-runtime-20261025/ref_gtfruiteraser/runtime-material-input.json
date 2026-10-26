@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "shuiGuoXiangPi",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-2771805950930493066.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

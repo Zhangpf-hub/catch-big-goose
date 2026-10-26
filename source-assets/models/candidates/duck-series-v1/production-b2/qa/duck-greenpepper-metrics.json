@@ -1,0 +1,23 @@
+{
+  "id": "duck-greenpepper",
+  "triangles": 3632,
+  "dimensions": [
+    0.6965635418891907,
+    0.7121785283088684,
+    1.0
+  ],
+  "sourceCenter": [
+    2.9802322387695312e-08,
+    0.008835315704345703,
+    0.4012342393398285
+  ],
+  "sourceExtent": 0.7895904183387756,
+  "materials": 1,
+  "atlas": [
+    256,
+    256
+  ],
+  "glbBytes": 85660,
+  "blender": "4.5.14 LTS",
+  "sameMotherBeforeNormalization": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": "onion",
+  "theme": "farm",
+  "triangles": 1004,
+  "vertices": 632,
+  "blenderBounds": [
+    0.8734458088874817,
+    0.8824587464332581,
+    0.9999999403953552
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 28300,
+  "sha256": "58b083adc16ca59d8c3d008b041ebaf8026d0f60b785096b1671eb07db749221",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

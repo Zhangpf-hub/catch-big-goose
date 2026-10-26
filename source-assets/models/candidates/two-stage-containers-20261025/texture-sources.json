@@ -1,0 +1,54 @@
+{
+  "t_9f0960a367129c8cd55de7c2.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_barbecue/tex_-6624620993300120050.png",
+    "sha256": "9f0960a367129c8cd55de7c274ff4e71d558017d924952ec99d697c392dc4448"
+  },
+  "t_4cb50ad25e548b0e46c9e50d.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_barbecue/tex_4100659643748777369.png",
+    "sha256": "4cb50ad25e548b0e46c9e50da86bd2e64b7efc263624675fa5efae5cc45d3bc6"
+  },
+  "t_64ce7cefc0b2b4f3841863af.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_barbecue/tex_-1847606550326124160.png",
+    "sha256": "64ce7cefc0b2b4f3841863af34006ea86ccacc3a036b9a4ff9efa2bad6738982"
+  },
+  "d_d6a617f3127a477561c5bf2e.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_barbecue/tex_-6041558905053043142.png",
+    "sha256": "d6a617f3127a477561c5bf2e9701d2573889bd995dbd403ac64957bd8f392c9a"
+  },
+  "t_6033f2905b0e69f5a7e94024.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_barbecue/tex_-6107773585834938510.png",
+    "sha256": "6033f2905b0e69f5a7e940245f31ef6ebb247cf8743c61f7bbbc71fe5fc3f7a3"
+  },
+  "t_b859c7b9097a82727fd4e1f6.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_grocery/tex_-2659979768124359822.png",
+    "sha256": "b859c7b9097a82727fd4e1f61d0a2fb08c1f417e365dd5ebd767118ab8076319"
+  },
+  "t_37d75e7d28431a1ec5999de8.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_breakfast/tex_-6713706396567364768.png",
+    "sha256": "37d75e7d28431a1ec5999de8d0303f7c8f9a768b623bfcb0d3b99a845f52ef6d"
+  },
+  "t_f7d6d7f14b5bc4e34352b365.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_breakfast/tex_-8366726678352253483.png",
+    "sha256": "f7d6d7f14b5bc4e34352b3651f148ea08cbc86a4fdf8145823f76178948d96f4"
+  },
+  "d_3e7f3b7a4dae6056eebc7491.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_breakfast/tex_-1407386199662377184.png",
+    "sha256": "3e7f3b7a4dae6056eebc74910b94310a5e77e6218579769dca04d46055db599c"
+  },
+  "t_08a3724563b39b902067eb1d.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_countryside/tex_421863828751300765.png",
+    "sha256": "08a3724563b39b902067eb1d650d70c3b23e15bf253a3ee33d126631f3d0f9d9"
+  },
+  "t_6b03b2deaa730dd10102ef0f.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_countryside/tex_1309734104842292820.png",
+    "sha256": "6b03b2deaa730dd10102ef0f55d8b8a281c8ff352c29c69487be501afce34fac"
+  },
+  "t_43992ed01b5927dba401b3ac.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_toys/tex_7526620010366973644.png",
+    "sha256": "43992ed01b5927dba401b3ac1dd1effe291fc32ea0b82a3247363923a1ce79ca"
+  },
+  "t_b8fd1991d950dbeb2dc1bad8.png": {
+    "source": "references/competitor-goose/2026-10-25-containers/models/scene_toys/tex_7754911888333238456.png",
+    "sha256": "b8fd1991d950dbeb2dc1bad809b10c50eda252a00b8ee98133b243d718fa6fc4"
+  }
+}

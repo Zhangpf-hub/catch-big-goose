@@ -1,0 +1,33 @@
+{
+  "rowClass": "MainLevelUpgradedDataData",
+  "fields": [
+    [
+      "_id",
+      "int"
+    ],
+    [
+      "_grade",
+      "int"
+    ],
+    [
+      "_levelid",
+      "int"
+    ],
+    [
+      "_levelname",
+      "string"
+    ],
+    [
+      "_goosereward",
+      "int[]"
+    ],
+    [
+      "_sceneicon",
+      "string"
+    ],
+    [
+      "_scenelogo",
+      "string"
+    ]
+  ]
+}

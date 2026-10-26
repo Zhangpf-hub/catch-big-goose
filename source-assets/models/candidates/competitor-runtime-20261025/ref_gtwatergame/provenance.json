@@ -1,0 +1,9 @@
+{
+  "id": "ref_gtwatergame",
+  "sourceId": "GTWaterGame",
+  "scene": "ChildhoodToys26Obj",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\GTWaterGame\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/SPLevel2/ChildhoodToys26Obj/GTWaterGame.prefab",
+  "bundle": "levelgoosetoys26objprefab_assets__592092ab991061bc538d93f38d24dc3f.bundle",
+  "sourceSha256": "ba6dcfe5ae236f93565b593b3ec2b1849fc945118599624d34c8d5e5d161497a"
+}

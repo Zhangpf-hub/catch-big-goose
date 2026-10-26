@@ -1,0 +1,12 @@
+{
+  "id": "ref_toycar",
+  "triangles": 1818,
+  "parts": 3,
+  "materials": 3,
+  "dimensions": [
+    1.0,
+    0.6977449655532837,
+    0.6443259716033936
+  ],
+  "glbRoundtrip": true
+}

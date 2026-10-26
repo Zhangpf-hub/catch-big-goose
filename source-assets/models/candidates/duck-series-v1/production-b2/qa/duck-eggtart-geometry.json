@@ -1,0 +1,18 @@
+{
+  "id": "duck-eggtart",
+  "triangles": 3752,
+  "meshObjects": 1,
+  "nonManifoldEdges": 0,
+  "degenerateFaces": 0,
+  "dimensions": [
+    0.8843943476676941,
+    0.5603507161140442,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    -2.9802322387695312e-08
+  ],
+  "passed": true
+}

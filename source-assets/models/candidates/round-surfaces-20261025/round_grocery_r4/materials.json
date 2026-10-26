@@ -1,0 +1,60 @@
+{
+  "materials": [
+    {
+      "name": "grocery_body",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite2",
+      "texture": "Models/round_grocery_r4/grain0",
+      "color": [
+        0.3799999952316284,
+        0.23000000417232513,
+        0.11999999731779099,
+        1.0
+      ],
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcapScale": 0.25,
+      "matcapColor": [
+        0.20754718780517578,
+        0.20754718780517578,
+        0.20754718780517578,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "StoreBoxMa",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    },
+    {
+      "name": "grocery_rim",
+      "referenceMaterial": true,
+      "sourceShader": "ToonLite2",
+      "texture": "Models/round_grocery_r4/grain1",
+      "color": [
+        0.6399999856948853,
+        0.4399999976158142,
+        0.25,
+        1.0
+      ],
+      "matcap": "ReferenceTextures/t_b859c7b9097a82727fd4e1f6",
+      "matcapScale": 0.25,
+      "matcapColor": [
+        0.20754718780517578,
+        0.20754718780517578,
+        0.20754718780517578,
+        0.0
+      ],
+      "lightColor": [
+        0.27,
+        0.27,
+        0.27,
+        0
+      ],
+      "sourceMaterial": "StoreBoxMa",
+      "adaptation": "Original MatCap/base bindings where reusable; circular UV, grain and bounded strength are project adaptations."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "pumpkin",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\pumpkin\\pumpkin.fbx",
+  "sourceTriangles": 3196,
+  "triangles": 3196,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    0.8717125654220581,
+    0.8805032968521118,
+    1.0000001192092896
+  ],
+  "normalizedDimensions": [
+    0.8717125654220581,
+    0.8805030584335327,
+    1.0
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

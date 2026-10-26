@@ -1,0 +1,87 @@
+{
+  "anatomyTriangles": 2112,
+  "propRatio": 0.6898148148148148,
+  "headNeckReduced": false,
+  "parts": [
+    {
+      "name": "B2 mother skin",
+      "triangles": 1518
+    },
+    {
+      "name": "B2 mother bill",
+      "triangles": 138
+    },
+    {
+      "name": "B2 mother foot_l",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother foot_r",
+      "triangles": 122
+    },
+    {
+      "name": "B2 mother eye.001",
+      "triangles": 70
+    },
+    {
+      "name": "B2 mother tail",
+      "triangles": 72
+    },
+    {
+      "name": "Red noodle paper cup",
+      "triangles": 172
+    },
+    {
+      "name": "Cream noodle label",
+      "triangles": 84
+    },
+    {
+      "name": "Noodle bed",
+      "triangles": 270
+    },
+    {
+      "name": "Rolled noodle cup rim",
+      "triangles": 264
+    },
+    {
+      "name": "Curled noodle strand",
+      "triangles": 88
+    },
+    {
+      "name": "Curled noodle strand.001",
+      "triangles": 88
+    },
+    {
+      "name": "Curled noodle strand.002",
+      "triangles": 88
+    },
+    {
+      "name": "Curled noodle strand.003",
+      "triangles": 88
+    },
+    {
+      "name": "Green garnish",
+      "triangles": 128
+    },
+    {
+      "name": "Green garnish.001",
+      "triangles": 128
+    },
+    {
+      "name": "Peeled attached lid",
+      "triangles": 270
+    },
+    {
+      "name": "Noodle label swirl",
+      "triangles": 80
+    },
+    {
+      "name": "Noodle label swirl.001",
+      "triangles": 80
+    }
+  ]
+}

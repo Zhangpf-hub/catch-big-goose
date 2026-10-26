@@ -1,0 +1,74 @@
+{
+  "scope": "Approximate manual boxes selected from supplied screenshot, not segmentation, not all-item statistics.",
+  "width": 563,
+  "height": 1000,
+  "sourceSha256": "f6a21269a835c62e6b2491ff48704fd0dfc8df427ea4fbe3ac9f3136a0e55d86",
+  "containerApproxXYXY": [
+    5,
+    235,
+    562,
+    790
+  ],
+  "items": [
+    {
+      "label": "orange_disc_left",
+      "xyxy": [
+        81,
+        303,
+        168,
+        385
+      ],
+      "longEdgeToScreenWidth": 0.15452930728241562
+    },
+    {
+      "label": "orange_disc_middle",
+      "xyxy": [
+        286,
+        410,
+        369,
+        486
+      ],
+      "longEdgeToScreenWidth": 0.14742451154529307
+    },
+    {
+      "label": "orange_disc_lower",
+      "xyxy": [
+        215,
+        481,
+        303,
+        586
+      ],
+      "longEdgeToScreenWidth": 0.18650088809946713
+    },
+    {
+      "label": "dumpling_middle",
+      "xyxy": [
+        297,
+        334,
+        387,
+        408
+      ],
+      "longEdgeToScreenWidth": 0.15985790408525755
+    },
+    {
+      "label": "steamer_composite_left",
+      "xyxy": [
+        71,
+        480,
+        231,
+        645
+      ],
+      "longEdgeToScreenWidth": 0.29307282415630553
+    },
+    {
+      "label": "long_fritter_left",
+      "xyxy": [
+        31,
+        385,
+        140,
+        598
+      ],
+      "longEdgeToScreenWidth": 0.3783303730017762
+    }
+  ]
+}

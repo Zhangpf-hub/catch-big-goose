@@ -1,0 +1,12 @@
+{
+  "id": "scene_countryside",
+  "triangles": 1658,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.27133575081825256,
+    1.0,
+    0.24643748998641968
+  ],
+  "glbRoundtrip": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": "garlic",
+  "theme": "farm",
+  "triangles": 1592,
+  "vertices": 812,
+  "blenderBounds": [
+    0.7712467312812805,
+    0.8244274854660034,
+    1.0
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "openEdgesAfterWeld": 0,
+  "degenerateTriangles": 0,
+  "materials": 1,
+  "textureSize": [
+    64,
+    64
+  ],
+  "bytes": 37532,
+  "sha256": "6260585de4b90bbf1d23f7e747518f8285c471a029abc80189cbd018201a7fe3",
+  "roundtripPassed": true,
+  "blenderVersion": "4.5.14 LTS",
+  "origin": "Original procedural geometry and palette; no competitor mesh or texture"
+}

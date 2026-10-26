@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "D:\\开发\\Catch-big-goose-master\\references\\competitor-goose\\2026-10-25-runtime\\models\\GrilledCorn\\tex_1155059445024369207.png",
+      "uvMin": [
+        0.23742420971393585,
+        0.027702320367097855
+      ],
+      "uvMax": [
+        0.9922415018081665,
+        0.9819689989089966
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_grilledcorn\\albedo.png"
+}

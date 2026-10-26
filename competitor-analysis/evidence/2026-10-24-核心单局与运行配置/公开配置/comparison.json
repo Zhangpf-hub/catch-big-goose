@@ -1,0 +1,67 @@
+{
+  "bundledRows": 25,
+  "cdnRows": 25,
+  "nullAndEmptyStringComparedEqual": true,
+  "differences": [],
+  "hotfixRows": 14,
+  "hotfixEqualsBundled": true,
+  "relevant": [
+    {
+      "FeatureKey": "ABEasySpLevel",
+      "IsOpen": 1,
+      "ForkKeyList": [
+        "Easy70",
+        "Easy80",
+        "Easy90"
+      ],
+      "ForkWeightList": [
+        8,
+        8,
+        8
+      ],
+      "TempInt": 0,
+      "TempFloat": 0,
+      "TempString": null
+    },
+    {
+      "FeatureKey": "ABDaliyLevelSimple",
+      "IsOpen": 0,
+      "ForkKeyList": [
+        "LevelEasy1",
+        "LevelEasy2",
+        "LevelEasy3",
+        "LevelEasy4"
+      ],
+      "ForkWeightList": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "TempInt": 0,
+      "TempFloat": 0,
+      "TempString": "1,2,3,4"
+    },
+    {
+      "FeatureKey": "ABDaliyLevelSimple2",
+      "IsOpen": 1,
+      "ForkKeyList": [
+        "LevelEasy4",
+        "LevelEasy5",
+        "LevelEasy6",
+        "LevelEasy7",
+        "LevelEasy8"
+      ],
+      "ForkWeightList": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "TempInt": 0,
+      "TempFloat": 0,
+      "TempString": "4,5,6,7,8"
+    }
+  ]
+}

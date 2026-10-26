@@ -1,0 +1,12 @@
+{
+  "id": "ref_shrimp",
+  "triangles": 604,
+  "parts": 1,
+  "materials": 1,
+  "dimensions": [
+    0.5294604897499084,
+    1.0,
+    0.1619238257408142
+  ],
+  "glbRoundtrip": true
+}

@@ -1,0 +1,22 @@
+{
+  "pipelineVersion": 5,
+  "id": "yuzhuo",
+  "source": "D:\\开发\\Catch-big-goose-master\\unity\\SourceAssets\\MobileBaseline-20261024\\original-models\\yuzhuo\\yuzhuo.fbx",
+  "sourceTriangles": 2784,
+  "triangles": 2784,
+  "renderers": 1,
+  "materials": 1,
+  "sourceDimensions": [
+    1.0,
+    1.0,
+    0.26961609721183777
+  ],
+  "normalizedDimensions": [
+    1.0,
+    1.0,
+    0.2696160674095154
+  ],
+  "reference": false,
+  "textureSize": 512,
+  "collisionTriangles": null
+}

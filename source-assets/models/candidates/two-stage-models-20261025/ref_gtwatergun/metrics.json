@@ -1,0 +1,12 @@
+{
+  "id": "ref_gtwatergun",
+  "triangles": 3104,
+  "parts": 4,
+  "materials": 4,
+  "dimensions": [
+    1.0,
+    0.6194683909416199,
+    0.20155709981918335
+  ],
+  "glbRoundtrip": true
+}

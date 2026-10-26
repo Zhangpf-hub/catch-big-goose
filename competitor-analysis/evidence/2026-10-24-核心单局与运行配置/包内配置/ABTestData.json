@@ -1,0 +1,395 @@
+{
+  "SheetName": "Assets/Res/ForEditor/ABTestData.xlsx",
+  "WorksheetName": "ABTestData",
+  "dataArray": [
+    {
+      "_featurekey": "EasyMainLevel",
+      "_isopen": 0,
+      "_forkkeylist": [
+        "EasyAll",
+        "Easy10Goose",
+        "Easy40Goose"
+      ],
+      "_forkweightlist": [
+        5,
+        5,
+        5
+      ],
+      "_tempint": -4,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "SimpleMainBtn",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "SimpleMode"
+      ],
+      "_forkweightlist": [
+        95
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "DirectionEnterSL",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "CNYNewEnter"
+      ],
+      "_forkweightlist": [
+        5
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABEndPageWall",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "OpenNoCon"
+      ],
+      "_forkweightlist": [
+        95
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSimpleFirst",
+      "_isopen": 0,
+      "_forkkeylist": [
+        "EasyNoWin"
+      ],
+      "_forkweightlist": [
+        5
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": "-7,-4"
+    },
+    {
+      "_featurekey": "DYDiamondStyle",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "DiamondBtnB",
+        "DiamondBtnC"
+      ],
+      "_forkweightlist": [
+        100,
+        0
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSeasonLevelHard",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "AddToolADCount",
+        "AddResumeADCount",
+        "AddADCount"
+      ],
+      "_forkweightlist": [
+        5,
+        5,
+        5
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSeasonLevelUseHardTag",
+      "_isopen": 0,
+      "_forkkeylist": [
+        "UseHardTag"
+      ],
+      "_forkweightlist": [
+        5
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSeasonLevel1LevelID",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "LevelID1",
+        "LevelID2"
+      ],
+      "_forkweightlist": [
+        5,
+        5
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABEndPageADStyle",
+      "_isopen": 0,
+      "_forkkeylist": [
+        "GifAD"
+      ],
+      "_forkweightlist": [
+        0
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "SkipADPrivilegeStyle",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "ShowSkipADPrivilege"
+      ],
+      "_forkweightlist": [
+        100
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSeasonLevel1LevelID2",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "LevelID1",
+        "LevelID2",
+        "LevelID3",
+        "LevelID4",
+        "LevelID1",
+        "LevelID2",
+        "LevelID3",
+        "LevelID4"
+      ],
+      "_forkweightlist": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSeasonLevelEnergyType",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "WinCostTimeRecover",
+        "WinCostNoRecover",
+        "LoseCostTimeRecover",
+        "LoseCostNoRecover"
+      ],
+      "_forkweightlist": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSeasonLevelBtn",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "RetryNextNoNum",
+        "RetryNext"
+      ],
+      "_forkweightlist": [
+        8,
+        8
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSL2LevelAndTime",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "SL2AddTime",
+        "SL2NoTargetAddTime",
+        "noABKey",
+        "SL2NoTargetCone",
+        "SL2HardToEasy",
+        "SL2LevelConeEasy"
+      ],
+      "_forkweightlist": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABSL2LevelShake",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "SL2NoTargetNormalForce"
+      ],
+      "_forkweightlist": [
+        20
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABEasySpLevel",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "Easy70",
+        "Easy80",
+        "Easy90"
+      ],
+      "_forkweightlist": [
+        8,
+        8,
+        8
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABNewSceneProgress",
+      "_isopen": 0,
+      "_forkkeylist": [
+        "HiddenProgress"
+      ],
+      "_forkweightlist": [
+        20
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "UserGoodsMigration",
+      "_isopen": 0,
+      "_forkkeylist": [
+        "MigrateUserGoods"
+      ],
+      "_forkweightlist": [
+        0
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABContentTips",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "Idle01",
+        "Idle02"
+      ],
+      "_forkweightlist": [
+        15,
+        15
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABDaliyLevelSimple",
+      "_isopen": 0,
+      "_forkkeylist": [
+        "LevelEasy1",
+        "LevelEasy2",
+        "LevelEasy3",
+        "LevelEasy4"
+      ],
+      "_forkweightlist": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": "1,2,3,4"
+    },
+    {
+      "_featurekey": "ABToolLimitTips",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "ShowToolLimitTips"
+      ],
+      "_forkweightlist": [
+        15
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "ABDaliyLevelSimple2",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "LevelEasy4",
+        "LevelEasy5",
+        "LevelEasy6",
+        "LevelEasy7",
+        "LevelEasy8"
+      ],
+      "_forkweightlist": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": "4,5,6,7,8"
+    },
+    {
+      "_featurekey": "ABLevelThreeOpen",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "EarlyOpen"
+      ],
+      "_forkweightlist": [
+        10
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    },
+    {
+      "_featurekey": "UserGoodsMigrationVer2",
+      "_isopen": 1,
+      "_forkkeylist": [
+        "MigrateUserGoods"
+      ],
+      "_forkweightlist": [
+        0
+      ],
+      "_tempint": 0,
+      "_tempfloat": 0.0,
+      "_tempstring": ""
+    }
+  ]
+}

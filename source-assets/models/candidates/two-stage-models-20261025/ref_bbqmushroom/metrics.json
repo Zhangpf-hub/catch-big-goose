@@ -1,0 +1,12 @@
+{
+  "id": "ref_bbqmushroom",
+  "triangles": 660,
+  "parts": 2,
+  "materials": 2,
+  "dimensions": [
+    0.2807029187679291,
+    1.0,
+    0.3304959535598755
+  ],
+  "glbRoundtrip": true
+}

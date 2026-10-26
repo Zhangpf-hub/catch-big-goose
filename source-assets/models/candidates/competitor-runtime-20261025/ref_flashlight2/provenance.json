@@ -1,0 +1,9 @@
+{
+  "id": "ref_flashlight2",
+  "sourceId": "Flashlight2",
+  "scene": "Countryside",
+  "sourceJson": "references\\competitor-goose\\2026-10-25-runtime\\models\\Flashlight2\\source.json",
+  "prefab": "Assets/Prefabs/LevelObjPrefab/Countryside/Flashlight2.prefab",
+  "bundle": "levelcountrysideobjprefab_assets_part2_a07fe3f970d6ca412ad84e20618234da.bundle",
+  "sourceSha256": "2e8ad31b9ef0d833d975d29afec17e92adfd6baf7d1b2d8fa09c9873b1445d95"
+}

@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "WatermelonSliceMa",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_-2044224812902787832.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1",
+      "glassFlattened": false
+    }
+  ]
+}

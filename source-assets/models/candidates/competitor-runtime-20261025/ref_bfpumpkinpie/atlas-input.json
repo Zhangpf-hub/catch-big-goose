@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "color": [
+        0.8980392217636108,
+        0.46197935938835144,
+        0.09019608795642853,
+        1
+      ],
+      "texture": null,
+      "uvMin": [
+        0.026235431432724,
+        0.022001713514328003
+      ],
+      "uvMax": [
+        0.9737011790275574,
+        0.9760339260101318
+      ],
+      "alphaOverTint": true
+    }
+  ],
+  "output": "D:\\开发\\Catch-big-goose-master\\assets-3d\\candidates\\competitor-runtime-20261025\\ref_bfpumpkinpie\\albedo.png"
+}

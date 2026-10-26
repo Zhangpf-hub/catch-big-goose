@@ -1,0 +1,239 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659",
+  "files": [],
+  "subMetas": {
+    "349e2": {
+      "importer": "gltf-mesh",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@349e2",
+      "displayName": "",
+      "id": "349e2",
+      "name": "meshes[0].mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 3498
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf27b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@cf27b",
+      "displayName": "",
+      "id": "cf27b",
+      "name": "celadon+ceramic+bowl+3d+model_basecolor.jpg.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4c18b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@4c18b",
+      "displayName": "",
+      "id": "4c18b",
+      "name": "celadon+ceramic+bowl+3d+model_rm.jpg.image",
+      "userData": {
+        "gltfIndex": 1,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "df216": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@df216",
+      "displayName": "",
+      "id": "df216",
+      "name": "celadon+ceramic+bowl+3d+model_normal.jpg.image",
+      "userData": {
+        "gltfIndex": 2,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@cf27b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@df216"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@4c18b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bafa0": {
+      "importer": "gltf-material",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@bafa0",
+      "displayName": "",
+      "id": "bafa0",
+      "name": "tripo_material_b9e3aa66-1395-458c-ba15-1611c955ec3c.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ee85c": {
+      "importer": "gltf-scene",
+      "uuid": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@ee85c",
+      "displayName": "",
+      "id": "ee85c",
+      "name": "bowl_jade.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "celadon+ceramic+bowl+3d+model_basecolor.jpg",
+        "uri": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@cf27b"
+      },
+      {
+        "name": "celadon+ceramic+bowl+3d+model_rm.jpg",
+        "uri": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@4c18b"
+      },
+      {
+        "name": "celadon+ceramic+bowl+3d+model_normal.jpg",
+        "uri": "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@df216"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@349e2"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@3effa",
+        "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@221a5",
+        "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@0089c"
+      ],
+      "materials": [
+        "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@bafa0"
+      ],
+      "scenes": [
+        "0ed7ce08-2ca5-4edb-9de1-3ca4e178d659@ee85c"
+      ]
+    }
+  }
+}

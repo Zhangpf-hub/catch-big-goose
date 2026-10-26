@@ -1,0 +1,13 @@
+{
+  "name": "catch-big-goose",
+  "displayName": "抓鸭子",
+  "paths": {
+    "unity": "projects/catch-big-goose-unity",
+    "wechat": "builds/catch-big-goose-wechat",
+    "referenceProjects": "reference-projects",
+    "competitorAnalysis": "competitor-analysis",
+    "sourceAssets": "source-assets",
+    "docs": "docs",
+    "work": "work"
+  }
+}

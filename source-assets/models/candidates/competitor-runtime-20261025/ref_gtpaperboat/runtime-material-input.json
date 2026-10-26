@@ -1,0 +1,17 @@
+{
+  "materials": [
+    {
+      "name": "zhezhixiaochuanMa2",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1
+      ],
+      "texture": "tex_752519494649156133.png",
+      "alphaOverTint": true,
+      "sourceShader": "ToonLite1_ShiftHue",
+      "glassFlattened": false
+    }
+  ]
+}
